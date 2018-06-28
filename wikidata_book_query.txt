@@ -1,0 +1,14 @@
+SELECT ?book  ?bookLabel ?bookDescription (GROUP_CONCAT(DISTINCT ?subtitle; SEPARATOR = ", ") AS ?subtitle) (GROUP_CONCAT(DISTINCT ?first_line; SEPARATOR = ", ") AS ?first_lines) (GROUP_CONCAT(DISTINCT ?genreLabel; SEPARATOR = ", ") AS ?genres) WHERE {
+  ?book wdt:P31 wd:Q571.
+  OPTIONAL { ?book wdt:P1680 ?subtitle. }
+  OPTIONAL { ?book wdt:P136 ?genre. }
+  OPTIONAL { ?book wdt:P1680 ?first_line. }
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". 
+    ?genre rdfs:label ?genreLabel.
+    ?book rdfs:label ?bookLabel.
+    ?book schema:description ?bookDescription
+    }
+}
+GROUP BY ?book ?bookLabel ?bookDescription
+LIMIT 10
