@@ -41,11 +41,24 @@ for result in results["results"]["bindings"]:
 
 
     #SUBTITLE
-    print("Title")
-    if ("P1476" in data['entities'][book_id]["claims"]):
-        for title in data['entities'][book_id]["claims"]["P1476"]:
+    print("Subtitle")
+    if ("P1680" in data['entities'][book_id]["claims"]):
+        for title in data['entities'][book_id]["claims"]["P1680"]:
             print(title["mainsnak"]["datavalue"]["value"]["text"])
 
+    # FIRST LINE
+    print("First line")
+    if ("P1922" in data['entities'][book_id]["claims"]):
+        for title in data['entities'][book_id]["claims"]["P1922"]:
+            print(title["mainsnak"]["datavalue"]["value"]["text"])
     #GENRES
+    print("Genres")
+    if ("P136" in data['entities'][book_id]["claims"]):
+        for title in data['entities'][book_id]["claims"]["P136"]:
+            print(title["mainsnak"]["datavalue"]["value"]["id"])
+    #ID
+    print("Ids")
+    if ("P227" in data['entities'][book_id]["claims"]):
+        for title in data['entities'][book_id]["claims"]["P227"]:
+            print(title["mainsnak"]["datavalue"]["value"])
 
-    #ISBN-13 ID
