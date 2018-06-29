@@ -1,20 +1,500 @@
+An Anthropologist on Mars;;;;;;
+Zhuanshi;;;;;;
+Froissart's Chronicles;;;;;;4265548-1
+Fervor de Buenos Aires;;;;;poetry;
+Rush Limbaugh Is a Big Fat Idiot and Other Observations;;;;;liberalism in the United States;
+Schild's Ladder;;;;;science fiction novel;
+Globalization and Its Discontents;;;;;essay;
+Hitler's Table Talk;;;;;;
+The Idiot;;Идиот;;В конце ноября, в оттепель, часов в девять утра, поезд Петербургско-Варшавской железной дороги на всех парах подходил к Петербургу.;novel;4099166-0
+Charlotte Löwensköld;;;;;novel;
+Death in Breslau;;;;;detective novel;
+Snail on the Slope;;;;;science fiction novel;
 Quran;;;;;religion;4032444-8
+Zen and the Art of Motorcycle Maintenance;;;;;philosophical novel,autobiographical novel;
+Anabasis;;;;;historiography,travel book;
+Gone for Good;;;;;crime novel,mystery fiction,thriller;
+Course in General Linguistics;;Cours de linguistique générale;;;non-fiction literature;4204467-4
+To the End of the Land;;;;;novel,literary fiction;
+Xenesis;;;;;thriller,novel;
+The Atlas of Middle-earth;;;;;;
+Darkness at Noon;;Sonnenfinsternis;;;novel;4552065-3
+The Divine Comedy;;Commedia;;pico;narrative poetry;4113270-1
+Codex Atlanticus;;;;;;4670106-0
+The Aquitaine Progression;;;;;thriller,novel,suspense;
+The Lost Symbol;;;;;crime novel,suspense,mystery fiction,thriller;
+A Prayer for Owen Meany;;;;;novel;4412824-1
+The Three Investigators;;;;;crime novel;
+A Faint Cold Fear;;;;;novel;
+Fahrenheit 451;;Fahrenheit 451;;;philosophical novel,dystopian novel;4322998-0
+The Road to Middle-earth;;;;;non-fiction literature;
+Mao: The Unknown Story;;Mao: The Unknown Story;;;biography,narrative history;
+Tomorrow, When the War Began;;;;;young adult novel,adventure novel,science fiction novel;
+Necropolis;;;;;fantasy novel,thriller novel;
+Die Feuerzangenbowle;;;;;novel;7737978-0
+The Jungle Book;;The Jungle Book;;;children's literature,short story;4326028-7
+A Faint Cold Fear;;;;;novel,science fiction novel;
+The Anubis Gates;;The Anubis Gates;;;fantasy novel,time travel novel,steampunk novel;
+Matter and Memory;;;;;essay;
+The Letters of J. R. R. Tolkien;;;;;;
+Nightrise;;;;;adventure novel,thriller,fantasy novel;
+The Golden Harvest;;;;;novel;
+Where the Wild Things Are;;;;;picture book;
+Saint Peter's Fair;;;;;historical mystery,crime novel;
 Natural History;;Naturalis historia;;;encyclopedia;4196444-5
+J. R. R. Tolkien Encyclopedia;;;;;;
+Cloud Atlas;;;;;post-apocalyptic novel,epistolary novel,fantasy novel;
+Les Misérables;;Les Misérables;;;novel;4139746-0
+Germinal;;Germinal;;;novel,literary realism;4221251-0
+Four Ways to Forgiveness;;;;;science fiction short story,novella;
+The Psychopathology of Everyday Life;;Zur Psychopathologie des Alltagslebens;;;psychoanalysis;
+Les Belles-de-nuit ou Les Anges de la famille;;;;;adventure novel,novel;
+Deception Point;;;;;science fiction novel,techno-thriller,thriller novel;
+Thunder and Lightnings;;Thunder and Lightnings;;;children's novel;
+David Copperfield;;David Copperfield or The Personal History, Adventures, Experience and Observation of David Copperfield the Younger of Blunderstone Rookery (Which He Never Meant to Publish on Any Account);;;autobiographical novel,novel,Bildungsroman;4259699-3
+Mockingjay;;;;;adventure novel,dystopian novel,thriller novel,young adult novel;
 Encyclopédie;;;;;encyclopedia;4070801-9
+Combat Fleets of the World;;;;;;
+Reliquary;;;;;thriller,novel;
+Emily of New Moon;;;;;children's novel;
+Tamako Market;;;;;comedy manga and anime,slice of life anime and manga,romantic comedy anime and manga,novel;
+The Village of Stepanchikovo;;Село Степанчиково и его обитатели;;;novel;
+Pen, Sword, Camisole;;Farda, Fardão, Camisola de Dormir;;;novel;
+The Marching Season;;;;;espionage novel;
+Zadonshchina;;Задонщина;;;military history;
+Poil de carotte;;Poil de carotte;;;novel,autobiographical novel;4575111-0
+Der Nachsommer;;Der Nachsommer;;;developmental novel,social novel;
+Nyaruko: Crawling with Love;;;;;comedy manga and anime,harem,seinen manga,shōnen manga,novel;
+Lamb: The Gospel According to Biff, Christ's Childhood Pal;;;;;fantasy literature,novel,comic novel;
+Hard to Be a God;;Трудно быть богом;;;science fiction novel;
 World Brain;;;;;essay;
+The Complete Guide to Middle-earth;;;;;encyclopedia;
+Zij-i Sultani;;زیجِ سلطانی;;;treatise;
+The Rembrandt Affair;;;;;novel,espionage novel;
+The Social Contract;;Du contrat social, ou Principes du droit politique;;;essay,political philosophy;4262464-2
+Zazie in the Metro;;Zazie dans le métro;;;novel;4368457-9
+Gomorrah;;Gomorra;;;crime novel;
+The End: Hitler's Germany 1944–45;;;;;historiography;
+Gramatica occitana segons los parlars lengadocians;;;;;grammar;
+Hunminjeongeum;;훈민정음;;;;
+England, England;;;;;farce,novel;7692198-0
+The Complete Guide to Middle-earth;;;;;novel;
+The Doctrine of Fascism;;La dottrina del fascismo;;;essay;
+Tieta;;;;;Brazilian literature,novel;
+A Death in Vienna;;;;;crime novel,espionage novel;
+Let Me Stand Alone;;;;;;
+Weapons of Choice;;;;;alternate history novel;
+History of the Prophets and Kings;;;;;chronicle;
+The Deceiver;;;;;novel,espionage novel,novella;
+The Communist Manifesto;;Manifest der Kommunistischen Partei;;;essay;4099310-3
+Codex Gigas;;Codex Gigas;;;;4451634-4
+Short View of the Immorality and Profaneness of the English Stage;;;;;;4612508-5
+Captains of the Sands;;;;;novel;
+The English Assassin;;;;;thriller,crime novel,espionage novel;
+Essay on the Origin of Languages;;;;;essay;
+Origines;;;;;;
+Eugene Onegin;;Евгений Онегин;;;verse novel;4226513-7
+World War Z;;World War Z;An Oral History of the Zombie War;;horror novel,zombie apocalyptic fiction,epistolary novel,science fiction novel,apocalyptic fiction;
+The Joy of Sex;;;;;sex manual,essay;
+The Time Wanderers;;Волны гасят ветер;;;science fiction novel;
+Gulliver's Travels;;Travels into Several Remote Nations of the World, in Four Parts. By Lemuel Gulliver, First a Surgeon, and then a Captain of several Ships;;;short story,fantasy novel,science fiction novel,adventure;4099380-2
+Tereza Batista: Home from the Wars;;;;;novel;
+The Messenger;;;;;crime novel,novel,espionage novel;
+Julie, or the New Heloise;;Julie, ou la nouvelle Héloïse;;;epistolary novel,novel;4076858-2
+The Village in the Treetops;;Le Village aérien;;;adventure novel,travel novel;
+On the Origin of Species;;On the Origin of Species by Means of Natural Selection, or the Preservation of Favoured Races in the Struggle for Life;;;scientific literature,biology,science,treatise;4303201-1
 Don Quixote;;El ingenioso hidalgo don Quijote de la Mancha;;En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor.;adventure novel,chivalric romance,Manuel mejia;4113209-9
+Opticks, or a Treatise of the Reflections, Refractions, Inflections and Colours of Light;;;;;science,Optical physics;
+Diary of a Wimpy Kid: The Ugly Truth;;;;;diary,novel;
+What I Was;;;;;young adult literature,novel;
+Comentarios Reales de los Incas;;;;;historiography;
+Zohar;;;;;Classic Rabbinic literature;
+Gulliver's Travels;;;;;;
+The Mark of the Assassin;;;;;espionage novel;
+The Violent Land;;Terras do Sem Fim;;;novel;
+Wer war wer in der DDR?;;Wer war wer in der DDR?;;;biographical dictionary;
+Discourse on the Arts and Sciences;;Discours sur les sciences et les arts;;;essay;
+A Dance with Dragons;;A Dance with Dragons;;;fantasy novel,high fantasy;
+Index Librorum Prohibitorum;;;;;;4161485-9
+Cat's Cradle;;Cat's Cradle;;Call me Jonah. My parents did, or nearly did. They called me John.;science fiction novel;4628390-0
+Romeo, Juliet and Darkness;;Romeo, Julie a tma;;;novella;
+The Velveteen Rabbit;;;;;children's novel;
+Moscow Rules;;;;;espionage novel,novel;
+Red Field;;Seara Vermelha;;;novel;
+Strange Stories from a Chinese Studio;;聊齋誌異;;;fantasy literature,novella,horror literature;
+Dune;;Duna;;;science fiction novel,soft science fiction,epic,political thriller,psychological thriller,conspiracy fiction,adventure novel,thriller novel;4228175-1
+Eclipse;;;;;vampire novel,young adult novel,romance novel,fantasy novel;
+10 for Germany;;;;;;
+Dona Flor and Her Two Husbands;;;;;Brazilian literature,novel;
+Corpus Hermeticum;;;;;Hermeticism;
+Angels & Demons;;;;;thriller novel,science fiction novel,horror novel,crime novel,mystery fiction,adventure,thriller,detective fiction;
+A Scientific Romance;;;;;apocalyptic novel,time travel novel,dystopian novel;
+Reveries of a Solitary Walker;;;;;autobiography;
+Prince of Fire;;;;;crime novel,espionage novel;
+The Betrothed;;I promessi sposi;;;historical novel;4135859-4
+Accel World;;;;;action anime and manga,seinen manga,novel;
+Sea of Death;;;;;novel;
+The Legend of the Holy Drinker;;Die Legende vom heiligen Trinker;;;novella;
+Guinness World Records;;Guinness World Records;;;information;1040250-0
+Die Waffen nieder!;;;;;novel;
+The Mother;;Мать;;;novel;
+Shepherds of the Night;;;;;novel;
+Chronicler of the Winds;;;;;novel;
+The Hobbit;;The Hobbit;or There and Back Again;In a hole in the ground there lived a hobbit.;juvenile fantasy,children's novel,fantasy novel,children's literature,fairy tale,fantasy;4425920-7
+Altdeutsches Namenbuch;;;;;;
+The Defector;;;;;espionage novel;
+The Satanic Verses;;;;;magic realism,novel;
+Closed and open form in drama;;;;;;
+Showdown;;Tocaia Grande;A Face Obscura;;novel;
+2061: Odyssey Three;;2061: Odyssey Three;;;science fiction novel;
+Northern Lights;;Northern Lights;;;steampunk novel,young adult novel;
+Home Is the Sailor;;Os Velhos Marinheiros ou o Capitão de Longo Curso;;;novel;
+Miss Betty;;;;;novel;
+We;;Мы;;;dystopian novel;
+Golden Legend;;;;;hagiography;4133343-3
+The Brothers Karamazov;;Братья Карамазовы;;;philosophical novel;4198690-8
+Sailor Suit and Machine Gun;;;;;novel;
+Paradise Lost;;;;Of Mans First Disobedience, and the Fruit;epic literature;4114602-5
+The Confessor;;;;;thriller,crime novel,espionage novel;
+New Moon;;New Moon;;;young adult novel,romance novel,vampire novel,fantasy novel;
+Philosophiae Naturalis Principia Mathematica;;Philosophiæ Naturalis Principia Mathematica;;;natural philosophy,classical mechanics;4232118-9
+Seven Pillars of Wisdom;;Seven Pillars of Wisdom;A Triumph;;autobiography;4192169-0
 Life, the Universe and Everything;;Life, the Universe and Everything;;;comic novel,science fiction novel,comic science fiction,speculative fiction,humour,science fiction,fantasy;4473000-7
+Miles to Go;;;;;autobiography;
+The Selfish Gene;;The Selfish Gene;;;essay;7569908-4
+The War of the Saints;;;;;novel;4775561-1
+Tent of Miracles;;Tenda dos Milagres;;;novel;
+Harry Potter and the Philosopher's Stone;;Harry Potter and the Philosopher's Stone;;Mr and Mrs Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much.;fantasy novel,adventure novel,young adult novel,fantasy;4615979-4
+The Cult of the Amateur;;;;;non-fiction literature;
+Gömda;;;;;novel;
+A Fire Upon the Deep;;A Fire Upon the Deep;;;science fiction novel;
+Íslendingabók;;;;;;
+Zeremoniale;;;;;;
+Ming Shilu;;;;;chronicle;
+A Son of the Circus;;;;;novel;
+Ada or Ardor: A Family Chronicle;;Ada or Ardor: A Family Chronicle;;;alternate history novel;4373223-9
+Pierrette;;Pierrette;;;novel;
 Bible;;;;;;4006406-2
+The War of the Worlds;;The War of the Worlds;;;science fiction novel,science fiction;
+Jar City;;Mýrin;;;novel,crime novel,mystery fiction;
+The Country of Carnival;;;;;novel;
+Cowboys & Aliens;;;;;;
+Blue Like Jazz: nonreligious thoughts on Christian spirituality;;;;;autobiography;
+Gömda;;;;;novel,crime novel;
+The March;;;;;historical novel;
+Excession;;;;;science fiction novel;
+Breaking Dawn;;Breaking dawn;;;vampire novel,paranormal romance,young adult novel,romance novel,fantasy novel;
+The Canterbury Tales;;;;;short story;
+Pride and Prejudice;;;;It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.;novel of manners,satire,novel;4099118-0
+Tseno Ureno;;;;;;
 Uncle Tom's Cabin;;Uncle Tom's Cabin; or, Life Among the Lowly;;;novel;4305373-7
+A Visit from the Goon Squad;;;;;novel;
+The Bowels of Liberty;;Os Subterrâneos da Liberdade;;;novel;
+The Annotated Hobbit;;;;;children's novel,juvenile fantasy,fantasy novel;
+The Butcher Boy;;;;;novel;
+A Pocket Full of Rye;;;;;crime novel;
+1913;;;;;acting;
+Abramowitz and Stegun;;Handbook of Mathematical Functions with Formulas, Graphs, and Mathematical Tables;;;reference work;
+The Name of the Rose;;Il nome della rosa;;;historical novel,historical mystery,crime novel;4099176-3
+Point Counter Point;;Point Counter Point;;;novel;
+The Count of Monte Cristo;;Le Comte de Monte-Cristo;;Le 24 février 1815, la vigie de Notre-Dame de la Garde signala le trois-mâts le Pharaon, venant de Smyrne, Trieste et Naples.;adventure novel,historical novel,romance novel;4362352-9
+The Invention of Hugo Cabret;;;;;historical novel,graphic novel,children's novel,fantasy novel;
+And Then There Were None;;Ten Little Niggers;;;detective novel,detective fiction;
+Heart of Darkness;;Heart of Darkness;;The Nellie, a cruising yawl, swung to her anchor without a flutter of the sails, and was at rest. The flood had made, the wind was nearly calm, and being bound down the river, the only thing for it was to come to and wait for the turn of the tide.;frame story,novella;4132636-2
+Manifold: Time;;;;;hard science fiction,science fiction novel;
+The Discovery of America by the Turks;;;;;novel;
 Gone with the Wind;;;;;historical novel,novel;4205951-3
+Drömfakulteten;;;;;novel;
+Tolkien's World: Paintings of Middle-Earth;;;;;;
+Systema Naturae;;;;;essay;7565262-6
+Vathek;;;;;fantasy literature,novel,gothic literature;
+Elements;;Στοιχεῖα;;;treatise;
+Ishmael;;;;;philosophical novel;
+Gabriela, Clove and Cinnamon;;;;;Brazilian literature,novel;4728633-7
+Twenty Thousand Leagues Under the Sea;;Vingt mille lieues sous les mers;Tour du monde sous-marin;;science fiction novel,fantasy novel,sea adventure novel,scientific romance,travel novel,speculative fiction,novel,adventure novel;4557824-2
+The Amber Spyglass;;;;;fantasy novel;
+God Is Not Great;;God is Not Great;How Religion Poisons Everything;;opinion journalism,essay;7627822-0
+The Jewish War;;Φλαυίου Ἰωσήπου ἱστορία Ἰουδαϊκοῦ πολέμου πρὸς Ῥωμαίους βιβλία;;;;4211816-5
+Swaraj;;;;;;
 English Passengers;;;;;historical novel;
+The Tower;;Der Turm;Geschichte aus einem versunkenen Land;;novel;
+The Lord of the Rings: The Art of the Fellowship of the Ring;;;;;;
+Star Wars Galaxies: The Ruins of Dantooine;;;;;novel;
+The Dangerous Summer;;;;;;
+Ars moriendi;;;;;treatise;4143072-4
+Zadig;;Zadig ou la Destinée;;;philosophical novel,fantasy novel,novella;
+The Incredulity of Father Brown;;;;;short story collection;
+The Wonderful Wizard of Oz;;;;;fantasy novel,children's novel;4357615-1
+The Catcher in the Rye;;The Catcher in the Rye;;;novel;4120008-1
+The Tenant of Wildfell Hall;;The Tenant of Wildfell Hall;;;epistolary novel,novel;
+The Horse and His Boy;;The Horse and His Boy;;;fantasy,novel;
 The Sandman: Endless Nights;;;;;novel;
+L'Homme pressé;;;;;novel;
+Fathers and Sons;;Отцы и дѣти;;;novel;4243806-8
+The Lord of the Rings Sketchbook;;The Lord of the Rings Sketchbook;;;;
+Brave New World;;;;;dystopian novel,bedroom farce,parody;4113976-8
+The Great Gatsby;;;;In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.;narrative,tragedy,novel;
+Profiles in Courage;;;;;biography;
+The Immoralist;;L'Immoraliste;;;novel;
+The Return of the Native;;;;;novel;
+The Wisdom of Father Brown;;;;;short story collection;
+Stigma of the Wind;;;;;novel,action anime and manga,fantasy anime and manga,shōnen manga;
+Ore no Kanojo to Osananajimi ga Shuraba Sugiru;;;;;romantic comedy anime and manga,school anime and manga,harem,seinen manga,novel;
+Wujing Zongyao;;;;;;
+Sweet Dreams;;Sweet Dreams: Philosophical Obstacles to a Science of Consciousness;;;essay;
+The World of Suzie Wong;;The World of Suzie Wong;;;novel;
+Windmills of the Gods;;;;;novel;
+Brave New World;;Zerschlagt die Banken. Entmachtet die Finanzmärkte. Eine Streitschrift;;;;
 Metroland;;;;;Bildungsroman,novel;
+Das Kapital;;Das Kapital, Kritik der politischen Ökonomie;;;essay;4099309-7
+J. R. R. Tolkien: A Biography;;;;;biography;
+The Vladimirov diaries: Yenan, China, 1942-1945;;;;;diary;
+The Secret of Chimneys;;;;;crime novel,novel;
+Doctor Zhivago;;Доктор Живаго;;;historical novel;
+The Game: Penetrating the Secret Society of Pickup Artists;;;;;novel,autobiography;
+Social Outsiders in Nazi Germany;;;;;;
+Kanojo ga Flag o Oraretara;;;;;harem,romantic comedy anime and manga,shōnen manga,novel;
+Catechism of the Catholic Church;;;;;;4326245-4
+Kalevala;;Kalevala;;;narrative poetry,epic literature;4029297-6
+Ten Days that Shook the World;;;;;;
+The World of Suzie Wong;;;;;;
 The Story of Lucy Gault;;;;;novel;
+Tolkien: Man and Myth;;;;;;
+The Grapes of Wrath;;The Grapes of Wrath;;;novel;4305432-8
+Steps to Christ;;;;;;
+Shakugan no Shana;;;;;school anime and manga,drama anime and manga,romance anime and manga,action anime and manga,fantasy anime and manga,visual novel,seinen manga,shōnen manga,novel,fantasy novel;
+Asterix Conquers Rome;;Les Douze Travaux d'Astérix;;;;
+Civil defence;;;;;;
+Show Me!;;;;;;
+The Oxford English Dictionary;;A New English Dictionary on Historical Principles (NED);;;dictionary;4185017-8
+The Running Man;;;;;science fiction novel;
+And Quiet Flows the Don;;Тихий Дон;;;novel,epic;
+Book of Esther;;;;;;
+Quidditch Through the Ages;;Quidditch Through the Ages;;;fiction,fantasy;
+Treasure Islands: Tax Havens and the Men who Stole the World;;;;;non-fiction literature;
 Carry Me Down;;;;;novel;
+Strange Case of Dr Jekyll and Mr Hyde;;Strange Case of Dr Jekyll and Mr Hyde;;;crime novel,gothic literature,novella,science fiction novel;4390920-6
+In Search of the Supernatural;;;;;;
+The Child of the Cavern;;Les Indes noires;;;science fiction novel,subterranean fiction,adventure novel;
+Holes;;;;;adventure,young adult literature,novel,adventure novel;
+Zizhi Tongjian;;資治通鑑;;;;
+Mondai-Ji-tachi ga Isekai Kara Kuru Sō Desu yo?;;;;;comedy manga and anime,fantasy anime and manga,novel;
+Charlotte's Web;;Charlotte’s Web;;;children's novel,fairy tale;
+The Party Journalist;;Der parteiliche Journalist;;;non-fiction literature;
+Nehemiah;;;;;;11873833X
+Books of Blood;;;;;Mistyka;
+Köchel catalogue;;Chronologisch-thematisches Verzeichniss sämmtlicher Tonwerke Wolfgang Amade Mozart’s. Nebst Angabe der verloren gegangenen, angefangenen, übertragenen, zweifelhaften und unterschobenen Compositionen desselben.;;;;
+Leviathan;;;;;;4231132-9
 Oxygen;;;;;novel;
+O alienista;;O alienista;;;Brazilian literature,short story,cróniques,novella;
+Yahari Ore no Seishun Love Come wa Machigatteiru.;;;;;school anime and manga,seinen manga,novel;
+The Silmarillion;;The Silmarillion;;There was Eru, the One, who in Arda is called Ilúvatar; and he made first the Ainur, the Holy Ones, that were the offspring of his thought, and they were with him before aught else was made.;fantasy literature,mythopoeia,novel;4436473-8
+Lie Down with Lions;;;;;espionage novel,novel;
+The Kingdom of God Is Within You;;Царство божие внутри вас;;;essay;
+Harry Potter and the Goblet of Fire;;Harry Potter and the Goblet of Fire;;The villagers of Little Hangleton still called it "the Riddle House" even though it has been many years since the Riddle family had lived there.;fantasy literature,adventure novel,fantasy;4694594-5
+Österreichisches Biographisches Lexikon 1815–1950;;;;;biographical dictionary;1042400652
+Time Out of Joint;;;;;dystopian novel;
+The Windup Girl;;The Windup Girl;;;biopunk novel,Cli fi;
+Leaves of Grass;;;;;poetry;
+Liber de similitudinibus et exemplis;;;;;;
+Being and Nothingness;;L'Être et le Néant;Essai d'ontologie phénoménologique;;essay;4138406-4
+The Beast Reawakens;;;;;;
+The Ballad of Peckham Rye;;;;;novel;
+Falconer;;;;;novel,LGBT;
 Lend Me Your Ears;;;;;;
+Unto This Last;;Unto This Last;;;essay;
+Buchmendel;;;;;short story,war novel,historical novel;
+Sons and Lovers;;;;;novel;
+Treasure Island;;Treasure Island;;;adventure novel,sea adventure novel;4421736-5
+Harry Potter and the Deathly Hallows;;Harry Potter and the Deathly Hallows;;The two men appeared out of nowhere, a few yards apart in the narrow, moonlit lane.;fantasy literature,adventure novel,fantasy;7610747-4
+The Lathe of Heaven;;The Lathe of Heaven;;;science fiction novel;
+Zodiac;;Zodiac;;;non-fiction literature,true crime;
+All Quiet on the Western Front;;Im Westen nichts Neues;;;historical novel,war novel,roman à clef,novel;4255329-5
+Thérèse Desqueyroux;;Thérèse Desqueyroux;;;novel;
+Fantastic Beasts and Where to Find Them;;Fantastic Beasts and Where to Find Them;;;speculative fiction;
+Harry Potter and the Order of the Phoenix;;Harry Potter and the Order of the Phoenix;;The hottest day of the summer so far was drawing to a close and a drowsy silence lay over the large, square houses of Privet Drive.;fantasy literature,novel,fantasy;4815810-0
+On the Eve;;Накануне;;;novel;4243808-1
+Harry Potter and the Half-Blood Prince;;Harry Potter and the Half-Blood Prince;;It was nearing midnight and the Prime Minister was sitting alone in his office, reading a long memo that was slipping through his brain without leaving the lightest trace of meaning behind.;fantasy novel,adventure novel,young adult novel;7523818-4
+Howl's Moving Castle;;;;;novel,fantasy novel;
+The Stranger;;L'Étranger;;;philosophical novel,absurdist fiction;4236814-5
+on being and essence;;De ente et essentia;;;philosophy;
+The Audacity of Hope;;;Thoughts on Reclaiming the American Dream;;autobiography;
+Digital Fortress;;;;;science fiction novel,techno-thriller,thriller novel;
+Archangel;;;;;novel,thriller,television drama;
+The Casual Vacancy;;The Casual Vacancy;;;tragicomedy,novel,black comedy;
+Flesh;;;;;science fiction novel;
+Alice's Adventures in Wonderland;;Alice's Adventures in Wonderland;;Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, “and what is the use of a book,” thought Alice, “without pictures or conversations?”;fantasy novel,children's novel,absurdist fiction,fairy tale,literary nonsense;4295896-9
+Eragon;;Eragon;;;fantasy,novel,young adult literature,fiction literature;
+The Kill Artist;;;;;espionage novel;
+Yajurveda;;;;;;
 Finnegans Wake;;;;riverrun, past Eve and Adam's, from swerve of shore to bend of bay, brings us by a commodius vicus of recirculation back to Howth Castle and Environs.;novel,xiaoshuo,Comic fiction;4114086-2
+Saikin, Imōto no Yōsu ga Chotto Okaishiin Da Ga.;;;;;ecchi,romantic comedy,harem,shōnen manga,novel;
+Petit Robert;;Le Petit Robert;dictionnaire de la langue française;;;4286599-2
+Moskof Cariye Hürrem;;;;;novel;
+Principia Mathematica;;Principia Mathematica;;;;
+1979;;;;;novel;
+Lehrbuch der Topologie;;;;;;
+Interview with the Vampire;;;;;vampire novel,gothic literature;
+Passions of the Soul;;;;;;
+The Captain's Daughter;;Капитанская дочка;;;historical novel,powest;4209507-4
+Alice's Adventures in Wonderland;;;;;novel;
+The Secret Servant;;;;;crime novel,espionage novel;
+Just for Fun;;;;;autobiography,biography;
+The New Life;;Yeni Hayat;;;novel;
+Principia Mathematica;;;;;novel;
+The Sceptical Chymist;;;;;;
+A Room with a View;;;;;novel;
+The Day of the Jackal;;;;;thriller novel,historical novel,espionage novel;
+Cosmographiae Introductio;;;;;;
+The Stand;;;;;horror novel,post-apocalyptic novel,fantasy novel;4394803-0
+A History of Western Philosophy;;;;;philosophical literature,essay,non-fiction;1088073107
+2 States: The Story of My Marriage;;;;;love,novel,fiction literature;
+Time Must Have a Stop;;;;;novel;
+The Colour of Magic;;;;;fantasy literature,novel;
+Inheritance;;Inheritance;;;fantasy literature,novel;
+1001 Albums You Must Hear Before You Die;;;;;reference work;
+The Hero with a Thousand Faces;;;;;science,comparative mythology;
+N or M?;;;;;detective novel;
+The Grand Design;;;;;popular science;
+Cosmographiae Introductio;;;;;short story collection;
+Unua Libro;;Международный языкъ, предисловіе и полный учебникъ;por Rus‚o‚j;Предлагаемую брошюру читатель вѣроятно возьметъ въ руки съ недовѣріемъ, съ предвзятою мыслью, что ему будеть предложена какая нибудь несбыточная утопія; я долженъ поэтому прежде всего просить читателя отложить эту предвзятую мысль и отнестисъ серьезно и критически къ предлагаемому дѣлу.;textbook;
+De Monarchia;;;;;;4136562-8
+The Phantom Tollbooth;;;;;fantasy,novel,fantasy novel;
+Harry Potter and the Chamber of Secrets;;Harry Potter and the Chamber of Secrets;;Not for the first time, an argument had broken out over breakfast at number four, Privet drive;fantasy literature,adventure novel,fantasy;4688806-8
+Nineteen Eighty-Four;;Nineteen Eighty-Four;;It was a bright cold day in April, and the clocks were striking thirteen.;dystopian novel,social science fiction,political fiction;4099325-5
+Franz Kafka: The Office Writings;;;;;;
+Khosrow and Shirin;;;;;poetry;
+The Tales of Beedle the Bard;;;;;fantasy,children's literature;
+Porno;;;;;novel;
+Alexiad;;;;;;
 Ulysses;;Ulysses;;Stately, plump Buck Mulligan came from the stairhead, bearing a bowl of lather on which a mirror and a razor lay crossed.;novel,Modernist literature,experimental literature,literary fiction,autobiographical novel,metafiction;4099246-9
+Parasite Eve;;;;;science fiction novel,horror novel,novel;
+The State of the Art;;;;;science fiction short story;
+Julia;;;;;;
+Satyarth Prakash;;;;;;
+Time and Free Will;;;;;doctoral thesis;
+The Protocols of the Elders of Zion;;Програма завоевания мира евреями;;;propaganda,literary forgery;4176015-3
+The Adventurer;;;;;novel;
+A Rising Thunder;;;;;military science fiction,science fiction novel;
+The Da Vinci Code;;The Da Vinci Code;;;detective novel,thriller novel,conspiracy fiction,esoteric novel,crime novel;
+The Fountain;;;;;;
+All Men Are Mortal;;Tous les hommes sont mortels;;;novel;
+Harry Potter and the Prisoner of Azkaban;;Harry Potter and the Prisoner of Azkaban;;Harry Potter was a highly unusual boy in many ways.;fantasy novel,adventure novel,young adult novel,fantasy;7609978-7
+Dying of the Light;;;;;novel,science fiction novel;
+1985;;;;;satiric novel,dystopian novel;
+Eating Animals;;;;;non-fiction literature,essay;
+Sophie's World;;Sofies verden;;;philosophical novel,philosophical fiction;4399286-9
+I Am a Cat;;吾輩は猫である;;吾輩は猫である。名前はまだ無い。;satire,novel,comic novel;
+The Old Man and the Sea;;The Old Man And The Sea;;;narrative,novella;4099230-5
+The Republic;;Πολιτεία;;;dialogue;4076164-2
+The Stress of Her Regard;;;;;vampire novel,historical fantasy;
 Diary of Anne Frank;;Het Achterhuis;;;diary,world literature,autobiography;
+Space Cadet;;;;;science fiction novel;
+Mio, My Son;;Mio, min Mio;;;children's literature,fantasy literature,novel;4780537-7
+I, Claudius;;;;;historical novel;
+Crime and Punishment;;Преступление и наказание;;В начале июля, в чрезвычайно жаркое время, под вечер, один молодой человек вышел из своей каморки, которую нанимал от жильцов в С-м переулке, на улицу и медленно, как бы в нерешимости, отправился к К-ну мосту.;philosophical novel,psychological novel,crime novel,novel,philosophical fiction;4099168-4
+Der kleine Vampir;;Der kleine Vampir;;;fantasy novel,children's novel,vampire novel;
+Is This a Zombie?;;;;;fantasy anime and manga,harem,magical girl,shōnen manga,novel;
+A Christmas Carol;;A Christmas Carol. In Prose. Being a Ghost Story of Christmas.;;Marley was dead, to begin with.;novella;4294679-7
+The Trial;;Der Prozess;;Someone must have been telling lies about Joseph K., for without having done anything wrong he was arrested one fine morning.;philosophical novel,dystopian novel,absurdist fiction,novel;4099250-0
+Dr. No;;Dr. No;;;espionage novel,crime novel;
+Commentarii de Bello Gallico;;De Bello Gallico;;Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur.;history book;4201260-0
+When Things of the Spirit Come First;;Quand prime le spirituel;;;novel,short story collection;
+Timm Thaler;;;;;science fiction novel,children's novel,fantasy novel;
 The MLA Style Manual;;MLA Style Manual and Guide to Scholarly Publishing;;;;
+Mrs Craddock;;;;;novel;
+Malleus Maleficarum;;;;;religion,law;4210558-4
+101 Reykjavík;;;;;novel;
+Mostly Harmless;;;;;comic novel,science fiction novel,comic science fiction;7846631-3
+Zettels Traum;;;;;novel;4099343-7
+To Live;;活着;;;novel;
+The Little Red Book;;;;;political philosophy;
+Black Rain;;黒い雨;;;serial fiction,novel;
+One Day in the Life of Ivan Denisovich;;Один день Ивана Денисовича;;;novel;
+Mein Kampf;;Mein Kampf;;Als glückliche Bestimmung gilt es mir heute, daß das Schicksal mir zum Geburtsort gerade Braunau am Inn zuwies.;autobiography,advocacy journalism,memoir,political philosophy;4113925-2
+Rabbit, Run;;;;;novel;
+The Sound and the Fury;;The Sound and the Fury;;;Southern Gothic,novel;4399646-2
+Agenda 21;;;;;non-fiction;
+How the Steel Was Tempered;;Как закалялась сталь;;;novel,socialist realism;
+The Green Book;;الكتاب الأخضر‎‎‎;;;politics;4125300-0
+The Fourth Hand;;;;;novel,fiction literature;
+To Live;;;;;;
+The Beast in the Jungle;;;;;novella;
+The Night Watch;;;;;historical novel;
+Definitely Maybe;;За миллиард лет до конца света;;;science fiction novel;
+The Art of War;;;;;economics,treatise;4202549-7
+Zlata's Diary;;;;;;
+One Hundred Years of Solitude;;Cien años de soledad;;;novel;
+Native Son;;;;;African-American literature,novel;
+The Good Soldier Švejk;;Osudy dobrého vojáka Švejka za světové války;;;satire,war novel,novel;
+Novel with cocaine;;;;;novel;
+Discourse on Inequality;;;;;essay;4374640-8
+4.50 from Paddington;;;;;mystery novel,novel;
+The Master and Margarita;;Мастер и Маргарита;;Однажды весною, в час небывало жаркого заката, в Москве, на Патриарших прудах, появились два гражданина.;novel,magic realism;
+War and Remembrance;;;;;war novel,novel;
+The Jesus Dynasty;;;;;;
+Sour Sweet;;;;;novel;
+Ganz unten;;;;;non-fiction literature;4124741-3
+The Alchemist;;O Alquimista;;;adventure novel,fantasy novel,esoteric novel;4705652-6
+Lolita;;Lolita;;Lolita, light of my life, fire of my loins.;tragicomedy,erotic novel,romance novel,detective novel,metafiction,confessional fiction,editorial fiction;4251287-6
+The Bottle Factory Outing;;;;;novel;
+White Fang;;White Fang;;;narration;4386378-4
+Discourse on Inequality;;;;;science fiction novel;
+Even Cowgirls Get the Blues;;;;;novel;
+The Winds of War;;;;;novel;
+The Art of Computer Programming;;;;;computer science;
+Underground: The Tokyo Gas Attack and the Japanese Psyche;;アンダーグラウンド;;;non-fiction literature;
+Book of Zephaniah;;;;;;4079470-2
+Such a Long Journey;;;;;novel;
+Dream of the Red Chamber;;红楼梦;;卻說那女媧氏煉石補天之時，於大荒山無稽崖煉成高十二丈、見方二十四丈大的頑石三萬六千五百零一塊。那媧皇只用了三萬六千五百塊，單單剩下一塊未用，棄在青埂峰下。誰知此石自經鍛煉之後，靈性已通，自去自來，可大可小。因見眾石俱得補天，獨自己無才，不得入選，遂自怨自愧，日夜悲哀。;zhanghui novel,novel,xiaoshuo;4238558-1
+Zhan Guo Ce;;;;;;
+The Breadwinner;;;;;children's novel;
+A Fine Balance;;;;;historical novel;
+Clovis Dardentor;;Clovis Dardentor;;;travel novel,adventure novel;
+Tell No One;;;;;detective novel,mystery fiction,thriller novel,crime novel,detective fiction;
+Flight into Camden;;;;;novel;
+Maragtas;;;;;;
+The Bang-Bang Club;;;;;autobiography;
+Otogizōshi;;;;;;
+Neverwhere;;;;;fantasy literature,novel;
+The Bible Unearthed;;;;;historiography;
+The Warlock: The Secrets of the Immortal Nicholas Flamel;;;;;fantasy novel,thriller novel;
+Twilight;;Twilight;;;young adult novel,romance novel,vampire novel,fantasy novel;
+Encyclopedia of China;;;;;encyclopedia;
+The Tale of Genji;;;;いづれの御時にか、女御、更衣あまたさぶらひたまひけるなかに、いとやむごとなき際にはあらぬが、すぐれて時めきたまふありけり。;novel;4263329-1
+A People's Tragedy;;;;;;
+Character Strengths and Virtues;;;;;;
+Politics;;;;;treatise;4125035-7
+Toccio the Angel;;;;;;
+Zhou Bi Suan Jing;;;;;;
+The Abyss;;L’Œuvre au noir;;;historical novel;
+The Dead of the Night;;;;;young adult literature,action fiction,adventure novel;
+Regular Polytopes;;;;;;
+The Dungeons of the Vatican;;;;;novel,Sotie;
+Every Man for Himself;;;;;novel;
+Journey to the West;;西遊記;;;novel;
+Tokyo Ravens;;;;;action anime and manga,shōnen manga,novel;
+Shahnameh;;شاهنامه;;به نام خداوند جان و خرد کزین برتر اندیشه برنگذرد;epic poem,epic literature;
+Arsène Lupin, Gentleman Burglar;;;;;detective literature,crime fiction short story,short story collection,detective fiction;
+Strait is the Gate;;;;;novel;
+Terra Nostra;;;;;novel;
+Romance of the Three Kingdoms;;三國演義;;詞曰：滾滾長江東逝水，浪花淘盡英雄。是非成敗轉頭空：青山依舊在，幾度夕陽紅。白髮漁樵江渚上，慣看秋月春風。一壺濁酒喜相逢：古今多少事，都付笑談中。話說天下大勢，分久必合，合久必分：周末七國分爭，并入於秦。及秦滅之後，楚、漢分爭，又并入於漢。漢朝自高祖斬白蛇而起義，一統天下。後來光武中興，傳至獻帝，遂分為三國。推其致亂之由，殆始於桓、靈二帝。桓帝禁錮善類，崇信宦官。及桓帝崩，靈帝即位，大將軍竇武、太傅陳蕃，共相輔佐。時有宦官曹節等弄權，竇武、陳蕃謀誅之，作事不密，反為所害。中涓自此愈橫。;historical novel,war novel;
+Thus Spoke Zarathustra;;Also sprach Zarathustra;Ein Buch für Alle und Keinen;;philosophical novel,essay,novel;4099324-3
+The Compendious Book on Calculation by Completion and Balancing;;;;;;4216169-1
+Raccolta;;;;;prayer book;
+The Scandal of Father Brown;;;;;short story collection;
+La Géométrie;;La Géométrie;;;essay;
+Water Margin;;;;;historical novel,adventure novel;
+Ninety-three;;Quatrevingt-treize;;;novel;4335732-5
+The Hundred and One Dalmatians;;;;;children's literature,children's novel;4840899-2
+The Secret of Father Brown;;;;;short story collection;
+Gray's Anatomy;;Anatomy: Descriptive and Surgical;;;;
+10 tips on how to stop killing people and start doing the dishes;;;;;novel;
+The Picture of Dorian Gray;;The Picture of Dorian Gray;;The studio was filled with the rich odour of roses, and when the light summer wind stirred amidst the trees of the garden, there came through the open door the heavy scent of the lilac, or the more delicate perfume of the pink-flowering thorn.;fantasy literature,gothic literature;4130762-8
+For Whom the Bell Tolls;;For Whom the Bell Tolls;;He lay flat on the brown, pine-needled floor of the forest, his chin on his folded arms, and high overhead the wind blew in the tops of the pine trees.;war novel;
+Travels with a Donkey in the Cévennes;;Travels with a Donkey in the Cévennes;;;travel book;
+The Picture of Dorian Gray;;;;;novel;4659526-0
+The World Factbook;;The World Factbook;;;almanac;
+Heart;;Cuore;;;novel;7604802-0
+The Hunger Games;;The Hunger Games;;;adventure novel,dystopian novel,young adult novel;
+Hansel and Gretel;;;;;children's literature;4193296-1
