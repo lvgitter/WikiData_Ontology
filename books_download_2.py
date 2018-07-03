@@ -6,7 +6,7 @@ from threading import Thread
 import requests
 import random
 
-N_THREADS = 16
+N_THREADS = 100
 
 def index(statistic_name):
     switcher = {
@@ -50,9 +50,9 @@ class myThread (threading.Thread):
    def run(self):
         count=0
         for j in range(self.res_min, self.res_max):
-            time.sleep(random.random()*0.5)
+            time.sleep(random.random()*0.001)
             count += 1
-            if (count%100 != 0): #to modify
+            if (count%10 == 0): #to modify
                 print("[Thread "+str(self.id)+"]\t"+"book "+str(j-self.res_min+1)+"/"+str(self.res_max-self.res_min))
 
 
@@ -81,6 +81,10 @@ class myThread (threading.Thread):
                 if ("en" in data['entities'][book_id]["claims"]["descriptions"]):
                     #print("[Thread " + str(self.id) + "]\t"+"description")
                     description = data['entities'][book_id]["claims"]["descriptions"]["en"]["value"]
+            elif ("descriptions" in data['entities'][book_id]):
+                if ("en" in data['entities'][book_id]["descriptions"]):
+                    #print("[Thread " + str(self.id) + "]\t"+"description")
+                    description = data['entities'][book_id]["descriptions"]["en"]["value"]
             else:
                 self.local_statistics[index("no description")] += 1
 
@@ -164,14 +168,14 @@ class myThread (threading.Thread):
             # ID
             #print("Ids")
             id = ""
-            if ("P227" in data['entities'][book_id]["claims"]):
+            if ("P212" in data['entities'][book_id]["claims"]):
                 #print("[Thread " + str(self.id) + "]\t" + "id")
-                id = data['entities'][book_id]["claims"]["P227"][0]["mainsnak"]["datavalue"]["value"]
+                id = data['entities'][book_id]["claims"]["P212"][0]["mainsnak"]["datavalue"]["value"]
                 #print(id)
             else:
                 self.local_statistics[index("no id")] += 1
             file_out_lock.acquire()
-            file_out.write(label + ";" + description + ";" + title + ";" + subtitle + ";" + first_line + ";" + genres + ";" + id+"\n")
+            file_out.write(book_id + ";" + label + ";" + description + ";" + title + ";" + subtitle + ";" + first_line + ";" + genres + ";" + id+"\n")
             file_out_lock.release()
 
    def join(self):
@@ -203,13 +207,16 @@ sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
 sparql.setQuery("""SELECT ?book WHERE {
     ?book wdt:P31 wd:Q571
     }
+    LIMIT 2000
 """)
 sparql.setReturnFormat(JSON)
 results = sparql.query().convert()
 
 
 file_out = open(file_out_path, 'w')
+file_out.write("book_id" + ";" + "label" + ";" + "description" + ";" + "title" + ";" + "subtitle" + ";" + "first_line" + ";" + "genres" + ";" + "id" +"\n")
 file_authors_out=open(file_authors_path, 'w')
+file_authors_out.write("book_id" + "," + "author_id" +"\n")
 #file_log = open(file_log_path, 'w')
 #print(results)
 n_results = len(results["results"]["bindings"])
