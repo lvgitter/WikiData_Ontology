@@ -1,0 +1,6 @@
+publisher: inception, id(GND)
+author: genre, award
+human: sex, name, surname, DoB, DoD, occupation
+character:
+mayor: start/end time, official residence
+translator:
