@@ -7,7 +7,7 @@ import requests
 import random
 
 N_THREADS = 16
-LEN_INDEX = 16
+LEN_INDEX = 17
 
 def index(statistic_name):
     switcher = {
@@ -26,7 +26,8 @@ def index(statistic_name):
         "no afterauthor":12,
         "no foreauthor":13,
         "no lang":14,
-        "no ill":15
+        "no ill":15,
+        "no tra":16
     }
     return switcher[statistic_name]
 
@@ -47,7 +48,8 @@ def label(statistic_id):
         12:"no afterauthor",
         13:"no foreauthor",
         14:"no lang",
-        15:"no ill"
+        15:"no ill",
+        16:"no tra"
         
     }
     return switcher[statistic_id]
@@ -76,7 +78,11 @@ class myThread (threading.Thread):
             url = result['book']['value'].replace("/wiki/", "/wikiSpecial:EntityData/") + ".json"
             #start_time_get = time.time()
             response = requests.get(url) #timeout
-            data = response.json()
+            try:
+            	data = response.json()
+            except:
+            	print ("EXCEPTION " + url)
+            	continue
             book_id = url.split(".json")[0].split("/")[-1]
             #print("[Thread " + str(self.id) + "]\t" + "book " + str(book_id))
             #end_time_get = time.time()
@@ -159,6 +165,19 @@ class myThread (threading.Thread):
             else:
                 self.local_statistics[index("no ill")] += 1
            	
+
+			# TRANSLATOR (HUMANS)
+            if ("P655" in data['entities'][book_id]["claims"]):
+                for tra in data['entities'][book_id]["claims"]["P655"]:
+                    try:
+                        tras_file_lock.acquire()
+                        file_tras_out.write(str(tra["mainsnak"]["datavalue"]["value"]["id"])+","+str(book_id)+"\n")
+                        tras_file_lock.release()
+                    except:
+                        tras_file_lock.release()
+            else:
+                self.local_statistics[index("no tra")] += 1
+			
 
             # AUTHORS
             if ("P50" in data['entities'][book_id]["claims"]):
@@ -250,8 +269,8 @@ class myThread (threading.Thread):
 
             # ID
             id = ""
-            if ("P212" in data['entities'][book_id]["claims"]):
-                id = data['entities'][book_id]["claims"]["P212"][0]["mainsnak"]["datavalue"]["value"]
+            if ("P227" in data['entities'][book_id]["claims"]):
+                id = data['entities'][book_id]["claims"]["P227"][0]["mainsnak"]["datavalue"]["value"]
             else:
                 self.local_statistics[index("no id")] += 1
             file_out_lock.acquire()
@@ -275,22 +294,24 @@ afterauthors_file_lock = threading.Lock()
 foreauthors_file_lock = threading.Lock()
 langs_file_lock = threading.Lock()
 ills_file_lock = threading.Lock()
+tras_file_lock = threading.Lock()
 
 
 #TIME MEASUREMENTS
 total_time=time.time()
 
 #FILES OUTPUT PATH
-file_out_path = "books.txt"
-file_log_path = "log.txt"
-file_authors_path = "authors.txt" # format wikidata:author_id,wikidata:book_id
-file_pubs_path = "publishers.txt"
-file_locs_path = "locations.txt"
-file_chars_path = "characters.txt"
-file_afterauthors_path = "afterauthors.txt"
-file_foreauthors_path = "foreauthors.txt"
-file_langs_path = "languages.txt"
-file_ills_path = "illustrators.txt"
+file_out_path = "Book.txt"
+file_log_path = "log_Book.txt"
+file_authors_path = "hasAuthor.txt" # format wikidata:author_id,wikidata:book_id
+file_pubs_path = "hasPublisher.txt"
+file_locs_path = "hasLocation.txt"
+file_chars_path = "hasCharacter.txt"
+file_afterauthors_path = "hasAfterwordAuthor.txt"
+file_foreauthors_path = "hasForewordAuthor.txt"
+file_langs_path = "BookWrittenIn.txt"
+file_ills_path = "hasIllustrator.txt"
+file_tras_path = "hasTranslator.txt"
 
 #STATISTICS VARIABLES
 statistics = [0 for x in range(LEN_INDEX)]
@@ -303,12 +324,13 @@ sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
 sparql.setQuery("""SELECT ?book WHERE {
     ?book wdt:P31 wd:Q571
     }
-    LIMIT 400
+    LIMIT 3200
 """)
 sparql.setReturnFormat(JSON)
 results = sparql.query().convert()
 
 #SAVING TO FILE
+file_log = open(file_log_path, 'w')
 file_out = open(file_out_path, 'w')
 file_out.write("book_id" + ";" + "label" + ";" + "description" + ";" + "title" + ";" + "subtitle" + ";" + "first_line" + ";" + "genres" + ";" + "id" + "\n")
 file_authors_out=open(file_authors_path, 'w')
@@ -327,12 +349,13 @@ file_langs_out=open(file_langs_path, 'w')
 file_langs_out.write( "language_id," + "book_id" + "\n")
 file_ills_out=open(file_ills_path, 'w')
 file_ills_out.write( "illustror_id," + "book_id" + "\n")
-#file_log = open(file_log_path, 'w')
-#print(results)
+file_tras_out=open(file_ills_path, 'w')
+file_tras_out.write( "translator_id," + "book_id" + "\n")
 
 
 n_results = len(results["results"]["bindings"])
 print("Number of results: " + str(n_results))
+file_log.write("Number of results: " + str(n_results) + "\n")
 
 #PARALLEL COMPUTATION INITIALIZATION
 threads = []
@@ -371,3 +394,14 @@ for i in range(len(statistics)):
 
 total_time = time.time() - total_time
 print("Total_time:\t"+str(round(total_time,2))+" sec")
+
+
+#STATISTICS REPORTING
+file_log.write("\n\n*** STATISTICS *** \n")
+for i in range(len(statistics)):
+    file_log.write(label(i).ljust(16)+":"+str(statistics[i])+"  ("+str(round(statistics[i]/n_results,2)*100)+" %) \n")
+
+
+file_log.write("Total_time:\t"+str(round(total_time,2))+" sec" + "\n")
+
+file_log.close()

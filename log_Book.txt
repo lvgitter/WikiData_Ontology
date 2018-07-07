@@ -1,0 +1,22 @@
+Number of results: 3200
+
+
+*** STATISTICS *** 
+no title        :2187  (68.0 %) 
+no label        :140  (4.0 %) 
+no description  :0  (0.0 %) 
+no author       :187  (6.0 %) 
+multiple author :0  (0.0 %) 
+no genre        :557  (17.0 %) 
+no subtitle     :3148  (98.0 %) 
+no first line   :3133  (98.0 %) 
+no id           :2722  (85.0 %) 
+no pub          :1552  (48.0 %) 
+no char         :2874  (90.0 %) 
+no loc          :2820  (88.0 %) 
+no afterauthor  :3199  (100.0 %) 
+no foreauthor   :3196  (100.0 %) 
+no lang         :664  (21.0 %) 
+no ill          :3023  (94.0 %) 
+no tra          :3163  (99.0 %) 
+Total_time:	371.98 sec

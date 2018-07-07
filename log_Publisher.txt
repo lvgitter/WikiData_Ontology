@@ -1,0 +1,11 @@
+Number of publishers: 1810
+
+
+*** STATISTICS *** 
+no inception    :201  (11.0 %) 
+no id           :1043  (57.99999999999999 %) 
+no loc          :609  (34.0 %) 
+no founder      :1043  (57.99999999999999 %) 
+no label        :12  (1.0 %) 
+no description  :0  (0.0 %) 
+Total_time:	93.56 sec
