@@ -57,7 +57,7 @@ def label(statistic_id):
 
 
 def save_obj(obj, name):
-    with open('obj/' + name + '.pkl', 'wb') as f:
+    with open('../python/obj/' + name + '.pkl', 'wb') as f:
         pickle.dump(obj, f, pickle.HIGHEST_PROTOCOL)
 
 
@@ -306,17 +306,17 @@ tras_file_lock = threading.Lock()
 total_time = time.time()
 
 # FILES OUTPUT PATH
-file_out_path = "Book.txt"
-file_log_path = "log_Book.txt"
-file_authors_path = "hasAuthor.txt"  # format wikidata:author_id,wikidata:book_id
-file_pubs_path = "hasPublisher.txt"
-file_locs_path = "hasLocation.txt"
-file_chars_path = "hasCharacter.txt"
-file_afterauthors_path = "hasAfterwordAuthor.txt"
-file_foreauthors_path = "hasForewordAuthor.txt"
-file_langs_path = "BookWrittenIn.txt"
-file_ills_path = "hasIllustrator.txt"
-file_tras_path = "hasTranslator.txt"
+file_out_path = "../concepts/Book.txt"
+file_log_path = "../log/log_Book.txt"
+file_authors_path = "../roles/hasAuthor.txt"  # format wikidata:author_id,wikidata:book_id
+file_pubs_path = "../roles/hasPublisher.txt"
+file_locs_path = "../roles/hasLocation.txt"
+file_chars_path = "../roles/hasCharacter.txt"
+file_afterauthors_path = "../roles/hasAfterwordAuthor.txt"
+file_foreauthors_path = "../roles/hasForewordAuthor.txt"
+file_langs_path = "../roles/BookWrittenIn.txt"
+file_ills_path = "../roles/hasIllustrator.txt"
+file_tras_path = "../roles/hasTranslator.txt"
 
 # STATISTICS VARIABLES
 statistics = [0 for x in range(LEN_INDEX)]
@@ -329,7 +329,7 @@ sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
 sparql.setQuery("""SELECT ?book WHERE {
     ?book wdt:P31 wd:Q571
     }
-    LIMIT 3200
+    LIMIT 960
 """)
 sparql.setReturnFormat(JSON)
 results = sparql.query().convert()

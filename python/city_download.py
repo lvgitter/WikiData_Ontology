@@ -132,16 +132,16 @@ couns_file_lock = threading.Lock()
 total_time=time.time()
 
 #FILES OUTPUT PATH
-file_out_path = "City.txt"
-file_log_path = "log_City.txt"
-file_couns_path = "hasCountry.txt"
+file_out_path = "../concepts/City.txt"
+file_log_path = "../log/log_City.txt"
+file_couns_path = "../roles/hasCountry.txt"
 
 #STATISTICS VARIABLES
 statistics = [0 for x in range(LEN_INDEX)]
 
 #RETRIEVING ALL PUBLISHERs WIKIDATA IDs and QUERY THEM
 cities = []
-with open("hasLocation.txt", "r")as hp:
+with open("../roles/hasLocation.txt", "r")as hp:
 	j = 0
 	for line in hp:
 		if j == 0:

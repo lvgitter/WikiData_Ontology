@@ -137,10 +137,10 @@ locs_file_lock = threading.Lock()
 total_time=time.time()
 
 #FILES OUTPUT PATH
-file_out_path = "Publisher.txt"
-file_log_path = "log_Publisher.txt"
-file_locs_path = "locatedIn.txt"
-file_fous_path = "foundedBy.txt"
+file_out_path = "../concepts/Publisher.txt"
+file_log_path = "../log/log_Publisher.txt"
+file_locs_path = "../roles/locatedIn.txt"
+file_fous_path = "../roles/foundedBy.txt"
 
 #STATISTICS VARIABLES
 statistics = [0 for x in range(LEN_INDEX)]
@@ -150,7 +150,7 @@ genre_dict = {}  #genre widata id to label
 
 #RETRIEVING ALL PUBLISHERs WIKIDATA IDs and QUERY THEM
 publishers = []
-with open("hasPublisher.txt", "r")as hp:
+with open("../roles/hasPublisher.txt", "r")as hp:
 	j = 0
 	for line in hp:
 		if j == 0:
