@@ -46,8 +46,7 @@ class myThread (threading.Thread):
             time.sleep(random.random()*0.1)
             count += 1
             if (count%5 == 0): #to modify?
-                print("[Thread "+str(self.id)+"]\t"+"city "+str(j-self.res_min+1)+"/"+str(self.res_max-self.res_min))
-
+                print("[Thread "+str(self.id)+"]\t"+"country "+str(j-self.res_min+1)+"/"+str(self.res_max-self.res_min))
 
             result = countries[j]
             url = "https://www.wikidata.org/wiki/Special:EntityData/" + result +".json"
@@ -130,8 +129,8 @@ langs_file_lock = threading.Lock()
 total_time=time.time()
 
 #FILES OUTPUT PATH
-file_out_path = "../concepts/City.txt"
-file_log_path = "../log/log_City.txt"
+file_out_path = "../concepts/Country.txt"
+file_log_path = "../log/log_Country.txt"
 file_langs_path = "../roles/hasUsedLanguage.txt"
 
 #STATISTICS VARIABLES
@@ -167,6 +166,11 @@ file_out.write("country_id" + ";" + "label" + ";" + "description" + ";" + "area"
 n_results = len(countries)
 print("Number of countries: " + str(n_results))
 file_log.write("Number of countries: " + str(n_results) + "\n")
+print("Number of  different countries: " + str(len(set(countries))) + "\n")
+file_log.write("Number of different countries: " + str(len(set(countries))))
+
+countries = list(set(countries))
+n_results = len(countries)
 
 #PARALLEL COMPUTATION INITIALIZATION
 threads = []

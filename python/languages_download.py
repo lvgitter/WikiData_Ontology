@@ -1,5 +1,3 @@
-#TODO
-
 import time
 import math
 from SPARQLWrapper import SPARQLWrapper, JSON
@@ -9,25 +7,21 @@ import requests
 import random
 
 N_THREADS = 16
-LEN_INDEX = 5
+LEN_INDEX = 3
 
 def index(statistic_name):
     switcher = {
-        "no population":0,
-        "no area":1,
-        "no label":2,
-        "no description":3,
-        "no country":4
+        "no speakers":0,
+        "no label":1,
+        "no description":2
     }
     return switcher[statistic_name]
 
 def label(statistic_id):
     switcher = {
-        0:"no population",
-        1:"no area",
-        2:"no label",
-        3:"no description",
-        4:"no country"
+        0:"no speakers",
+        1:"no label",
+        2:"no description"
     }
     return switcher[statistic_id]
 
@@ -48,10 +42,8 @@ class myThread (threading.Thread):
             time.sleep(random.random()*0.1)
             count += 1
             if (count%5 == 0): #to modify?
-                print("[Thread "+str(self.id)+"]\t"+"city "+str(j-self.res_min+1)+"/"+str(self.res_max-self.res_min))
-
-
-            result = cities[j]
+                print("[Thread "+str(self.id)+"]\t"+"language "+str(j-self.res_min+1)+"/"+str(self.res_max-self.res_min))
+            result = languages[j]
             url = "https://www.wikidata.org/wiki/Special:EntityData/" + result +".json"
             #start_time_get = time.time()
             response = requests.get(url) #timeout
@@ -60,7 +52,7 @@ class myThread (threading.Thread):
             except:
             	print ("EXCEPTION " + url)
             	continue
-            city_id = result
+            language_id = result
             #print("[Thread " + str(self.id) + "]\t" + "book " + str(book_id))
             #end_time_get = time.time()
             #total_get_time += end_time_get - start_time_get
@@ -68,7 +60,7 @@ class myThread (threading.Thread):
             # LABEL
             label = ""
             try:
-                label = data['entities'][city_id]["labels"]["en"]["value"]
+                label = data['entities'][language_id]["labels"]["en"]["value"]
                 #print(label)
             except:
                 #print("-- missing label on wikidata--")
@@ -76,49 +68,25 @@ class myThread (threading.Thread):
 
             # DESCRIPTION
             description = ""
-            if ("descriptions" in data['entities'][city_id]["claims"]):
-                if ("en" in data['entities'][city_id]["claims"]["descriptions"]):
-                    description = data['entities'][city_id]["claims"]["descriptions"]["en"]["value"]
-            elif ("descriptions" in data['entities'][city_id]):
-                if ("en" in data['entities'][city_id]["descriptions"]):
-                    description = data['entities'][city_id]["descriptions"]["en"]["value"]
+            if ("descriptions" in data['entities'][language_id]["claims"]):
+                if ("en" in data['entities'][language_id]["claims"]["descriptions"]):
+                    description = data['entities'][language_id]["claims"]["descriptions"]["en"]["value"]
+            elif ("descriptions" in data['entities'][language_id]):
+                if ("en" in data['entities'][language_id]["descriptions"]):
+                    description = data['entities'][language_id]["descriptions"]["en"]["value"]
             else:
                 self.local_statistics[index("no description")] += 1
 
-            # POPULATION
-            population = ""
-            if ("P1082" in data['entities'][city_id]["claims"]):
-                population = (data['entities'][city_id]["claims"]["P1082"][0]["mainsnak"]["datavalue"]["value"]["amount"][1:])
+            # SPEAKERS
+            speakers = ""
+            if ("P1098" in data['entities'][language_id]["claims"]):
+                speakers = (data['entities'][language_id]["claims"]["P1098"][0]["mainsnak"]["datavalue"]["value"]["amount"][1:])
             else:
-                self.local_statistics[index("no population")] += 1
-            
-            
-            # AREA
-            area = ""
-            if ("P2046" in data['entities'][city_id]["claims"]):
-                area = (data['entities'][city_id]["claims"]["P2046"][0]["mainsnak"]["datavalue"]["value"]["amount"][1:])
-            else:
-            	self.local_statistics[index("no area")] += 1
+                self.local_statistics[index("no speakers")] += 1
 
-
-
-   
-            
-            
-            # COUNTRY
-            if ("P17" in data['entities'][city_id]["claims"]):
-            	coun = data['entities'][city_id]["claims"]["P17"][0] #take only the preferred one; assumption: it's the FIRST
-            try:
-            	couns_file_lock.acquire()
-            	file_couns_out.write(str(coun["mainsnak"]["datavalue"]["value"]["id"])+";"+str(city_id)+"\n")
-            	couns_file_lock.release()
-            except:
-                couns_file_lock.release()
-            else:
-                self.local_statistics[index("no country")] += 1
                 
             file_out_lock.acquire()
-            file_out.write(city_id + ";" + label + ";" + description + ";" + area + ";" + population + ";" + city_id +"\n")
+            file_out.write(language_id + ";" + label + ";" + description + ";" + speakers + "\n")
             file_out_lock.release()
 
    def join(self):
@@ -135,14 +103,13 @@ couns_file_lock = threading.Lock()
 total_time=time.time()
 
 #FILES OUTPUT PATH
-file_out_path = "../concepts/City.txt"
-file_log_path = "../log/log_City.txt"
-file_couns_path = "../roles/hasCountry.txt"
+file_out_path = "../concepts/Language.txt"
+file_log_path = "../log/log_Language.txt"
 
 #STATISTICS VARIABLES
 statistics = [0 for x in range(LEN_INDEX)]
 
-#RETRIEVING ALL PUBLISHERs WIKIDATA IDs and QUERY THEM
+#RETRIEVING ALL LANGUAGESs WIKIDATA IDs and QUERY THEM
 languages = []
 with open("../roles/bookWrittenIn.txt", "r")as hp:
 	j = 0
@@ -152,17 +119,43 @@ with open("../roles/bookWrittenIn.txt", "r")as hp:
 			continue
 		lan = line.split(";")[0]
 		languages.append(lan)
+with open("../roles/hasUsedLanguage.txt", "r")as hp:
+	j = 0
+	for line in hp:
+		if j == 0:
+			j += 1
+			continue
+		lan = line.split(";")[0]
+		languages.append(lan)
+try:
+	with open("../roles/speaks.txt", "r")as hp:
+		j = 0
+		for line in hp:
+			if j == 0:
+				j += 1
+				continue
+			lan = line.split(";")[0]
+			languages.append(lan)
+except:
+	pass
+
+
 
 #SAVING TO FILE
 file_log = open(file_log_path, 'w')
 file_out = open(file_out_path, 'w')
-file_couns_out = open(file_couns_path, 'w')
-file_couns_out.write("country_id;" + "city_id" + "\n")
-file_out.write("city_id" + ";" + "label" + ";" + "description" + ";" + "area" + ";" + "population" + ";" + "id" + "\n")
+file_out.write("language_id" + ";" + "label" + ";" + "speakers" + "\n")
 
-n_results = len(cities)
-print("Number of cities: " + str(n_results))
-file_log.write("Number of cities: " + str(n_results) + "\n")
+
+n_results = len(languages)
+print("Number of languages: " + str(n_results))
+print("Number of different languages: " + str(len( set(languages))) + "\n")
+file_log.write("Number of languages: " + str(n_results) + "\n")
+file_log.write("Number of different languages: " + str(len(set(languages))))
+
+languages = list(set(languages)) #i threads indicizzano su questo
+n_results = len(languages)
+
 
 #PARALLEL COMPUTATION INITIALIZATION
 threads = []
@@ -183,7 +176,6 @@ for t in threads:
 
 #CLOSING OUTPUT FILES
 file_out.close()
-file_couns_out.close()
 
 
 #STATISTICS REPORTING
