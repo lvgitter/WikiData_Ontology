@@ -1,0 +1,3 @@
+human_id;label;description;name;sex;DoB;PoB;DoD;PoD;occupations;genres;awards
+Q23766020;Virginia Raggi;Italian politician;Virginia Raggi;female;+1978-07-18T00:00:00Z;Q220;;;politician,lawyer
+Q334155;Sadiq Khan;British politician;Sadiq Khan;male;+1970-10-08T00:00:00Z;Q3495316;;;politician,lawyer

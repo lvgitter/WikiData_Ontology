@@ -1,17 +1,17 @@
 
 
 *** STATISTICS *** 
-no genre        :376  (68.0 %) 
-no award        :282  (51.0 %) 
-no name         :226  (41.0 %) 
+no genre        :215  (68.0 %) 
+no award        :145  (46.0 %) 
+no name         :153  (49.0 %) 
 no surname      :0  (0.0 %) 
-no sex          :2  (0.0 %) 
-no DoB          :18  (3.0 %) 
-no DoD          :141  (25.0 %) 
-no occupation   :10  (2.0 %) 
-no PoB          :398  (71.0 %) 
-no PoD          :150  (27.0 %) 
+no sex          :2  (1.0 %) 
+no DoB          :15  (5.0 %) 
+no DoD          :121  (38.0 %) 
+no occupation   :9  (3.0 %) 
+no PoB          :264  (84.0 %) 
+no PoD          :129  (41.0 %) 
 no influencing author:0  (0.0 %) 
 no label        :0  (0.0 %) 
 no description  :0  (0.0 %) 
-Total_time:	69.61 sec
+Total_time:	18.36 sec

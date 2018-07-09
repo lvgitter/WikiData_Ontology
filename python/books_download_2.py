@@ -251,6 +251,19 @@ class myThread(threading.Thread):
             else:
                 self.local_statistics[index("no first line")] += 1
 
+            # CHARACTERS
+            if ("P674" in data['entities'][book_id]["claims"]):
+                for character in data['entities'][book_id]["claims"]["P674"]:
+                    try:
+                        has_character_lock.acquire()
+                        file_has_character.write(
+                            str(character["mainsnak"]["datavalue"]["value"]["id"]) + ";" + str(book_id) + "\n")
+                        has_character_lock.release()
+                    except:
+                        has_character_lock.release()
+            else:
+                self.local_statistics[index("no author")] += 1
+
             # GENRES
             genres = ""
             if ("P136" in data['entities'][book_id]["claims"]):
@@ -274,7 +287,6 @@ class myThread(threading.Thread):
                 genres = genres[0:-1]
             else:
                 self.local_statistics[index("no genre")] += 1
-
 
             file_out_lock.acquire()
             for g in genres.split(","):
@@ -301,6 +313,7 @@ foreauthors_file_lock = threading.Lock()
 langs_file_lock = threading.Lock()
 ills_file_lock = threading.Lock()
 tras_file_lock = threading.Lock()
+has_character_lock = threading.Lock()
 
 # TIME MEASUREMENTS
 total_time = time.time()
@@ -317,6 +330,7 @@ file_foreauthors_path = "../roles/hasForewordAuthor.txt"
 file_langs_path = "../roles/BookWrittenIn.txt"
 file_ills_path = "../roles/hasIllustrator.txt"
 file_tras_path = "../roles/hasTranslator.txt"
+file_has_characters_path = "../hasCharacter.txt"
 
 # STATISTICS VARIABLES
 statistics = [0 for x in range(LEN_INDEX)]
@@ -357,6 +371,8 @@ file_ills_out = open(file_ills_path, 'w')
 file_ills_out.write("illustror_id;" + "book_id" + "\n")
 file_tras_out = open(file_ills_path, 'w')
 file_tras_out.write("translator_id;" + "book_id" + "\n")
+file_has_character = open(file_has_characters_path, 'w')
+file_tras_out.write("character_id;" + "book_id" + "\n")
 save_obj(genre_dict, "genres")
 
 n_results = len(results["results"]["bindings"])
@@ -388,6 +404,7 @@ file_foreauthors_out.close()
 file_chars_out.close()
 file_locs_out.close()
 file_ills_out.close()
+file_has_character.close()
 # file_log.close()
 
 

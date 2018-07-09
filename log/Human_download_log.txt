@@ -1,0 +1,13 @@
+
+
+*** STATISTICS *** 
+no name         :0  (0.0 %) 
+no sex          :0  (0.0 %) 
+no DoB          :0  (0.0 %) 
+no DoD          :2  (100.0 %) 
+no occupation   :0  (0.0 %) 
+no PoB          :0  (0.0 %) 
+no PoD          :2  (100.0 %) 
+no label        :0  (0.0 %) 
+no description  :0  (0.0 %) 
+Total_time:	0.68 sec

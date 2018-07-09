@@ -256,11 +256,10 @@ class AuthorDownloadThread(threading.Thread):
             if ("P737" in data['entities'][author]["claims"]):
                 for influencing_author  in data['entities'][author]["claims"]["P737"]:
                     try:
-                        influenced_by_lock.acquire()
-                        influenced_by_file.write(author + ";" + influencing_author["mainsnak"]["datavalue"]["value"]["id"] + "\n")
-                        influenced_by_lock.release()
-                        self.influencing_authors = self.influencing_authors.union(set([influencing_author["mainsnak"]["datavalue"]["value"]["id"]]))
-                        
+                        if influencing_author["mainsnak"]["datavalue"]["value"]["id"] in authors:
+                            influenced_by_lock.acquire()
+                            influenced_by_file.write(author + ";" + influencing_author["mainsnak"]["datavalue"]["value"]["id"] + "\n")
+                            influenced_by_lock.release()
                     except:
                         influenced_by_lock.release()
             else:
@@ -272,7 +271,7 @@ class AuthorDownloadThread(threading.Thread):
 
     def join(self):
         Thread.join(self)
-        return (self.local_statistics, self.influencing_authors)
+        return self.local_statistics
 
 
 # LOCKS
@@ -288,14 +287,14 @@ genres_lock = threading.Lock()
 total_time = time.time()
 
 # FILES OUTPUT PATH
-authors_file_path = "concepts/Author.txt"
-authors_id_file_path = "authors.txt"
-afterword_authors_id_file_path = "hasAfterwordAuthor.txt"
-foreword_authors_id_file_path = "hasForewordAuthor.txt"
-influenced_by_file_path = "roles/influencedBy.txt"
-place_of_birth_file_path = "roles/placeOfBirth.txt"
-place_of_death_file_path = "roles/placeOfDeath.txt"
-log_file_path = "log/Author_download_log.txt"
+authors_file_path = "../concepts/Author.txt"
+authors_id_file_path = "../authors.txt"
+afterword_authors_id_file_path = "../roles/hasAfterwordAuthor.txt"
+foreword_authors_id_file_path = "../roles/hasForewordAuthor.txt"
+influenced_by_file_path = "../roles/influencedBy.txt"
+place_of_birth_file_path = "../roles/placeOfBirth.txt"
+place_of_death_file_path = "../roles/placeOfDeath.txt"
+log_file_path = "../log/Author_download_log.txt"
 
 # STATISTICS VARIABLES
 statistics = [0 for x in range(LEN_INDEX)]
@@ -335,8 +334,7 @@ influencing_authors = set()
 n_authors = len(authors)
 print("Number of authors: " + str(n_authors))
 
-# PARALLEL COMPUTATION INITIALIZATION I PASS
-print("\n*** first pass ***\n\n")
+# PARALLEL COMPUTATION
 threads = []
 prec = 0
 step = math.ceil(n_authors / N_THREADS)
@@ -350,29 +348,7 @@ for t in threads:
     t.start()
 
 for t in threads:
-    (statistic, influencing_authors_part) = t.join()
-    statistics = [sum(x) for x in zip(statistics, statistic)]
-    influencing_authors= influencing_authors.union(influencing_authors_part)
-
-
-# PARALLEL COMPUTATION INITIALIZATION II PASS (INFLUENCING AUTHORS)
-print("\n*** second pass ***\n\n")
-authors = list(influencing_authors)
-n_influencing_authors = len(influencing_authors)
-threads = []
-prec = 0
-step = math.ceil(n_influencing_authors / N_THREADS)
-succ = step
-for i in range(N_THREADS):
-    threads.append(AuthorDownloadThread(i, min(prec, n_influencing_authors), min(succ, n_influencing_authors)))
-    prec = succ
-    succ = succ + step
-
-for t in threads:
-    t.start()
-
-for t in threads:
-    statistics = [sum(x) for x in zip(statistics, t.join()[0])]
+    statistics = [sum(x) for x in zip(statistics, t.join())]
 
 
 # CLOSING OUTPUT FILES
@@ -388,10 +364,9 @@ save_obj(genre_dict, 'genres')
 
 # STATISTICS REPORTING
 print("\n\n*** STATISTICS ***\n")
-n = n_authors+n_influencing_authors
 for i in range(len(statistics)):
     print(
-        label(i).ljust(16) + ":" + str(statistics[i]) + "  (" + str(round(statistics[i] / n, 2) * 100) + " %)")
+        label(i).ljust(16) + ":" + str(statistics[i]) + "  (" + str(round(statistics[i] / n_authors, 2) * 100) + " %)")
 
 total_time = time.time() - total_time
 print("Total_time:\t" + str(round(total_time, 2)) + " sec")
@@ -400,7 +375,7 @@ print("Total_time:\t" + str(round(total_time, 2)) + " sec")
 log_file.write("\n\n*** STATISTICS *** \n")
 for i in range(len(statistics)):
     log_file.write(label(i).ljust(16) + ":" + str(statistics[i]) + "  (" + str(
-        round(statistics[i] / n, 2) * 100) + " %) \n")
+        round(statistics[i] / n_authors, 2) * 100) + " %) \n")
 
 log_file.write("Total_time:\t" + str(round(total_time, 2)) + " sec" + "\n")
 

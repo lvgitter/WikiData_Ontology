@@ -1,0 +1,10 @@
+
+
+*** STATISTICS *** 
+no start time   :2  (100.0 %) 
+no end time     :2  (100.0 %) 
+no official residence:1  (50.0 %) 
+no label        :0  (0.0 %) 
+no description  :0  (0.0 %) 
+no human        :0  (0.0 %) 
+Total_time:	0.49 sec

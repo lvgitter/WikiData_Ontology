@@ -2,20 +2,20 @@ Number of results: 480
 
 
 *** STATISTICS *** 
-no title        :303  (63.0 %) 
+no title        :296  (62.0 %) 
 no label        :12  (3.0 %) 
 no description  :0  (0.0 %) 
-no author       :32  (7.000000000000001 %) 
+no author       :433  (90.0 %) 
 multiple author :0  (0.0 %) 
 no genre        :77  (16.0 %) 
-no subtitle     :467  (97.0 %) 
-no first line   :444  (93.0 %) 
+no subtitle     :468  (97.0 %) 
+no first line   :446  (93.0 %) 
 no pub          :227  (47.0 %) 
-no char         :405  (84.0 %) 
-no loc          :408  (85.0 %) 
-no afterauthor  :479  (100.0 %) 
-no foreauthor   :479  (100.0 %) 
-no lang         :85  (18.0 %) 
-no ill          :440  (92.0 %) 
-no tra          :465  (97.0 %) 
-Total_time:	33.58 sec
+no char         :406  (85.0 %) 
+no loc          :412  (86.0 %) 
+no afterauthor  :480  (100.0 %) 
+no foreauthor   :480  (100.0 %) 
+no lang         :82  (17.0 %) 
+no ill          :445  (93.0 %) 
+no tra          :468  (97.0 %) 
+Total_time:	25.44 sec
