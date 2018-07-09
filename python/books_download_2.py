@@ -21,15 +21,14 @@ def index(statistic_name):
         "no genre": 5,
         "no subtitle": 6,
         "no first line": 7,
-        "no id": 8,
-        "no pub": 9,
-        "no char": 10,
-        "no loc": 11,
-        "no afterauthor": 12,
-        "no foreauthor": 13,
-        "no lang": 14,
-        "no ill": 15,
-        "no tra": 16
+        "no pub": 8,
+        "no char": 9,
+        "no loc": 10,
+        "no afterauthor": 11,
+        "no foreauthor": 12,
+        "no lang": 13,
+        "no ill": 14,
+        "no tra": 15
     }
     return switcher[statistic_name]
 
@@ -44,15 +43,14 @@ def label(statistic_id):
         5: "no genre",
         6: "no subtitle",
         7: "no first line",
-        8: "no id",
-        9: "no pub",
-        10: "no char",
-        11: "no loc",
-        12: "no afterauthor",
-        13: "no foreauthor",
-        14: "no lang",
-        15: "no ill",
-        16: "no tra"
+        8: "no pub",
+        9: "no char",
+        10: "no loc",
+        11: "no afterauthor",
+        12: "no foreauthor",
+        13: "no lang",
+        14: "no ill",
+        15: "no tra"
 
     }
     return switcher[statistic_id]
@@ -148,7 +146,7 @@ class myThread(threading.Thread):
             else:
                 self.local_statistics[index("no loc")] += 1
 
-                # CHARACTERS
+            # CHARACTERS
             if ("P674" in data['entities'][book_id]["claims"]):
                 for loc in data['entities'][book_id]["claims"]["P674"]:
                     try:
@@ -277,15 +275,11 @@ class myThread(threading.Thread):
             else:
                 self.local_statistics[index("no genre")] += 1
 
-            # ID
-            id = ""
-            if ("P227" in data['entities'][book_id]["claims"]):
-                id = data['entities'][book_id]["claims"]["P227"][0]["mainsnak"]["datavalue"]["value"]
-            else:
-                self.local_statistics[index("no id")] += 1
+
             file_out_lock.acquire()
-            file_out.write(
-                book_id + ";" + label + ";" + description + ";" + title + ";" + subtitle + ";" + first_line + ";" + genres + ";" + id + "\n")
+            for g in genres.split(","):
+            	file_out.write(
+                book_id + ";" + label + ";" + description + ";" + title + ";" + subtitle + ";" + first_line + ";" + genres + ";" + book_id + "\n")
             file_out_lock.release()
 
     def join(self):
@@ -346,23 +340,23 @@ file_out = open(file_out_path, 'w')
 file_out.write(
     "book_id" + ";" + "label" + ";" + "description" + ";" + "title" + ";" + "subtitle" + ";" + "first_line" + ";" + "genres" + ";" + "id" + "\n")
 file_authors_out = open(file_authors_path, 'w')
-file_authors_out.write("author_id," + "book_id" + "\n")
+file_authors_out.write("author_id;" + "book_id" + "\n")
 file_pubs_out = open(file_pubs_path, 'w')
-file_pubs_out.write("publisher_id," + "book_id" + "\n")
+file_pubs_out.write("publisher_id;" + "book_id" + "\n")
 file_locs_out = open(file_locs_path, 'w')
-file_locs_out.write("location_id," + "book_id" + "\n")
+file_locs_out.write("location_id;" + "book_id" + "\n")
 file_chars_out = open(file_chars_path, 'w')
-file_chars_out.write("character_id," + "book_id" + "\n")
+file_chars_out.write("character_id;" + "book_id" + "\n")
 file_afterauthors_out = open(file_afterauthors_path, 'w')
-file_afterauthors_out.write("afterauthor_id," + "book_id" + "\n")
+file_afterauthors_out.write("afterauthor_id;" + "book_id" + "\n")
 file_foreauthors_out = open(file_foreauthors_path, 'w')
-file_foreauthors_out.write("foreauthor_id," + "book_id" + "\n")
+file_foreauthors_out.write("foreauthor_id;" + "book_id" + "\n")
 file_langs_out = open(file_langs_path, 'w')
-file_langs_out.write("language_id," + "book_id" + "\n")
+file_langs_out.write("language_id;" + "book_id" + "\n")
 file_ills_out = open(file_ills_path, 'w')
-file_ills_out.write("illustror_id," + "book_id" + "\n")
+file_ills_out.write("illustror_id;" + "book_id" + "\n")
 file_tras_out = open(file_ills_path, 'w')
-file_tras_out.write("translator_id," + "book_id" + "\n")
+file_tras_out.write("translator_id;" + "book_id" + "\n")
 save_obj(genre_dict, "genres")
 
 n_results = len(results["results"]["bindings"])

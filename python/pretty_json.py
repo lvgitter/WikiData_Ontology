@@ -1,4 +1,4 @@
 import json
-with open('oliver_twist_Q164974.json', 'r') as handle:
+with open('/home/lv/Desktop/Q84.json', 'r') as handle, open("prettified_json_file.txt", "w") as pp:
 	parsed = json.load(handle)
-print(json.dumps(parsed, indent=4, sort_keys=False))
+	pp.write(json.dumps(parsed, indent=4, sort_keys=False))

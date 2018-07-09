@@ -12,22 +12,20 @@ LEN_INDEX = 6
 def index(statistic_name):
     switcher = {
         "no population":0,
-        "no id":1,
-        "no city":2,
-        "no area":3,
-        "no label":4,
-        "no description":5
+        "no area":1,
+        "no label":2,
+        "no description":3,
+        "no country":4
     }
     return switcher[statistic_name]
 
 def label(statistic_id):
     switcher = {
-        0:"no inception",
-        1:"no id",
-        2:"no city",
-        3:"no founder",
-        4:"no label",
-        5:"no description
+        0:"no population",
+        1:"no area",
+        2:"no label",
+        3:"no description,
+        4:"no country"
     }
     return switcher[statistic_id]
 
@@ -51,7 +49,7 @@ class myThread (threading.Thread):
                 print("[Thread "+str(self.id)+"]\t"+"book "+str(j-self.res_min+1)+"/"+str(self.res_max-self.res_min))
 
 
-            result = publishers[j]
+            result = cities[j]
             url = "https://www.wikidata.org/wiki/Special:EntityData/" + result +".json"
             #start_time_get = time.time()
             response = requests.get(url) #timeout
@@ -60,7 +58,7 @@ class myThread (threading.Thread):
             except:
             	print ("EXCEPTION " + url)
             	continue
-            pub_id = result
+            city_id = result
             #print("[Thread " + str(self.id) + "]\t" + "book " + str(book_id))
             #end_time_get = time.time()
             #total_get_time += end_time_get - start_time_get
@@ -68,7 +66,7 @@ class myThread (threading.Thread):
             # LABEL
             label = ""
             try:
-                label = data['entities'][pub_id]["labels"]["en"]["value"]
+                label = data['entities'][city_id]["labels"]["en"]["value"]
                 #print(label)
             except:
                 #print("-- missing label on wikidata--")
@@ -76,106 +74,88 @@ class myThread (threading.Thread):
 
             # DESCRIPTION
             description = ""
-            if ("descriptions" in data['entities'][pub_id]["claims"]):
-                if ("en" in data['entities'][pub_id]["claims"]["descriptions"]):
-                    description = data['entities'][pub_id]["claims"]["descriptions"]["en"]["value"]
-            elif ("descriptions" in data['entities'][pub_id]):
-                if ("en" in data['entities'][pub_id]["descriptions"]):
-                    description = data['entities'][pub_id]["descriptions"]["en"]["value"]
+            if ("descriptions" in data['entities'][city_id]["claims"]):
+                if ("en" in data['entities'][city_id]["claims"]["descriptions"]):
+                    description = data['entities'][city_id]["claims"]["descriptions"]["en"]["value"]
+            elif ("descriptions" in data['entities'][city_id]):
+                if ("en" in data['entities'][city_id]["descriptions"]):
+                    description = data['entities'][city_id]["descriptions"]["en"]["value"]
             else:
                 self.local_statistics[index("no description")] += 1
 
-            # INCEPTION
-            inception = ""
-            if ("P571" in data['entities'][pub_id]["claims"]):
-                inception = (data['entities'][pub_id]["claims"]["P571"][0]["mainsnak"]["datavalue"]["value"]["time"].split("-")[0][1:])
+            # POPULATION
+            population = ""
+            if ("P1082" in data['entities'][author]["claims"]):
+                name = (data['entities'][author]["claims"]["P1082"][0]["mainsnak"]["datavalue"]["value"]["text"])
             else:
-                self.local_statistics[index("no inception")] += 1
+                self.local_statistics[index("no population")] += 1
             
             
-            # ID
-            id = ""
-            if ("P227" in data['entities'][pub_id]["claims"]):
-                id = data['entities'][pub_id]["claims"]["P227"][0]["mainsnak"]["datavalue"]["value"]
+            # AREA
+            area = ""
+            if ("P2046" in data['entities'][author]["claims"]):
+                name = (data['entities'][author]["claims"]["P2046"][0]["mainsnak"]["datavalue"]["value"]["text"])
             else:
-                self.local_statistics[index("no id")] += 1
+
+
+
+   
+            
+            
+            # COUNTRY
+            if ("P17" in data['entities'][city_id]["claims"]):
+                coun = data['entities'][city_id]["claims"]["P17"][0] #take only the preferred one; assumption: it's the FIRST
+                try:
+                    couns_file_lock.acquire()
+                    file_couns_out.write(str(coun["mainsnak"]["datavalue"]["value"]["id"])+";"+str(city_id)+"\n")
+                    couns_file_lock.release()
+                except:
+                    couns_file_lock.release()
+            else:
+                self.local_statistics[index("no country")] += 1
+                
             file_out_lock.acquire()
-            file_out.write(pub_id + ";" + label + ";" + description + ";" + inception + ";" + id +"\n")
+            file_out.write(city_id + ";" + label + ";" + description + ";" + inception + ";" + city_id +"\n")
             file_out_lock.release()
-            
-            
-            
-            # LOCATION (COUNTRY)
-            if ("P17" in data['entities'][pub_id]["claims"]):
-                for loc in data['entities'][pub_id]["claims"]["P17"]:
-                    try:
-                        locs_file_lock.acquire()
-                        file_locs_out.write(str(author["mainsnak"]["datavalue"]["value"]["id"])+","+str(pub_id)+"\n")
-                        locs_file_lock.release()
-                    except:
-                        locs_file_lock.release()
-            else:
-                self.local_statistics[index("no loc")] += 1
-            
-            
-            # FOUNDER (HUMAN)
-            if ("P112" in data['entities'][pub_id]["claims"]):
-                for fou in data['entities'][pub_id]["claims"]["P112"]:
-                    try:
-                        fous_file_lock.acquire()
-                        file_fous_out.write(str(author["mainsnak"]["datavalue"]["value"]["id"])+","+str(pub_id)+"\n")
-                        fous_file_lock.release()
-                    except:
-                        fous_file_lock.release()
-            else:
-                self.local_statistics[index("no founder")] += 1
 
    def join(self):
        Thread.join(self)
        return self.local_statistics
 
 #LOCKS
-genres_lock = threading.Lock()
 file_out_lock = threading.Lock()
 file_log_lock = threading.Lock()
 statistics_lock = threading.Lock()
-fous_file_lock = threading.Lock()
-locs_file_lock = threading.Lock()
+couns_file_lock = threading.Lock()
 
 #TIME MEASUREMENTS
 total_time=time.time()
 
 #FILES OUTPUT PATH
-file_out_path = "Publisher.txt"
-file_log_path = "log_Publisher.txt"
-file_locs_path = "locatedIn.txt"
-file_fous_path = "foundedBy.txt"
+file_out_path = "City.txt"
+file_log_path = "log_City.txt"
+file_couns_path = "hasCountry.txt"
 
 #STATISTICS VARIABLES
 statistics = [0 for x in range(LEN_INDEX)]
 
-#GENRE CONVERSION
-genre_dict = {}  #genre widata id to label
-
 #RETRIEVING ALL PUBLISHERs WIKIDATA IDs and QUERY THEM
-publishers = []
-with open("hasPublisher.txt", "r")as hp:
+cities = []
+with open("hasLocation.txt", "r")as hp:
 	j = 0
 	for line in hp:
 		if j == 0:
 			j += 1
 			continue
-		pub = line.split(",")[0]
-		publishers.append(pub)
+		city = line.split(";")[0]
+		cities.append(city)
 
 #SAVING TO FILE
 file_log = open(file_log_path, 'w')
 file_out = open(file_out_path, 'w')
-file_locs_out = open(file_locs_path, 'w')
-file_locs_out.write("country_id," + "publisher_id" + "\n")
-file_fous_out = open(file_out_path, 'w')
-file_fous_out.write("founder_id," + "publisher_id" + "\n")
-file_out.write("publisher_id" + ";" + "label" + ";" + "description" + ";" + "inception" + ";" + "id" + "\n")
+file_couns_out = open(file_couns_path, 'w')
+file_couns_out.write("country_id," + "city_id" + "\n")
+file_out.write("city_id" + ";" + "label" + ";" + "description" + ";" + "area" + ";" + "population" + ";" + "id" + "\n")
 
 n_results = len(publishers)
 print("Number of publishers: " + str(n_results))

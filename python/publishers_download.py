@@ -12,33 +12,22 @@ LEN_INDEX = 6
 def index(statistic_name):
     switcher = {
         "no inception":0,
-        "no id":1,
-        "no loc":2,
-        "no founder":3,
-        "no label":4,
-        "no description":5
+        "no loc":1,
+        "no founder":2,
+        "no label":3,
+        "no description":4
     }
     return switcher[statistic_name]
 
 def label(statistic_id):
     switcher = {
         0:"no inception",
-        1:"no id",
-        2:"no loc",
-        3:"no founder",
-        4:"no label",
-        5:"no description"
+        1:"no loc",
+        2:"no founder",
+        3:"no label",
+        4:"no description"
     }
     return switcher[statistic_id]
-
-
-def load_obj(name ):
-    with open('obj/' + name + '.pkl', 'rb') as f:
-        return pickle.load(f)
-
-def save_obj(obj, name):
-    with open('obj/' + name + '.pkl', 'wb') as f:
-        pickle.dump(obj, f, pickle.HIGHEST_PROTOCOL)
 
 #THREAD DEFINITION
 class myThread (threading.Thread):
@@ -99,17 +88,7 @@ class myThread (threading.Thread):
                 inception = (data['entities'][pub_id]["claims"]["P571"][0]["mainsnak"]["datavalue"]["value"]["time"].split("-")[0][1:])
             else:
                 self.local_statistics[index("no inception")] += 1
-            
-            
-            # ID
-            id = ""
-            if ("P227" in data['entities'][pub_id]["claims"]):
-                id = data['entities'][pub_id]["claims"]["P227"][0]["mainsnak"]["datavalue"]["value"]
-            else:
-                self.local_statistics[index("no id")] += 1
-            file_out_lock.acquire()
-            file_out.write(pub_id + ";" + label + ";" + description + ";" + inception + ";" + id +"\n")
-            file_out_lock.release()
+         
             
             
             
@@ -118,7 +97,7 @@ class myThread (threading.Thread):
                 for loc in data['entities'][pub_id]["claims"]["P17"]:
                     try:
                         locs_file_lock.acquire()
-                        file_locs_out.write(str(author["mainsnak"]["datavalue"]["value"]["id"])+","+str(pub_id)+"\n")
+                        file_locs_out.write(str(loc["mainsnak"]["datavalue"]["value"]["id"])+";"+str(pub_id)+"\n")
                         locs_file_lock.release()
                     except:
                         locs_file_lock.release()
@@ -131,12 +110,16 @@ class myThread (threading.Thread):
                 for fou in data['entities'][pub_id]["claims"]["P112"]:
                     try:
                         fous_file_lock.acquire()
-                        file_fous_out.write(str(author["mainsnak"]["datavalue"]["value"]["id"])+","+str(pub_id)+"\n")
+                        file_fous_out.write(str(fou["mainsnak"]["datavalue"]["value"]["id"])+";"+str(pub_id)+"\n")
                         fous_file_lock.release()
                     except:
                         fous_file_lock.release()
             else:
                 self.local_statistics[index("no founder")] += 1
+                
+            file_out_lock.acquire()
+            file_out.write(pub_id + ";" + label + ";" + description + ";" + inception + ";" + pub_id +"\n")
+            file_out_lock.release()
 
    def join(self):
        Thread.join(self)
@@ -173,16 +156,16 @@ with open("hasPublisher.txt", "r")as hp:
 		if j == 0:
 			j += 1
 			continue
-		pub = line.split(",")[0]
+		pub = line.split(";")[0]
 		publishers.append(pub)
 
 #SAVING TO FILE
 file_log = open(file_log_path, 'w')
 file_out = open(file_out_path, 'w')
 file_locs_out = open(file_locs_path, 'w')
-file_locs_out.write("country_id," + "publisher_id" + "\n")
+file_locs_out.write("country_id;" + "publisher_id" + "\n")
 file_fous_out = open(file_out_path, 'w')
-file_fous_out.write("founder_id," + "publisher_id" + "\n")
+file_fous_out.write("founder_id;" + "publisher_id" + "\n")
 file_out.write("publisher_id" + ";" + "label" + ";" + "description" + ";" + "inception" + ";" + "id" + "\n")
 
 n_results = len(publishers)
