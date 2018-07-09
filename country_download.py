@@ -11,10 +11,10 @@ LEN_INDEX = 6
 
 def index(statistic_name):
     switcher = {
-        "no inception":0,
+        "no population":0,
         "no id":1,
-        "no loc":2,
-        "no founder":3,
+        "no city":2,
+        "no area":3,
         "no label":4,
         "no description":5
     }
@@ -24,7 +24,7 @@ def label(statistic_id):
     switcher = {
         0:"no inception",
         1:"no id",
-        2:"no loc",
+        2:"no city",
         3:"no founder",
         4:"no label",
         5:"no description
