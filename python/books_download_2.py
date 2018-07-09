@@ -10,7 +10,7 @@ import random
 import pickle
 
 N_THREADS = 16
-LEN_INDEX = 17
+LEN_INDEX = 18
 
 
 def index(statistic_name):
@@ -31,7 +31,8 @@ def index(statistic_name):
         "no lang": 13,
         "no ill": 14,
         "no editions": 15,
-        "no series": 16
+        "no series": 16,
+        "no follower":17
     }
     return switcher[statistic_name]
 
@@ -54,7 +55,8 @@ def label(statistic_id):
         13: "no lang",
         14: "no ill",
         15: "no editions",
-        16: "no series"
+        16: "no series",
+        17:"no follower"
 
     }
     return switcher[statistic_id]
@@ -235,7 +237,7 @@ class myThread(threading.Thread):
                 self.local_statistics[index("no lang")] += 1
 
 
-			# EDITION
+            # EDITION
             if ("P747" in data['entities'][book_id]["claims"]):
                 for edit in data['entities'][book_id]["claims"]["P747"]:
                     try:
@@ -262,7 +264,6 @@ class myThread(threading.Thread):
                 first_line = data['entities'][book_id]["claims"]["P1922"][0]["mainsnak"]["datavalue"]["value"]["text"]
             else:
                 self.local_statistics[index("no first line")] += 1
-<<<<<<< HEAD
 
             # CHARACTERS
             if ("P674" in data['entities'][book_id]["claims"]):
@@ -277,9 +278,7 @@ class myThread(threading.Thread):
             else:
                 self.local_statistics[index("no author")] += 1
 
-=======
-			
-			# SERIES
+            # SERIES
             series_name = ""
             if ("P179" in data['entities'][book_id]["claims"]):
                 for ser in data['entities'][book_id]["claims"]["P179"]:
@@ -302,18 +301,17 @@ class myThread(threading.Thread):
                 self.local_statistics[index("no series")] += 1
                 
             if (series_name != ""):
-            	if ("qualifiers" in ser and "P156" in ser['qualifiers']):
-            		foll = ser['qualifiers']["P156"][0]["datavalue"]["value"]["id"]
-            		try:
-			            folls_file_lock.acquire()
-			            file_folls_out.write(str(foll) + ";" + str(book_id) + "\n")
-			            folls_file_lock.release()
+                if ("qualifiers" in ser and "P156" in ser['qualifiers']):
+                    foll = ser['qualifiers']["P156"][0]["datavalue"]["value"]["id"]
+                    try:
+                        folls_file_lock.acquire()
+                        file_folls_out.write(str(foll) + ";" + str(book_id) + "\n")
+                        folls_file_lock.release()
                     except:
-			        	folls_file_lock.release()
-			else:
-			    self.local_statistics[index("no follower")] += 1
-			
->>>>>>> 889e5810c758c5c979b2e131df0109197d204c5a
+                        folls_file_lock.release()
+            else:
+                self.local_statistics[index("no follower")] += 1
+
             # GENRES
             genres = ""
             if ("P136" in data['entities'][book_id]["claims"]):
@@ -363,12 +361,9 @@ foreauthors_file_lock = threading.Lock()
 langs_file_lock = threading.Lock()
 ills_file_lock = threading.Lock()
 tras_file_lock = threading.Lock()
-<<<<<<< HEAD
 has_character_lock = threading.Lock()
-=======
 edits_file_lock = threading.Lock()
 folls_file_lock = threading.Lock()
->>>>>>> 889e5810c758c5c979b2e131df0109197d204c5a
 
 # TIME MEASUREMENTS
 total_time = time.time()
@@ -384,13 +379,11 @@ file_afterauthors_path = "../roles/hasAfterwordAuthor.txt"
 file_foreauthors_path = "../roles/hasForewordAuthor.txt"
 file_langs_path = "../roles/bookWrittenIn.txt"
 file_ills_path = "../roles/hasIllustrator.txt"
-<<<<<<< HEAD
 file_tras_path = "../roles/hasTranslator.txt"
 file_has_characters_path = "../hasCharacter.txt"
-=======
 file_edits_path = "../roles/hasEdition.txt"
 file_folls_path = "../roles/follows.txt"
->>>>>>> 889e5810c758c5c979b2e131df0109197d204c5a
+
 
 # STATISTICS VARIABLES
 statistics = [0 for x in range(LEN_INDEX)]
@@ -398,14 +391,14 @@ statistics = [0 for x in range(LEN_INDEX)]
 # GENRE CONVERSION
 
 try:
-	genre_dict = load_obj("genres")
+    genre_dict = load_obj("genres")
 except:
-	genre_dict = {}
-	
+    genre_dict = {}
+
 try:
-	series_dict = load_obj("series")
+    series_dict = load_obj("series")
 except:
-	series_dict = {}
+    series_dict = {}
 
 genre_dict = {}  # genre widata id to label
 series_dict = {}
@@ -441,17 +434,14 @@ file_langs_out = open(file_langs_path, 'w')
 file_langs_out.write("language_id;" + "book_id" + "\n")
 file_ills_out = open(file_ills_path, 'w')
 file_ills_out.write("illustror_id;" + "book_id" + "\n")
-<<<<<<< HEAD
 file_tras_out = open(file_ills_path, 'w')
 file_tras_out.write("translator_id;" + "book_id" + "\n")
 file_has_character = open(file_has_characters_path, 'w')
 file_tras_out.write("character_id;" + "book_id" + "\n")
-=======
 file_edits_out = open(file_edits_path, 'w')
 file_edits_out.write("edition_id;" + "book_id" + "\n")
 file_folls_out = open(file_folls_path, 'w')
 file_folls_out.write("follower_id;" + "book_id" + "\n")
->>>>>>> 889e5810c758c5c979b2e131df0109197d204c5a
 save_obj(genre_dict, "genres")
 save_obj(series_dict, "series")
 
@@ -484,12 +474,9 @@ file_foreauthors_out.close()
 file_chars_out.close()
 file_locs_out.close()
 file_ills_out.close()
-<<<<<<< HEAD
 file_has_character.close()
-=======
 file_edits_out.close()
 file_folls_out.close()
->>>>>>> 889e5810c758c5c979b2e131df0109197d204c5a
 # file_log.close()
 
 

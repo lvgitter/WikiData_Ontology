@@ -1,24 +1,23 @@
-<<<<<<< HEAD
 Number of results: 480
 
 
 *** STATISTICS *** 
-no title        :296  (62.0 %) 
+no title        :294  (61.0 %) 
 no label        :12  (3.0 %) 
 no description  :0  (0.0 %) 
-no author       :433  (90.0 %) 
+no author       :420  (88.0 %) 
 multiple author :0  (0.0 %) 
-no genre        :77  (16.0 %) 
-no subtitle     :468  (97.0 %) 
-no first line   :446  (93.0 %) 
-no pub          :227  (47.0 %) 
-no char         :406  (85.0 %) 
-no loc          :412  (86.0 %) 
-no afterauthor  :480  (100.0 %) 
-no foreauthor   :480  (100.0 %) 
-no lang         :82  (17.0 %) 
-no ill          :445  (93.0 %) 
-no tra          :468  (97.0 %) 
-Total_time:	25.44 sec
-=======
->>>>>>> 889e5810c758c5c979b2e131df0109197d204c5a
+no genre        :74  (15.0 %) 
+no subtitle     :447  (93.0 %) 
+no first line   :429  (89.0 %) 
+no pub          :223  (46.0 %) 
+no char         :389  (81.0 %) 
+no loc          :394  (82.0 %) 
+no afterauthor  :459  (96.0 %) 
+no foreauthor   :459  (96.0 %) 
+no lang         :80  (17.0 %) 
+no ill          :421  (88.0 %) 
+no editions     :392  (82.0 %) 
+no series       :412  (86.0 %) 
+no follower     :412  (86.0 %) 
+Total_time:	33.87 sec
