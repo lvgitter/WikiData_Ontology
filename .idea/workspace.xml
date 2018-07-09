@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f9c1132-1bf9-4d35-a890-1b8aab879b41" name="Default" comment="" />
+    <list default="true" id="9f9c1132-1bf9-4d35-a890-1b8aab879b41" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/books_download_2.py" afterPath="$PROJECT_DIR$/books_download_2.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,26 +14,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="books_download.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/books_download.py">
+      <file leaf-file-name="authors_download.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/authors_download.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1159">
-              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-              <folding>
-                <element signature="e#69#114#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="books_download_2.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/books_download_2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="61" column="49" lean-forward="false" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
+            <state relative-caret-position="-911">
+              <caret line="249" column="46" lean-forward="true" selection-start-line="249" selection-start-column="46" selection-end-line="249" selection-end-column="46" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
-                <element signature="e#495#763#0" expanded="false" />
+                <element signature="e#615#971#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -49,10 +40,28 @@
     <findStrings>
       <find>without</find>
       <find>json</find>
+      <find>file_log</find>
+      <find>book_id</find>
+      <find>genre</find>
+      <find>occupation</find>
+      <find>awards_dict</find>
+      <find>P21</find>
+      <find>place_of_birth</find>
+      <find>name</find>
+      <find>n_authors</find>
+      <find>influencing_authors</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>str(without)</replace>
+      <replace>log_file</replace>
+      <replace>author</replace>
+      <replace>occupation</replace>
+      <replace>award</replace>
+      <replace>award_dict</replace>
+      <replace>influencing_author</replace>
+      <replace>influenced_by</replace>
+      <replace>n_influencing_authors</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -67,6 +76,7 @@
         <option value="$PROJECT_DIR$/split_wikidata.py" />
         <option value="$PROJECT_DIR$/books_download.py" />
         <option value="$PROJECT_DIR$/books_download_2.py" />
+        <option value="$PROJECT_DIR$/authors_download.py" />
       </list>
     </option>
   </component>
@@ -75,7 +85,7 @@
     <option name="height" value="900" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -88,7 +98,21 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WikidataProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WikidataProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -106,7 +130,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.books_download_2">
+  <component name="RunManager" selected="Python.authors_download">
+    <configuration name="authors_download" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WikidataProject" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/authors_download.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="books_download" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -137,23 +178,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="WikidataProject" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/books_download_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="filter_articles_entity_wikidata" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="WikidataProject" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/filter_articles_entity_wikidata.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,18 +218,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.filter_wikidata_entity" />
-      <item index="1" class="java.lang.String" itemvalue="Python.filter_articles_entity_wikidata" />
-      <item index="2" class="java.lang.String" itemvalue="Python.split_wikidata" />
-      <item index="3" class="java.lang.String" itemvalue="Python.books_download" />
-      <item index="4" class="java.lang.String" itemvalue="Python.books_download_2" />
+      <item index="1" class="java.lang.String" itemvalue="Python.split_wikidata" />
+      <item index="2" class="java.lang.String" itemvalue="Python.books_download" />
+      <item index="3" class="java.lang.String" itemvalue="Python.books_download_2" />
+      <item index="4" class="java.lang.String" itemvalue="Python.authors_download" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.books_download_2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.books_download" />
-        <item index="2" class="java.lang.String" itemvalue="Python.split_wikidata" />
-        <item index="3" class="java.lang.String" itemvalue="Python.filter_wikidata_entity" />
-        <item index="4" class="java.lang.String" itemvalue="Python.filter_articles_entity_wikidata" />
+        <item index="0" class="java.lang.String" itemvalue="Python.authors_download" />
+        <item index="1" class="java.lang.String" itemvalue="Python.books_download_2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.books_download" />
+        <item index="3" class="java.lang.String" itemvalue="Python.split_wikidata" />
+        <item index="4" class="java.lang.String" itemvalue="Python.filter_wikidata_entity" />
       </list>
     </recent_temporary>
   </component>
@@ -227,8 +251,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20069444" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -258,13 +283,38 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/authors_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5776">
+          <caret line="304" column="36" lean-forward="false" selection-start-line="304" selection-start-column="36" selection-end-line="304" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#615#971#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/books_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/books_download_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="79" column="49" lean-forward="false" selection-start-line="79" selection-start-column="49" selection-end-line="79" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/books_download.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1159">
           <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding>
-            <element signature="e#69#114#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -274,7 +324,6 @@
           <caret line="181" column="0" lean-forward="true" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-            <element signature="e#495#763#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -283,9 +332,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1159">
           <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding>
-            <element signature="e#69#114#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -295,7 +341,6 @@
           <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-            <element signature="e#495#763#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -304,9 +349,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#69#114#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -315,9 +357,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding>
-            <element signature="e#69#114#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -333,21 +372,28 @@
     <entry file="file://$PROJECT_DIR$/filter_english_wikidata_entity.py" />
     <entry file="file://$PROJECT_DIR$/books_download.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1159">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding>
-            <element signature="e#69#114#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="380">
+          <caret line="20" column="58" lean-forward="false" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/books_download_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="61" column="49" lean-forward="false" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
+        <state relative-caret-position="-3835">
+          <caret line="88" column="16" lean-forward="false" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-            <element signature="e#495#763#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authors_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-911">
+          <caret line="249" column="46" lean-forward="true" selection-start-line="249" selection-start-column="46" selection-end-line="249" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#615#971#0" expanded="false" />
           </folding>
         </state>
       </provider>
