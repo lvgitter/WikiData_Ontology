@@ -1,21 +1,21 @@
-Number of results: 960
+Number of results: 480
 
 
 *** STATISTICS *** 
-no title        :459  (48.0 %) 
-no label        :22  (2.0 %) 
+no title        :303  (63.0 %) 
+no label        :12  (3.0 %) 
 no description  :0  (0.0 %) 
-no author       :43  (4.0 %) 
+no author       :32  (7.000000000000001 %) 
 multiple author :0  (0.0 %) 
-no genre        :119  (12.0 %) 
-no subtitle     :694  (72.0 %) 
-no first line   :678  (71.0 %) 
-no pub          :344  (36.0 %) 
-no char         :612  (64.0 %) 
-no loc          :615  (64.0 %) 
-no afterauthor  :709  (74.0 %) 
-no foreauthor   :709  (74.0 %) 
-no lang         :143  (15.0 %) 
-no ill          :656  (68.0 %) 
-no tra          :695  (72.0 %) 
-Total_time:	150.51 sec
+no genre        :77  (16.0 %) 
+no subtitle     :467  (97.0 %) 
+no first line   :444  (93.0 %) 
+no pub          :227  (47.0 %) 
+no char         :405  (84.0 %) 
+no loc          :408  (85.0 %) 
+no afterauthor  :479  (100.0 %) 
+no foreauthor   :479  (100.0 %) 
+no lang         :85  (18.0 %) 
+no ill          :440  (92.0 %) 
+no tra          :465  (97.0 %) 
+Total_time:	33.58 sec

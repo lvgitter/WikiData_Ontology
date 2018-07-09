@@ -24,7 +24,7 @@ def label(statistic_id):
         0:"no population",
         1:"no area",
         2:"no label",
-        3:"no description,
+        3:"no description",
         4:"no country"
     }
     return switcher[statistic_id]
@@ -45,8 +45,8 @@ class myThread (threading.Thread):
         for j in range(self.res_min, self.res_max):
             time.sleep(random.random()*0.1)
             count += 1
-            if (count%10 == 0): #to modify?
-                print("[Thread "+str(self.id)+"]\t"+"book "+str(j-self.res_min+1)+"/"+str(self.res_max-self.res_min))
+            if (count%5 == 0): #to modify?
+                print("[Thread "+str(self.id)+"]\t"+"city "+str(j-self.res_min+1)+"/"+str(self.res_max-self.res_min))
 
 
             result = cities[j]
@@ -85,17 +85,18 @@ class myThread (threading.Thread):
 
             # POPULATION
             population = ""
-            if ("P1082" in data['entities'][author]["claims"]):
-                name = (data['entities'][author]["claims"]["P1082"][0]["mainsnak"]["datavalue"]["value"]["text"])
+            if ("P1082" in data['entities'][city_id]["claims"]):
+                population = (data['entities'][city_id]["claims"]["P1082"][0]["mainsnak"]["datavalue"]["value"]["amount"][1:])
             else:
                 self.local_statistics[index("no population")] += 1
             
             
             # AREA
             area = ""
-            if ("P2046" in data['entities'][author]["claims"]):
-                name = (data['entities'][author]["claims"]["P2046"][0]["mainsnak"]["datavalue"]["value"]["text"])
+            if ("P2046" in data['entities'][city_id]["claims"]):
+                area = (data['entities'][city_id]["claims"]["P2046"][0]["mainsnak"]["datavalue"]["value"]["amount"][1:])
             else:
+            	self.local_statistics[index("no area")] += 1
 
 
 
@@ -104,18 +105,18 @@ class myThread (threading.Thread):
             
             # COUNTRY
             if ("P17" in data['entities'][city_id]["claims"]):
-                coun = data['entities'][city_id]["claims"]["P17"][0] #take only the preferred one; assumption: it's the FIRST
-                try:
-                    couns_file_lock.acquire()
-                    file_couns_out.write(str(coun["mainsnak"]["datavalue"]["value"]["id"])+";"+str(city_id)+"\n")
-                    couns_file_lock.release()
-                except:
-                    couns_file_lock.release()
+            	coun = data['entities'][city_id]["claims"]["P17"][0] #take only the preferred one; assumption: it's the FIRST
+            try:
+            	couns_file_lock.acquire()
+            	file_couns_out.write(str(coun["mainsnak"]["datavalue"]["value"]["id"])+";"+str(city_id)+"\n")
+            	couns_file_lock.release()
+            except:
+                couns_file_lock.release()
             else:
                 self.local_statistics[index("no country")] += 1
                 
             file_out_lock.acquire()
-            file_out.write(city_id + ";" + label + ";" + description + ";" + inception + ";" + city_id +"\n")
+            file_out.write(city_id + ";" + label + ";" + description + ";" + area + ";" + population + ";" + city_id +"\n")
             file_out_lock.release()
 
    def join(self):
@@ -154,12 +155,12 @@ with open("../roles/hasLocation.txt", "r")as hp:
 file_log = open(file_log_path, 'w')
 file_out = open(file_out_path, 'w')
 file_couns_out = open(file_couns_path, 'w')
-file_couns_out.write("country_id," + "city_id" + "\n")
+file_couns_out.write("country_id;" + "city_id" + "\n")
 file_out.write("city_id" + ";" + "label" + ";" + "description" + ";" + "area" + ";" + "population" + ";" + "id" + "\n")
 
-n_results = len(publishers)
-print("Number of publishers: " + str(n_results))
-file_log.write("Number of publishers: " + str(n_results) + "\n")
+n_results = len(cities)
+print("Number of cities: " + str(n_results))
+file_log.write("Number of cities: " + str(n_results) + "\n")
 
 #PARALLEL COMPUTATION INITIALIZATION
 threads = []
@@ -180,8 +181,7 @@ for t in threads:
 
 #CLOSING OUTPUT FILES
 file_out.close()
-file_locs_out.close()
-file_fous_out.close()
+file_couns_out.close()
 
 
 #STATISTICS REPORTING

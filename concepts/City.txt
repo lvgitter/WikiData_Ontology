@@ -1,0 +1,130 @@
+city_id;label;description;area;population;id
+Q23066;Cumbria;county in England;718247.24;499858;Q23066
+Q1248783;A'Tuin;;;;Q1248783
+Q10944852;Essos;;;;Q10944852
+Q13156901;National Maternity Hospital, Dublin;;;;Q13156901
+Q27044157;Privet Drive;;;;Q27044157
+Q3276444;Little Hangleton;fictional location in Harry Potter;;;Q3276444
+Q7417543;Sandymount Strand;;;;Q7417543
+Q1054923;British Hong Kong;former Crown colony and British dependent territory in Southeast Asia;;;Q1054923
+Q18389;New England;region in the northeastern parts of the United States consisting consisting of the federated states of Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island and Vermont;71991.8;;Q18389
+Q15299049;Hogwarts grounds;fictional area in the Harry Potter universe;;;Q15299049
+Q19915510;Variety Theater;;;;Q19915510
+Q27924622;Hogwarts Castle;fictional building in the Harry Potter universe;;;Q27924622
+Q20;Norway;constitutional monarchy in Northern Europe;385207;5124383;Q20
+Q668;India;federal republic in southern Asia;3287263;1263200000;Q668
+Q84;London;capital of England and the United Kingdom;1572;8787892;Q84
+Q28601860;#7 Eccles street;fictional home of Leopold Bloom in James Joyce's Ulysses;;;Q28601860
+Q3360786;Number 12, Grimmauld Place;;;;Q3360786
+Q181306;Digne-les-Bains;commune in Alpes-de-Haute-Provence, France;117.07;16512;Q181306
+Q1263215;Glasnevin Cemetery;cemetery in Glasnevin, Dublin, Ireland; largest non-denominational cemetery in the country;50;;Q1263215
+Q902997;Forest of Dean;geographical, historical and cultural region in Gloucestershire, England;;;Q902997
+Q1003997;Judea;Roman province;;;Q1003997
+Q220;Rome;capital city of Italy;1287.36;518917;Q220
+Q21;England;country in north-west Europe, part of the United Kingdom;130278.43;53012456;Q21
+Q834374;Diagon Alley;fictional street in the Harry Potter universe;;;Q834374
+Q1321735;Chamber of Secrets;;;;Q1321735
+Q90;Paris;capital city of France;105.4;2240621;Q90
+Q834374;Diagon Alley;fictional street in the Harry Potter universe;;;Q834374
+Q90;Paris;capital city of France;105.4;2240621;Q90
+Q29;Spain;constitutional monarchy in Southwest Europe;505990;30455000;Q29
+Q934381;Macondo;fictional town created by Gabriel García Márquez;;;Q934381
+Q27924622;Hogwarts Castle;fictional building in the Harry Potter universe;;;Q27924622
+Q213344;Montreuil;commune in Pas-de-Calais, France;2.85;2148;Q213344
+Q4404475;Garden Aquarium;;;;Q4404475
+Q14834627;Treasure Island;fictional Island;;;Q14834627
+Q5500969;Freeman's Journal;;;;Q5500969
+Q27924622;Hogwarts Castle;fictional building in the Harry Potter universe;;;Q27924622
+Q2481438;Forbidden Forest;fictional forest in the Harry Potter universe;;;Q2481438
+Q15299049;Hogwarts grounds;fictional area in the Harry Potter universe;;;Q15299049
+Q62;San Francisco;consolidated city-county in California, United States;600.592202;805235;Q62
+Q99;California;state of the United States;423970.0;33871648;Q99
+Q27;Ireland;republic covering major parts of the island of Ireland;70274.147397;4761865;Q27
+Q30;United States of America;federal republic in North America;9826675;323952889;Q30
+Q84;London;capital of England and the United Kingdom;1572;8787892;Q84
+Q128499;Yalta;town in Crimea;283;79457;Q128499
+Q237367;Montfermeil;commune in Seine-Saint-Denis, France;5.45;25945;Q237367
+Q1032551;North Devon;Parliamentary constituency in the United Kingdom;;;Q1032551
+Q60;New York City;city in state of New York, largest city in the United States by population;1214;8405837;Q60
+Q5242183;Davy Byrne's pub;;;;Q5242183
+Q3288068;Godric's Hollow;;;;Q3288068
+Q34404;New Orleans;port city in Orleans Parish, Louisiana, United States;906.099114;343829;Q34404
+Q23482;Marseille;commune in Bouches-du-Rhône, the second largest city of France;240.62;855393;Q23482
+Q79734;Middle-earth;continent in Tolkien's legendarium;;;Q79734
+Q1771915;Hogsmeade;fictional village from Harry Potter series;;;Q1771915
+Q30;United States of America;federal republic in North America;9826675;323952889;Q30
+Q1326237;Elephant of the Bastille;monument in Paris which existed between 1813 and 1846;;;Q1326237
+Q45301;Trabzon;Turkish city;4685;426882;Q45301
+Q592880;Sparrow Hills;hills in Moscow;;;Q592880
+Q84;London;capital of England and the United Kingdom;1572;8787892;Q84
+Q90;Paris;capital city of France;105.4;2240621;Q90
+Q659895;Dalkey;human settlement;;;Q659895
+Q3436359;The Burrow;fictional building in the Harry Potter universe;;;Q3436359
+Q622500;château d'If;fortification near Marseille, France;;;Q622500
+Q84;London;capital of England and the United Kingdom;1572;8787892;Q84
+Q2009;Yukon;territory of Canada;482443;36589;Q2009
+Q3402263;Wonderland;setting for Lewis Carroll's Alice's Adventures in Wonderland;;;Q3402263
+Q84;London;capital of England and the United Kingdom;1572;8787892;Q84
+Q6514;Dardanelles;strait in northwestern Turkey;;;Q6514
+Q210877;Arda;fictitious world in which J. R. R. Tolkien legendarium stories are set;;;Q210877
+Q84;London;capital of England and the United Kingdom;1572;8787892;Q84
+Q90;Paris;capital city of France;105.4;2240621;Q90
+Q2088319;Cabra;suburb of Dublin, Ireland;;;Q2088319
+Q90;Paris;capital city of France;105.4;2240621;Q90
+Q60;New York City;city in state of New York, largest city in the United States by population;1214;8405837;Q60
+Q1297;Chicago;center of the third-largest metropolitan area in the United States; county seat of Cook County, Illinois, United States;606.423602;2695598;Q1297
+Q192517;Boulder;city in Colorado, United States of America;66.946357;97385;Q192517
+Q2464538;Calormen;;;;Q2464538
+Q90;Paris;capital city of France;105.4;2240621;Q90
+Q84;London;capital of England and the United Kingdom;1572;8787892;Q84
+Q99;California;state of the United States;423970.0;33871648;Q99
+Q399;Armenia;country in South Caucasus;29743.423459;1867396;Q399
+Q90;Paris;capital city of France;105.4;2240621;Q90
+Q1761;Dublin;capital city of Ireland;114990000;527612;Q1761
+Q27924622;Hogwarts Castle;fictional building in the Harry Potter universe;;;Q27924622
+Q135501;Grafton Street;road;;;Q135501
+Q1210;Lombardy;administrative region in Northern Italy;23863.65;10006727;Q1210
+Q84;London;capital of England and the United Kingdom;1572;8787892;Q84
+Q2469685;Archenland;fictional country in The Chronicles of Narnia by C.S. Lewis;;;Q2469685
+Q90;Paris;capital city of France;105.4;2240621;Q90
+Q60;New York City;city in state of New York, largest city in the United States by population;1214;8405837;Q60
+Q626655;Cévennes;mountain range;;;Q626655
+Q166;Black Sea;sea between Europe and Asia;436402;;Q166
+Q889;Afghanistan;republic in South Asia;652230;31822848;Q889
+Q84;London;capital of England and the United Kingdom;1572;8787892;Q84
+Q2062702;James Joyce Tower and Museum;museum in Dublin, Republic of Ireland;;;Q2062702
+Q148;People's Republic of China;state in East Asia;9596961;1375198619;Q148
+Q1766409;O'Connell Bridge;;;;Q1766409
+Q668;India;federal republic in southern Asia;3287263;1263200000;Q668
+Q20085723;Tashbaan;;;;Q20085723
+Q90;Paris;capital city of France;105.4;2240621;Q90
+Q392215;northern French coal mining region;mining region;;;Q392215
+Q15299049;Hogwarts grounds;fictional area in the Harry Potter universe;;;Q15299049
+Q84;London;capital of England and the United Kingdom;1572;8787892;Q84
+Q23556;Atlanta;city in Dekalb County and Fulton County, Georgia, USA, county seat city in Fulton County and Georgia federated state capital city;347.996293;447841;Q23556
+Q1672830;National Library of Ireland;;;;Q1672830
+Q6671104;London in fiction;;;;Q6671104
+Q84;London;capital of England and the United Kingdom;1572;8787892;Q84
+Q2350741;Nelson's Pillar;former column and statue in Dublin, Ireland;;;Q2350741
+Q84;London;capital of England and the United Kingdom;1572;8787892;Q84
+Q668;India;federal republic in southern Asia;3287263;1263200000;Q668
+Q23298;Kent;ceremonial county in England (use Q21694674 for administrative non-metropolitan county);3736;1731400;Q23298
+Q7983245;Werel and Yeowe;fictional planets created by Ursula K. Le Guin, the setting of Four Ways to Forgiveness (1995);;;Q7983245
+Q3623561;Westeros;A Song of Ice and Fire continent;;;Q3623561
+Q163;Yorkshire;historic county of Northern England;11903;5234700;Q163
+Q90;Paris;capital city of France;105.4;2240621;Q90
+Q27044157;Privet Drive;;;;Q27044157
+Q21;England;country in north-west Europe, part of the United Kingdom;130278.43;53012456;Q21
+Q90;Paris;capital city of France;105.4;2240621;Q90
+Q19967;Nautilus;fictional submarine;;;Q19967
+Q1747689;ancient Rome;civilisation that began growing on the Italian Peninsula from 8th century BC;;49000000;Q1747689
+Q84;London;capital of England and the United Kingdom;1572;8787892;Q84
+Q21;England;country in north-west Europe, part of the United Kingdom;130278.43;53012456;Q21
+Q471890;Room of Requirement;fictional magical room in Hogwarts;;;Q471890
+Q90;Paris;capital city of France;105.4;2240621;Q90
+Q2481438;Forbidden Forest;fictional forest in the Harry Potter universe;;;Q2481438
+Q30;United States of America;federal republic in North America;9826675;323952889;Q30
+Q1472498;Alexander Garden;urban public park in Moscow, Russia;10;;Q1472498
+Q4318199;Bad apartment;;;;Q4318199
+Q962445;Patriarch Ponds;reservoir;;;Q962445
+Q4273334;Massolit;;;;Q4273334

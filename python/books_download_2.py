@@ -329,7 +329,7 @@ sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
 sparql.setQuery("""SELECT ?book WHERE {
     ?book wdt:P31 wd:Q571
     }
-    LIMIT 960
+    LIMIT 480
 """)
 sparql.setReturnFormat(JSON)
 results = sparql.query().convert()
