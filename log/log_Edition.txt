@@ -1,0 +1,6 @@
+Number of editions: 238
+Number of different editions: 236
+
+*** STATISTICS *** 
+no tra          :150  (64.0 %) 
+Total_time:	15.3 sec

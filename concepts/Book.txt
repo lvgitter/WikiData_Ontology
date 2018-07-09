@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 book_id;label;description;title;subtitle;first_line;genres;id
 Q92553;The Lord of the Rings Sketchbook;book;The Lord of the Rings Sketchbook;;;;Q92553
 Q169118;10 for Germany;book by political journalist Mely Kiyak;;;;;Q169118
@@ -799,3 +800,5 @@ Q129929;The Amber Spyglass;2000 Book by Philip Pullman;;;;fantasy novel;Q129929
 Q226845;;book;;;;novel;Q226845
 Q228988;An Ice-Cream War;dark comedy war novel by Scottish author William Boyd;;;;black comedy;Q228988
 Q228988;An Ice-Cream War;dark comedy war novel by Scottish author William Boyd;;;;war novel;Q228988
+=======
+>>>>>>> 889e5810c758c5c979b2e131df0109197d204c5a

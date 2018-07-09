@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Number of results: 480
 
 
@@ -19,3 +20,5 @@ no lang         :82  (17.0 %)
 no ill          :445  (93.0 %) 
 no tra          :468  (97.0 %) 
 Total_time:	25.44 sec
+=======
+>>>>>>> 889e5810c758c5c979b2e131df0109197d204c5a

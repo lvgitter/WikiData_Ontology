@@ -1,0 +1,8 @@
+Number of languages: 856
+Number of different languages: 100
+
+*** STATISTICS *** 
+no speakers     :26  (26.0 %) 
+no label        :1  (1.0 %) 
+no description  :0  (0.0 %) 
+Total_time:	2.46 sec
