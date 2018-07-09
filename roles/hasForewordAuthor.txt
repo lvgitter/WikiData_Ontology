@@ -1,5 +1,2 @@
-foreauthor_id,book_id
-Q651763,Q642646
-Q35155,Q208460
-Q435547,Q845981
-Q410,Q471726
+foreauthor_id;book_id
+Q35155;Q208460

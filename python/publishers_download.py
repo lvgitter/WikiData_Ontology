@@ -7,7 +7,7 @@ import requests
 import random
 
 N_THREADS = 16
-LEN_INDEX = 6
+LEN_INDEX = 5
 
 def index(statistic_name):
     switcher = {
@@ -164,7 +164,7 @@ file_log = open(file_log_path, 'w')
 file_out = open(file_out_path, 'w')
 file_locs_out = open(file_locs_path, 'w')
 file_locs_out.write("country_id;" + "publisher_id" + "\n")
-file_fous_out = open(file_out_path, 'w')
+file_fous_out = open(file_fous_path, 'w')
 file_fous_out.write("founder_id;" + "publisher_id" + "\n")
 file_out.write("publisher_id" + ";" + "label" + ";" + "description" + ";" + "inception" + ";" + "id" + "\n")
 

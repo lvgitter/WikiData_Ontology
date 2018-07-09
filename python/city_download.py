@@ -7,7 +7,7 @@ import requests
 import random
 
 N_THREADS = 16
-LEN_INDEX = 6
+LEN_INDEX = 5
 
 def index(statistic_name):
     switcher = {

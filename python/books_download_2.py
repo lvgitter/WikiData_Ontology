@@ -8,7 +8,7 @@ import random
 import pickle
 
 N_THREADS = 16
-LEN_INDEX = 17
+LEN_INDEX = 16
 
 
 def index(statistic_name):
@@ -126,7 +126,7 @@ class myThread(threading.Thread):
                     try:
                         pubs_file_lock.acquire()
                         file_pubs_out.write(
-                            str(pub["mainsnak"]["datavalue"]["value"]["id"]) + "," + str(book_id) + "\n")
+                            str(pub["mainsnak"]["datavalue"]["value"]["id"]) + ";" + str(book_id) + "\n")
                         pubs_file_lock.release()
                     except:
                         pubs_file_lock.release()
@@ -139,7 +139,7 @@ class myThread(threading.Thread):
                     try:
                         locs_file_lock.acquire()
                         file_locs_out.write(
-                            str(loc["mainsnak"]["datavalue"]["value"]["id"]) + "," + str(book_id) + "\n")
+                            str(loc["mainsnak"]["datavalue"]["value"]["id"]) + ";" + str(book_id) + "\n")
                         locs_file_lock.release()
                     except:
                         locs_file_lock.release()
@@ -152,7 +152,7 @@ class myThread(threading.Thread):
                     try:
                         chars_file_lock.acquire()
                         file_chars_out.write(
-                            str(loc["mainsnak"]["datavalue"]["value"]["id"]) + "," + str(book_id) + "\n")
+                            str(loc["mainsnak"]["datavalue"]["value"]["id"]) + ";" + str(book_id) + "\n")
                         chars_file_lock.release()
                     except:
                         chars_file_lock.release()
@@ -165,7 +165,7 @@ class myThread(threading.Thread):
                     try:
                         ills_file_lock.acquire()
                         file_ills_out.write(
-                            str(ill["mainsnak"]["datavalue"]["value"]["id"]) + "," + str(book_id) + "\n")
+                            str(ill["mainsnak"]["datavalue"]["value"]["id"]) + ";" + str(book_id) + "\n")
                         ills_file_lock.release()
                     except:
                         ills_file_lock.release()
@@ -178,7 +178,7 @@ class myThread(threading.Thread):
                     try:
                         tras_file_lock.acquire()
                         file_tras_out.write(
-                            str(tra["mainsnak"]["datavalue"]["value"]["id"]) + "," + str(book_id) + "\n")
+                            str(tra["mainsnak"]["datavalue"]["value"]["id"]) + ";" + str(book_id) + "\n")
                         tras_file_lock.release()
                     except:
                         tras_file_lock.release()
@@ -191,7 +191,7 @@ class myThread(threading.Thread):
                     try:
                         authors_file_lock.acquire()
                         file_authors_out.write(
-                            str(author["mainsnak"]["datavalue"]["value"]["id"]) + "," + str(book_id) + "\n")
+                            str(author["mainsnak"]["datavalue"]["value"]["id"]) + ";" + str(book_id) + "\n")
                         authors_file_lock.release()
                     except:
                         authors_file_lock.release()
@@ -204,7 +204,7 @@ class myThread(threading.Thread):
                     try:
                         foreauthors_file_lock.acquire()
                         file_foreauthors_out.write(
-                            str(foreauthor["mainsnak"]["datavalue"]["value"]["id"]) + "," + str(book_id) + "\n")
+                            str(foreauthor["mainsnak"]["datavalue"]["value"]["id"]) + ";" + str(book_id) + "\n")
                         foreauthors_file_lock.release()
                     except:
                         foreauthors_file_lock.release()
@@ -217,7 +217,7 @@ class myThread(threading.Thread):
                     try:
                         afterauthors_file_lock.acquire()
                         file_afterauthors_out.write(
-                            str(afterauthor["mainsnak"]["datavalue"]["value"]["id"]) + "," + str(book_id) + "\n")
+                            str(afterauthor["mainsnak"]["datavalue"]["value"]["id"]) + ";" + str(book_id) + "\n")
                         afterauthors_file_lock.release()
                     except:
                         afterauthors_file_lock.release()
@@ -230,7 +230,7 @@ class myThread(threading.Thread):
                     try:
                         langs_file_lock.acquire()
                         file_langs_out.write(
-                            str(lang["mainsnak"]["datavalue"]["value"]["id"]) + "," + str(book_id) + "\n")
+                            str(lang["mainsnak"]["datavalue"]["value"]["id"]) + ";" + str(book_id) + "\n")
                         langs_file_lock.release()
                     except:
                         langs_file_lock.release()
@@ -279,7 +279,7 @@ class myThread(threading.Thread):
             file_out_lock.acquire()
             for g in genres.split(","):
             	file_out.write(
-                book_id + ";" + label + ";" + description + ";" + title + ";" + subtitle + ";" + first_line + ";" + genres + ";" + book_id + "\n")
+                book_id + ";" + label + ";" + description + ";" + title + ";" + subtitle + ";" + first_line + ";" + g + ";" + book_id + "\n")
             file_out_lock.release()
 
     def join(self):
