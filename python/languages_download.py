@@ -1,3 +1,5 @@
+#TODO
+
 import time
 import math
 from SPARQLWrapper import SPARQLWrapper, JSON
@@ -116,7 +118,7 @@ class myThread (threading.Thread):
                 self.local_statistics[index("no country")] += 1
                 
             file_out_lock.acquire()
-            file_out.write(city_id + ";" + label + ";" + description + ";" + area + ";" + population + "\n")
+            file_out.write(city_id + ";" + label + ";" + description + ";" + area + ";" + population + ";" + city_id +"\n")
             file_out_lock.release()
 
    def join(self):
@@ -141,22 +143,22 @@ file_couns_path = "../roles/hasCountry.txt"
 statistics = [0 for x in range(LEN_INDEX)]
 
 #RETRIEVING ALL PUBLISHERs WIKIDATA IDs and QUERY THEM
-cities = []
-with open("../roles/hasLocation.txt", "r")as hp:
+languages = []
+with open("../roles/bookWrittenIn.txt", "r")as hp:
 	j = 0
 	for line in hp:
 		if j == 0:
 			j += 1
 			continue
-		city = line.split(";")[0]
-		cities.append(city)
+		lan = line.split(";")[0]
+		languages.append(lan)
 
 #SAVING TO FILE
 file_log = open(file_log_path, 'w')
 file_out = open(file_out_path, 'w')
 file_couns_out = open(file_couns_path, 'w')
 file_couns_out.write("country_id;" + "city_id" + "\n")
-file_out.write("city_id" + ";" + "label" + ";" + "description" + ";" + "area" + ";" + "population" + "\n")
+file_out.write("city_id" + ";" + "label" + ";" + "description" + ";" + "area" + ";" + "population" + ";" + "id" + "\n")
 
 n_results = len(cities)
 print("Number of cities: " + str(n_results))

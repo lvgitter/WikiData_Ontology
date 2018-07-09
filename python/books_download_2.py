@@ -279,7 +279,7 @@ class myThread(threading.Thread):
             file_out_lock.acquire()
             for g in genres.split(","):
             	file_out.write(
-                book_id + ";" + label + ";" + description + ";" + title + ";" + subtitle + ";" + first_line + ";" + g + ";" + book_id + "\n")
+                book_id + ";" + label + ";" + description + ";" + title + ";" + subtitle + ";" + first_line + ";" + g  + "\n")
             file_out_lock.release()
 
     def join(self):
@@ -338,7 +338,7 @@ results = sparql.query().convert()
 file_log = open(file_log_path, 'w')
 file_out = open(file_out_path, 'w')
 file_out.write(
-    "book_id" + ";" + "label" + ";" + "description" + ";" + "title" + ";" + "subtitle" + ";" + "first_line" + ";" + "genres" + ";" + "id" + "\n")
+    "book_id" + ";" + "label" + ";" + "description" + ";" + "title" + ";" + "subtitle" + ";" + "first_line" + ";" + "genres" + "\n")
 file_authors_out = open(file_authors_path, 'w')
 file_authors_out.write("author_id;" + "book_id" + "\n")
 file_pubs_out = open(file_pubs_path, 'w')

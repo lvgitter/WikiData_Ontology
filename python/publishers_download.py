@@ -118,7 +118,7 @@ class myThread (threading.Thread):
                 self.local_statistics[index("no founder")] += 1
                 
             file_out_lock.acquire()
-            file_out.write(pub_id + ";" + label + ";" + description + ";" + inception + ";" + pub_id +"\n")
+            file_out.write(pub_id + ";" + label + ";" + description + ";" + inception + ";" + "\n")
             file_out_lock.release()
 
    def join(self):
@@ -166,7 +166,7 @@ file_locs_out = open(file_locs_path, 'w')
 file_locs_out.write("country_id;" + "publisher_id" + "\n")
 file_fous_out = open(file_fous_path, 'w')
 file_fous_out.write("founder_id;" + "publisher_id" + "\n")
-file_out.write("publisher_id" + ";" + "label" + ";" + "description" + ";" + "inception" + ";" + "id" + "\n")
+file_out.write("publisher_id" + ";" + "label" + ";" + "description" + ";" + "inception" + "\n")
 
 n_results = len(publishers)
 print("Number of publishers: " + str(n_results))
