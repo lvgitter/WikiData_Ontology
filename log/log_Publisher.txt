@@ -7,4 +7,4 @@ no loc          :96  (34.0 %)
 no founder      :166  (59.0 %) 
 no label        :1  (0.0 %) 
 no description  :0  (0.0 %) 
-Total_time:	12.91 sec
+Total_time:	6.59 sec

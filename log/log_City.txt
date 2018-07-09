@@ -1,0 +1,10 @@
+Number of countries: 317
+
+
+*** STATISTICS *** 
+no population   :65  (21.0 %) 
+no area         :62  (20.0 %) 
+no label        :0  (0.0 %) 
+no description  :0  (0.0 %) 
+no language     :107  (34.0 %) 
+Total_time:	12.56 sec

@@ -100,8 +100,8 @@ class myThread (threading.Thread):
 
             
             # LANGUAGE
-            if ("P37" in data['entities'][book_id]["claims"]):
-                for lang in data['entities'][book_id]["claims"]["P37"]:
+            if ("P37" in data['entities'][country_id]["claims"]):
+                for lang in data['entities'][country_id]["claims"]["P37"]:
                     try:
                         langs_file_lock.acquire()
                         file_langs_out.write(
@@ -110,7 +110,7 @@ class myThread (threading.Thread):
                     except:
                         langs_file_lock.release()
             else:
-                self.local_statistics[index("no lang")] += 1
+                self.local_statistics[index("no language")] += 1
                 
             file_out_lock.acquire()
             file_out.write(country_id + ";" + label + ";" + description + ";" + area + ";" + population + ";" + "\n")
@@ -124,7 +124,7 @@ class myThread (threading.Thread):
 file_out_lock = threading.Lock()
 file_log_lock = threading.Lock()
 statistics_lock = threading.Lock()
-couns_file_lock = threading.Lock()
+langs_file_lock = threading.Lock()
 
 #TIME MEASUREMENTS
 total_time=time.time()
@@ -164,9 +164,9 @@ file_langs_out = open(file_langs_path, 'w')
 file_langs_out.write("language_id;" + "country_id" + "\n")
 file_out.write("country_id" + ";" + "label" + ";" + "description" + ";" + "area" + ";" + "population" + "\n")
 
-n_results = len(cities)
-print("Number of cities: " + str(n_results))
-file_log.write("Number of cities: " + str(n_results) + "\n")
+n_results = len(countries)
+print("Number of countries: " + str(n_results))
+file_log.write("Number of countries: " + str(n_results) + "\n")
 
 #PARALLEL COMPUTATION INITIALIZATION
 threads = []
@@ -187,7 +187,7 @@ for t in threads:
 
 #CLOSING OUTPUT FILES
 file_out.close()
-file_couns_out.close()
+file_langs_out.close()
 
 
 #STATISTICS REPORTING

@@ -18,4 +18,4 @@ no foreauthor   :479  (100.0 %)
 no lang         :85  (18.0 %) 
 no ill          :440  (92.0 %) 
 no tra          :465  (97.0 %) 
-Total_time:	33.58 sec
+Total_time:	34.04 sec
