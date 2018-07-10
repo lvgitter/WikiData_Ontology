@@ -1,4 +1,4 @@
-#TODO: series deve essere scritto sul file, come attributo
+# TODO: series deve essere scritto sul file, come attributo
 
 import time
 import math
@@ -32,7 +32,7 @@ def index(statistic_name):
         "no ill": 14,
         "no editions": 15,
         "no series": 16,
-        "no follower":17
+        "no follower": 17
     }
     return switcher[statistic_name]
 
@@ -56,7 +56,7 @@ def label(statistic_id):
         14: "no ill",
         15: "no editions",
         16: "no series",
-        17:"no follower"
+        17: "no follower"
 
     }
     return switcher[statistic_id]
@@ -65,8 +65,9 @@ def label(statistic_id):
 def save_obj(obj, name):
     with open('../python/obj/' + name + '.pkl', 'wb') as f:
         pickle.dump(obj, f, pickle.HIGHEST_PROTOCOL)
-        
-def load_obj(name ):
+
+
+def load_obj(name):
     with open('../python/obj/' + name + '.pkl', 'rb') as f:
         return pickle.load(f)
 
@@ -142,7 +143,6 @@ class myThread(threading.Thread):
                         pubs_file_lock.release()
             else:
                 self.local_statistics[index("no pub")] += 1
-                
 
             # LOCATIONS
             if ("P840" in data['entities'][book_id]["claims"]):
@@ -182,7 +182,6 @@ class myThread(threading.Thread):
                         ills_file_lock.release()
             else:
                 self.local_statistics[index("no ill")] += 1
-
 
             # AUTHORS
             if ("P50" in data['entities'][book_id]["claims"]):
@@ -236,7 +235,6 @@ class myThread(threading.Thread):
             else:
                 self.local_statistics[index("no lang")] += 1
 
-
             # EDITION
             if ("P747" in data['entities'][book_id]["claims"]):
                 for edit in data['entities'][book_id]["claims"]["P747"]:
@@ -249,7 +247,6 @@ class myThread(threading.Thread):
                         edits_file_lock.release()
             else:
                 self.local_statistics[index("no editions")] += 1
-
 
             # SUBTITLE
             subtitle = ""
@@ -299,10 +296,13 @@ class myThread(threading.Thread):
                             series_lock.release()
             else:
                 self.local_statistics[index("no series")] += 1
-                
+
             if (series_name != ""):
                 if ("qualifiers" in ser and "P156" in ser['qualifiers']):
-                    foll = ser['qualifiers']["P156"][0]["datavalue"]["value"]["id"]
+                    try:
+                        foll = ser['qualifiers']["P156"][0]["datavalue"]["value"]["id"]
+                    except:
+                        continue
                     try:
                         folls_file_lock.acquire()
                         file_folls_out.write(str(foll) + ";" + str(book_id) + "\n")
@@ -338,7 +338,7 @@ class myThread(threading.Thread):
 
             file_out_lock.acquire()
             file_out.write(
-                book_id + ";" + label + ";" + description + ";" + title + ";" + subtitle + ";" + first_line + ";" + series_name  + "\n")
+                book_id + ";" + label + ";" + description + ";" + title + ";" + subtitle + ";" + first_line + ";" + series_name + "\n")
             file_out_lock.release()
 
     def join(self):
@@ -383,7 +383,6 @@ file_tras_path = "../roles/hasTranslator.txt"
 file_has_characters_path = "../hasCharacter.txt"
 file_edits_path = "../roles/hasEdition.txt"
 file_folls_path = "../roles/follows.txt"
-
 
 # STATISTICS VARIABLES
 statistics = [0 for x in range(LEN_INDEX)]
