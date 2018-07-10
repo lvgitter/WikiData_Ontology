@@ -5,7 +5,7 @@ Number of results: 480
 no title        :303  (63.0 %) 
 no label        :12  (3.0 %) 
 no description  :0  (0.0 %) 
-no author       :437  (91.0 %) 
+no author       :32  (7.000000000000001 %) 
 multiple author :0  (0.0 %) 
 no genre        :77  (16.0 %) 
 no subtitle     :467  (97.0 %) 
@@ -20,4 +20,5 @@ no ill          :440  (92.0 %)
 no editions     :408  (85.0 %) 
 no series       :427  (89.0 %) 
 no follower     :427  (89.0 %) 
-Total_time:	27.84 sec
+no character    :405  (84.0 %) 
+Total_time:	26.25 sec

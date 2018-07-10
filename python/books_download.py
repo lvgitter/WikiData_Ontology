@@ -10,7 +10,7 @@ import random
 import pickle
 
 N_THREADS = 16
-LEN_INDEX = 18
+LEN_INDEX = 19
 
 
 def index(statistic_name):
@@ -32,7 +32,8 @@ def index(statistic_name):
         "no ill": 14,
         "no editions": 15,
         "no series": 16,
-        "no follower": 17
+        "no follower": 17,
+        "no character":18
     }
     return switcher[statistic_name]
 
@@ -56,7 +57,8 @@ def label(statistic_id):
         14: "no ill",
         15: "no editions",
         16: "no series",
-        17: "no follower"
+        17: "no follower",
+        18:"no character"
 
     }
     return switcher[statistic_id]
@@ -125,7 +127,7 @@ class myThread(threading.Thread):
                 self.local_statistics[index("no description")] += 1
 
             # TITLE
-            title = ""
+            title = label
             if ("P1476" in data['entities'][book_id]["claims"]):
                 title = (data['entities'][book_id]["claims"]["P1476"][0]["mainsnak"]["datavalue"]["value"]["text"])
             else:
@@ -273,7 +275,7 @@ class myThread(threading.Thread):
                     except:
                         has_character_lock.release()
             else:
-                self.local_statistics[index("no author")] += 1
+                self.local_statistics[index("no character")] += 1
 
             # SERIES
             series_name = ""
