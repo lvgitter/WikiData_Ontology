@@ -1,5 +1,3 @@
-# TODO: series deve essere scritto sul file, come attributo
-
 import time
 import math
 from SPARQLWrapper import SPARQLWrapper, JSON
