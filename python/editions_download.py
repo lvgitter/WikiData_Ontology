@@ -138,8 +138,33 @@ class myThread(threading.Thread):
                         tras_file_lock.release()
             else:
                 self.local_statistics[index("no tra")] += 1
-                
-                
+
+            # PUBLISHERS
+            if ("P123" in data['entities'][book_id]["claims"]):
+                for pub in data['entities'][book_id]["claims"]["P123"]:
+                    try:
+                        pubs_file_lock.acquire()
+                        file_pubs_out.write(
+                            str(pub["mainsnak"]["datavalue"]["value"]["id"]) + ";" + str(book_id) + "\n")
+                        pubs_file_lock.release()
+                    except:
+                        pubs_file_lock.release()
+            else:
+                self.local_statistics[index("no pub")] += 1
+
+            # ILLUSTRATORS (HUMANS)
+            if ("P110" in data['entities'][book_id]["claims"]):
+                for ill in data['entities'][book_id]["claims"]["P110"]:
+                    try:
+                        ills_file_lock.acquire()
+                        file_ills_out.write(
+                            str(ill["mainsnak"]["datavalue"]["value"]["id"]) + ";" + str(book_id) + "\n")
+                        ills_file_lock.release()
+                    except:
+                        ills_file_lock.release()
+            else:
+                self.local_statistics[index("no ill")] += 1
+
             # ORIGINAL (BOOK)
             if ("P629" in data['entities'][book_id]["claims"]):
                 for tra in data['entities'][book_id]["claims"]["P629"]:
@@ -172,6 +197,8 @@ file_log_lock = threading.Lock()
 statistics_lock = threading.Lock()
 tras_file_lock = threading.Lock()
 oris_file_lock = threading.Lock()
+ills_file_lock = threading.Lock()
+pubs_file_lock = threading.Lock()
 
 # TIME MEASUREMENTS
 total_time = time.time()
@@ -182,6 +209,9 @@ file_log_path = "../log/log_Edition.txt"
 file_authors_path = "../roles/hasAuthor.txt"  # format wikidata:author_id,wikidata:book_id
 file_tras_path = "../roles/hasTranslator.txt"
 file_oris_path = "../roles/hasOriginal.txt"
+file_ills_path = "../roles/hasIllustrator.txt"
+file_pubs_path = "../roles/hasPublisher.txt"
+
 
 # SAVING TO FILE
 
@@ -211,7 +241,10 @@ file_tras_out = open(file_tras_path, 'w')
 file_tras_out.write("translator_id;" + "edition_id" + "\n")
 file_oris_out = open(file_oris_path, 'w')
 file_oris_out.write("book_id;" + "edition_id" + "\n")
-
+file_pubs_out = open(file_pubs_path, 'w')
+file_pubs_out.write("publisher_id;" + "book_id" + "\n")
+file_ills_out = open(file_ills_path, 'w')
+file_ills_out.write("illustror_id;" + "book_id" + "\n")
 
 n_results = len(editions)
 print("Number of results: " + str(n_results))
@@ -237,7 +270,8 @@ for t in threads:
 file_out.close()
 file_tras_out.close()
 file_oris_out.close()
-# file_log.close()
+file_pubs_out.close()
+file_ills_out.close()
 
 
 # STATISTICS REPORTING

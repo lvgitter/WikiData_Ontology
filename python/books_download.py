@@ -131,18 +131,6 @@ class myThread(threading.Thread):
             else:
                 self.local_statistics[index("no title")] += 1
 
-            # PUBLISHERS
-            if ("P123" in data['entities'][book_id]["claims"]):
-                for pub in data['entities'][book_id]["claims"]["P123"]:
-                    try:
-                        pubs_file_lock.acquire()
-                        file_pubs_out.write(
-                            str(pub["mainsnak"]["datavalue"]["value"]["id"]) + ";" + str(book_id) + "\n")
-                        pubs_file_lock.release()
-                    except:
-                        pubs_file_lock.release()
-            else:
-                self.local_statistics[index("no pub")] += 1
 
             # LOCATIONS
             if ("P840" in data['entities'][book_id]["claims"]):
@@ -169,19 +157,6 @@ class myThread(threading.Thread):
                         chars_file_lock.release()
             else:
                 self.local_statistics[index("no char")] += 1
-
-            # ILLUSTRATORS (HUMANS)
-            if ("P110" in data['entities'][book_id]["claims"]):
-                for ill in data['entities'][book_id]["claims"]["P110"]:
-                    try:
-                        ills_file_lock.acquire()
-                        file_ills_out.write(
-                            str(ill["mainsnak"]["datavalue"]["value"]["id"]) + ";" + str(book_id) + "\n")
-                        ills_file_lock.release()
-                    except:
-                        ills_file_lock.release()
-            else:
-                self.local_statistics[index("no ill")] += 1
 
             # AUTHORS
             if ("P50" in data['entities'][book_id]["claims"]):
@@ -353,13 +328,13 @@ file_out_lock = threading.Lock()
 file_log_lock = threading.Lock()
 statistics_lock = threading.Lock()
 authors_file_lock = threading.Lock()
-pubs_file_lock = threading.Lock()
+
 locs_file_lock = threading.Lock()
 chars_file_lock = threading.Lock()
 afterauthors_file_lock = threading.Lock()
 foreauthors_file_lock = threading.Lock()
 langs_file_lock = threading.Lock()
-ills_file_lock = threading.Lock()
+
 tras_file_lock = threading.Lock()
 has_character_lock = threading.Lock()
 edits_file_lock = threading.Lock()
@@ -372,13 +347,11 @@ total_time = time.time()
 file_out_path = "../concepts/Book.txt"
 file_log_path = "../log/log_Book.txt"
 file_authors_path = "../roles/hasAuthor.txt"  # format wikidata:author_id,wikidata:book_id
-file_pubs_path = "../roles/hasPublisher.txt"
 file_locs_path = "../roles/hasLocation.txt"
 file_chars_path = "../roles/hasCharacter.txt"
 file_afterauthors_path = "../roles/hasAfterwordAuthor.txt"
 file_foreauthors_path = "../roles/hasForewordAuthor.txt"
 file_langs_path = "../roles/bookWrittenIn.txt"
-file_ills_path = "../roles/hasIllustrator.txt"
 file_tras_path = "../roles/hasTranslator.txt"
 file_has_characters_path = "../hasCharacter.txt"
 file_edits_path = "../roles/hasEdition.txt"
@@ -419,8 +392,7 @@ file_out.write(
     "book_id" + ";" + "label" + ";" + "description" + ";" + "title" + ";" + "subtitle" + ";" + "first_line" + ";" + "series" + "\n")
 file_authors_out = open(file_authors_path, 'w')
 file_authors_out.write("author_id;" + "book_id" + "\n")
-file_pubs_out = open(file_pubs_path, 'w')
-file_pubs_out.write("publisher_id;" + "book_id" + "\n")
+
 file_locs_out = open(file_locs_path, 'w')
 file_locs_out.write("location_id;" + "book_id" + "\n")
 file_chars_out = open(file_chars_path, 'w')
@@ -431,9 +403,7 @@ file_foreauthors_out = open(file_foreauthors_path, 'w')
 file_foreauthors_out.write("foreauthor_id;" + "book_id" + "\n")
 file_langs_out = open(file_langs_path, 'w')
 file_langs_out.write("language_id;" + "book_id" + "\n")
-file_ills_out = open(file_ills_path, 'w')
-file_ills_out.write("illustror_id;" + "book_id" + "\n")
-file_tras_out = open(file_ills_path, 'w')
+file_tras_out = open(file_tras_path, 'w')
 file_tras_out.write("translator_id;" + "book_id" + "\n")
 file_has_character = open(file_has_characters_path, 'w')
 file_tras_out.write("character_id;" + "book_id" + "\n")
@@ -467,12 +437,10 @@ for t in threads:
 # CLOSING OUTPUT FILES
 file_out.close()
 file_authors_out.close()
-file_pubs_out.close()
 file_afterauthors_out.close()
 file_foreauthors_out.close()
 file_chars_out.close()
 file_locs_out.close()
-file_ills_out.close()
 file_has_character.close()
 file_edits_out.close()
 file_folls_out.close()
