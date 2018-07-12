@@ -54,10 +54,10 @@ class myThread (threading.Thread):
             #start_time_get = time.time()
             response = requests.get(url) #timeout
             try:
-            	data = response.json()
+                data = response.json()
             except:
-            	print ("EXCEPTION " + url)
-            	continue
+                print ("EXCEPTION " + url)
+                continue
             city_id = result
             #print("[Thread " + str(self.id) + "]\t" + "book " + str(book_id))
             #end_time_get = time.time()
@@ -96,20 +96,34 @@ class myThread (threading.Thread):
             if ("P2046" in data['entities'][city_id]["claims"]):
                 area = (data['entities'][city_id]["claims"]["P2046"][0]["mainsnak"]["datavalue"]["value"]["amount"][1:])
             else:
-            	self.local_statistics[index("no area")] += 1
+                self.local_statistics[index("no area")] += 1
 
 
 
-   
+            # MAYOR (P1313)
+            if ("P1313" in data['entities'][city_id]["claims"]):
+                for mayor in data['entities'][city_id]["claims"]["P1313"]:
+                    try:
+                        if (mayor["mainsnak"]["datavalue"]["value"]["id"] in mayors):
+                            has_mayor_lock.acquire()
+                            has_mayor_file.write(
+                                str(city_id + ";" + mayor["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
+                            has_mayor_lock.release()
+
+                    except:
+                        has_mayor_lock.release()
+            else:
+                self.local_statistics[index("no PoB")] += 1
+
             
             
             # COUNTRY
             if ("P17" in data['entities'][city_id]["claims"]):
-            	coun = data['entities'][city_id]["claims"]["P17"][0] #take only the preferred one; assumption: it's the FIRST
+                coun = data['entities'][city_id]["claims"]["P17"][0] #take only the preferred one; assumption: it's the FIRST
             try:
-            	couns_file_lock.acquire()
-            	file_couns_out.write(str(coun["mainsnak"]["datavalue"]["value"]["id"])+";"+str(city_id)+"\n")
-            	couns_file_lock.release()
+                couns_file_lock.acquire()
+                file_couns_out.write(str(coun["mainsnak"]["datavalue"]["value"]["id"])+";"+str(city_id)+"\n")
+                couns_file_lock.release()
             except:
                 couns_file_lock.release()
             else:
@@ -127,15 +141,22 @@ class myThread (threading.Thread):
 file_out_lock = threading.Lock()
 file_log_lock = threading.Lock()
 statistics_lock = threading.Lock()
+has_mayor_lock = threading.Lock()
 couns_file_lock = threading.Lock()
 
 #TIME MEASUREMENTS
 total_time=time.time()
 
+
+#ID OF ALL POSSIBLE MAYORS
+file_mayors_id_path = "../mayors_id.txt"
+
 #FILES OUTPUT PATH
 file_out_path = "../concepts/City.txt"
 file_log_path = "../log/log_City.txt"
 file_couns_path = "../roles/hasCountry.txt"
+file_has_mayor_path = "/../roles/hasMayor.txt"
+
 
 #STATISTICS VARIABLES
 statistics = [0 for x in range(LEN_INDEX)]
@@ -143,13 +164,17 @@ statistics = [0 for x in range(LEN_INDEX)]
 #RETRIEVING ALL PUBLISHERs WIKIDATA IDs and QUERY THEM
 cities = []
 with open("../roles/hasLocation.txt", "r")as hp:
-	j = 0
-	for line in hp:
-		if j == 0:
-			j += 1
-			continue
-		city = line.split(";")[0]
-		cities.append(city)
+    j = 0
+    for line in hp:
+        if j == 0:
+            j += 1
+            continue
+        city = line.split(";")[0]
+        cities.append(city)
+
+# RETRIEVING ALL PUBLISHERs WIKIDATA IDs and QUERY THEM
+file_mayors_id = open(file_mayors_id_path, 'r')
+mayors = ([x.strip() for x in file_mayors_id.readlines()[1:]])
 
 #SAVING TO FILE
 file_log = open(file_log_path, 'w')
@@ -157,7 +182,8 @@ file_out = open(file_out_path, 'w')
 file_couns_out = open(file_couns_path, 'w')
 file_couns_out.write("country_id;" + "city_id" + "\n")
 file_out.write("city_id" + ";" + "label" + ";" + "description" + ";" + "area" + ";" + "population" + "\n")
-
+has_mayor_file = open(file_has_mayor_path, 'w')
+has_mayor_file.write("mayor_id\n")
 n_results = len(cities)
 print("Number of cities: " + str(n_results))
 file_log.write("Number of cities: " + str(n_results) + "\n")
