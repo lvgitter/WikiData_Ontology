@@ -1,1 +1,1 @@
-DROP TABLE book();
+DROP DATABASE bookDB;

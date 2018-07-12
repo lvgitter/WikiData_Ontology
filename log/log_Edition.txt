@@ -1,6 +1,12 @@
-Number of editions: 238
-Number of different editions: 236
+Number of results: 238
+
 
 *** STATISTICS *** 
-no tra          :150  (64.0 %) 
-Total_time:	15.3 sec
+no title        :145  (61.0 %) 
+no label        :41  (17.0 %) 
+no description  :0  (0.0 %) 
+no subtitle     :221  (93.0 %) 
+no tra          :151  (63.0 %) 
+no original     :13  (5.0 %) 
+no first line   :236  (99.0 %) 
+Total_time:	6.82 sec
