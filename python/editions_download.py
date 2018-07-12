@@ -8,7 +8,7 @@ import random
 import pickle
 
 N_THREADS = 16
-LEN_INDEX = 7
+LEN_INDEX = 9
 
 
 def index(statistic_name):
@@ -17,10 +17,11 @@ def index(statistic_name):
         "no label": 1,
         "no description": 2,
         "no subtitle": 3,
-        #"no lang": 13,
         "no tra": 4,
         "no original": 5,
-        "no first line":6
+        "no first line":6,
+        "no pub":7,
+        "no ill":8
     }
     return switcher[statistic_name]
 
@@ -31,10 +32,11 @@ def label(statistic_id):
         1: "no label",
         2: "no description",
         3: "no subtitle",
-        #13: "no lang",
         4: "no tra",
         5: "no original",
-        6: "no first line"
+        6: "no first line",
+        7:"no pub",
+        8:"no ill"
 
     }
     return switcher[statistic_id]

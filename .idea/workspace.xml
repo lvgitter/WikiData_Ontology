@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f9c1132-1bf9-4d35-a890-1b8aab879b41" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/books_download.py" afterPath="$PROJECT_DIR$/python/books_download.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/editions_download.py" afterPath="$PROJECT_DIR$/python/editions_download.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +28,8 @@
       <file leaf-file-name="editions_download.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python/editions_download.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="253" column="12" lean-forward="true" selection-start-line="253" selection-start-column="12" selection-end-line="253" selection-end-column="12" />
+            <state relative-caret-position="264">
+              <caret line="38" column="10" lean-forward="false" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -40,8 +38,8 @@
       <file leaf-file-name="books_download.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/books_download.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="438" column="24" lean-forward="false" selection-start-line="438" selection-start-column="24" selection-end-line="438" selection-end-column="24" />
+            <state relative-caret-position="304">
+              <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -459,16 +457,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python/books_download.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="438" column="24" lean-forward="false" selection-start-line="438" selection-start-column="24" selection-end-line="438" selection-end-column="24" />
+        <state relative-caret-position="304">
+          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python/editions_download.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="253" column="12" lean-forward="true" selection-start-line="253" selection-start-column="12" selection-end-line="253" selection-end-column="12" />
+        <state relative-caret-position="264">
+          <caret line="38" column="10" lean-forward="false" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
           <folding />
         </state>
       </provider>
