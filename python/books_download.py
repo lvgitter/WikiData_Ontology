@@ -288,13 +288,15 @@ class myThread(threading.Thread):
                 self.local_statistics[index("no follower")] += 1
 
             # GENRES
-            genres = ""
             if ("P136" in data['entities'][book_id]["claims"]):
                 for genre in data['entities'][book_id]["claims"]["P136"]:
                     genre = genre["mainsnak"]["datavalue"]["value"]["id"]
                     # retrieve genre name or retrieve and save it
                     if genre in genre_dict:
                         gname = genre_dict[genre]
+                        genres_lock.acquire()
+                        file_has_genres.write(book_id + ";" + gname + "\n")
+                        genres_lock.release()
                     else:
                         urlg = "http://www.wikidata.org/wiki/Special:EntityData/" + genre + ".json"
                         responseg = requests.get(urlg)
@@ -303,11 +305,10 @@ class myThread(threading.Thread):
                             genres_lock.acquire()
                             gname = datag['entities'][genre]["labels"]["en"]["value"]
                             genre_dict[genre] = gname
+                            file_has_genres.write(book_id+";"+gname+"\n")
                             genres_lock.release()
                         except:
                             genres_lock.release()
-                    genres += gname + ","
-                genres = genres[0:-1]
             else:
                 self.local_statistics[index("no genre")] += 1
 
@@ -328,13 +329,11 @@ file_out_lock = threading.Lock()
 file_log_lock = threading.Lock()
 statistics_lock = threading.Lock()
 authors_file_lock = threading.Lock()
-
 locs_file_lock = threading.Lock()
 chars_file_lock = threading.Lock()
 afterauthors_file_lock = threading.Lock()
 foreauthors_file_lock = threading.Lock()
 langs_file_lock = threading.Lock()
-
 tras_file_lock = threading.Lock()
 has_character_lock = threading.Lock()
 edits_file_lock = threading.Lock()
@@ -356,6 +355,8 @@ file_tras_path = "../roles/hasTranslator.txt"
 file_has_characters_path = "../hasCharacter.txt"
 file_edits_path = "../roles/hasEdition.txt"
 file_folls_path = "../roles/follows.txt"
+file_has_genres_path = "../roles/_Book_has_genres.txt"
+
 
 # STATISTICS VARIABLES
 statistics = [0 for x in range(LEN_INDEX)]
@@ -388,11 +389,9 @@ results = sparql.query().convert()
 # SAVING TO FILE
 file_log = open(file_log_path, 'w')
 file_out = open(file_out_path, 'w')
-file_out.write(
-    "book_id" + ";" + "label" + ";" + "description" + ";" + "title" + ";" + "subtitle" + ";" + "first_line" + ";" + "series" + "\n")
+file_out.write("book_id" + ";" + "label" + ";" + "description" + ";" + "title" + ";" + "subtitle" + ";" + "first_line" + ";" + "series" + "\n")
 file_authors_out = open(file_authors_path, 'w')
 file_authors_out.write("author_id;" + "book_id" + "\n")
-
 file_locs_out = open(file_locs_path, 'w')
 file_locs_out.write("location_id;" + "book_id" + "\n")
 file_chars_out = open(file_chars_path, 'w')
@@ -411,9 +410,8 @@ file_edits_out = open(file_edits_path, 'w')
 file_edits_out.write("edition_id;" + "book_id" + "\n")
 file_folls_out = open(file_folls_path, 'w')
 file_folls_out.write("follower_id;" + "book_id" + "\n")
-save_obj(genre_dict, "genres")
-save_obj(series_dict, "series")
-
+file_has_genres = open(file_has_genres_path, 'w')
+file_has_genres.write("book_id;genre")
 n_results = len(results["results"]["bindings"])
 print("Number of results: " + str(n_results))
 file_log.write("Number of results: " + str(n_results) + "\n")
@@ -444,6 +442,10 @@ file_locs_out.close()
 file_has_character.close()
 file_edits_out.close()
 file_folls_out.close()
+file_has_genres.close()
+file_has_genres.close()
+save_obj(genre_dict, "genres")
+save_obj(series_dict, "series")
 # file_log.close()
 
 

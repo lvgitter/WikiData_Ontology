@@ -205,13 +205,15 @@ class AuthorDownloadThread(threading.Thread):
                 self.local_statistics[index("no occupation")] += 1
 
             # GENRES
-            genres = ""
             if ("P136" in data['entities'][author]["claims"]):
                 for genre in data['entities'][author]["claims"]["P136"]:
                     genre = genre["mainsnak"]["datavalue"]["value"]["id"]
                     # retrieve genre name or retrieve and save it
                     if genre in genre_dict:
+                        genres_lock.acquire()
                         gname = genre_dict[genre]
+                        file_has_genres.write(author + ";" + gname + "\n")
+                        genres_lock.release()
                     else:
                         urlg = "http://www.wikidata.org/wiki/Special:EntityData/" + genre + ".json"
                         responseg = requests.get(urlg)
@@ -220,35 +222,35 @@ class AuthorDownloadThread(threading.Thread):
                             genres_lock.acquire()
                             gname = datag['entities'][genre]["labels"]["en"]["value"]
                             genre_dict[genre] = gname
+                            file_has_genres.write(author+";"+gname+"\n")
                             genres_lock.release()
                         except:
                             genres_lock.release()
-                    genres += gname + ","
-                genres = genres[0:-1]
             else:
                 self.local_statistics[index("no genre")] += 1
 
             # AWARDS
-            awards = ""
             if ("P166" in data['entities'][author]["claims"]):
                 for award in data['entities'][author]["claims"]["P166"]:
                     award = award["mainsnak"]["datavalue"]["value"]["id"]
                     # retrieve award name or retrieve and save it
                     if award in award_dict:
                         award_name = award_dict[award]
+                        awards_dict_lock.acquire()
+                        file_has_awards.write(author + ";" + award_name + "\n")
+                        awards_dict_lock.release()
                     else:
                         url_award = "http://www.wikidata.org/wiki/Special:EntityData/" + award + ".json"
                         response_award = requests.get(url_award)
                         data_award = response_award.json()
                         try:
-                            award_dict_lock.acquire()
+                            awards_dict_lock.acquire()
                             award_name = data_award['entities'][award]["labels"]["en"]["value"]
                             award_dict[award] = award_name
-                            award_dict_lock.release()
+                            file_has_awards.write(author+";"+award_name+"\n")
+                            awards_dict_lock.release()
                         except:
-                            award_dict_lock.release()
-                    awards += award_name + ","
-                awards = awards[0:-1]
+                            awards_dict_lock.release()
             else:
                 self.local_statistics[index("no award")] += 1
 
@@ -267,7 +269,7 @@ class AuthorDownloadThread(threading.Thread):
             
             # ID
 
-            authors_file.write(str(author)+";"+label+";"+description+";"+name+";"+sex+";"+DoB+";"+PoB+";"+DoD+";"+PoD+";"+occupations+";"+genres+";"+awards+"\n")
+            authors_file.write(str(author)+";"+label+";"+description+";"+name+";"+sex+";"+DoB+";"+PoB+";"+DoD+";"+PoD+";"+occupations+"\n")
 
     def join(self):
         Thread.join(self)
@@ -280,7 +282,7 @@ influenced_by_lock = threading.Lock()
 place_of_birth_lock = threading.Lock()
 place_of_death_lock = threading.Lock()
 occupations_dict_lock = threading.Lock()
-award_dict_lock = threading.Lock()
+awards_dict_lock = threading.Lock()
 genres_lock = threading.Lock()
 
 # TIME MEASUREMENTS
@@ -294,7 +296,10 @@ foreword_authors_id_file_path = "../roles/hasForewordAuthor.txt"
 influenced_by_file_path = "../roles/influencedBy.txt"
 place_of_birth_file_path = "../roles/placeOfBirth.txt"
 place_of_death_file_path = "../roles/placeOfDeath.txt"
+file_has_awards_path = "../roles/_Author_has_awards.txt"
+file_has_genres_path = "../roles/_Author_has_genres.txt"
 log_file_path = "../log/Author_download_log.txt"
+
 
 # STATISTICS VARIABLES
 statistics = [0 for x in range(LEN_INDEX)]
@@ -327,6 +332,10 @@ place_of_birth_file = open(place_of_birth_file_path, 'w')
 place_of_birth_file.write('human_id;place_of_birth_id\n')
 place_of_death_file = open(place_of_death_file_path, 'w')
 place_of_death_file.write('human_id;place_of_birth_id\n')
+file_has_awards = open(file_has_awards_path, 'w')
+file_has_awards.write("author_id;award")
+file_has_genres = open(file_has_genres_path, 'w')
+file_has_genres.write("author_id;genre")
 log_file = open(log_file_path, 'w')
 
 influencing_authors = set()
@@ -356,6 +365,8 @@ authors_file.close()
 influenced_by_file.close()
 place_of_birth_file.close()
 place_of_death_file.close()
+file_has_awards.close()
+file_has_genres.close()
 
 # UPDATING DICTIONARIES
 save_obj(occupations_dict, 'occupations')
