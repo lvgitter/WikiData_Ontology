@@ -86,19 +86,22 @@ class myThread(threading.Thread):
         for j in range(self.res_min, self.res_max):
             time.sleep(random.random() * 0.1)
             count += 1
-            if (count % 10 == 0):  # to modify?
+            if (count % 100 == 0):  # to modify?
                 print("[Thread " + str(self.id) + "]\t" + "book " + str(j - self.res_min + 1) + "/" + str(
                     self.res_max - self.res_min))
 
             result = results["results"]["bindings"][j]
             url = result['book']['value'].replace("/wiki/", "/wikiSpecial:EntityData/") + ".json"
             # start_time_get = time.time()
-            response = requests.get(url)  # timeout
-            try:
-                data = response.json()
-            except:
-                print("EXCEPTION " + url)
-                continue
+            for i in range(3):
+                try:
+                    response = requests.get(url)  # timeout
+                    data = response.json()
+                    break
+                except:
+                    print("EXCEPTION " + url)
+                    time.sleep(0.5)
+                    continue
             book_id = url.split(".json")[0].split("/")[-1]
             # print("[Thread " + str(self.id) + "]\t" + "book " + str(book_id))
             # end_time_get = time.time()
@@ -411,7 +414,7 @@ file_edits_out.write("edition_id;" + "book_id" + "\n")
 file_folls_out = open(file_folls_path, 'w')
 file_folls_out.write("follower_id;" + "book_id" + "\n")
 file_has_genres = open(file_has_genres_path, 'w')
-file_has_genres.write("book_id;genre")
+file_has_genres.write("book_id;genre\n")
 n_results = len(results["results"]["bindings"])
 print("Number of results: " + str(n_results))
 file_log.write("Number of results: " + str(n_results) + "\n")
