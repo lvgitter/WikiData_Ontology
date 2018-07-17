@@ -7,7 +7,7 @@ import requests
 import random
 
 N_THREADS = 16
-LEN_INDEX = 6
+LEN_INDEX = 7
 
 def index(statistic_name):
     switcher = {
@@ -16,7 +16,8 @@ def index(statistic_name):
         "no label":2,
         "no description":3,
         "no country":4,
-        "no mayor":5
+        "no mayor":5,
+        "fictional":6
     }
     return switcher[statistic_name]
 
@@ -27,7 +28,8 @@ def label(statistic_id):
         2:"no label",
         3:"no description",
         4:"no country",
-        5:"no mayor"
+        5:"no mayor",
+        6:"fictional"
     }
     return switcher[statistic_id]
 
@@ -47,7 +49,7 @@ class myThread (threading.Thread):
         for j in range(self.res_min, self.res_max):
             time.sleep(random.random()*0.1)
             count += 1
-            if (count%5 == 0): #to modify?
+            if (count%10 == 0): #to modify?
                 print("[Thread "+str(self.id)+"]\t"+"city "+str(j-self.res_min+1)+"/"+str(self.res_max-self.res_min))
 
 
@@ -85,6 +87,29 @@ class myThread (threading.Thread):
             else:
                 self.local_statistics[index("no description")] += 1
 
+            # REAL OR FICTIONAL CITY
+            instance_of = []
+            if ("P31" in data['entities'][city_id]["claims"]):
+                for iof in data['entities'][city_id]["claims"]["P31"]:
+                    instance_of.append(iof["mainsnak"]["datavalue"]["value"]["id"])
+            if "Q1964689" in iof:
+                self.local_statistics[index("fictional")] += 1
+                # HAS ANALOG (P1074)
+                if ("P1074" in data['entities'][city_id]["claims"]):
+                    try:
+                        has_analog_lock.acquire()
+                        real_city = data['entities'][city_id]["claims"]["P1074"][0]["mainsnak"]["datavalue"]["value"]["id"]
+                        file_has_analog.write(city+";"+real_city+"\n")
+                        has_analog_lock.release()
+                    except:
+                        has_analog_lock.release()
+                file_fict_lock.acquire()
+                file_fictional_city.write(city_id + ";" + label + ";" + description + "\n")
+                file_fict_lock.release()
+                self.local_statistics[index("fictional")] += 1
+                continue
+
+
             # POPULATION
             population = ""
             if ("P1082" in data['entities'][city_id]["claims"]):
@@ -96,9 +121,10 @@ class myThread (threading.Thread):
             # AREA
             area = ""
             if ("P2046" in data['entities'][city_id]["claims"]):
-                area = (data['entities'][city_id]["claims"]["P2046"][0]["mainsnak"]["datavalue"]["value"]["amount"][1:])
-            else:
-                self.local_statistics[index("no area")] += 1
+                try:
+                    area = (data['entities'][city_id]["claims"]["P2046"][0]["mainsnak"]["datavalue"]["value"]["amount"][1:])
+                except:
+                    self.local_statistics[index("no area")] += 1
 
 
 
@@ -128,23 +154,25 @@ class myThread (threading.Thread):
                 couns_file_lock.release()
             except:
                 couns_file_lock.release()
-            else:
                 self.local_statistics[index("no country")] += 1
+
                 
-            file_out_lock.acquire()
-            file_out.write(city_id + ";" + label + ";" + description + ";" + area + ";" + population + "\n")
-            file_out_lock.release()
+            file_real_lock.acquire()
+            file_real_city.write(city_id + ";" + label + ";" + description + ";" + area + ";" + population + "\n")
+            file_real_lock.release()
 
    def join(self):
        Thread.join(self)
        return self.local_statistics
 
 #LOCKS
-file_out_lock = threading.Lock()
+file_real_lock = threading.Lock()
+file_fict_lock = threading.Lock()
 file_log_lock = threading.Lock()
 statistics_lock = threading.Lock()
 has_mayor_lock = threading.Lock()
 couns_file_lock = threading.Lock()
+has_analog_lock = threading.Lock()
 
 #TIME MEASUREMENTS
 total_time=time.time()
@@ -163,10 +191,12 @@ cities = list(PoB.union(PoD))
 
 
 #FILES OUTPUT PATH
-file_out_path = "../concepts/RealCity.txt"
+file_real_city_path = "../concepts/RealCity.txt"
+file_fictional_city_path = "../concepts/FictionalCity.txt"
 file_log_path = "../log/log_RealCity.txt"
 file_couns_path = "../roles/hasCountry.txt"
 file_has_mayor_path = "../roles/hasMayor.txt"
+file_has_analog_path = "../roles/hasAnalog.txt"
 
 
 #STATISTICS VARIABLES
@@ -189,11 +219,15 @@ with open("../roles/hasLocation.txt", "r")as hp:
 
 #SAVING TO FILE
 file_log = open(file_log_path, 'w')
-file_out = open(file_out_path, 'w')
+file_real_city = open(file_real_city_path, 'w')
+file_fictional_city = open(file_fictional_city_path, 'w')
 file_couns_out = open(file_couns_path, 'w')
 file_couns_out.write("country_id;" + "city_id" + "\n")
-file_out.write("city_id" + ";" + "label" + ";" + "description" + ";" + "area" + ";" + "population" + "\n")
+file_real_city.write("city_id" + ";" + "label" + ";" + "description" + ";" + "area" + ";" + "population" + "\n")
+file_fictional_city.write("city_id" + ";" + "label" + ";" + "description" + "\n")
 has_mayor_file = open(file_has_mayor_path, 'w')
+file_has_analog = open(file_has_analog_path, 'w')
+file_has_analog.write("fictional_city;real_city\n")
 has_mayor_file.write("city_id;mayor_id\n")
 n_results = len(cities)
 print("Number of cities: " + str(n_results))
@@ -217,9 +251,11 @@ for t in threads:
 
 
 #CLOSING OUTPUT FILES
-file_out.close()
+file_real_city.close()
+file_fictional_city.close()
 file_couns_out.close()
-
+has_mayor_file.close()
+file_has_analog.close()
 
 #STATISTICS REPORTING
 print("\n\n*** STATISTICS ***\n")

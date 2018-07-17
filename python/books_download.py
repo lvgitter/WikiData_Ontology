@@ -138,15 +138,33 @@ class myThread(threading.Thread):
             # LOCATIONS
             if ("P840" in data['entities'][book_id]["claims"]):
                 for loc in data['entities'][book_id]["claims"]["P840"]:
-                    try:
-                        locs_file_lock.acquire()
-                        file_locs_out.write(
-                            str(loc["mainsnak"]["datavalue"]["value"]["id"]) + ";" + str(book_id) + "\n")
-                        locs_file_lock.release()
-                    except:
-                        locs_file_lock.release()
+                    loc = loc["mainsnak"]["datavalue"]["value"]["id"]
+                    # retrieve loc name or retrieve and save it
+                    if loc in locations_dict:
+                        if locations_dict[loc][1] == "city":
+                            loc_name = locations_dict[loc][0]
+                            locations_lock.acquire()
+                            file_has_city_location.write(book_id + ";" + loc_name + "\n")
+                            locations_lock.release()
+                        elif locations_dict[loc] == "country":
+                            loc_name = genre_dict[loc][0]
+                            genres_lock.acquire()
+                            file_has_genres.write(book_id + ";" + loc_name + "\n")
+                            genres_lock.release()
+                    else:
+                        urlg = "http://www.wikidata.org/wiki/Special:EntityData/" + loc + ".json" #INSTANCE OF
+                        responseg = requests.get(urlg)
+                        datag = responseg.json()
+                        try:
+                            genres_lock.acquire()
+                            gname = datag['entities'][genre]["labels"]["en"]["value"]
+                            genre_dict[genre] = gname
+                            file_has_genres.write(book_id+";"+gname+"\n")
+                            genres_lock.release()
+                        except:
+                            genres_lock.release()
             else:
-                self.local_statistics[index("no loc")] += 1
+                self.local_statistics[index("no genre")] += 1
 
             # CHARACTERS
             if ("P674" in data['entities'][book_id]["claims"]):
@@ -328,11 +346,13 @@ class myThread(threading.Thread):
 # LOCKS
 genres_lock = threading.Lock()
 series_lock = threading.Lock()
+locations_lock = threading.Lock()
 file_out_lock = threading.Lock()
 file_log_lock = threading.Lock()
 statistics_lock = threading.Lock()
 authors_file_lock = threading.Lock()
-locs_file_lock = threading.Lock()
+has_city_location_file_lock = threading.Lock()
+has_country_location_file_lock = threading.Lock()
 chars_file_lock = threading.Lock()
 afterauthors_file_lock = threading.Lock()
 foreauthors_file_lock = threading.Lock()
@@ -349,7 +369,8 @@ total_time = time.time()
 file_out_path = "../concepts/Book.txt"
 file_log_path = "../log/log_Book.txt"
 file_authors_path = "../roles/hasAuthor.txt"  # format wikidata:author_id,wikidata:book_id
-file_locs_path = "../roles/hasLocation.txt"
+file_has_city_location_path = "../roles/hasCityLocation.txt"
+file_has_country_location_path = "../roles/hasCountryLocation.txt"
 file_chars_path = "../roles/hasCharacter.txt"
 file_afterauthors_path = "../roles/hasAfterwordAuthor.txt"
 file_foreauthors_path = "../roles/hasForewordAuthor.txt"
@@ -371,10 +392,17 @@ try:
 except:
     genre_dict = {}
 
+# SERIES NAMES
+
 try:
     series_dict = load_obj("series")
 except:
     series_dict = {}
+
+try:
+    locations_dict = load_obj("locations")
+except:
+    locations_dict = {}
 
 genre_dict = {}  # genre widata id to label
 series_dict = {}
@@ -395,8 +423,10 @@ file_out = open(file_out_path, 'w')
 file_out.write("book_id" + ";" + "label" + ";" + "description" + ";" + "title" + ";" + "subtitle" + ";" + "first_line" + ";" + "series" + "\n")
 file_authors_out = open(file_authors_path, 'w')
 file_authors_out.write("author_id;" + "book_id" + "\n")
-file_locs_out = open(file_locs_path, 'w')
-file_locs_out.write("location_id;" + "book_id" + "\n")
+file_has_city_location = open(file_has_city_location_path, 'w')
+file_has_city_location.write("book;city\n")
+file_has_country_location = open(file_has_country_location_path, 'w')
+file_has_country_location.write("book;country\n")
 file_chars_out = open(file_chars_path, 'w')
 file_chars_out.write("character_id;" + "book_id" + "\n")
 file_afterauthors_out = open(file_afterauthors_path, 'w')
@@ -441,7 +471,8 @@ file_authors_out.close()
 file_afterauthors_out.close()
 file_foreauthors_out.close()
 file_chars_out.close()
-file_locs_out.close()
+file_has_city_location.close()
+file_has_country_location.close()
 file_has_character.close()
 file_edits_out.close()
 file_folls_out.close()
@@ -449,6 +480,7 @@ file_has_genres.close()
 file_has_genres.close()
 save_obj(genre_dict, "genres")
 save_obj(series_dict, "series")
+save_obj(locations_dict, "locations")
 # file_log.close()
 
 
