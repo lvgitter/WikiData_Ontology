@@ -1,3 +1,35 @@
 human_id;label;description;name;sex;DoB;PoB;DoD;PoD;occupations;genres;awards
-Q23766020;Virginia Raggi;Italian politician;Virginia Raggi;female;+1978-07-18T00:00:00Z;Q220;;;politician,lawyer
-Q334155;Sadiq Khan;British politician;Sadiq Khan;male;+1970-10-08T00:00:00Z;Q3495316;;;politician,lawyer
+Q50365049;Abiy Ahmed;Ethiopian politician;Abiy Ahmed;male;+1976-08-15T00:00:00Z;Q1110037;;;politician
+Q467464;Katrín Jakobsdóttir;28th Prime Minister of Iceland;Katrín Jakobsdóttir;female;+1976-02-01T00:00:00Z;Q1764;;;politician
+Q264766;Theresa May;Prime Minister of the United Kingdom;Theresa May;female;+1956-10-01T00:00:00Z;Q208262;;;politician,statesperson
+Q7176020;Peter Mutharika;President of Malawi;Peter Mutharika;male;+1940-01-01T00:00:00Z;Q219117;;;politician,diplomat,lawyer
+Q59155;Arvind Kejriwal;Indian politician;Arvind Kejriwal;male;+1968-08-16T00:00:00Z;Q1772825;;;politician,bureaucrat
+Q2641759;Alexander Bachem;German politician;Alexander Bachem;male;+1806-01-08T00:00:00Z;Q1718;+1878-02-11T00:00:00Z;Q365;politician,judge
+Q15976266;Dario Nardella;Italian politician and mayor of Florence;Dario Nardella;male;+1975-11-20T00:00:00Z;Q72719;;;politician
+Q983514;Georgy Poltavchenko;Russian politician;Georgy Poltavchenko;male;+1953-02-24T00:00:00Z;Q9248;;;politician
+Q291644;Erna Solberg;Norwegian politician;Erna Solberg;female;+1961-02-24T00:00:00Z;Q26793;;;politician
+Q311197;Earl Warren;United States federal judge;Earl Warren;male;+1891-03-19T00:00:00Z;Q65;+1974-07-09T00:00:00Z;Q61;judge,lawyer,politician
+Q17320405;Mohamed Ben Abdallah Dionne;Senegalese prime minister;Mahammed Boun Abdallah Dionne;male;+1959-09-22T00:00:00Z;Q3111445;;;politician
+Q6070218;Pedro Sánchez Pérez-Castejón;Spanish Prime Minister;Pedro Sánchez;male;+1972-02-29T00:00:00Z;Q2807;;;politician,economist
+Q43723;Benjamin Netanyahu;Israeli prime minister;בנימין נתניהו;male;+1949-10-21T00:00:00Z;Q33935;;;politician,diplomat,political writer,statesperson,military personnel
+Q312015;Alexis Tsipras;Greek politician;Αλέξης Τσίπρας;male;+1974-07-28T00:00:00Z;Q1524;;;politician,civil engineer
+Q1728820;Leo Varadkar;Irish Fine Gael politician;Leo Varadkar;male;+1979-01-18T00:00:00Z;Q1049641;;;politician,physician
+Q4911497;Bill de Blasio;American politician and mayor of New York City;Bill De Blasio;male;+1961-05-08T00:00:00Z;Q11299;;;politician,lawyer
+Q4014539;Virginio Merola;Italian politician;Virginio Merola;male;+1955-02-14T00:00:00Z;Q58894;;;politician
+Q19592761;Manuela Carmena;Spanish judge and politician;Manuela Carmena;female;+1944-02-09T00:00:00Z;Q2807;;;judge,politician,writer,lawyer
+Q241750;Ed Lee;US politician;Ed Lee;male;+1952-05-05T00:00:00Z;Q5083;+2017-12-12T00:00:00Z;Q7414040;politician,lawyer
+Q18111;Li Keqiang;Premier of the People's Republic of China;Li Keqiang;male;+1955-07-01T00:00:00Z;Q1226499;;;politician,economist,head of government
+Q2885098;Javier Rodríguez Palacios;Spanish politician;Javier Rodríguez Palacios;male;+1972-04-05T00:00:00Z;Q46940;;;politician
+Q1058;Narendra Modi;Prime Minister  of India;Narendra Damodardas Modi;male;+1950-09-17T00:00:00Z;Q2570726;;;politician
+Q17146774;Giuseppe Sala;Sole Commissioner of the Government for Expo Milano 2015;Giuseppe Sala;male;+1958-05-28T00:00:00Z;Q490;;;manager,politician
+Q6756538;Marcelo Crivellla;Brazilian politician and evangelical leader;Marcelo Crivellla;male;+1957-10-09T00:00:00Z;Q8678;;;politician
+Q703503;Leoluca Orlando;Italian politician;Leoluca Orlando;male;+1947-08-01T00:00:00Z;Q2656;;;politician,lawyer,university teacher,writer
+Q317556;Abdullah Abdullah;Afghan politician;Abdullah Abdullah;male;+1960-09-05T00:00:00Z;Q5838;;;politician,ophthalmologist,diplomat
+Q5300817;Doug Phillips;Commissioner of Yukon;Doug Phillips;male;+1946-12-04T00:00:00Z;Q172;;;politician
+Q1841565;Sandy Silver;Premier of Yukon;Sandy Silver;male;+1969-10-15T00:00:00Z;Q575483;;;politician
+Q30745227;Marco Bucci;Italian politician;Marco Bucci;male;+1959-10-31T00:00:00Z;Q1449;;;politician,manager
+Q468394;Nir Barkat;Israeli politician and mayor of Jerusalem;Nir Barkat;male;+1959-10-19T00:00:00Z;Q1218;;;politician,entrepreneur,businessperson
+Q7035479;Nikol Pashinyan;Prime Minister of Armenia;Նիկոլ Փաշինյան;male;+1975-06-01T00:00:00Z;Q62367;;;politician,journalist
+Q927550;Malcolm Turnbull;Australian politician, lawyer and businessman, 29th Prime Minister of Australia;Malcolm Turnbull;male;+1954-10-24T00:00:00Z;Q3130;;;journalist,politician,entrepreneur,lawyer,investment banker
+Q313252;Charles Evans Hughes;American judge;Charles Evans Hughes;male;+1862-04-11T00:00:00Z;Q1379621;+1948-08-27T00:00:00Z;Q7107667;politician,jurist,judge,lawyer,diplomat
+Q18104657;Adriana Krnáčová;Czech politician, mayor of Prague;Adriana Krnáčová;female;+1960-09-26T00:00:00Z;Q1780;;;politician

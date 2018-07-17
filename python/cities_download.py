@@ -7,7 +7,7 @@ import requests
 import random
 
 N_THREADS = 16
-LEN_INDEX = 5
+LEN_INDEX = 6
 
 def index(statistic_name):
     switcher = {
@@ -15,7 +15,8 @@ def index(statistic_name):
         "no area":1,
         "no label":2,
         "no description":3,
-        "no country":4
+        "no country":4,
+        "no mayor":5
     }
     return switcher[statistic_name]
 
@@ -25,7 +26,8 @@ def label(statistic_id):
         1:"no area",
         2:"no label",
         3:"no description",
-        4:"no country"
+        4:"no country",
+        5:"no mayor"
     }
     return switcher[statistic_id]
 
@@ -104,16 +106,16 @@ class myThread (threading.Thread):
             if ("P1313" in data['entities'][city_id]["claims"]):
                 for mayor in data['entities'][city_id]["claims"]["P1313"]:
                     try:
-                        if (mayor["mainsnak"]["datavalue"]["value"]["id"] in mayors):
-                            has_mayor_lock.acquire()
-                            has_mayor_file.write(
-                                str(city_id + ";" + mayor["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
-                            has_mayor_lock.release()
+                        #if (mayor["mainsnak"]["datavalue"]["value"]["id"] in mayors):
+                        has_mayor_lock.acquire()
+                        has_mayor_file.write(
+                            str(city_id + ";" + mayor["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
+                        has_mayor_lock.release()
 
                     except:
                         has_mayor_lock.release()
             else:
-                self.local_statistics[index("no PoB")] += 1
+                self.local_statistics[index("no mayor")] += 1
 
             
             
@@ -149,20 +151,29 @@ total_time=time.time()
 
 
 #ID OF ALL POSSIBLE MAYORS
-file_mayors_id_path = "../mayors_id.txt"
+#file_mayors_id_path = "../mayors_id.txt"
+
+place_of_birth_file_path = "../roles/placeOfBirth.txt"
+place_of_death_file_path = "../roles/placeOfDeath.txt"
+place_of_birth_file = open(place_of_birth_file_path, 'r')
+place_of_death_file = open(place_of_death_file_path, 'r')
+PoB = set([x.strip().split(";")[1] for x in place_of_birth_file.readlines()[1:]])
+PoD = set([x.strip().split(";")[1] for x in place_of_death_file.readlines()[1:]])
+cities = list(PoB.union(PoD))
+
 
 #FILES OUTPUT PATH
-file_out_path = "../concepts/City.txt"
-file_log_path = "../log/log_City.txt"
+file_out_path = "../concepts/RealCity.txt"
+file_log_path = "../log/log_RealCity.txt"
 file_couns_path = "../roles/hasCountry.txt"
-file_has_mayor_path = "/../roles/hasMayor.txt"
+file_has_mayor_path = "../roles/hasMayor.txt"
 
 
 #STATISTICS VARIABLES
 statistics = [0 for x in range(LEN_INDEX)]
 
 #RETRIEVING ALL PUBLISHERs WIKIDATA IDs and QUERY THEM
-cities = []
+
 with open("../roles/hasLocation.txt", "r")as hp:
     j = 0
     for line in hp:
@@ -173,8 +184,8 @@ with open("../roles/hasLocation.txt", "r")as hp:
         cities.append(city)
 
 # RETRIEVING ALL PUBLISHERs WIKIDATA IDs and QUERY THEM
-file_mayors_id = open(file_mayors_id_path, 'r')
-mayors = ([x.strip() for x in file_mayors_id.readlines()[1:]])
+#file_mayors_id = open(file_mayors_id_path, 'r')
+#mayors = ([x.strip() for x in file_mayors_id.readlines()[1:]])
 
 #SAVING TO FILE
 file_log = open(file_log_path, 'w')
@@ -183,7 +194,7 @@ file_couns_out = open(file_couns_path, 'w')
 file_couns_out.write("country_id;" + "city_id" + "\n")
 file_out.write("city_id" + ";" + "label" + ";" + "description" + ";" + "area" + ";" + "population" + "\n")
 has_mayor_file = open(file_has_mayor_path, 'w')
-has_mayor_file.write("mayor_id\n")
+has_mayor_file.write("city_id;mayor_id\n")
 n_results = len(cities)
 print("Number of cities: " + str(n_results))
 file_log.write("Number of cities: " + str(n_results) + "\n")

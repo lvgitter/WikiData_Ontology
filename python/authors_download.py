@@ -298,6 +298,7 @@ place_of_birth_file_path = "../roles/placeOfBirth.txt"
 place_of_death_file_path = "../roles/placeOfDeath.txt"
 file_has_awards_path = "../roles/_Author_has_awards.txt"
 file_has_genres_path = "../roles/_Author_has_genres.txt"
+processed_humans_file_path = "../tmp/processed_humans.txt"
 log_file_path = "../log/Author_download_log.txt"
 
 
@@ -314,9 +315,9 @@ authors = []
 authors_id_file = open(authors_id_file_path, 'r')
 afterword_authors_id_file = open(afterword_authors_id_file_path, 'r')
 foreword_authors_id_file = open(foreword_authors_id_file_path, 'r')
-authors = set([x.split(',')[0] for x in authors_id_file.readlines()[1:]])
-authors.union(set([x.split(',')[0] for x in afterword_authors_id_file.readlines()[1:]]))
-authors.union(set([x.split(',')[0] for x in foreword_authors_id_file.readlines()[1:]]))
+authors = set([x.strip().split(';')[0] for x in authors_id_file.readlines()[1:]])
+authors.union(set([x.strip().split(';')[0] for x in afterword_authors_id_file.readlines()[1:]]))
+authors.union(set([x.strip().split(';')[0] for x in foreword_authors_id_file.readlines()[1:]]))
 authors = list(authors)
 authors_id_file.close()
 afterword_authors_id_file.close()
@@ -336,6 +337,7 @@ file_has_awards = open(file_has_awards_path, 'w')
 file_has_awards.write("author_id;award")
 file_has_genres = open(file_has_genres_path, 'w')
 file_has_genres.write("author_id;genre")
+processed_humans_file = open(processed_humans_file_path, 'w')
 log_file = open(log_file_path, 'w')
 
 influencing_authors = set()
@@ -367,6 +369,7 @@ place_of_birth_file.close()
 place_of_death_file.close()
 file_has_awards.close()
 file_has_genres.close()
+processed_humans_file.close()
 
 # UPDATING DICTIONARIES
 save_obj(occupations_dict, 'occupations')

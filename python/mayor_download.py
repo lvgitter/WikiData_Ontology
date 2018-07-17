@@ -128,13 +128,13 @@ class MayorDownloadThread(threading.Thread):
                         print("preferred")
                         break
                 try:
-                    human_lock.acquire()
+                    has_role_lock.acquire()
                     human = pref_mayor["mainsnak"]["datavalue"]["value"]["id"]
-                    human_file.write(human+"\n")
-                    human_lock.release()
+                    has_role_file.write(human+";"+mayor+"\n")
+                    has_role_lock.release()
                 except:
                     print("exception human")
-                    human_lock.release()
+                    has_role_lock.release()
                     self.local_statistics[index("no human")] += 1
                 try:
                     start_time = mayor_data["qualifiers"]["P580"]["datavalue"]["value"]["time"]
@@ -166,9 +166,7 @@ total_time = time.time()
 
 # FILES OUTPUT PATH
 mayors_file_path = "../concepts/Mayor.txt"
-mayors_id_file_path = "../mayors_test.txt"
 has_role_file_path = "../roles/hasRole.txt"
-human_file_path = "../humans.txt"
 log_file_path = "../log/Mayor_download_log.txt"
 
 
@@ -180,19 +178,18 @@ occupations_dict = load_obj("occupations") # occupation wikidata id to label
 official_residence_dict = {}
 
 # RETRIEVING ALL MAYORS WIKIDATA IDs
+has_mayor_file_path = "../roles/hasMayor.txt"
 mayors = []
-mayors_id_file = open(mayors_id_file_path, 'r')
-mayors = set([x.strip() for x in mayors_id_file.readlines()[1:]]) # CHECK IF IT IS RIGHT IN THE FIRST POSITION
+has_mayor_file = open(has_mayor_file_path, 'r')
+mayors = set([x.strip().split(";")[1] for x in has_mayor_file.readlines()[1:]]) # CHECK IF IT IS RIGHT IN THE FIRST POSITION
 mayors = list(mayors)
-mayors_id_file.close()
+has_mayor_file.close()
 
 # OPENING OUTPUT FILES
 mayors_file = open(mayors_file_path, 'w')
 mayors_file.write('mayor_id;label;description;start_time;end_time;official_residence\n')
 has_role_file = open(has_role_file_path, 'w')
 has_role_file.write('human_id;mayor_id\n')
-human_file = open(human_file_path, 'w')
-human_file.write("human_id\n")
 log_file = open(log_file_path, 'w')
 
 n_mayors = len(mayors)
@@ -216,7 +213,7 @@ for t in threads:
 
 # CLOSING OUTPUT FILES
 mayors_file.close()
-human_file.close()
+has_role_file.close()
 
 
 # UPDATING DICTIONARIES

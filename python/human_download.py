@@ -7,7 +7,7 @@ import requests
 import random
 import pickle
 
-N_THREADS = 1
+N_THREADS = 16
 LEN_INDEX = 9
 
 
@@ -208,7 +208,7 @@ class HumanDownloadThread(threading.Thread):
 
 
 # LOCKS
-humans_lock = threading.Lock()
+has_role_lock = threading.Lock()
 place_of_birth_lock = threading.Lock()
 place_of_death_lock = threading.Lock()
 occupations_dict_lock = threading.Lock()
@@ -218,9 +218,9 @@ total_time = time.time()
 
 # FILES OUTPUT PATH
 humans_file_path = "../concepts/Human.txt"
-humans_id_file_path = "../humans.txt"
 place_of_birth_file_path = "../roles/placeOfBirth.txt"
 place_of_death_file_path = "../roles/placeOfDeath.txt"
+processed_humans_file_path = "../tmp/processed_humans.txt"
 log_file_path = "../log/Human_download_log.txt"
 
 # STATISTICS VARIABLES
@@ -229,20 +229,30 @@ statistics = [0 for x in range(LEN_INDEX)]
 # DICTIONARIES LOADING
 occupations_dict = load_obj("occupations")  # occupation wikidata id to label
 
+# RETRIEVING ALL HUMANS WIKIDATA IDs ALREADY PROCESSED
 
-# RETRIEVING ALL HUMANS WIKIDATA IDs
+processed_humans_file = open(processed_humans_file_path, 'r')
+processed_humans = set([x.strip() for x in processed_humans_file.readlines()[1:]])
+processed_humans = list(processed_humans)
+processed_humans_file.close()
+
+
+# RETRIEVING ALL HUMANS WIKIDATA IDs TO BE PROCESSED
 humans = []
-humans_id_file = open(humans_id_file_path, 'r')
-humans = set([x.strip() for x in humans_id_file.readlines()[1:]])
+has_role_file_path = "../roles/hasRole.txt"
+has_role_file = open(has_role_file_path, 'r')
+humans = set([x.strip().split(";")[0] for x in has_role_file.readlines()[1:]]).difference(processed_humans)
 humans = list(humans)
-humans_id_file.close()
+has_role_file.close()
 
 # OPENING OUTPUT FILES
 humans_file = open(humans_file_path, 'w')
 humans_file.write('human_id;label;description;name;sex;DoB;PoB;DoD;PoD;occupations;genres;awards\n')
 place_of_birth_file = open(place_of_birth_file_path, 'a')
 place_of_death_file = open(place_of_death_file_path, 'a')
+processed_humans_file = open(processed_humans_file_path, 'a')
 log_file = open(log_file_path, 'w')
+
 
 n_humans = len(humans)
 print("Number of humans: " + str(n_humans))
@@ -263,10 +273,17 @@ for t in threads:
 for t in threads:
     statistics = [sum(x) for x in zip(statistics, t.join())]
 
+# UPDATING PROCESSED HUMAN WIKIDATA IDS
+
+for h in humans:
+    processed_humans_file.write(h+"\n")
+
+
 # CLOSING OUTPUT FILES
 humans_file.close()
 place_of_birth_file.close()
 place_of_death_file.close()
+processed_humans_file.close()
 
 # UPDATING DICTIONARIES
 save_obj(occupations_dict, 'occupations')
