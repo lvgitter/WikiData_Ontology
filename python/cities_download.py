@@ -183,11 +183,16 @@ total_time=time.time()
 
 place_of_birth_file_path = "../roles/placeOfBirth.txt"
 place_of_death_file_path = "../roles/placeOfDeath.txt"
+has_city_location_file_path = "../roles/hasCityLocation.txt"
+
 place_of_birth_file = open(place_of_birth_file_path, 'r')
 place_of_death_file = open(place_of_death_file_path, 'r')
+has_city_location_file = open(has_city_location_file_path, 'r')
+
 PoB = set([x.strip().split(";")[1] for x in place_of_birth_file.readlines()[1:]])
 PoD = set([x.strip().split(";")[1] for x in place_of_death_file.readlines()[1:]])
-cities = list(PoB.union(PoD))
+locations = set([x.strip().split(";")[1] for x in place_of_death_file.readlines()[1:] if x.strip().split(";")[2] == 'r'])
+cities = list(PoB.union(PoD).union(locations))
 
 
 #FILES OUTPUT PATH
@@ -201,17 +206,6 @@ file_has_analog_path = "../roles/hasAnalog.txt"
 
 #STATISTICS VARIABLES
 statistics = [0 for x in range(LEN_INDEX)]
-
-#RETRIEVING ALL PUBLISHERs WIKIDATA IDs and QUERY THEM
-
-with open("../roles/hasLocation.txt", "r")as hp:
-    j = 0
-    for line in hp:
-        if j == 0:
-            j += 1
-            continue
-        city = line.split(";")[0]
-        cities.append(city)
 
 # RETRIEVING ALL PUBLISHERs WIKIDATA IDs and QUERY THEM
 #file_mayors_id = open(file_mayors_id_path, 'r')

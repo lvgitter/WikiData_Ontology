@@ -141,30 +141,47 @@ class myThread(threading.Thread):
                     loc = loc["mainsnak"]["datavalue"]["value"]["id"]
                     # retrieve loc name or retrieve and save it
                     if loc in locations_dict:
-                        if locations_dict[loc][1] == "city":
-                            loc_name = locations_dict[loc][0]
+                        if locations_dict[loc] == "real city":
                             locations_lock.acquire()
-                            file_has_city_location.write(book_id + ";" + loc_name + "\n")
+                            file_has_city_location.write(book_id + ";" + loc + ";r\n")
+                            locations_lock.release()
+                        elif locations_dict[loc] == "fictional city":
+                            locations_lock.acquire()
+                            file_has_city_location.write(book_id + ";" + loc + ";f\n")
                             locations_lock.release()
                         elif locations_dict[loc] == "country":
-                            loc_name = genre_dict[loc][0]
-                            genres_lock.acquire()
-                            file_has_genres.write(book_id + ";" + loc_name + "\n")
-                            genres_lock.release()
+                            locations_lock.acquire()
+                            file_has_genres.write(book_id + ";" + loc+ "\n")
+                            locations_lock.release()
                     else:
-                        urlg = "http://www.wikidata.org/wiki/Special:EntityData/" + loc + ".json" #INSTANCE OF
-                        responseg = requests.get(urlg)
-                        datag = responseg.json()
-                        try:
-                            genres_lock.acquire()
-                            gname = datag['entities'][genre]["labels"]["en"]["value"]
-                            genre_dict[genre] = gname
-                            file_has_genres.write(book_id+";"+gname+"\n")
-                            genres_lock.release()
-                        except:
-                            genres_lock.release()
+                        url_loc = "http://www.wikidata.org/wiki/Special:EntityData/" + loc + ".json" #INSTANCE OF
+                        response_loc = requests.get(url_loc)
+                        data_loc = response_loc.json()
+
+                        instances_of_location = []
+                        if "P31" in data_loc['entities'][loc]["claims"]:
+                            for instance in data_loc['entities'][loc]["claims"]["P31"]:
+                                instances_of_location.append(instance["mainsnak"]["datavalue"]["value"]["id"])
+                            try:
+                                if "Q515" in instances_of_location:
+                                    locations_lock.acquire()
+                                    locations_dict[loc] = "real city"
+                                    file_has_city_location.write(book_id + ";" + loc + ";r\n")
+                                    locations_lock.release()
+                                elif "Q1964689" in instances_of_location:
+                                    locations_lock.acquire()
+                                    locations_dict[loc] = "fictional city"
+                                    file_has_city_location.write(book_id + ";" + loc + ";f\n")
+                                    locations_lock.release()
+                                elif "Q6256" in instances_of_location:
+                                    locations_lock.acquire()
+                                    locations_dict[loc] = "country"
+                                    file_has_country_location.write(book_id + ";" + loc + "\n")
+                                    locations_lock.release()
+                            except:
+                                locations_lock.release()
             else:
-                self.local_statistics[index("no genre")] += 1
+                self.local_statistics[index("no loc")] += 1
 
             # CHARACTERS
             if ("P674" in data['entities'][book_id]["claims"]):
@@ -398,14 +415,14 @@ try:
     series_dict = load_obj("series")
 except:
     series_dict = {}
-
+'''
 try:
     locations_dict = load_obj("locations")
 except:
-    locations_dict = {}
+    locations_dict = {}'''
 
-genre_dict = {}  # genre widata id to label
-series_dict = {}
+locations_dict = {}
+
 
 # RETRIEVING ALL BOOKS WIKIDATA IDs
 sparql = SPARQLWrapper("https://query.wikidata.org/sparql")

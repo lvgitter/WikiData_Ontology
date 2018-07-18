@@ -21,4 +21,4 @@ no editions     :408  (85.0 %)
 no series       :427  (89.0 %) 
 no follower     :427  (89.0 %) 
 no character    :405  (84.0 %) 
-Total_time:	35.21 sec
+Total_time:	22.84 sec
