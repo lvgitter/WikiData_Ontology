@@ -1,13 +1,13 @@
 
 # coding: utf-8
 
-# In[8]:
+# In[16]:
 
 
 #parser: given owl, set up db and write mappings
 
 
-# In[9]:
+# In[17]:
 
 
 with open ("/home/lv/Documents/my_grive/my_google_drive/MAGISTRALE/SEM/lenz/project/shared_git/WikidataProject/books/book_17_06", "r") as fowl:
@@ -127,20 +127,20 @@ print (dict_attributes)
     
 
 
-# In[10]:
+# In[18]:
 
 
 relazioni_da_accorpare = ["hasMayor"]
 #'character_id': {'range': {'name': 'character_id> xsd:strin'}, 'domain': {'name': 'Character', 'nullable': False}, 'functional': True, 'inv_functional': False}
 
 
-# In[11]:
+# In[19]:
 
 
 dict_attributes.keys()
 
 
-# In[12]:
+# In[20]:
 
 
 for attribute in dict_attributes.keys():
@@ -222,13 +222,13 @@ print("************************")
     
 
 
-# In[13]:
+# In[21]:
 
 
 #generate strings and write to file
 
 
-# In[14]:
+# In[22]:
 
 
 outstring_create = "CREATE DATABASE bookDB;\n\nUSE bookDB;\n\n"
@@ -264,7 +264,7 @@ with open("create.sql", "w") as cf, open("insert.sql", "w") as insf:
     cf.write(outstring_create)
 
 
-# In[15]:
+# In[31]:
 
 
 base_iri = "http://books/"
@@ -275,7 +275,7 @@ with open("book_mappings.xml", "w") as mapf:
     #templates
     outstring_mappings += "<templates>\n"
     for class_ in dict_classes.keys():
-        outstring_mappings += "http://books/" + class_.lower + "_{_}</template>"
+        outstring_mappings += "<template>http://books/" + class_.lower() + "_{_}</template>\n"
     outstring_mappings += "</templates>\n"
     
     #mappings, sql included
@@ -292,8 +292,8 @@ with open("book_mappings.xml", "w") as mapf:
             word = "role"
         else:
             word = "concept"
-        outstring_mappings += "<ontologyPredicateMapping id=\"M" + mapping_counter + "_" + class_ + "\">\n" +         "<" + word + "string=" + base_iri + "#" + class_ + ">
-        outstring_mappings += "<template>" + base_iri + class_.lower + ">
+        outstring_mappings += "<ontologyPredicateMapping id=\"M" + str(mapping_counter) + "_" + class_ + "\">\n" +         "<" + word + "string=" + base_iri + "#" + class_ + ">"
+        outstring_mappings += "<template>" + base_iri + class_.lower() + ">"
     outstring_mappings += "</mappings>\n<blocks/>\n<constraints/>\n</OBDA>"
 
     print (outstring_mappings)
