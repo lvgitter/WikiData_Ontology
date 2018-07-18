@@ -7,10 +7,10 @@
 #parser: given owl, set up db and write mappings
 
 
-# In[17]:
+# In[34]:
 
 
-with open ("/home/lv/Documents/my_grive/my_google_drive/MAGISTRALE/SEM/lenz/project/shared_git/WikidataProject/books/book_17_06", "r") as fowl:
+with open ("../books/book_17_06.owl", "r") as fowl:
     content = fowl.read()
     i = 0
     lines = content.split("\n")
@@ -131,13 +131,14 @@ print (dict_attributes)
 
 
 relazioni_da_accorpare = ["hasMayor"]
+relazioni_da_accorpare = []
 #'character_id': {'range': {'name': 'character_id> xsd:strin'}, 'domain': {'name': 'Character', 'nullable': False}, 'functional': True, 'inv_functional': False}
 
 
 # In[19]:
 
 
-dict_attributes.keys()
+#dict_attributes.keys()
 
 
 # In[20]:
