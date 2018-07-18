@@ -298,4 +298,4 @@ with open("book_mappings.xml", "w") as mapf:
     outstring_mappings += "</mappings>\n<blocks/>\n<constraints/>\n</OBDA>"
 
     print (outstring_mappings)
-
+    mapf.write(outstring_mappings)

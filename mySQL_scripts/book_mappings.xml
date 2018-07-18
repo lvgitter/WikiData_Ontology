@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OBDA version="1.0">
+<dataSource databaseDriver="org.postgresql.Driver" databaseName=""
+databasePassword="postgres"
+databaseURL="jdbc:postgresql://localhost/comics_db"
+databaseUsername="postgres" name="datasource"/>
+<prefixes>
+<prefix name="owl:" namespace="http://www.w3.org/2002/07/owl#"/>
+<prefix name="rdf:" namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+<prefix name="sh:" namespace="http://books//#>
+<prefix name="xsd:" namespace="http://www.w3.org/2001/XMLSchema#"/>
+<prefix name=":" namespace="http://books/>
+<prefix name="xml:" namespace="http://www.w3.org/XML/1998/namespace"/>
+<prefix name="rdfs:" namespace="http://www.w3.org/2000/01/rdf-schema#"/>
+</prefixes>
+<templates>
+<template>http://books/hasrole_{_}</template>
+<template>http://books/fictionalcharacter_{_}</template>
+<template>http://books/book_{_}</template>
+<template>http://books/foundedby_{_}</template>
+<template>http://books/hasauthor_genre_{_}</template>
+<template>http://books/hasforewordauthor_{_}</template>
+<template>http://books/hasaward_{_}</template>
+<template>http://books/city_{_}</template>
+<template>http://books/hascharacter_{_}</template>
+<template>http://books/hasafterwordauthor_{_}</template>
+<template>http://books/speaks_{_}</template>
+<template>http://books/country_{_}</template>
+<template>http://books/followedby_{_}</template>
+<template>http://books/character_{_}</template>
+<template>http://books/bookwrittenin_{_}</template>
+<template>http://books/author_genre_{_}</template>
+<template>http://books/hascountry_{_}</template>
+<template>http://books/hasusedlanguage_{_}</template>
+<template>http://books/realcity_{_}</template>
+<template>http://books/hasauthor_{_}</template>
+<template>http://books/language_{_}</template>
+<template>http://books/human_{_}</template>
+<template>http://books/hasmayor_{_}</template>
+<template>http://books/fictionalnonhuman_{_}</template>
+<template>http://books/hasanalog_{_}</template>
+<template>http://books/hasillustrator_{_}</template>
+<template>http://books/fictionalcity_{_}</template>
+<template>http://books/publisher_{_}</template>
+<template>http://books/translator_{_}</template>
+<template>http://books/award_{_}</template>
+<template>http://books/fictionalhuman_{_}</template>
+<template>http://books/locatedin_{_}</template>
+<template>http://books/placeofdeath_{_}</template>
+<template>http://books/hastranslator_{_}</template>
+<template>http://books/edition_{_}</template>
+<template>http://books/hasedition_{_}</template>
+<template>http://books/haspublisher_{_}</template>
+<template>http://books/haslocation_{_}</template>
+<template>http://books/author_{_}</template>
+<template>http://books/mayor_{_}</template>
+<template>http://books/placeofbirth_{_}</template>
+<template>http://books/influencedby_{_}</template>
+</templates>
+<mappings>
+<ontologyPredicateMapping id="M1_hasRole">
+<rolestring=http://books/#hasRole><template>http://books/hasrole><ontologyPredicateMapping id="M2_FictionalCharacter">
+<conceptstring=http://books/#FictionalCharacter><template>http://books/fictionalcharacter><ontologyPredicateMapping id="M3_Book">
+<conceptstring=http://books/#Book><template>http://books/book><ontologyPredicateMapping id="M4_foundedBy">
+<rolestring=http://books/#foundedBy><template>http://books/foundedby><ontologyPredicateMapping id="M5_hasAuthor_Genre">
+<rolestring=http://books/#hasAuthor_Genre><template>http://books/hasauthor_genre><ontologyPredicateMapping id="M6_hasForewordAuthor">
+<rolestring=http://books/#hasForewordAuthor><template>http://books/hasforewordauthor><ontologyPredicateMapping id="M7_hasAward">
+<rolestring=http://books/#hasAward><template>http://books/hasaward><ontologyPredicateMapping id="M8_City">
+<conceptstring=http://books/#City><template>http://books/city><ontologyPredicateMapping id="M9_hasCharacter">
+<rolestring=http://books/#hasCharacter><template>http://books/hascharacter><ontologyPredicateMapping id="M10_hasAfterwordAuthor">
+<rolestring=http://books/#hasAfterwordAuthor><template>http://books/hasafterwordauthor><ontologyPredicateMapping id="M11_speaks">
+<rolestring=http://books/#speaks><template>http://books/speaks><ontologyPredicateMapping id="M12_Country">
+<conceptstring=http://books/#Country><template>http://books/country><ontologyPredicateMapping id="M13_followedBy">
+<rolestring=http://books/#followedBy><template>http://books/followedby><ontologyPredicateMapping id="M14_Character">
+<conceptstring=http://books/#Character><template>http://books/character><ontologyPredicateMapping id="M15_BookWrittenIn">
+<rolestring=http://books/#BookWrittenIn><template>http://books/bookwrittenin><ontologyPredicateMapping id="M16_Author_Genre">
+<conceptstring=http://books/#Author_Genre><template>http://books/author_genre><ontologyPredicateMapping id="M17_hasCountry">
+<rolestring=http://books/#hasCountry><template>http://books/hascountry><ontologyPredicateMapping id="M18_hasUsedLanguage">
+<rolestring=http://books/#hasUsedLanguage><template>http://books/hasusedlanguage><ontologyPredicateMapping id="M19_RealCity">
+<conceptstring=http://books/#RealCity><template>http://books/realcity><ontologyPredicateMapping id="M20_hasAuthor">
+<rolestring=http://books/#hasAuthor><template>http://books/hasauthor><ontologyPredicateMapping id="M21_Language">
+<conceptstring=http://books/#Language><template>http://books/language><ontologyPredicateMapping id="M22_Human">
+<conceptstring=http://books/#Human><template>http://books/human><ontologyPredicateMapping id="M23_hasMayor">
+<rolestring=http://books/#hasMayor><template>http://books/hasmayor><ontologyPredicateMapping id="M24_FictionalNonHuman">
+<conceptstring=http://books/#FictionalNonHuman><template>http://books/fictionalnonhuman><ontologyPredicateMapping id="M25_hasAnalog">
+<rolestring=http://books/#hasAnalog><template>http://books/hasanalog><ontologyPredicateMapping id="M26_hasIllustrator">
+<rolestring=http://books/#hasIllustrator><template>http://books/hasillustrator><ontologyPredicateMapping id="M27_FictionalCity">
+<conceptstring=http://books/#FictionalCity><template>http://books/fictionalcity><ontologyPredicateMapping id="M28_Publisher">
+<conceptstring=http://books/#Publisher><template>http://books/publisher><ontologyPredicateMapping id="M29_Translator">
+<conceptstring=http://books/#Translator><template>http://books/translator><ontologyPredicateMapping id="M30_Award">
+<conceptstring=http://books/#Award><template>http://books/award><ontologyPredicateMapping id="M31_FictionalHuman">
+<conceptstring=http://books/#FictionalHuman><template>http://books/fictionalhuman><ontologyPredicateMapping id="M32_locatedIn">
+<rolestring=http://books/#locatedIn><template>http://books/locatedin><ontologyPredicateMapping id="M33_PlaceOfDeath">
+<rolestring=http://books/#PlaceOfDeath><template>http://books/placeofdeath><ontologyPredicateMapping id="M34_hasTranslator">
+<rolestring=http://books/#hasTranslator><template>http://books/hastranslator><ontologyPredicateMapping id="M35_Edition">
+<conceptstring=http://books/#Edition><template>http://books/edition><ontologyPredicateMapping id="M36_hasEdition">
+<rolestring=http://books/#hasEdition><template>http://books/hasedition><ontologyPredicateMapping id="M37_hasPublisher">
+<rolestring=http://books/#hasPublisher><template>http://books/haspublisher><ontologyPredicateMapping id="M38_hasLocation">
+<rolestring=http://books/#hasLocation><template>http://books/haslocation><ontologyPredicateMapping id="M39_Author">
+<conceptstring=http://books/#Author><template>http://books/author><ontologyPredicateMapping id="M40_Mayor">
+<conceptstring=http://books/#Mayor><template>http://books/mayor><ontologyPredicateMapping id="M41_PlaceOfBirth">
+<rolestring=http://books/#PlaceOfBirth><template>http://books/placeofbirth><ontologyPredicateMapping id="M42_InfluencedBy">
+<rolestring=http://books/#InfluencedBy><template>http://books/influencedby></mappings>
+<blocks/>
+<constraints/>
+</OBDA>
