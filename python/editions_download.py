@@ -8,7 +8,7 @@ import random
 import pickle
 
 N_THREADS = 16
-LEN_INDEX = 9
+LEN_INDEX = 7
 
 
 def index(statistic_name):
@@ -16,12 +16,9 @@ def index(statistic_name):
         "no title": 0,
         "no label": 1,
         "no description": 2,
-        "no subtitle": 3,
-        "no tra": 4,
-        "no original": 5,
-        "no first line":6,
-        "no pub":7,
-        "no ill":8
+        "no translator": 3,
+        "no publisher":4,
+        "no illustrator":5
     }
     return switcher[statistic_name]
 
@@ -31,26 +28,12 @@ def label(statistic_id):
         0: "no title",
         1: "no label",
         2: "no description",
-        3: "no subtitle",
-        4: "no tra",
-        5: "no original",
-        6: "no first line",
-        7:"no pub",
-        8:"no ill"
+        3: "no translator",
+        4:"no publisher",
+        5:"no illustrator"
 
     }
     return switcher[statistic_id]
-
-
-def save_obj(obj, name):
-    with open('../python/obj/' + name + '.pkl', 'wb') as f:
-        pickle.dump(obj, f, pickle.HIGHEST_PROTOCOL)
-
-
-def load_obj(name):
-    with open('../python/obj/' + name + '.pkl', 'rb') as f:
-        return pickle.load(f)
-
 
 # THREAD DEFINITION
 class myThread(threading.Thread):
@@ -66,126 +49,82 @@ class myThread(threading.Thread):
         for j in range(self.res_min, self.res_max):
             time.sleep(random.random() * 0.1)
             count += 1
-            if (count % 10 == 0):  # to modify?
+            if (count % 100 == 0):
                 print("[Thread " + str(self.id) + "]\t" + "edition " + str(j - self.res_min + 1) + "/" + str(
                     self.res_max - self.res_min))
 
             result = editions[j]
             url = "https://www.wikidata.org/wiki/Special:EntityData/" + result +".json"
-            # start_time_get = time.time()
-            response = requests.get(url)  # timeout
-            try:
-                data = response.json()
-            except:
-                print("EXCEPTION " + url)
-                continue
-            book_id = url.split(".json")[0].split("/")[-1]
-            # print("[Thread " + str(self.id) + "]\t" + "book " + str(book_id))
-            # end_time_get = time.time()
-            # total_get_time += end_time_get - start_time_get
+            for i in range(3):
+                try:
+                    response = requests.get(url)  # timeout
+                    data = response.json()
+                except:
+                    print("EXCEPTION " + url)
+                    time.sleep(0.5)
+                    continue
+            edition_id = url.split(".json")[0].split("/")[-1]
 
             # LABEL
             label = ""
             try:
-                label = data['entities'][book_id]["labels"]["en"]["value"]
-                # print(label)
+                label = data['entities'][edition_id]["labels"]["en"]["value"]
             except:
-                # print("-- missing label on wikidata--")
                 self.local_statistics[index("no label")] += 1
 
             # DESCRIPTION
             description = ""
-            if ("descriptions" in data['entities'][book_id]["claims"]):
-                if ("en" in data['entities'][book_id]["claims"]["descriptions"]):
-                    description = data['entities'][book_id]["claims"]["descriptions"]["en"]["value"]
-            elif ("descriptions" in data['entities'][book_id]):
-                if ("en" in data['entities'][book_id]["descriptions"]):
-                    description = data['entities'][book_id]["descriptions"]["en"]["value"]
+            if ("descriptions" in data['entities'][edition_id]["claims"]):
+                if ("en" in data['entities'][edition_id]["claims"]["descriptions"]):
+                    description = data['entities'][edition_id]["claims"]["descriptions"]["en"]["value"]
+            elif ("descriptions" in data['entities'][edition_id]):
+                if ("en" in data['entities'][edition_id]["descriptions"]):
+                    description = data['entities'][edition_id]["descriptions"]["en"]["value"]
             else:
                 self.local_statistics[index("no description")] += 1
 
-            # TITLE
-            title = ""
-            if ("P1476" in data['entities'][book_id]["claims"]):
-                title = (data['entities'][book_id]["claims"]["P1476"][0]["mainsnak"]["datavalue"]["value"]["text"])
-            else:
-                self.local_statistics[index("no title")] += 1
-
-            
-            # SUBTITLE
-            subtitle = ""
-            if ("P1680" in data['entities'][book_id]["claims"]):
-                subtitle = data['entities'][book_id]["claims"]["P1680"][0]["mainsnak"]["datavalue"]["value"]["text"]
-            else:
-                self.local_statistics[index("no subtitle")] += 1
-
-            # FIRST LINE
-            first_line = ""
-            if ("P1922" in data['entities'][book_id]["claims"]):
-                first_line = data['entities'][book_id]["claims"]["P1922"][0]["mainsnak"]["datavalue"]["value"]["text"]
-            else:
-                self.local_statistics[index("no first line")] += 1
-
-                
-                
             # TRANSLATOR (HUMANS)
-            if ("P655" in data['entities'][book_id]["claims"]):
-                for tra in data['entities'][book_id]["claims"]["P655"]:
+            if ("P655" in data['entities'][edition_id]["claims"]):
+                for tra in data['entities'][edition_id]["claims"]["P655"]:
                     try:
                         tras_file_lock.acquire()
                         file_tras_out.write(
-                            str(tra["mainsnak"]["datavalue"]["value"]["id"]) + ";" + str(book_id) + "\n")
+                            str(edition_id + ";"+tra["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
                         tras_file_lock.release()
                     except:
                         tras_file_lock.release()
             else:
-                self.local_statistics[index("no tra")] += 1
+                self.local_statistics[index("no translator")] += 1
 
             # PUBLISHERS
-            if ("P123" in data['entities'][book_id]["claims"]):
-                for pub in data['entities'][book_id]["claims"]["P123"]:
+            if ("P123" in data['entities'][edition_id]["claims"]):
+                for pub in data['entities'][edition_id]["claims"]["P123"]:
                     try:
                         pubs_file_lock.acquire()
                         file_pubs_out.write(
-                            str(pub["mainsnak"]["datavalue"]["value"]["id"]) + ";" + str(book_id) + "\n")
+                            str(edition_id+";"+pub["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
                         pubs_file_lock.release()
                     except:
                         pubs_file_lock.release()
             else:
-                self.local_statistics[index("no pub")] += 1
+                self.local_statistics[index("no publisher")] += 1
 
             # ILLUSTRATORS (HUMANS)
-            if ("P110" in data['entities'][book_id]["claims"]):
-                for ill in data['entities'][book_id]["claims"]["P110"]:
+            if ("P110" in data['entities'][edition_id]["claims"]):
+                for ill in data['entities'][edition_id]["claims"]["P110"]:
                     try:
                         ills_file_lock.acquire()
                         file_ills_out.write(
-                            str(ill["mainsnak"]["datavalue"]["value"]["id"]) + ";" + str(book_id) + "\n")
+                            str(edition_id+";"+ill["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
                         ills_file_lock.release()
                     except:
                         ills_file_lock.release()
             else:
-                self.local_statistics[index("no ill")] += 1
-
-            # ORIGINAL (BOOK)
-            if ("P629" in data['entities'][book_id]["claims"]):
-                for tra in data['entities'][book_id]["claims"]["P629"]:
-                    try:
-                        oris_file_lock.acquire()
-                        file_oris_out.write(
-                            str(tra["mainsnak"]["datavalue"]["value"]["id"]) + ";" + str(book_id) + "\n")
-                        oris_file_lock.release()
-                    except:
-                        oris_file_lock.release()
-            else:
-                self.local_statistics[index("no original")] += 1
+                self.local_statistics[index("no illustrator")] += 1
                 
-                
-            
-
             file_out_lock.acquire()
             file_out.write(
-                book_id + ";" + label + ";" + description + ";" + title + ";" + subtitle + ";" + first_line + "\n")
+                edition_id + ";" + label + ";" + description + "\n")
             file_out_lock.release()
 
     def join(self):
@@ -205,12 +144,13 @@ pubs_file_lock = threading.Lock()
 # TIME MEASUREMENTS
 total_time = time.time()
 
+
+
+
 # FILES OUTPUT PATH
 file_out_path = "../concepts/Edition.txt"
 file_log_path = "../log/log_Edition.txt"
-file_authors_path = "../roles/hasAuthor.txt"  # format wikidata:author_id,wikidata:book_id
 file_tras_path = "../roles/hasTranslator.txt"
-file_oris_path = "../roles/hasOriginal.txt"
 file_ills_path = "../roles/hasIllustrator.txt"
 file_pubs_path = "../roles/hasPublisher.txt"
 
@@ -222,31 +162,22 @@ file_pubs_path = "../roles/hasPublisher.txt"
 # STATISTICS VARIABLES
 statistics = [0 for x in range(LEN_INDEX)]
 
-editions = []
-
-with open("../roles/hasEdition.txt", "r")as hp:
-	j = 0
-	for line in hp:
-		if j == 0:
-			j += 1
-			continue
-		edition = line.split(";")[0]
-		editions.append(edition)
+#RETRIEVING EDITIONS
+has_edition_file_path = "../roles/hasEdition.txt"
+processed_editions_file_path = "../processed/processedEditions.txt"
+processed_editions_file = open(processed_editions_file_path, 'r')
+processed_editions = [x.strip() for x in processed_editions_file.readlines()[1:]]
+has_edition_file = open(has_edition_file_path, "r")
+editions = list(set([x.split(';')[1] for x in has_edition_file.readlines()[1:]]).difference(processed_editions))
+has_edition_file.close()
+processed_editions_file.close()
 
 # SAVING TO FILE
-file_log = open(file_log_path, 'w')
-file_out = open(file_out_path, 'w')
-file_out.write(
-    "edition_id" + ";" + "label" + ";" + "description" + ";" + "title" + ";" + "subtitle" + ";" + "first_line" +  "\n")
-
-file_tras_out = open(file_tras_path, 'w')
-file_tras_out.write("translator_id;" + "edition_id" + "\n")
-file_oris_out = open(file_oris_path, 'w')
-file_oris_out.write("book_id;" + "edition_id" + "\n")
-file_pubs_out = open(file_pubs_path, 'w')
-file_pubs_out.write("publisher_id;" + "book_id" + "\n")
-file_ills_out = open(file_ills_path, 'w')
-file_ills_out.write("illustror_id;" + "book_id" + "\n")
+file_log = open(file_log_path, 'a')
+file_out = open(file_out_path, 'a')
+file_tras_out = open(file_tras_path, 'a')
+file_pubs_out = open(file_pubs_path, 'a')
+file_ills_out = open(file_ills_path, 'a')
 
 n_results = len(editions)
 print("Number of results: " + str(n_results))
@@ -268,10 +199,15 @@ for t in threads:
 for t in threads:
     statistics = [sum(x) for x in zip(statistics, t.join())]
 
+
+processed_editions_file = open(processed_editions_file_path, 'a')
+for edition in editions:
+    processed_editions_file.write(edition+"\n")
+processed_editions_file.close()
+
 # CLOSING OUTPUT FILES
 file_out.close()
 file_tras_out.close()
-file_oris_out.close()
 file_pubs_out.close()
 file_ills_out.close()
 
@@ -292,5 +228,4 @@ for i in range(len(statistics)):
         round(statistics[i] / n_results, 2) * 100) + " %) \n")
 
 file_log.write("Total_time:\t" + str(round(total_time, 2)) + " sec" + "\n")
-
 file_log.close()

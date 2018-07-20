@@ -45,25 +45,22 @@ class myThread (threading.Thread):
                 print("[Thread "+str(self.id)+"]\t"+"language "+str(j-self.res_min+1)+"/"+str(self.res_max-self.res_min))
             result = languages[j]
             url = "https://www.wikidata.org/wiki/Special:EntityData/" + result +".json"
-            #start_time_get = time.time()
-            response = requests.get(url) #timeout
-            try:
-            	data = response.json()
-            except:
-            	print ("EXCEPTION " + url)
-            	continue
+            for i in range(3):
+                try:
+                    response = requests.get(url)  # timeout
+                    data = response.json()
+                except:
+                    print ("EXCEPTION " + url)
+                    time.sleep(0.5)
+                    continue
+
             language_id = result
-            #print("[Thread " + str(self.id) + "]\t" + "book " + str(book_id))
-            #end_time_get = time.time()
-            #total_get_time += end_time_get - start_time_get
             
             # LABEL
             label = ""
             try:
                 label = data['entities'][language_id]["labels"]["en"]["value"]
-                #print(label)
             except:
-                #print("-- missing label on wikidata--")
                 self.local_statistics[index("no label")] += 1
 
             # DESCRIPTION
@@ -110,50 +107,31 @@ file_log_path = "../log/log_Language.txt"
 statistics = [0 for x in range(LEN_INDEX)]
 
 #RETRIEVING ALL LANGUAGESs WIKIDATA IDs and QUERY THEM
-languages = []
-with open("../roles/bookWrittenIn.txt", "r")as hp:
-	j = 0
-	for line in hp:
-		if j == 0:
-			j += 1
-			continue
-		lan = line.split(";")[0]
-		languages.append(lan)
-with open("../roles/hasUsedLanguage.txt", "r")as hp:
-	j = 0
-	for line in hp:
-		if j == 0:
-			j += 1
-			continue
-		lan = line.split(";")[0]
-		languages.append(lan)
-try:
-	with open("../roles/speaks.txt", "r")as hp:
-		j = 0
-		for line in hp:
-			if j == 0:
-				j += 1
-				continue
-			lan = line.split(";")[0]
-			languages.append(lan)
-except:
-	pass
+written_in_file_path = "../roles/writtenIn.txt"
+written_in_file = open(written_in_file_path, "r")
+languages = set([x.split(';')[1] for x in written_in_file.readlines()[1:]])
+has_used_language_file_path = "../roles/hasUsedLanguage.txt"
+has_used_language_file = open(has_used_language_file_path, "r")
+languages = languages.union(set([x.split(';')[1] for x in has_used_language_file.readlines()[1:]]))
+speaks_file_path = "../roles/speaks.txt"
+speaks_file = open(speaks_file_path, "r")
+languages = languages.union(set([x.split(';')[1] for x in speaks_file.readlines()[1:]]))
+processed_languages_file_path = "../processed/processedLanguages.txt"
+processed_languages_file = open(processed_languages_file_path, 'r')
+processed_languages = set([x.strip() for x in processed_languages_file.readlines()[1:]])
+languages = list(languages.difference(processed_languages))
+written_in_file.close()
+speaks_file.close()
+processed_languages_file.close()
 
-
-
-#SAVING TO FILE
-file_log = open(file_log_path, 'w')
-file_out = open(file_out_path, 'w')
-file_out.write("language_id" + ";" + "label" + ";" + "speakers" + "\n")
-
+# OUTPUT FILES
+file_log = open(file_log_path, 'a')
+file_out = open(file_out_path, 'a')
 
 n_results = len(languages)
 print("Number of languages: " + str(n_results))
-print("Number of different languages: " + str(len( set(languages))) + "\n")
-file_log.write("Number of languages: " + str(n_results) + "\n")
-file_log.write("Number of different languages: " + str(len(set(languages))))
+file_log.write("Number of languages: " + str(n_results))
 
-languages = list(set(languages)) #i threads indicizzano su questo
 n_results = len(languages)
 
 
@@ -174,26 +152,27 @@ for t in threads:
     statistics =  [sum(x) for x in zip(statistics, t.join())]
 
 
+processed_languages_file = open(processed_languages_file_path, 'a')
+for language in languages:
+    processed_languages_file.write(language+"\n")
+processed_languages_file.close()
+
+
 #CLOSING OUTPUT FILES
 file_out.close()
-
 
 #STATISTICS REPORTING
 print("\n\n*** STATISTICS ***\n")
 for i in range(len(statistics)):
     print(label(i).ljust(16)+":"+str(statistics[i])+"  ("+str(round(statistics[i]/n_results,2)*100)+" %)")
 
-
 total_time = time.time() - total_time
 print("Total_time:\t"+str(round(total_time,2))+" sec")
-
 
 #STATISTICS REPORTING
 file_log.write("\n\n*** STATISTICS *** \n")
 for i in range(len(statistics)):
     file_log.write(label(i).ljust(16)+":"+str(statistics[i])+"  ("+str(round(statistics[i]/n_results,2)*100)+" %) \n")
 
-
 file_log.write("Total_time:\t"+str(round(total_time,2))+" sec" + "\n")
-
 file_log.close()

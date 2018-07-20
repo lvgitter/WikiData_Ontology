@@ -50,25 +50,21 @@ class myThread (threading.Thread):
 
             result = countries[j]
             url = "https://www.wikidata.org/wiki/Special:EntityData/" + result +".json"
-            #start_time_get = time.time()
-            response = requests.get(url) #timeout
-            try:
-            	data = response.json()
-            except:
-            	print ("EXCEPTION " + url)
-            	continue
+            for i in range(3):
+                try:
+                    response = requests.get(url)  # timeout
+                    data = response.json()
+                except:
+                    print ("EXCEPTION " + url)
+                    time.sleep(0.5)
+                    continue
             country_id = result
-            #print("[Thread " + str(self.id) + "]\t" + "book " + str(book_id))
-            #end_time_get = time.time()
-            #total_get_time += end_time_get - start_time_get
             
             # LABEL
             label = ""
             try:
                 label = data['entities'][country_id]["labels"]["en"]["value"]
-                #print(label)
             except:
-                #print("-- missing label on wikidata--")
                 self.local_statistics[index("no label")] += 1
 
             # DESCRIPTION
@@ -104,7 +100,7 @@ class myThread (threading.Thread):
                     try:
                         langs_file_lock.acquire()
                         file_langs_out.write(
-                            str(lang["mainsnak"]["datavalue"]["value"]["id"]) + ";" + str(country_id) + "\n")
+                            str(str(country_id)+";"+lang["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
                         langs_file_lock.release()
                     except:
                         langs_file_lock.release()
@@ -137,40 +133,28 @@ file_langs_path = "../roles/hasUsedLanguage.txt"
 statistics = [0 for x in range(LEN_INDEX)]
 
 #RETRIEVING ALL PUBLISHERs WIKIDATA IDs and QUERY THEM
-countries = []
-with open("../roles/hasLocation.txt", "r")as hp:
-	j = 0
-	for line in hp:
-		if j == 0:
-			j += 1
-			continue
-		country = line.split(";")[0]
-		countries.append(country)
-with open("../roles/locatedIn.txt", "r")as hp:
-	j = 0
-	for line in hp:
-		if j == 0:
-			j += 1
-			continue
-		country = line.split(";")[0]
-		countries.append(country)
-		
+has_location_file_path = "../roles/hasLocation.txt"
+has_location_file = open(has_location_file_path, 'r')
+located_in_file_path = "../roles/locatedIn.txt"
+located_in_file = open(located_in_file_path, 'r')
+processed_countries_file_path = "../processed/processedCountries.txt"
+processed_countries_file = open(processed_countries_file_path, 'r')
+processed_countries = [x.strip() for x in processed_countries_file.readlines()[1:]]
+countries = set([x.split(';')[1] for x in has_location_file.readlines()[1:]])
+countries = list(set([x.split(';')[1] for x in located_in_file.readlines()[1:]]).union(countries).difference(processed_countries))
+has_location_file.close()
+located_in_file.close()
+processed_countries_file.close()
 
 #SAVING TO FILE
-file_log = open(file_log_path, 'w')
-file_out = open(file_out_path, 'w')
-file_langs_out = open(file_langs_path, 'w')
-file_langs_out.write("language_id;" + "country_id" + "\n")
-file_out.write("country_id" + ";" + "label" + ";" + "description" + ";" + "area" + ";" + "population" + "\n")
+file_log = open(file_log_path, 'a')
+file_out = open(file_out_path, 'a')
+file_langs_out = open(file_langs_path, 'a')
 
 n_results = len(countries)
+
 print("Number of countries: " + str(n_results))
-file_log.write("Number of countries: " + str(n_results) + "\n")
-print("Number of  different countries: " + str(len(set(countries))) + "\n")
-file_log.write("Number of different countries: " + str(len(set(countries))))
-
-countries = list(set(countries))
-n_results = len(countries)
+file_log.write("Number of countries: " + str(n_results))
 
 #PARALLEL COMPUTATION INITIALIZATION
 threads = []
@@ -189,27 +173,29 @@ for t in threads:
     statistics =  [sum(x) for x in zip(statistics, t.join())]
 
 
+processed_countries_file = open(processed_countries_file_path, 'a')
+for country in countries:
+    processed_countries_file.write(country+"\n")
+processed_countries_file.close()
+
+
+
 #CLOSING OUTPUT FILES
 file_out.close()
 file_langs_out.close()
-
 
 #STATISTICS REPORTING
 print("\n\n*** STATISTICS ***\n")
 for i in range(len(statistics)):
     print(label(i).ljust(16)+":"+str(statistics[i])+"  ("+str(round(statistics[i]/n_results,2)*100)+" %)")
 
-
 total_time = time.time() - total_time
 print("Total_time:\t"+str(round(total_time,2))+" sec")
-
 
 #STATISTICS REPORTING
 file_log.write("\n\n*** STATISTICS *** \n")
 for i in range(len(statistics)):
     file_log.write(label(i).ljust(16)+":"+str(statistics[i])+"  ("+str(round(statistics[i]/n_results,2)*100)+" %) \n")
 
-
 file_log.write("Total_time:\t"+str(round(total_time,2))+" sec" + "\n")
-
 file_log.close()

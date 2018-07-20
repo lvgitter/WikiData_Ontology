@@ -66,31 +66,25 @@ class TranslatorDownloadThread(threading.Thread):
         for j in range(self.res_min, self.res_max):
             time.sleep(random.random() * 0.1)
             count += 1
-            if (count % 10 == 0):
+            if (count % 100 == 0):
                 print("[Thread " + str(self.id) + "]\t" + "translator " + str(j - self.res_min + 1) + "/" + str(
                     self.res_max - self.res_min))
 
             translator = translators[j]
             url = "https://www.wikidata.org/wiki/Special:EntityData/" + translator + ".json"
-            response = requests.get(url)  # timeout
-            try:
-                data = response.json()
-            except:
-                print("EXCEPTION " + url)
-                continue
-            # print("[Thread " + str(self.id) + "]\t" + "book " + str(translator))
-            # end_time_get = time.time()
-            # total_get_time += end_time_get - start_time_get
-
-
+            for i in range(3):
+                try:
+                    response = requests.get(url)  # timeout
+                    data = response.json()
+                except:
+                    print("EXCEPTION " + url)
+                    continue
 
             # LABEL
             label = ""
             try:
                 label = data['entities'][translator]["labels"]["en"]["value"]
-                # print(label)
             except:
-                # print("-- missing label on wikidata--")
                 self.local_statistics[index("no label")] += 1
 
             # DESCRIPTION
@@ -145,7 +139,6 @@ class TranslatorDownloadThread(threading.Thread):
                 self.local_statistics[index("no DoD")] += 1
 
             # PoB
-            PoB = ""
             if ("P19" in data['entities'][translator]["claims"]):
                 for place in data['entities'][translator]["claims"]["P19"]:
                     try:
@@ -160,7 +153,6 @@ class TranslatorDownloadThread(threading.Thread):
                 self.local_statistics[index("no PoB")] += 1
 
             # PoD
-            PoD = ""
             if ("P20" in data['entities'][translator]["claims"]):
                 for place in data['entities'][translator]["claims"]["P20"]:
                     try:
@@ -175,13 +167,13 @@ class TranslatorDownloadThread(threading.Thread):
                 self.local_statistics[index("no PoD")] += 1
 
             # OCCUPATION
-            occupations = ""
             if ("P106" in data['entities'][translator]["claims"]):
                 for occupation in data['entities'][translator]["claims"]["P106"]:
                     occupation = occupation["mainsnak"]["datavalue"]["value"]["id"]
                     # retrieve occupation name or retrieve and save it
                     if occupation in occupations_dict:
                         occupation_name = occupations_dict[occupation]
+                        occupations_file.write(translator + ";" + occupation_name + "\n")
                     else:
                         urlg = "http://www.wikidata.org/wiki/Special:EntityData/" + occupation + ".json"
                         response_occupation = requests.get(urlg)
@@ -190,16 +182,16 @@ class TranslatorDownloadThread(threading.Thread):
                             occupations_dict_lock.acquire()
                             occupation_name = data_occupation['entities'][occupation]["labels"]["en"]["value"]
                             occupations_dict[occupation] = occupation_name
+                            occupations_file.write(translator+";"+occupation_name+"\n")
                             occupations_dict_lock.release()
                         except:
                             occupations_dict_lock.release()
-                    occupations += occupation_name + ","
-                occupations = occupations[0:-1]
+
             else:
                 self.local_statistics[index("no occupation")] += 1
 
 
-            # SPEAKS P1412
+            # SPEAKS
             if ("P1412" in data['entities'][translator]["claims"]):
                 for language in data['entities'][translator]["claims"]["P1412"]:
                     try:
@@ -213,7 +205,7 @@ class TranslatorDownloadThread(threading.Thread):
                 self.local_statistics[index("no PoD")] += 1
 
             translators_file.write(str(
-                translator) + ";" + label + ";" + description + ";" + name + ";" + sex + ";" + DoB + ";" + PoB + ";" + DoD + ";" + PoD + ";" + occupations  + "\n")
+                translator) + ";" + label + ";" + description + ";" + name + ";" + sex + ";" + DoB + ";" + DoD  + "\n")
 
     def join(self):
         Thread.join(self)
@@ -236,7 +228,8 @@ translators_id_file_path = "../translators_test.txt"
 speaks_file_path = "../roles/speaks.txt"
 place_of_birth_file_path = "../roles/placeOfBirth.txt"
 place_of_death_file_path = "../roles/placeOfDeath.txt"
-log_file_path = "../log/Translator_download_log.txt"
+log_file_path = "../log/log_Translator.txt"
+occupations_file_path = "../roles/_Human_has_occupation.txt"
 
 # STATISTICS VARIABLES
 statistics = [0 for x in range(LEN_INDEX)]
@@ -245,19 +238,22 @@ statistics = [0 for x in range(LEN_INDEX)]
 occupations_dict = load_obj("occupations") # occupation wikidata id to label
 
 # RETRIEVING ALL TRANSLATORS WIKIDATA IDs
-translators = []
+processed_translators_file_path = "../processed/processedTranslator.txt"
+processed_translators_file = open(processed_translators_file_path, 'r')
+processed_translators = set([x.strip() for x in processed_translators_file.readlines()[1:]])
 translators_id_file = open(translators_id_file_path, 'r')
 translators = set([x.split(';')[0] for x in translators_id_file.readlines()[1:]]) # CHECK IF IT IS RIGHT IN THE FIRST POSITION
-translators = list(translators)
+translators = list(translators.difference(processed_translators))
 translators_id_file.close()
+processed_translators_file.close()
 
 # OPENING OUTPUT FILES
-translators_file = open(translators_file_path, 'w')
-translators_file.write('author_id;label;description;name;sex;DoB;PoB;DoD;PoD;occupations;\n')
+translators_file = open(translators_file_path, 'a')
 speaks_file = open(speaks_file_path, 'a')
 place_of_birth_file = open(place_of_birth_file_path, 'a')
 place_of_death_file = open(place_of_death_file_path, 'a')
-log_file = open(log_file_path, 'w')
+occupations_file = open(translators_file_path, 'a')
+log_file = open(log_file_path, 'a')
 
 n_translators = len(translators)
 print("Number of authors: " + str(n_translators))
@@ -278,11 +274,19 @@ for t in threads:
 for t in threads:
     statistics = [sum(x) for x in zip(statistics, t.join())]
 
+
+processed_translators_file = open(processed_translators_file_path, 'a')
+for translator in translators:
+    processed_translators_file.write(translator+"\n")
+processed_translators_file.close()
+
+
 # CLOSING OUTPUT FILES
 translators_file.close()
 speaks_file.close()
 place_of_birth_file.close()
 place_of_death_file.close()
+occupations_file.close()
 
 
 # STATISTICS REPORTING
@@ -301,5 +305,4 @@ for i in range(len(statistics)):
         round(statistics[i] / n_translators, 2) * 100) + " %) \n")
 
 log_file.write("Total_time:\t" + str(round(total_time, 2)) + " sec" + "\n")
-
 log_file.close()

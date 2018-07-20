@@ -8,7 +8,7 @@ import random
 import pickle
 
 N_THREADS = 8
-LEN_INDEX = 7
+LEN_INDEX = 9
 
 
 def index(statistic_name):
@@ -16,10 +16,12 @@ def index(statistic_name):
         "no name": 0,
         "no label": 1,
         "no description": 2,
-        "fictional":3,
+        "fictionalHuman":3,
         "no DoB":4,
         "no DoD":5,
-        "no sex":6
+        "no sex":6,
+        "fictionalNotHuman":7,
+        "human":8
     }
     return switcher[statistic_name]
 
@@ -29,24 +31,15 @@ def label(statistic_id):
         0:"no name",
         1:"no label",
         2:"no description",
-        3:"fictional",
+        3:"fictionalHuman",
         4:"no DoB",
         5:"no DoD",
-        6:"no sex"
+        6:"no sex",
+        7:"fictionalNotHuman",
+        8:"human"
 
     }
     return switcher[statistic_id]
-
-
-def load_obj(name):
-    with open('obj/' + name + '.pkl', 'rb') as f:
-        return pickle.load(f)
-
-
-def save_obj(obj, name):
-    with open('obj/' + name + '.pkl', 'wb') as f:
-        pickle.dump(obj, f, pickle.HIGHEST_PROTOCOL)
-
 
 # THREAD DEFINITION
 class CharacterDownloadThread(threading.Thread):
@@ -63,93 +56,102 @@ class CharacterDownloadThread(threading.Thread):
         for j in range(self.res_min, self.res_max):
             time.sleep(random.random() * 0.1)
             count += 1
-            if (count % 10 == 0):
+            if (count % 100 == 0):
                 print("[Thread " + str(self.id) + "]\t" + "character " + str(j - self.res_min + 1) + "/" + str(
                     self.res_max - self.res_min))
 
             character = characters[j]
             url = "https://www.wikidata.org/wiki/Special:EntityData/" + character + ".json"
-            response = requests.get(url)  # timeout
+            for i in range(3):
+                try:
+                    response = requests.get(url)  # timeout
+                    data = response.json()
+                except:
+                    print("EXCEPTION " + url)
+                    time.sleep(0.5)
+                    continue
+
+            # LABEL
+            label = ""
             try:
-                data = response.json()
+                label = data['entities'][character]["labels"]["en"]["value"]
             except:
-                print("EXCEPTION " + url)
-                continue
-            # print("[Thread " + str(self.id) + "]\t" + "book " + str(character))
-            # end_time_get = time.time()
-            # total_get_time += end_time_get - start_time_get
+                self.local_statistics[index("no label")] += 1
+
+            # DESCRIPTION
+            description = ""
+            if ("descriptions" in data['entities'][character]["claims"]):
+                if ("en" in data['entities'][character]["claims"]["descriptions"]):
+                    description = data['entities'][character]["claims"]["descriptions"]["en"]["value"]
+            elif ("descriptions" in data['entities'][character]):
+                if ("en" in data['entities'][character]["descriptions"]):
+                    description = data['entities'][character]["descriptions"]["en"]["value"]
+            else:
+                self.local_statistics[index("no description")] += 1
+
+            # NAME
+            name = label
+            if ("P1559" in data['entities'][character]["claims"]):
+                name = (data['entities'][character]["claims"]["P1559"][0]["mainsnak"]["datavalue"]["value"]["text"])
+            elif ("P1477" in data['entities'][character]["claims"]):
+                name = (data['entities'][character]["claims"]["P1477"][0]["mainsnak"]["datavalue"]["value"]["text"])
+            else:
+                name = label
+                self.local_statistics[index("no name")] += 1
+
+            # SEX
+            sex = ""
+            if ("P21" in data['entities'][character]["claims"]):
+                try:
+                    sex = (data['entities'][character]["claims"]["P21"][0]["mainsnak"]["datavalue"]["value"]["id"])
+                    if sex == 'Q6581097':
+                        sex = 'male'
+                    elif sex == 'Q6581072':
+                        sex = 'female'
+                    else:
+                        sex = 'unknown'
+                        self.local_statistics[index("no sex")] += 1
+                except:
+                    self.local_statistics[index("no sex")] += 1
+
+            # DoB
+            DoB = ""
+            try:
+                DoB = data['entities'][character]["claims"]["P569"][0]["mainsnak"]["datavalue"]["value"]["time"]
+            except:
+                print("bad date character: " + character)
+                self.local_statistics[index("no DoB")] += 1
+
+            # DoD
+            DoD = ""
+            try:
+                DoD = data['entities'][character]["claims"]["P570"][0]["mainsnak"]["datavalue"]["value"]["time"]
+            except:
+                self.local_statistics[index("no DoD")] += 1
+
 
 
             if ("P31" in data['entities'][character]["claims"]):
-                if data['entities'][character]["claims"]["P31"][0]["mainsnak"]["datavalue"]["value"]["id"] == 'Q5':
-                    humans_file_lock.acquire()
-                    humans_file.write(character+"\n")
-                    humans_file_lock.release()
-                else:
-                    self.local_statistics[index("fictional")] += 1
-                    # LABEL
-                    label = ""
-                    try:
-                        label = data['entities'][character]["labels"]["en"]["value"]
-                        # print(label)
-                    except:
-                        # print("-- missing label on wikidata--")
-                        self.local_statistics[index("no label")] += 1
-
-                    # DESCRIPTION
-                    description = ""
-                    if ("descriptions" in data['entities'][character]["claims"]):
-                        if ("en" in data['entities'][character]["claims"]["descriptions"]):
-                            description = data['entities'][character]["claims"]["descriptions"]["en"]["value"]
-                    elif ("descriptions" in data['entities'][character]):
-                        if ("en" in data['entities'][character]["descriptions"]):
-                            description = data['entities'][character]["descriptions"]["en"]["value"]
+                for instance_of in \
+                data['entities'][character]["claims"]["P31"][0]["mainsnak"]["datavalue"]["value"]["id"]:
+                    if instance_of == "Q15632617":
+                        fictional_human_lock.acquire()
+                        fictional_human_file.write(str(
+                character) + ";" + label + ";" + description + ";" + name + ";" + sex + ";" + DoB + ";" + DoD + "\n")
+                        fictional_human_lock.release()
+                        self.local_statistics[index("fictionalHuman")] += 1
+                    elif instance_of == "Q5":
+                        human_characters_lock.acquire()
+                        human_character_file.write(character+"\n")
+                        human_characters_lock.release()
+                        self.local_statistics[index("human")] += 1
                     else:
-                        self.local_statistics[index("no description")] += 1
+                        fictional_not_human_lock.acquire()
+                        fictional_not_human_file.write(str(
+                            character) + ";" + label + ";" + description + ";" + name + ";" + sex + ";" + DoB + ";" + DoD + "\n")
+                        fictional_not_human_lock.release()
+                    self.local_statistics[index("fictionalNotHuman")] += 1
 
-                    # NAME
-                    name = label
-                    if ("P1559" in data['entities'][character]["claims"]):
-                        name = (data['entities'][character]["claims"]["P1559"][0]["mainsnak"]["datavalue"]["value"]["text"])
-                    elif ("P1477" in data['entities'][character]["claims"]):
-                        name = (data['entities'][character]["claims"]["P1477"][0]["mainsnak"]["datavalue"]["value"]["text"])
-                    else:
-                        name = label
-                        self.local_statistics[index("no name")] += 1
-
-                    # SEX
-                    sex = ""
-                    if ("P21" in data['entities'][character]["claims"]):
-                        try:
-                            sex = (data['entities'][character]["claims"]["P21"][0]["mainsnak"]["datavalue"]["value"]["id"])
-                            if sex == 'Q6581097':
-                                sex = 'male'
-                            elif sex == 'Q6581072':
-                                sex = 'female'
-                            else:
-                                sex = 'unknown'
-                                self.local_statistics[index("no sex")] += 1
-                        except:
-                            self.local_statistics[index("no sex")] += 1
-
-                    # DoB
-                    DoB = ""
-                    try:
-                        DoB = data['entities'][character]["claims"]["P569"][0]["mainsnak"]["datavalue"]["value"]["time"]
-                    except:
-                        print("bad date character: " + character)
-                        self.local_statistics[index("no DoB")] += 1
-
-                    # DoD
-                    DoD = ""
-                    try:
-                        DoD = data['entities'][character]["claims"]["P570"][0]["mainsnak"]["datavalue"]["value"]["time"]
-                    except:
-                        self.local_statistics[index("no DoD")] += 1
-
-
-                    fictional_characters_file.write(str(
-                        character) + ";" + label + ";" + description + ";" + name + ";" + sex + ";" + DoB + ";" + DoD + ";" + "\n")
 
     def join(self):
         Thread.join(self)
@@ -157,38 +159,37 @@ class CharacterDownloadThread(threading.Thread):
 
 
 # LOCKS
-characters_lock = threading.Lock()
-humans_file_lock = threading.Lock()
+fictional_human_lock = threading.Lock()
+fictional_not_human_lock = threading.Lock()
+human_characters_lock = threading.Lock()
 
 # TIME MEASUREMENTS
 total_time = time.time()
 
 # FILES OUTPUT PATH
-human_id_file_path = "../humans.txt"
-characters_file_path = "../roles/hasCharacter.txt"
-fictional_characters_file_path = "../concepts/FictionalCharacter.txt"
-log_file_path = "../log/Characters_download_log.txt"
+fictional_human_file_path = "../concepts/FictionalHuman.txt"
+fictional_not_human_file_path = "../concepts/FictionalNotHuman.txt"
+log_file_path = "../log/log_Characters.txt"
+human_character_file_path = "../tmp/human_character.txt"
 
 # STATISTICS VARIABLES
 statistics = [0 for x in range(LEN_INDEX)]
 
-# DICTIONARIES LOADING
-occupations_dict = load_obj("occupations")  # occupation wikidata id to label
-
-
 # RETRIEVING ALL HUMANS WIKIDATA IDs
-characters = []
+processed_characters_file_path = "../processed/processedCharacters.txt"
+processed_characters_file = open(processed_characters_file_path, 'r')
+processed_characters = [x.strip() for x in processed_characters_file.readlines()[1:]]
+characters_file_path = "../roles/hasCharacter.txt"
 characters_file = open(characters_file_path, 'r')
-characters = set([x.split(';')[0] for x in characters_file.readlines()[1:]])
-characters = list(characters)
-print(characters)
+characters = list(set([x.split(';')[1] for x in characters_file.readlines()[1:]]).difference(processed_characters))
+processed_characters_file.close()
 characters_file.close()
 
 # OPENING OUTPUT FILES
-fictional_characters_file = open(fictional_characters_file_path, 'w')
-fictional_characters_file.write('fictional_character_id;label;description;name;sex;DoB;DoD;\n')
-humans_file = open(human_id_file_path, 'a')
-log_file = open(log_file_path, 'w')
+fictional_human_file = open(fictional_human_file_path, 'a')
+fictional_not_human_file = open(fictional_not_human_file_path, 'a')
+human_character_file = open(human_character_file_path, 'a')
+log_file = open(log_file_path, 'a')
 
 n_characters = len(characters)
 print("Number of characters: " + str(n_characters))
@@ -210,12 +211,14 @@ for t in threads:
     statistics = [sum(x) for x in zip(statistics, t.join())]
 
 # CLOSING OUTPUT FILES
-characters_file.close()
-humans_file.close()
+fictional_human_file.close()
+fictional_not_human_file.close()
+human_character_file.close()
 
-# UPDATING DICTIONARIES
-save_obj(occupations_dict, 'occupations')
-
+processed_characters_file = open(processed_characters_file_path, 'a')
+for character in characters:
+    processed_characters_file.write(character+"\n")
+processed_characters_file.close()
 
 # STATISTICS REPORTING
 print("\n\n*** STATISTICS ***\n")
@@ -233,5 +236,4 @@ for i in range(len(statistics)):
         round(statistics[i] / n_characters, 2) * 100) + " %) \n")
 
 log_file.write("Total_time:\t" + str(round(total_time, 2)) + " sec" + "\n")
-
 log_file.close()

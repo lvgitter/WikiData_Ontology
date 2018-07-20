@@ -58,31 +58,26 @@ class MayorDownloadThread(threading.Thread):
         for j in range(self.res_min, self.res_max):
             time.sleep(random.random() * 0.1)
             count += 1
-            if (count % 10 == 0):
+            if (count % 100 == 0):
                 print("[Thread " + str(self.id) + "]\t" + "mayor " + str(j - self.res_min + 1) + "/" + str(
                     self.res_max - self.res_min))
 
             mayor = mayors[j]
             url = "https://www.wikidata.org/wiki/Special:EntityData/" + mayor + ".json"
-            response = requests.get(url)  # timeout
-            try:
-                data = response.json()
-            except:
-                print("EXCEPTION " + url)
-                continue
-            # print("[Thread " + str(self.id) + "]\t" + "book " + str(mayor))
-            # end_time_get = time.time()
-            # total_get_time += end_time_get - start_time_get
-
-
+            for i in range(3):
+                try:
+                    response = requests.get(url)  # timeout
+                    data = response.json()
+                except:
+                    print("EXCEPTION " + url)
+                    time.sleep(0.5)
+                    continue
 
             # LABEL
             label = ""
             try:
                 label = data['entities'][mayor]["labels"]["en"]["value"]
-                # print(label)
             except:
-                # print("-- missing label on wikidata--")
                 self.local_statistics[index("no label")] += 1
 
             # DESCRIPTION
@@ -167,7 +162,7 @@ total_time = time.time()
 # FILES OUTPUT PATH
 mayors_file_path = "../concepts/Mayor.txt"
 has_role_file_path = "../roles/hasRole.txt"
-log_file_path = "../log/Mayor_download_log.txt"
+log_file_path = "../log/log_Mayor.txt"
 
 
 # STATISTICS VARIABLES
@@ -181,16 +176,18 @@ official_residence_dict = {}
 has_mayor_file_path = "../roles/hasMayor.txt"
 mayors = []
 has_mayor_file = open(has_mayor_file_path, 'r')
-mayors = set([x.strip().split(";")[1] for x in has_mayor_file.readlines()[1:]]) # CHECK IF IT IS RIGHT IN THE FIRST POSITION
-mayors = list(mayors)
+mayors = set([x.strip().split(";")[1] for x in has_mayor_file.readlines()[1:]])
+processed_mayors_file_path = "../processed/processedMayors.txt"
+processed_mayors_file = open(processed_mayors_file_path, 'r')
+processed_mayors = set([x.strip() for x in processed_mayors_file.readlines()[1:]])
+mayors = list(mayors.difference(processed_mayors))
 has_mayor_file.close()
+processed_mayors_file.close()
 
 # OPENING OUTPUT FILES
-mayors_file = open(mayors_file_path, 'w')
-mayors_file.write('mayor_id;label;description;start_time;end_time;official_residence\n')
-has_role_file = open(has_role_file_path, 'w')
-has_role_file.write('human_id;mayor_id\n')
-log_file = open(log_file_path, 'w')
+mayors_file = open(mayors_file_path, 'a')
+has_role_file = open(has_role_file_path, 'a')
+log_file = open(log_file_path, 'a')
 
 n_mayors = len(mayors)
 print("Number of mayors: " + str(n_mayors))
@@ -210,6 +207,11 @@ for t in threads:
 
 for t in threads:
     statistics = [sum(x) for x in zip(statistics,t.join())]
+
+processed_mayors_file = open(processed_mayors_file_path, 'a')
+for mayor in mayors:
+    processed_mayors_file.write(mayor+"\n")
+processed_mayors_file.close()
 
 # CLOSING OUTPUT FILES
 mayors_file.close()
@@ -235,5 +237,4 @@ for i in range(len(statistics)):
         round(statistics[i] / n_mayors, 2) * 100) + " %) \n")
 
 log_file.write("Total_time:\t" + str(round(total_time, 2)) + " sec" + "\n")
-
 log_file.close()

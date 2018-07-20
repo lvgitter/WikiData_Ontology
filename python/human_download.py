@@ -67,31 +67,25 @@ class HumanDownloadThread(threading.Thread):
         for j in range(self.res_min, self.res_max):
             time.sleep(random.random() * 0.1)
             count += 1
-            if (count % 10 == 0):
+            if (count % 100 == 0):
                 print("[Thread " + str(self.id) + "]\t" + "human " + str(j - self.res_min + 1) + "/" + str(
                     self.res_max - self.res_min))
 
             human = humans[j]
             url = "https://www.wikidata.org/wiki/Special:EntityData/" + human + ".json"
-            response = requests.get(url)  # timeout
-            try:
-                data = response.json()
-            except:
-                print("EXCEPTION " + url)
-                continue
-            # print("[Thread " + str(self.id) + "]\t" + "book " + str(human))
-            # end_time_get = time.time()
-            # total_get_time += end_time_get - start_time_get
-
-
-
+            for i in range(3):
+                try:
+                    response = requests.get(url)  # timeout
+                    data = response.json()
+                except:
+                    print("EXCEPTION " + url)
+                    time.sleep(0.5)
+                    continue
             # LABEL
             label = ""
             try:
                 label = data['entities'][human]["labels"]["en"]["value"]
-                # print(label)
             except:
-                # print("-- missing label on wikidata--")
                 self.local_statistics[index("no label")] += 1
 
             # DESCRIPTION
@@ -125,7 +119,6 @@ class HumanDownloadThread(threading.Thread):
                     elif sex == 'Q6581072':
                         sex = 'female'
                     else:
-                        sex = 'unknown'
                         self.local_statistics[index("no sex")] += 1
                 except:
                     self.local_statistics[index("no sex")] += 1
@@ -176,13 +169,15 @@ class HumanDownloadThread(threading.Thread):
                 self.local_statistics[index("no PoD")] += 1
 
             # OCCUPATION
-            occupations = ""
             if ("P106" in data['entities'][human]["claims"]):
                 for occupation in data['entities'][human]["claims"]["P106"]:
                     occupation = occupation["mainsnak"]["datavalue"]["value"]["id"]
                     # retrieve occupation name or retrieve and save it
                     if occupation in occupations_dict:
+                        occupations_dict_lock.acquire()
                         occupation_name = occupations_dict[occupation]
+                        file_has_occupation.write(human + ";" + occupation_name + "\n")
+                        occupations_dict_lock.release()
                     else:
                         urlg = "http://www.wikidata.org/wiki/Special:EntityData/" + occupation + ".json"
                         response_occupation = requests.get(urlg)
@@ -191,16 +186,15 @@ class HumanDownloadThread(threading.Thread):
                             occupations_dict_lock.acquire()
                             occupation_name = data_occupation['entities'][occupation]["labels"]["en"]["value"]
                             occupations_dict[occupation] = occupation_name
+                            file_has_occupation.write(human + ";" + occupation_name + "\n")
                             occupations_dict_lock.release()
                         except:
                             occupations_dict_lock.release()
-                    occupations += occupation_name + ","
-                occupations = occupations[0:-1]
             else:
                 self.local_statistics[index("no occupation")] += 1
 
             humans_file.write(str(
-                human) + ";" + label + ";" + description + ";" + name + ";" + sex + ";" + DoB + ";" + PoB + ";" + DoD + ";" + PoD + ";" + occupations + "\n")
+                human) + ";" + label + ";" + description + ";" + name + ";" + sex + ";" + DoB + ";" + PoB + ";" + DoD + ";" + PoD + "\n")
 
     def join(self):
         Thread.join(self)
@@ -220,8 +214,9 @@ total_time = time.time()
 humans_file_path = "../concepts/Human.txt"
 place_of_birth_file_path = "../roles/placeOfBirth.txt"
 place_of_death_file_path = "../roles/placeOfDeath.txt"
-processed_humans_file_path = "../tmp/processed_humans.txt"
-log_file_path = "../log/Human_download_log.txt"
+processed_humans_file_path = "../processed/processedHumans.txt"
+file_has_occupation_path = "../roles/_Human_has_occupation.txt"
+log_file_path = "../log/log_Human.txt"
 
 # STATISTICS VARIABLES
 statistics = [0 for x in range(LEN_INDEX)]
@@ -230,10 +225,8 @@ statistics = [0 for x in range(LEN_INDEX)]
 occupations_dict = load_obj("occupations")  # occupation wikidata id to label
 
 # RETRIEVING ALL HUMANS WIKIDATA IDs ALREADY PROCESSED
-
 processed_humans_file = open(processed_humans_file_path, 'r')
-processed_humans = set([x.strip() for x in processed_humans_file.readlines()[1:]])
-processed_humans = list(processed_humans)
+processed_humans = list(set([x.strip() for x in processed_humans_file.readlines()[1:]]))
 processed_humans_file.close()
 
 
@@ -241,17 +234,24 @@ processed_humans_file.close()
 humans = []
 has_role_file_path = "../roles/hasRole.txt"
 has_role_file = open(has_role_file_path, 'r')
-humans = set([x.strip().split(";")[0] for x in has_role_file.readlines()[1:]]).difference(processed_humans)
-humans = list(humans)
+humans = set([x.strip().split(";")[0] for x in has_role_file.readlines()[1:]])
+human_characters_file = open("../tmp/human_character.txt", 'r')
+has_illustrator_file_path = "../roles/hasIllustrator.txt"
+has_illustrator_file = open(has_illustrator_file_path, 'r')
+illustrators = set([x.strip().split(';')[1] for x in has_illustrator_file])
+humans = humans.union(illustrators)
+humans = list(humans.union(set([x.strip() for x in human_characters_file.readlines()[1:]]).difference(processed_humans)).difference(processed_humans))
+human_characters_file.close()
 has_role_file.close()
+has_illustrator_file.close()
 
 # OPENING OUTPUT FILES
-humans_file = open(humans_file_path, 'w')
-humans_file.write('human_id;label;description;name;sex;DoB;PoB;DoD;PoD;occupations;genres;awards\n')
+humans_file = open(humans_file_path, 'a')
 place_of_birth_file = open(place_of_birth_file_path, 'a')
 place_of_death_file = open(place_of_death_file_path, 'a')
 processed_humans_file = open(processed_humans_file_path, 'a')
-log_file = open(log_file_path, 'w')
+file_has_occupation = open(file_has_occupation_path, 'a')
+log_file = open(log_file_path, 'a')
 
 
 n_humans = len(humans)
@@ -278,16 +278,20 @@ for t in threads:
 for h in humans:
     processed_humans_file.write(h+"\n")
 
+processed_humans_file = open(processed_humans_file_path, 'a')
+for human in humans:
+    processed_humans_file.write(human+"\n")
+processed_humans_file.close()
 
 # CLOSING OUTPUT FILES
 humans_file.close()
 place_of_birth_file.close()
 place_of_death_file.close()
 processed_humans_file.close()
+file_has_occupation.close()
 
 # UPDATING DICTIONARIES
 save_obj(occupations_dict, 'occupations')
-
 
 # STATISTICS REPORTING
 print("\n\n*** STATISTICS ***\n")
@@ -305,5 +309,4 @@ for i in range(len(statistics)):
         round(statistics[i] / n_humans, 2) * 100) + " %) \n")
 
 log_file.write("Total_time:\t" + str(round(total_time, 2)) + " sec" + "\n")
-
 log_file.close()

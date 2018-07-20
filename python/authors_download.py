@@ -78,17 +78,14 @@ class AuthorDownloadThread(threading.Thread):
 
             author = authors[j]
             url = "https://www.wikidata.org/wiki/Special:EntityData/" + author + ".json"
-            response = requests.get(url)  # timeout
-            try:
-                data = response.json()
-            except:
-                print("EXCEPTION " + url)
-                continue
-            # print("[Thread " + str(self.id) + "]\t" + "book " + str(author))
-            # end_time_get = time.time()
-            # total_get_time += end_time_get - start_time_get
-            
-            
+            for i in range(3):
+                try:
+                    response = requests.get(url)  # timeout
+                    data = response.json()
+                except:
+                    print("EXCEPTION " + url)
+                    time.sleep(0.5)
+                    continue
             
             # LABEL
             label = ""
@@ -130,7 +127,6 @@ class AuthorDownloadThread(threading.Thread):
                     elif sex == 'Q6581072':
                         sex = 'female'
                     else:
-                        sex = 'unknown'
                         self.local_statistics[index("no sex")] += 1
                 except:
                     self.local_statistics[index("no sex")] += 1
@@ -151,7 +147,6 @@ class AuthorDownloadThread(threading.Thread):
                 self.local_statistics[index("no DoD")] += 1
 
             # PoB
-            PoB=""
             if ("P19" in data['entities'][author]["claims"]):
                 for place in data['entities'][author]["claims"]["P19"]:
                     try:
@@ -166,7 +161,6 @@ class AuthorDownloadThread(threading.Thread):
                 self.local_statistics[index("no PoB")] += 1
 
             # PoD
-            PoD=""
             if ("P20" in data['entities'][author]["claims"]):
                 for place in data['entities'][author]["claims"]["P20"]:
                     try:
@@ -181,13 +175,13 @@ class AuthorDownloadThread(threading.Thread):
                 self.local_statistics[index("no PoD")] += 1
 
             # OCCUPATION
-            occupations = ""
             if ("P106" in data['entities'][author]["claims"]):
                 for occupation in data['entities'][author]["claims"]["P106"]:
                     occupation = occupation["mainsnak"]["datavalue"]["value"]["id"]
                     # retrieve occupation name or retrieve and save it
                     if occupation in occupations_dict:
                         occupation_name = occupations_dict[occupation]
+                        file_has_occupation.write(author + ";" + occupation_name + "\n")
                     else:
                         urlg = "http://www.wikidata.org/wiki/Special:EntityData/" + occupation + ".json"
                         response_occupation = requests.get(urlg)
@@ -196,11 +190,10 @@ class AuthorDownloadThread(threading.Thread):
                             occupations_dict_lock.acquire()
                             occupation_name = data_occupation['entities'][occupation]["labels"]["en"]["value"]
                             occupations_dict[occupation] = occupation_name
+                            file_has_occupation.write(author + ";" + occupation_name + "\n")
                             occupations_dict_lock.release()
                         except:
                             occupations_dict_lock.release()
-                    occupations += occupation_name + ","
-                occupations = occupations[0:-1]
             else:
                 self.local_statistics[index("no occupation")] += 1
 
@@ -269,7 +262,7 @@ class AuthorDownloadThread(threading.Thread):
             
             # ID
 
-            authors_file.write(str(author)+";"+label+";"+description+";"+name+";"+sex+";"+DoB+";"+PoB+";"+DoD+";"+PoD+";"+occupations+"\n")
+            authors_file.write(str(author)+";"+label+";"+description+";"+name+";"+sex+";"+DoB+";"+DoD+"\n")
 
     def join(self):
         Thread.join(self)
@@ -299,7 +292,9 @@ place_of_death_file_path = "../roles/placeOfDeath.txt"
 file_has_awards_path = "../roles/_Author_has_awards.txt"
 file_has_genres_path = "../roles/_Author_has_genres.txt"
 processed_humans_file_path = "../tmp/processed_humans.txt"
-log_file_path = "../log/Author_download_log.txt"
+file_has_occupation_path = "../roles/_Human_has_occupation.txt"
+has_author_file_path = "../roles/hasAuthor.txt"
+log_file_path = "../log/log_Author.txt"
 
 
 # STATISTICS VARIABLES
@@ -311,34 +306,32 @@ award_dict = load_obj("awards") # award wikidata id to label
 genre_dict = load_obj("genres")
 
 # RETRIEVING ALL AUTHORS WIKIDATA IDs
-authors = []
-authors_id_file = open(authors_id_file_path, 'r')
+processed_authors_file_path = "../processed/processedAuthors.txt"
+authors_id_file = open(has_author_file_path, 'r')
 afterword_authors_id_file = open(afterword_authors_id_file_path, 'r')
 foreword_authors_id_file = open(foreword_authors_id_file_path, 'r')
-authors = set([x.strip().split(';')[0] for x in authors_id_file.readlines()[1:]])
+processed_authors_file = open(processed_authors_file_path, 'r')
+authors = set([x.strip().split(';')[1] for x in authors_id_file.readlines()[1:]])
 authors.union(set([x.strip().split(';')[0] for x in afterword_authors_id_file.readlines()[1:]]))
 authors.union(set([x.strip().split(';')[0] for x in foreword_authors_id_file.readlines()[1:]]))
-authors = list(authors)
+processed_authors = set([x.strip() for x in processed_authors_file.readlines()[1:]])
+authors = list(authors.difference(processed_authors))
 authors_id_file.close()
 afterword_authors_id_file.close()
 foreword_authors_id_file.close()
+processed_authors_file.close()
 
 
 # OPENING OUTPUT FILES
-authors_file = open(authors_file_path, 'w')
-authors_file.write('author_id;label;description;name;sex;DoB;PoB;DoD;PoD;occupations;genres;awards\n')
-influenced_by_file = open(influenced_by_file_path, 'w')
-influenced_by_file.write('author_id;influencing_author_id\n')
-place_of_birth_file = open(place_of_birth_file_path, 'w')
-place_of_birth_file.write('human_id;place_of_birth_id\n')
-place_of_death_file = open(place_of_death_file_path, 'w')
-place_of_death_file.write('human_id;place_of_birth_id\n')
-file_has_awards = open(file_has_awards_path, 'w')
-file_has_awards.write("author_id;award")
-file_has_genres = open(file_has_genres_path, 'w')
-file_has_genres.write("author_id;genre")
-processed_humans_file = open(processed_humans_file_path, 'w')
-log_file = open(log_file_path, 'w')
+authors_file = open(authors_file_path, 'a')
+influenced_by_file = open(influenced_by_file_path, 'a')
+place_of_birth_file = open(place_of_birth_file_path, 'a')
+place_of_death_file = open(place_of_death_file_path, 'a')
+file_has_awards = open(file_has_awards_path, 'a')
+file_has_genres = open(file_has_genres_path, 'a')
+file_has_occupation = open(file_has_occupation_path, 'a')
+processed_humans_file = open(processed_humans_file_path, 'a')
+log_file = open(log_file_path, 'a')
 
 influencing_authors = set()
 
@@ -362,6 +355,12 @@ for t in threads:
     statistics = [sum(x) for x in zip(statistics, t.join())]
 
 
+processed_authors_file = open(processed_authors_file_path, 'a')
+for author in authors:
+    processed_authors_file.write(author+"\n")
+processed_authors_file.close()
+
+
 # CLOSING OUTPUT FILES
 authors_file.close()
 influenced_by_file.close()
@@ -369,6 +368,7 @@ place_of_birth_file.close()
 place_of_death_file.close()
 file_has_awards.close()
 file_has_genres.close()
+file_has_occupation.close()
 processed_humans_file.close()
 
 # UPDATING DICTIONARIES
@@ -392,5 +392,4 @@ for i in range(len(statistics)):
         round(statistics[i] / n_authors, 2) * 100) + " %) \n")
 
 log_file.write("Total_time:\t" + str(round(total_time, 2)) + " sec" + "\n")
-
 log_file.close()

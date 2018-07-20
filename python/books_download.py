@@ -8,7 +8,7 @@ import random
 import pickle
 
 N_THREADS = 16
-LEN_INDEX = 19
+LEN_INDEX = 16
 
 
 def index(statistic_name):
@@ -21,17 +21,14 @@ def index(statistic_name):
         "no genre": 5,
         "no subtitle": 6,
         "no first line": 7,
-        "no pub": 8,
-        "no char": 9,
-        "no loc": 10,
-        "no afterauthor": 11,
-        "no foreauthor": 12,
-        "no lang": 13,
-        "no ill": 14,
-        "no editions": 15,
-        "no series": 16,
-        "no follower": 17,
-        "no character":18
+        "no character": 8,
+        "no loc": 9,
+        "no afterauthor": 10,
+        "no foreauthor": 11,
+        "no lang": 12,
+        "no editions": 13,
+        "no series": 14,
+        "no follower": 15
     }
     return switcher[statistic_name]
 
@@ -46,17 +43,14 @@ def label(statistic_id):
         5: "no genre",
         6: "no subtitle",
         7: "no first line",
-        8: "no pub",
-        9: "no char",
-        10: "no loc",
-        11: "no afterauthor",
-        12: "no foreauthor",
-        13: "no lang",
-        14: "no ill",
-        15: "no editions",
-        16: "no series",
-        17: "no follower",
-        18:"no character"
+        8: "no character",
+        9: "no loc",
+        10: "no afterauthor",
+        11: "no foreauthor",
+        12: "no lang",
+        13: "no editions",
+        14: "no series",
+        15: "no follower"
 
     }
     return switcher[statistic_id]
@@ -86,13 +80,12 @@ class myThread(threading.Thread):
         for j in range(self.res_min, self.res_max):
             time.sleep(random.random() * 0.1)
             count += 1
-            if (count % 100 == 0):  # to modify?
+            if (count % 100 == 0):
                 print("[Thread " + str(self.id) + "]\t" + "book " + str(j - self.res_min + 1) + "/" + str(
                     self.res_max - self.res_min))
 
             result = results["results"]["bindings"][j]
             url = result['book']['value'].replace("/wiki/", "/wikiSpecial:EntityData/") + ".json"
-            # start_time_get = time.time()
             for i in range(3):
                 try:
                     response = requests.get(url)  # timeout
@@ -103,17 +96,12 @@ class myThread(threading.Thread):
                     time.sleep(0.5)
                     continue
             book_id = url.split(".json")[0].split("/")[-1]
-            # print("[Thread " + str(self.id) + "]\t" + "book " + str(book_id))
-            # end_time_get = time.time()
-            # total_get_time += end_time_get - start_time_get
 
             # LABEL
             label = ""
             try:
                 label = data['entities'][book_id]["labels"]["en"]["value"]
-                # print(label)
             except:
-                # print("-- missing label on wikidata--")
                 self.local_statistics[index("no label")] += 1
 
             # DESCRIPTION
@@ -189,12 +177,25 @@ class myThread(threading.Thread):
                     try:
                         chars_file_lock.acquire()
                         file_chars_out.write(
-                            str(loc["mainsnak"]["datavalue"]["value"]["id"]) + ";" + str(book_id) + "\n")
+                            str(book_id + ";"+ loc["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
                         chars_file_lock.release()
                     except:
                         chars_file_lock.release()
             else:
-                self.local_statistics[index("no char")] += 1
+                self.local_statistics[index("no character")] += 1
+
+            ''''# CHARACTERS
+            if ("P674" in data['entities'][book_id]["claims"]):
+                for character in data['entities'][book_id]["claims"]["P674"]:
+                    try:
+                        has_character_lock.acquire()
+                        file_has_character.write(
+                            str(character["mainsnak"]["datavalue"]["value"]["id"]) + ";" + str(book_id) + "\n")
+                        has_character_lock.release()
+                    except:
+                        has_character_lock.release()
+            else:
+                self.local_statistics[index("no character")] += 1'''
 
             # AUTHORS
             if ("P50" in data['entities'][book_id]["claims"]):
@@ -202,7 +203,7 @@ class myThread(threading.Thread):
                     try:
                         authors_file_lock.acquire()
                         file_authors_out.write(
-                            str(author["mainsnak"]["datavalue"]["value"]["id"]) + ";" + str(book_id) + "\n")
+                            str(book_id + ";" + author["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
                         authors_file_lock.release()
                     except:
                         authors_file_lock.release()
@@ -215,7 +216,7 @@ class myThread(threading.Thread):
                     try:
                         foreauthors_file_lock.acquire()
                         file_foreauthors_out.write(
-                            str(foreauthor["mainsnak"]["datavalue"]["value"]["id"]) + ";" + str(book_id) + "\n")
+                            str(book_id + foreauthor["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
                         foreauthors_file_lock.release()
                     except:
                         foreauthors_file_lock.release()
@@ -228,7 +229,7 @@ class myThread(threading.Thread):
                     try:
                         afterauthors_file_lock.acquire()
                         file_afterauthors_out.write(
-                            str(afterauthor["mainsnak"]["datavalue"]["value"]["id"]) + ";" + str(book_id) + "\n")
+                            str(book_id+";"+afterauthor["mainsnak"]["datavalue"]["value"]["id"]) +"\n")
                         afterauthors_file_lock.release()
                     except:
                         afterauthors_file_lock.release()
@@ -241,7 +242,7 @@ class myThread(threading.Thread):
                     try:
                         langs_file_lock.acquire()
                         file_langs_out.write(
-                            str(lang["mainsnak"]["datavalue"]["value"]["id"]) + ";" + str(book_id) + "\n")
+                            str(book_id + ";"+lang["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
                         langs_file_lock.release()
                     except:
                         langs_file_lock.release()
@@ -254,7 +255,7 @@ class myThread(threading.Thread):
                     try:
                         edits_file_lock.acquire()
                         file_edits_out.write(
-                            str(edit["mainsnak"]["datavalue"]["value"]["id"]) + ";" + str(book_id) + "\n")
+                            str(book_id+";"+edit["mainsnak"]["datavalue"]["value"]["id"])+"\n")
                         edits_file_lock.release()
                     except:
                         edits_file_lock.release()
@@ -274,19 +275,6 @@ class myThread(threading.Thread):
                 first_line = data['entities'][book_id]["claims"]["P1922"][0]["mainsnak"]["datavalue"]["value"]["text"]
             else:
                 self.local_statistics[index("no first line")] += 1
-
-            # CHARACTERS
-            if ("P674" in data['entities'][book_id]["claims"]):
-                for character in data['entities'][book_id]["claims"]["P674"]:
-                    try:
-                        has_character_lock.acquire()
-                        file_has_character.write(
-                            str(character["mainsnak"]["datavalue"]["value"]["id"]) + ";" + str(book_id) + "\n")
-                        has_character_lock.release()
-                    except:
-                        has_character_lock.release()
-            else:
-                self.local_statistics[index("no character")] += 1
 
             # SERIES
             series_name = ""
@@ -318,7 +306,7 @@ class myThread(threading.Thread):
                         continue
                     try:
                         folls_file_lock.acquire()
-                        file_folls_out.write(str(foll) + ";" + str(book_id) + "\n")
+                        file_folls_out.write(str(book_id) + ";"+ str(foll) + "\n")
                         folls_file_lock.release()
                     except:
                         folls_file_lock.release()
@@ -391,9 +379,9 @@ file_has_country_location_path = "../roles/hasCountryLocation.txt"
 file_chars_path = "../roles/hasCharacter.txt"
 file_afterauthors_path = "../roles/hasAfterwordAuthor.txt"
 file_foreauthors_path = "../roles/hasForewordAuthor.txt"
-file_langs_path = "../roles/bookWrittenIn.txt"
+file_langs_path = "../roles/writtenIn.txt"
 file_tras_path = "../roles/hasTranslator.txt"
-file_has_characters_path = "../hasCharacter.txt"
+#file_has_characters_path = "../hasCharacter.txt"
 file_edits_path = "../roles/hasEdition.txt"
 file_folls_path = "../roles/follows.txt"
 file_has_genres_path = "../roles/_Book_has_genres.txt"
@@ -415,13 +403,11 @@ try:
     series_dict = load_obj("series")
 except:
     series_dict = {}
-'''
+
 try:
     locations_dict = load_obj("locations")
 except:
-    locations_dict = {}'''
-
-locations_dict = {}
+    locations_dict = {}
 
 
 # RETRIEVING ALL BOOKS WIKIDATA IDs
@@ -435,34 +421,22 @@ sparql.setReturnFormat(JSON)
 results = sparql.query().convert()
 
 # SAVING TO FILE
-file_log = open(file_log_path, 'w')
-file_out = open(file_out_path, 'w')
-file_out.write("book_id" + ";" + "label" + ";" + "description" + ";" + "title" + ";" + "subtitle" + ";" + "first_line" + ";" + "series" + "\n")
-file_authors_out = open(file_authors_path, 'w')
-file_authors_out.write("author_id;" + "book_id" + "\n")
-file_has_city_location = open(file_has_city_location_path, 'w')
-file_has_city_location.write("book;city\n")
-file_has_country_location = open(file_has_country_location_path, 'w')
-file_has_country_location.write("book;country\n")
-file_chars_out = open(file_chars_path, 'w')
-file_chars_out.write("character_id;" + "book_id" + "\n")
-file_afterauthors_out = open(file_afterauthors_path, 'w')
-file_afterauthors_out.write("afterauthor_id;" + "book_id" + "\n")
-file_foreauthors_out = open(file_foreauthors_path, 'w')
-file_foreauthors_out.write("foreauthor_id;" + "book_id" + "\n")
-file_langs_out = open(file_langs_path, 'w')
-file_langs_out.write("language_id;" + "book_id" + "\n")
-file_tras_out = open(file_tras_path, 'w')
-file_tras_out.write("translator_id;" + "book_id" + "\n")
-file_has_character = open(file_has_characters_path, 'w')
-file_tras_out.write("character_id;" + "book_id" + "\n")
-file_edits_out = open(file_edits_path, 'w')
-file_edits_out.write("edition_id;" + "book_id" + "\n")
-file_folls_out = open(file_folls_path, 'w')
-file_folls_out.write("follower_id;" + "book_id" + "\n")
-file_has_genres = open(file_has_genres_path, 'w')
-file_has_genres.write("book_id;genre\n")
+file_log = open(file_log_path, 'a')
+file_out = open(file_out_path, 'a')
+file_authors_out = open(file_authors_path, 'a')
+file_has_city_location = open(file_has_city_location_path, 'a')
+file_has_country_location = open(file_has_country_location_path, 'a')
+file_chars_out = open(file_chars_path, 'a')
+file_afterauthors_out = open(file_afterauthors_path, 'a')
+file_foreauthors_out = open(file_foreauthors_path, 'a')
+file_langs_out = open(file_langs_path, 'a')
+file_edits_out = open(file_edits_path, 'a')
+file_folls_out = open(file_folls_path, 'a')
+file_has_genres = open(file_has_genres_path, 'a')
+
+
 n_results = len(results["results"]["bindings"])
+
 print("Number of results: " + str(n_results))
 file_log.write("Number of results: " + str(n_results) + "\n")
 
@@ -490,7 +464,6 @@ file_foreauthors_out.close()
 file_chars_out.close()
 file_has_city_location.close()
 file_has_country_location.close()
-file_has_character.close()
 file_edits_out.close()
 file_folls_out.close()
 file_has_genres.close()
@@ -498,8 +471,6 @@ file_has_genres.close()
 save_obj(genre_dict, "genres")
 save_obj(series_dict, "series")
 save_obj(locations_dict, "locations")
-# file_log.close()
-
 
 # STATISTICS REPORTING
 print("\n\n*** STATISTICS ***\n")
@@ -517,5 +488,4 @@ for i in range(len(statistics)):
         round(statistics[i] / n_results, 2) * 100) + " %) \n")
 
 file_log.write("Total_time:\t" + str(round(total_time, 2)) + " sec" + "\n")
-
 file_log.close()

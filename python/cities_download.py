@@ -49,31 +49,27 @@ class myThread (threading.Thread):
         for j in range(self.res_min, self.res_max):
             time.sleep(random.random()*0.1)
             count += 1
-            if (count%10 == 0): #to modify?
+            if (count%100 == 0):
                 print("[Thread "+str(self.id)+"]\t"+"city "+str(j-self.res_min+1)+"/"+str(self.res_max-self.res_min))
 
 
             result = cities[j]
             url = "https://www.wikidata.org/wiki/Special:EntityData/" + result +".json"
-            #start_time_get = time.time()
-            response = requests.get(url) #timeout
-            try:
-                data = response.json()
-            except:
-                print ("EXCEPTION " + url)
-                continue
+            for i in range(3):
+                try:
+                    response = requests.get(url)  # timeout
+                    data = response.json()
+                except:
+                    print ("EXCEPTION " + url)
+                    time.sleep(0.5)
+                    continue
             city_id = result
-            #print("[Thread " + str(self.id) + "]\t" + "book " + str(book_id))
-            #end_time_get = time.time()
-            #total_get_time += end_time_get - start_time_get
             
             # LABEL
             label = ""
             try:
                 label = data['entities'][city_id]["labels"]["en"]["value"]
-                #print(label)
             except:
-                #print("-- missing label on wikidata--")
                 self.local_statistics[index("no label")] += 1
 
             # DESCRIPTION
@@ -99,7 +95,7 @@ class myThread (threading.Thread):
                     try:
                         has_analog_lock.acquire()
                         real_city = data['entities'][city_id]["claims"]["P1074"][0]["mainsnak"]["datavalue"]["value"]["id"]
-                        file_has_analog.write(city+";"+real_city+"\n")
+                        file_has_analog.write(city_id+";"+real_city+"\n")
                         has_analog_lock.release()
                     except:
                         has_analog_lock.release()
@@ -150,7 +146,7 @@ class myThread (threading.Thread):
                 coun = data['entities'][city_id]["claims"]["P17"][0] #take only the preferred one; assumption: it's the FIRST
             try:
                 couns_file_lock.acquire()
-                file_couns_out.write(str(coun["mainsnak"]["datavalue"]["value"]["id"])+";"+str(city_id)+"\n")
+                file_couns_out.write(str(city_id) + ";"+ str(coun["mainsnak"]["datavalue"]["value"]["id"]+"\n"))
                 couns_file_lock.release()
             except:
                 couns_file_lock.release()
@@ -177,28 +173,32 @@ has_analog_lock = threading.Lock()
 #TIME MEASUREMENTS
 total_time=time.time()
 
-
-#ID OF ALL POSSIBLE MAYORS
-#file_mayors_id_path = "../mayors_id.txt"
-
 place_of_birth_file_path = "../roles/placeOfBirth.txt"
 place_of_death_file_path = "../roles/placeOfDeath.txt"
 has_city_location_file_path = "../roles/hasCityLocation.txt"
+processed_cities_file_path = "../processed/processedCities.txt"
 
 place_of_birth_file = open(place_of_birth_file_path, 'r')
 place_of_death_file = open(place_of_death_file_path, 'r')
 has_city_location_file = open(has_city_location_file_path, 'r')
+processed_cities_file = open(processed_cities_file_path, 'r')
 
 PoB = set([x.strip().split(";")[1] for x in place_of_birth_file.readlines()[1:]])
 PoD = set([x.strip().split(";")[1] for x in place_of_death_file.readlines()[1:]])
 locations = set([x.strip().split(";")[1] for x in place_of_death_file.readlines()[1:] if x.strip().split(";")[2] == 'r'])
-cities = list(PoB.union(PoD).union(locations))
+processed_cities = set([x.strip() for x in processed_cities_file.readlines()[1:]])
+cities = list(PoB.union(PoD).union(locations).difference(processed_cities))
+
+place_of_birth_file.close()
+place_of_death_file.close()
+has_city_location_file.close()
+processed_cities_file.close()
 
 
 #FILES OUTPUT PATH
 file_real_city_path = "../concepts/RealCity.txt"
 file_fictional_city_path = "../concepts/FictionalCity.txt"
-file_log_path = "../log/log_RealCity.txt"
+file_log_path = "../log/log_City.txt"
 file_couns_path = "../roles/hasCountry.txt"
 file_has_mayor_path = "../roles/hasMayor.txt"
 file_has_analog_path = "../roles/hasAnalog.txt"
@@ -207,22 +207,14 @@ file_has_analog_path = "../roles/hasAnalog.txt"
 #STATISTICS VARIABLES
 statistics = [0 for x in range(LEN_INDEX)]
 
-# RETRIEVING ALL PUBLISHERs WIKIDATA IDs and QUERY THEM
-#file_mayors_id = open(file_mayors_id_path, 'r')
-#mayors = ([x.strip() for x in file_mayors_id.readlines()[1:]])
-
 #SAVING TO FILE
-file_log = open(file_log_path, 'w')
-file_real_city = open(file_real_city_path, 'w')
-file_fictional_city = open(file_fictional_city_path, 'w')
-file_couns_out = open(file_couns_path, 'w')
-file_couns_out.write("country_id;" + "city_id" + "\n")
-file_real_city.write("city_id" + ";" + "label" + ";" + "description" + ";" + "area" + ";" + "population" + "\n")
-file_fictional_city.write("city_id" + ";" + "label" + ";" + "description" + "\n")
-has_mayor_file = open(file_has_mayor_path, 'w')
-file_has_analog = open(file_has_analog_path, 'w')
-file_has_analog.write("fictional_city;real_city\n")
-has_mayor_file.write("city_id;mayor_id\n")
+file_log = open(file_log_path, 'a')
+file_real_city = open(file_real_city_path, 'a')
+file_fictional_city = open(file_fictional_city_path, 'a')
+file_couns_out = open(file_couns_path, 'a')
+has_mayor_file = open(file_has_mayor_path, 'a')
+file_has_analog = open(file_has_analog_path, 'a')
+
 n_results = len(cities)
 print("Number of cities: " + str(n_results))
 file_log.write("Number of cities: " + str(n_results) + "\n")
@@ -242,6 +234,11 @@ for t in threads:
 
 for t in threads:
     statistics =  [sum(x) for x in zip(statistics, t.join())]
+
+processed_cities_file = open(processed_cities_file_path, 'a')
+for city in cities:
+    processed_cities_file.write(city+"\n")
+processed_cities_file.close()
 
 
 #CLOSING OUTPUT FILES
@@ -268,5 +265,4 @@ for i in range(len(statistics)):
 
 
 file_log.write("Total_time:\t"+str(round(total_time,2))+" sec" + "\n")
-
 file_log.close()

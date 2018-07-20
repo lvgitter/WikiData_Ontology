@@ -53,6 +53,7 @@
           <node node_value="RoleNode:bo:hasEdition:n155"/>
           <node node_value="AttributeNode:bo:character_label:n180"/>
           <node node_value="AttributeNode:bo:author_label:n207"/>
+          <node node_value="AttributeNode:bo:character_name:n375"/>
           <node node_value="AttributeNode:bo:sex:n268"/>
           <node node_value="RoleNode:bo:hasUsedLanguage:n73"/>
           <node node_value="RoleNode:bo:hasCountry:n30"/>
@@ -61,7 +62,7 @@
           <node node_value="RoleNode:bo:InfluencedBy:n26"/>
           <node node_value="RoleNode:bo:hasIllustrator:n76"/>
           <node node_value="AttributeNode:bo:inception:n265"/>
-          <node node_value="ConceptNode:bo:FictionalNonHuman:n119"/>
+          <node node_value="ConceptNode:bo:FictionalNotHuman:n119"/>
           <node node_value="AttributeNode:bo:subtitle:n150"/>
           <node node_value="AttributeNode:bo:mayor_id:n328"/>
           <node node_value="RoleNode:bo:hasAuthor:n8"/>
@@ -101,10 +102,12 @@
           <node node_value="AttributeNode:bo:book_description:n160"/>
           <node node_value="AttributeNode:bo:translator_label:n214"/>
           <node node_value="RoleNode:bo:hasCharacter:n49"/>
+          <node node_value="AttributeNode:bo:character_sex:n374"/>
           <node node_value="AttributeNode:bo:mayor_label:n194"/>
           <node node_value="AttributeNode:bo:country_id:n325"/>
           <node node_value="AttributeNode:bo:area:n362"/>
           <node node_value="ConceptNode:bo:Mayor:n36"/>
+          <node node_value="AttributeNode:bo:character_DoD:n377"/>
           <node node_value="AttributeNode:bo:edition_id:n340"/>
           <node node_value="ConceptNode:bo:Book:n0"/>
           <node node_value="ConceptNode:bo:RealCity:n19"/>
@@ -118,6 +121,7 @@
           <node node_value="RoleNode:bo:hasTranslator:n77"/>
           <node node_value="ConceptNode:bo:Country:n31"/>
           <node node_value="AttributeNode:bo:official_residence:n282"/>
+          <node node_value="AttributeNode:bo:character_DoB:n376"/>
           <node node_value="AttributeNode:bo:city_id:n346"/>
           <node node_value="AttributeNode:bo:city_description:n307"/>
           <node node_value="AttributeNode:bo:award:n290"/>
@@ -168,6 +172,10 @@
       <description></description>
       <functional>1</functional>
     </predicate>
+    <predicate type="attribute" name="bo:character_DoD">
+      <description></description>
+      <functional>1</functional>
+    </predicate>
     <predicate type="attribute" name="bo:edition_id">
       <description></description>
       <functional>1</functional>
@@ -177,6 +185,10 @@
       <functional>1</functional>
     </predicate>
     <predicate type="attribute" name="bo:official_residence">
+      <description></description>
+      <functional>1</functional>
+    </predicate>
+    <predicate type="attribute" name="bo:character_sex">
       <description></description>
       <functional>1</functional>
     </predicate>
@@ -217,6 +229,10 @@
       <functional>1</functional>
     </predicate>
     <predicate type="attribute" name="bo:book_label">
+      <description></description>
+      <functional>1</functional>
+    </predicate>
+    <predicate type="attribute" name="bo:character_name">
       <description></description>
       <functional>1</functional>
     </predicate>
@@ -293,6 +309,10 @@
       <functional>1</functional>
     </predicate>
     <predicate type="attribute" name="bo:mayor_label">
+      <description></description>
+      <functional>1</functional>
+    </predicate>
+    <predicate type="attribute" name="bo:character_DoB">
       <description></description>
       <functional>1</functional>
     </predicate>
@@ -403,6 +423,10 @@
   </predicates>
   <diagrams>
     <diagram height="5000" width="5000" name="books">
+      <node type="domain-restriction" color="#fcfcfc" id="n384">
+        <geometry height="20" x="1400" y="1070" width="20"/>
+        <label height="23" x="1400" y="1048" width="39">exists</label>
+      </node>
       <node type="attribute" color="#fcfcfc" id="n144" remaining_characters="title">
         <geometry height="20" x="150" y="320" width="20"/>
         <label height="23" x="150" y="298" width="44">bo:title</label>
@@ -414,6 +438,10 @@
       <node type="range-restriction" color="#000000" id="n81">
         <geometry height="20" x="-420" y="-600" width="20"/>
         <label height="23" x="-420" y="-622" width="39">exists</label>
+      </node>
+      <node type="attribute" color="#fcfcfc" id="n375" remaining_characters="character_name">
+        <geometry height="20" x="1150" y="1140" width="20"/>
+        <label height="23" x="1150" y="1118" width="110">bo:character_name</label>
       </node>
       <node type="range-restriction" color="#000000" id="n296">
         <geometry height="20" x="360" y="380" width="20"/>
@@ -450,6 +478,10 @@
       <node type="domain-restriction" color="#fcfcfc" id="n131">
         <geometry height="20" x="340" y="-710" width="20"/>
         <label height="23" x="340" y="-732" width="39">exists</label>
+      </node>
+      <node type="range-restriction" color="#000000" id="n385">
+        <geometry height="20" x="1410" y="1210" width="20"/>
+        <label height="23" x="1410" y="1188" width="39">exists</label>
       </node>
       <node type="role" color="#fcfcfc" id="n30" remaining_characters="hasCountry">
         <geometry height="65" x="-270" y="710" width="135"/>
@@ -515,10 +547,6 @@
         <geometry height="20" x="-670" y="20" width="20"/>
         <label height="23" x="-670" y="-2" width="39">exists</label>
       </node>
-      <node type="concept" color="#fcfcfc" id="n100" remaining_characters="FictionalCity">
-        <geometry height="50" x="-10" y="620" width="110"/>
-        <label height="23" x="-10" y="620" width="90">bo:FictionalCity</label>
-      </node>
       <node type="range-restriction" color="#000000" id="n320">
         <geometry height="20" x="1380" y="-140" width="20"/>
         <label height="23" x="1380" y="-162" width="39">exists</label>
@@ -526,6 +554,10 @@
       <node type="range-restriction" color="#000000" id="n216">
         <geometry height="20" x="-1080" y="-70" width="20"/>
         <label height="23" x="-1080" y="-92" width="39">exists</label>
+      </node>
+      <node type="concept" color="#fcfcfc" id="n100" remaining_characters="FictionalCity">
+        <geometry height="50" x="-10" y="620" width="110"/>
+        <label height="23" x="-10" y="620" width="90">bo:FictionalCity</label>
       </node>
       <node type="concept" color="#fcfcfc" id="n52" remaining_characters="Character">
         <geometry height="50" x="780" y="1010" width="110"/>
@@ -550,6 +582,10 @@
       <node type="range-restriction" color="#000000" id="n224">
         <geometry height="20" x="160" y="-1010" width="20"/>
         <label height="23" x="160" y="-1032" width="39">exists</label>
+      </node>
+      <node type="domain-restriction" color="#fcfcfc" id="n378">
+        <geometry height="20" x="1020" y="1080" width="20"/>
+        <label height="23" x="1020" y="1058" width="39">exists</label>
       </node>
       <node type="range-restriction" color="#000000" id="n109">
         <geometry height="20" x="-510" y="420" width="20"/>
@@ -583,6 +619,10 @@
         <geometry height="20" x="-290" y="140" width="20"/>
         <label height="23" x="-290" y="118" width="39">exists</label>
       </node>
+      <node type="range-restriction" color="#000000" id="n379">
+        <geometry height="20" x="1010" y="1200" width="20"/>
+        <label height="23" x="1010" y="1178" width="39">exists</label>
+      </node>
       <node type="range-restriction" color="#000000" id="n168">
         <geometry height="20" x="1380" y="10" width="20"/>
         <label height="23" x="1380" y="-12" width="39">exists</label>
@@ -615,6 +655,10 @@
         <geometry height="20" x="-490" y="850" width="20"/>
         <label height="23" x="-490" y="828" width="39">exists</label>
       </node>
+      <node type="attribute" color="#fcfcfc" id="n374" remaining_characters="character_sex">
+        <geometry height="20" x="1020" y="1140" width="20"/>
+        <label height="23" x="1020" y="1118" width="98">bo:character_sex</label>
+      </node>
       <node type="attribute" color="#fcfcfc" id="n214" remaining_characters="translator_label">
         <geometry height="20" x="-1010" y="-70" width="20"/>
         <label height="23" x="-1010" y="-92" width="106">bo:translator_label</label>
@@ -634,6 +678,10 @@
       <node type="domain-restriction" color="#fcfcfc" id="n27">
         <geometry height="20" x="-550" y="-70" width="20"/>
         <label height="23" x="-550" y="-92" width="39">exists</label>
+      </node>
+      <node type="domain-restriction" color="#fcfcfc" id="n380">
+        <geometry height="20" x="1150" y="1070" width="20"/>
+        <label height="23" x="1150" y="1048" width="39">exists</label>
       </node>
       <node type="range-restriction" color="#000000" id="n59">
         <geometry height="20" x="-240" y="-400" width="20"/>
@@ -655,6 +703,10 @@
         <geometry height="40" x="100" y="-1090" width="90"/>
         <label height="23" x="100" y="-1090" width="60">xsd:string</label>
       </node>
+      <node type="attribute" color="#fcfcfc" id="n377" remaining_characters="character_DoD">
+        <geometry height="20" x="1400" y="1140" width="20"/>
+        <label height="23" x="1400" y="1118" width="102">bo:character_DoD</label>
+      </node>
       <node type="range-restriction" color="#000000" id="n190">
         <geometry height="20" x="-600" y="760" width="20"/>
         <label height="23" x="-600" y="738" width="39">exists</label>
@@ -670,6 +722,10 @@
       <node type="domain-restriction" color="#fcfcfc" id="n274">
         <geometry height="20" x="-1720" y="150" width="20"/>
         <label height="23" x="-1720" y="128" width="39">exists</label>
+      </node>
+      <node type="range-restriction" color="#000000" id="n381">
+        <geometry height="20" x="1150" y="1200" width="20"/>
+        <label height="23" x="1150" y="1178" width="39">exists</label>
       </node>
       <node type="range-restriction" color="#000000" id="n364">
         <geometry height="20" x="-670" y="930" width="20"/>
@@ -723,6 +779,14 @@
         <geometry height="20" x="920" y="1140" width="20"/>
         <label height="23" x="920" y="1118" width="89">bo:character_id</label>
       </node>
+      <node type="domain-restriction" color="#fcfcfc" id="n382">
+        <geometry height="20" x="1280" y="1080" width="20"/>
+        <label height="23" x="1280" y="1058" width="39">exists</label>
+      </node>
+      <node type="attribute" color="#fcfcfc" id="n376" remaining_characters="character_DoB">
+        <geometry height="20" x="1280" y="1140" width="20"/>
+        <label height="23" x="1280" y="1118" width="102">bo:character_DoB</label>
+      </node>
       <node type="attribute" color="#fcfcfc" id="n346" remaining_characters="city_id">
         <geometry height="20" x="220" y="630" width="20"/>
         <label height="23" x="220" y="608" width="58">bo:city_id</label>
@@ -765,6 +829,10 @@
       <node type="domain-restriction" color="#fcfcfc" id="n164">
         <geometry height="20" x="220" y="260" width="20"/>
         <label height="23" x="220" y="238" width="39">exists</label>
+      </node>
+      <node type="range-restriction" color="#000000" id="n383">
+        <geometry height="20" x="1290" y="1200" width="20"/>
+        <label height="23" x="1290" y="1178" width="39">exists</label>
       </node>
       <node type="domain-restriction" color="#fcfcfc" id="n273">
         <geometry height="20" x="-1720" y="90" width="20"/>
@@ -865,9 +933,9 @@
         <geometry height="65" x="-740" y="500" width="105"/>
         <label height="23" x="-740" y="500" width="77">bo:hasMayor</label>
       </node>
-      <node type="concept" color="#fcfcfc" id="n119" remaining_characters="FictionalNonHuman">
+      <node type="concept" color="#fcfcfc" id="n119" remaining_characters="FictionalNotHuman">
         <geometry height="65" x="-40" y="1130" width="135"/>
-        <label height="23" x="-40" y="1130" width="130">bo:FictionalNonHuman</label>
+        <label height="23" x="-40" y="1130" width="128">bo:FictionalNotHuman</label>
       </node>
       <node type="attribute" color="#fcfcfc" id="n265" remaining_characters="inception">
         <geometry height="20" x="1300" y="-40" width="20"/>
@@ -1384,6 +1452,10 @@
         <geometry height="20" x="940" y="-650" width="20"/>
         <label height="23" x="940" y="-672" width="39">exists</label>
       </node>
+      <edge type="inclusion" source="n151" id="e254" target="n148">
+        <point x="100" y="380"/>
+        <point x="160" y="470"/>
+      </edge>
       <edge type="input" source="n281" id="e422" target="n284">
         <point x="-960" y="640"/>
         <point x="-960" y="570"/>
@@ -1497,6 +1569,10 @@
         <point x="-1100" y="700"/>
         <point x="-970" y="790"/>
       </edge>
+      <edge type="input" source="n374" id="e629" target="n379">
+        <point x="1020" y="1140"/>
+        <point x="1010" y="1200"/>
+      </edge>
       <edge type="input" source="n180" id="e315" target="n182">
         <point x="830" y="1140"/>
         <point x="830" y="1200"/>
@@ -1504,6 +1580,10 @@
       <edge type="input" source="n65" id="e90" target="n66">
         <point x="-160" y="340"/>
         <point x="-160" y="160"/>
+      </edge>
+      <edge type="input" source="n374" id="e628" target="n378">
+        <point x="1020" y="1140"/>
+        <point x="1020" y="1080"/>
       </edge>
       <edge type="input" source="n282" id="e421" target="n285">
         <point x="-870" y="640"/>
@@ -1557,6 +1637,10 @@
         <point x="600" y="-400"/>
         <point x="600" y="-310"/>
       </edge>
+      <edge type="input" source="n375" id="e630" target="n380">
+        <point x="1150" y="1140"/>
+        <point x="1150" y="1070"/>
+      </edge>
       <edge type="input" source="n173" id="e304" target="n175">
         <point x="1020" y="-660"/>
         <point x="1090" y="-660"/>
@@ -1594,6 +1678,10 @@
         <point x="-670" y="20"/>
         <point x="-670" y="80"/>
         <point x="-510" y="80"/>
+      </edge>
+      <edge type="input" source="n375" id="e631" target="n381">
+        <point x="1150" y="1140"/>
+        <point x="1150" y="1200"/>
       </edge>
       <edge type="input" source="n221" id="e359" target="n225">
         <point x="30" y="-950"/>
@@ -1639,6 +1727,10 @@
       <edge type="equivalence" source="n177" id="e595" target="n82">
         <point x="940" y="-650"/>
         <point x="790" y="-620"/>
+      </edge>
+      <edge type="input" source="n376" id="e632" target="n382">
+        <point x="1280" y="1140"/>
+        <point x="1280" y="1080"/>
       </edge>
       <edge type="input" source="n185" id="e313" target="n181">
         <point x="730" y="1150"/>
@@ -1705,6 +1797,10 @@
         <point x="-280" y="-130"/>
         <point x="-190" y="-50"/>
       </edge>
+      <edge type="input" source="n376" id="e633" target="n383">
+        <point x="1280" y="1140"/>
+        <point x="1290" y="1200"/>
+      </edge>
       <edge type="input" source="n280" id="e424" target="n286">
         <point x="-1030" y="640"/>
         <point x="-1030" y="700"/>
@@ -1763,6 +1859,10 @@
         <point x="-1180" y="700"/>
         <point x="-970" y="790"/>
       </edge>
+      <edge type="input" source="n377" id="e634" target="n384">
+        <point x="1400" y="1140"/>
+        <point x="1400" y="1070"/>
+      </edge>
       <edge type="inclusion" source="n50" id="e459" target="n0">
         <point x="770" y="150"/>
         <point x="150" y="150"/>
@@ -1810,6 +1910,10 @@
       <edge type="inclusion" source="n176" id="e310" target="n179">
         <point x="1090" y="-590"/>
         <point x="1200" y="-630"/>
+      </edge>
+      <edge type="input" source="n377" id="e635" target="n385">
+        <point x="1400" y="1140"/>
+        <point x="1410" y="1210"/>
       </edge>
       <edge type="inclusion" source="n292" id="e435" target="n213">
         <point x="-280" y="30"/>
@@ -1870,6 +1974,10 @@
         <point x="-60" y="-600"/>
         <point x="160" y="-600"/>
       </edge>
+      <edge type="inclusion" source="n379" id="e636" target="n186">
+        <point x="1010" y="1200"/>
+        <point x="780" y="1270"/>
+      </edge>
       <edge type="inclusion" source="n320" id="e534" target="n172">
         <point x="1380" y="-140"/>
         <point x="1500" y="-40"/>
@@ -1890,6 +1998,10 @@
         <point x="280" y="-1020"/>
         <point x="100" y="-1090"/>
       </edge>
+      <edge type="input" source="n219" id="e349" target="n217">
+        <point x="-1011" y="-120"/>
+        <point x="-1081" y="-120"/>
+      </edge>
       <edge type="input" source="n49" id="e226" target="n138">
         <point x="770" y="270"/>
         <point x="770" y="300"/>
@@ -1906,6 +2018,10 @@
       <edge type="input" source="n362" id="e585" target="n366">
         <point x="-540" y="970"/>
         <point x="-470" y="950"/>
+      </edge>
+      <edge type="inclusion" source="n381" id="e637" target="n186">
+        <point x="1150" y="1200"/>
+        <point x="780" y="1270"/>
       </edge>
       <edge type="inclusion" source="n341" id="e561" target="n179">
         <point x="1090" y="-720"/>
@@ -1986,6 +2102,10 @@
         <point x="-1011" y="-120"/>
         <point x="-951" y="-121"/>
       </edge>
+      <edge type="inclusion" source="n383" id="e639" target="n186">
+        <point x="1290" y="1200"/>
+        <point x="780" y="1270"/>
+      </edge>
       <edge type="input" source="n214" id="e351" target="n218">
         <point x="-1011" y="-70"/>
         <point x="-951" y="-71"/>
@@ -1997,10 +2117,6 @@
       <edge type="input" source="n343" id="e563" target="n342">
         <point x="-60" y="-950"/>
         <point x="-60" y="-880"/>
-      </edge>
-      <edge type="inclusion" source="n151" id="e254" target="n148">
-        <point x="100" y="380"/>
-        <point x="160" y="470"/>
       </edge>
       <edge type="inclusion" source="n60" id="e86" target="n16">
         <point x="-420" y="-540"/>
@@ -2047,6 +2163,10 @@
       <edge type="input" source="n354" id="e580" target="n355">
         <point x="-480" y="600"/>
         <point x="-530" y="600"/>
+      </edge>
+      <edge type="inclusion" source="n385" id="e640" target="n186">
+        <point x="1410" y="1210"/>
+        <point x="780" y="1270"/>
       </edge>
       <edge type="equivalence" source="n143" id="e247" target="n34">
         <point x="-630" y="150"/>
@@ -2187,6 +2307,10 @@
         <point x="100" y="-800"/>
         <point x="-60" y="-880"/>
       </edge>
+      <edge type="equivalence" source="n378" id="e641" target="n52">
+        <point x="1020" y="1080"/>
+        <point x="780" y="1010"/>
+      </edge>
       <edge type="inclusion" source="n266" id="e401" target="n172">
         <point x="1380" y="-40"/>
         <point x="1500" y="-40"/>
@@ -2199,10 +2323,6 @@
       <edge type="input" source="n269" id="e413" target="n277">
         <point x="-1780" y="90"/>
         <point x="-1850" y="90"/>
-      </edge>
-      <edge type="input" source="n219" id="e349" target="n217">
-        <point x="-1011" y="-120"/>
-        <point x="-1081" y="-120"/>
       </edge>
       <edge type="input" source="n76" id="e106" target="n80">
         <point x="-190" y="-660"/>
@@ -2248,6 +2368,10 @@
       <edge type="input" source="n368" id="e599" target="n369">
         <point x="290" y="-950"/>
         <point x="280" y="-1020"/>
+      </edge>
+      <edge type="equivalence" source="n380" id="e642" target="n52">
+        <point x="1150" y="1070"/>
+        <point x="780" y="1010"/>
       </edge>
       <edge type="equivalence" source="n137" id="e263" target="n87">
         <point x="-690" y="-170"/>
@@ -2307,6 +2431,10 @@
       <edge type="inclusion" source="n278" id="e419" target="n252">
         <point x="-1850" y="150"/>
         <point x="-1950" y="50"/>
+      </edge>
+      <edge type="equivalence" source="n382" id="e643" target="n52">
+        <point x="1280" y="1080"/>
+        <point x="780" y="1010"/>
       </edge>
       <edge type="input" source="n8" id="e173" target="n122">
         <point x="-130" y="100"/>
@@ -2374,6 +2502,10 @@
       <edge type="input" source="n178" id="e302" target="n174">
         <point x="1020" y="-590"/>
         <point x="950" y="-590"/>
+      </edge>
+      <edge type="inclusion" source="n384" id="e644" target="n52">
+        <point x="1400" y="1070"/>
+        <point x="780" y="1010"/>
       </edge>
       <edge type="equivalence" source="n273" id="e409" target="n34">
         <point x="-1720" y="90"/>
@@ -2584,6 +2716,10 @@
         <point x="-160" y="430"/>
         <point x="-40" y="440"/>
       </edge>
+      <edge type="input" source="n298" id="e499" target="n297">
+        <point x="360" y="320"/>
+        <point x="360" y="260"/>
+      </edge>
       <edge type="equivalence" source="n0" id="e292" target="n165">
         <point x="152" y="117"/>
         <point x="299" y="261"/>
@@ -2591,10 +2727,6 @@
       <edge type="inclusion" source="n216" id="e356" target="n220">
         <point x="-1080" y="-70"/>
         <point x="-1140" y="-100"/>
-      </edge>
-      <edge type="input" source="n298" id="e499" target="n297">
-        <point x="360" y="320"/>
-        <point x="360" y="260"/>
       </edge>
       <edge type="input" source="n265" id="e400" target="n266">
         <point x="1300" y="-40"/>
