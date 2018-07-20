@@ -1,13 +1,13 @@
 
 # coding: utf-8
 
-# In[16]:
+# In[1]:
 
 
 #parser: given owl, set up db and write mappings
 
 
-# In[17]:
+# In[2]:
 
 
 with open ("../books/books18_07.owl", "r") as fowl:
@@ -132,7 +132,7 @@ print (dict_attributes)
     
 
 
-# In[10]:
+# In[3]:
 
 
 relazioni_da_accorpare = ["hasMayor"]
@@ -140,13 +140,13 @@ relazioni_da_accorpare = []
 #'character_id': {'range': {'name': 'character_id> xsd:strin'}, 'domain': {'name': 'Character', 'nullable': False}, 'functional': True, 'inv_functional': False}
 
 
-# In[11]:
+# In[4]:
 
 
 #dict_attributes.keys()
 
 
-# In[18]:
+# In[5]:
 
 
 for attribute in dict_attributes.keys():
@@ -218,23 +218,23 @@ for relation in dict_relations.keys():
 
 print(dict_classes)
 print("************************")
-print (dict_relations)
+'''print (dict_relations)
 print("************************")
 print (dict_attributes)    
-print("************************")       
+print("************************")       '''
 
 
     
     
 
 
-# In[21]:
+# In[6]:
 
 
 #generate strings and write to file
 
 
-# In[19]:
+# In[12]:
 
 
 outstring_create = "CREATE DATABASE bookDB;\n\nUSE bookDB;\n\n"
@@ -242,6 +242,7 @@ outstring_insert = ""
 
 with open("create.sql", "w") as cf, open("insert.sql", "w") as insf:
     for class_ in dict_classes.keys():
+        referencing = False
         outstring_create += "CREATE TABLE " + class_ + "(" + "\n"
         #print(class_)
         for attribute in dict_classes[class_]["attributes"]:
@@ -253,6 +254,7 @@ with open("create.sql", "w") as cf, open("insert.sql", "w") as insf:
                 outstring_create += " " + "not null"
             outstring_create += ",\n"
             if "references" in (dict_classes[class_]["attributes"][attribute]).keys():
+                referencing = True
                 outstring_create += "\tforeign key " +                 "("+ attribute + ") references " +                 dict_classes[class_]["attributes"][attribute]["references"] + "(" +                 dict_classes[class_]["attributes"][attribute]["references"].lower() + "_id),\n"
         '''for attribute in dict_classes[class_]["attributes"]:
             if "references" in (dict_classes[class_]["attributes"][attribute]).keys():
@@ -261,7 +263,11 @@ with open("create.sql", "w") as cf, open("insert.sql", "w") as insf:
         outstring_create = outstring_create.rstrip()[:-1] #remove comma and newline
         outstring_create += ");\n\n" 
 
-        outstring_insert += "LOAD DATA LOCAL INFILE PATH INTO TABLE Book\nFIELDS TERMINATED BY ';'\nENCLOSED BY '\"'"+        "\nLINES TERMINATED BY '\\n'\nIGNORE 1 LINES;\n\n"
+        if referencing:
+            relative_path = "../roles/" + class_
+        else:
+            relative_path = "../concepts/" + class_
+        outstring_insert += "LOAD DATA LOCAL INFILE " +  relative_path + ".txt INTO TABLE " + class_ + "\nFIELDS TERMINATED BY ';'\nENCLOSED BY '\"'"+        "\nLINES TERMINATED BY '\\n'\nIGNORE 1 LINES;\n\n"
 
 
     print(outstring_create)
@@ -270,7 +276,7 @@ with open("create.sql", "w") as cf, open("insert.sql", "w") as insf:
     cf.write(outstring_create)
 
 
-# In[31]:
+# In[42]:
 
 
 base_iri = "http://books/"
@@ -289,17 +295,44 @@ with open("book_mappings.xml", "w") as mapf:
     mapping_counter = 0
     for class_ in dict_classes.keys():
         mapping_counter += 1
+        attributes_set = set()
         from_relation = False
         for attribute in dict_classes[class_]["attributes"]:
+            attributes_set.add(attribute)
             if "references" in (dict_classes[class_]["attributes"][attribute]).keys():
                 from_relation = True
-                break
         if from_relation:
             word = "role"
+            domain = "DOM"
+            range_ = "RANGE"
         else:
-            word = "concept "
-        outstring_mappings += "<ontologyPredicateMapping id=\"M" + str(mapping_counter) + "_" + class_ + "\">\n" +         "<" + word + "string=" + base_iri + "#" + class_ + ">"
-        outstring_mappings += "<template>" + base_iri + class_.lower() + ">"
+            word = "concept"
+        query = "SELECT "
+        head_string = "\n<HEAD string=\"" + class_ + "_view("
+        for attr in attributes_set:
+            query += class_[0].lower() + "." + attr + " AS " + attr + ", "
+            head_string += attr + ", "
+        head_string = head_string[:-2]
+        head_string += ")\"/>"
+        query = query[:-2]
+        query += " FROM book_db." + class_ + " " + class_[0].lower()
+        outstring_mappings += "\n<ontologyPredicateMapping id=\"M" + str(mapping_counter) + "_" + class_ + "\">" +         "\n<" + word + " string=" + base_iri + "#" + class_ + ">"
+        if not from_relation:
+            outstring_mappings += "\n<template>" + base_iri + class_.lower() + "{" + class_.lower() + "_id}" + "</template>"
+        else:
+            outstring_mappings += "\n<domainTemplate>" + base_iri + domain + "{" + domain + "_id}" + "</domainTemplate>\n<rangeTemplate>" + base_iri + base_iri + range_ + "{" + range_ + "_id}" + "</rangeTemplate>"
+        outstring_mappings += "\n</" + word + ">"
+        outstring_mappings += head_string + "\n</ontologyPredicateMapping>\n"
+        
+        for attr in attributes_set:
+            mapping_counter += 1
+            outstring_mappings += "\n<ontologyPredicateMapping id=\"M" + str(mapping_counter) + "_" + attr + "\">" +             "\n<" + "attribute" + " string=" + base_iri + "#" + class_ + ">"
+            outstring_mappings += "\n<domainTemplate>" + base_iri + class_.lower() + "{" + class_.lower() + "_id}" + "</domainTemplate>"
+            outstring_mappings += "\n<rangeVariable>" + attr + "</rangeVariable> "+ "\n</" + word + ">"
+            outstring_mappings += head_string + "\n</ontologyPredicateMapping>\n"
+        
+        outstring_mappings += "\n<primitiveView>" + "\n<HEAD string=\"" + class_ + "_view(" + class_ + "_id)\"/>" 
+        outstring_mappings += "\n<SQLQuery> " + query + " </SQLQuery>\n</primitiveView>\n"
     outstring_mappings += "</mappings>\n<blocks/>\n<constraints/>\n</OBDA>"
 
     print (outstring_mappings)
