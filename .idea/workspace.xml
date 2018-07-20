@@ -2,29 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f9c1132-1bf9-4d35-a890-1b8aab879b41" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/init.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/books/books.graphol" afterPath="$PROJECT_DIR$/books/books.graphol" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concepts/Book.txt" afterPath="$PROJECT_DIR$/concepts/Book.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/log_Book.txt" afterPath="$PROJECT_DIR$/log/log_Book.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mySQL_scripts/.ipynb_checkpoints/parser-checkpoint.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mySQL_scripts/.ipynb_checkpoints/parser_v2-checkpoint.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mySQL_scripts/parser.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mySQL_scripts/parser_v2.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mySQL_scripts/parser_v2.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/books/book_17_06.owl" afterPath="$PROJECT_DIR$/books/books_17_06.owl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQL_scripts/create.sql" afterPath="$PROJECT_DIR$/mySQL_scripts/create.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/authors_download.py" afterPath="$PROJECT_DIR$/python/authors_download.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/books_download.py" afterPath="$PROJECT_DIR$/python/books_download.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/characters_download.py" afterPath="$PROJECT_DIR$/python/characters_download.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/cities_download.py" afterPath="$PROJECT_DIR$/python/cities_download.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/countries_download.py" afterPath="$PROJECT_DIR$/python/countries_download.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/editions_download.py" afterPath="$PROJECT_DIR$/python/editions_download.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/human_download.py" afterPath="$PROJECT_DIR$/python/human_download.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/languages_download.py" afterPath="$PROJECT_DIR$/python/languages_download.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/mayor_download.py" afterPath="$PROJECT_DIR$/python/mayor_download.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/publishers_download.py" afterPath="$PROJECT_DIR$/python/publishers_download.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/translator_download.py" afterPath="$PROJECT_DIR$/python/translator_download.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/follows.txt" afterPath="$PROJECT_DIR$/roles/follows.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/hasAfterwordAuthor.txt" afterPath="$PROJECT_DIR$/roles/hasAfterwordAuthor.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/hasAuthor.txt" afterPath="$PROJECT_DIR$/roles/hasAuthor.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/hasCharacter.txt" afterPath="$PROJECT_DIR$/roles/hasCharacter.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/hasEdition.txt" afterPath="$PROJECT_DIR$/roles/hasEdition.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/hasForewordAuthor.txt" afterPath="$PROJECT_DIR$/roles/hasForewordAuthor.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQL_scripts/insert.sql" afterPath="$PROJECT_DIR$/mySQL_scripts/insert.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQL_scripts/parser.py" afterPath="$PROJECT_DIR$/mySQL_scripts/parser.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
