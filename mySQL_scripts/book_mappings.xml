@@ -1,0 +1,1391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OBDA version="1.0">
+<dataSource databaseDriver="org.postgresql.Driver" databaseName=""
+databasePassword="postgres"
+databaseURL="jdbc:postgresql://localhost/comics_db"
+databaseUsername="postgres" name="datasource"/>
+<prefixes>
+<prefix name="owl:" namespace="http://www.w3.org/2002/07/owl#"/>
+<prefix name="rdf:" namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+<prefix name="sh:" namespace="http://books//#>
+<prefix name="xsd:" namespace="http://www.w3.org/2001/XMLSchema#"/>
+<prefix name=":" namespace="http://books/>
+<prefix name="xml:" namespace="http://www.w3.org/XML/1998/namespace"/>
+<prefix name="rdfs:" namespace="http://www.w3.org/2000/01/rdf-schema#"/>
+</prefixes>
+<templates>
+<template>http://books/foundedby_{_}</template>
+<template>http://books/hascitylocation_{_}</template>
+<template>http://books/fictionalnothuman_{_}</template>
+<template>http://books/hasmayor_{_}</template>
+<template>http://books/hasauthor_genre_{_}</template>
+<template>http://books/language_{_}</template>
+<template>http://books/hasedition_{_}</template>
+<template>http://books/edition_{_}</template>
+<template>http://books/author_{_}</template>
+<template>http://books/mayor_{_}</template>
+<template>http://books/bookwrittenin_{_}</template>
+<template>http://books/hasaward_{_}</template>
+<template>http://books/translator_{_}</template>
+<template>http://books/fictionalhuman_{_}</template>
+<template>http://books/book_{_}</template>
+<template>http://books/speaks_{_}</template>
+<template>http://books/character_{_}</template>
+<template>http://books/hasforewordauthor_{_}</template>
+<template>http://books/human_{_}</template>
+<template>http://books/hascharacter_{_}</template>
+<template>http://books/locatedin_{_}</template>
+<template>http://books/fictionalcity_{_}</template>
+<template>http://books/hasusedlanguage_{_}</template>
+<template>http://books/realcity_{_}</template>
+<template>http://books/award_{_}</template>
+<template>http://books/haspublisher_{_}</template>
+<template>http://books/hasauthor_{_}</template>
+<template>http://books/country_{_}</template>
+<template>http://books/publisher_{_}</template>
+<template>http://books/hasrole_{_}</template>
+<template>http://books/hasafterwordauthor_{_}</template>
+<template>http://books/city_{_}</template>
+<template>http://books/fictionalcharacter_{_}</template>
+<template>http://books/placeofdeath_{_}</template>
+<template>http://books/followedby_{_}</template>
+<template>http://books/placeofbirth_{_}</template>
+<template>http://books/hastranslator_{_}</template>
+<template>http://books/hascountry_{_}</template>
+<template>http://books/hascountrylocation_{_}</template>
+<template>http://books/author_genre_{_}</template>
+<template>http://books/influencedby_{_}</template>
+<template>http://books/hasillustrator_{_}</template>
+<template>http://books/hasanalog_{_}</template>
+</templates>
+<mappings>
+
+<ontologyPredicateMapping id="M1_foundedBy">
+<role string=http://books/#foundedBy>
+<domainTemplate>http://books/DOM{DOM_id}</domainTemplate>
+<rangeTemplate>http://books/http://books/RANGE{RANGE_id}</rangeTemplate>
+</role>
+<HEAD string="foundedBy_view(publisher_id, human_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M2_publisher_id">
+<attribute string=http://books/#foundedBy>
+<domainTemplate>http://books/foundedby{foundedby_id}</domainTemplate>
+<rangeVariable>publisher_id</rangeVariable> 
+</role>
+<HEAD string="foundedBy_view(publisher_id, human_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M3_human_id">
+<attribute string=http://books/#foundedBy>
+<domainTemplate>http://books/foundedby{foundedby_id}</domainTemplate>
+<rangeVariable>human_id</rangeVariable> 
+</role>
+<HEAD string="foundedBy_view(publisher_id, human_id)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="foundedBy_view(foundedBy_id)"/>
+<SQLQuery> SELECT f.publisher_id AS publisher_id, f.human_id AS human_id FROM book_db.foundedBy f </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M4_hasCityLocation">
+<role string=http://books/#hasCityLocation>
+<domainTemplate>http://books/DOM{DOM_id}</domainTemplate>
+<rangeTemplate>http://books/http://books/RANGE{RANGE_id}</rangeTemplate>
+</role>
+<HEAD string="hasCityLocation_view(city_id, book_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M5_city_id">
+<attribute string=http://books/#hasCityLocation>
+<domainTemplate>http://books/hascitylocation{hascitylocation_id}</domainTemplate>
+<rangeVariable>city_id</rangeVariable> 
+</role>
+<HEAD string="hasCityLocation_view(city_id, book_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M6_book_id">
+<attribute string=http://books/#hasCityLocation>
+<domainTemplate>http://books/hascitylocation{hascitylocation_id}</domainTemplate>
+<rangeVariable>book_id</rangeVariable> 
+</role>
+<HEAD string="hasCityLocation_view(city_id, book_id)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="hasCityLocation_view(hasCityLocation_id)"/>
+<SQLQuery> SELECT h.city_id AS city_id, h.book_id AS book_id FROM book_db.hasCityLocation h </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M7_FictionalNotHuman">
+<concept string=http://books/#FictionalNotHuman>
+<template>http://books/fictionalnothuman{fictionalnothuman_id}</template>
+</concept>
+<HEAD string="FictionalNotHuman_vie)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="FictionalNotHuman_view(FictionalNotHuman_id)"/>
+<SQLQuery> SELEC FROM book_db.FictionalNotHuman f </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M8_hasMayor">
+<role string=http://books/#hasMayor>
+<domainTemplate>http://books/DOM{DOM_id}</domainTemplate>
+<rangeTemplate>http://books/http://books/RANGE{RANGE_id}</rangeTemplate>
+</role>
+<HEAD string="hasMayor_view(mayor_id, realcity_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M9_mayor_id">
+<attribute string=http://books/#hasMayor>
+<domainTemplate>http://books/hasmayor{hasmayor_id}</domainTemplate>
+<rangeVariable>mayor_id</rangeVariable> 
+</role>
+<HEAD string="hasMayor_view(mayor_id, realcity_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M10_realcity_id">
+<attribute string=http://books/#hasMayor>
+<domainTemplate>http://books/hasmayor{hasmayor_id}</domainTemplate>
+<rangeVariable>realcity_id</rangeVariable> 
+</role>
+<HEAD string="hasMayor_view(mayor_id, realcity_id)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="hasMayor_view(hasMayor_id)"/>
+<SQLQuery> SELECT h.mayor_id AS mayor_id, h.realcity_id AS realcity_id FROM book_db.hasMayor h </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M11_hasAuthor_Genre">
+<role string=http://books/#hasAuthor_Genre>
+<domainTemplate>http://books/DOM{DOM_id}</domainTemplate>
+<rangeTemplate>http://books/http://books/RANGE{RANGE_id}</rangeTemplate>
+</role>
+<HEAD string="hasAuthor_Genre_view(author_genre_id, author_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M12_author_genre_id">
+<attribute string=http://books/#hasAuthor_Genre>
+<domainTemplate>http://books/hasauthor_genre{hasauthor_genre_id}</domainTemplate>
+<rangeVariable>author_genre_id</rangeVariable> 
+</role>
+<HEAD string="hasAuthor_Genre_view(author_genre_id, author_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M13_author_id">
+<attribute string=http://books/#hasAuthor_Genre>
+<domainTemplate>http://books/hasauthor_genre{hasauthor_genre_id}</domainTemplate>
+<rangeVariable>author_id</rangeVariable> 
+</role>
+<HEAD string="hasAuthor_Genre_view(author_genre_id, author_id)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="hasAuthor_Genre_view(hasAuthor_Genre_id)"/>
+<SQLQuery> SELECT h.author_genre_id AS author_genre_id, h.author_id AS author_id FROM book_db.hasAuthor_Genre h </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M14_Language">
+<concept string=http://books/#Language>
+<template>http://books/language{language_id}</template>
+</concept>
+<HEAD string="Language_view(num_speakers, language_label, language_id, language_description)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M15_num_speakers">
+<attribute string=http://books/#Language>
+<domainTemplate>http://books/language{language_id}</domainTemplate>
+<rangeVariable>num_speakers</rangeVariable> 
+</concept>
+<HEAD string="Language_view(num_speakers, language_label, language_id, language_description)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M16_language_label">
+<attribute string=http://books/#Language>
+<domainTemplate>http://books/language{language_id}</domainTemplate>
+<rangeVariable>language_label</rangeVariable> 
+</concept>
+<HEAD string="Language_view(num_speakers, language_label, language_id, language_description)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M17_language_id">
+<attribute string=http://books/#Language>
+<domainTemplate>http://books/language{language_id}</domainTemplate>
+<rangeVariable>language_id</rangeVariable> 
+</concept>
+<HEAD string="Language_view(num_speakers, language_label, language_id, language_description)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M18_language_description">
+<attribute string=http://books/#Language>
+<domainTemplate>http://books/language{language_id}</domainTemplate>
+<rangeVariable>language_description</rangeVariable> 
+</concept>
+<HEAD string="Language_view(num_speakers, language_label, language_id, language_description)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="Language_view(Language_id)"/>
+<SQLQuery> SELECT l.num_speakers AS num_speakers, l.language_label AS language_label, l.language_id AS language_id, l.language_description AS language_description FROM book_db.Language l </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M19_hasEdition">
+<role string=http://books/#hasEdition>
+<domainTemplate>http://books/DOM{DOM_id}</domainTemplate>
+<rangeTemplate>http://books/http://books/RANGE{RANGE_id}</rangeTemplate>
+</role>
+<HEAD string="hasEdition_view(edition_id, book_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M20_edition_id">
+<attribute string=http://books/#hasEdition>
+<domainTemplate>http://books/hasedition{hasedition_id}</domainTemplate>
+<rangeVariable>edition_id</rangeVariable> 
+</role>
+<HEAD string="hasEdition_view(edition_id, book_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M21_book_id">
+<attribute string=http://books/#hasEdition>
+<domainTemplate>http://books/hasedition{hasedition_id}</domainTemplate>
+<rangeVariable>book_id</rangeVariable> 
+</role>
+<HEAD string="hasEdition_view(edition_id, book_id)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="hasEdition_view(hasEdition_id)"/>
+<SQLQuery> SELECT h.edition_id AS edition_id, h.book_id AS book_id FROM book_db.hasEdition h </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M22_Edition">
+<concept string=http://books/#Edition>
+<template>http://books/edition{edition_id}</template>
+</concept>
+<HEAD string="Edition_view(edition_id, edition_label, edition_description)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M23_edition_id">
+<attribute string=http://books/#Edition>
+<domainTemplate>http://books/edition{edition_id}</domainTemplate>
+<rangeVariable>edition_id</rangeVariable> 
+</concept>
+<HEAD string="Edition_view(edition_id, edition_label, edition_description)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M24_edition_label">
+<attribute string=http://books/#Edition>
+<domainTemplate>http://books/edition{edition_id}</domainTemplate>
+<rangeVariable>edition_label</rangeVariable> 
+</concept>
+<HEAD string="Edition_view(edition_id, edition_label, edition_description)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M25_edition_description">
+<attribute string=http://books/#Edition>
+<domainTemplate>http://books/edition{edition_id}</domainTemplate>
+<rangeVariable>edition_description</rangeVariable> 
+</concept>
+<HEAD string="Edition_view(edition_id, edition_label, edition_description)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="Edition_view(Edition_id)"/>
+<SQLQuery> SELECT e.edition_id AS edition_id, e.edition_label AS edition_label, e.edition_description AS edition_description FROM book_db.Edition e </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M26_Author">
+<concept string=http://books/#Author>
+<template>http://books/author{author_id}</template>
+</concept>
+<HEAD string="Author_view(author_label, author_description)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M27_author_label">
+<attribute string=http://books/#Author>
+<domainTemplate>http://books/author{author_id}</domainTemplate>
+<rangeVariable>author_label</rangeVariable> 
+</concept>
+<HEAD string="Author_view(author_label, author_description)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M28_author_description">
+<attribute string=http://books/#Author>
+<domainTemplate>http://books/author{author_id}</domainTemplate>
+<rangeVariable>author_description</rangeVariable> 
+</concept>
+<HEAD string="Author_view(author_label, author_description)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="Author_view(Author_id)"/>
+<SQLQuery> SELECT a.author_label AS author_label, a.author_description AS author_description FROM book_db.Author a </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M29_Mayor">
+<concept string=http://books/#Mayor>
+<template>http://books/mayor{mayor_id}</template>
+</concept>
+<HEAD string="Mayor_view(start_time, end_time, mayor_description, official_residence, mayor_label, mayor_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M30_start_time">
+<attribute string=http://books/#Mayor>
+<domainTemplate>http://books/mayor{mayor_id}</domainTemplate>
+<rangeVariable>start_time</rangeVariable> 
+</concept>
+<HEAD string="Mayor_view(start_time, end_time, mayor_description, official_residence, mayor_label, mayor_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M31_end_time">
+<attribute string=http://books/#Mayor>
+<domainTemplate>http://books/mayor{mayor_id}</domainTemplate>
+<rangeVariable>end_time</rangeVariable> 
+</concept>
+<HEAD string="Mayor_view(start_time, end_time, mayor_description, official_residence, mayor_label, mayor_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M32_mayor_description">
+<attribute string=http://books/#Mayor>
+<domainTemplate>http://books/mayor{mayor_id}</domainTemplate>
+<rangeVariable>mayor_description</rangeVariable> 
+</concept>
+<HEAD string="Mayor_view(start_time, end_time, mayor_description, official_residence, mayor_label, mayor_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M33_official_residence">
+<attribute string=http://books/#Mayor>
+<domainTemplate>http://books/mayor{mayor_id}</domainTemplate>
+<rangeVariable>official_residence</rangeVariable> 
+</concept>
+<HEAD string="Mayor_view(start_time, end_time, mayor_description, official_residence, mayor_label, mayor_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M34_mayor_label">
+<attribute string=http://books/#Mayor>
+<domainTemplate>http://books/mayor{mayor_id}</domainTemplate>
+<rangeVariable>mayor_label</rangeVariable> 
+</concept>
+<HEAD string="Mayor_view(start_time, end_time, mayor_description, official_residence, mayor_label, mayor_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M35_mayor_id">
+<attribute string=http://books/#Mayor>
+<domainTemplate>http://books/mayor{mayor_id}</domainTemplate>
+<rangeVariable>mayor_id</rangeVariable> 
+</concept>
+<HEAD string="Mayor_view(start_time, end_time, mayor_description, official_residence, mayor_label, mayor_id)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="Mayor_view(Mayor_id)"/>
+<SQLQuery> SELECT m.start_time AS start_time, m.end_time AS end_time, m.mayor_description AS mayor_description, m.official_residence AS official_residence, m.mayor_label AS mayor_label, m.mayor_id AS mayor_id FROM book_db.Mayor m </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M36_BookWrittenIn">
+<role string=http://books/#BookWrittenIn>
+<domainTemplate>http://books/DOM{DOM_id}</domainTemplate>
+<rangeTemplate>http://books/http://books/RANGE{RANGE_id}</rangeTemplate>
+</role>
+<HEAD string="BookWrittenIn_view(language_id, book_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M37_language_id">
+<attribute string=http://books/#BookWrittenIn>
+<domainTemplate>http://books/bookwrittenin{bookwrittenin_id}</domainTemplate>
+<rangeVariable>language_id</rangeVariable> 
+</role>
+<HEAD string="BookWrittenIn_view(language_id, book_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M38_book_id">
+<attribute string=http://books/#BookWrittenIn>
+<domainTemplate>http://books/bookwrittenin{bookwrittenin_id}</domainTemplate>
+<rangeVariable>book_id</rangeVariable> 
+</role>
+<HEAD string="BookWrittenIn_view(language_id, book_id)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="BookWrittenIn_view(BookWrittenIn_id)"/>
+<SQLQuery> SELECT b.language_id AS language_id, b.book_id AS book_id FROM book_db.BookWrittenIn b </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M39_hasAward">
+<role string=http://books/#hasAward>
+<domainTemplate>http://books/DOM{DOM_id}</domainTemplate>
+<rangeTemplate>http://books/http://books/RANGE{RANGE_id}</rangeTemplate>
+</role>
+<HEAD string="hasAward_view(award_id, author_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M40_award_id">
+<attribute string=http://books/#hasAward>
+<domainTemplate>http://books/hasaward{hasaward_id}</domainTemplate>
+<rangeVariable>award_id</rangeVariable> 
+</role>
+<HEAD string="hasAward_view(award_id, author_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M41_author_id">
+<attribute string=http://books/#hasAward>
+<domainTemplate>http://books/hasaward{hasaward_id}</domainTemplate>
+<rangeVariable>author_id</rangeVariable> 
+</role>
+<HEAD string="hasAward_view(award_id, author_id)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="hasAward_view(hasAward_id)"/>
+<SQLQuery> SELECT h.award_id AS award_id, h.author_id AS author_id FROM book_db.hasAward h </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M42_Translator">
+<concept string=http://books/#Translator>
+<template>http://books/translator{translator_id}</template>
+</concept>
+<HEAD string="Translator_view(translator_label, translator_description)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M43_translator_label">
+<attribute string=http://books/#Translator>
+<domainTemplate>http://books/translator{translator_id}</domainTemplate>
+<rangeVariable>translator_label</rangeVariable> 
+</concept>
+<HEAD string="Translator_view(translator_label, translator_description)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M44_translator_description">
+<attribute string=http://books/#Translator>
+<domainTemplate>http://books/translator{translator_id}</domainTemplate>
+<rangeVariable>translator_description</rangeVariable> 
+</concept>
+<HEAD string="Translator_view(translator_label, translator_description)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="Translator_view(Translator_id)"/>
+<SQLQuery> SELECT t.translator_label AS translator_label, t.translator_description AS translator_description FROM book_db.Translator t </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M45_FictionalHuman">
+<concept string=http://books/#FictionalHuman>
+<template>http://books/fictionalhuman{fictionalhuman_id}</template>
+</concept>
+<HEAD string="FictionalHuman_vie)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="FictionalHuman_view(FictionalHuman_id)"/>
+<SQLQuery> SELEC FROM book_db.FictionalHuman f </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M46_Book">
+<concept string=http://books/#Book>
+<template>http://books/book{book_id}</template>
+</concept>
+<HEAD string="Book_view(book_description, book_label, book_id, title, subtitle)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M47_book_description">
+<attribute string=http://books/#Book>
+<domainTemplate>http://books/book{book_id}</domainTemplate>
+<rangeVariable>book_description</rangeVariable> 
+</concept>
+<HEAD string="Book_view(book_description, book_label, book_id, title, subtitle)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M48_book_label">
+<attribute string=http://books/#Book>
+<domainTemplate>http://books/book{book_id}</domainTemplate>
+<rangeVariable>book_label</rangeVariable> 
+</concept>
+<HEAD string="Book_view(book_description, book_label, book_id, title, subtitle)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M49_book_id">
+<attribute string=http://books/#Book>
+<domainTemplate>http://books/book{book_id}</domainTemplate>
+<rangeVariable>book_id</rangeVariable> 
+</concept>
+<HEAD string="Book_view(book_description, book_label, book_id, title, subtitle)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M50_title">
+<attribute string=http://books/#Book>
+<domainTemplate>http://books/book{book_id}</domainTemplate>
+<rangeVariable>title</rangeVariable> 
+</concept>
+<HEAD string="Book_view(book_description, book_label, book_id, title, subtitle)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M51_subtitle">
+<attribute string=http://books/#Book>
+<domainTemplate>http://books/book{book_id}</domainTemplate>
+<rangeVariable>subtitle</rangeVariable> 
+</concept>
+<HEAD string="Book_view(book_description, book_label, book_id, title, subtitle)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="Book_view(Book_id)"/>
+<SQLQuery> SELECT b.book_description AS book_description, b.book_label AS book_label, b.book_id AS book_id, b.title AS title, b.subtitle AS subtitle FROM book_db.Book b </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M52_speaks">
+<role string=http://books/#speaks>
+<domainTemplate>http://books/DOM{DOM_id}</domainTemplate>
+<rangeTemplate>http://books/http://books/RANGE{RANGE_id}</rangeTemplate>
+</role>
+<HEAD string="speaks_view(language_id, translator_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M53_language_id">
+<attribute string=http://books/#speaks>
+<domainTemplate>http://books/speaks{speaks_id}</domainTemplate>
+<rangeVariable>language_id</rangeVariable> 
+</role>
+<HEAD string="speaks_view(language_id, translator_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M54_translator_id">
+<attribute string=http://books/#speaks>
+<domainTemplate>http://books/speaks{speaks_id}</domainTemplate>
+<rangeVariable>translator_id</rangeVariable> 
+</role>
+<HEAD string="speaks_view(language_id, translator_id)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="speaks_view(speaks_id)"/>
+<SQLQuery> SELECT s.language_id AS language_id, s.translator_id AS translator_id FROM book_db.speaks s </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M55_Character">
+<concept string=http://books/#Character>
+<template>http://books/character{character_id}</template>
+</concept>
+<HEAD string="Character_view(character_description, character_DoD, character_sex, character_DoB, character_id, character_label, character_name)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M56_character_description">
+<attribute string=http://books/#Character>
+<domainTemplate>http://books/character{character_id}</domainTemplate>
+<rangeVariable>character_description</rangeVariable> 
+</concept>
+<HEAD string="Character_view(character_description, character_DoD, character_sex, character_DoB, character_id, character_label, character_name)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M57_character_DoD">
+<attribute string=http://books/#Character>
+<domainTemplate>http://books/character{character_id}</domainTemplate>
+<rangeVariable>character_DoD</rangeVariable> 
+</concept>
+<HEAD string="Character_view(character_description, character_DoD, character_sex, character_DoB, character_id, character_label, character_name)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M58_character_sex">
+<attribute string=http://books/#Character>
+<domainTemplate>http://books/character{character_id}</domainTemplate>
+<rangeVariable>character_sex</rangeVariable> 
+</concept>
+<HEAD string="Character_view(character_description, character_DoD, character_sex, character_DoB, character_id, character_label, character_name)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M59_character_DoB">
+<attribute string=http://books/#Character>
+<domainTemplate>http://books/character{character_id}</domainTemplate>
+<rangeVariable>character_DoB</rangeVariable> 
+</concept>
+<HEAD string="Character_view(character_description, character_DoD, character_sex, character_DoB, character_id, character_label, character_name)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M60_character_id">
+<attribute string=http://books/#Character>
+<domainTemplate>http://books/character{character_id}</domainTemplate>
+<rangeVariable>character_id</rangeVariable> 
+</concept>
+<HEAD string="Character_view(character_description, character_DoD, character_sex, character_DoB, character_id, character_label, character_name)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M61_character_label">
+<attribute string=http://books/#Character>
+<domainTemplate>http://books/character{character_id}</domainTemplate>
+<rangeVariable>character_label</rangeVariable> 
+</concept>
+<HEAD string="Character_view(character_description, character_DoD, character_sex, character_DoB, character_id, character_label, character_name)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M62_character_name">
+<attribute string=http://books/#Character>
+<domainTemplate>http://books/character{character_id}</domainTemplate>
+<rangeVariable>character_name</rangeVariable> 
+</concept>
+<HEAD string="Character_view(character_description, character_DoD, character_sex, character_DoB, character_id, character_label, character_name)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="Character_view(Character_id)"/>
+<SQLQuery> SELECT c.character_description AS character_description, c.character_DoD AS character_DoD, c.character_sex AS character_sex, c.character_DoB AS character_DoB, c.character_id AS character_id, c.character_label AS character_label, c.character_name AS character_name FROM book_db.Character c </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M63_hasForewordAuthor">
+<role string=http://books/#hasForewordAuthor>
+<domainTemplate>http://books/DOM{DOM_id}</domainTemplate>
+<rangeTemplate>http://books/http://books/RANGE{RANGE_id}</rangeTemplate>
+</role>
+<HEAD string="hasForewordAuthor_view(book_id, author_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M64_book_id">
+<attribute string=http://books/#hasForewordAuthor>
+<domainTemplate>http://books/hasforewordauthor{hasforewordauthor_id}</domainTemplate>
+<rangeVariable>book_id</rangeVariable> 
+</role>
+<HEAD string="hasForewordAuthor_view(book_id, author_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M65_author_id">
+<attribute string=http://books/#hasForewordAuthor>
+<domainTemplate>http://books/hasforewordauthor{hasforewordauthor_id}</domainTemplate>
+<rangeVariable>author_id</rangeVariable> 
+</role>
+<HEAD string="hasForewordAuthor_view(book_id, author_id)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="hasForewordAuthor_view(hasForewordAuthor_id)"/>
+<SQLQuery> SELECT h.book_id AS book_id, h.author_id AS author_id FROM book_db.hasForewordAuthor h </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M66_Human">
+<concept string=http://books/#Human>
+<template>http://books/human{human_id}</template>
+</concept>
+<HEAD string="Human_view(sex, name, human_description, human_id, DoD, human_label, DoB)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M67_sex">
+<attribute string=http://books/#Human>
+<domainTemplate>http://books/human{human_id}</domainTemplate>
+<rangeVariable>sex</rangeVariable> 
+</concept>
+<HEAD string="Human_view(sex, name, human_description, human_id, DoD, human_label, DoB)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M68_name">
+<attribute string=http://books/#Human>
+<domainTemplate>http://books/human{human_id}</domainTemplate>
+<rangeVariable>name</rangeVariable> 
+</concept>
+<HEAD string="Human_view(sex, name, human_description, human_id, DoD, human_label, DoB)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M69_human_description">
+<attribute string=http://books/#Human>
+<domainTemplate>http://books/human{human_id}</domainTemplate>
+<rangeVariable>human_description</rangeVariable> 
+</concept>
+<HEAD string="Human_view(sex, name, human_description, human_id, DoD, human_label, DoB)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M70_human_id">
+<attribute string=http://books/#Human>
+<domainTemplate>http://books/human{human_id}</domainTemplate>
+<rangeVariable>human_id</rangeVariable> 
+</concept>
+<HEAD string="Human_view(sex, name, human_description, human_id, DoD, human_label, DoB)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M71_DoD">
+<attribute string=http://books/#Human>
+<domainTemplate>http://books/human{human_id}</domainTemplate>
+<rangeVariable>DoD</rangeVariable> 
+</concept>
+<HEAD string="Human_view(sex, name, human_description, human_id, DoD, human_label, DoB)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M72_human_label">
+<attribute string=http://books/#Human>
+<domainTemplate>http://books/human{human_id}</domainTemplate>
+<rangeVariable>human_label</rangeVariable> 
+</concept>
+<HEAD string="Human_view(sex, name, human_description, human_id, DoD, human_label, DoB)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M73_DoB">
+<attribute string=http://books/#Human>
+<domainTemplate>http://books/human{human_id}</domainTemplate>
+<rangeVariable>DoB</rangeVariable> 
+</concept>
+<HEAD string="Human_view(sex, name, human_description, human_id, DoD, human_label, DoB)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="Human_view(Human_id)"/>
+<SQLQuery> SELECT h.sex AS sex, h.name AS name, h.human_description AS human_description, h.human_id AS human_id, h.DoD AS DoD, h.human_label AS human_label, h.DoB AS DoB FROM book_db.Human h </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M74_hasCharacter">
+<role string=http://books/#hasCharacter>
+<domainTemplate>http://books/DOM{DOM_id}</domainTemplate>
+<rangeTemplate>http://books/http://books/RANGE{RANGE_id}</rangeTemplate>
+</role>
+<HEAD string="hasCharacter_view(character_id, book_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M75_character_id">
+<attribute string=http://books/#hasCharacter>
+<domainTemplate>http://books/hascharacter{hascharacter_id}</domainTemplate>
+<rangeVariable>character_id</rangeVariable> 
+</role>
+<HEAD string="hasCharacter_view(character_id, book_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M76_book_id">
+<attribute string=http://books/#hasCharacter>
+<domainTemplate>http://books/hascharacter{hascharacter_id}</domainTemplate>
+<rangeVariable>book_id</rangeVariable> 
+</role>
+<HEAD string="hasCharacter_view(character_id, book_id)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="hasCharacter_view(hasCharacter_id)"/>
+<SQLQuery> SELECT h.character_id AS character_id, h.book_id AS book_id FROM book_db.hasCharacter h </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M77_locatedIn">
+<role string=http://books/#locatedIn>
+<domainTemplate>http://books/DOM{DOM_id}</domainTemplate>
+<rangeTemplate>http://books/http://books/RANGE{RANGE_id}</rangeTemplate>
+</role>
+<HEAD string="locatedIn_view(publisher_id, country_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M78_publisher_id">
+<attribute string=http://books/#locatedIn>
+<domainTemplate>http://books/locatedin{locatedin_id}</domainTemplate>
+<rangeVariable>publisher_id</rangeVariable> 
+</role>
+<HEAD string="locatedIn_view(publisher_id, country_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M79_country_id">
+<attribute string=http://books/#locatedIn>
+<domainTemplate>http://books/locatedin{locatedin_id}</domainTemplate>
+<rangeVariable>country_id</rangeVariable> 
+</role>
+<HEAD string="locatedIn_view(publisher_id, country_id)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="locatedIn_view(locatedIn_id)"/>
+<SQLQuery> SELECT l.publisher_id AS publisher_id, l.country_id AS country_id FROM book_db.locatedIn l </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M80_FictionalCity">
+<concept string=http://books/#FictionalCity>
+<template>http://books/fictionalcity{fictionalcity_id}</template>
+</concept>
+<HEAD string="FictionalCity_vie)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="FictionalCity_view(FictionalCity_id)"/>
+<SQLQuery> SELEC FROM book_db.FictionalCity f </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M81_hasUsedLanguage">
+<role string=http://books/#hasUsedLanguage>
+<domainTemplate>http://books/DOM{DOM_id}</domainTemplate>
+<rangeTemplate>http://books/http://books/RANGE{RANGE_id}</rangeTemplate>
+</role>
+<HEAD string="hasUsedLanguage_view(language_id, country_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M82_language_id">
+<attribute string=http://books/#hasUsedLanguage>
+<domainTemplate>http://books/hasusedlanguage{hasusedlanguage_id}</domainTemplate>
+<rangeVariable>language_id</rangeVariable> 
+</role>
+<HEAD string="hasUsedLanguage_view(language_id, country_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M83_country_id">
+<attribute string=http://books/#hasUsedLanguage>
+<domainTemplate>http://books/hasusedlanguage{hasusedlanguage_id}</domainTemplate>
+<rangeVariable>country_id</rangeVariable> 
+</role>
+<HEAD string="hasUsedLanguage_view(language_id, country_id)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="hasUsedLanguage_view(hasUsedLanguage_id)"/>
+<SQLQuery> SELECT h.language_id AS language_id, h.country_id AS country_id FROM book_db.hasUsedLanguage h </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M84_RealCity">
+<concept string=http://books/#RealCity>
+<template>http://books/realcity{realcity_id}</template>
+</concept>
+<HEAD string="RealCity_view(area, population)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M85_area">
+<attribute string=http://books/#RealCity>
+<domainTemplate>http://books/realcity{realcity_id}</domainTemplate>
+<rangeVariable>area</rangeVariable> 
+</concept>
+<HEAD string="RealCity_view(area, population)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M86_population">
+<attribute string=http://books/#RealCity>
+<domainTemplate>http://books/realcity{realcity_id}</domainTemplate>
+<rangeVariable>population</rangeVariable> 
+</concept>
+<HEAD string="RealCity_view(area, population)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="RealCity_view(RealCity_id)"/>
+<SQLQuery> SELECT r.area AS area, r.population AS population FROM book_db.RealCity r </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M87_Award">
+<concept string=http://books/#Award>
+<template>http://books/award{award_id}</template>
+</concept>
+<HEAD string="Award_view(award_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M88_award_id">
+<attribute string=http://books/#Award>
+<domainTemplate>http://books/award{award_id}</domainTemplate>
+<rangeVariable>award_id</rangeVariable> 
+</concept>
+<HEAD string="Award_view(award_id)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="Award_view(Award_id)"/>
+<SQLQuery> SELECT a.award_id AS award_id FROM book_db.Award a </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M89_hasPublisher">
+<role string=http://books/#hasPublisher>
+<domainTemplate>http://books/DOM{DOM_id}</domainTemplate>
+<rangeTemplate>http://books/http://books/RANGE{RANGE_id}</rangeTemplate>
+</role>
+<HEAD string="hasPublisher_view(edition_id, publisher_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M90_edition_id">
+<attribute string=http://books/#hasPublisher>
+<domainTemplate>http://books/haspublisher{haspublisher_id}</domainTemplate>
+<rangeVariable>edition_id</rangeVariable> 
+</role>
+<HEAD string="hasPublisher_view(edition_id, publisher_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M91_publisher_id">
+<attribute string=http://books/#hasPublisher>
+<domainTemplate>http://books/haspublisher{haspublisher_id}</domainTemplate>
+<rangeVariable>publisher_id</rangeVariable> 
+</role>
+<HEAD string="hasPublisher_view(edition_id, publisher_id)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="hasPublisher_view(hasPublisher_id)"/>
+<SQLQuery> SELECT h.edition_id AS edition_id, h.publisher_id AS publisher_id FROM book_db.hasPublisher h </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M92_hasAuthor">
+<role string=http://books/#hasAuthor>
+<domainTemplate>http://books/DOM{DOM_id}</domainTemplate>
+<rangeTemplate>http://books/http://books/RANGE{RANGE_id}</rangeTemplate>
+</role>
+<HEAD string="hasAuthor_view(book_id, author_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M93_book_id">
+<attribute string=http://books/#hasAuthor>
+<domainTemplate>http://books/hasauthor{hasauthor_id}</domainTemplate>
+<rangeVariable>book_id</rangeVariable> 
+</role>
+<HEAD string="hasAuthor_view(book_id, author_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M94_author_id">
+<attribute string=http://books/#hasAuthor>
+<domainTemplate>http://books/hasauthor{hasauthor_id}</domainTemplate>
+<rangeVariable>author_id</rangeVariable> 
+</role>
+<HEAD string="hasAuthor_view(book_id, author_id)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="hasAuthor_view(hasAuthor_id)"/>
+<SQLQuery> SELECT h.book_id AS book_id, h.author_id AS author_id FROM book_db.hasAuthor h </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M95_Country">
+<concept string=http://books/#Country>
+<template>http://books/country{country_id}</template>
+</concept>
+<HEAD string="Country_view(country_description, country_label, country_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M96_country_description">
+<attribute string=http://books/#Country>
+<domainTemplate>http://books/country{country_id}</domainTemplate>
+<rangeVariable>country_description</rangeVariable> 
+</concept>
+<HEAD string="Country_view(country_description, country_label, country_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M97_country_label">
+<attribute string=http://books/#Country>
+<domainTemplate>http://books/country{country_id}</domainTemplate>
+<rangeVariable>country_label</rangeVariable> 
+</concept>
+<HEAD string="Country_view(country_description, country_label, country_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M98_country_id">
+<attribute string=http://books/#Country>
+<domainTemplate>http://books/country{country_id}</domainTemplate>
+<rangeVariable>country_id</rangeVariable> 
+</concept>
+<HEAD string="Country_view(country_description, country_label, country_id)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="Country_view(Country_id)"/>
+<SQLQuery> SELECT c.country_description AS country_description, c.country_label AS country_label, c.country_id AS country_id FROM book_db.Country c </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M99_Publisher">
+<concept string=http://books/#Publisher>
+<template>http://books/publisher{publisher_id}</template>
+</concept>
+<HEAD string="Publisher_view(inception, publisher_description, publisher_id, publisher_label)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M100_inception">
+<attribute string=http://books/#Publisher>
+<domainTemplate>http://books/publisher{publisher_id}</domainTemplate>
+<rangeVariable>inception</rangeVariable> 
+</concept>
+<HEAD string="Publisher_view(inception, publisher_description, publisher_id, publisher_label)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M101_publisher_description">
+<attribute string=http://books/#Publisher>
+<domainTemplate>http://books/publisher{publisher_id}</domainTemplate>
+<rangeVariable>publisher_description</rangeVariable> 
+</concept>
+<HEAD string="Publisher_view(inception, publisher_description, publisher_id, publisher_label)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M102_publisher_id">
+<attribute string=http://books/#Publisher>
+<domainTemplate>http://books/publisher{publisher_id}</domainTemplate>
+<rangeVariable>publisher_id</rangeVariable> 
+</concept>
+<HEAD string="Publisher_view(inception, publisher_description, publisher_id, publisher_label)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M103_publisher_label">
+<attribute string=http://books/#Publisher>
+<domainTemplate>http://books/publisher{publisher_id}</domainTemplate>
+<rangeVariable>publisher_label</rangeVariable> 
+</concept>
+<HEAD string="Publisher_view(inception, publisher_description, publisher_id, publisher_label)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="Publisher_view(Publisher_id)"/>
+<SQLQuery> SELECT p.inception AS inception, p.publisher_description AS publisher_description, p.publisher_id AS publisher_id, p.publisher_label AS publisher_label FROM book_db.Publisher p </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M104_hasRole">
+<role string=http://books/#hasRole>
+<domainTemplate>http://books/DOM{DOM_id}</domainTemplate>
+<rangeTemplate>http://books/http://books/RANGE{RANGE_id}</rangeTemplate>
+</role>
+<HEAD string="hasRole_view(mayor_id, human_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M105_mayor_id">
+<attribute string=http://books/#hasRole>
+<domainTemplate>http://books/hasrole{hasrole_id}</domainTemplate>
+<rangeVariable>mayor_id</rangeVariable> 
+</role>
+<HEAD string="hasRole_view(mayor_id, human_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M106_human_id">
+<attribute string=http://books/#hasRole>
+<domainTemplate>http://books/hasrole{hasrole_id}</domainTemplate>
+<rangeVariable>human_id</rangeVariable> 
+</role>
+<HEAD string="hasRole_view(mayor_id, human_id)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="hasRole_view(hasRole_id)"/>
+<SQLQuery> SELECT h.mayor_id AS mayor_id, h.human_id AS human_id FROM book_db.hasRole h </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M107_hasAfterwordAuthor">
+<role string=http://books/#hasAfterwordAuthor>
+<domainTemplate>http://books/DOM{DOM_id}</domainTemplate>
+<rangeTemplate>http://books/http://books/RANGE{RANGE_id}</rangeTemplate>
+</role>
+<HEAD string="hasAfterwordAuthor_view(book_id, author_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M108_book_id">
+<attribute string=http://books/#hasAfterwordAuthor>
+<domainTemplate>http://books/hasafterwordauthor{hasafterwordauthor_id}</domainTemplate>
+<rangeVariable>book_id</rangeVariable> 
+</role>
+<HEAD string="hasAfterwordAuthor_view(book_id, author_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M109_author_id">
+<attribute string=http://books/#hasAfterwordAuthor>
+<domainTemplate>http://books/hasafterwordauthor{hasafterwordauthor_id}</domainTemplate>
+<rangeVariable>author_id</rangeVariable> 
+</role>
+<HEAD string="hasAfterwordAuthor_view(book_id, author_id)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="hasAfterwordAuthor_view(hasAfterwordAuthor_id)"/>
+<SQLQuery> SELECT h.book_id AS book_id, h.author_id AS author_id FROM book_db.hasAfterwordAuthor h </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M110_City">
+<concept string=http://books/#City>
+<template>http://books/city{city_id}</template>
+</concept>
+<HEAD string="City_view(city_id, city_description, city_label)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M111_city_id">
+<attribute string=http://books/#City>
+<domainTemplate>http://books/city{city_id}</domainTemplate>
+<rangeVariable>city_id</rangeVariable> 
+</concept>
+<HEAD string="City_view(city_id, city_description, city_label)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M112_city_description">
+<attribute string=http://books/#City>
+<domainTemplate>http://books/city{city_id}</domainTemplate>
+<rangeVariable>city_description</rangeVariable> 
+</concept>
+<HEAD string="City_view(city_id, city_description, city_label)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M113_city_label">
+<attribute string=http://books/#City>
+<domainTemplate>http://books/city{city_id}</domainTemplate>
+<rangeVariable>city_label</rangeVariable> 
+</concept>
+<HEAD string="City_view(city_id, city_description, city_label)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="City_view(City_id)"/>
+<SQLQuery> SELECT c.city_id AS city_id, c.city_description AS city_description, c.city_label AS city_label FROM book_db.City c </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M114_FictionalCharacter">
+<concept string=http://books/#FictionalCharacter>
+<template>http://books/fictionalcharacter{fictionalcharacter_id}</template>
+</concept>
+<HEAD string="FictionalCharacter_vie)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="FictionalCharacter_view(FictionalCharacter_id)"/>
+<SQLQuery> SELEC FROM book_db.FictionalCharacter f </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M115_PlaceOfDeath">
+<role string=http://books/#PlaceOfDeath>
+<domainTemplate>http://books/DOM{DOM_id}</domainTemplate>
+<rangeTemplate>http://books/http://books/RANGE{RANGE_id}</rangeTemplate>
+</role>
+<HEAD string="PlaceOfDeath_view(realcity_id, human_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M116_realcity_id">
+<attribute string=http://books/#PlaceOfDeath>
+<domainTemplate>http://books/placeofdeath{placeofdeath_id}</domainTemplate>
+<rangeVariable>realcity_id</rangeVariable> 
+</role>
+<HEAD string="PlaceOfDeath_view(realcity_id, human_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M117_human_id">
+<attribute string=http://books/#PlaceOfDeath>
+<domainTemplate>http://books/placeofdeath{placeofdeath_id}</domainTemplate>
+<rangeVariable>human_id</rangeVariable> 
+</role>
+<HEAD string="PlaceOfDeath_view(realcity_id, human_id)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="PlaceOfDeath_view(PlaceOfDeath_id)"/>
+<SQLQuery> SELECT p.realcity_id AS realcity_id, p.human_id AS human_id FROM book_db.PlaceOfDeath p </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M118_followedBy">
+<role string=http://books/#followedBy>
+<domainTemplate>http://books/DOM{DOM_id}</domainTemplate>
+<rangeTemplate>http://books/http://books/RANGE{RANGE_id}</rangeTemplate>
+</role>
+<HEAD string="followedBy_view(book_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M119_book_id">
+<attribute string=http://books/#followedBy>
+<domainTemplate>http://books/followedby{followedby_id}</domainTemplate>
+<rangeVariable>book_id</rangeVariable> 
+</role>
+<HEAD string="followedBy_view(book_id)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="followedBy_view(followedBy_id)"/>
+<SQLQuery> SELECT f.book_id AS book_id FROM book_db.followedBy f </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M120_PlaceOfBirth">
+<role string=http://books/#PlaceOfBirth>
+<domainTemplate>http://books/DOM{DOM_id}</domainTemplate>
+<rangeTemplate>http://books/http://books/RANGE{RANGE_id}</rangeTemplate>
+</role>
+<HEAD string="PlaceOfBirth_view(realcity_id, human_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M121_realcity_id">
+<attribute string=http://books/#PlaceOfBirth>
+<domainTemplate>http://books/placeofbirth{placeofbirth_id}</domainTemplate>
+<rangeVariable>realcity_id</rangeVariable> 
+</role>
+<HEAD string="PlaceOfBirth_view(realcity_id, human_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M122_human_id">
+<attribute string=http://books/#PlaceOfBirth>
+<domainTemplate>http://books/placeofbirth{placeofbirth_id}</domainTemplate>
+<rangeVariable>human_id</rangeVariable> 
+</role>
+<HEAD string="PlaceOfBirth_view(realcity_id, human_id)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="PlaceOfBirth_view(PlaceOfBirth_id)"/>
+<SQLQuery> SELECT p.realcity_id AS realcity_id, p.human_id AS human_id FROM book_db.PlaceOfBirth p </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M123_hasTranslator">
+<role string=http://books/#hasTranslator>
+<domainTemplate>http://books/DOM{DOM_id}</domainTemplate>
+<rangeTemplate>http://books/http://books/RANGE{RANGE_id}</rangeTemplate>
+</role>
+<HEAD string="hasTranslator_view(edition_id, translator_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M124_edition_id">
+<attribute string=http://books/#hasTranslator>
+<domainTemplate>http://books/hastranslator{hastranslator_id}</domainTemplate>
+<rangeVariable>edition_id</rangeVariable> 
+</role>
+<HEAD string="hasTranslator_view(edition_id, translator_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M125_translator_id">
+<attribute string=http://books/#hasTranslator>
+<domainTemplate>http://books/hastranslator{hastranslator_id}</domainTemplate>
+<rangeVariable>translator_id</rangeVariable> 
+</role>
+<HEAD string="hasTranslator_view(edition_id, translator_id)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="hasTranslator_view(hasTranslator_id)"/>
+<SQLQuery> SELECT h.edition_id AS edition_id, h.translator_id AS translator_id FROM book_db.hasTranslator h </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M126_hasCountry">
+<role string=http://books/#hasCountry>
+<domainTemplate>http://books/DOM{DOM_id}</domainTemplate>
+<rangeTemplate>http://books/http://books/RANGE{RANGE_id}</rangeTemplate>
+</role>
+<HEAD string="hasCountry_view(realcity_id, country_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M127_realcity_id">
+<attribute string=http://books/#hasCountry>
+<domainTemplate>http://books/hascountry{hascountry_id}</domainTemplate>
+<rangeVariable>realcity_id</rangeVariable> 
+</role>
+<HEAD string="hasCountry_view(realcity_id, country_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M128_country_id">
+<attribute string=http://books/#hasCountry>
+<domainTemplate>http://books/hascountry{hascountry_id}</domainTemplate>
+<rangeVariable>country_id</rangeVariable> 
+</role>
+<HEAD string="hasCountry_view(realcity_id, country_id)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="hasCountry_view(hasCountry_id)"/>
+<SQLQuery> SELECT h.realcity_id AS realcity_id, h.country_id AS country_id FROM book_db.hasCountry h </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M129_hasCountryLocation">
+<role string=http://books/#hasCountryLocation>
+<domainTemplate>http://books/DOM{DOM_id}</domainTemplate>
+<rangeTemplate>http://books/http://books/RANGE{RANGE_id}</rangeTemplate>
+</role>
+<HEAD string="hasCountryLocation_view(book_id, country_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M130_book_id">
+<attribute string=http://books/#hasCountryLocation>
+<domainTemplate>http://books/hascountrylocation{hascountrylocation_id}</domainTemplate>
+<rangeVariable>book_id</rangeVariable> 
+</role>
+<HEAD string="hasCountryLocation_view(book_id, country_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M131_country_id">
+<attribute string=http://books/#hasCountryLocation>
+<domainTemplate>http://books/hascountrylocation{hascountrylocation_id}</domainTemplate>
+<rangeVariable>country_id</rangeVariable> 
+</role>
+<HEAD string="hasCountryLocation_view(book_id, country_id)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="hasCountryLocation_view(hasCountryLocation_id)"/>
+<SQLQuery> SELECT h.book_id AS book_id, h.country_id AS country_id FROM book_db.hasCountryLocation h </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M132_Author_Genre">
+<concept string=http://books/#Author_Genre>
+<template>http://books/author_genre{author_genre_id}</template>
+</concept>
+<HEAD string="Author_Genre_view(author_genre_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M133_author_genre_id">
+<attribute string=http://books/#Author_Genre>
+<domainTemplate>http://books/author_genre{author_genre_id}</domainTemplate>
+<rangeVariable>author_genre_id</rangeVariable> 
+</concept>
+<HEAD string="Author_Genre_view(author_genre_id)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="Author_Genre_view(Author_Genre_id)"/>
+<SQLQuery> SELECT a.author_genre_id AS author_genre_id FROM book_db.Author_Genre a </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M134_InfluencedBy">
+<role string=http://books/#InfluencedBy>
+<domainTemplate>http://books/DOM{DOM_id}</domainTemplate>
+<rangeTemplate>http://books/http://books/RANGE{RANGE_id}</rangeTemplate>
+</role>
+<HEAD string="InfluencedBy_view(author_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M135_author_id">
+<attribute string=http://books/#InfluencedBy>
+<domainTemplate>http://books/influencedby{influencedby_id}</domainTemplate>
+<rangeVariable>author_id</rangeVariable> 
+</role>
+<HEAD string="InfluencedBy_view(author_id)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="InfluencedBy_view(InfluencedBy_id)"/>
+<SQLQuery> SELECT i.author_id AS author_id FROM book_db.InfluencedBy i </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M136_hasIllustrator">
+<role string=http://books/#hasIllustrator>
+<domainTemplate>http://books/DOM{DOM_id}</domainTemplate>
+<rangeTemplate>http://books/http://books/RANGE{RANGE_id}</rangeTemplate>
+</role>
+<HEAD string="hasIllustrator_view(edition_id, human_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M137_edition_id">
+<attribute string=http://books/#hasIllustrator>
+<domainTemplate>http://books/hasillustrator{hasillustrator_id}</domainTemplate>
+<rangeVariable>edition_id</rangeVariable> 
+</role>
+<HEAD string="hasIllustrator_view(edition_id, human_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M138_human_id">
+<attribute string=http://books/#hasIllustrator>
+<domainTemplate>http://books/hasillustrator{hasillustrator_id}</domainTemplate>
+<rangeVariable>human_id</rangeVariable> 
+</role>
+<HEAD string="hasIllustrator_view(edition_id, human_id)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="hasIllustrator_view(hasIllustrator_id)"/>
+<SQLQuery> SELECT h.edition_id AS edition_id, h.human_id AS human_id FROM book_db.hasIllustrator h </SQLQuery>
+</primitiveView>
+
+<ontologyPredicateMapping id="M139_hasAnalog">
+<role string=http://books/#hasAnalog>
+<domainTemplate>http://books/DOM{DOM_id}</domainTemplate>
+<rangeTemplate>http://books/http://books/RANGE{RANGE_id}</rangeTemplate>
+</role>
+<HEAD string="hasAnalog_view(fictionalcity_id, realcity_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M140_fictionalcity_id">
+<attribute string=http://books/#hasAnalog>
+<domainTemplate>http://books/hasanalog{hasanalog_id}</domainTemplate>
+<rangeVariable>fictionalcity_id</rangeVariable> 
+</role>
+<HEAD string="hasAnalog_view(fictionalcity_id, realcity_id)"/>
+</ontologyPredicateMapping>
+
+<ontologyPredicateMapping id="M141_realcity_id">
+<attribute string=http://books/#hasAnalog>
+<domainTemplate>http://books/hasanalog{hasanalog_id}</domainTemplate>
+<rangeVariable>realcity_id</rangeVariable> 
+</role>
+<HEAD string="hasAnalog_view(fictionalcity_id, realcity_id)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="hasAnalog_view(hasAnalog_id)"/>
+<SQLQuery> SELECT h.fictionalcity_id AS fictionalcity_id, h.realcity_id AS realcity_id FROM book_db.hasAnalog h </SQLQuery>
+</primitiveView>
+
+</mappings>
+<blocks/>
+<constraints/>
+</OBDA>
