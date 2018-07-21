@@ -1,5 +1,7 @@
 import time
 import math
+
+import sys
 from SPARQLWrapper import SPARQLWrapper, JSON
 import threading
 from threading import Thread
@@ -238,12 +240,15 @@ humans = set([x.strip().split(";")[0] for x in has_role_file.readlines()[1:]])
 human_characters_file = open("../tmp/human_character.txt", 'r')
 has_illustrator_file_path = "../roles/hasIllustrator.txt"
 has_illustrator_file = open(has_illustrator_file_path, 'r')
-illustrators = set([x.strip().split(';')[1] for x in has_illustrator_file])
+illustrators = set([x.strip().split(';')[1] for x in has_illustrator_file.readlines()[1:]])
 humans = humans.union(illustrators)
 humans = list(humans.union(set([x.strip() for x in human_characters_file.readlines()[1:]]).difference(processed_humans)).difference(processed_humans))
 human_characters_file.close()
 has_role_file.close()
 has_illustrator_file.close()
+
+if len(humans)==0:
+    sys.exit(1)
 
 # OPENING OUTPUT FILES
 humans_file = open(humans_file_path, 'a')
@@ -310,3 +315,5 @@ for i in range(len(statistics)):
 
 log_file.write("Total_time:\t" + str(round(total_time, 2)) + " sec" + "\n")
 log_file.close()
+
+sys.exit(0)

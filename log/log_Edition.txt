@@ -1,12 +1,13 @@
-Number of results: 238
+2018-07-21 10:25:18
+
+Number of results: 169
 
 
 *** STATISTICS *** 
-no title        :145  (61.0 %) 
-no label        :41  (17.0 %) 
+no title        :0  (0.0 %) 
+no label        :21  (12.0 %) 
 no description  :0  (0.0 %) 
-no subtitle     :221  (93.0 %) 
-no tra          :151  (63.0 %) 
-no original     :13  (5.0 %) 
-no first line   :236  (99.0 %) 
-Total_time:	6.82 sec
+no translator   :123  (73.0 %) 
+no publisher    :113  (67.0 %) 
+no illustrator  :168  (99.0 %) 
+Total_time:	15.74 sec

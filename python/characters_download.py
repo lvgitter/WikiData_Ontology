@@ -1,5 +1,7 @@
 import time
 import math
+
+import sys
 from SPARQLWrapper import SPARQLWrapper, JSON
 import threading
 from threading import Thread
@@ -67,8 +69,9 @@ class CharacterDownloadThread(threading.Thread):
                     response = requests.get(url)  # timeout
                     data = response.json()
                 except:
-                    print("EXCEPTION " + url)
                     time.sleep(0.5)
+                    if i==3:
+                        print("EXCEPTION " + url)
                     continue
 
             # LABEL
@@ -119,7 +122,6 @@ class CharacterDownloadThread(threading.Thread):
             try:
                 DoB = data['entities'][character]["claims"]["P569"][0]["mainsnak"]["datavalue"]["value"]["time"]
             except:
-                print("bad date character: " + character)
                 self.local_statistics[index("no DoB")] += 1
 
             # DoD
@@ -133,14 +135,14 @@ class CharacterDownloadThread(threading.Thread):
 
             if ("P31" in data['entities'][character]["claims"]):
                 for instance_of in \
-                data['entities'][character]["claims"]["P31"][0]["mainsnak"]["datavalue"]["value"]["id"]:
-                    if instance_of == "Q15632617":
+                data['entities'][character]["claims"]["P31"]:
+                    if instance_of["mainsnak"]["datavalue"]["value"]["id"] == "Q15632617":
                         fictional_human_lock.acquire()
                         fictional_human_file.write(str(
                 character) + ";" + label + ";" + description + ";" + name + ";" + sex + ";" + DoB + ";" + DoD + "\n")
                         fictional_human_lock.release()
                         self.local_statistics[index("fictionalHuman")] += 1
-                    elif instance_of == "Q5":
+                    elif instance_of["mainsnak"]["datavalue"]["value"]["id"] == "Q5":
                         human_characters_lock.acquire()
                         human_character_file.write(character+"\n")
                         human_characters_lock.release()
@@ -181,9 +183,12 @@ processed_characters_file = open(processed_characters_file_path, 'r')
 processed_characters = [x.strip() for x in processed_characters_file.readlines()[1:]]
 characters_file_path = "../roles/hasCharacter.txt"
 characters_file = open(characters_file_path, 'r')
-characters = list(set([x.split(';')[1] for x in characters_file.readlines()[1:]]).difference(processed_characters))
+characters = list(set([x.strip().split(';')[1] for x in characters_file.readlines()[1:]]).difference(processed_characters))
 processed_characters_file.close()
 characters_file.close()
+
+if len(characters)==0:
+    sys.exit(1)
 
 # OPENING OUTPUT FILES
 fictional_human_file = open(fictional_human_file_path, 'a')
@@ -237,3 +242,5 @@ for i in range(len(statistics)):
 
 log_file.write("Total_time:\t" + str(round(total_time, 2)) + " sec" + "\n")
 log_file.close()
+
+sys.exit(0)

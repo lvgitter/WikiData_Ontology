@@ -1,0 +1,4 @@
+book_id;followed_book_id
+Q28306;Q2712708
+Q11678;Q837140
+Q721;Q1042294

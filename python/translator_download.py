@@ -1,5 +1,7 @@
 import time
 import math
+
+import sys
 from SPARQLWrapper import SPARQLWrapper, JSON
 import threading
 from threading import Thread
@@ -128,7 +130,6 @@ class TranslatorDownloadThread(threading.Thread):
             try:
                 DoB = data['entities'][translator]["claims"]["P569"][0]["mainsnak"]["datavalue"]["value"]["time"]
             except:
-                print("bad date translator: " + translator)
                 self.local_statistics[index("no DoB")] += 1
 
             # DoD
@@ -238,14 +239,17 @@ statistics = [0 for x in range(LEN_INDEX)]
 occupations_dict = load_obj("occupations") # occupation wikidata id to label
 
 # RETRIEVING ALL TRANSLATORS WIKIDATA IDs
-processed_translators_file_path = "../processed/processedTranslator.txt"
+processed_translators_file_path = "../processed/processedTranslators.txt"
 processed_translators_file = open(processed_translators_file_path, 'r')
 processed_translators = set([x.strip() for x in processed_translators_file.readlines()[1:]])
 translators_id_file = open(translators_id_file_path, 'r')
-translators = set([x.split(';')[0] for x in translators_id_file.readlines()[1:]]) # CHECK IF IT IS RIGHT IN THE FIRST POSITION
+translators = set([x.strip().split(';')[0] for x in translators_id_file.readlines()[1:]]) # CHECK IF IT IS RIGHT IN THE FIRST POSITION
 translators = list(translators.difference(processed_translators))
 translators_id_file.close()
 processed_translators_file.close()
+
+if len(translators)==0:
+    sys.exit(1)
 
 # OPENING OUTPUT FILES
 translators_file = open(translators_file_path, 'a')
@@ -306,3 +310,5 @@ for i in range(len(statistics)):
 
 log_file.write("Total_time:\t" + str(round(total_time, 2)) + " sec" + "\n")
 log_file.close()
+
+sys.exit(0)

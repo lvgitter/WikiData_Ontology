@@ -1,5 +1,7 @@
 import time
 import math
+
+import sys
 from SPARQLWrapper import SPARQLWrapper, JSON
 import threading
 from threading import Thread
@@ -133,18 +135,21 @@ file_langs_path = "../roles/hasUsedLanguage.txt"
 statistics = [0 for x in range(LEN_INDEX)]
 
 #RETRIEVING ALL PUBLISHERs WIKIDATA IDs and QUERY THEM
-has_location_file_path = "../roles/hasLocation.txt"
-has_location_file = open(has_location_file_path, 'r')
+has_country_location_file_path = "../roles/hasCountryLocation.txt"
+has_country_location_file = open(has_country_location_file_path, 'r')
 located_in_file_path = "../roles/locatedIn.txt"
 located_in_file = open(located_in_file_path, 'r')
 processed_countries_file_path = "../processed/processedCountries.txt"
 processed_countries_file = open(processed_countries_file_path, 'r')
 processed_countries = [x.strip() for x in processed_countries_file.readlines()[1:]]
-countries = set([x.split(';')[1] for x in has_location_file.readlines()[1:]])
-countries = list(set([x.split(';')[1] for x in located_in_file.readlines()[1:]]).union(countries).difference(processed_countries))
-has_location_file.close()
+countries = set([x.strip().split(';')[1] for x in has_country_location_file.readlines()[1:]])
+countries = list(set([x.strip().split(';')[1] for x in located_in_file.readlines()[1:]]).union(countries).difference(processed_countries))
+has_country_location_file.close()
 located_in_file.close()
 processed_countries_file.close()
+
+if len(countries)==0:
+    sys.exit(1)
 
 #SAVING TO FILE
 file_log = open(file_log_path, 'a')
@@ -199,3 +204,5 @@ for i in range(len(statistics)):
 
 file_log.write("Total_time:\t"+str(round(total_time,2))+" sec" + "\n")
 file_log.close()
+
+sys.exit(0)

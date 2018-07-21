@@ -1,5 +1,7 @@
 import time
 import math
+
+import sys
 from SPARQLWrapper import SPARQLWrapper, JSON
 import threading
 from threading import Thread
@@ -188,12 +190,13 @@ PoD = set([x.strip().split(";")[1] for x in place_of_death_file.readlines()[1:]]
 locations = set([x.strip().split(";")[1] for x in place_of_death_file.readlines()[1:] if x.strip().split(";")[2] == 'r'])
 processed_cities = set([x.strip() for x in processed_cities_file.readlines()[1:]])
 cities = list(PoB.union(PoD).union(locations).difference(processed_cities))
-
 place_of_birth_file.close()
 place_of_death_file.close()
 has_city_location_file.close()
 processed_cities_file.close()
 
+if len(cities)==0:
+    sys.exit(1)
 
 #FILES OUTPUT PATH
 file_real_city_path = "../concepts/RealCity.txt"
@@ -263,6 +266,7 @@ file_log.write("\n\n*** STATISTICS *** \n")
 for i in range(len(statistics)):
     file_log.write(label(i).ljust(16)+":"+str(statistics[i])+"  ("+str(round(statistics[i]/n_results,2)*100)+" %) \n")
 
-
 file_log.write("Total_time:\t"+str(round(total_time,2))+" sec" + "\n")
 file_log.close()
+
+sys.exit(0)

@@ -1,5 +1,7 @@
 import time
 import math
+
+import sys
 from SPARQLWrapper import SPARQLWrapper, JSON
 import threading
 from threading import Thread
@@ -142,9 +144,12 @@ processed_publishers_file_path = "../processed/processedPublishers.txt"
 has_publisher_file = open(has_publisher_file_path, "r")
 processed_publishers_file = open(processed_publishers_file_path, 'r')
 processed_publishers = [x.strip() for x in processed_publishers_file.readlines()[1:]]
-publishers = list(set([x.split(';')[1] for x in has_publisher_file.readlines()[1:]]).difference(processed_publishers))
+publishers = list(set([x.strip().split(';')[1] for x in has_publisher_file.readlines()[1:]]).difference(processed_publishers))
 has_publisher_file.close()
 processed_publishers_file.close()
+
+if len(publishers)==0:
+    sys.exit(1)
 
 #SAVING TO FILE
 file_log = open(file_log_path, 'a')
@@ -199,3 +204,5 @@ for i in range(len(statistics)):
 
 file_log.write("Total_time:\t"+str(round(total_time,2))+" sec" + "\n")
 file_log.close()
+
+sys.exit(0)

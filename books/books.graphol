@@ -48,16 +48,16 @@
         <nodes>
           <node node_value="AttributeNode:bo:title:n144"/>
           <node node_value="ConceptNode:bo:Edition:n82"/>
-          <node node_value="AttributeNode:bo:name:n269"/>
+          <node node_value="AttributeNode:bo:human_name:n269"/>
           <node node_value="AttributeNode:bo:book_id:n312"/>
           <node node_value="RoleNode:bo:hasEdition:n155"/>
           <node node_value="AttributeNode:bo:character_label:n180"/>
           <node node_value="AttributeNode:bo:author_label:n207"/>
           <node node_value="AttributeNode:bo:character_name:n375"/>
-          <node node_value="AttributeNode:bo:sex:n268"/>
+          <node node_value="AttributeNode:bo:human_sex:n268"/>
           <node node_value="RoleNode:bo:hasUsedLanguage:n73"/>
           <node node_value="RoleNode:bo:hasCountry:n30"/>
-          <node node_value="AttributeNode:bo:DoD:n271"/>
+          <node node_value="AttributeNode:bo:human_DoD:n271"/>
           <node node_value="RoleNode:bo:hasMayor:n35"/>
           <node node_value="RoleNode:bo:InfluencedBy:n26"/>
           <node node_value="RoleNode:bo:hasIllustrator:n76"/>
@@ -78,6 +78,7 @@
           <node node_value="AttributeNode:bo:human_id:n331"/>
           <node node_value="AttributeNode:bo:country_description:n192"/>
           <node node_value="ConceptNode:bo:FictionalCity:n100"/>
+          <node node_value="AttributeNode:bo:occupation:n386"/>
           <node node_value="RoleNode:bo:hasForewordAuthor:n62"/>
           <node node_value="ConceptNode:bo:Character:n52"/>
           <node node_value="RoleNode:bo:hasCityLocation:n65"/>
@@ -85,14 +86,14 @@
           <node node_value="RangeRestrictionNode:n109"/>
           <node node_value="ConceptNode:bo:Translator:n87"/>
           <node node_value="RoleNode:bo:foundedBy:n43"/>
-          <node node_value="AttributeNode:bo:area:n354"/>
-          <node node_value="RoleNode:bo:BookWrittenIn:n69"/>
+          <node node_value="AttributeNode:bo:realCity_area:n354"/>
+          <node node_value="RoleNode:bo:writtenIn:n69"/>
           <node node_value="ConceptNode:bo:Author:n16"/>
           <node node_value="AttributeNode:bo:country_label:n187"/>
           <node node_value="RoleNode:bo:followedBy:n53"/>
           <node node_value="AttributeNode:bo:edition_description:n178"/>
           <node node_value="AttributeNode:bo:mayor_description:n199"/>
-          <node node_value="AttributeNode:bo:population:n356"/>
+          <node node_value="AttributeNode:bo:realCity_population:n356"/>
           <node node_value="ConceptNode:bo:Publisher:n41"/>
           <node node_value="ConceptNode:bo:Human:n34"/>
           <node node_value="AttributeNode:bo:language_id:n343"/>
@@ -105,7 +106,7 @@
           <node node_value="AttributeNode:bo:character_sex:n374"/>
           <node node_value="AttributeNode:bo:mayor_label:n194"/>
           <node node_value="AttributeNode:bo:country_id:n325"/>
-          <node node_value="AttributeNode:bo:area:n362"/>
+          <node node_value="AttributeNode:bo:country_area:n362"/>
           <node node_value="ConceptNode:bo:Mayor:n36"/>
           <node node_value="AttributeNode:bo:character_DoD:n377"/>
           <node node_value="AttributeNode:bo:edition_id:n340"/>
@@ -132,14 +133,14 @@
           <node node_value="AttributeNode:bo:book_label:n161"/>
           <node node_value="AttributeNode:bo:human_label:n246"/>
           <node node_value="AttributeNode:bo:publisher_id:n318"/>
-          <node node_value="AttributeNode:bo:DoB:n270"/>
+          <node node_value="AttributeNode:bo:human_DoB:n270"/>
           <node node_value="AttributeNode:bo:start_time:n280"/>
           <node node_value="RoleNode:bo:PlaceOfDeath:n112"/>
           <node node_value="AttributeNode:bo:num_speakers:n368"/>
           <node node_value="RoleNode:bo:hasRole:n114"/>
           <node node_value="AttributeNode:bo:author_genre:n289"/>
           <node node_value="RoleNode:bo:PlaceOfBirth:n113"/>
-          <node node_value="AttributeNode:bo:population:n363"/>
+          <node node_value="AttributeNode:bo:country_population:n363"/>
         </nodes>
         <properties>
           <property property_value="Project_IRI"/>
@@ -153,6 +154,10 @@
       <functional>1</functional>
     </predicate>
     <predicate type="attribute" name="bo:language_description">
+      <description></description>
+      <functional>1</functional>
+    </predicate>
+    <predicate type="attribute" name="bo:human_DoB">
       <description></description>
       <functional>1</functional>
     </predicate>
@@ -200,7 +205,11 @@
       <description></description>
       <functional>1</functional>
     </predicate>
-    <predicate type="attribute" name="bo:sex">
+    <predicate type="attribute" name="bo:human_DoD">
+      <description></description>
+      <functional>1</functional>
+    </predicate>
+    <predicate type="attribute" name="bo:realCity_area">
       <description></description>
       <functional>1</functional>
     </predicate>
@@ -228,6 +237,10 @@
       <description></description>
       <functional>1</functional>
     </predicate>
+    <predicate type="attribute" name="bo:country_population">
+      <description></description>
+      <functional>1</functional>
+    </predicate>
     <predicate type="attribute" name="bo:book_label">
       <description></description>
       <functional>1</functional>
@@ -248,10 +261,6 @@
       <description></description>
       <functional>1</functional>
     </predicate>
-    <predicate type="attribute" name="bo:DoB">
-      <description></description>
-      <functional>1</functional>
-    </predicate>
     <predicate type="attribute" name="bo:language_id">
       <description></description>
       <functional>1</functional>
@@ -260,11 +269,15 @@
       <description></description>
       <functional>1</functional>
     </predicate>
+    <predicate type="attribute" name="bo:realCity_population">
+      <description></description>
+      <functional>1</functional>
+    </predicate>
     <predicate type="attribute" name="bo:publisher_id">
       <description></description>
       <functional>1</functional>
     </predicate>
-    <predicate type="attribute" name="bo:DoD">
+    <predicate type="attribute" name="bo:country_area">
       <description></description>
       <functional>1</functional>
     </predicate>
@@ -276,7 +289,7 @@
       <description></description>
       <functional>1</functional>
     </predicate>
-    <predicate type="attribute" name="bo:area">
+    <predicate type="attribute" name="bo:human_sex">
       <description></description>
       <functional>1</functional>
     </predicate>
@@ -304,6 +317,10 @@
       <description></description>
       <functional>1</functional>
     </predicate>
+    <predicate type="attribute" name="bo:human_name">
+      <description></description>
+      <functional>1</functional>
+    </predicate>
     <predicate type="attribute" name="bo:language_label">
       <description></description>
       <functional>1</functional>
@@ -324,19 +341,11 @@
       <description></description>
       <functional>1</functional>
     </predicate>
-    <predicate type="attribute" name="bo:name">
-      <description></description>
-      <functional>1</functional>
-    </predicate>
     <predicate type="attribute" name="bo:author_description">
       <description></description>
       <functional>1</functional>
     </predicate>
     <predicate type="attribute" name="bo:translator_description">
-      <description></description>
-      <functional>1</functional>
-    </predicate>
-    <predicate type="attribute" name="bo:population">
       <description></description>
       <functional>1</functional>
     </predicate>
@@ -451,9 +460,9 @@
         <geometry height="20" x="40" y="320" width="20"/>
         <label height="23" x="40" y="298" width="66">bo:book_id</label>
       </node>
-      <node type="attribute" color="#fcfcfc" id="n269" remaining_characters="name">
+      <node type="attribute" color="#fcfcfc" id="n269" remaining_characters="human_name">
         <geometry height="20" x="-1780" y="90" width="20"/>
-        <label height="23" x="-1780" y="68" width="54">bo:name</label>
+        <label height="23" x="-1780" y="68" width="96">bo:human_name</label>
       </node>
       <node type="range-restriction" color="#000000" id="n371">
         <geometry height="20" x="540" y="530" width="20"/>
@@ -471,9 +480,9 @@
         <geometry height="20" x="-60" y="-880" width="20"/>
         <label height="23" x="-60" y="-902" width="39">exists</label>
       </node>
-      <node type="attribute" color="#fcfcfc" id="n271" remaining_characters="DoD">
+      <node type="attribute" color="#fcfcfc" id="n271" remaining_characters="human_DoD">
         <geometry height="20" x="-1780" y="220" width="20"/>
-        <label height="23" x="-1780" y="198" width="47">bo:DoD</label>
+        <label height="23" x="-1780" y="198" width="89">bo:human_DoD</label>
       </node>
       <node type="domain-restriction" color="#fcfcfc" id="n131">
         <geometry height="20" x="340" y="-710" width="20"/>
@@ -591,9 +600,9 @@
         <geometry height="20" x="-510" y="420" width="20"/>
         <label height="23" x="-510" y="398" width="39">exists</label>
       </node>
-      <node type="attribute" color="#fcfcfc" id="n354" remaining_characters="area">
+      <node type="attribute" color="#fcfcfc" id="n354" remaining_characters="realCity_area">
         <geometry height="20" x="-480" y="600" width="20"/>
-        <label height="23" x="-480" y="578" width="47">bo:area</label>
+        <label height="23" x="-480" y="578" width="93">bo:realCity_area</label>
       </node>
       <node type="value-domain" color="#fcfcfc" id="n172">
         <geometry height="40" x="1500" y="-40" width="90"/>
@@ -603,9 +612,9 @@
         <geometry height="20" x="730" y="1200" width="20"/>
         <label height="23" x="730" y="1178" width="39">exists</label>
       </node>
-      <node type="role" color="#fcfcfc" id="n69" remaining_characters="BookWrittenIn">
+      <node type="role" color="#fcfcfc" id="n69" remaining_characters="writtenIn">
         <geometry height="55" x="340" y="-800" width="95"/>
-        <label height="23" x="340" y="-800" width="99">bo:BookWrittenIn</label>
+        <label height="23" x="340" y="-800" width="71">bo:writtenIn</label>
       </node>
       <node type="domain-restriction" color="#fcfcfc" id="n308">
         <geometry height="20" x="140" y="580" width="20"/>
@@ -842,9 +851,9 @@
         <geometry height="20" x="-270" y="650" width="20"/>
         <label height="23" x="-270" y="628" width="39">exists</label>
       </node>
-      <node type="attribute" color="#fcfcfc" id="n270" remaining_characters="DoB">
+      <node type="attribute" color="#fcfcfc" id="n270" remaining_characters="human_DoB">
         <geometry height="20" x="-1780" y="150" width="20"/>
-        <label height="23" x="-1780" y="128" width="46">bo:DoB</label>
+        <label height="23" x="-1780" y="128" width="88">bo:human_DoB</label>
       </node>
       <node type="domain-restriction" color="#fcfcfc" id="n122">
         <geometry height="20" x="10" y="100" width="20"/>
@@ -921,9 +930,9 @@
       <node type="disjoint-union" color="#000000" id="n121">
         <geometry height="30" x="90" y="1240" width="50"/>
       </node>
-      <node type="attribute" color="#fcfcfc" id="n268" remaining_characters="sex">
+      <node type="attribute" color="#fcfcfc" id="n268" remaining_characters="human_sex">
         <geometry height="20" x="-1780" y="20" width="20"/>
-        <label height="23" x="-1780" y="-2" width="42">bo:sex</label>
+        <label height="23" x="-1780" y="-2" width="85">bo:human_sex</label>
       </node>
       <node type="range-restriction" color="#000000" id="n249">
         <geometry height="20" x="-1850" y="-40" width="20"/>
@@ -1053,6 +1062,10 @@
         <geometry height="40" x="1200" y="-630" width="90"/>
         <label height="23" x="1200" y="-630" width="60">xsd:string</label>
       </node>
+      <node type="attribute" color="#fcfcfc" id="n386" remaining_characters="occupation">
+        <geometry height="20" x="-1780" y="280" width="20"/>
+        <label height="23" x="-1780" y="258" width="83">bo:occupation</label>
+      </node>
       <node type="range-restriction" color="#000000" id="n60">
         <geometry height="20" x="-420" y="-540" width="20"/>
         <label height="23" x="-420" y="-562" width="39">exists</label>
@@ -1153,9 +1166,13 @@
         <geometry height="20" x="-1180" y="700" width="20"/>
         <label height="23" x="-1180" y="678" width="39">exists</label>
       </node>
-      <node type="attribute" color="#fcfcfc" id="n356" remaining_characters="population">
+      <node type="attribute" color="#fcfcfc" id="n356" remaining_characters="realCity_population">
         <geometry height="20" x="-480" y="550" width="20"/>
-        <label height="23" x="-480" y="528" width="81">bo:population</label>
+        <label height="23" x="-480" y="528" width="126">bo:realCity_population</label>
+      </node>
+      <node type="domain-restriction" color="#fcfcfc" id="n387">
+        <geometry height="20" x="-1700" y="280" width="20"/>
+        <label height="23" x="-1700" y="258" width="39">exists</label>
       </node>
       <node type="domain-restriction" color="#fcfcfc" id="n275">
         <geometry height="20" x="-1720" y="220" width="20"/>
@@ -1205,6 +1222,10 @@
         <geometry height="20" x="-280" y="30" width="20"/>
         <label height="23" x="-280" y="8" width="39">exists</label>
       </node>
+      <node type="range-restriction" color="#000000" id="n388">
+        <geometry height="20" x="-1850" y="280" width="20"/>
+        <label height="23" x="-1850" y="258" width="39">exists</label>
+      </node>
       <node type="range-restriction" color="#000000" id="n71">
         <geometry height="20" x="210" y="-800" width="20"/>
         <label height="23" x="210" y="-822" width="39">exists</label>
@@ -1229,9 +1250,9 @@
         <geometry height="20" x="-470" y="950" width="20"/>
         <label height="23" x="-470" y="928" width="39">exists</label>
       </node>
-      <node type="attribute" color="#fcfcfc" id="n362" remaining_characters="area">
+      <node type="attribute" color="#fcfcfc" id="n362" remaining_characters="country_area">
         <geometry height="20" x="-540" y="970" width="20"/>
-        <label height="23" x="-540" y="948" width="47">bo:area</label>
+        <label height="23" x="-540" y="948" width="93">bo:country_area</label>
       </node>
       <node type="range-restriction" color="#000000" id="n248">
         <geometry height="20" x="-1850" y="-100" width="20"/>
@@ -1436,9 +1457,9 @@
         <geometry height="20" x="770" y="150" width="20"/>
         <label height="23" x="770" y="128" width="39">exists</label>
       </node>
-      <node type="attribute" color="#fcfcfc" id="n363" remaining_characters="population">
+      <node type="attribute" color="#fcfcfc" id="n363" remaining_characters="country_population">
         <geometry height="20" x="-540" y="930" width="20"/>
-        <label height="23" x="-540" y="908" width="81">bo:population</label>
+        <label height="23" x="-540" y="908" width="126">bo:country_population</label>
       </node>
       <node type="role" color="#fcfcfc" id="n113" remaining_characters="PlaceOfBirth">
         <geometry height="75" x="-630" y="260" width="140"/>
@@ -2056,6 +2077,10 @@
         <point x="-490" y="760"/>
         <point x="-600" y="760"/>
       </edge>
+      <edge type="input" source="n386" id="e645" target="n388">
+        <point x="-1780" y="280"/>
+        <point x="-1850" y="280"/>
+      </edge>
       <edge type="inclusion" source="n329" id="e546" target="n200">
         <point x="-1240" y="700"/>
         <point x="-970" y="790"/>
@@ -2523,6 +2548,10 @@
         <point x="-480" y="550"/>
         <point x="-410" y="580"/>
       </edge>
+      <edge type="input" source="n386" id="e646" target="n387">
+        <point x="-1780" y="280"/>
+        <point x="-1700" y="280"/>
+      </edge>
       <edge type="equivalence" source="n283" id="e467" target="n36">
         <point x="-1030" y="570"/>
         <point x="-1030" y="500"/>
@@ -2596,6 +2625,10 @@
       <edge type="input" source="n268" id="e403" target="n272">
         <point x="-1780" y="20"/>
         <point x="-1720" y="20"/>
+      </edge>
+      <edge type="inclusion" source="n388" id="e647" target="n252">
+        <point x="-1850" y="280"/>
+        <point x="-1950" y="50"/>
       </edge>
       <edge type="input" source="n57" id="e80" target="n58">
         <point x="-90" y="-400"/>
@@ -2773,6 +2806,10 @@
       <edge type="input" source="n207" id="e343" target="n209">
         <point x="-350" y="-130"/>
         <point x="-280" y="-130"/>
+      </edge>
+      <edge type="inclusion" source="n387" id="e648" target="n34">
+        <point x="-1700" y="280"/>
+        <point x="-1580" y="120"/>
       </edge>
       <edge type="input" source="n318" id="e532" target="n319">
         <point x="1300" y="-140"/>

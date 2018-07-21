@@ -1,8 +1,23 @@
-Number of languages: 856
-Number of different languages: 100
+2018-07-21 10:25:18
+
+Number of languages: 24
 
 *** STATISTICS *** 
-no speakers     :26  (26.0 %) 
-no label        :1  (1.0 %) 
+no speakers     :7  (28.999999999999996 %) 
+no label        :0  (0.0 %) 
 no description  :0  (0.0 %) 
-Total_time:	2.46 sec
+Total_time:	3.23 sec
+Number of languages: 3
+
+*** STATISTICS *** 
+no speakers     :0  (0.0 %) 
+no label        :0  (0.0 %) 
+no description  :0  (0.0 %) 
+Total_time:	1.42 sec
+Number of languages: 8
+
+*** STATISTICS *** 
+no speakers     :0  (0.0 %) 
+no label        :0  (0.0 %) 
+no description  :0  (0.0 %) 
+Total_time:	1.39 sec
