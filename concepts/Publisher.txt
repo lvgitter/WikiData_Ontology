@@ -1,36 +1,69 @@
 publisher_id;publisher_label;publisher_description;inception
+Q27907916;John Brindley;English bookseller;
+Q3392522;Plon;French publishing house;1852
+Q2108217;Macmillan Publishers;British publishing company;1843
+Q19444280;Ginn & Company;US publishing company known for textbooks;
+Q5049289;Cassell;publisher;1848
+Q1587900;Harvard University Press;American university publishing house;1913
+Q3822096;Modern Library;American publishing company;1917
+Q4008202;Vallecchi;;1919
+Q1368849;Firmin Didot;French businessman;
+Q19559148;Lea & Febiger;US publishing company;1785
+Q1336200;Penguin Books;British publishing house;1935
+Q898067;Watch Tower Bible and Tract Society of Pennsylvania;not-for-profit organization headquartered in Wallkill, New York;1884
+Q82708;Church of England;Christian church in England and the Mother Church of the worldwide Anglican Communion;
+Q20124673;Diana Verlag;;
+Q3117417;Groupe Flammarion;French publisher;1875
+Q3579473;Perrin;;
+Q273819;Éditions Gallimard;French publishing company;1911
+Q17617848;Istituto Editoriale Italiano;italian publishing house;1904
+Q2228426;;;
+Q1815400;;;1814
+Q4397841;Росмэн;;1992
+Q712646;Artikel 19 Verlag;publisher;1989
+Q390074;Houghton Mifflin Harcourt;publisher;1880
+Q301609;Suhrkamp Verlag;German publishing house;1950
+Q7800720;Ticknor and Fields;;1854
+Q14624944;Lambert Schneider Verlag;German publisher;
+Q5677798;Harvill Secker;British publishing company;1936
+Q2934320;Calmann-Lévy;French publisher;1836
+Q21076601;;;
+Q3560313;Vintage Books;publishing imprint of Random House; American to 1990, now international;1954
+Q11918026;Editorial Selecta;;1946
+Q14624871;Editorial Garbo;publisher from Barcelona, Spain;
+Q50327732;Dobrovský;Czech publisher;2001
+Q25437050;Komubook;Crowdpublishing platform;2015
+Q744182;Random House;general-interest trade book publisher;1927
+Q821732;Metropol Verlag;German publishing house;1988
+Q3579256;Bompiani;Italian publisher;1929
+Q845617;Charles Scribner's Sons;American publisher;1846
+Q3067003;Farrar, Straus and Giroux;American book publishing company;1946
+Q3132837;Henry Holt and Company;American publishing company established 1866, under this name from 1873, succeeded by Holt, Rinehart & Winston 1960, continued as division or imprint;1866
+Q24204324;A. L. Burt Company;publishing house;1883
+Q217595;Oxford University Press;publishing arm of the University of Oxford;1586
+Q353060;Addison-Wesley;publisher;1942
+Q878427;Kiepenheuer & Witsch;German publishing house;1951
+Q1232629;John Murray;English publisher;1768
+Q21091410;;;
+Q2054191;Chapman & Hall;;1834
+Q21093676;;;
+Q3011053;D. Appleton & Company;publishing company;1905
+Q28869242;F. Kytka;Czech publishing house;
+Q186225;Mercure de France;French publishing house;1890
+Q349566;Hachette;French publisher;1826
 Q1503157;Shakespeare and Company;bookstore;
 Q95145;Allen & Unwin;Australian publishing company;1914
-Q1232629;John Murray;English publisher;1768
-Q3117417;Groupe Flammarion;French publisher;1875
-Q186225;Mercure de France;French publishing house;1890
-Q845617;Charles Scribner's Sons;American publisher;1846
-Q821732;Metropol Verlag;German publishing house;1988
-Q21091410;;;
-Q14624944;Lambert Schneider Verlag;German publisher;
-Q82708;Church of England;Christian church in England and the Mother Church of the worldwide Anglican Communion;
-Q744182;Random House;general-interest trade book publisher;1927
-Q11918026;Editorial Selecta;;1946
+Q552619;Pierre-Jules Hetzel;French publisher and writer;
+Q11281443;Penguin Classics;imprint of Penguin Random House;
 Q1305980;Giulio Einaudi editions;Italian publisher;1933
-Q3752406;;;1870
-Q7800720;Ticknor and Fields;;1854
-Q21093676;;;
-Q4453850;Text Publishers;;1988
-Q2277384;Contact;Dutch publisher;
-Q3560313;Vintage Books;publishing imprint of Random House; American to 1990, now international;1954
-Q3822096;Modern Library;American publishing company;1917
+Q10729193;Albatros;Czech publisher;1949
 Q779172;Sdu;Dutch publishing company;1988
-Q22695861;;;
-Q1368849;Firmin Didot;French businessman;
-Q898067;Watch Tower Bible and Tract Society of Pennsylvania;not-for-profit organization headquartered in Wallkill, New York;1884
+Q634246;Breitkopf & Härtel;publisher;1719
+Q1431868;Alfred A. Knopf;American publishing house;1915
 Q3157979;Jacques-Julien Dubochet;Swiss lawyer, newspaper editor;
-Q1815400;;;1814
-Q14624871;Editorial Garbo;publisher from Barcelona, Spain;
-Q5677798;Harvill Secker;British publishing company;1936
 Q2980071;;organization;1894
+Q2277384;Contact;Dutch publisher;
 Q1251563;Doubleday;American publishing company;1897
-Q301609;Suhrkamp Verlag;German publishing house;1950
-Q3132837;Henry Holt and Company;American publishing company established 1866, under this name from 1873, succeeded by Holt, Rinehart & Winston 1960, continued as division or imprint;1866
-Q2108217;Macmillan Publishers;British publishing company;1843
-Q1587900;Harvard University Press;American university publishing house;1913
-Q2934320;Calmann-Lévy;French publisher;1836
+Q4453850;Text Publishers;;1988
+Q22695861;;;
+Q3752406;;;1870

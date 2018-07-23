@@ -90,7 +90,7 @@ class myThread (threading.Thread):
             if ("P31" in data['entities'][city_id]["claims"]):
                 for iof in data['entities'][city_id]["claims"]["P31"]:
                     instance_of.append(iof["mainsnak"]["datavalue"]["value"]["id"])
-            if "Q1964689" in iof:
+            if "Q1964689" in instance_of:
                 self.local_statistics[index("fictional")] += 1
                 # HAS ANALOG (P1074)
                 if ("P1074" in data['entities'][city_id]["claims"]):

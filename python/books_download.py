@@ -184,19 +184,6 @@ class myThread(threading.Thread):
             else:
                 self.local_statistics[index("no character")] += 1
 
-            ''''# CHARACTERS
-            if ("P674" in data['entities'][book_id]["claims"]):
-                for character in data['entities'][book_id]["claims"]["P674"]:
-                    try:
-                        has_character_lock.acquire()
-                        file_has_character.write(
-                            str(character["mainsnak"]["datavalue"]["value"]["id"]) + ";" + str(book_id) + "\n")
-                        has_character_lock.release()
-                    except:
-                        has_character_lock.release()
-            else:
-                self.local_statistics[index("no character")] += 1'''
-
             # AUTHORS
             if ("P50" in data['entities'][book_id]["claims"]):
                 for author in data['entities'][book_id]["claims"]["P50"]:
@@ -416,7 +403,7 @@ sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
 sparql.setQuery("""SELECT ?book WHERE {
     ?book wdt:P31 wd:Q571
     }
-    LIMIT 100
+    LIMIT 1000
 """)
 sparql.setReturnFormat(JSON)
 results = sparql.query().convert()

@@ -1,0 +1,916 @@
+city_id;city_label;city_description;realCity_area;realCity_population
+61;Dublin;capital city of Ireland;114990000;527612
+Q16010710;Anzio;;;
+Q1159414;Danderyd;;;
+Q188615;Abdera;ancient town in Greece;3148;1090
+Q278199;Sant'Angelo Limosano;Italian comune;16.87;348
+Q23098;Derbyshire;ceremonial county in East Midlands, England;2625;1036600
+Q812589;Bayonne;city in New Jersey, USA;28.72215;63024
+Q4144333;;;;
+Q72259;Portsmouth;city in Hampshire, England;40250000;200000
+Q26600;Fukuoka;capital city of Fukuoka Prefecture, Japan;340030000;1483052
+Q11059315;Baxi Jun;Shu kindom territorial entity of Shu kingdom, in chinese antiquity;;
+Q3870;Nairobi;capital city of Kenya;696000000;3138369
+Q541;Orvieto;Italian comune;281.27;20841
+Q34600;Kyoto;city in Japan;827.83;1466937
+Q30;United States of America;federal republic in North America;9826675;323952889
+Q182872;Fontainebleau;commune in Seine-et-Marne, France;172.05;14839
+Q3057926;Trellech;a village located in  Trellech United, United Kingdom;;
+Q4252369;Bovington Camp;British Army military base in Dorset, England;;
+Q264665;Kitzbühel;municipality in Tyrol, Austria;58.02;8330
+Q2023662;Blowing Rock;;7.886148;1241
+Q904731;Bredenbeck;district of Wennigsen, lower Saxony;;
+Q1669062;Linnaeus Hammarby;;;
+Q379652;Philippi;ancient city  in eastern Macedonia, in the Edonis region;;
+Q79867;Birmingham;county seat city in Jefferson County, Alabama, USA;384.944955;212237
+Q82724;Messkirch;municipality in Germany;76.22;8736
+Q85;Cairo;capital city of Egypt;528;7601018
+Q38060;Gaul;region of ancient Europe;;
+Q132856;Armenian Soviet Socialist Republic;union republic of the Soviet Union;;
+Q1486;Buenos Aires;capital city of Argentina;203.3;2890151
+Q1363688;Corinth;city-state in ancient Greece;;1939
+Q199797;Tacoma;county seat of Pierce County, Washington, United States;161.675629;198397
+Q3141;Melbourne;capital city of Victoria, Australia;1705;4347955
+Q2543161;Walmer Castle;;;
+Q7473516;Tokyo;the 23 wards in the Eastern part of Tokyo prefecture, Japan that used to form a single city;622;9272565
+Q3075;Fürth;town in Bavaria, Germany;63350000;105322
+Q1016159;Williamsport;county seat of Lycoming County, Pennsylvania, United States;24.42;30706
+Q25610;Hampstead;affluent area of London, England;;
+Q507517;Rochester;town and historic city in the unitary authority of Medway in Kent, England;;27125
+Q49142;Brookline;town in Massachusetts, United States;6.8;
+Q134287;Tarsus;city in Turkey;2240;
+Q2412935;The Mount;Georgian house in Shrewsbury, England;;
+Q826561;Halifax;minster town in West Yorkshire, England;;
+Q1854;Ho Chi Minh City;city of Vietnam;2096.56;8224400
+Q62;San Francisco;consolidated city-county in California, United States;600.592202;805235
+Q172157;Winchester;city in Hampshire, England;;35200
+Q956;Beijing;capital city of China since 1949;16410.540;21516000
+Q185103;Roman Britain;part of the island of Great Britain controlled by the Roman Empire;;
+Q47164;Santa Monica;beachfront city in Los Angeles County, California, United States;21.798253;89736
+Q613870;Port Hope;municipality in Ontario, Canada,;;
+Q2328356;Clontarf;coastal suburb on the northside of Dublin;;
+Q170516;Calvary;geographic location;;
+Q18383;Providence;county seat in Providence County, Rhode Island, USA and Rhode Island's federated state capital city;53.273967;178042
+Q91185;Chiusi;Italian comune;58.15;8614
+Q206988;Cheltenham;town in Gloucestershire, England;46.61;
+Q209055;Torquay;town in Devon, England;;
+Q624492;Aracataca;Colombian municipality of the department of Magdalena;1755;40400
+Q1775258;Fossanova Abbey;;;
+Q11935;Locarno;town in the canton of Ticino, Switzerland;19.27;15483
+Q22889;Bath;city in Somerset, England, United Kingdom;29;88859
+Q1026685;Wellington;town in Somerset, England;;
+Q202628;Oldham;town in Greater Manchester, England;67.1;96555
+Q206837;Redon;commune in Ille-et-Vilaine, France;15.09;9114
+Q503331;Dorchester;town in West Dorset in Dorset, United Kingdom;4.92;20135
+Q200942;Swindon;town in Wiltshire, England;40;182441
+Q153974;Barmen;former city in eastern Rhineland, Germany;;
+Q1003651;Châlons-du-Maine;commune in Mayenne, France;9.66;700
+Q133315;Limerick;city in Ireland in the province of Munster;20.79;56779
+Q11767;Mesopotamia;area of the Tigris–Euphrates river system;;
+Q1533662;Goddelau;municipal district of Riedstadt in Kreis Groß-Gerau, Germany;;
+Q19834493;;;;
+Q49198;Danbury;city in Connecticut;114.450281;81671
+Q3997407;Perranarworthal;village in Cornwall, England;;
+Q322376;Roquemaure;commune in Gard, France;26.22;5458
+Q65;Los Angeles;county seat of Los Angeles County, California; second largest city in the United States by population;1302.15171;3976322
+Q858024;Hippo Regius;;;
+Q471870;Villeblevin;commune in Yonne, France;7.36;1835
+Q2079;Leipzig;city in Saxony, Germany;297.36;591608
+Q659895;Dalkey;human settlement;;
+Q736742;Wimbledon;suburb of London;;
+Q66211;Konolfingen;municipality in the canton of Bern, Switzerland;12.8;4732
+Q350;Cambridge;city in Cambridgeshire, England;40.7;123867
+Q27;Ireland;republic covering major parts of the island of Ireland;70274.147397;4761865
+Q208793;Saint-Omer;commune in Pas-de-Calais, France;16.4;13992
+Q13678;Agrigento;Italian comune;245.32;59010
+Q270189;Lerici;Italian comune;16.01;10160
+Q3350794;Pundravardhana;;;
+Q49244;Santa Ana;county seat and city of Orange County, California, United States;70.945241;324528
+Q245546;6th arrondissement of Paris;one of the 20 administrative districts of Paris, France;2.15;43976
+Q754314;Tusculum;ruins;;
+Q61;Washington, D.C.;capital city of the United States;177;601723
+Q3367;Aosta;Italian comune;21;34324
+Q875133;Kierling;cadastral municipality of Klosterneuburg, Lower Austria;;
+Q862733;Warren;city in the U.S. state of Ohio;41.840963;435
+Q1141101;Saint-Sauveur-en-Puisaye;commune in Yonne, France;30.89;918
+Q1071035;Penrhyndeudraeth;town in Gwynedd, Wales;;
+Q69233;Münsterlingen;municipality in Switzerland;5.4;3177
+Q107299;Kingdom of Northumbria;mediaeval kingdom of the Angles;;
+Q13502175;Erchia;ancient Athenian deme;;
+Q61455;Jonesboro;county seat city in Craighead County, Arkansas, USA;209.618613;70187
+Q2406502;Thornton;village in West Yorkshire in England, UK;;
+Q917891;Roncesvalles;municipality of Spain;15.1;26
+Q1747689;ancient Rome;civilisation that began growing on the Italian Peninsula from 8th century BC;;49000000
+Q128087;Lesbos;Greek island located in the northeastern Aegean Sea.;1641;
+Q96;Mexico;federal republic in the southern portion of North America;1972550;130526945
+Q474453;Hauteville-la-Guichard;commune in Manche, France;11.98;456
+Q849561;Chlef;city in the north of Algeria;;
+Q68301;Qasr Abu Hadi;human settlement;;
+Q208201;London Borough of Bromley;London borough;150.15;324900
+Q1747267;Santiago de las Vegas;Ward of Havana, Cuba;;
+Q5625011;;Wikimedia disambiguation page;;
+Q3551343;University College Hospital;large research and teaching hospital in central London;;
+Q1792;Gdańsk;main city in Pomeranian Voivodeship, Poland;262;462249
+Q173695;Épinal;commune in Vosges, France;59.24;32188
+Q1102275;Clones, County Monaghan;town in Ireland;;
+Q8356;Valladolid;capital city of the autonomous region of Castile  and the Province of Valladolid in Spain;197910000;309714
+Q1520099;Elstow;farm village in the United Kingdom;;
+Q484678;Berkeley;city in Alameda County, California, United States;45.821691;112580
+Q597;Lisbon;capital city of Portugal;100.05;545245
+Q132404;Bourges;commune in Cher, France;68.74;67189
+Q655874;Newbury;civil parish and town in Berkshire, England;;
+Q668384;Medellín, Spain;Municipality in the province of Badajoz, Spain;65;2342
+Q11293;Schwelm;seat of Ennepe-Ruhr-Kreis and town in North Rhine-Westphalia, Germany;20.5;28461
+Q1492;Barcelona;capital of Catalonia and second-largest city in Spain;101.30;1611822
+Q495;Turin;city and commune in Italy;65768598549;890529
+Q497130;Maassluis;municipality in South Holland, the Netherlands;;32287
+Q170478;Bournemouth;town in the ceremonial county of Dorset, England;46.18;183491
+Q807;Lausanne;capital city of the Swiss Canton of Vaud;41370000;139811
+Q6259;Pavia;Italian comune;63.24;72689
+Q40340;Racine;city in and county seat of Racine County, Wisconsin, United States;48.393873;78860
+Q2273431;Cochrane;town in Ontario, Canada;539.12;5321
+Q1628741;Horní Planá;town in the Czech Republic;127.17;2145
+Q1530757;Glen Ellen;census designated place;5.441261;784
+Q46940;Alcalá de Henares;city of Spain in the Madrid metropolitan area;88;204823
+Q895149;Bound Brook;borough in Somerset County, New Jersey;4.390026;10155
+Q465104;Brody;city in the Lviv Oblast (province) of western Ukraine;8.67;
+Q219525;Anazarbus;human settlement;;
+Q165867;Modi'in-Maccabim-Re'ut;city in Israel;50.176;90013
+Q4024;Frankfurt (Oder);town in Brandenburg, Germany;147610000;58018
+Q1449;Genoa;Italian city;240.29;588688
+Q41262;Nottingham;city in Nottinghamshire, England;74.61;
+Q3038;Heligoland;municipality in Schleswig-Holstein, Germany;1.7;1400
+Q402819;Ahrenshoop;town in Germany;5.24;638
+Q1134428;Corofin;human settlement;;
+Q548806;Vailima, Samoa;human settlement;;
+Q24826;Liverpool;city in Merseyside, England, United Kingdom;111840000;466415
+Q331397;Oak Park;town in Cook County, Illinois, United States; suburb of Chicago, Illinois;12.172451;51878
+Q4242055;Kruzhilin;;;
+Q909146;Godalming;town in the Borough of Waverley in Surrey, England;;
+Q116404;Anagni;Italian comune;112.82;21411
+Q1166;Michigan;state of the United States of America;250493.0;9883640
+Q985409;Jackson;city in Madison County, Tennessee, United States;151.416915;67685
+Q23482;Marseille;commune in Bouches-du-Rhône, the second largest city of France;240.62;855393
+Q3573;Rostov Oblast;federal subject of Russia;101800;4235560
+Q6225;Coventry;city in the West Midlands in England;98640000;316900
+Q3183;Perth;capital city of Western Australia, Australia;6418;1972358
+Q1455063;Ioannina Island;village in Greece;;219
+Q6616;Poitiers;commune in Vienne, France;42.11;87427
+Q743521;Scarborough;town in North Yorkshire, England;;
+Q1549278;Machaerus;;;
+Q493840;Lawrence;city in Kansas, United States;90.451891;87643
+Q723329;Ascot;affluent small town in east Berkshire, England;;
+Q387463;Świebodzin;city of Poland;;21988
+Q37836;Milwaukee;city in and county seat of Milwaukee County, Wisconsin, United States;250.849328;594833
+Q866339;Bishop Auckland;town and civil parish in County Durham, England;;24392
+Q936741;Oshkosh;city in and county seat of Winnebago County, Wisconsin;72.035298;66083
+Q3338975;New London;community on Prince Edward Island, Canada;;
+Q1115796;Escrennes;commune in Loiret, France;11.55;732
+Q2634;Naples;city in Campania, Italy;117.27;975260
+Q116440;Arpino;Italian comune;56.24;7193
+Q16085;Neuruppin;town in Brandenburg, Germany, capital of the district of Ostprignitz-Ruppin;303320000;31901
+Q4037;Schwäbisch Gmünd;town in Baden-Württemberg, Germany;120.4;54587
+Q38022;St. Louis;city and port in the U.S. state of Missouri;171.128084;319294
+Q42448;Sheffield;city in South Yorkshire, England;142.06;518090
+Q237896;Reading;county seat of Berks County, Pennsylvania, United States;26.235358;89893
+Q927776;Råshult;human settlement;;
+Q2153758;St John's Wood;district of north-west London, England;;
+Q153676;Kislovodsk;city in Russia;72;129861
+Q612136;Xia County;county;1352.6;352821
+Q3761;Accra;capital city of Ghana;173000000;2291352
+Q159498;Bagnoregio;Italian comune;72.81;3615
+Q523240;Concord;town in Middlesex County, Massachusetts, United States;67400000;17668
+Q2637584;Vyoshenskaya;;;9261
+Q170062;Pannonia;ancient province of the Roman Empire;;
+Q456;Lyon;commune in the metropolis of Lyon, France;47.87;500716
+Q31487;Kraków;city in Lesser Poland Voivodeship, Poland;327;761900
+Q154184;Anchiano;locality in Vinci, Tuscany, Italy;;
+Q2721859;Saint-Servan;town in Brittany, France;;
+Q7195881;Pinhoe;village in United Kingdom;;
+Q823721;Megalopolis;town in Greece;;5748
+Q391479;Šeteniai;human settlement;;31
+Q576938;Telford;town in England, United Kingdom;;
+Q20073;Hohenstein-Ernstthal;town in Saxony, Germany;18.33;14866
+Q578289;Waukegan;county seat of Lake County, Illinois, United States;63.223724;88826
+Q13364;Ravenna;Italian comune;653.82;159039
+Q130191;Norwich;city in Norfolk, England;39.02;213166
+Q66338;Hirzel;Village in Switzerland;9.68;2158
+Q1731;Dresden;capital city of the Free State of Saxony in Germany;328.31;531982
+Q761408;Springs;city in Gauteng province, South Africa;;
+Q270;Warsaw;capital and largest city of Poland;517.24;1748916
+Q79474;Anniston;county seat of Calhoun County, Alabama, USA;118.388728;22666
+Q203293;Langres;commune in Haute-Marne, France;22.33;7877
+Q132751;Shimane Prefecture;prefecture of Japan;6707.95;682706
+Q12630;Gulf of Mexico;ocean basin in North America;;
+Q5465;Cape Town;city in the Western Cape, South Africa;2454.72;433688
+Q1490;Tokyo;capital of Japan and one of 47 prefectures of Japan;2187.66;13784212
+Q749556;Yasnaya Polyana;former estate and current museum;;
+Q5806;Mecca;Saudi Arabian city and capital of the Makkah province;760000000;1675368
+Q233337;Deià;municipality of Spain;15.12;756
+Q892509;Byhalia;town of the United States;18.610065;1302
+Q1563;Havana;capital city and commercial centre of Cuba;728.26;2141652
+Q25287;Gothenburg;city in Sweden;20367;549839
+Q28198;Jackson;capital of the state of Mississippi, United States; county seat of Hinds County, MIssissippi;293.270597;173514
+Q49218;Rochester;county seat of Monroe County, New York, United States;96.225189;210565
+Q43631;Leiden;municipality in South Holland, Netherlands;23.16;121163
+Q1851095;Redhill;town in Reigate and Banstead, Surrey, England;;
+Q212773;Antigua Guatemala;city in the central highlands of Guatemala;;45669
+Q10686;Belfast;city of the United Kingdom, capital of Northern Ireland;114995472;336830
+Q1828038;Lismore;town in County Waterford, Ireland;;
+Q216993;Ios;Greek island;108.713;
+Q586762;Westport;town in Connecticut;33.45;26391
+Q727;Amsterdam;capital and largest city in the Netherlands;219;825080
+Q745956;Westport;former village and civil parish in Wiltshire, England;;
+Q161887;Kamień Pomorski;city of Poland;10.75;9144
+Q222755;Ibagué;Capital of the Colombian department of Tolima;;
+Q2833;Freiburg im Breisgau;large city in Baden-Württemberg, Germany;151.68;220286
+Q547910;Stabiae;human settlement;;
+Q427265;Yibin;prefecture-level city in Sichuan, China;13283;4456000
+Q486229;Hennepin County;county in Minnesota, United States;1571;1152425
+Q1347659;Epping Forest;non-metropolitan district;;129700
+Q34006;Hollywood;district in Los Angeles, California, United States;62865;800000
+Q599416;Sinop;city in Turkey;;57399
+Q1803681;Landport;;;
+Q181285;Cambrai;commune in Nord, France;18.12;32852
+Q1794;Frankfurt;city in Hesse, Germany;248;701000
+Q755403;Litchfield;town in Connecticut, United States;56.8;8466
+Q6106;Portland;city in Oregon, USA;375.805526;583776
+Q253696;Prüm;town in the Westeifel, Germany;22.86;
+Q1985830;Paonia;;2.223128;1451
+Q1145487;Samaná Province;province of the Dominican Republic;;
+Q844701;Trévières;commune in Calvados, France;11.7;935
+Q34217;Oxford;city in Oxfordshire, England;45.59;152000
+Q6063529;Iona Station, Ontario;;;
+Q597464;Kirkop;local council of Malta;;2191
+Q8678;Rio de Janeiro;capital city of the state of Rio de Janeiro, Brazil;1260029215;5857904
+Q5516441;Gads Hill Place;country home of Charles Dickens;;
+Q5776;Bethlehem;Palestinian city;30;25266
+Q174;São Paulo;city in São Paulo federated state, Brazil;1523;11895893
+Q60;New York City;city in state of New York, largest city in the United States by population;1214;8405837
+Q1726;Munich;city in Bavaria, Germany;310.74;1185421
+Q213883;Villers-Cotterêts;commune in Aisne, France;41.71;10168
+Q18419;Brooklyn;borough of New York City, New York, United States;251;2504700
+Q50157;Sulmona;Italian comune;58.33;24454
+Q973923;Fredericksburg;city in Texas, United States;22.532661;8911
+Q575131;Lehnitz;;;
+Q128114;Yonkers;city in Westchester County, New York, United States;52.56768;195976
+Q1496198;Uttlesford;local government district in Essex, England;;85100
+Q1946231;Garsington;farm village in the United Kingdom;;
+Q1025016;Cooperstown;town;4700000;1852
+Q866348;Bishopsbourne;village in United Kingdom;;
+Q13375;Pisa;city in Tuscany, Central Italy;185;89940
+Q2533923;Chittenango;;6.434352;5081
+Q486306;Pensacola;county seat of Escambia County, Florida, United States;105.574392;51923
+Q200441;Antioch on the Orontes;ancient city in Turkey;;
+Q736439;Ramsgate;town in Kent, England;;40408
+Q213679;Pella;capital of the ancient kingdom of Macedon;114;
+Q432337;Racalmuto;Italian comune;68.1;8219
+Q87;Alexandria;second largest city in Egypt;2679;4028028
+Q2666737;Western Springs;village in Illinois;7;
+Q81997;Boulogne-sur-Mer;commune in Pas-de-Calais, France;8.42;42537
+Q199160;Uzeste;commune in Gironde, France;26.05;397
+Q99950;Predappio;Italian comune;91.39;6297
+Q177544;Horsham;town in West Sussex, England;;
+Q43407;Shandong;province of China;156700;95793065
+Q131266;Krems an der Donau;city in Austria;51.61;24344
+Q23157;Somerset;ceremonial county of England (use Q21694741 for administrative non-metropolitan county);4171;940200
+Q1023499;Hudson;city in New York, USA;6.033998;6713
+Q21159;Husum;town in Schleswig-Holstein, Germany;25.82;22430
+Q123709;Dundee;city in Scotland;67339690;
+Q429687;Upper West Side;neighborhood in Manhattan;;
+Q2035368;Tremadog;village in Wales;;
+Q146702;Willesden;area in North West London, England;;
+Q260619;Portage;fourth-class city in Columbia County, Wisconsin;25.041825;9728
+Q759;New Hampshire;state of the United States of America;24214.0;1316470
+Q16000109;Herodian kingdom;;;
+Q471581;Ribérac;commune in Dordogne, France;22.79;4017
+Q1537;Wisconsin;state of the United States of America;169640;775881
+Q5214961;Danbury Hospital;hospital;;
+Q184116;Gary;city in Lake County, Indiana, United States;148.173129;80294
+Q488125;Salinas;city in California;61.249403;150441
+Q26152;Växjö;urban area in Växjö Municipality, Sweden;30;22784
+Q111942;San Leo;Italian comune;53.14;2935
+Q132929;Toyama Prefecture;prefecture of Japan;4247.22;1053555
+Q79408;Fort Yukon;city;19.342427;583
+Q23346;Sussex;historic county in South East England;3783;
+Q128246;Silva Arsia;former forest near Rome, Italy;;
+Q69354;Montreux;municipality in Switzerland;33400000;25456
+Q215530;Kingdom of Ireland;kingdom on the island of Ireland between 1542 and 1801;84000;
+Q28587;Hamadan;capital city of Hamadan Province of Iran;;525794
+Q146351;Liberec;Czech city;106.09;103288
+Q138367;Camden;city in Camden County, New Jersey, United States;26.782579;77344
+Q572921;Lauingen;municipality of Germany;44.39;9308
+Q3933;Celle;town in Lower Saxony, Germany;176010000;68508
+Q43199;Omaha;county seat of Douglas County, Nebraska, United States;354.114621;408958
+Q681427;Tus;ancient city in Iran;;
+Q1664345;Needham;town in Massachusetts;12.7;28886
+Q4088132;Kuntsevo Dacha;;;
+Q81621;Fort-de-France;commune in Martinique, France;44.21;84174
+Q41329;Linz;capital city of Upper Austria, Austria;95.99;194522
+Q30974;Rouen;commune in Seine-Maritime, France;21.38;110755
+Q506446;Rancho Mirage;City in Riverside County, California;65.244957;17218
+Q128086;Formia;Italian comune;74.17;38145
+Q3997404;St Columb Minor;village in United Kingdom;;
+Q207752;Shillong;Indian city;;
+Q16666;Nanjing;capital of Jiangsu province in Eastern China;6582;8187800
+Q1003196;Sheerness;town on the Isle of Sheppey in Kent, England;;
+Q131290;Ganja;Azerbaijani town;298;33625
+Q288781;Kensington;district within the Royal Borough of Kensington and Chelsea in central London;;
+Q63495;Millville;civil town in Grant County, Wisconsin;21.7;
+Q268214;Bordighera;Italian comune;10.65;10454
+Q153491;Führerbunker;subterranean bunker complex used by Adolf Hitler in 1945;;
+Q49157;Begusarai district;district of Bihar, India;;
+Q944814;Theatre of Pompey;theatre in ancient Rome;;
+Q238803;Maidenhead;town and unparished area in Berkshire, England;;
+Q95126;Boussu;municipality in Hainaut, Belgium;20.01;
+Q3042;Offenbach am Main;city in Hesse, Germany;44.90;119203
+Q334051;Abbey of Monte Cassino;abbey;;
+Q18094;Honolulu;county seat in Honolulu County, Hawaii, USA and Hawaii federated state capital city;177200000;390738
+Q383071;Aquae Cutiliae;;;
+Q617375;Hiroshima Prefecture;prefecture of Japan;8476.95;2830069
+Q41;Greece;republic in Southern Europe;131957;10815197
+Q52691;Venosa;Italian comune;170.39;11837
+Q11266977;Epirus;;;
+Q48195;Basra;capital of Basra Governorate, in southern Iraq;181;2150000
+Q65026;Eschlikon;municipality in Switzerland;6.2;
+Q131908;Hanover;town in Grafton County, New Hampshire, United States;130.2;11260
+Q52981;Faenza;Italian city and comune, in the province of Ravenna, Emilia-Romagna;216;58541
+Q1861278;Witham;town in Essex, United Kingdom;;
+Q399342;Bougival;commune in Yvelines, France;2.76;8729
+Q1874;Odessa;city in Ukraine, the administrative center of the Odessa Oblast;236.9;1010783
+Q1284;Abruzzo;region in Italy;10831.84;1327171
+Q187654;Villandraut;commune in Gironde, France;12.58;994
+Q3806;Tübingen;town in central Baden-Württemberg, Germany;108.11;58155
+Q13395;Viterbo;Italian comune;406.28;67420
+Q81631;Tepelenë;town in Albania;;4342
+Q24861;Albany;county seat of Albany County, New York, USA and New York federated state capital city;56.813795;100104
+Q13855;Vic;municipality in the Barcelona Province, Catalonia;30.60;41647
+Q2758;Mönchengladbach;city in North Rhine-Westphalia, Germany;170.43;259996
+Q525720;Lauffen am Neckar;municipality in Germany;22.64;8533
+Q314895;Harheim;;4.841;
+Q503757;Oberammergau;municipality of Germany;30.06;5114
+Q168193;Najaf;a city in central-south Iraq;;820000
+Q23064;Cheshire;ceremonial county in England;2343;
+Q862079;Simbirsk Governorate;governorate of the Russian Empire;43491;1527848
+Q2839314;Alopeke;ancient Athenian deme;;
+Q64;Berlin;capital city of Germany;891.68;1200
+Q200459;Póvoa de Varzim;municipality and city in Portugal;;
+Q269667;Rheinfelden;municipality in the canton Aargau, Switzerland;16;
+Q39121;Leeds;city in West Yorkshire, England;551720000;766399
+Q234735;Meudon;commune in Hauts-de-Seine, France;9.9;45043
+Q1754;Stockholm;capital of Sweden;;935619
+Q190828;Petah Tikva;city in Israel;35.868;230984
+Q2916;Osnabrück;German city;120;156315
+Q628201;Coney Island;peninsula and beach in New York City;1.7896818;24711
+Q183199;Ioannina;city of Epirus, Greece;403;65574
+Q47611;Ephesus;ancient city in Anatolia;;
+Q117211;Roccasecca;Italian comune;43.33;7409
+Q220;Rome;capital city of Italy;1287.36;518917
+Q380130;Nyeri;human settlement;;98908
+Q9799;Heerlen;municipality in the Netherlands;45.53;87452
+Q15695;Salamanca;city in Castile and León, Spain;29.8;149528
+Q868647;Southport;seaside town in the Metropolitan Borough of Sefton, England;;
+Q510041;Porziuncola;Catholic chapel near Assisi;;
+Q88;Alexandria;city in Virginia, United States;40.104859;139966
+Q654019;Příbor;Town in the Czech Republic;22.14;8529
+Q155088;Krasnystaw;city and urban gmina of Poland;;
+Q5990;Vercelli;Italian comune;79.78;46552
+Q13695;Tenochtitlan;former city-state in the Valley of Mexico;1350;212500
+Q42810;Le Havre;commune in Seine-Maritime, France;46.95;172074
+Q4093;Glasgow;city in Scotland, UK; unitary authority;3298;598830
+Q1010244;West Chester;borough in Chester County, Pennsylvania, United States;4.78;
+Q288;Tours;commune in Indre-et-Loire, France;34.36;134803
+Q484870;Eisleben;town in Saxony-Anhalt, Germany;143.86;24198
+Q2140586;Comana Pontica;ancient city of Pontus;;
+Q2751;Siena;city in Tuscany, Italy and capital of the province of Siena;118.53;53853
+Q11299;Manhattan;borough of New York City, New York, United States;33.58;1585873
+Q6948294;Wheeler-Minot Farmhouse;;;
+Q12191;Nantes;city in Loire-Atlantique, France;65.19;298029
+Q173690;Gjirokastër;town in Albania;;25301
+Q210205;Pest;part of Budapest, Hungary;;
+Q131128;Braunau am Inn;municipality in Austria;24.8;16717
+Q537877;Charles City;city in Iowa;16.324385;7652
+Q1489;Mexico City;capital city of Mexico;1485;8918653
+Q79808;Constanța;city in Constanța County, Romania;124.890000;283872
+Q250984;Bad Ischl;location in Austria;162.8;13901
+Q3766;Damascus;capital of Syria;105;1711000
+Q9005;Brussels;metropolitan area of Brussels, in Belgium;161;1175000
+Q1891;Bologna;city in Emilia-Romagna, Italy;140.86;386663
+Q5684;Babylon;Akkadian city-state;;
+Q36947;Salvador;city in the state of Bahia, Brazil;693000000;2443107
+Q37320;Cleveland;city in Ohio, United States;213.587322;396815
+Q11419038;Kikuichō;town located in Shinjuku-ku, Tokyo;;
+Q19583;Gori;city in Georgia;16.85;48143
+Q975;San Antonio;county seat city in Bexar County, Texas; seventh largest city in the United States by population;1208.777336;1436697
+Q189901;Argos;ancient Greek city;138.14;22209
+Q460750;Itabuna;municipality of Brazil;432.244;196675
+Q585;Oslo;capital city and county in Norway;480.76;634463
+Q13353;Montserrat;British Overseas Territory in the Caribbean;102;
+Q2631643;Southampton;town in New York;765600485;56790
+Q1825419;Wrington;farm village in the United Kingdom;;
+Q841686;Mons-en-Barœul;commune in Nord, France;2.88;21513
+Q66629;Saanen;municipality in Switzerland;120060000;
+Q200133;Chalkida;municipality of Greece;;4086
+Q216173;Free City of Danzig;semi-autonomous city-state that existed between 1920 and 1939;;366730
+Q5092;Baltimore;city in Maryland, United States;238.411179;620961
+Q159856;Duchy of Brabant;State of the Holy Roman Empire;;
+Q23183;Wiltshire;ceremonial county of England (use Q21694746 for administrative unitary authority);3476;
+Q338140;Coniston, Cumbria;village in the United Kingdom;;
+Q944044;Natchez;county seat of Adams County, Mississippi, United States;35900000;15792
+Q1022127;Port Alberni;city in British Columbia, Canada;881;
+Q53935;Pietrafitta;Italian comune;9.24;1277
+Q484672;Morgan County;county in Missouri, United States;1590;20565
+Q1672375;Bar Harbor;town on Mount Desert Island in Hancock County, Maine, United States.;63.11;4820
+Q35484;Medina;Saudi Arabian city;589000000;1180770
+Q95096;Ath;city in Hainaut, Belgium;126.95;
+Q1818270;Malé Svatoňovice;municipality in the Czech Republic;6.75;1532
+Q838752;Trois-Villes;commune in Pyrénées-Atlantiques, France;6.39;142
+Q16567;Columbus;county seat in Franklin County, Ohio, USA and Ohio federated state capital city;581.031306;787033
+Q52609;Moliterno;Italian comune;98.55;3971
+Q122723;Ōsaka Prefecture;prefecture of Japan;1899.28;8831642
+Q178405;Larissa;city of Thessaly region in Greece;122.586;144651
+Q3130;Sydney;capital city of New South Wales, Australia;12144.6;4840600
+Q3426;Voronezh;city in the south of Russia;596.51;1032382
+Q2868;Lima;capital of Peru;2672.28;8574974
+Q4420718;ancient Syracuse;;;
+Q1020217;Minehead;town in Somerset, England;;
+Q189715;Courbevoie;commune in Hauts-de-Seine, France;4.17;85523
+Q43788;Madison;city in and state capital of Wisconsin, United States;243.830589;233209
+Q1733;Magdeburg;federated state capital city of Saxony-Anhalt, Germany;200950000;22676
+Q1017943;Fareham;town in Hampshire, England;;
+Q6397066;Shiraz;city in Fars Province, Iran;240;1460665
+Q13367;Forlì;Italian comune;228.2;118652
+Q2006494;Chalfont St Peter;town in Buckinghamshire, England, United Kingdom;;
+Q1530;Baghdad;capital city of Iraq;204200000;5402000
+Q1025109;Lipnice nad Sázavou;Village in Havlíčkův Brod county of Vysočina region;11.14;668
+Q2843;Lübeck;city in Schleswig-Holstein, Germany;214130000;212958
+Q199478;Bram;commune in Aude, France;17.72;3441
+Q116884;Fumone;Italian comune;14.84;2101
+Q481674;Castelvetrano;Italian comune;209.76;31691
+Q3038318;Down House;former home of the English naturalist Charles Darwin and his family;;
+Q34713;Salzburg;city in Salzburg federated state, Austria;66;146631
+Q6730;Perpignan;commune in Pyrénées-Orientales, France;68.07;120959
+Q18438;Long Island;island in New York, United States of America;3566;7804968
+Q238723;5th arrondissement of Paris;one of the 20 administrative districts of Paris, France;2.54;62236
+Q33959;Nice;city in Alpes-Maritimes, France;71.92;342295
+Q128295;Abilene;city in Texas, USA;290.334755;117063
+Q48335;Newfoundland;island portion of Newfoundland and Labrador, Canada;108860;479105
+Q3558423;Viliia;village in Ostroh Raion, Rivne Oblast, Ukraine;1.989;662
+Q548248;St Asaph;city in Denbighshire, Wales;;
+Q1026193;Shravanabelagola;human settlement;;
+Q206990;Gradara;Italian comune;17.53;4883
+Q565978;Renthendorf;municipality of Germany;11.62;
+Q2112;Bielefeld;city in Germany;258.82;337219
+Q782155;Jarrow;town in north-east England, located on the River Tyne;113.44;27526
+Q1899;Kiev;capital and the largest city of Ukraine;839;180000
+Q8646;Hong Kong;Special Administrative Region of China;1105.69;7071576
+Q208257;Bedford;county town of Bedfordshire, England;20.2;92407
+Q3316008;Woolsthorpe Manor;country house in Woolsthorpe-by-Colsterworth, Lincolnshire, England, UK;;
+Q49111;Cambridge, Massachusetts;city in Middlesex County, Massachusetts, United States;18.418614;107289
+Q593888;Peredelkino;human settlement;;
+Q647070;Clairvaux Abbey;abbey located in Aube, in France;;
+Q648;Lille;commune in Nord, France;34.83;228652
+Q1615791;Whitefield;town in the Metropolitan Borough of Bury, Greater Manchester, England;;
+Q49202;Greenwich;town in Fairfield County, Connecticut, United States;174047201;62396
+Q360607;Adolf-Hitler-Geburtshaus;;;
+Q100;Boston;capital of Massachusetts, United States;232140634;655884
+Q955151;Butler;city in Missouri, United States;10.557326;4219
+Q962499;Morristown;town in Morris County, New Jersey, USA;7.787879;18411
+Q158239;Kroměříž;town in Czech Republic;50.97;28921
+Q50197;Ferentino;town and comune in Italy;81;21131
+Q2887;Santiago;capital city of Chile;1140;6158980
+Q1018540;Leith;district and former municipal burgh in Scotland;;
+Q35381;Colombo;commercial capital of Sri Lanka;37321728;752993
+Q220673;Mougins;commune in Alpes-Maritimes, France;25.64;18302
+Q6366688;Kapiolani Medical Center for Women and Children;hospital;;
+Q2554678;Broad Chalke;village in United Kingdom;;
+Q486195;Khiva;city in Uzbekistan;;55568
+Q499887;Elgin;city in Cook and Kane counties in the northern part of the U.S. state of Illinois;98.253918;110145
+Q3118;Oryol;city in the center of European Russia;127.8;319651
+Q1122731;Clos Lucé;castle;;
+Q25395;Newark;most populous city in the state of New Jersey,  United States; county seat of Essex County, New Jersey;67.040795;8008
+Q801;Israel;country in Western Asia;20770;8463400
+Q164092;Duchy of Saxony;duchy;;
+Q281079;Gorham;town in Cumberland County, Maine, United States;51.29;14141
+Q761;Białystok;capital of Podlaskie Voivodeship, Poland;102;295624
+Q162049;Charlottenburg;locality of Berlin, Germany;10.6;124555
+Q94919;Waukesha;city in Waukesha County, Wisconsin;66.557523;70718
+Q259463;7th arrondissement of Paris;district of Paris, France;4.09;58309
+Q184047;Aubagne;commune in Bouches-du-Rhône, France;54.9;45303
+Q13114146;Muthukulam;village in India;;
+Q129286;British Raj;British rule in the Indian subcontinent, 1858-1947;;
+Q4281399;Mariinsky Hospital for the Poor;;;
+Q599866;Lev Tolstoy;;;8457
+Q927670;Falacrine;village;;
+Q649;Moscow;capital city and the largest city of Russia; separate federal subject of Russia;2562;1174700
+Q1772825;Hisar;City in Haryana;;
+Q990170;Daresbury;village in Cheshire, England;;
+Q64589;Kappel am Albis;municipality in Switzerland;7.87;922
+Q216638;Wakefield;city in West Yorkshire, England;;
+Q838542;Shaoshan;county-level city;247.3;
+Q1020;Malawi;country in Africa;118484.186083;3525127
+Q91119;Buonconvento;Italian comune;64.84;3127
+Q93285;Räckelwitz;municipality of Germany;11.51;
+Q15710617;Borgo Virgilio;Italian comune;69.99;14655
+Q193313;Saint-Maur-des-Fossés;commune in Val-de-Marne, France;11.25;74133
+Q203349;Poole;town and seaport in the county of Dorset, England;64880000;
+Q49162;Lowell;city in Massachusetts, United States;37.629989;109945
+Q487921;Calw;city in Baden-Württemberg, Germany;59.88;22600
+Q1145715;Pelusium;city;;
+Q24879;Bremen;city in the Bremen federated state, Germany;326.73;548547
+Q2861;Rostock;city in Mecklenburg-Vorpommern, Germany;181440000;203431
+Q71;Geneva;city in Switzerland and capital of its canton;45.86195177;195393
+Q14835;Bautzen;town in Saxony, Germany;66620000;39845
+Q68160;Vevey;city on Lake Geneva, in the canton of Vaud, Switzerland;2.38;19605
+Q678437;Montclair;township in Essex County, New Jersey, United States;16.3;37669
+Q13144;Iesi;Italian comune;107.73;40318
+Q174061;Denguin;commune in Pyrénées-Atlantiques, France;12.29;1762
+Q408;Australia;country in Oceania;7692024;23130931
+Q1068693;Cheapside;street in the City of London;;
+Q6046;Novara;Italian comune;103.05;104471
+Q387460;Sainte-Foy-lès-Lyon;commune in the metropolis of Lyon, France;6.83;21646
+Q213465;Guildford;county town of Surrey in England;;
+Q11194;Sarajevo;capital city of Bosnia and Herzegovina;141.5;275524
+Q1648481;Basse-Pointe;commune in Martinique, France;27.95;3565
+Q142410;Dreux;commune in Eure-et-Loir, France;24.27;31373
+Q79875;Mobile;county seat of Mobile County, Alabama, United States;466.369473;195111
+Q1664105;Landkreis Lissa;;;
+Q1496664;Mitchelstown;town in County Cork, Ireland;2.83;
+Q207156;Pessac;commune in Gironde, France;38.82;60763
+Q443840;Alton;town in Hampshire, England;;
+Q558878;Tenby;Town in Wales;;
+Q1085;Prague;capital city of the Czech Republic;496.16;1267449
+Q1384;New York;state of the United States of America;141300.0;19378102
+Q29520;China;cultural region, ancient civilization, and nation in East Asia, divided politically into the People's Republic of China (mainland) and the Republic of China (Taiwan);;
+Q3896131;Parkland Memorial Hospital;hospital located in Dallas;;
+Q178488;Kefalonia;Island of Greece;734.014;40000
+Q427559;Coral Gables;city in Miami-Dade County, Florida, United States; suburb of Miami, Florida;96.64785;49631
+Q178925;Gran Canaria;Spanish island of the Canary Islands;1560;
+Q6088;Alessandria;Italian city in Piedmont;203.57;93861
+Q430449;Gmunden;municipality in Austria;63.49;13199
+Q406;Istanbul;largest city in Turkey;5343;14657434
+Q988100;Wallingford;town in the Oxfordshire, UK;;
+Q171224;Eugene;county seat city in Lane County, Oregon, Oregon, United States;114.33245;137893
+Q658893;Italica;ancient city;;
+Q1218;Jerusalem;ancient city in the Judean Mountains;125.42;865721
+Q260130;Tegernsee;town in Bavaria, Germany;22.77;4099
+Q737765;Grand Cayman;island in the Caribbean;197;52601
+Q646980;Aldershot;town in  Hampshire, UK;;61339
+Q115;Ethiopia;country in East Africa;1104300.0;22151218
+Q37776;Besançon;commune in Doubs, France;65.05;116952
+Q2141;Halifax;capital of province of Nova Scotia, Canada;5490.90;390096
+Q462177;White Plains;city in and county seat of Westchester County, New York, United States;25.601499;57866
+Q156990;Monmouth;town in Monmouthshire, Wales;;
+Q990504;Exeter;town in Rockingham County, New Hampshire, United States;20.0;14306
+Q768934;Sainte-Mondane;commune in Dordogne, France;9.63;269
+Q28729;Kozhikode;city in Kerala;;431560
+Q32;Luxembourg;grand duchy in Western Europe;2586.4;313970
+Q1550922;Burlington;city in New Jersey;9.792943;9736
+Q1342;Pittsburgh;county seat in Allegheny County, Pennsylvania, USA;151.116175;305841
+Q18869;Caucasus;region in Eurasia bordered on the south by Iran, on the southwest by Turkey, on the west by the Black Sea, on the east by the Caspian Sea, and on the north by Russia;;
+Q49127307;Elasa;;;
+Q656;Saint Petersburg;federal city in Russia and the former capital;1439;150300
+Q6346;Indianapolis;county seat in Marion County, Indiana, USA and Indiana federated state capital city;953.180736;843393
+Q4072887;Afshona;;;
+Q684847;Molln;municipality in Austria;191.4;3595
+Q3145754;Hôtel de Blossac;hôtel particulier in Rennes;;
+Q1915639;Mechtshausen;;;
+Q2090;Nuremberg;city in the German state of Bavaria;186460000;504134
+Q83247;Braga;municipality and city in Portugal;183.4;137000
+Q4165;Bad Homburg vor der Höhe;seat of Hochtaunuskreis and city in Hesse, Germany;51.17;52752
+Q49148;Martha's Vineyard;island in the United States of America;226.57;14729
+Q54132;Haverhill;city in Massachusetts;92.452852;60879
+Q2368947;Lismore Castle;;;
+Q3812281;Horsehay;village in United Kingdom;;
+Q23092;Nottinghamshire;ceremonial county of England (use Q21272736 for administrative non-metropolitan county);645;
+Q9920;Haarlem;municipality in the Netherlands and capital city of North Holland;32.09;157232
+Q20103;Assisi;city in Italy;187.19;28290
+Q208407;Oloron-Sainte-Marie;commune in Pyrénées-Atlantiques, France;68.31;10794
+Q42622;Suzhou;prefecture-level city in Jiangsu, China;8488.42;4327066
+Q23306;Greater London;administrative area, ceremonial county in England;1572;8308369
+Q41604;Amiens;commune in Somme, France;49.46;132699
+Q984264;Franklin;county seat of Williamson County, Tennessee, United States;108.149723;68886
+Q28848;Saint Paul;capital of the state of Minnesota, United States; county seat of Ramsey County, Minnesota;145.497628;285068
+Q6454;Calais;commune in Pas-de-Calais, France;33.5;72589
+Q490;Milan;second-largest city in Italy;181.67;267618
+Q18863;Prien am Chiemsee;municipality in the district of Rosenheim, in Bavaria, Germany;20.69;8682
+Q6602;Strasbourg;commune in Bas-Rhin, France;78.26;275718
+Q373189;Bithynia;region in Anatolia;;
+Q21169;Piteå;locality and the seat of Piteå Municipality in Norrbotten County, Sweden;24.87;23067
+Q10690;Cardiff;capital city of Wales;140300000;346100
+Q720566;Chaulhac;commune in Lozère, France;9.47;81
+Q57818;Huai'an;prefecture-level city in Jiangsu, China;10072;4799889
+Q900;Kazan;city in the Republic of Tatarstan, Russia;425.3;7000
+Q6441;Montpellier;city in Hérault, France;56.88;272084
+Q6839;Figueres;city in the province of Girona, Catalonia, Spain;19.30;45123
+Q1748;Copenhagen;capital city of Denmark;86200000;602481
+Q270230;8th arrondissement of Paris;administrative district of Paris;3.88;40849
+Q1041;Senegal;republic in Western Africa;196722;3177737
+Q844779;Gazipaşa;district in Antalya Province, Turkey;;
+Q243456;Cumae;city;;
+Q769598;Hejin;county-level city;593;395527
+Q7593197;St George's Square;garden square in Pimlico, London;;
+Q1211;South Dakota;state of the United States of America;199729;11776
+Q20494;Norcia;Italian comune;275.58;4981
+Q11751;Nagoya;city in Japan;326.430;2314125
+Q731069;Eastleigh;main town in the Borough of Eastleigh, Hampshire, England;;
+Q53858;Celico;Italian comune;99.75;2763
+Q179821;Gagny;commune in Seine-Saint-Denis, France;6.83;39276
+Q516623;Quickborn;municipality in the district of Pinneberg, in Schleswig-Holstein, Germany;43.17;20608
+Q1781;Budapest;capital city of Hungary;525.2;1744665
+Q476584;Joigny;commune in Yonne, France;46.67;9690
+Q34863;Oklahoma City;city in Oklahoma County, Cleveland County and Canadian County, Oklahoma, USA, county seat in Oklahoma County and Oklahoma federated state capital city;1607.563128;579999
+Q1939963;Neyland;community and town in Pembrokeshire, Wales,;;
+Q172;Toronto;capital city of province of Ontario, Canada;630.21;2615060
+Q1229422;Lampsacus;city;;
+Q3955;Weimar;city in Thuringia, Germany;84.48;63477
+Q183557;Dieppe;commune in Seine-Maritime, France;11.67;30214
+Q671348;Worthing;town in West Sussex, England;32480000;104600
+Q991840;Janów Lubelski;city of Poland;;
+Q1324444;Thagaste;ancient city;;
+Q1666449;Velyki Sorochyntsi;village in Myrhorod Raion, Poltava Oblast, Ukraine;;4050
+Q1718;Düsseldorf;capital city of the German federated state of North Rhine-Westphalia;217.41;603210
+Q40738;Bursa;city in Turkey;11.043;2901396
+Q1048600;Fiorentino;part of the town of Torremaggiore, Apulia, Italy;;
+Q25475;Batumi;second largest city of Georgia;64900000;152839
+Q49201;Portland;county seat of Cumberland County, Maine, United States;179.85166;66937
+Q1924629;Dréan;;;
+Q1774606;Motihari;human settlement;;
+Q109010;Solna Municipality;municipality in Stockholm County, Sweden;21.66;73378
+Q625458;Carmel-by-the-Sea;city in Monterey County, California;2798000;3722
+Q829859;Mosfellsbær;town in south-west Iceland;197;9783
+Q2096;Edmonton;capital city of province of Alberta, Canada;684370000;812201
+Q84;London;capital of England and the United Kingdom;1572;8787892
+Q34602;Monselice;Italian comune;50.57;17616
+Q159288;Santa Barbara;city in California;108.753384;88410
+Q336438;Takasaki;city in Gunma Prefecture, Japan;459160000;375342
+Q189043;Petrópolis;city in the state of Rio de Janeiro, Brazil;774.606;286537
+Q189074;Harlem;group of neighborhoods in Manhattan, New York;3.871;335109
+Q5471686;Fort Mills;a fort on Corregidor island, the Philippines;;
+Q8717;Seville;city in the province of Seville, Spain;140000000;700169
+Q1297;Chicago;county seat of Cook County, Illinois, United States; third largest city in the United States by population;606.423602;2695598
+Q1025095;Yate;town in Gloucestershire, England;;
+Q18986;Pergamon;ancient Greek city in modern-day Turkey;;
+Q659823;Conway;city in South Carolina, United States;58.479231;21053
+Q2485134;Giulino;Italian frazione of the comune of Tremezzina, in the province of Como;;50
+Q185075;Saint-Germain-en-Laye;commune in Yvelines, France;48.27;39547
+Q19789;Welwyn Garden City;town in Hertfordshire, England;;
+Q15141121;Massilia;;;
+Q72;Zürich;capital of the canton of Zürich, Switzerland;87.88;400028
+Q1066487;Danvers;town in Essex County, Massachusetts, United States;14.1;
+Q1519069;Ketchum;city in Blaine County, Idaho, United States;8.429275;2680
+Q174691;Shizuoka;capital city of Shizuoka Prefecture, Japan;1411900000;723317
+Q929667;Lexington;city in the US state Massachusetts;16.5;31394
+Q2044;Florence;Italian city, located in Tuscany;102;377207
+Q743535;Chelsea;area of central London, England;;
+Q1242441;Frome;town and civil parish in eastern Somerset, England;;
+Q39042;Cheyenne;county seat in Laramie County, Wyoming, USA and Wyomings federated state capital city;70.247084;59466
+Q1055;Hamburg;city and federated state in Germany;755.30;1758041
+Q1779875;New Albany;city in Union County, Mississippi, United States;47.353075;8526
+Q987759;Enniscorthy;town in County Wexford, Ireland;;
+Q192761;County Armagh;county of Northern Ireland;1254;174792
+Q103011;Corinth;City in the Peloponnese, Greece;102.2;30176
+Q5764;Bukhara;city in Bukhara Province of Uzbekistan;39.4;263400
+Q162615;Cartagena;port city in southeast Spain;558080000;217641
+Q631638;Hanerau-Hademarschen;municipality of Germany;14.63;2990
+Q1010621;Petrovichi;hamlet in Smolensk Oblast, Russia;1.25;
+Q37701;Bloemfontein;city in the Free State, South Africa;236.17;256185
+Q33486;Hartford;city in and capital of Connecticut, United States;46.764198;124893
+Q101625;Marrakesh;city in Morocco;230;928850
+Q3967;Neuwied;town in Rhineland-Palatinate, Germany;86.5;64340
+Q158799;Berdychiv;city in Ukraine;3533;76711
+Q912068;Wu;ancient state in China, during the Western Zhou Dynasty and the Spring and Autumn Period;;
+Q3992;Liège;city in Liège, Belgium;69.39;196291
+Q13496;Brindisi;Italian comune;332.98;88126
+Q169460;Miletus;ancient Greek city;;
+Q23436;Edinburgh;capital city of Scotland, UK and local government council area;259;483000
+Q1349926;Sinuessa;city;;
+Q22595;Aurora;city in Kane County, Illinois, United States;118.551888;197899
+Q23106;Leicestershire;ceremonial county in England (use Q21272890 for administrative non-metropolitan county);2156;
+Q144792;Topanga;census designated place in California, USA;49.562926;8289
+Q1764;Reykjavík;capital and largest city in Iceland;274538739;124800
+Q1003678;Sammatti;former municipality of Finland, now part of Lohja;;
+Q3450542;Brooklin;;41.18;824
+Q2279685;Stanmore;suburban area of the London Borough of Harrow, in northwest London.;;
+Q43421;Richmond;capital city of Commonwealth of Virginia, United States;161.821914;204214
+Q2232673;Tauresium;archaeological site in Illyria, East Roman Empire;;
+Q546339;Wiedensahl;municipality of Germany;11.7;996
+Q115104;Monroe County;county in New York, United States;3537;744344
+Q331078;Amol;city in Iran;;
+Q10728500;;;;
+Q638089;Château de Plessis-lez-Tours;castle;;
+Q2878215;Bacchus Marsh;town in Victoria, Australia;;14913
+Q47716;Charleston;county seat of Charleston County, South Carolina, United States; oldest city in South Carolina;330.300132;120083
+Q1124023;Piccadilly;road in the City of Westminster, London, England;;
+Q99;California;state of the United States;423970.0;33871648
+Q1741;Vienna;capital and one of nine States of Austria;414.87;1794770
+Q82230;Lake Geneva;fourth-class city in Walworth County, Wisconsin;17.712807;7148
+Q4970;Hangzhou;capital of Zhejiang Province, China;16841;6604000
+Q268485;Sulingen;municipality of Germany;110.61;12800
+Q597413;Wildhaus;;34.43;
+Q516405;Reinbek;municipality of Germany;31.23;27048
+Q34227;Belleville;city in Ontario, Canada;246.76;49454
+Q213325;Rapid City;county seat of Pennington County, South Dakota, United States;141.216229;70812
+Q956083;Voronezh Governorate;former governorate in Russia;;2531253
+Q936641;Woolsthorpe-by-Colsterworth;village in Lincolnshire;;
+Q1533;Caracas;capital and centre of the Greater Caracas Area, Venezuela;776;1943901
+Q245579;Burscheid;city in Germany;27.38;
+Q16555;Houston;county seat of Harris County, Texas; fourth largest city in the United States by population;1724.544507;2195914
+Q691685;Kirkcaldy;town and former royal burgh in Fife, Scotland;18;48108
+Q29303;Canterbury;cathedral city the City of Canterbury, Kent, England;;55240
+Q7165;Portbou;town in the Alt Empordà county, in Girona province, Catalonia, Spain;9.20;1280
+Q36091;Minneapolis;county seat in Hennepin County, Minnesota, United States;151300000;400070
+Q23556;Atlanta;city in Dekalb County and Fulton County, Georgia, USA, county seat city in Fulton County and Georgia federated state capital city;347.996293;447841
+Q7903;Casablanca;city in Morocco;386;3359818
+Q696964;Griffen;municipality in Austria;74.74;3518
+Q211950;Dunfermline;town and former Royal Burgh in Fife, Scotland;18311215;50380
+Q44112;Cyrene;ancient Greek and Roman city near present-day Shahhat, Libya;;
+Q145;United Kingdom;constitutional monarchy in Western Europe; formed in 1927;242495.406794;63181775
+Q279;Modena;Italian city and comune;183.19;184960
+Q257830;Naples;county seat of Collier County, Florida, United States;42.593437;19539
+Q1646181;Worcester;city and the county town of Worcestershire, England;33280000;100842
+Q9903;Ming dynasty;former state in China;;
+Q179259;Crowborough;town in the Wealden district of East Sussex, England;;
+Q8762;Radebeul;town in the district of Meißen in Saxony, Germany;26060000;
+Q17;Japan;constitutional monarchy in East Asia;377972.28;128057352
+Q1906;Caserta;italian comune;54.07;76257
+Q1231836;Steventon;village in Hampshire, England;;
+Q3138;Trier;town in Rhineland-Palatinate, Germany, oldest city in Germany;117140000;108472
+Q49239;Toledo;county seat of Lucas County, Ohio, United States;217.953266;287208
+Q841589;Castilleja de la Cuesta;municipality of Spain;2;17474
+Q2014458;Dunfermline Palace;ruined former royal palace in Scotland;;
+Q186234;Kufa;city in Iraq, about 170 kilometres (110 mi) south of Baghdad, and 10 kilometres (6.2 mi) northeast of Najaf.;;127876
+Q187136;Luoyang;prefecture-level city in Henan, China;15.208;6549941
+Q157447;Lebedyan;;;
+Q207639;Chichester;city in West Sussex, England;8.61;30925
+Q18125;Manchester;major city in Greater Manchester, England, UK;115.6;511852
+Q4531;Soltaniyeh;capital of Soltaniyeh District of Abhar County, Zanjan Province, Iran;;
+Q5753;Samarkand;city in Uzbekistan;108;504423
+Q1757;Helsinki;city in Uusimaa, Finland and capital of Finland;213.75;603968
+Q279890;Germantown;neighborhood in Philadelphia, Pennsylvania, United States;3.327;75935
+Q187027;Kos;Greek island;290.3;
+Q172343;Rafah;city;;119895
+Q2750458;Wola Okrzejska;;;
+Q68144;Zug;city in Switzerland, capital of its canton;21.61;27537
+Q165444;Tikrit;city in Salahadin province of Iraq;;260000
+Q994372;East Hampton (town), New York;town in New York;386.55;21457
+Q2119652;Oneglia;;;
+Q198370;Zibo;prefecture-level city in Shandong, China;5938;4530597
+Q22737;Sélestat;commune in Bas-Rhin, France;44.4;19332
+Q7332;Bergen-Belsen concentration camp;Nazi concentration camp;;
+Q1729;Erfurt;capital city of German federated state of Thuringia;269.88;206219
+Q34404;New Orleans;port city in Orleans Parish, Louisiana, United States;906.099114;343829
+Q210776;Saint-Girons;commune in Ariège, France;19.13;6289
+Q23154;Bristol;city in South West England;110000000;442500
+Q190684;County Down;county of Northern Ireland;2448;
+Q42735;Olympia;county seat in Thurston County, Washington, USA and Washington federated state capital city;51.977836;46478
+Q5489;Troyes;commune in Aube, France;13.2;60750
+Q739037;Nicaea;city;;
+Q7003;Dijon;commune in Côte-d'Or, France;40.41;151576
+Q16869;Constantinople;capital city of the Eastern Roman or Byzantine Empire, the Latin and the Ottoman Empire;;
+Q83065;Leicester;city in Leicestershire, East Midlands, England;73.32;329839
+Q694086;Montagnola;;;
+Q3145146;;hospital;;
+Q891;Nizhny Novgorod;capital of the Volga Federal District in Russia;410.6;14400
+Q38981;Vorarlberg;federal state of Austria;2601.48;388711
+Q7517380;Simaria;human settlement in India;;
+Q2795;Chemnitz;city in Germany;220.85;241210
+Q4120832;Königsberg;capital city in Prussia;;
+Q1715;Hanover;capital city of the German federated state of Lower Saxony;204010000;518386
+Q783;Honduras;republic in Central America;112492;2002333
+Q835831;Mount Vernon;city in New York, USA;11.403443;67292
+Q504255;Rottach-Egern;municipality of Germany;59.1;5395
+Q131491;Brighton;town on the south coast of Great Britain;82.67;160000
+Q16552;San Diego;city in California, eighth largest city in the United States by population;964.497168;1345895
+Q2656;Palermo;Italian comune;158.9;674435
+Q693913;Medina del Campo;municipality of Spain;;21556
+Q536598;Klazomenai;ancient city;;
+Q1353;Delhi;Indian metropolis that includes New Delhi;1484;26495000
+Q529879;Röcken;;11.8;599
+Q375535;Pont-du-Château;commune in Puy-de-Dôme, France;21.61;10516
+Q16990;Mount Etna;active stratovolcano on the east coast of Sicily, Italy;;
+Q40435;Buffalo;county seat city in Erie County, New York, USA;135.955866;258959
+Q197297;17th arrondissement of Paris;one of the 20 administrative districts of Paris, France;5.67;170218
+Q202422;Salamis Island;island in the Aegean Sea;91.503;
+Q320299;Descartes;commune in Indre-et-Loire, France;38.08;3689
+Q25409;Košice;city in Slovakia;242.33;240688
+Q23109;Norfolk;county in East Anglia, England;5371;
+Q42945;Goito;Italian comune;79.22;10278
+Q197889;Zhongnanhai;imperial garden in central Beijing, China;;
+Q2807;Madrid;capital city of Spain;60445.51;3207247
+Q72778;Taiyuan;capital city of Shanxi province, China;6956;3398000
+Q29513989;Al Rahbi Park;It is a large park with an area of ​​about ten thousand square meters, located in the middle of the twentieth street in the Adhamiya district, on the Rusafa side of Baghdad;;
+Q80096;Heber Springs;city in Arkansas;22.164454;7165
+Q1086351;East Brunswick;township in Middlesex County, New Jersey;22.27;47512
+Q1156;Mumbai;capital city and district in Maharashtra, India;603;12442373
+Q43332;Pompeii;ancient Roman town-city near modern Naples, Italy;;
+Q363166;Ganzhou;prefecture-level city in Jiangxi, China;39380;8300000
+Q3306;Panama City;capital of Panamá;275;880691
+Q192368;Vence;commune in Alpes-Maritimes, France;39.23;19052
+Q2723786;South Berwick;town in Maine;32.64;7220
+Q90;Paris;capital city of France;105.4;2240621
+Q25;Wales;country in Northwest Europe, part of the United Kingdom;20779;3074067
+Q984575;Tébessa;;;
+Q501773;Bethsaida;single entity of population;;
+Q16558;Fort Worth;county seat of Tarrant County, Texas, United States;909.611027;812238
+Q162413;Sirte;city in Libya;;140000
+Q754010;Fort Washington;unincorporated community in Prince George's County, Maryland, United States;42.919841;23717
+Q863832;Bingley;market town in the metropolitan borough of the City of Bradford, in West Yorkshire, England.;;
+Q5083;Seattle;county seat of King County, Washington, United States;369.243614;608660
+Q1720;Mainz;capital of the German state of Rhineland-Palatinate, Germany;97.74;206991
+Q9009;Schaffhausen;Swiss city, capital of the canton of Schaffhausen;41.78;35413
+Q5608428;Greyhound Pub;;;
+Q163795;Valenciennes;commune in Nord, France;13.82;42851
+Q49236;St. Petersburg;city in Pinellas County, Florida, United States;356.49541;253693
+Q1345;Philadelphia;county seat city in Philadelphia County, Pennsylvania; sixth largest city in the United States by population;369.609252;1560297
+Q391953;Ermenonville;commune in Oise, France;16.49;1001
+Q283034;Mugello;historic region and valley in northern Tuscany, in Italy;;
+Q43684;Henan;province of China;;
+Q172455;Boulogne-Billancourt;commune in Hauts-de-Seine, France;6.17;116794
+Q370498;Sceaux;commune in Hauts-de-Seine, France;3.6;19718
+Q180871;Compiègne;commune in Oise, France;53.1;40430
+Q35765;Ōsaka;city in Japan;223000000;2713157
+Q189;Iceland;island republic in Northern Europe;103004.0;317351
+Q1479;Bordeaux;commune in Gironde, France;49.36;246586
+Q988741;St. Louis Park;city in Hennepin County, Minnesota;28130000;44126
+Q492478;Terre Haute;county seat of Vigo County, Indiana, United States;91.345196;60785
+Q365;Cologne;city in North Rhine-Westphalia, Germany;405.02;1027679
+Q1362341;Tyburn;village in the county of Middlesex close to the current location of Marble Arch in present-day London;;
+Q12820;Yvelines;French department;;1413635
+Q5818;Córdoba;city in Andalusia, southern Spain;1253;328704
+Q4827;Vyritsa;urban village in the Gatchina district of Leningrad region, Russia;;
+Q1799;Wrocław;city in Lower Silesian Voivodeship, Poland;293;634487
+Q182591;County Wicklow;county in Ireland;2027.0;142332
+Q846127;Stagira;village in Greece;;352
+Q1400;Pennsylvania;state of the United States;119283.0;1049458
+Q1379299;Smyrna;ancient city on the Aegean coast of Turkey;;
+Q1308;Como;Italian city;37.34;84394
+Q3640;Ankara;capital of Turkey;24521;5270575
+Q233129;Peoria;county seat of Peoria County, Illinois, United States;130.665007;115828
+Q8611;La Spezia;Italian comune;51;93515
+Q43919;Salem;city and capital of Oregon, USA;127.220892;154637
+Q634231;Vimmerby;urban area in Vimmerby Municipality, Sweden;654;6016
+Q812906;Beaconsfield;in Buckinghamshire;;
+Q1524;Athens;capital city of Greece;39;664046
+Q23240;Essex;ceremonial county in England (use Q21272241 for administrative non-metropolitan county);3670;
+Q844930;Classical Athens;city-state in ancient Greece;;
+Q741194;Contamine-sur-Arve;commune in Haute-Savoie, France;6.92;1738
+Q69445;Vufflens-le-Château;municipality in Switzerland;2.14;
+Q175632;Nuneaton;town in Warwickshire, England;;
+Q340;Montreal;city in Quebec, Canada;498;1649519
+Q725261;Ashford;town in the borough of Ashford in Kent, England;;
+Q6548;Orléans;city in north-central France;27.48;114375
+Q7102931;Orkesta;;;
+Q69345;Neuchâtel;city in Switzerland and capital of its canton;18.05;33474
+Q49143;Quincy;city in Massachusetts;69.683664;92271
+Q205380;Greenwich Village;neighborhood in Manhattan;0.289;
+Q647;Rennes;commune in Ille-et-Vilaine, France;50.39;209860
+Q2973;Darmstadt;city in Hessen, Germany;122230000;153166
+Q56037;East Berlin;Soviet sector of Berlin between 1949 and 1990;409;1279212
+Q390812;Nagato;city in Yamaguchi Prefecture, Japan;357.92;33755
+Q1962453;Macuspana;city;;32225
+Q23051;Swansea;coastal city in Wales;380000000;
+Q1183392;South Connellsville;borough of Pennsylvania;1.73;
+Q1049641;Castleknock;suburb of Dublin and a civil parish in Fingal, Ireland;;
+Q674412;Berzona;;;
+Q642900;Grande Prairie;city in Alberta, Canada;62.3;63166
+Q41185;Caen;commune in Calvados, France;25.7;107229
+Q105060;Sosnowiec;City in Silesian Voivodeship with powiat rights of Poland;91060000;214488
+Q9248;Baku;capital of Azerbaijan;2130;2122300
+Q586;Bonn;city in Germany, former capital;141;311287
+Q7414040;San Francisco General Hospital;hospital;;
+Q33935;Tel Aviv;second largest city in Israel;52000000;426138
+Q158004;Piotrków Trybunalski;City with powiat rights of Poland;67270000;77810
+Q2561339;Gracias;city in Honduras;;50256
+Q665243;Reichenau an der Rax;municipality in Austria;89.5;2601
+Q3111445;Gossas;;;
+Q49158;Springfield;county seat of Hampden County, Massachusetts, United States;85.681505;153060
+Q16553;San Jose;county seat of Santa Clara County, California; tenth largest city in the United States by population;467.553078;1000536
+Q221507;Saint-Rémy-de-Provence;commune in Bouches-du-Rhône, France;89.09;9798
+Q128147;Kingston upon Hull;city in the East Riding of Yorkshire, England;71450000;
+Q487988;St. Augustine;county seat of St. Johns County, Florida, United States;33.060208;11592
+Q1187817;Lock Haven;city in Pennsylvania;2.67;9772
+Q161962;Chełmno;city and urban gmina of Poland;13.56;
+Q26897;Gallia Narbonensis;Roman province;;
+Q1110037;Agaro;town and woreda in southwestern Ethiopia;;
+Q7352;Jin dynasty;Chinese dynasty (265–420);;
+Q1808895;Lavenham;village and civil parish in Babergh, Suffolk, England;;
+Q48278;Medellín;Capital of the Colombian department of Antioquia;380.74;2989705
+Q1780;Bratislava;capital city of Slovakia;367.584;417389
+Q1204;Illinois;state of the United States of America;149998.0;12830632
+Q180078;Kermanshah;capital of Kermanshah Province in Iran;97;851405
+Q2277;Roman Empire;period of Imperial Rome following the Roman Republic (27 BC–395 AD);4790000;56800000
+Q1530761;Glen Ellyn;town;17.87359;
+Q714986;Balf;human settlement;;998
+Q3667188;Cherbourg;former commune of France;;
+Q1842;Luxembourg;capital city of the country Luxembourg;5124;15091
+Q3495316;St George's Hospital;hospital in Tooting in the London Borough of Wandsworth;;
+Q19784;Berkhamsted;civil parish and town in Dacorum, Hertfordshire in England;1278.37;18100
+Q679952;Renton;city in King County, Washington, USA;61.174927;90927
+Q840668;La Jolla;neighborhood in San Diego, California, United States;;42808
+Q58894;Santa Maria Capua Vetere;Italian comune;15.92;32856
+Q83786;Shimla;Capital of Himachal Pradesh, India;25;269578
+Q1558;Kansas;state in the United States of America;213100;2853118
+Q208262;Eastbourne;town in East Sussex, England;;
+Q219117;Zomba, Malawi;city in the southern parts of Malawi;;101140
+Q72719;Torre del Greco;Italian comune;33.7;85927

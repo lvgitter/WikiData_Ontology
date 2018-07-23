@@ -256,7 +256,7 @@ translators_file = open(translators_file_path, 'a')
 speaks_file = open(speaks_file_path, 'a')
 place_of_birth_file = open(place_of_birth_file_path, 'a')
 place_of_death_file = open(place_of_death_file_path, 'a')
-occupations_file = open(translators_file_path, 'a')
+occupations_file = open(occupations_file_path, 'a')
 log_file = open(log_file_path, 'a')
 
 n_translators = len(translators)

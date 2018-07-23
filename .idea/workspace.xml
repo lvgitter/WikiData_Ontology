@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f9c1132-1bf9-4d35-a890-1b8aab879b41" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/roles/hasLocation.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/obj/awards.pkl" afterPath="$PROJECT_DIR$/python/obj/awards.pkl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/obj/genres.pkl" afterPath="$PROJECT_DIR$/python/obj/genres.pkl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/obj/locations.pkl" afterPath="$PROJECT_DIR$/python/obj/locations.pkl" />
@@ -25,15 +24,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/log_Edition.txt" afterPath="$PROJECT_DIR$/log/log_Edition.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/log_Language.txt" afterPath="$PROJECT_DIR$/log/log_Language.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/log_Publisher.txt" afterPath="$PROJECT_DIR$/log/log_Publisher.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/authors_download.py" afterPath="$PROJECT_DIR$/python/authors_download.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQL_scripts/book_mappings.xml" afterPath="$PROJECT_DIR$/mySQL_scripts/book_mappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQL_scripts/create.sql" afterPath="$PROJECT_DIR$/mySQL_scripts/create.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQL_scripts/insert.sql" afterPath="$PROJECT_DIR$/mySQL_scripts/insert.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/books_download.py" afterPath="$PROJECT_DIR$/python/books_download.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/characters_download.py" afterPath="$PROJECT_DIR$/python/characters_download.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/cities_download.py" afterPath="$PROJECT_DIR$/python/cities_download.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/countries_download.py" afterPath="$PROJECT_DIR$/python/countries_download.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/editions_download.py" afterPath="$PROJECT_DIR$/python/editions_download.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/human_download.py" afterPath="$PROJECT_DIR$/python/human_download.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/init.py" afterPath="$PROJECT_DIR$/python/init.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/languages_download.py" afterPath="$PROJECT_DIR$/python/languages_download.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/mayor_download.py" afterPath="$PROJECT_DIR$/python/mayor_download.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/publishers_download.py" afterPath="$PROJECT_DIR$/python/publishers_download.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/translator_download.py" afterPath="$PROJECT_DIR$/python/translator_download.py" />
@@ -68,7 +63,7 @@
       <file leaf-file-name="human_download.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/human_download.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="5875">
               <caret line="244" column="60" lean-forward="false" selection-start-line="244" selection-start-column="51" selection-end-line="244" selection-end-column="60" />
               <folding />
             </state>
@@ -78,8 +73,8 @@
       <file leaf-file-name="translator_download.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/translator_download.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="241" column="68" lean-forward="false" selection-start-line="241" selection-start-column="68" selection-end-line="241" selection-end-column="68" />
+            <state relative-caret-position="347">
+              <caret line="257" column="47" lean-forward="false" selection-start-line="257" selection-start-column="47" selection-end-line="257" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -88,28 +83,8 @@
       <file leaf-file-name="countries_download.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/countries_download.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1170">
+            <state relative-caret-position="3400">
               <caret line="144" column="59" lean-forward="false" selection-start-line="144" selection-start-column="59" selection-end-line="144" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="editions_download.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/editions_download.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mayor_download.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/mayor_download.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="180" column="29" lean-forward="false" selection-start-line="180" selection-start-column="23" selection-end-line="180" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -118,18 +93,18 @@
       <file leaf-file-name="publishers_download.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/publishers_download.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="146" column="38" lean-forward="false" selection-start-line="146" selection-start-column="32" selection-end-line="146" selection-end-column="38" />
+            <state relative-caret-position="-20">
+              <caret line="190" column="0" lean-forward="false" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="init.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="init.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python/init.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="320" column="0" lean-forward="true" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
+            <state relative-caret-position="325">
+              <caret line="22" column="12" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -137,31 +112,51 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="mayor_download.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python/mayor_download.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2850">
+              <caret line="123" column="57" lean-forward="false" selection-start-line="123" selection-start-column="57" selection-end-line="123" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cities_download.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python/cities_download.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1030">
+              <caret line="92" column="40" lean-forward="false" selection-start-line="92" selection-start-column="40" selection-end-line="92" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="characters_download.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/characters_download.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
+            <state relative-caret-position="954">
               <caret line="149" column="25" lean-forward="false" selection-start-line="149" selection-start-column="25" selection-end-line="149" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="books_download.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="books_download.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/books_download.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7571">
-              <caret line="435" column="8" lean-forward="false" selection-start-line="435" selection-start-column="5" selection-end-line="435" selection-end-column="8" />
+            <state relative-caret-position="478">
+              <caret line="405" column="14" lean-forward="false" selection-start-line="405" selection-start-column="14" selection-end-line="405" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="authors_download.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/authors_download.py">
+      <file leaf-file-name="parser_v2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mySQL_scripts/parser_v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="138" column="19" lean-forward="false" selection-start-line="138" selection-start-column="19" selection-end-line="138" selection-end-column="19" />
+            <state relative-caret-position="419">
+              <caret line="305" column="26" lean-forward="false" selection-start-line="305" selection-start-column="26" selection-end-line="305" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -178,9 +173,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>hasChara</find>
-      <find>&quot;+ &quot;;&quot; +&quot;</find>
-      <find>humans_file_lock</find>
       <find>statistics_loc</find>
       <find>book_id</find>
       <find>character</find>
@@ -208,6 +200,9 @@
       <find>human_cha</find>
       <find>human_character_file</find>
       <find>illus</find>
+      <find>preferr</find>
+      <find>translators_file_path</find>
+      <find>has_count</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -258,18 +253,18 @@
         <option value="$PROJECT_DIR$/python/books_download_2.py" />
         <option value="$PROJECT_DIR$/mySQL_scripts/parser.py" />
         <option value="$PROJECT_DIR$/python/test_python_program.py" />
-        <option value="$PROJECT_DIR$/python/cities_download.py" />
-        <option value="$PROJECT_DIR$/python/mayor_download.py" />
-        <option value="$PROJECT_DIR$/python/books_download.py" />
         <option value="$PROJECT_DIR$/python/languages_download.py" />
-        <option value="$PROJECT_DIR$/python/publishers_download.py" />
         <option value="$PROJECT_DIR$/python/human_download.py" />
         <option value="$PROJECT_DIR$/python/authors_download.py" />
-        <option value="$PROJECT_DIR$/python/translator_download.py" />
         <option value="$PROJECT_DIR$/python/editions_download.py" />
         <option value="$PROJECT_DIR$/python/countries_download.py" />
         <option value="$PROJECT_DIR$/python/characters_download.py" />
         <option value="$PROJECT_DIR$/python/init.py" />
+        <option value="$PROJECT_DIR$/python/translator_download.py" />
+        <option value="$PROJECT_DIR$/python/cities_download.py" />
+        <option value="$PROJECT_DIR$/python/mayor_download.py" />
+        <option value="$PROJECT_DIR$/python/books_download.py" />
+        <option value="$PROJECT_DIR$/python/publishers_download.py" />
       </list>
     </option>
   </component>
@@ -368,23 +363,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="cities_download" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="WikidataProject" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/cities_download.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="init" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -419,20 +397,37 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="parser_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mySQL_scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WikidataProject" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mySQL_scripts/parser_v2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.books_download" />
-      <item index="1" class="java.lang.String" itemvalue="Python.cities_download" />
-      <item index="2" class="java.lang.String" itemvalue="Python.parser" />
-      <item index="3" class="java.lang.String" itemvalue="Python.init" />
-      <item index="4" class="java.lang.String" itemvalue="Python.characters_download" />
+      <item index="1" class="java.lang.String" itemvalue="Python.parser" />
+      <item index="2" class="java.lang.String" itemvalue="Python.init" />
+      <item index="3" class="java.lang.String" itemvalue="Python.characters_download" />
+      <item index="4" class="java.lang.String" itemvalue="Python.parser_v2" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.init" />
-        <item index="1" class="java.lang.String" itemvalue="Python.characters_download" />
-        <item index="2" class="java.lang.String" itemvalue="Python.books_download" />
-        <item index="3" class="java.lang.String" itemvalue="Python.parser" />
-        <item index="4" class="java.lang.String" itemvalue="Python.cities_download" />
+        <item index="1" class="java.lang.String" itemvalue="Python.parser_v2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.characters_download" />
+        <item index="3" class="java.lang.String" itemvalue="Python.books_download" />
+        <item index="4" class="java.lang.String" itemvalue="Python.parser" />
       </list>
     </recent_temporary>
   </component>
@@ -507,7 +502,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/filter_english_wikidata_entity.py" />
-    <entry file="file://$PROJECT_DIR$/filter_english_wikidata_entity.py" />
     <entry file="file://$PROJECT_DIR$/filter_articles_entity_wikidata.py" />
     <entry file="file://$PROJECT_DIR$/filter_english_wikidata_entity.py" />
     <entry file="file://$PROJECT_DIR$/filter_articles_entity_wikidata.py" />
@@ -569,57 +563,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/test_python_program.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/cities_download.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="189" column="104" lean-forward="false" selection-start-line="189" selection-start-column="98" selection-end-line="189" selection-end-column="104" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/python/test_python_program.py" />
     <entry file="file://$PROJECT_DIR$/python/languages_download.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
           <caret line="113" column="32" lean-forward="false" selection-start-line="113" selection-start-column="26" selection-end-line="113" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/mayor_download.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="180" column="29" lean-forward="false" selection-start-line="180" selection-start-column="23" selection-end-line="180" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/publishers_download.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="146" column="38" lean-forward="false" selection-start-line="146" selection-start-column="32" selection-end-line="146" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python/authors_download.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
+        <state relative-caret-position="3225">
           <caret line="138" column="19" lean-forward="false" selection-start-line="138" selection-start-column="19" selection-end-line="138" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/translator_download.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="241" column="68" lean-forward="false" selection-start-line="241" selection-start-column="68" selection-end-line="241" selection-end-column="68" />
           <folding />
         </state>
       </provider>
@@ -634,7 +589,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python/countries_download.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1170">
+        <state relative-caret-position="3400">
           <caret line="144" column="59" lean-forward="false" selection-start-line="144" selection-start-column="59" selection-end-line="144" selection-end-column="59" />
           <folding />
         </state>
@@ -642,35 +597,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python/human_download.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="5875">
           <caret line="244" column="60" lean-forward="false" selection-start-line="244" selection-start-column="51" selection-end-line="244" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mySQL_scripts/parser_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="305" column="26" lean-forward="false" selection-start-line="305" selection-start-column="26" selection-end-line="305" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python/characters_download.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
+        <state relative-caret-position="954">
           <caret line="149" column="25" lean-forward="false" selection-start-line="149" selection-start-column="25" selection-end-line="149" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/mayor_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2850">
+          <caret line="123" column="57" lean-forward="false" selection-start-line="123" selection-start-column="57" selection-end-line="123" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/translator_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="257" column="47" lean-forward="false" selection-start-line="257" selection-start-column="47" selection-end-line="257" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/cities_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1030">
+          <caret line="92" column="40" lean-forward="false" selection-start-line="92" selection-start-column="40" selection-end-line="92" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/books_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="405" column="14" lean-forward="false" selection-start-line="405" selection-start-column="14" selection-end-line="405" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/publishers_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="190" column="0" lean-forward="false" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python/init.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="320" column="0" lean-forward="true" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
+        <state relative-caret-position="325">
+          <caret line="22" column="12" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/books_download.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7571">
-          <caret line="435" column="8" lean-forward="false" selection-start-line="435" selection-start-column="5" selection-end-line="435" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>

@@ -122,7 +122,6 @@ class MayorDownloadThread(threading.Thread):
                 for mayor_data in data['entities'][mayor]["claims"]["P1308"]:
                     pref_mayor = mayor_data
                     if mayor_data["rank"] == "preferred":
-                        print("preferred")
                         break
                 try:
                     has_role_lock.acquire()

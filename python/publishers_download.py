@@ -58,7 +58,7 @@ class myThread (threading.Thread):
                     data = response.json()
                 except:
                     print ("EXCEPTION " + url)
-                    time.sleep(0,5)
+                    time.sleep(0.5)
                     continue
             pub_id = result
             

@@ -1,0 +1,22 @@
+2018-07-23 18:29:38
+
+
+
+*** STATISTICS *** 
+no start time   :35  (38.0 %) 
+no end time     :35  (38.0 %) 
+no official residence:70  (75.0 %) 
+no label        :3  (3.0 %) 
+no description  :0  (0.0 %) 
+no human        :0  (0.0 %) 
+Total_time:	17.29 sec
+
+
+*** STATISTICS *** 
+no start time   :0  (0.0 %) 
+no end time     :0  (0.0 %) 
+no official residence:1  (33.0 %) 
+no label        :0  (0.0 %) 
+no description  :0  (0.0 %) 
+no human        :0  (0.0 %) 
+Total_time:	3.26 sec

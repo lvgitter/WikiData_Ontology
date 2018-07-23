@@ -1,138 +1,196 @@
 human_id;human_label;human_description;human_name;human_sex;human_DoB;human_DoD
-Q706003;Ugolino della Gherardesca;Italian politician and soldier;Ugolino della Gherardesca;male;+1220-01-01T00:00:00Z;Q13375;+1289-01-01T00:00:00Z;Q13375
-Q247137;Aelius Donatus;Roman grammarian;Aelius Donatus;male;+0320-00-00T00:00:00Z;;+0380-00-00T00:00:00Z;
-Q311456;Orosius;Roman scholar;Orosius;male;+0375-01-01T00:00:00Z;Q83247;+0420-01-01T00:00:00Z;
-Q5254;Folquet de Marselha;trobadour and anti-Cathar bishop of Toulouse;Folquet de Marseille;male;+1150-01-01T00:00:00Z;Q23482;+1231-12-25T00:00:00Z;
-Q83041;Anaxagoras;ancient Greek philosopher;Ἀναξαγόρας;male;-0500-00-00T00:00:00Z;Q536598;-0428-00-00T00:00:00Z;Q1229422
-Q111559;Judah Maccabee;Jewish revolutionary;Judah Maccabee;male;;Q165867;-0160-00-00T00:00:00Z;Q49127307
-Q39837;Averroes;Medieval Arab scholar and philosopher;ابن رشد;male;+1126-04-14T00:00:00Z;Q5818;+1198-12-10T00:00:00Z;Q101625
-Q1707785;Joseph Patrick Nannetti;Irish politician;Joseph Patrick Nannetti;male;+1851-01-01T00:00:00Z;Q27;+1915-04-26T00:00:00Z;Q84
-Q102851;Boethius;philosopher of the early 6th century;Anicius Manlius Torquatus Severinus Boethius;male;+0480-01-01T00:00:00Z;Q220;+0525-00-00T00:00:00Z;Q6259
-Q6691;Homer;ancient Greek epic poet, traditionally considered as the author of the Iliad and the Odyssey;Ὅμηρος;male;-0900-00-00T00:00:00Z;Q1379299;-0800-00-00T00:00:00Z;Q216993
-Q859;Plato;Classical Greek philosopher;Πλάτων;male;-0427-00-00T00:00:00Z;Q844930;-0347-00-00T00:00:00Z;Q844930
-Q2521377;Ottaviano degli Ubaldini;Italian cardinal;Ottaviano degli Ubaldini;male;+1214-01-01T00:00:00Z;Q2044;+1273-01-01T00:00:00Z;Q220
-Q1067;Dante Alighieri;Italian poet;Dante Alighieri;male;+1265-05-00T00:00:00Z;Q2044;+1321-09-14T00:00:00Z;Q13364
-Q1048;Julius Caesar;Roman politician and general;Gaius Iulius Caesar;male;-0100-00-00T00:00:00Z;Q220;-0044-03-01T00:00:00Z;Q944814
-Q258369;Peter Damian;reformist monk;Peter Damian;male;+1007-01-01T00:00:00Z;Q13364;+1072-02-22T00:00:00Z;Q52981
-Q1093574;Ruggieri degli Ubaldini;Italian archbishop;Ruggieri degli Ubaldini;male;;Q283034;+1295-09-15T00:00:00Z;Q13395
-Q316876;Guido Cavalcanti;poet from Italy;Guido Cavalcanti;male;+1258-00-00T00:00:00Z;Q2044;+1300-08-29T00:00:00Z;Q2044
-Q4344;Arnaut Daniel;Occitan troubadour;Arnaut Daniel;male;+1150-00-00T00:00:00Z;Q471581;+1210-00-00T00:00:00Z;
-Q8747;Euclid;Greek mathematician, inventor of axiomatic geometry;Εὐκλείδης;male;;;;
-Q131691;Arthur Wellesley, 1st Duke of Wellington;British soldier and statesman;Arthur Wellesley, 1. Duke of Wellington;male;+1769-05-01T00:00:00Z;Q1761;+1852-09-14T00:00:00Z;Q2543161
-Q132786;Anastasius II;pope;Anastasius II;male;;Q220;+0498-11-17T00:00:00Z;Q220
-Q43706;John Chrysostom;important Early Church Father;John Chrysostom;male;+0349-00-00T00:00:00Z;Q200441;+0407-09-14T00:00:00Z;Q2140586
-Q48305;Euripides;ancient Athenian playwright;Εὐριπίδης;male;-0480-00-00T00:00:00Z;Q202422;-0406-00-00T00:00:00Z;Q213679
-Q172248;Marcus Junius Brutus;Roman politician;Marcus Junius Brutus;male;-0085-01-01T00:00:00Z;Q220;-0042-01-01T00:00:00Z;Q379652
-Q160441;Rabanus Maurus;archbishop of Mainz and writer;Rabanus Maurus;male;+0780-00-00T00:00:00Z;Q1720;+0856-02-04T00:00:00Z;Q1720
 Q28575591;Tisdall Farrell;Dublin eccentric in James Joyce's Ulysses;Tisdall Farrell;male;+1851-06-17T00:00:00Z;;;
-Q366070;George William Russell;Irish writer, editor, critic, poet, and artistic painter;George William Russell;male;+1867-04-10T00:00:00Z;Q192761;+1935-07-17T00:00:00Z;Q170478
-Q2721219;Farinata degli Uberti;Italian aristocrat;Farinata degli Uberti;male;+1212-01-01T00:00:00Z;Q2044;+1264-11-11T00:00:00Z;Q2044
-Q2442652;Tony Johannot;French painter;Tony Johannot;male;+1803-11-09T00:00:00Z;Q3042;+1852-08-04T00:00:00Z;Q90
-Q2254800;Cunizza da Romano;Italian noble;Cunizza da Romano;female;+1198-01-01T00:00:00Z;;+1279-01-01T00:00:00Z;
-Q43939;Anselm of Canterbury;Benedictine monk, philosopher, and prelate;Anselmus Cantuariensis;male;+1033-00-00T00:00:00Z;Q3367;+1109-04-21T00:00:00Z;Q29303
-Q41980;Democritus;Ancient Greek philosopher, pupil of Leucippus, founder of the atomic theory;Δημόκριτος;male;-0460-01-01T00:00:00Z;Q188615;-0360-01-01T00:00:00Z;Q41
-Q635;Cleopatra;last active pharaoh of Ptolemaic Egypt;Cleopatra;female;-0069-00-00T00:00:00Z;Q87;-0030-08-12T00:00:00Z;Q87
-Q83375;Empedocles;ancient Greek philosopher;Empedocles;male;-0490-00-00T00:00:00Z;Q13678;-0430-00-00T00:00:00Z;Q16990
 Q466048;Francesca da Rimini;Italian noble;Francesca da Rimini;female;+1259-01-01T00:00:00Z;Q13364;+1285-01-01T00:00:00Z;Q206990
-Q154938;Bede;English monk and saint;Beda Venerabilis;male;+0672-01-01T00:00:00Z;Q107299;+0735-05-25T00:00:00Z;Q782155
-Q172353;Pyrrhus;Epirot Illyrian military leader;Πύρρος;male;-0318-01-01T00:00:00Z;Q11266977;-0272-01-01T00:00:00Z;Q189901
-Q913;Socrates;classical Greek Athenian philosopher;Σωκράτης;male;-0470-00-00T00:00:00Z;Q2839314;-0399-00-00T00:00:00Z;Q844930
-Q41866;Justinian I;Eastern Roman Emperor (Byzantine Emperor);Flavius Petrus Sabbatius Iustinianus;male;+0482-05-11T00:00:00Z;Q2232673;+0565-11-14T00:00:00Z;Q16869
-Q43746;Bonaventure;franciscan, bishop, cardinal, Doctor of the Church, catholic saint;Giovanni Fidanza;male;+1221-00-00T00:00:00Z;Q159498;+1274-07-15T00:00:00Z;Q456
-Q41166;Jonathan Swift;Anglo-Irish satirist, essayist, and poet;Jonathan Swift;male;+1667-11-30T00:00:00Z;Q1761;+1745-10-19T00:00:00Z;Q1761
-Q8778;Galen;Roman physician, surgeon and philosopher;Γαληνός;male;+0129-00-00T00:00:00Z;Q18986;+0216-00-00T00:00:00Z;Q220
-Q302;Jesus Christ;central figure of Christianity;ישוע;male;-0002-00-00T00:00:00Z;Q5776;+0033-00-00T00:00:00Z;Q170516
-Q1416892;Thomas William Lyster;Irish librarian;Thomas William Lyster;male;+1855-01-01T00:00:00Z;;+1922-01-01T00:00:00Z;
-Q359237;Charles Martel of Anjou;King of Hungary;Charles Martel of Anjou;male;+1271-09-15T00:00:00Z;Q2634;+1295-08-12T00:00:00Z;Q2634
-Q676555;Francis of Assisi;Catholic saint and founder of the Franciscan Order;Francesco;male;+1182-00-00T00:00:00Z;Q20103;+1226-10-03T00:00:00Z;Q510041
-Q188411;Bernard of Clairvaux;French abbot, theologian;Bernard de Clairvaux;male;+1090-01-01T00:00:00Z;Q7003;+1153-08-20T00:00:00Z;Q647070
+Q2254800;Cunizza da Romano;Italian noble;Cunizza da Romano;female;+1198-01-01T00:00:00Z;;+1279-01-01T00:00:00Z;
+Q366205;Tigellinus;Praetorian prefect;Tigellinus;male;+0010-01-01T00:00:00Z;Q13678;+0069-01-01T00:00:00Z;Q1349926
+Q635;Cleopatra;last active pharaoh of Ptolemaic Egypt;Cleopatra;female;-0069-00-00T00:00:00Z;Q87;-0030-08-12T00:00:00Z;Q87
 Q81018;Judas Iscariot;one of the twelve original apostles of Jesus Christ, known for betrayal of Jesus;Judas Iscariot;male;;;+0100-01-01T00:00:00Z;Q1218
-Q366270;Guido Guinizelli;Italian poet;Guido Guinizelli;male;+1230-01-01T00:00:00Z;Q1891;+1276-01-01T00:00:00Z;Q34602
-Q223440;Lucius Junius Brutus;Founder of the Roman Republic;L. Iunius M.f. Brutus;male;-0600-00-00T00:00:00Z;Q1747689;-0509-00-00T00:00:00Z;Q128246
+Q172916;John XXI;pope;Johannes XXI.;male;+1215-00-00T00:00:00Z;Q597;+1277-05-20T00:00:00Z;Q13395
+Q1374807;John Leech;English caricaturist and illustrator;John Leech;male;+1817-08-29T00:00:00Z;Q84;+1864-10-29T00:00:00Z;Q84
+Q41166;Jonathan Swift;Anglo-Irish satirist, essayist, and poet;Jonathan Swift;male;+1667-11-30T00:00:00Z;Q1761;+1745-10-19T00:00:00Z;Q1761
+Q355903;Siger of Brabant;Brabantian philosopher;Siger of Brabant;male;+1235-00-00T00:00:00Z;Q159856;+1284-11-10T00:00:00Z;Q541
+Q60059;Albertus Magnus;Dominican friar;Albertus Magnus;male;+1206-00-00T00:00:00Z;Q572921;+1280-11-15T00:00:00Z;Q365
+Q48305;Euripides;ancient Athenian playwright;Εὐριπίδης;male;-0480-00-00T00:00:00Z;Q202422;-0406-00-00T00:00:00Z;Q213679
+Q297776;Pedanius Dioscorides;Greco-Roman physician and pharmacologist;Pedanius Dioscorides;male;+0040-01-01T00:00:00Z;Q219525;+0090-01-01T00:00:00Z;
+Q267733;Thaïs;Greek hetaera;Thaïs;female;-0400-01-01T00:00:00Z;Q1524;;
+Q8011;Avicenna;medieval Persian polymath, physician, and philosopher;ابوعلی حسین بن عبدالله بن حسن بن علی بن سینا;male;+0980-08-16T00:00:00Z;Q5764;+1037-06-18T00:00:00Z;Q28587
+Q868;Aristotle;Classical Greek philosopher, student of Plato and founder of Western philosophy;Ἀριστοτέλης;male;-0383-00-00T00:00:00Z;Q846127;-0321-00-00T00:00:00Z;Q200133
+Q154723;Viktor Frankl;Austrian neurologist and psychiatrist, and Holocaust survivor;Viktor Frankl;male;+1905-03-26T00:00:00Z;Q1741;+1997-09-02T00:00:00Z;Q1741
+Q40662;John the Baptist;major religious figure;יוחנן המטביל;male;;Q16000109;+0030-00-00T00:00:00Z;Q1549278
+Q39837;Averroes;Medieval Arab scholar and philosopher;ابن رشد;male;+1126-04-14T00:00:00Z;Q5818;+1198-12-10T00:00:00Z;Q101625
+Q313817;George Villiers, 1st Duke of Buckingham;politician from England;George Villiers, 1st Duke of Buckingham;male;+1592-08-28T00:00:00Z;Q23106;+1628-08-23T00:00:00Z;Q5608428
+Q469118;Gaius Calpurnius Piso;politician;Gaius Calpurnius Piso;male;;;+0065-04-19T00:00:00Z;Q220
+Q549041;Gratian;Italian jurist;Gratian;male;+1070-01-01T00:00:00Z;Q91185;+1140-01-01T00:00:00Z;Q1891
+Q706003;Ugolino della Gherardesca;Italian politician and soldier;Ugolino della Gherardesca;male;+1220-01-01T00:00:00Z;Q13375;+1289-01-01T00:00:00Z;Q13375
+Q9438;Santo Tomás de Aquinas;Dominican scholastic philosopher of the Roman Catholic Church;Thomas Aquinas;male;+1225-00-00T00:00:00Z;Q117211;+1274-03-07T00:00:00Z;Q1775258
+Q230314;La Malinche;Nahua woman who was the interpreter, advisor, and intermediary to Hernan Cortez;La Malinche;female;+1496-00-00T00:00:00Z;Q12630;+1529-00-00T00:00:00Z;Q96
+Q2755054;Guido I da Montefeltro;Italian military strategist;Guido I da Montefeltro;male;+1223-01-01T00:00:00Z;Q111942;+1298-09-29T00:00:00Z;Q20103
+Q160441;Rabanus Maurus;archbishop of Mainz and writer;Rabanus Maurus;male;+0780-00-00T00:00:00Z;Q1720;+0856-02-04T00:00:00Z;Q1720
+Q302;Jesus Christ;central figure of Christianity;ישוע;male;-0002-00-00T00:00:00Z;Q5776;+0033-00-00T00:00:00Z;Q170516
+Q1048;Julius Caesar;Roman politician and general;Gaius Iulius Caesar;male;-0100-00-00T00:00:00Z;Q220;-0044-03-01T00:00:00Z;Q944814
+Q4344;Arnaut Daniel;Occitan troubadour;Arnaut Daniel;male;+1150-00-00T00:00:00Z;Q471581;+1210-00-00T00:00:00Z;
+Q8058;Louis XI of France;king;Louis XI;male;+1423-07-03T00:00:00Z;Q132404;+1483-08-30T00:00:00Z;Q638089
+Q676555;Francis of Assisi;Catholic saint and founder of the Franciscan Order;Francesco;male;+1182-00-00T00:00:00Z;Q20103;+1226-10-03T00:00:00Z;Q510041
+Q207370;Gaius Cassius Longinus;Roman politician;Gaius Cassius Longinus;male;-0087-01-01T00:00:00Z;Q220;-0042-01-01T00:00:00Z;Q379652
+Q5082131;Charles Robinson;English book illustrator;Charles Robinson;male;+1870-01-01T00:00:00Z;Q84;+1937-01-01T00:00:00Z;
+Q6197;Horace;Roman lyric poet;Q. Horatius Flaccus;male;-0065-12-08T00:00:00Z;Q52691;-0008-11-27T00:00:00Z;Q220
+Q130221;Frederick II, Holy Roman Emperor;1194 – 1250, Holy Roman Emperor of the Middle Ages;Friedrich II von Staufen;male;+1194-12-26T00:00:00Z;Q13144;+1250-12-13T00:00:00Z;Q1048600
+Q41866;Justinian I;Eastern Roman Emperor (Byzantine Emperor);Flavius Petrus Sabbatius Iustinianus;male;+0482-05-11T00:00:00Z;Q2232673;+0565-11-14T00:00:00Z;Q16869
+Q170335;Constance;Queen of Sicily;Constance;female;+1154-11-02T00:00:00Z;Q2656;+1198-11-27T00:00:00Z;Q2656
+Q859;Plato;Classical Greek philosopher;Πλάτων;male;-0427-00-00T00:00:00Z;Q844930;-0347-00-00T00:00:00Z;Q844930
+Q36724;Attila;King of the Hunnic Empire;Attila;male;+0406-00-00T00:00:00Z;Q18869;+0453-03-00T00:00:00Z;Q170062
+Q7326;Hernán Cortés;Spanish conquistador;Hernán Cortés;male;+1485-01-01T00:00:00Z;Q668384;+1547-12-02T00:00:00Z;Q841589
+Q1541;Cicero;Roman philosopher and statesman;Marcus Tullius Cicero;male;-0106-01-03T00:00:00Z;Q116440;-0043-12-07T00:00:00Z;Q128086
+Q457881;John Tenniel;British illustrator, graphic humourist and political cartoonist;John Tenniel;male;+1820-02-28T00:00:00Z;Q84;+1914-02-25T00:00:00Z;Q84
+Q247137;Aelius Donatus;Roman grammarian;Aelius Donatus;male;+0320-00-00T00:00:00Z;;+0380-00-00T00:00:00Z;
+Q366070;George William Russell;Irish writer, editor, critic, poet, and artistic painter;George William Russell;male;+1867-04-10T00:00:00Z;Q192761;+1935-07-17T00:00:00Z;Q170478
+Q297050;Cuauhtémoc;Tlatoani of Tenochtitlan;Cuauhtémoc;male;+1495-01-01T00:00:00Z;Q13695;+1525-02-28T00:00:00Z;Q783
+Q670332;Comte de Troisville;French soldier;Jean-Armand du Peyrer;male;+1598-01-01T00:00:00Z;Q208407;+1672-05-08T00:00:00Z;Q838752
+Q297285;Ali Pasha;Ottoman ruler;Ali Pasha;male;+1750-00-00T00:00:00Z;Q81631;+1822-01-24T00:00:00Z;Q1455063
+Q315628;Cuitláhuac;Tlatloani of Tenochtitlan;Cuitláhuac;male;+1476-01-01T00:00:00Z;Q13695;+1520-01-01T00:00:00Z;Q13695
+Q166876;Isidore of Seville;bishop, confessor and doctor of the Catholic Church;Isidorus Hispalensis;male;+0560-00-00T00:00:00Z;Q162615;+0636-04-04T00:00:00Z;Q8717
+Q5239704;David Sheehy;British politician;David Sheehy;male;+1844-00-00T00:00:00Z;;+1932-12-17T00:00:00Z;
+Q1413;Nero;Emperor of Ancient Rome, 5th and last of the Julio-Claudian dynasty;Nero Claudius Cæsar Augustus Germanicus;male;+0037-12-15T00:00:00Z;Q16010710;+0068-06-09T00:00:00Z;Q220
+Q83041;Anaxagoras;ancient Greek philosopher;Ἀναξαγόρας;male;-0500-00-00T00:00:00Z;Q536598;-0428-00-00T00:00:00Z;Q1229422
+Q26702;Cardinal Richelieu;French clergyman, noble and statesman;Armand Jean du Plessis de Richelieu;male;+1585-09-09T00:00:00Z;Q90;+1642-12-04T00:00:00Z;Q90
+Q111559;Judah Maccabee;Jewish revolutionary;Judah Maccabee;male;;Q165867;-0160-00-00T00:00:00Z;Q49127307
+Q44265;Benedict of Nursia;Christian saint and monk;Benedict of Nursia;male;+0480-03-02T00:00:00Z;Q20494;+0547-03-21T00:00:00Z;Q334051
+Q5494534;Fred Barnard;British artist;Fred Barnard;male;+1846-05-16T00:00:00Z;Q84;+1896-09-28T00:00:00Z;Q736742
+Q913;Socrates;classical Greek Athenian philosopher;Σωκράτης;male;-0470-00-00T00:00:00Z;Q2839314;-0399-00-00T00:00:00Z;Q844930
+Q315347;Peter Lombard;medieval priest and theologian;Petrus Lombardus;male;+1100-00-00T00:00:00Z;Q6046;+1160-00-00T00:00:00Z;Q90
+Q43746;Bonaventure;franciscan, bishop, cardinal, Doctor of the Church, catholic saint;Giovanni Fidanza;male;+1221-00-00T00:00:00Z;Q159498;+1274-07-15T00:00:00Z;Q456
+Q6691;Homer;ancient Greek epic poet, traditionally considered as the author of the Iliad and the Odyssey;Ὅμηρος;male;-0900-00-00T00:00:00Z;Q1379299;-0800-00-00T00:00:00Z;Q216993
+Q151209;Anne of Austria;Queen, consort of Louis XIII, King of France;Anne d'Autriche;female;+1601-09-22T00:00:00Z;Q8356;+1666-01-20T00:00:00Z;Q90
+Q152717;Henry VII, Holy Roman Emperor;King of the Romans from 1308 to 1313;Henry VII, Holy Roman Emperor;male;+1275-01-01T00:00:00Z;Q163795;+1313-08-24T00:00:00Z;Q91119
+Q1416892;Thomas William Lyster;Irish librarian;Thomas William Lyster;male;+1855-01-01T00:00:00Z;;+1922-01-01T00:00:00Z;
+Q76721;Godfrey of Bouillon;Medieval Frankish knight;Godefroi de Bouillon;male;+1060-01-01T00:00:00Z;Q81997;+1100-07-18T00:00:00Z;Q1218
 Q165479;Saint Patrick;5th-century Romano-British Christian missionary and bishop in Ireland;Saint Patrick;male;+0385-01-01T00:00:00Z;Q185103;+0461-03-17T00:00:00Z;Q190684
-Q18880357;William Magee;Irish writer;William Magee;male;+1868-01-17T00:00:00Z;;+1961-01-17T00:00:00Z;
-Q1398;Virgil;Ancient Roman poet;Publius Vergilius Maro;male;-0070-10-15T00:00:00Z;Q15710617;-0019-09-21T00:00:00Z;Q13496
-Q9458;Muhammad;the Prophet of Islam;أَبُو الْقَاسِمِ مُحَمَّدُ بْنُ عَبْدِ اللهِ بْنِ عَبْدِ الْمُطَّلِبِ;male;+0570-04-26T00:00:00Z;Q5806;+0632-06-08T00:00:00Z;Q35484
-Q232913;Beatrice Portinari;Dante's muse;Beatrice Portinari;female;+1266-01-01T00:00:00Z;Q2044;+1290-06-15T00:00:00Z;Q2044
+Q2521377;Ottaviano degli Ubaldini;Italian cardinal;Ottaviano degli Ubaldini;male;+1214-01-01T00:00:00Z;Q2044;+1273-01-01T00:00:00Z;Q220
+Q154938;Bede;English monk and saint;Beda Venerabilis;male;+0672-01-01T00:00:00Z;Q107299;+0735-05-25T00:00:00Z;Q782155
+Q41980;Democritus;Ancient Greek philosopher, pupil of Leucippus, founder of the atomic theory;Δημόκριτος;male;-0460-01-01T00:00:00Z;Q188615;-0360-01-01T00:00:00Z;Q41
+Q317554;Hugh of Saint Victor;German-French canon regular and theologian;Hugues de Saint-Victor;male;+1096-00-00T00:00:00Z;Q164092;+1141-02-11T00:00:00Z;Q90
+Q3860377;The Nun of Monza;Italian nun;The Nun of Monza;female;+1575-12-04T00:00:00Z;Q490;+1650-01-17T00:00:00Z;Q490
+Q737533;Louis XIII of France;King of France and Navarra 1610-1643;Louis XIII;male;+1601-09-27T00:00:00Z;Q182872;+1643-05-14T00:00:00Z;Q185075
+Q560015;Hugh Lofting;British author, trained as a civil engineer;Hugh Lofting;male;+1886-01-14T00:00:00Z;Q238803;+1947-09-26T00:00:00Z;Q144792
+Q5254;Folquet de Marselha;trobadour and anti-Cathar bishop of Toulouse;Folquet de Marseille;male;+1150-01-01T00:00:00Z;Q23482;+1231-12-25T00:00:00Z;
+Q188646;Lucan;Roman poet;Marcus Annaeus Lucanus;male;+0039-11-03T00:00:00Z;Q5818;+0065-04-30T00:00:00Z;Q220
+Q2442652;Tony Johannot;French painter;Tony Johannot;male;+1803-11-09T00:00:00Z;Q3042;+1852-08-04T00:00:00Z;Q90
+Q102851;Boethius;philosopher of the early 6th century;Anicius Manlius Torquatus Severinus Boethius;male;+0480-01-01T00:00:00Z;Q220;+0525-00-00T00:00:00Z;Q6259
+Q262513;John Felton;English assassin;John Felton;male;+1595-01-01T00:00:00Z;Q215530;+1628-10-29T00:00:00Z;Q1362341
+Q332750;Dionysius I of Syracuse;Sicilian tyrant;Διονύσιος;male;-0430-01-01T00:00:00Z;Q4420718;-0366-01-01T00:00:00Z;
+Q352489;Aulus Plautius;Roman governor;Aulus Plautius;male;;;;
+Q469050;Pomponia Graecina;Roman woman;Pomponia Graecina;female;+0100-01-01T00:00:00Z;;;
+Q426862;Guido Bonatti;famed Italian astrologer/astronomer;Guido Bonatti;male;+1210-01-01T00:00:00Z;Q13367;+1296-01-01T00:00:00Z;
+Q1707785;Joseph Patrick Nannetti;Irish politician;Joseph Patrick Nannetti;male;+1851-01-01T00:00:00Z;Q27;+1915-04-26T00:00:00Z;Q84
+Q9200;Paul;Early Christian apostle and missionary;Παῦλος;male;+0005-00-00T00:00:00Z;Q134287;+0067-00-00T00:00:00Z;Q220
+Q188411;Bernard of Clairvaux;French abbot, theologian;Bernard de Clairvaux;male;+1090-01-01T00:00:00Z;Q7003;+1153-08-20T00:00:00Z;Q647070
+Q7198;Ovid;Roman poet;Publius Ovidius Naso;male;-0043-03-20T00:00:00Z;Q50157;+0017-00-00T00:00:00Z;Q79808
+Q131691;Arthur Wellesley, 1st Duke of Wellington;British soldier and statesman;Arthur Wellesley, 1. Duke of Wellington;male;+1769-05-01T00:00:00Z;Q1761;+1852-09-14T00:00:00Z;Q2543161
+Q141791;Moctezuma II;Mexica tlatoani;Moctezuma II;male;+1466-01-01T00:00:00Z;Q13695;+1520-06-29T00:00:00Z;Q13695
+Q8778;Galen;Roman physician, surgeon and philosopher;Γαληνός;male;+0129-00-00T00:00:00Z;Q18986;+0216-00-00T00:00:00Z;Q220
+Q8409;Alexander the Great;King of Macedon;Ἀλέξανδρος Γ' ὁ Μέγας;male;-0356-07-20T00:00:00Z;Q213679;-0323-06-10T00:00:00Z;Q5684
+Q131463;Clement V;pope;Clément V;male;+1264-00-00T00:00:00Z;Q187654;+1314-04-20T00:00:00Z;Q322376
+Q230716;Poppaea Sabina;Roman Empress;Poppaea Sabina;female;+0030-01-01T00:00:00Z;Q43332;+0065-01-01T00:00:00Z;Q220
+Q33923;Peter;apostle and first pope;بطرس;male;;Q501773;+0067-01-01T00:00:00Z;Q220
+Q81506;Charles I of England;monarch of the three kingdoms of England, Scotland, and Ireland;Charles I of England;male;+1600-11-19T00:00:00Z;Q2014458;+1649-01-30T00:00:00Z;Q84
+Q317436;Charles Stewart Parnell;Irish politician;Charles Stewart Parnell;male;+1846-06-27T00:00:00Z;Q182591;+1891-10-06T00:00:00Z;Q131491
+Q47180;Petronius;Roman courtier, supposed author of the Satyricon;Petronius Arbiter;male;+0027-00-00T00:00:00Z;Q15141121;+0066-01-01T00:00:00Z;Q243456
+Q223440;Lucius Junius Brutus;Founder of the Roman Republic;L. Iunius M.f. Brutus;male;-0600-00-00T00:00:00Z;Q1747689;-0509-00-00T00:00:00Z;Q128246
+Q243811;Pope Joan;mythical female pope;Pope Joan;female;;Q1720;;Q220
+Q83375;Empedocles;ancient Greek philosopher;Empedocles;male;-0490-00-00T00:00:00Z;Q13678;-0430-00-00T00:00:00Z;Q16990
+Q243203;Publius Papinius Statius;Roman poet of the 1st century AD (Silver Age of Latin literature);Publius Papinius Statius;male;+0040-01-01T00:00:00Z;Q2634;+0096-01-01T00:00:00Z;Q2634
+Q310686;Dionysius the Areopagite;bishop and saint;Dionysius the Areopagite;male;+0100-01-01T00:00:00Z;Q1524;+0100-00-00T00:00:00Z;
+Q41155;Heraclitus;pre-Socratic Greek philosopher;Heraclitus;male;-0535-00-00T00:00:00Z;Q47611;-0470-00-00T00:00:00Z;Q47611
+Q134646;Boniface VIII;193rd Pope of the Catholic Church;Benedetto Caetani;male;+1235-01-01T00:00:00Z;Q116404;+1303-10-11T00:00:00Z;Q220
+Q103960;Semiramis;legendary queen;Semiramis;female;;;;
+Q118081;Pope Celestine V;192nd Pope of the Catholic Church;Celestinus PP. V;male;+1215-00-00T00:00:00Z;Q278199;+1296-05-19T00:00:00Z;Q116884
+Q43600;Matthew the Apostle;Christian evangelist and apostle;Matthew the Apostle;male;+0010-01-01T00:00:00Z;Q801;+0074-00-00T00:00:00Z;Q115
+Q5078521;Charles H. Bennett;illustrator;Charles H. Bennett;male;+1829-01-01T00:00:00Z;Q84;+1867-01-01T00:00:00Z;Q84
+Q43939;Anselm of Canterbury;Benedictine monk, philosopher, and prelate;Anselmus Cantuariensis;male;+1033-00-00T00:00:00Z;Q3367;+1109-04-21T00:00:00Z;Q29303
+Q785250;Petrus Comestor;French theologian;Pierre le Mangeur;male;+1100-01-01T00:00:00Z;Q5489;+1179-10-22T00:00:00Z;Q90
+Q172248;Marcus Junius Brutus;Roman politician;Marcus Junius Brutus;male;-0085-01-01T00:00:00Z;Q220;-0042-01-01T00:00:00Z;Q379652
+Q1425;Trajan;Emperor of Ancient Rome;Caesar Marcus Ulpius Nerva Traianus;male;+0053-09-18T00:00:00Z;Q658893;+0117-08-09T00:00:00Z;Q844779
+Q3687804;Conte Attilio;;Conte Attilio;male;;;;
 Q1133523;Jephthah;biblical character;Jephthah;male;;;;
 Q203792;Robert Guiscard;Duke of Apulia and Calabria;Robert Guiscard;male;+1016-01-01T00:00:00Z;Q474453;+1085-07-17T00:00:00Z;Q178488
-Q267733;Thaïs;Greek hetaera;Thaïs;female;-0400-01-01T00:00:00Z;Q1524;;
-Q207535;Roland;Frankish military leader under Charlemagne;Roland;male;;;+0778-08-15T00:00:00Z;Q917891
-Q41370;David;king of Israel and Judah;דָּוִד;male;-1040-01-01T00:00:00Z;Q5776;-0970-01-01T00:00:00Z;Q1218
-Q8018;Augustine of Hippo;early Christian theologian and philosopher;Aurelius Augustinus;male;+0354-11-13T00:00:00Z;Q1324444;+0430-08-28T00:00:00Z;Q858024
-Q118081;Pope Celestine V;192nd Pope of the Catholic Church;Celestinus PP. V;male;+1215-00-00T00:00:00Z;Q278199;+1296-05-19T00:00:00Z;Q116884
-Q207370;Gaius Cassius Longinus;Roman politician;Gaius Cassius Longinus;male;-0087-01-01T00:00:00Z;Q220;-0042-01-01T00:00:00Z;Q379652
-Q41155;Heraclitus;pre-Socratic Greek philosopher;Heraclitus;male;-0535-00-00T00:00:00Z;Q47611;-0470-00-00T00:00:00Z;Q47611
-Q3860377;The Nun of Monza;Italian nun;The Nun of Monza;female;+1575-12-04T00:00:00Z;Q490;+1650-01-17T00:00:00Z;Q490
-Q315347;Peter Lombard;medieval priest and theologian;Petrus Lombardus;male;+1100-00-00T00:00:00Z;Q6046;+1160-00-00T00:00:00Z;Q90
-Q244912;Hezekiah;King of Judah;Hezekiah;male;-0800-01-01T00:00:00Z;Q1218;-0697-01-01T00:00:00Z;Q1218
-Q243203;Publius Papinius Statius;Roman poet of the 1st century AD (Silver Age of Latin literature);Publius Papinius Statius;male;+0040-01-01T00:00:00Z;Q2634;+0096-01-01T00:00:00Z;Q2634
-Q451516;Gaius Scribonius Curio;politician (0090-0049);Gaius Scribonius Curio;male;-0090-01-01T00:00:00Z;;-0049-01-01T00:00:00Z;
+Q438615;Marie de Rohan;French noble;Marie de Rohan;female;+1600-12-01T00:00:00Z;Q90;+1679-08-12T00:00:00Z;Q179821
 Q7326690;Richard Irvine Best;Irish scholar;Richard Irvine Best;male;+1872-01-01T00:00:00Z;;+1959-09-25T00:00:00Z;
-Q152717;Henry VII, Holy Roman Emperor;King of the Romans from 1308 to 1313;Henry VII, Holy Roman Emperor;male;+1275-01-01T00:00:00Z;Q163795;+1313-08-24T00:00:00Z;Q91119
-Q9438;Santo Tomás de Aquinas;Dominican scholastic philosopher of the Roman Catholic Church;Thomas Aquinas;male;+1225-00-00T00:00:00Z;Q117211;+1274-03-07T00:00:00Z;Q1775258
-Q2755054;Guido I da Montefeltro;Italian military strategist;Guido I da Montefeltro;male;+1223-01-01T00:00:00Z;Q111942;+1298-09-29T00:00:00Z;Q20103
-Q34943;Ptolemy;Greco-Egyptian writer and astronomer of Alexandria;Κλαύδιος Πτολεμαῖος;male;+0100-00-00T00:00:00Z;Q1145715;+0160-00-00T00:00:00Z;Q87
-Q172916;John XXI;pope;Johannes XXI.;male;+1215-00-00T00:00:00Z;Q597;+1277-05-20T00:00:00Z;Q13395
-Q297776;Pedanius Dioscorides;Greco-Roman physician and pharmacologist;Pedanius Dioscorides;male;+0040-01-01T00:00:00Z;Q219525;+0090-01-01T00:00:00Z;
-Q317436;Charles Stewart Parnell;Irish politician;Charles Stewart Parnell;male;+1846-06-27T00:00:00Z;Q182591;+1891-10-06T00:00:00Z;Q131491
-Q355903;Siger of Brabant;Brabantian philosopher;Siger of Brabant;male;+1235-00-00T00:00:00Z;Q159856;+1284-11-10T00:00:00Z;Q541
-Q549041;Gratian;Italian jurist;Gratian;male;+1070-01-01T00:00:00Z;Q91185;+1140-01-01T00:00:00Z;Q1891
-Q8409;Alexander the Great;King of Macedon;Ἀλέξανδρος Γ' ὁ Μέγας;male;-0356-07-20T00:00:00Z;Q213679;-0323-06-10T00:00:00Z;Q5684
-Q868;Aristotle;Classical Greek philosopher, student of Plato and founder of Western philosophy;Ἀριστοτέλης;male;-0383-00-00T00:00:00Z;Q846127;-0321-00-00T00:00:00Z;Q200133
-Q1927217;Michael Cusack;Founder of the Gaelic Athletic Association;Michael Cusack;male;+1847-09-20T00:00:00Z;Q1134428;+1906-11-27T00:00:00Z;Q1761
-Q426862;Guido Bonatti;famed Italian astrologer/astronomer;Guido Bonatti;male;+1210-01-01T00:00:00Z;Q13367;+1296-01-01T00:00:00Z;
-Q36303;Thales;ancient Greek philosopher and mathematician;Θαλῆς ὁ Μιλήσιος;male;-0623-01-01T00:00:00Z;Q169460;-0546-01-01T00:00:00Z;Q169460
-Q134646;Boniface VIII;193rd Pope of the Catholic Church;Benedetto Caetani;male;+1235-01-01T00:00:00Z;Q116404;+1303-10-11T00:00:00Z;Q220
-Q2054;Seneca;Roman Stoic philosopher, statesman, and dramatist;Lucius Annaeus Seneca;male;-0004-00-00T00:00:00Z;Q5818;+0065-04-12T00:00:00Z;Q220
-Q60059;Albertus Magnus;Dominican friar;Albertus Magnus;male;+1206-00-00T00:00:00Z;Q572921;+1280-11-15T00:00:00Z;Q365
-Q7198;Ovid;Roman poet;Publius Ovidius Naso;male;-0043-03-20T00:00:00Z;Q50157;+0017-00-00T00:00:00Z;Q79808
-Q103960;Semiramis;legendary queen;Semiramis;female;;;;
-Q332750;Dionysius I of Syracuse;Sicilian tyrant;Διονύσιος;male;-0430-01-01T00:00:00Z;Q4420718;-0366-01-01T00:00:00Z;
-Q59180;Diogenes of Sinope;ancient Greek philosopher, one of the founders of the Cynic philosophy;Διογένης ὁ Σινωπεύς;male;-0404-01-01T00:00:00Z;Q599416;-0322-01-01T00:00:00Z;Q1363688
-Q170859;Nicholas III;Pope from 1277 to 1280;Nicholas III;male;+1215-01-01T00:00:00Z;Q220;+1280-08-29T00:00:00Z;Q13395
-Q234533;Cornelia Africana;Roman patrician woman;Cornelia;female;-0189-01-01T00:00:00Z;;-0110-01-01T00:00:00Z;
-Q5239704;David Sheehy;British politician;David Sheehy;male;+1844-00-00T00:00:00Z;;+1932-12-17T00:00:00Z;
-Q8011;Avicenna;medieval Persian polymath, physician, and philosopher;ابوعلی حسین بن عبدالله بن حسن بن علی بن سینا;male;+0980-08-16T00:00:00Z;Q5764;+1037-06-18T00:00:00Z;Q28587
-Q166876;Isidore of Seville;bishop, confessor and doctor of the Catholic Church;Isidorus Hispalensis;male;+0560-00-00T00:00:00Z;Q162615;+0636-04-04T00:00:00Z;Q8717
-Q211246;Kaiphaso;;Kaiphaso;male;-0100-01-01T00:00:00Z;;+0100-01-01T00:00:00Z;
-Q6197;Horace;Roman lyric poet;Q. Horatius Flaccus;male;-0065-12-08T00:00:00Z;Q52691;-0008-11-27T00:00:00Z;Q220
-Q1541;Cicero;Roman philosopher and statesman;Marcus Tullius Cicero;male;-0106-01-03T00:00:00Z;Q116440;-0043-12-07T00:00:00Z;Q128086
-Q448586;Fra Dolcino;Italian preacher;Fra Dolcino;male;+1250-01-01T00:00:00Z;Q6046;+1307-06-01T00:00:00Z;Q5990
-Q36724;Attila;King of the Hunnic Empire;Attila;male;+0406-00-00T00:00:00Z;Q18869;+0453-03-00T00:00:00Z;Q170062
-Q170335;Constance;Queen of Sicily;Constance;female;+1154-11-02T00:00:00Z;Q2656;+1198-11-27T00:00:00Z;Q2656
-Q40662;John the Baptist;major religious figure;יוחנן המטביל;male;;Q16000109;+0030-00-00T00:00:00Z;Q1549278
-Q785250;Petrus Comestor;French theologian;Pierre le Mangeur;male;+1100-01-01T00:00:00Z;Q5489;+1179-10-22T00:00:00Z;Q90
-Q317554;Hugh of Saint Victor;German-French canon regular and theologian;Hugues de Saint-Victor;male;+1096-00-00T00:00:00Z;Q164092;+1141-02-11T00:00:00Z;Q90
-Q6239779;John Hooper;British politician;John Hooper;male;+1846-00-00T00:00:00Z;;+1897-11-23T00:00:00Z;
+Q244912;Hezekiah;King of Judah;Hezekiah;male;-0800-01-01T00:00:00Z;Q1218;-0697-01-01T00:00:00Z;Q1218
+Q583275;Édouard Riou;French painter and writer;Édouard Riou;male;+1833-12-02T00:00:00Z;Q2721859;+1900-01-27T00:00:00Z;Q90
+Q8747;Euclid;Greek mathematician, inventor of axiomatic geometry;Εὐκλείδης;male;;;;
+Q451516;Gaius Scribonius Curio;politician (0090-0049);Gaius Scribonius Curio;male;-0090-01-01T00:00:00Z;;-0049-01-01T00:00:00Z;
 Q665165;Sordello;Italian troubadour, poet and composer;Sordello;male;+1200-00-00T00:00:00Z;Q42945;+1269-01-01T00:00:00Z;Q2634
-Q33923;Peter;apostle and first pope;بطرس;male;;Q501773;+0067-01-01T00:00:00Z;Q220
-Q1425;Trajan;Emperor of Ancient Rome;Caesar Marcus Ulpius Nerva Traianus;male;+0053-09-18T00:00:00Z;Q658893;+0117-08-09T00:00:00Z;Q844779
-Q310686;Dionysius the Areopagite;bishop and saint;Dionysius the Areopagite;male;+0100-01-01T00:00:00Z;Q1524;+0100-00-00T00:00:00Z;
+Q983349;Newell Convers Wyeth;illustrator;Newell Convers Wyeth;male;+1882-10-22T00:00:00Z;Q1664345;+1945-10-19T00:00:00Z;Q1400
 Q199991;Joachim of Fiore;Italian abbot;Joachim of Fiore;male;+1135-00-00T00:00:00Z;Q53858;+1202-03-30T00:00:00Z;Q53935
-Q5264;Hippocrates;ancient Greek physician;Ἱπποκράτης;male;-0460-01-01T00:00:00Z;Q187027;-0365-00-00T00:00:00Z;Q178405
+Q172353;Pyrrhus;Epirot Illyrian military leader;Πύρρος;male;-0318-01-01T00:00:00Z;Q11266977;-0272-01-01T00:00:00Z;Q189901
+Q211246;Kaiphaso;;Kaiphaso;male;-0100-01-01T00:00:00Z;;+0100-01-01T00:00:00Z;
+Q315795;Bernal Díaz del Castillo;Spanish conquistador;Bernal Díaz del Castillo;male;+1492-01-01T00:00:00Z;Q693913;+1584-00-00T00:00:00Z;Q212773
+Q1927217;Michael Cusack;Founder of the Gaelic Athletic Association;Michael Cusack;male;+1847-09-20T00:00:00Z;Q1134428;+1906-11-27T00:00:00Z;Q1761
+Q359237;Charles Martel of Anjou;King of Hungary;Charles Martel of Anjou;male;+1271-09-15T00:00:00Z;Q2634;+1295-08-12T00:00:00Z;Q2634
+Q9458;Muhammad;the Prophet of Islam;أَبُو الْقَاسِمِ مُحَمَّدُ بْنُ عَبْدِ اللهِ بْنِ عَبْدِ الْمُطَّلِبِ;male;+0570-04-26T00:00:00Z;Q5806;+0632-06-08T00:00:00Z;Q35484
+Q2054;Seneca;Roman Stoic philosopher, statesman, and dramatist;Lucius Annaeus Seneca;male;-0004-00-00T00:00:00Z;Q5818;+0065-04-12T00:00:00Z;Q220
 Q8581;Saladin;Kurdish leader. First Sultan of Egypt and Syria, founder of the Ayyubid dynasty;صلاح الدين الأيوبي;male;+1138-00-00T00:00:00Z;Q165444;+1193-03-04T00:00:00Z;Q3766
-Q130221;Frederick II, Holy Roman Emperor;1194 – 1250, Holy Roman Emperor of the Middle Ages;Friedrich II von Staufen;male;+1194-12-26T00:00:00Z;Q13144;+1250-12-13T00:00:00Z;Q1048600
-Q188646;Lucan;Roman poet;Marcus Annaeus Lucanus;male;+0039-11-03T00:00:00Z;Q5818;+0065-04-30T00:00:00Z;Q220
+Q234533;Cornelia Africana;Roman patrician woman;Cornelia;female;-0189-01-01T00:00:00Z;;-0110-01-01T00:00:00Z;
+Q8018;Augustine of Hippo;early Christian theologian and philosopher;Aurelius Augustinus;male;+0354-11-13T00:00:00Z;Q1324444;+0430-08-28T00:00:00Z;Q858024
+Q311456;Orosius;Roman scholar;Orosius;male;+0375-01-01T00:00:00Z;Q83247;+0420-01-01T00:00:00Z;
+Q258369;Peter Damian;reformist monk;Peter Damian;male;+1007-01-01T00:00:00Z;Q13364;+1072-02-22T00:00:00Z;Q52981
+Q5264;Hippocrates;ancient Greek physician;Ἱπποκράτης;male;-0460-01-01T00:00:00Z;Q187027;-0365-00-00T00:00:00Z;Q178405
+Q2721219;Farinata degli Uberti;Italian aristocrat;Farinata degli Uberti;male;+1212-01-01T00:00:00Z;Q2044;+1264-11-11T00:00:00Z;Q2044
+Q41370;David;king of Israel and Judah;דָּוִד;male;-1040-01-01T00:00:00Z;Q5776;-0970-01-01T00:00:00Z;Q1218
+Q1398;Virgil;Ancient Roman poet;Publius Vergilius Maro;male;-0070-10-15T00:00:00Z;Q15710617;-0019-09-21T00:00:00Z;Q13496
+Q34943;Ptolemy;Greco-Egyptian writer and astronomer of Alexandria;Κλαύδιος Πτολεμαῖος;male;+0100-00-00T00:00:00Z;Q1145715;+0160-00-00T00:00:00Z;Q87
+Q6239779;John Hooper;British politician;John Hooper;male;+1846-00-00T00:00:00Z;;+1897-11-23T00:00:00Z;
+Q170859;Nicholas III;Pope from 1277 to 1280;Nicholas III;male;+1215-01-01T00:00:00Z;Q220;+1280-08-29T00:00:00Z;Q13395
+Q1093574;Ruggieri degli Ubaldini;Italian archbishop;Ruggieri degli Ubaldini;male;;Q283034;+1295-09-15T00:00:00Z;Q13395
+Q316876;Guido Cavalcanti;poet from Italy;Guido Cavalcanti;male;+1258-00-00T00:00:00Z;Q2044;+1300-08-29T00:00:00Z;Q2044
+Q448586;Fra Dolcino;Italian preacher;Fra Dolcino;male;+1250-01-01T00:00:00Z;Q6046;+1307-06-01T00:00:00Z;Q5990
+Q1419;Vespasian;Emperor of Ancient Rome, founder of the Flavian dynasty;Titus Flavius Vespasianus;male;+0009-11-17T00:00:00Z;Q927670;+0079-06-23T00:00:00Z;Q383071
+Q366270;Guido Guinizelli;Italian poet;Guido Guinizelli;male;+1230-01-01T00:00:00Z;Q1891;+1276-01-01T00:00:00Z;Q34602
+Q207535;Roland;Frankish military leader under Charlemagne;Roland;male;;;+0778-08-15T00:00:00Z;Q917891
+Q132786;Anastasius II;pope;Anastasius II;male;;Q220;+0498-11-17T00:00:00Z;Q220
+Q519984;Neil Strauss;American writer;Neil Strauss;male;+1973-10-13T00:00:00Z;Q1297;;
+Q256439;Claudia Acte;freedwoman of ancient Rome who became a mistress of the emperor Nero;Claudia Acte;female;+0100-01-01T00:00:00Z;;;
+Q232913;Beatrice Portinari;Dante's muse;Beatrice Portinari;female;+1266-01-01T00:00:00Z;Q2044;+1290-06-15T00:00:00Z;Q2044
+Q43706;John Chrysostom;important Early Church Father;John Chrysostom;male;+0349-00-00T00:00:00Z;Q200441;+0407-09-14T00:00:00Z;Q2140586
+Q36303;Thales;ancient Greek philosopher and mathematician;Θαλῆς ὁ Μιλήσιος;male;-0623-01-01T00:00:00Z;Q169460;-0546-01-01T00:00:00Z;Q169460
+Q18880357;William Magee;Irish writer;William Magee;male;+1868-01-17T00:00:00Z;;+1961-01-17T00:00:00Z;
 Q367387;William II of Sicily;King of Sicily;William II of Sicily;male;+1153-01-01T00:00:00Z;Q2656;+1189-11-18T00:00:00Z;Q2656
-Q131463;Clement V;pope;Clément V;male;+1264-00-00T00:00:00Z;Q187654;+1314-04-20T00:00:00Z;Q322376
-Q44265;Benedict of Nursia;Christian saint and monk;Benedict of Nursia;male;+0480-03-02T00:00:00Z;Q20494;+0547-03-21T00:00:00Z;Q334051
-Q76721;Godfrey of Bouillon;Medieval Frankish knight;Godefroi de Bouillon;male;+1060-01-01T00:00:00Z;Q81997;+1100-07-18T00:00:00Z;Q1218
-Q3687804;Conte Attilio;;Conte Attilio;male;;;;
-Q15976266;Dario Nardella;Italian politician and mayor of Florence;Dario Nardella;male;+1975-11-20T00:00:00Z;Q72719;;
-Q983514;Georgy Poltavchenko;Russian politician;Georgy Poltavchenko;male;+1953-02-24T00:00:00Z;Q9248;;
-Q6756538;Marcelo Crivellla;Brazilian politician and evangelical leader;Marcelo Crivellla;male;+1957-10-09T00:00:00Z;Q8678;;
+Q1067;Dante Alighieri;Italian poet;Dante Alighieri;male;+1265-05-00T00:00:00Z;Q2044;+1321-09-14T00:00:00Z;Q13364
+Q17131;Pontius Pilatus;was the fifth Prefect of the Roman province of Judaea, from AD 26–36;Pontius Pilatus;male;;Q1284;+0038-00-00T00:00:00Z;Q38060
+Q1494309;Alphonse de Neuville;French painter;Alphonse de Neuville;male;+1836-05-31T00:00:00Z;Q208793;+1885-05-19T00:00:00Z;Q90
+Q59180;Diogenes of Sinope;ancient Greek philosopher, one of the founders of the Cynic philosophy;Διογένης ὁ Σινωπεύς;male;-0404-01-01T00:00:00Z;Q599416;-0322-01-01T00:00:00Z;Q1363688
+Q703503;Leoluca Orlando;Italian politician;Leoluca Orlando;male;+1947-08-01T00:00:00Z;Q2656;;
+Q5951723;Juan Orlando Hernández;Honduran politician;Juan LADRON HDP;male;+1968-10-28T00:00:00Z;Q2561339;;
+Q467464;Katrín Jakobsdóttir;28th Prime Minister of Iceland;Katrín Jakobsdóttir;female;+1976-02-01T00:00:00Z;Q1764;;
+Q561213;Xavier Bettel;Luxembourgish politician;Xavier Bettel;male;+1973-03-03T00:00:00Z;Q1842;;
+Q264766;Theresa May;Prime Minister of the United Kingdom;Theresa May;female;+1956-10-01T00:00:00Z;Q208262;;
+Q468394;Nir Barkat;Israeli politician and mayor of Jerusalem;Nir Barkat;male;+1959-10-19T00:00:00Z;Q1218;;
+Q132345;Shinzō Abe;Prime Minister of Japan;安倍 晋三;male;+1954-09-21T00:00:00Z;Q390812;;
+Q927550;Malcolm Turnbull;Australian politician, lawyer and businessman, 29th Prime Minister of Australia;Malcolm Turnbull;male;+1954-10-24T00:00:00Z;Q3130;;
 Q4911497;Bill de Blasio;American politician and mayor of New York City;Bill De Blasio;male;+1961-05-08T00:00:00Z;Q11299;;
-Q2885098;Javier Rodríguez Palacios;Spanish politician;Javier Rodríguez Palacios;male;+1972-04-05T00:00:00Z;Q46940;;
+Q35121341;Mohammed Adjei Sowah;mayor of city of Accra;Mohammed Adjei Sowah;male;;;;
+Q983514;Georgy Poltavchenko;Russian politician;Georgy Poltavchenko;male;+1953-02-24T00:00:00Z;Q9248;;
 Q17146774;Giuseppe Sala;Sole Commissioner of the Government for Expo Milano 2015;Giuseppe Sala;male;+1958-05-28T00:00:00Z;Q490;;
-Q1728820;Leo Varadkar;Irish Fine Gael politician;Leo Varadkar;male;+1979-01-18T00:00:00Z;Q1049641;;
-Q334155;Sadiq Khan;British politician;Sadiq Khan;male;+1970-10-08T00:00:00Z;Q3495316;;
-Q4014539;Virginio Merola;Italian politician;Virginio Merola;male;+1955-02-14T00:00:00Z;Q58894;;
+Q15976266;Dario Nardella;Italian politician and mayor of Florence;Dario Nardella;male;+1975-11-20T00:00:00Z;Q72719;;
+Q6756538;Marcelo Crivellla;Brazilian politician and evangelical leader;Marcelo Crivellla;male;+1957-10-09T00:00:00Z;Q8678;;
+Q4779594;Ada Colau;Spanish activist;Ada Colau i Ballano;female;+1974-03-03T00:00:00Z;Q1492;;
+Q7176020;Peter Mutharika;President of Malawi;Peter Mutharika;male;+1940-01-01T00:00:00Z;Q219117;;
+Q50365049;Abiy Ahmed;Ethiopian politician;Abiy Ahmed;male;+1976-08-15T00:00:00Z;Q1110037;;
+Q318508;Andrés Manuel López Obrador;Mexican politician and writer;Andrés Manuel López Obrador;male;+1953-11-13T00:00:00Z;Q1962453;;
+Q2641759;Alexander Bachem;German politician;Alexander Bachem;male;+1806-01-08T00:00:00Z;Q1718;+1878-02-11T00:00:00Z;Q365
+Q43723;Benjamin Netanyahu;Israeli prime minister;בנימין נתניהו;male;+1949-10-21T00:00:00Z;Q33935;;
+Q179502;Jacek Majchrowski;Polish historian and politician, Mayor of Kraków;Jacek Majchrowski;male;+1947-01-13T00:00:00Z;Q105060;;
+Q1148719;Luigi de Magistris;Italian politician;Luigi de Magistris;male;+1967-06-20T00:00:00Z;Q2634;;
+Q30745227;Marco Bucci;Italian politician;Marco Bucci;male;+1959-10-31T00:00:00Z;Q1449;;
 Q23766020;Virginia Raggi;Italian politician;Virginia Raggi;female;+1978-07-18T00:00:00Z;Q220;;
 Q19592761;Manuela Carmena;Spanish judge and politician;Manuela Carmena;female;+1944-02-09T00:00:00Z;Q2807;;
-Q2641759;Alexander Bachem;German politician;Alexander Bachem;male;+1806-01-08T00:00:00Z;Q1718;+1878-02-11T00:00:00Z;Q365
-Q1148719;Luigi de Magistris;Italian politician;Luigi de Magistris;male;+1967-06-20T00:00:00Z;Q2634;;
-Q312015;Alexis Tsipras;Greek politician;Αλέξης Τσίπρας;male;+1974-07-28T00:00:00Z;Q1524;;
+Q59155;Arvind Kejriwal;Indian politician;Arvind Kejriwal;male;+1968-08-16T00:00:00Z;Q1772825;;
+Q17320405;Mohamed Ben Abdallah Dionne;Senegalese prime minister;Mahammed Boun Abdallah Dionne;male;+1959-09-22T00:00:00Z;Q3111445;;
 Q18104657;Adriana Krnáčová;Czech politician, mayor of Prague;Adriana Krnáčová;female;+1960-09-26T00:00:00Z;Q1780;;
-Q703503;Leoluca Orlando;Italian politician;Leoluca Orlando;male;+1947-08-01T00:00:00Z;Q2656;;
-Q468394;Nir Barkat;Israeli politician and mayor of Jerusalem;Nir Barkat;male;+1959-10-19T00:00:00Z;Q1218;;
+Q312015;Alexis Tsipras;Greek politician;Αλέξης Τσίπρας;male;+1974-07-28T00:00:00Z;Q1524;;
+Q334155;Sadiq Khan;British politician;Sadiq Khan;male;+1970-10-08T00:00:00Z;Q3495316;;
+Q4014539;Virginio Merola;Italian politician;Virginio Merola;male;+1955-02-14T00:00:00Z;Q58894;;
+Q2885098;Javier Rodríguez Palacios;Spanish politician;Javier Rodríguez Palacios;male;+1972-04-05T00:00:00Z;Q46940;;
+Q111840;Carwyn Jones;Welsh politician and the First Minister of Wales;Carwyn Howell Jones;male;+1967-03-21T00:00:00Z;Q23051;;
+Q241750;Ed Lee;US politician;Ed Lee;male;+1952-05-05T00:00:00Z;Q5083;+2017-12-12T00:00:00Z;Q7414040
+Q1728820;Leo Varadkar;Irish Fine Gael politician;Leo Varadkar;male;+1979-01-18T00:00:00Z;Q1049641;;

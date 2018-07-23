@@ -1,70 +1,13 @@
 human_id;human__label;human_description;human_name;human_sex;human_DoB;human_DoD
 28T00:00:00Z;
-Q621458;Alex Comfort;British scientist;Alex Comfort;male;+1920-02-10T00:00:00Z;+2000-03-26T00:00:00Z
 Q185548;Jostein Gaarder;Norwegian author;Jostein Gaarder;male;+1952-08-08T00:00:00Z;
-Q299015;Austrian Academy of Sciences;;Austrian Academy of Sciences;;;
 Q76529;Günter Wallraff;German writer and undercover journalist;Günter Wallraff;male;+1942-10-01T00:00:00Z;
-Q28147;James Krüss;German writer;James Jacob Hinrich Krüss;male;+1926-05-31T00:00:00Z;+1997-08-02T00:00:00Z
 Q449085;Dodie Smith;English novelist and playwright;Dodie Smith;female;+1896-05-03T00:00:00Z;+1990-11-24T00:00:00Z
-Q184440;Jorge Amado;Brazilian writer;Jorge Amado;male;+1912-08-10T00:00:00Z;+2001-08-06T00:00:00Z
+Q299015;Austrian Academy of Sciences;;Austrian Academy of Sciences;;;
 Q365955;Hallgrímur Helgason;Icelandic writer;Hallgrímur Helgason;male;+1959-02-18T00:00:00Z;
 Q81438;Walt Whitman;American poet, essayist and journalist;Walter Whitman;male;+1819-05-31T00:00:00Z;+1892-03-26T00:00:00Z
+Q621458;Alex Comfort;British scientist;Alex Comfort;male;+1920-02-10T00:00:00Z;+2000-03-26T00:00:00Z
+Q28147;James Krüss;German writer;James Jacob Hinrich Krüss;male;+1926-05-31T00:00:00Z;+1997-08-02T00:00:00Z
+Q184440;Jorge Amado;Brazilian writer;Jorge Amado;male;+1912-08-10T00:00:00Z;+2001-08-06T00:00:00Z
 Q312532;Ian Kershaw;British historian;Ian Kershaw;male;+1943-04-29T00:00:00Z;
 Q352;Adolf Hitler;Führer and Reich Chancellor of Germany, Leader of the Nazi Party;Adolf Hitler;male;+1889-04-20T00:00:00Z;+1945-04-30T00:00:00Z
-Q215665;writer
-Q215665;screenwriter
-Q621458;physician
-Q621458;writer
-Q621458;university teacher
-Q621458;psychiatrist
-Q185548;writer
-Q185548;teacher
-Q185548;novelist
-Q185548;philosopher
-Q185548;children's writer
-Q185548;screenwriter
-Q76529;journalist
-Q76529;writer
-Q28147;poet
-Q28147;children's writer
-Q28147;playwright
-Q28147;translator
-Q28147;writer
-Q28147;journalist
-Q28147;prosaist
-Q28147;prose
-Q449085;writer
-Q449085;autobiographer
-Q449085;novelist
-Q449085;playwright
-Q449085;screenwriter
-Q449085;children's writer
-Q184440;writer
-Q184440;journalist
-Q184440;poet
-Q184440;novelist
-Q184440;lawyer
-Q184440;science fiction writer
-Q184440;politician
-Q365955;writer
-Q365955;playwright
-Q365955;painter
-Q365955;screenwriter
-Q81438;nurse
-Q81438;poet
-Q81438;novelist
-Q81438;journalist
-Q81438;essayist
-Q81438;writer
-Q312532;contemporary historian
-Q312532;university teacher
-Q312532;writer
-Q312532;historian
-Q352;politician
-Q352;soldier
-Q352;painter
-Q352;political writer
-Q352;revolutionary
-Q352;statesperson
-Q352;author
-Q352;antisemite
