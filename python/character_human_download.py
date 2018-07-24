@@ -201,7 +201,7 @@ class HumanDownloadThread(threading.Thread):
                 self.local_statistics[index("no occupation")] += 1
 
             humans_file.write(str(
-                human) + ";" + label + ";" + description + ";" + name + ";" + sex + ";" + DoB + ";" + PoB + ";" + DoD + ";" + PoD + "c\n")
+                human) + ";" + label + ";" + description + ";" + name + ";" + sex + ";" + DoB + ";"  + DoD + ";" + "c\n")
 
     def join(self):
         Thread.join(self)

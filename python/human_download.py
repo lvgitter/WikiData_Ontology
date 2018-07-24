@@ -201,7 +201,7 @@ class HumanDownloadThread(threading.Thread):
                 self.local_statistics[index("no occupation")] += 1
 
             humans_file.write(str(
-                human) + ";" + label + ";" + description + ";" + name + ";" + sex + ";" + DoB + ";" + PoB + ";" + DoD + ";" + PoD + "nc\n")
+                human) + ";" + label + ";" + description + ";" + name + ";" + sex + ";" + DoB + ";" + DoD + ";" + "nc\n")
 
     def join(self):
         Thread.join(self)
@@ -229,7 +229,10 @@ log_file_path = "../log/log_Human.txt"
 statistics = [0 for x in range(LEN_INDEX)]
 
 # DICTIONARIES LOADING
-occupations_dict = load_obj("occupations")  # occupation wikidata id to label
+try:
+    occupations_dict = load_obj("occupations")  # occupation wikidata id to label
+except:
+    occupations_dict = {}
 
 # RETRIEVING ALL HUMANS WIKIDATA IDs ALREADY PROCESSED
 processed_humans_file = open(processed_humans_file_path, 'r')

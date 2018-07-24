@@ -1,4 +1,4 @@
-2018-07-24 13:07:32
+2018-07-24 16:18:13
 
 Number of cities: 259
 
@@ -11,7 +11,7 @@ no description  :0  (0.0 %)
 no country      :0  (0.0 %) 
 no mayor        :225  (87.0 %) 
 fictional       :0  (0.0 %) 
-Total_time:	6.94 sec
+Total_time:	8.06 sec
 Number of cities: 8
 
 
@@ -23,4 +23,4 @@ no description  :0  (0.0 %)
 no country      :0  (0.0 %) 
 no mayor        :8  (100.0 %) 
 fictional       :0  (0.0 %) 
-Total_time:	0.35 sec
+Total_time:	0.37 sec

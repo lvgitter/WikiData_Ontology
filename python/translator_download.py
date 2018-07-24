@@ -243,7 +243,10 @@ occupations_file_path = "../roles/_Human_has_occupation.txt"
 statistics = [0 for x in range(LEN_INDEX)]
 
 # DICTIONARIES LOADING
-occupations_dict = load_obj("occupations") # occupation wikidata id to label
+try:
+    occupations_dict = load_obj("occupations") # occupation wikidata id to label
+except:
+    occupations_dict = {}
 
 # RETRIEVING ALL TRANSLATORS WIKIDATA IDs
 processed_translators_file_path = "../processed/processedTranslators.txt"

@@ -1,4 +1,4 @@
-2018-07-24 13:07:32
+2018-07-24 16:18:13
 
 
 
@@ -12,7 +12,7 @@ no PoB          :16  (13.0 %)
 no PoD          :22  (18.0 %) 
 no label        :0  (0.0 %) 
 no description  :0  (0.0 %) 
-Total_time:	3.49 sec
+Total_time:	9.91 sec
 
 
 *** STATISTICS *** 
@@ -25,4 +25,4 @@ no PoB          :0  (0.0 %)
 no PoD          :16  (94.0 %) 
 no label        :0  (0.0 %) 
 no description  :0  (0.0 %) 
-Total_time:	0.6 sec
+Total_time:	1.1 sec
