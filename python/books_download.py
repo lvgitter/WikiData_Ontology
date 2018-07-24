@@ -142,10 +142,15 @@ class myThread(threading.Thread):
                             file_has_genres.write(book_id + ";" + loc+ "\n")
                             locations_lock.release()
                     else:
-                        url_loc = "http://www.wikidata.org/wiki/Special:EntityData/" + loc + ".json" #INSTANCE OF
-                        response_loc = requests.get(url_loc)
-                        data_loc = response_loc.json()
-
+                        for i in range(3):
+                            try:
+                                url_loc = "http://www.wikidata.org/wiki/Special:EntityData/" + loc + ".json" #INSTANCE OF
+                                response_loc = requests.get(url_loc)
+                                data_loc = response_loc.json()
+                                break
+                            except:
+                                time.sleep(i*0.5)
+                                continue
                         instances_of_location = []
                         if "P31" in data_loc['entities'][loc]["claims"]:
                             for instance in data_loc['entities'][loc]["claims"]["P31"]:
@@ -272,9 +277,15 @@ class myThread(threading.Thread):
                     if se in series_dict:
                         series_name = series_dict[se]
                     else:
-                        urls = "http://www.wikidata.org/wiki/Special:EntityData/" + se + ".json"
-                        responses = requests.get(urls)
-                        datas = responses.json()
+                        for i in range(3):
+                            try:
+                                urls = "http://www.wikidata.org/wiki/Special:EntityData/" + se + ".json"
+                                responses = requests.get(urls)
+                                datas = responses.json()
+                                break
+                            except:
+                                time.sleep(i*0.5)
+                                continue
                         try:
                             series_lock.acquire()
                             series_name = datas['entities'][se]["labels"]["en"]["value"]
@@ -311,9 +322,15 @@ class myThread(threading.Thread):
                         file_has_genres.write(book_id + ";" + gname + "\n")
                         genres_lock.release()
                     else:
-                        urlg = "http://www.wikidata.org/wiki/Special:EntityData/" + genre + ".json"
-                        responseg = requests.get(urlg)
-                        datag = responseg.json()
+                        for i in range(3):
+                            try:
+                                urlg = "http://www.wikidata.org/wiki/Special:EntityData/" + genre + ".json"
+                                responseg = requests.get(urlg)
+                                datag = responseg.json()
+                                break
+                            except:
+                                time.sleep(i*0.5)
+                                continue
                         try:
                             genres_lock.acquire()
                             gname = datag['entities'][genre]["labels"]["en"]["value"]
@@ -403,7 +420,7 @@ sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
 sparql.setQuery("""SELECT ?book WHERE {
     ?book wdt:P31 wd:Q571
     }
-    LIMIT 1000
+    LIMIT 100
 """)
 sparql.setReturnFormat(JSON)
 results = sparql.query().convert()

@@ -1,12 +1,12 @@
-2018-07-23 18:29:38
+2018-07-24 13:07:32
 
-Number of publishers: 68
+Number of publishers: 35
 
 
 *** STATISTICS *** 
-no inception    :19  (28.000000000000004 %) 
-no loc          :25  (37.0 %) 
-no founder      :38  (56.00000000000001 %) 
-no label        :8  (12.0 %) 
+no inception    :10  (28.999999999999996 %) 
+no loc          :14  (40.0 %) 
+no founder      :19  (54.0 %) 
+no label        :6  (17.0 %) 
 no description  :0  (0.0 %) 
-Total_time:	23.17 sec
+Total_time:	0.93 sec

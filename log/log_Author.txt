@@ -1,36 +1,19 @@
-2018-07-23 18:29:38
+2018-07-24 13:07:32
 
 
 
 *** STATISTICS *** 
-no genre        :506  (71.0 %) 
-no award        :351  (49.0 %) 
-no name         :353  (50.0 %) 
-no surname      :0  (0.0 %) 
-no sex          :2  (0.0 %) 
-no DoB          :20  (3.0 %) 
-no DoD          :281  (39.0 %) 
-no occupation   :16  (2.0 %) 
-no PoB          :635  (89.0 %) 
-no PoD          :296  (42.0 %) 
-no influencing author:0  (0.0 %) 
-no label        :1  (0.0 %) 
-no description  :0  (0.0 %) 
-Total_time:	213.76 sec
-
-
-*** STATISTICS *** 
-no genre        :36  (73.0 %) 
-no award        :29  (59.0 %) 
-no name         :26  (53.0 %) 
+no genre        :68  (70.0 %) 
+no award        :48  (49.0 %) 
+no name         :44  (45.0 %) 
 no surname      :0  (0.0 %) 
 no sex          :0  (0.0 %) 
-no DoB          :2  (4.0 %) 
-no DoD          :25  (51.0 %) 
-no occupation   :1  (2.0 %) 
-no PoB          :48  (98.0 %) 
-no PoD          :28  (56.99999999999999 %) 
+no DoB          :5  (5.0 %) 
+no DoD          :39  (40.0 %) 
+no occupation   :4  (4.0 %) 
+no PoB          :81  (84.0 %) 
+no PoD          :42  (43.0 %) 
 no influencing author:0  (0.0 %) 
 no label        :0  (0.0 %) 
 no description  :0  (0.0 %) 
-Total_time:	45.46 sec
+Total_time:	3.32 sec

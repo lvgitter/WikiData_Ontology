@@ -79,9 +79,9 @@ class HumanDownloadThread(threading.Thread):
                 try:
                     response = requests.get(url)  # timeout
                     data = response.json()
+                    break
                 except:
-                    print("EXCEPTION " + url)
-                    time.sleep(0.5)
+                    time.sleep(i*0.5)
                     continue
             # LABEL
             label = ""
@@ -130,7 +130,6 @@ class HumanDownloadThread(threading.Thread):
             try:
                 DoB = data['entities'][human]["claims"]["P569"][0]["mainsnak"]["datavalue"]["value"]["time"]
             except:
-                print("bad date human: " + human)
                 self.local_statistics[index("no DoB")] += 1
 
             # DoD
@@ -181,9 +180,15 @@ class HumanDownloadThread(threading.Thread):
                         file_has_occupation.write(human + ";" + occupation_name + "\n")
                         occupations_dict_lock.release()
                     else:
-                        urlg = "http://www.wikidata.org/wiki/Special:EntityData/" + occupation + ".json"
-                        response_occupation = requests.get(urlg)
-                        data_occupation = response_occupation.json()
+                        for i in range(3):
+                            try:
+                                urlg = "http://www.wikidata.org/wiki/Special:EntityData/" + occupation + ".json"
+                                response_occupation = requests.get(urlg)
+                                data_occupation = response_occupation.json()
+                                break
+                            except:
+                                time.sleep(i*0.5)
+                                continue
                         try:
                             occupations_dict_lock.acquire()
                             occupation_name = data_occupation['entities'][occupation]["labels"]["en"]["value"]
@@ -196,7 +201,7 @@ class HumanDownloadThread(threading.Thread):
                 self.local_statistics[index("no occupation")] += 1
 
             humans_file.write(str(
-                human) + ";" + label + ";" + description + ";" + name + ";" + sex + ";" + DoB + ";" + PoB + ";" + DoD + ";" + PoD + "\n")
+                human) + ";" + label + ";" + description + ";" + name + ";" + sex + ";" + DoB + ";" + PoB + ";" + DoD + ";" + PoD + "nc\n")
 
     def join(self):
         Thread.join(self)

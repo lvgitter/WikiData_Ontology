@@ -1,26 +1,26 @@
-2018-07-23 18:29:38
+2018-07-24 13:07:32
 
-Number of cities: 869
-
-
-*** STATISTICS *** 
-no population   :265  (30.0 %) 
-no area         :1  (0.0 %) 
-no label        :5  (1.0 %) 
-no description  :0  (0.0 %) 
-no country      :0  (0.0 %) 
-no mayor        :769  (88.0 %) 
-fictional       :0  (0.0 %) 
-Total_time:	152.36 sec
-Number of cities: 47
+Number of cities: 259
 
 
 *** STATISTICS *** 
-no population   :16  (34.0 %) 
+no population   :86  (33.0 %) 
 no area         :0  (0.0 %) 
 no label        :0  (0.0 %) 
 no description  :0  (0.0 %) 
 no country      :0  (0.0 %) 
-no mayor        :42  (89.0 %) 
+no mayor        :225  (87.0 %) 
 fictional       :0  (0.0 %) 
-Total_time:	7.86 sec
+Total_time:	6.94 sec
+Number of cities: 8
+
+
+*** STATISTICS *** 
+no population   :2  (25.0 %) 
+no area         :0  (0.0 %) 
+no label        :0  (0.0 %) 
+no description  :0  (0.0 %) 
+no country      :0  (0.0 %) 
+no mayor        :8  (100.0 %) 
+fictional       :0  (0.0 %) 
+Total_time:	0.35 sec

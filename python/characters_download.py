@@ -68,10 +68,9 @@ class CharacterDownloadThread(threading.Thread):
                 try:
                     response = requests.get(url)  # timeout
                     data = response.json()
+                    break
                 except:
-                    time.sleep(0.5)
-                    if i==3:
-                        print("EXCEPTION " + url)
+                    time.sleep(i*0.5)
                     continue
 
             # LABEL

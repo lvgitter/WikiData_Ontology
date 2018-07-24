@@ -70,9 +70,9 @@ class MayorDownloadThread(threading.Thread):
                 try:
                     response = requests.get(url)  # timeout
                     data = response.json()
+                    break
                 except:
-                    print("EXCEPTION " + url)
-                    time.sleep(0.5)
+                    time.sleep(i*0.5)
                     continue
 
             # LABEL
@@ -101,9 +101,15 @@ class MayorDownloadThread(threading.Thread):
                 if residence in official_residence_dict:
                     residence_name = official_residence_dict[residence]
                 else:
-                    url_residence = "http://www.wikidata.org/wiki/Special:EntityData/" + residence + ".json"
-                    response_residence = requests.get(url_residence)
-                    data_residence = response_residence.json()
+                    for i in range(3):
+                        try:
+                            url_residence = "http://www.wikidata.org/wiki/Special:EntityData/" + residence + ".json"
+                            response_residence = requests.get(url_residence)
+                            data_residence = response_residence.json()
+                            break
+                        except:
+                            time.sleep(i*0.5)
+                            continue
                     try:
                         residence_dict_lock.acquire()
                         residence_name = data_residence['entities'][residence]["labels"]["en"]["value"]

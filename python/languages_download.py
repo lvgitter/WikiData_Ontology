@@ -51,9 +51,9 @@ class myThread (threading.Thread):
                 try:
                     response = requests.get(url)  # timeout
                     data = response.json()
+                    break
                 except:
-                    print ("EXCEPTION " + url)
-                    time.sleep(0.5)
+                    time.sleep(i*0.5)
                     continue
 
             language_id = result
