@@ -1,19 +1,2 @@
-2018-07-24 17:27:58
+2018-07-24 17:53:45
 
-
-
-*** STATISTICS *** 
-no genre        :68  (70.0 %) 
-no award        :48  (49.0 %) 
-no name         :44  (45.0 %) 
-no surname      :0  (0.0 %) 
-no sex          :0  (0.0 %) 
-no DoB          :5  (5.0 %) 
-no DoD          :39  (40.0 %) 
-no occupation   :4  (4.0 %) 
-no PoB          :81  (84.0 %) 
-no PoD          :42  (43.0 %) 
-no influencing author:0  (0.0 %) 
-no label        :0  (0.0 %) 
-no description  :0  (0.0 %) 
-Total_time:	25.61 sec

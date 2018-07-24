@@ -1,15 +1,2 @@
-2018-07-24 17:27:58
+2018-07-24 17:53:45
 
-
-
-*** STATISTICS *** 
-no name         :175  (64.0 %) 
-no label        :8  (3.0 %) 
-no description  :0  (0.0 %) 
-fictionalHuman  :70  (26.0 %) 
-no DoB          :150  (55.00000000000001 %) 
-no DoD          :150  (55.00000000000001 %) 
-no sex          :4  (1.0 %) 
-fictionalNotHuman:272  (99.0 %) 
-human           :119  (43.0 %) 
-Total_time:	13.18 sec

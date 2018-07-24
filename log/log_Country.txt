@@ -1,20 +1,2 @@
-2018-07-24 17:27:58
+2018-07-24 17:53:45
 
-Number of countries: 1
-
-*** STATISTICS *** 
-no population   :0  (0.0 %) 
-no area         :0  (0.0 %) 
-no label        :0  (0.0 %) 
-no description  :0  (0.0 %) 
-no language     :0  (0.0 %) 
-Total_time:	0.35 sec
-Number of countries: 9
-
-*** STATISTICS *** 
-no population   :0  (0.0 %) 
-no area         :0  (0.0 %) 
-no label        :0  (0.0 %) 
-no description  :0  (0.0 %) 
-no language     :0  (0.0 %) 
-Total_time:	1.55 sec

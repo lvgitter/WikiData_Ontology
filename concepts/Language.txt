@@ -1,0 +1,1 @@
+language_id;language_label;language_description;speakers

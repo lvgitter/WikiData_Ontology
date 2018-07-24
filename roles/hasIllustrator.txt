@@ -1,2 +1,1 @@
 edition_id;illustrator_id
-Q49611178;Q2442652

@@ -1,2 +1,1 @@
 book_id;country_id
-Q6507;Q27

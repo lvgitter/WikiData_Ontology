@@ -1,23 +1,2 @@
-2018-07-24 17:27:58
+2018-07-24 17:53:45
 
-Number of languages: 24
-
-*** STATISTICS *** 
-no speakers     :7  (28.999999999999996 %) 
-no label        :0  (0.0 %) 
-no description  :0  (0.0 %) 
-Total_time:	1.86 sec
-Number of languages: 9
-
-*** STATISTICS *** 
-no speakers     :1  (11.0 %) 
-no label        :0  (0.0 %) 
-no description  :0  (0.0 %) 
-Total_time:	0.34 sec
-Number of languages: 7
-
-*** STATISTICS *** 
-no speakers     :0  (0.0 %) 
-no label        :0  (0.0 %) 
-no description  :0  (0.0 %) 
-Total_time:	0.3 sec

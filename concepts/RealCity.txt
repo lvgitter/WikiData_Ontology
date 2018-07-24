@@ -1,0 +1,1 @@
+city_id;city_label;city_description;realCity_area;realCity_population
