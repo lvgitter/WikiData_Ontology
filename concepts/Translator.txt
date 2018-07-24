@@ -1,5 +1,4 @@
 human_id;human_label;human_description;human_name;human_sex;human_DoB;human_DoD
-00Z;
 Q449085;Dodie Smith;English novelist and playwright;Dodie Smith;female;+1896-05-03T00:00:00Z;+1990-11-24T00:00:00Z
 Q365955;Hallgrímur Helgason;Icelandic writer;Hallgrímur Helgason;male;+1959-02-18T00:00:00Z;
 Q184440;Jorge Amado;Brazilian writer;Jorge Amado;male;+1912-08-10T00:00:00Z;+2001-08-06T00:00:00Z

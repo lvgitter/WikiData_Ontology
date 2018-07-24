@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OBDA version="1.0">
-    <dataSource databaseDriver="com.mysql.jdbc.Driver" databaseName="cityDB"
+    <dataSource databaseDriver="com.mysql.jdbc.Driver" databaseName="bookDB"
         databasePassword="root"
-        databaseURL="jdbc:mysql://localhost/cityDB"
+        databaseURL="jdbc:mysql://localhost/bookDB"
         databaseUsername="root" name="datasource"/>
     <prefixes>
         <prefix name="owl:" namespace="http://www.w3.org/2002/07/owl#"/>
