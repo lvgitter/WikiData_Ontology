@@ -1,6 +1,6 @@
-2018-07-23 18:29:38
+2018-07-24 13:07:32
 
-Number of countries: 11
+Number of countries: 9
 
 *** STATISTICS *** 
 no population   :0  (0.0 %) 
@@ -8,4 +8,4 @@ no area         :0  (0.0 %)
 no label        :0  (0.0 %) 
 no description  :0  (0.0 %) 
 no language     :0  (0.0 %) 
-Total_time:	4.69 sec
+Total_time:	0.61 sec

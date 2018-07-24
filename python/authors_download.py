@@ -83,9 +83,10 @@ class AuthorDownloadThread(threading.Thread):
                 try:
                     response = requests.get(url)  # timeout
                     data = response.json()
+                    break
                 except:
                     print("EXCEPTION " + url)
-                    time.sleep(0.5)
+                    time.sleep(i*0.5)
                     continue
             
             # LABEL
@@ -183,9 +184,17 @@ class AuthorDownloadThread(threading.Thread):
                         occupation_name = occupations_dict[occupation]
                         file_has_occupation.write(author + ";" + occupation_name + "\n")
                     else:
-                        urlg = "http://www.wikidata.org/wiki/Special:EntityData/" + occupation + ".json"
-                        response_occupation = requests.get(urlg)
-                        data_occupation = response_occupation.json()
+                        for i in range(3):
+                            try:
+                                urlg = "http://www.wikidata.org/wiki/Special:EntityData/" + occupation + ".json"
+                                response_occupation = requests.get(urlg)
+                                data_occupation = response_occupation.json()
+                                break
+                            except:
+                                print("EXCEPTION " + urlg)
+                                time.sleep(i*0.5)
+                                continue
+
                         try:
                             occupations_dict_lock.acquire()
                             occupation_name = data_occupation['entities'][occupation]["labels"]["en"]["value"]
@@ -208,9 +217,15 @@ class AuthorDownloadThread(threading.Thread):
                         file_has_genres.write(author + ";" + gname + "\n")
                         genres_lock.release()
                     else:
-                        urlg = "http://www.wikidata.org/wiki/Special:EntityData/" + genre + ".json"
-                        responseg = requests.get(urlg)
-                        datag = responseg.json()
+                        for i in range(3):
+                            try:
+                                urlg = "http://www.wikidata.org/wiki/Special:EntityData/" + genre + ".json"
+                                responseg = requests.get(urlg)
+                                datag = responseg.json()
+                                break
+                            except:
+                                time.sleep(i*0.5)
+                                continue
                         try:
                             genres_lock.acquire()
                             gname = datag['entities'][genre]["labels"]["en"]["value"]
@@ -233,9 +248,16 @@ class AuthorDownloadThread(threading.Thread):
                         file_has_awards.write(author + ";" + award_name + "\n")
                         awards_dict_lock.release()
                     else:
-                        url_award = "http://www.wikidata.org/wiki/Special:EntityData/" + award + ".json"
-                        response_award = requests.get(url_award)
-                        data_award = response_award.json()
+                        for i in range(3):
+                            try:
+                                url_award = "http://www.wikidata.org/wiki/Special:EntityData/" + award + ".json"
+                                response_award = requests.get(url_award)
+                                data_award = response_award.json()
+                                break
+                            except:
+                                time.sleep(i*0.5)
+                                continue
+
                         try:
                             awards_dict_lock.acquire()
                             award_name = data_award['entities'][award]["labels"]["en"]["value"]

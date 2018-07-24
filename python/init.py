@@ -67,7 +67,7 @@ editions_file.close()
 
 humans_file_path = "../concepts/Human.txt"
 humans_file = open(humans_file_path, 'w')
-humans_file.write('human_id;human_label;human_description;human_name;human_sex;human_DoB;human_DoD\n')
+humans_file.write('human_id;human_label;human_description;human_name;human_sex;human_DoB;human_DoD;character\n')
 humans_file.close()
 
 languages_file_path = "../concepts/Language.txt"
@@ -272,6 +272,11 @@ human_log_file = open(human_log_file_path, 'w')
 human_log_file.write(timestamp)
 human_log_file.close()
 
+human_character_log_file_path = "../log/log_HumanCharacters.txt"
+human_character_log_file = open(human_character_log_file_path, 'w')
+human_character_log_file.write(timestamp)
+human_character_log_file.close()
+
 language_log_file_path = "../log/log_Language.txt"
 language_log_file = open(language_log_file_path, 'w')
 language_log_file.write(timestamp)
@@ -301,6 +306,7 @@ programs = [
     "editions_download.py",
     "translator_download.py",
     "human_download.py",
+    "character_human_download.py",
     "cities_download.py",
     "countries_download.py",
     "mayor_download.py"
