@@ -1,10 +1,11 @@
-Number of countries: 317
+2018-07-23 18:29:38
 
+Number of countries: 11
 
 *** STATISTICS *** 
-no population   :65  (21.0 %) 
-no area         :62  (20.0 %) 
+no population   :0  (0.0 %) 
+no area         :0  (0.0 %) 
 no label        :0  (0.0 %) 
 no description  :0  (0.0 %) 
-no language     :107  (34.0 %) 
-Total_time:	15.19 sec
+no language     :0  (0.0 %) 
+Total_time:	4.69 sec

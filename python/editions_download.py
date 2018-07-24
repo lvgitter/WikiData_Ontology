@@ -1,5 +1,7 @@
 import time
 import math
+
+import sys
 from SPARQLWrapper import SPARQLWrapper, JSON
 import threading
 from threading import Thread
@@ -8,7 +10,7 @@ import random
 import pickle
 
 N_THREADS = 16
-LEN_INDEX = 7
+LEN_INDEX = 6
 
 
 def index(statistic_name):
@@ -63,7 +65,7 @@ class myThread(threading.Thread):
                     print("EXCEPTION " + url)
                     time.sleep(0.5)
                     continue
-            edition_id = url.split(".json")[0].split("/")[-1]
+            edition_id = editions[j]
 
             # LABEL
             label = ""
@@ -168,9 +170,12 @@ processed_editions_file_path = "../processed/processedEditions.txt"
 processed_editions_file = open(processed_editions_file_path, 'r')
 processed_editions = [x.strip() for x in processed_editions_file.readlines()[1:]]
 has_edition_file = open(has_edition_file_path, "r")
-editions = list(set([x.split(';')[1] for x in has_edition_file.readlines()[1:]]).difference(processed_editions))
+editions = list(set([x.strip().split(';')[1] for x in has_edition_file.readlines()[1:]]).difference(processed_editions))
 has_edition_file.close()
 processed_editions_file.close()
+
+if len(editions)==0:
+    sys.exit(1)
 
 # SAVING TO FILE
 file_log = open(file_log_path, 'a')
@@ -229,3 +234,5 @@ for i in range(len(statistics)):
 
 file_log.write("Total_time:\t" + str(round(total_time, 2)) + " sec" + "\n")
 file_log.close()
+
+sys.exit(0)

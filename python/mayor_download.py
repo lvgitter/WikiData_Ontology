@@ -1,5 +1,7 @@
 import time
 import math
+
+import sys
 from SPARQLWrapper import SPARQLWrapper, JSON
 import threading
 from threading import Thread
@@ -120,7 +122,6 @@ class MayorDownloadThread(threading.Thread):
                 for mayor_data in data['entities'][mayor]["claims"]["P1308"]:
                     pref_mayor = mayor_data
                     if mayor_data["rank"] == "preferred":
-                        print("preferred")
                         break
                 try:
                     has_role_lock.acquire()
@@ -184,6 +185,9 @@ mayors = list(mayors.difference(processed_mayors))
 has_mayor_file.close()
 processed_mayors_file.close()
 
+if len(mayors)==0:
+    sys.exit(1)
+
 # OPENING OUTPUT FILES
 mayors_file = open(mayors_file_path, 'a')
 has_role_file = open(has_role_file_path, 'a')
@@ -238,3 +242,5 @@ for i in range(len(statistics)):
 
 log_file.write("Total_time:\t" + str(round(total_time, 2)) + " sec" + "\n")
 log_file.close()
+
+sys.exit(0)

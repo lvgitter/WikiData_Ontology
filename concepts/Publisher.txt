@@ -1,280 +1,69 @@
-publisher_id;label;description;inception
-Q3920831;Znamya;;1902;
-Q2562301;Del Rey Books;publisher;1977;
-Q273819;Éditions Gallimard;French publishing company;1911;
-Q1431868;Alfred A. Knopf;American publishing house;1915;
-Q95149;HarperCollins;American publishing house;1990;
-Q726081;Kodansha;Japanese publishing company;1909;
-Q2881141;Ballantine Books;American book publisher;1952;
-Q1336200;Penguin Books;British publishing house;1935;
-Q5147368;Collins Crime Club;;1930;
-Q2609948;Bantam Books;Publisher from the USA;1945;
-Q1251563;Doubleday;American publishing company;1897;
-Q552959;Little, Brown and Company;publisher;1837;
-Q4669411;Abrams Books;US publisher;1949;
-Q536795;Ace Books;oldest active specialty publisher of science fiction and fantasy books;1952;
-Q3093062;G. P. Putnam's Sons;US book publisher, under this name from 1872;1838;
-Q3296078;Methuen Publishing;UK book publishing company;1889;
-Q8011829;William Heinemann;British publisher;;
-Q5189454;Crown Publishing Group;publisher;1933;
-Q2108217;Macmillan Publishers;British publishing company;1843;
-Q284739;ReganBooks;closed publishing imprint of HarperCollins;1994;
-Q19577155;The Russian Messenger;Russian magazine (1856—1906);1856;
-Q7835466;Transworld Publishers;;1950;
-Q1232629;John Murray;English publisher;1768;
-Q744182;Random House;general-interest trade book publisher;1927;
-Q1431868;Alfred A. Knopf;American publishing house;1915;
-Q8015856;William Morrow and Company;publisher;1926;
-Q3579256;Bompiani;Italian publisher;1929;
-Q520387;Pantheon Books;organization;1942;
-Q2108217;Macmillan Publishers;British publishing company;1843;
-Q7412632;Samuel Simmons;English printer;;
-Q2191547;picador;;;
-Q6273015;Heinemann;publishing house;1890;
-Q378809;Hutchinson;British book and magazine publisher, 1887 to 1985;1887;
-Q2108217;Macmillan Publishers;British publishing company;1843;
-Q3093062;G. P. Putnam's Sons;US book publisher, under this name from 1872;1838;
-Q95145;Allen & Unwin;Australian publishing company;1914;
-Q5033341;Canongate Books;Scottish independent publishing firm based in Edinburgh;1973;
-Q3560313;Vintage Books;publishing imprint of Random House; American to 1990, now international;1954;
-Q4310130;John Samuel Murray;British publisher;;
-Q3243165;HiT Entertainment;;1989;
-Q5654997;Harcourt;United States publishing firm;1919;
-Q3277534;Jonathan Cape;British publisher;1921;
-Q844822;Shueisha;Japanese manga, magazines and novels publisher;1925;
-Q5287721;Dodd, Mead and Company;american publishing house;1839;
-Q552619;Pierre-Jules Hetzel;French publisher and writer;;
-Q2609948;Bantam Books;Publisher from the USA;1945;
-Q2647037;Tor Books;book publisher of the United States;1980;
-Q4483635;;;1939;
-Q2753848;Berkley Books;an imprint of Penguin Group (USA);1955;
-Q1506059;Modern Language Association;principal professional association in the United States for scholars of language and literature;1883;
-Q2562301;Del Rey Books;publisher;1977;
-Q17985959;Geoffrey Bles;British publisher;;
-Q1756332;Simon & Schuster;large English-language publisher;1924;
-Q799732;Baen Books;publisher;1983;
-Q85355;Arnoldo Mondadori Editore;Italian publishing company;1907;
-Q390074;Houghton Mifflin Harcourt;publisher;1880;
-Q390074;Houghton Mifflin Harcourt;publisher;1880;
-Q1282208;W. W. Norton & Company;American publishing company;1923;
-Q390074;Houghton Mifflin Harcourt;publisher;1880;
-Q1155729;Scholastic Corporation;American publishing, education and media company;1920;
-Q2263748;Secker & Warburg;;1935;
-Q997885;Econ Verlag;German publishing house;1950;
-Q1431868;Alfred A. Knopf;American publishing house;1915;
-Q5677798;Harvill Secker;British publishing company;1936;
-Q353060;Addison-Wesley;publisher;1942;
-Q2881141;Ballantine Books;American book publisher;1952;
-Q6800322;McClelland & Stewart;Canadian publishing company based in Toronto;1906;
-Q7380179;Rupa & Co.;book publisher in India;1936;
-Q3127696;Harper;American publishing company;1817;
-Q660769;Ouest-France;French newspaper;1944;
-Q2108217;Macmillan Publishers;British publishing company;1843;
-Q273819;Éditions Gallimard;French publishing company;1911;
-Q2054191;Chapman & Hall;;1834;
-Q2647037;Tor Books;book publisher of the United States;1980;
-Q1431868;Alfred A. Knopf;American publishing house;1915;
-Q273819;Éditions Gallimard;French publishing company;1911;
-Q5033341;Canongate Books;Scottish independent publishing firm based in Edinburgh;1973;
-Q7005314;New American Library;American publisher;1948;
-Q7921487;Verlag Die Schmiede;;;
-Q568642;Bloomsbury Publishing;British independent, worldwide publishing house;1986;
-Q95145;Allen & Unwin;Australian publishing company;1914;
-Q878427;Kiepenheuer & Witsch;German publishing house;1951;
-Q532567;Olympia Press;;1953;
-Q3067003;Farrar, Straus and Giroux;American book publishing company;1946;
-Q6770117;Mark V. Ziesing;;;
-Q552959;Little, Brown and Company;publisher;1837;
-Q95149;HarperCollins;American publishing house;1990;
-Q1756332;Simon & Schuster;large English-language publisher;1924;
-Q390074;Houghton Mifflin Harcourt;publisher;1880;
-Q1431868;Alfred A. Knopf;American publishing house;1915;
-Q73820;MIT Press;American university press;1932;
-Q7962224;Walker Books;independent British publisher;1978;
-Q9592;Catholic Church;Christian church led by the Pope, consisting of the Latin Church and 23 Eastern Catholic Churches;0001;
-Q568642;Bloomsbury Publishing;British independent, worldwide publishing house;1986;
-Q3093062;G. P. Putnam's Sons;US book publisher, under this name from 1872;1838;
-Q2522363;Victor Gollancz Ltd;British book publishing house;1927;
-Q568642;Bloomsbury Publishing;British independent, worldwide publishing house;1986;
-Q568642;Bloomsbury Publishing;British independent, worldwide publishing house;1986;
-Q3127696;Harper;American publishing company;1817;
-Q5079707;Charles Kegan Paul;British publisher and author;;
-Q3093062;G. P. Putnam's Sons;US book publisher, under this name from 1872;1838;
-Q861799;Orion Publishing Group;British publisher;1991;
-Q3277534;Jonathan Cape;British publisher;1921;
-Q3127696;Harper;American publishing company;1817;
-Q15077094;J. B. Lippincott & Co.;American publishing house founded in 1836;1885;
-Q1155729;Scholastic Corporation;American publishing, education and media company;1920;
-Q2108217;Macmillan Publishers;British publishing company;1843;
-Q552619;Pierre-Jules Hetzel;French publisher and writer;;
-Q3277534;Jonathan Cape;British publisher;1921;
-Q3026786;Dictionnaires Le Robert;French publisher of dictionaries founded by Paul Robert;;
-Q3402586;Presses de la Cité;;1943;
-Q898097;Faber and Faber;British publishing house;1929;
-Q2910098;Boni & Liveright;publisher;1917;
-Q3277534;Jonathan Cape;British publisher;1921;
-Q552959;Little, Brown and Company;publisher;1837;
-Q5537222;George Braziller;American publisher;;
-Q5497221;Frederick A. Stokes;American publisher; founded White & Stokes in 1881, Frederick A. Stokes Company in 1890;;
-Q1155729;Scholastic Corporation;American publishing, education and media company;1920;
-Q2339634;Editorial Planeta;publishing house;1949;
-Q921536;Viking Press;publisher;1925;
-Q127324;André le Breton;French publisher;;
-Q634246;Breitkopf & Härtel;publisher;1719;
-Q1529971;Blackwood's Magazine;British magazine;1817;
-Q868587;McGraw Hill Financial;American publicly traded corporation;1917;
-Q2874472;Avon;American paperback book and comic book publisher;1941;
-Q2062729;Rabén & Sjögren;Swedish book publishing company;1941;
-Q95145;Allen & Unwin;Australian publishing company;1914;
-Q568642;Bloomsbury Publishing;British independent, worldwide publishing house;1986;
-Q273819;Éditions Gallimard;French publishing company;1911;
-Q466587;American Psychological Association;scientific and professional organization;1892;
-Q4889045;Benjamin Motte;British bookseller and publisher;;
-Q8015856;William Morrow and Company;publisher;1926;
-Q7033446;Night Shade Books;;1997;
-Q5147368;Collins Crime Club;;1930;
-Q5233633;David Fickling Books;;2002;
-Q1431868;Alfred A. Knopf;American publishing house;1915;
-Q744182;Random House;general-interest trade book publisher;1927;
-Q5540027;George H. Doran Company;;1908;
-Q378809;Hutchinson;British book and magazine publisher, 1887 to 1985;1887;
-Q2648991;Thomas Nelson;Scottish publishing firm, now part of HarperCollins;1798;
-Q2830980;Albert Bonniers förlag;;1837;
-Q2108217;Macmillan Publishers;British publishing company;1843;
-Q3277534;Jonathan Cape;British publisher;1921;
-Q936190;Government of the People's Republic of China;administrative bodies of China;;
-Q8007001;William Collins, Sons;British publisher 1819 to 1990;1819;
-Q568642;Bloomsbury Publishing;British independent, worldwide publishing house;1986;
-Q744182;Random House;general-interest trade book publisher;1927;
-Q4834796;BBC Books;an imprint owned and managed by Random House and BBC Worldwide;;
-Q744182;Random House;general-interest trade book publisher;1927;
-Q6724738;Macmillan Publishers;American publishing company;1869;
-Q3355196;Orbit Books;international publisher that specialises in science fiction and fantasy books;1974;
-Q3132837;Henry Holt and Company;American publishing company established 1866, under this name from 1873, succeeded by Holt, Rinehart & Winston 1960, continued as division or imprint;1866;
-Q4907694;Puffin Books;children's book publisher;1940;
-Q273819;Éditions Gallimard;French publishing company;1911;
-Q912887;Cambridge University Press;publishing business of the University of Cambridge;1534;
-Q5099225;Chilton Company;former publishing company;1896;
-Q7206385;Pocket Books;American publisher;1939;
-Q921536;Viking Press;publisher;1925;
-Q552959;Little, Brown and Company;publisher;1837;
-Q7753177;The National Era;;1847;
-Q8015856;William Morrow and Company;publisher;1926;
-Q744182;Random House;general-interest trade book publisher;1927;
-Q1508259;Routledge;global publisher;1851;
-Q7430850;Sceptre;;1986;
-Q568642;Bloomsbury Publishing;British independent, worldwide publishing house;1986;
-Q3666843;Chatto & Windus;British publisher of books;1855;
-Q520387;Pantheon Books;organization;1942;
-Q4300551;Molodaya Gvardiya;magazine;1922;
-Q552959;Little, Brown and Company;publisher;1837;
-Q7930923;Villard;;1983;
-Q7962224;Walker Books;independent British publisher;1978;
-Q5189454;Crown Publishing Group;publisher;1933;
-Q3445044;St. Martin's Press;publisher;1952;
-Q2137023;Dover Publications;American book publisher;1941;
-Q1251563;Doubleday;American publishing company;1897;
-Q861799;Orion Publishing Group;British publisher;1991;
-Q6800322;McClelland & Stewart;Canadian publishing company based in Toronto;1906;
-Q861799;Orion Publishing Group;British publisher;1991;
-Q1155729;Scholastic Corporation;American publishing, education and media company;1920;
-Q1848069;Belgravia;;1866;
-Q316578;Franz Eher Nachfolger;publisher;1901;
-Q6038822;Sir Arthur Pearson, 1st Baronet;Journalist; publisher;;
-Q1155729;Scholastic Corporation;American publishing, education and media company;1920;
-Q217238;Jimmie Johnson;American racing driver;;
-Q3093062;G. P. Putnam's Sons;US book publisher, under this name from 1872;1838;
-Q2924461;DC Comics;U.S. comic book publisher; part of DC Entertainment, a division of Time Warner.;1934;
-Q536795;Ace Books;oldest active specialty publisher of science fiction and fantasy books;1952;
-Q30873;Dell Inc.;American multinational computer technology corporation;1984;
-Q3067003;Farrar, Straus and Giroux;American book publishing company;1946;
-Q845617;Charles Scribner's Sons;American publisher;1846;
-Q7797764;Three Rivers Press;;1992;
-Q2108217;Macmillan Publishers;British publishing company;1843;
-Q744182;Random House;general-interest trade book publisher;1927;
-Q7320;NSDAP;political party in Germany between 1920 and 1945;1920;
-Q5341603;Edward Arnold;British publishing company;1890;
-Q7835466;Transworld Publishers;;1950;
-Q95145;Allen & Unwin;Australian publishing company;1914;
-Q5541948;George M. Hill Company;;1893;
-Q2108217;Macmillan Publishers;British publishing company;1843;
-Q3666843;Chatto & Windus;British publisher of books;1855;
-Q552959;Little, Brown and Company;publisher;1837;
-Q1756332;Simon & Schuster;large English-language publisher;1924;
-Q2908391;The Bodley Head;;1887;
-Q2923456;Bradbury and Evans;English printing and publishing business;1830;
-Q921536;Viking Press;publisher;1925;
-Q7922795;Vertical;publisher;2001;
-Q8252460;Edicions Bromera;;1986;
-Q3892930;Pan Books;publishing company;1944;
-Q1336200;Penguin Books;British publishing house;1935;
-Q95145;Allen & Unwin;Australian publishing company;1914;
-Q744182;Random House;general-interest trade book publisher;1927;
-Q921536;Viking Press;publisher;1925;
-Q7788285;Thomas Cautley Newby;British publisher;;
-Q8015856;William Morrow and Company;publisher;1926;
-Q7005314;New American Library;American publisher;1948;
-Q4034881;Basic Books;American book publisher;1952;
-Q2830980;Albert Bonniers förlag;;1837;
-Q646071;Rowohlt Verlag;German publishing house;1908;
-Q845617;Charles Scribner's Sons;American publisher;1846;
-Q95149;HarperCollins;American publishing house;1990;
-Q532567;Olympia Press;;1953;
-Q7206385;Pocket Books;American publisher;1939;
-Q552959;Little, Brown and Company;publisher;1837;
-Q95149;HarperCollins;American publishing house;1990;
-Q186225;Mercure de France;French publishing house;1890;
-Q5375692;Encyclopedia of China Publishing House;;1978;
-Q3093062;G. P. Putnam's Sons;US book publisher, under this name from 1872;1838;
-Q5659457;Harmony Books;;1972;
-Q1357695;Fujimi Shobo;company;1991;
-Q451462;Ullstein Verlag;publishing company in Germany;1877;
-Q3093062;G. P. Putnam's Sons;US book publisher, under this name from 1872;1838;
-Q552619;Pierre-Jules Hetzel;French publisher and writer;;
-Q2108217;Macmillan Publishers;British publishing company;1843;
-Q217595;Oxford University Press;publishing arm of the University of Oxford;1586;
-Q5499961;Free Press;;1947;
-Q1431868;Alfred A. Knopf;American publishing house;1915;
-Q744182;Random House;general-interest trade book publisher;1927;
-Q3093062;G. P. Putnam's Sons;US book publisher, under this name from 1872;1838;
-Q1567078;Hachette Book Group USA;publisher;1837;
-Q1065;United Nations;intergovernmental organisation;1945;
-Q552619;Pierre-Jules Hetzel;French publisher and writer;;
-Q2108217;Macmillan Publishers;British publishing company;1843;
-Q2339634;Editorial Planeta;publishing house;1949;
-Q30021282;Knight and co;Publishing house;;
-Q19577155;The Russian Messenger;Russian magazine (1856—1906);1856;
-Q845617;Charles Scribner's Sons;American publisher;1846;
-Q3567082;Weidenfeld & Nicolson;publisher;1948;
-Q265562;Sylvia Beach;American-born bookseller and publisher;;
-Q4857180;Bantam Press;organization;;
-Q1431868;Alfred A. Knopf;American publishing house;1915;
-Q95149;HarperCollins;American publishing house;1990;
-Q3277534;Jonathan Cape;British publisher;1921;
-Q568642;Bloomsbury Publishing;British independent, worldwide publishing house;1986;
-Q7430850;Sceptre;;1986;
-Q15839178;Gerald Duckworth and Company;publisher;1898;
-Q744182;Random House;general-interest trade book publisher;1927;
-Q845617;Charles Scribner's Sons;American publisher;1846;
-Q1503157;Shakespeare and Company;bookstore;;
-Q1385440;Piper Verlag;German publisher;1904;
-Q3067653;Fawcett Publications;American publishing company founded in 1919;1919;
-Q1282208;W. W. Norton & Company;American publishing company;1923;
-Q4857181;Bantam Spectra;science-fiction division of Bantam Books;;
-Q95149;HarperCollins;American publishing house;1990;
-Q118082;Marc-Michel Rey;Dutch publisher of Genevan origin;;
-Q55233;Hyperion Books;American book publisher;1990;
-Q32763;Santillana;Spanish footballer;;
-Q3127696;Harper;American publishing company;1817;
-Q3093062;G. P. Putnam's Sons;US book publisher, under this name from 1872;1838;
-Q5189454;Crown Publishing Group;publisher;1933;
-Q568642;Bloomsbury Publishing;British independent, worldwide publishing house;1986;
-Q568642;Bloomsbury Publishing;British independent, worldwide publishing house;1986;
-Q2108217;Macmillan Publishers;British publishing company;1843;
-Q118082;Marc-Michel Rey;Dutch publisher of Genevan origin;;
-Q378809;Hutchinson;British book and magazine publisher, 1887 to 1985;1887;
-Q2908391;The Bodley Head;;1887;
-Q1336200;Penguin Books;British publishing house;1935;
-Q3093062;G. P. Putnam's Sons;US book publisher, under this name from 1872;1838;
-Q7576675;Sphere Books;;1966;
-Q646071;Rowohlt Verlag;German publishing house;1908;
+publisher_id;publisher_label;publisher_description;inception
+Q27907916;John Brindley;English bookseller;
+Q3392522;Plon;French publishing house;1852
+Q2108217;Macmillan Publishers;British publishing company;1843
+Q19444280;Ginn & Company;US publishing company known for textbooks;
+Q5049289;Cassell;publisher;1848
+Q1587900;Harvard University Press;American university publishing house;1913
+Q3822096;Modern Library;American publishing company;1917
+Q4008202;Vallecchi;;1919
+Q1368849;Firmin Didot;French businessman;
+Q19559148;Lea & Febiger;US publishing company;1785
+Q1336200;Penguin Books;British publishing house;1935
+Q898067;Watch Tower Bible and Tract Society of Pennsylvania;not-for-profit organization headquartered in Wallkill, New York;1884
+Q82708;Church of England;Christian church in England and the Mother Church of the worldwide Anglican Communion;
+Q20124673;Diana Verlag;;
+Q3117417;Groupe Flammarion;French publisher;1875
+Q3579473;Perrin;;
+Q273819;Éditions Gallimard;French publishing company;1911
+Q17617848;Istituto Editoriale Italiano;italian publishing house;1904
+Q2228426;;;
+Q1815400;;;1814
+Q4397841;Росмэн;;1992
+Q712646;Artikel 19 Verlag;publisher;1989
+Q390074;Houghton Mifflin Harcourt;publisher;1880
+Q301609;Suhrkamp Verlag;German publishing house;1950
+Q7800720;Ticknor and Fields;;1854
+Q14624944;Lambert Schneider Verlag;German publisher;
+Q5677798;Harvill Secker;British publishing company;1936
+Q2934320;Calmann-Lévy;French publisher;1836
+Q21076601;;;
+Q3560313;Vintage Books;publishing imprint of Random House; American to 1990, now international;1954
+Q11918026;Editorial Selecta;;1946
+Q14624871;Editorial Garbo;publisher from Barcelona, Spain;
+Q50327732;Dobrovský;Czech publisher;2001
+Q25437050;Komubook;Crowdpublishing platform;2015
+Q744182;Random House;general-interest trade book publisher;1927
+Q821732;Metropol Verlag;German publishing house;1988
+Q3579256;Bompiani;Italian publisher;1929
+Q845617;Charles Scribner's Sons;American publisher;1846
+Q3067003;Farrar, Straus and Giroux;American book publishing company;1946
+Q3132837;Henry Holt and Company;American publishing company established 1866, under this name from 1873, succeeded by Holt, Rinehart & Winston 1960, continued as division or imprint;1866
+Q24204324;A. L. Burt Company;publishing house;1883
+Q217595;Oxford University Press;publishing arm of the University of Oxford;1586
+Q353060;Addison-Wesley;publisher;1942
+Q878427;Kiepenheuer & Witsch;German publishing house;1951
+Q1232629;John Murray;English publisher;1768
+Q21091410;;;
+Q2054191;Chapman & Hall;;1834
+Q21093676;;;
+Q3011053;D. Appleton & Company;publishing company;1905
+Q28869242;F. Kytka;Czech publishing house;
+Q186225;Mercure de France;French publishing house;1890
+Q349566;Hachette;French publisher;1826
+Q1503157;Shakespeare and Company;bookstore;
+Q95145;Allen & Unwin;Australian publishing company;1914
+Q552619;Pierre-Jules Hetzel;French publisher and writer;
+Q11281443;Penguin Classics;imprint of Penguin Random House;
+Q1305980;Giulio Einaudi editions;Italian publisher;1933
+Q10729193;Albatros;Czech publisher;1949
+Q779172;Sdu;Dutch publishing company;1988
+Q634246;Breitkopf & Härtel;publisher;1719
+Q1431868;Alfred A. Knopf;American publishing house;1915
+Q3157979;Jacques-Julien Dubochet;Swiss lawyer, newspaper editor;
+Q2980071;;organization;1894
+Q2277384;Contact;Dutch publisher;
+Q1251563;Doubleday;American publishing company;1897
+Q4453850;Text Publishers;;1988
+Q22695861;;;
+Q3752406;;;1870

@@ -1,0 +1,2 @@
+book_id;foreauthor_id
+Q208460Q35155

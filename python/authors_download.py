@@ -1,5 +1,7 @@
 import time
 import math
+
+import sys
 from SPARQLWrapper import SPARQLWrapper, JSON
 import threading
 from threading import Thread
@@ -65,7 +67,6 @@ class AuthorDownloadThread(threading.Thread):
         self.res_min = a
         self.res_max = b
         self.local_statistics = [0 for x in range(LEN_INDEX)]
-        self.influencing_authors = set([])
 
     def run(self):
         count = 0
@@ -136,7 +137,6 @@ class AuthorDownloadThread(threading.Thread):
             try:
                 DoB = data['entities'][author]["claims"]["P569"][0]["mainsnak"]["datavalue"]["value"]["time"]
             except:
-                print("bad date author: "+author)
                 self.local_statistics[index("no DoB")] += 1
 
             # DoD
@@ -321,6 +321,8 @@ afterword_authors_id_file.close()
 foreword_authors_id_file.close()
 processed_authors_file.close()
 
+if len(authors)==0:
+    sys.exit(1)
 
 # OPENING OUTPUT FILES
 authors_file = open(authors_file_path, 'a')
@@ -333,7 +335,6 @@ file_has_occupation = open(file_has_occupation_path, 'a')
 processed_humans_file = open(processed_humans_file_path, 'a')
 log_file = open(log_file_path, 'a')
 
-influencing_authors = set()
 
 n_authors = len(authors)
 print("Number of authors: " + str(n_authors))
@@ -393,3 +394,5 @@ for i in range(len(statistics)):
 
 log_file.write("Total_time:\t" + str(round(total_time, 2)) + " sec" + "\n")
 log_file.close()
+
+sys.exit(0)

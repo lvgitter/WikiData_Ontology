@@ -1,0 +1,309 @@
+edition_id;edition_label;edition_description
+Q21065641;;
+Q19041944;Unto This Last;
+Q20160290;Dharmapustak;1909 Bengali translation of the Bible by the Calcutta Baptist Missionaries
+Q43539005;;
+Q51515135;The origin of species (Harvard Classics edition, 1909);New York :P.F. Collier,c1909. | University of Toronto - St. Michael’s College (John M. Kelly Library) View Book
+Q28141709;Государство;
+Q6888651;Modern English Bible translations;
+Q51515137;Origin of species;New York, Boston :H.M. Caldwell Co.,[1900?] | MBLWHOI Library View Book
+Q8035681;World English Bible;
+Q20963633;Philosophiae Naturalis Principia Mathematica;third edition 1726
+Q9170728;;
+Q19558387;;
+Q20872991;Alice's Adventures in Wonderland;1866 edition of work
+Q26696290;Orgoglio e pregiudizio;Italian translation of Pride and Prejudice (1945)
+Q53676578;Shahnamah of Ibrahim Sultan;illuminated manscript of the Shahnameh epic poem
+Q28803067;The Gambler;edition of The Gambler, by Fyodor Dostoevsky
+Q19731358;Le avventure d'Alice nel paese delle meraviglie;1872 translated edition of work
+Q18676961;Mémoires historiques;French translation of Sima Qian's Shiji
+Q51515169;The origin of species by means of natural selection; or, the preservation of favored races in the struggle for life;London,D. Appleton and company,1915. | Internet Archive View Book
+Q21163096;;
+Q22340538;Köchel catalogue (1964 edition);chronological catalogue of compositions by Wolfgang Amadeus Mozart
+Q1502139;Geneva Bible;English translation of the Bible
+Q51515167;The origin of species by means of natural selection; or, The preservation of favored races in the struggle for life;New YorkD. Appleton and Company,1889. | Smithsonian Libraries View Book
+Q12626119;Hunminjeongeum Eonhae;edition of part of the book Hunminjeongeum, where hanja expressions have been replaced with native Korean words
+Q49611178;L’Ingénieux Hidalgo Don Quichotte de la Manche;
+Q51583576;;1779 Danish translation of work by Plato
+Q50327703;Osudy dobrého vojáka Švejka za světové války. I-IV;Czech book edition from 2017 year
+Q10397145;Church Bible of 1917;1917 Swedish-language translation of the Bible
+Q21190964;A Divina Comédia (Pinheiro);
+Q51886025;Manifesto of the German Communist Party (1850 English edition);first English translation of The Communist Manifesto
+Q51515152;The origin of species by means of natural selection, or, The preservation of favored races in the struggle for life;New York :D. Appleton,1899. | Wellesley College Library (archive.org) View Book
+Q19068948;Critique of Pure Reason;1855 English translation by John Meiklejohn
+Q19183108;La Divine Comédie;1863 French translation by Lamennais
+Q9170726;;
+Q21163322;;
+Q28599523;Ulysses (1960);revised Bodley Head edition of James Joyce's Ulysses
+Q42197716;The World Is Flat, 3.0;2007 edition of The World Is Flat
+Q48450804;The Social Contract;translated by George Douglas Howard Cole
+Q21191064;Divina Comedie (Coșbuc);
+Q28599525;Ulysses (1961);Modern Library edition of James Joyce's Ulysses
+Q6457532;LDS edition of the Bible;
+Q30139730;Heidi;edition of translation of work by Johanna Spyri
+Q28002560;Pride and Prejudice;2004 Penguin Classics edition of the novel
+Q40580209;Aventures d'Alice au pays des merveilles;
+Q21948575;The Origin of Species (1872);edition of the Charles Darwin book
+Q47011189;;
+Q39829696;Strait is the Gate;1948 translation of the novel
+Q14624941;Das Tagebuch der Anne Frank;German translation of the diary of Anne Frank
+Q43796635;The Art of War;English translation of the book by Sun Tzŭ
+Q28137286;;
+Q28599521;Ulysses (1936);Bodley Head edition of Ulysses
+Q48333165;The Hunchback of Notre-Dame;
+Q40579550;;
+Q17357316;;
+Q28137293;;
+Q27531714;;
+Q15639843;Twenty Thousand Leagues Under the Seas;2001 English translation of the Jules Verne adventure story by Frederick Paul Walter
+Q10602364;Normalupplagan;Swedish translation of the Bible
+Q19759147;;
+Q48332901;;
+Q19022854;Paradise Lost (1667);
+Q18918473;Bible (Wikisource);Bible  translation by Wikisource users
+Q30139860;Heidi;edition of translation of work by Johanna Spyri, translated by F. Mirandoli
+Q48418380;;
+Q14944010;Treasure Island;American 1911 edition of the adventure novel by Robert Louis Stevenson, published by Charles Scribner's Sons
+Q19905487;Esther;Original Hebrew version of the Book of Esther
+Q20901632;Убежище. Дневник в письмах;russian edition of Diary of Anne Frank
+Q30264111;;
+Q20963630;Philosophiae Naturalis Principia Mathematica;second edition 1713
+Q19037581;The World Factbook, 2004;
+Q170093;Vetus Latina;Bible translations into Latin before St Jerome's Vulgate Bible
+Q40590443;;
+Q44974329;Ninety-three;1900 English translation of V. Hugo's novel
+Q21957418;Alice's Adventures in Wonderland (1907);
+Q48449177;;
+Q51515143;The origin of species by means of natural selecti : or, The preservation of favored races in the struggle for life;New York ;bJ. A. Hill and company,1904. | Harold B. Lee Library (archive.org) View Book
+Q18744387;;
+Q47754232;The Art of Computer Programming, Volumes 1-4A Boxed Set;compiled volumes edition of The Art of Computer Programming by Donald E. Knuth
+Q17681239;;
+Q21191003;La Divine Comédie;1910 French translation
+Q19022115;Canterbury Tales;
+Q15987824;Vom Winde verweht (1937 German edition);
+Q15996608;Ulysses (2004 German translation);
+Q28113353;;
+Q13735287;The Oxford English Dictionary (Second Edition on CD-ROM, Version 4.0);
+Q15892006;Bible Crampon 1923;
+Q6455517;L'Alcoran de Mahomet;translation of the Quran into French; the third western translation of the Quran
+Q20201776;Beibl (1620);
+Q14943998;Die Schatzinsel, 1897 German edition;first German edition of Treasure Island
+Q38146440;Records of the Three Kingdoms;English Wikisource translation of Chen Shou's Records of the Three Kingdoms
+Q21190993;The Divine Comedy;1867 English translation by Longfellow
+Q51382402;The origin of species by means of natural selection, or, The preservation of favoured races in the struggle for life;London :John Murray,1880. | King's College London, Foyle Special Collections Library (archive.org) Vi
+Q30125663;;
+Q11910252;;
+Q19100684;The Tenant of Wildfell Hall, 1920 John Murray edition;edition of The Tenant of Wildfell Hall
+Q2462802;Tyndale Bible;first English-language mass-printed New Testament, 1520s–30s
+Q29334;Septuagint;translation of the Hebrew Bible and other books into the Greek language
+Q14944015;Treasure Island, 1909 annotated edition;1909 annotated edition of Treasure Island
+Q1240869;Douay–Rheims Bible;book
+Q11306262;Samkok;Thai translation of "Romance of the Three Kingdoms"
+Q23296854;;
+Q14944007;Treasure Island (1883, Cassell & Company);original complete edition of the adventure novel by Robert Louis Stevenson
+Q42532113;Germinal;
+Q9170718;;
+Q21191013;Comedìa (1472);
+Q4547210;10th edition of Systema Naturae;
+Q15104588;Les 1001 albums qu'il faut avoir écoutés dans sa vie;
+Q43631163;The War of the Jews;
+Q14624815;The Diary of a Young Girl;1952 translation of Anna Frank diary
+Q14703963;Mein Kampf in the Arabic language;
+Q11145141;Leskovec-Dresden Bible;
+Q1219621;Die türkische Bibel, oder der Koran;("The Turkish Bible, or the Quran") German-language translation of the Quran, published in 1772
+Q5941687;Shahnameh of Rashida;
+Q43102899;;
+Q50944298;Les animaux fantastiques;2001 French book edition
+Q51515162;Origin of species by means of natural selection, or, The preservation of favored races in the struggle for life;New York :P. F. Collier,1902. | University of Toronto - St. Michael’s College (John M. Kelly Library) View Book
+Q17619093;The Bethroted (1840 edition);This is called "edizione quarantana".
+Q20203353;Bibelen (1933);Danish edition
+Q21418968;;
+Q21175970;The Pilgrim's Progress;Henry Atemus edition
+Q28869413;Černá Indie;Czech book edition from 1877 year
+Q16384839;The Holy Quran: Arabic Text and English translation;English–Arabic parallel text edition of the Quran by Maulvi Sher Ali, published in 1955
+Q10519521;Helge Åkessons översättning;Swedish translation of the Bible
+Q9170725;Biblia Paulistów;
+Q41697375;Zadig czyli Los;Polish edition of Zadig
+Q10511148;Gustav II Adolf Bible;Swedish-language 1703 translation of the Bible
+Q21191022;Commedia (1858, Buti);
+Q5083751;Charles XII Bible;Swedish-language Bible translation published in 1703
+Q42534635;Zadig;1749 translation of work by Voltaire
+Q23012308;;
+Q51515159;The origin of species by means of natural selection, or, The preservation of favored races in the struggle for life;New York :A.L. Burt,[1872?] | Cornell University Library View Book
+Q1571095;Luther Bible;German-language translation of the Bible by Martin Luther
+Q16104374;A People's Tragedy (original edition);
+Q54638616;The Annotated Origin : A Facsimile of the First Edition of On the Origin of Species;Darwin, Charles - 2011
+Q51886161;The Story of Doctor Dolittle (1st edition);
+Q51515141;The origin of species : by means of natural selection, or, The preservation of favoured races in the struggle for life;New York :D. Appleton & Co.,1889. | University of Toronto - St. Michael’s College (John M. Kelly Library) View Book
+Q16735600;Wir (first German edition);
+Q28137306;;
+Q19218874;Manifest der Kommunistischen Partei (1st edition, 1848);
+Q51515164;The origin of species by means of natural selection; or, The preservation of favoured races in the struggle for life;London,J. Murray,1886. | Smithsonian Libraries View Book
+Q19126932;Commedia (1866, Lana);
+Q42535611;Heart of Darkness;1902 edition of work by Joseph Conrad
+Q51515146;Origin of species by means of natural selection, or the preservation of favored races in the struggle for life;New York,P. F. Collier,1905. | Wellesley College Library (archive.org) View Book
+Q43197841;The Kingdom of God Is Within You;English edition of Tolstoy's essay
+Q43795466;Dr. Esperanto's International Tongue;
+Q28137313;;
+Q9170712;;
+Q21190966;Göttliche Komödie (1876, Streckfuß);
+Q15151346;Der parteiliche Journalist (1st edition);non-fiction book by Patrick Conley
+Q40578896;L’Origine des espèces (1906);
+Q51515175;The origin of species (World's Popular Classics edition);New YorkBooks, Inc.[19--?] | University of Toronto - Gerstein Science Information Centre View Book
+Q22704019;Florence Shahname;oldest surviving (but incomplete) manuscript of the Shahnameh epic poem
+Q20720825;Persuasion;1st edition of Jane Austen's novel, published in 1818 in the same volumes as Northanger Abbey
+Q4264194;American Standard Version;1901 English translation of the Bible
+Q43197056;Le salut est en vous;French edition of Tolstoy's work
+Q24036344;The Idiot;1913 edition of a translation by Eva Martin of the work by Fyodor Dostoevsky
+Q21190973;La comedia (1878, Febrer);
+Q42573588;Les Voyages de Gulliver (1832 French edition);
+Q7083917;Old English Bible translations;List of Biblical books in Old English
+Q131175;Vulgate;Latin translation of the Bible
+Q21191058;Boska Komedia (Porębowicz);
+Q47884744;Naturalis historia;
+Q44475878;;
+Q28599496;Ulysses (1932);Odyssey Press edition of James Joyce's Ulysses
+Q47546799;;
+Q15982549;Die satanischen Verse (German first edition);novel by Salman Rushdie
+Q20157264;Bibliya;Azerbajani translation of the Bible
+Q16038921;The Histories;
+Q53748127;The Histories;1920s translation by W. R. Paton
+Q21764615;;
+Q55627004;;
+Q50295550;Famfrpál v průběhu věků;Czech book edition from 2017 year
+Q5363012;;
+Q22338962;Köchel catalogue (1862 edition);chronological catalogue of compositions by Wolfgang Amadeus Mozart
+Q51430324;On the origin of species by means of natural selection, or, The preservation of favoured races in the struggle for life;1902 edition, 4th impression 1907
+Q51515195;The origin of the species by means of natural selection;LondonJ. Murray1910 | University of Toronto - Gerstein Science Information Centre View Book
+Q19764633;;
+Q23304764;;
+Q22338974;Köchel catalogue (1905 edition);chronological catalogue of compositions by Wolfgang Amadeus Mozart
+Q40697569;;
+Q21957396;Paradise Lost (1674);
+Q43396354;俠隱記;
+Q1626958;Wycliffe's Bible;group of Bible translations into Middle English, circa 1382–95; chief inspiration of the of the Lollard movement
+Q14624888;Diario;Italian translation of the Anne Frank diary
+Q603882;Bible of Queen Sophia;edition
+Q51515145;The origin of species by means of natural selection : or, The preservation of favored races in the struggle for life;New York :Merrill and Baker,[19--] | NCSU Libraries (archive.org) View Book
+Q623398;King James Version;version of the Bible
+Q21191014;Divina Commedia;1994 Italian edition
+Q14624856;Het achterhuis;Dutch original 1st edition of Anna Frank diary
+Q30260463;The Kalevala;
+Q16029876;;
+Q47883812;The History of the World;
+Q19102705;The World Factbook, 1982;1982 edition of The World Factbook
+Q28137284;;
+Q21163341;;
+Q20278655;Septuaginta;Rahlfs' edition of the Septuagint translation of the Hebrew Bible
+Q47088679;La République;
+Q51430272;The origin of species by means of natural selection : or The preservation of favored races in the struggle for life;New York :Hurst,[1872?] | MBLWHOI Library View Book
+Q51515156;The origin of species by means of natural selection, or, The preservation of favored races in the struggle for life;New York and London :D. Appleton and Company,1917. | Brigham Young University Hawaii, Joseph F. Smith Library (archive.org) View Book
+Q20165852;Bible (Tomislav Dretar);Bosnian translation
+Q50943978;Fantastická zvířata a kde je najít;2017 Czech book edition
+Q19967013;The Elements of Euclid for the Use of Schools and Colleges;
+Q47883393;;
+Q17525620;Los versos satánicos (Buenos Aires, 1989);novel by Salman Rushdie
+Q18747972;Telemachida;epic poem by Vasily Trediakovsky
+Q1786390;Bible of Kralice;
+Q11429477;;
+Q5959450;Baysonghor Shahnameh;Memory of the World inscription, submitted by the Islamic Republic of Iran, added in 2007
+Q11687962;;
+Q5943957;Windsor Shahnameh;illustrated manuscript of the Shahnameh epic
+Q42532129;Germinal;
+Q4548960;12th edition of Systema Naturae;scientific work
+Q28599480;Ulysses (1986);Gabler's edition of James Joyce's Ulysses
+Q16184679;ᅟHunminjeongeum Unhae;gloss of the book Hunminjeongeum with readings for hanja indicated in hangul
+Q19100689;The Tenant of Wildfell Hall, emended 1st edition;edition of The Tenant of Wildfell Hall
+Q1756168;Ostrog Bible;book by Ivan Fyodorov
+Q19435734;El caso extraño del doctor Jekyll;1891 edition, in Spanish
+Q55591820;The Pilgrim's Progress;American book, 1896 edition
+Q21191066;Божественная комедия (1855, Минъ);
+Q17645484;;
+Q3237327;Lex Mahumet pseudoprophete;("Law of Muhammad the pseudo-prophet") translation or paraphrase of the Quran into Latin; earliest European translation of the Quran
+Q20968204;On the Origin of Species (1859);first edition of Charles Darwin book
+Q19523683;Bible česká;bible translation by Jan Hejčl
+Q47007804;The Annotated Lolita (1991 Vintage Books ed.);1991 Vintage Books edition of Vladimir Nabokov's Lolita
+Q19075587;Ten Days That Shook the World;edition of work by John Reed
+Q21977556;La Doctrine du fascisme (1938);1838 edition
+Q41526857;La Case de l’oncle Tom;
+Q20204948;Persuasion (1836 translation by Pauline Westdahl);
+Q47882807;;
+Q476495;Wenceslas Bible;
+Q51515157;The origin of species by means of natural selection, or, The preservation of favored races in the struggle for life;[New York] :A.L. Burt,[1899?] | Harold B. Lee Library (archive.org) View Book
+Q23575302;;
+Q18885234;;
+Q28872885;;second edition of the first Danish translation of Athur Conan Doyle's first Sherlock Holmes novel
+Q5943662;Hunminjeongeum Haerye;
+Q24230258;;
+Q51515163;The origin of species by means of natural selection; or, The preservation of favored races in the struggle for life;New York and London,D. Appleton and Company.1909. | Cornell University Library View Book
+Q47088678;La République;
+Q21112694;;
+Q3943129;Jakub Wujek Bible;
+Q20201728;Beibl (1588);
+Q570121;Millennium Bible;edition
+Q46710463;Lolita (2010 Penguin Classics ed.);2010 Penguin Classics edition of Nabokov's Lolita
+Q23296098;Travels with a Donkey in the Cevennes;
+Q19558994;Gray's Anatomy (20th edition);20th edition of Gray's Anatomy published in 1918
+Q7751139;The Message of The Qur'an;book by Muhammad Asad
+Q20872993;A Christmas Carol;1843 edition of Dickens's "A Christmas Carol"
+Q21161673;Die Entstehung der Arten;german edition of "On the Origin of Species"
+Q21163272;Commentaries on the Gallic War;
+Q29562896;;
+Q19178937;L’Enfer (1867, Rivarol);
+Q32998733;;
+Q19525492;De apokryfiska böckerna;Swedish translation of the biblical Apocrypha
+Q21191070;Božanska komedija (Debevec);
+Q32631704;The Elements of Euclid, viz. the first sixs books, together with eleventh and twelfh;
+Q21112538;The Loser;english edition of "Der Untergeher"
+Q53951723;Beirut Shahnameh;manuscript of the Shahname epic poem
+Q7744922;The Koran Interpreted;English-language translation of the Quran by Arthur John Arberry in 1955
+Q11145376;St. Wenceslaus Catholic Bible;Czech translation of the Bible
+Q28599520;Ulysses (1934);Random House edition of James Joyce's Ulysses
+Q50944439;Фантастические звери и места их обитания;2009 Russian book edition
+Q43795825;An Attempt Towards An International Language;
+Q19759114;Il Manifesto del Partito Comunista (1891 Italian edition);Italian translation of The Communist Manifesto
+Q866134;Bishops' Bible;English translation of the Bible authorized by the Church of England and published in 1568
+Q338373;New World Translation of the Holy Scriptures;
+Q23296487;;
+Q1555509;Gustav Vasa Bible;Swedish-language Bible translation published in 1541
+Q19183110;La Divine Comédie (Montor);
+Q47452380;;
+Q28599531;Ulysses (1984);Gabler's Critical and Synoptic Edition of James Joyce's Ulysses
+Q19020726;Ulysses;first edition of James Joyce's Ulysses
+Q55559548;The Pilgrim's Progress;illustrated by Charles Bennett
+Q15735119;Der Turm (1st edition);German novel
+Q43795187;;
+Q24704731;Nineteen Eighty-Four (first edition);first edition
+Q48450153;;
+Q47507736;The Three Musketeers (2007 Penguin ed.);2007 Penguin edition of the novel by Alexandre Dumas
+Q14624877;Diari;Catalan translation of Anne Frank diary
+Q41530078;;
+Q53748157;;
+Q3492456;Brest Bible;
+Q19128930;Boska Komedia (1870, Stanisławski);
+Q20124587;1984 (German translation);
+Q24073728;О происхождении видов (1864);1864 edition of On the Origin of Species
+Q51515170;The origin of species;New York,Literary Classics[19--] | Boston College Libraries (archive.org) View Book
+Q21190996;La Divina Comedia;
+Q5797140;Great Mongol Shahnameh;oldest surviving illustrated manuscript of the Shahnameh epic poem
+Q19192071;;
+Q19523670;Bezděkova Bible;Czech bible translation
+Q21161675;Die Entstehung der Arten;german translation of "On the Origin of Species"
+Q9080992;Systema Naturae . . . editio decima tertia, aucta, reformata;scientific work
+Q14624872;Las habitaciones de atrás;Spanish edition of the Anna Frank diary
+Q6015255;The Meaning of the Glorious Koran;1930 explanatory translation of the Quran in English by Marmaduke Pickthall
+Q17617828;Le avventure di Alice nel Paese delle Meraviglie;Translation of Alice's Adventures in Wonderland
+Q49612156;Don Quixote;
+Q7045768;Noble Quran;English translation of the Quran by Muhammad Muhsin Khan  and Muhammad Taqi-ud-Din al-Hilali; published by Saudi institutions
+Q3114572;Shahnameh of Shah Tahmasp;Iranian illustrated manuscripts
+Q1138103;Coverdale Bible;English translation of the Bible by Myles Coverdale, published in 1535; the first complete Modern English translation of the Christian Bible
+Q14624843;Journal de Anne Frank;1950 French edition of Anne Frank's diary
+Q2305113;The Diary of Anne Frank;1955 theater play
+Q44054442;Język międzynarodowy;
+Q19082781;Book of Mormon;
+Q19977103;;
+Q16056003;Penthésilée (French edition, 1954);
+Q19977104;;
+Q20078571;Oxford Classical Dictionary (3rd rev. ed.);Third revised edition of the Oxford Classical Dictionary
+Q19239843;Voyages en Suisse et en Italie;
+Q19082774;Book of Mormon;

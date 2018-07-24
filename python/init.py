@@ -1,4 +1,6 @@
+import subprocess
 import os
+import datetime
 
 # PROCESSED CONCEPTS
 processed_concepts = [
@@ -36,12 +38,12 @@ authors_file.close()
 
 fictional_humans_file_path = "../concepts/FictionalHuman.txt"
 fictional_humans_file = open(fictional_humans_file_path, 'w')
-fictional_humans_file.write('character_id;character_label;character_description;character_name;character_sex;character_DoB;character_DoD;\n')
+fictional_humans_file.write('character_id;character_label;character_description;character_name;character_sex;character_DoB;character_DoD\n')
 fictional_humans_file.close()
 
 fictional_not_humans_file_path = "../concepts/FictionalNotHuman.txt"
 fictional_not_humans_file = open(fictional_not_humans_file_path, 'w')
-fictional_not_humans_file.write('character_id;character_label;character_description;character_name;character_sex;character_DoB;character_DoD;\n')
+fictional_not_humans_file.write('character_id;character_label;character_description;character_name;character_sex;character_DoB;character_DoD\n')
 fictional_not_humans_file.close()
 
 real_cities_file_path = "../concepts/RealCity.txt"
@@ -191,7 +193,7 @@ has_used_language_file.close()
 
 has_illustrator_file_path = "../roles/hasIllustrator.txt"
 has_illustrator_file = open(has_illustrator_file_path, 'w')
-has_illustrator_file.write("edition_id;illustror_id\n")
+has_illustrator_file.write("edition_id;illustrator_id\n")
 has_illustrator_file.close()
 
 has_publisher_file_path = "../roles/hasPublisher.txt"
@@ -233,15 +235,86 @@ human_character_file.write("human_id\n")
 human_character_file.close()
 
 # LOGS
+timestamp = '{:%Y-%m-%d %H:%M:%S}\n\n'.format(datetime.datetime.now())
 
 book_log_file_path = "../log/log_Book.txt"
+book_log_file = open(book_log_file_path, 'w')
+book_log_file.write(timestamp)
+book_log_file.close()
+
 author_log_file_path = "../log/log_Author.txt"
+author_log_file = open(author_log_file_path, 'w')
+author_log_file.write(timestamp)
+author_log_file.close()
+
 character_log_file_path = "../log/log_Characters.txt"
+character_log_file = open(character_log_file_path, 'w')
+character_log_file.write(timestamp)
+character_log_file.close()
+
 city_log_file_path = "../log/log_City.txt"
+city_log_file = open(city_log_file_path, 'w')
+city_log_file.write(timestamp)
+city_log_file.close()
+
 country_log_file_path = "../log/log_Country.txt"
+country_log_file = open(country_log_file_path, 'w')
+country_log_file.write(timestamp)
+country_log_file.close()
+
 edition_log_file_path = "../log/log_Edition.txt"
+edition_log_file = open(edition_log_file_path, 'w')
+edition_log_file.write(timestamp)
+edition_log_file.close()
+
 human_log_file_path = "../log/log_Human.txt"
+human_log_file = open(human_log_file_path, 'w')
+human_log_file.write(timestamp)
+human_log_file.close()
+
 language_log_file_path = "../log/log_Language.txt"
+language_log_file = open(language_log_file_path, 'w')
+language_log_file.write(timestamp)
+language_log_file.close()
+
 mayor_log_file_path = "../log/log_Mayor.txt"
+mayor_log_file = open(mayor_log_file_path, 'w')
+mayor_log_file.write(timestamp)
+mayor_log_file.close()
+
 publisher_log_file_path= "../log/log_Publisher.txt"
+publisher_log_file = open(publisher_log_file_path, 'w')
+publisher_log_file.write(timestamp)
+publisher_log_file.close()
+
 translator_log_file_path = "../log/log_Translator.txt"
+translator_log_file = open(translator_log_file_path, 'w')
+translator_log_file.write(timestamp)
+translator_log_file.close()
+
+programs = [
+    "books_download.py",
+    "authors_download.py",
+    "characters_download.py",
+    "publishers_download.py",
+    "languages_download.py",
+    "editions_download.py",
+    "translator_download.py",
+    "human_download.py",
+    "cities_download.py",
+    "countries_download.py",
+    "mayor_download.py"
+]
+
+for iteration in range(10):
+    completed = []
+    count = 0
+    for program in programs:
+        if int(subprocess.call("python " + program, shell=True))==1:
+            completed.append(program)
+            count += 1
+    print("Iteration n. "+str(iteration)+"\n")
+    print("missing programs = "+str(list(set(programs).difference(set(completed))))+"\n")
+    if count==len(programs):
+        break
+

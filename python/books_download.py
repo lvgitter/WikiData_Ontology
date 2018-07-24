@@ -1,5 +1,7 @@
 import time
 import math
+
+import sys
 from SPARQLWrapper import SPARQLWrapper, JSON
 import threading
 from threading import Thread
@@ -84,8 +86,7 @@ class myThread(threading.Thread):
                 print("[Thread " + str(self.id) + "]\t" + "book " + str(j - self.res_min + 1) + "/" + str(
                     self.res_max - self.res_min))
 
-            result = results["results"]["bindings"][j]
-            url = result['book']['value'].replace("/wiki/", "/wikiSpecial:EntityData/") + ".json"
+            url = "https://www.wikidata.org/wiki/Special:EntityData/"+books[j]+".json"
             for i in range(3):
                 try:
                     response = requests.get(url)  # timeout
@@ -95,8 +96,7 @@ class myThread(threading.Thread):
                     print("EXCEPTION " + url)
                     time.sleep(0.5)
                     continue
-            book_id = url.split(".json")[0].split("/")[-1]
-
+            book_id = books[j]
             # LABEL
             label = ""
             try:
@@ -183,19 +183,6 @@ class myThread(threading.Thread):
                         chars_file_lock.release()
             else:
                 self.local_statistics[index("no character")] += 1
-
-            ''''# CHARACTERS
-            if ("P674" in data['entities'][book_id]["claims"]):
-                for character in data['entities'][book_id]["claims"]["P674"]:
-                    try:
-                        has_character_lock.acquire()
-                        file_has_character.write(
-                            str(character["mainsnak"]["datavalue"]["value"]["id"]) + ";" + str(book_id) + "\n")
-                        has_character_lock.release()
-                    except:
-                        has_character_lock.release()
-            else:
-                self.local_statistics[index("no character")] += 1'''
 
             # AUTHORS
             if ("P50" in data['entities'][book_id]["claims"]):
@@ -411,14 +398,23 @@ except:
 
 
 # RETRIEVING ALL BOOKS WIKIDATA IDs
+processed_books_file_path = "../processed/processedBooks.txt"
 sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
 sparql.setQuery("""SELECT ?book WHERE {
     ?book wdt:P31 wd:Q571
     }
-    LIMIT 480
+    LIMIT 1000
 """)
 sparql.setReturnFormat(JSON)
 results = sparql.query().convert()
+
+processed_books_file = open(processed_books_file_path, 'r')
+processed_books = set([x.strip() for x in processed_books_file.readlines()[1:]])
+books = set([x["book"]["value"].split('/')[-1] for x in results["results"]["bindings"]])
+books = list(books.difference(processed_books))
+
+if len(books)==0:
+    sys.exit(1)
 
 # SAVING TO FILE
 file_log = open(file_log_path, 'a')
@@ -433,6 +429,7 @@ file_langs_out = open(file_langs_path, 'a')
 file_edits_out = open(file_edits_path, 'a')
 file_folls_out = open(file_folls_path, 'a')
 file_has_genres = open(file_has_genres_path, 'a')
+file_processed_books = open(processed_books_file_path, 'a')
 
 
 n_results = len(results["results"]["bindings"])
@@ -456,6 +453,9 @@ for t in threads:
 for t in threads:
     statistics = [sum(x) for x in zip(statistics, t.join())]
 
+for book in books:
+    file_processed_books.write(book+"\n")
+
 # CLOSING OUTPUT FILES
 file_out.close()
 file_authors_out.close()
@@ -468,6 +468,7 @@ file_edits_out.close()
 file_folls_out.close()
 file_has_genres.close()
 file_has_genres.close()
+file_processed_books.close()
 save_obj(genre_dict, "genres")
 save_obj(series_dict, "series")
 save_obj(locations_dict, "locations")
@@ -489,3 +490,5 @@ for i in range(len(statistics)):
 
 file_log.write("Total_time:\t" + str(round(total_time, 2)) + " sec" + "\n")
 file_log.close()
+
+sys.exit(0)

@@ -1,0 +1,44 @@
+2018-07-23 18:29:38
+
+Number of results: 1000
+
+
+*** STATISTICS *** 
+no title        :647  (65.0 %) 
+no label        :31  (3.0 %) 
+no description  :0  (0.0 %) 
+no author       :60  (6.0 %) 
+multiple author :0  (0.0 %) 
+no genre        :170  (17.0 %) 
+no subtitle     :978  (98.0 %) 
+no first line   :953  (95.0 %) 
+no character    :860  (86.0 %) 
+no loc          :870  (87.0 %) 
+no afterauthor  :999  (100.0 %) 
+no foreauthor   :999  (100.0 %) 
+no lang         :199  (20.0 %) 
+no editions     :902  (90.0 %) 
+no series       :865  (86.0 %) 
+no follower     :865  (86.0 %) 
+Total_time:	87.08 sec
+Number of results: 1000
+
+
+*** STATISTICS *** 
+no title        :68  (7.000000000000001 %) 
+no label        :4  (0.0 %) 
+no description  :0  (0.0 %) 
+no author       :5  (1.0 %) 
+multiple author :0  (0.0 %) 
+no genre        :15  (1.0 %) 
+no subtitle     :94  (9.0 %) 
+no first line   :99  (10.0 %) 
+no character    :90  (9.0 %) 
+no loc          :86  (9.0 %) 
+no afterauthor  :100  (10.0 %) 
+no foreauthor   :100  (10.0 %) 
+no lang         :20  (2.0 %) 
+no editions     :96  (10.0 %) 
+no series       :80  (8.0 %) 
+no follower     :80  (8.0 %) 
+Total_time:	122.41 sec

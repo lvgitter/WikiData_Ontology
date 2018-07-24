@@ -1,12 +1,24 @@
-Number of results: 238
+2018-07-23 18:29:38
+
+Number of results: 301
 
 
 *** STATISTICS *** 
-no title        :145  (61.0 %) 
-no label        :41  (17.0 %) 
+no title        :0  (0.0 %) 
+no label        :63  (21.0 %) 
 no description  :0  (0.0 %) 
-no subtitle     :221  (93.0 %) 
-no tra          :151  (63.0 %) 
-no original     :13  (5.0 %) 
-no first line   :236  (99.0 %) 
-Total_time:	6.82 sec
+no translator   :187  (62.0 %) 
+no publisher    :199  (66.0 %) 
+no illustrator  :291  (97.0 %) 
+Total_time:	43.38 sec
+Number of results: 7
+
+
+*** STATISTICS *** 
+no title        :0  (0.0 %) 
+no label        :2  (28.999999999999996 %) 
+no description  :0  (0.0 %) 
+no translator   :3  (43.0 %) 
+no publisher    :6  (86.0 %) 
+no illustrator  :7  (100.0 %) 
+Total_time:	2.17 sec

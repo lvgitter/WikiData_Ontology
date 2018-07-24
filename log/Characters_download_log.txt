@@ -1,0 +1,11 @@
+
+
+*** STATISTICS *** 
+no name         :371  (67.0 %) 
+no label        :21  (4.0 %) 
+no description  :0  (0.0 %) 
+fictional       :431  (78.0 %) 
+no DoB          :373  (68.0 %) 
+no DoD          :389  (70.0 %) 
+no sex          :19  (3.0 %) 
+Total_time:	20.53 sec

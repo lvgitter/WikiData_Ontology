@@ -1,5 +1,7 @@
 import time
 import math
+
+import sys
 from SPARQLWrapper import SPARQLWrapper, JSON
 import threading
 from threading import Thread
@@ -109,13 +111,13 @@ statistics = [0 for x in range(LEN_INDEX)]
 #RETRIEVING ALL LANGUAGESs WIKIDATA IDs and QUERY THEM
 written_in_file_path = "../roles/writtenIn.txt"
 written_in_file = open(written_in_file_path, "r")
-languages = set([x.split(';')[1] for x in written_in_file.readlines()[1:]])
+languages = set([x.strip().split(';')[1] for x in written_in_file.readlines()[1:]])
 has_used_language_file_path = "../roles/hasUsedLanguage.txt"
 has_used_language_file = open(has_used_language_file_path, "r")
-languages = languages.union(set([x.split(';')[1] for x in has_used_language_file.readlines()[1:]]))
+languages = languages.union(set([x.strip().split(';')[1] for x in has_used_language_file.readlines()[1:]]))
 speaks_file_path = "../roles/speaks.txt"
 speaks_file = open(speaks_file_path, "r")
-languages = languages.union(set([x.split(';')[1] for x in speaks_file.readlines()[1:]]))
+languages = languages.union(set([x.strip().split(';')[1] for x in speaks_file.readlines()[1:]]))
 processed_languages_file_path = "../processed/processedLanguages.txt"
 processed_languages_file = open(processed_languages_file_path, 'r')
 processed_languages = set([x.strip() for x in processed_languages_file.readlines()[1:]])
@@ -123,6 +125,9 @@ languages = list(languages.difference(processed_languages))
 written_in_file.close()
 speaks_file.close()
 processed_languages_file.close()
+
+if len(languages)==0:
+    sys.exit(1)
 
 # OUTPUT FILES
 file_log = open(file_log_path, 'a')
@@ -176,3 +181,5 @@ for i in range(len(statistics)):
 
 file_log.write("Total_time:\t"+str(round(total_time,2))+" sec" + "\n")
 file_log.close()
+
+sys.exit(0)
