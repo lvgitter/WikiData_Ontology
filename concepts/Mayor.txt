@@ -1,35 +1,35 @@
 mayor_id;mayor_label;mayor_description;start_time;end_time;official_residence
-Q52220796;Lord Mayor of Cologne;mayor of Cologne, Germany;;;
-Q23936560;mayor of Rome;;;;
-Q50190063;Mayor of Naples;;;;
-Q26274423;mayor of Seville;;;;
-Q17149373;Mayor of Prague;;;;
-Q11525354;Governor of Tokyo;;;;
-Q27898073;Mayor of Bordeaux;;;;
-Q21510223;Mayor of Zürich;political position;;;
-Q17279086;Mayor of Beijing;;;;
-Q25927210;mayor of Florence;;;;
-Q2741486;Chief Executive of Hong Kong;head of the Hong Kong Government;;;Government House
-Q50184139;Mayor of Bologna;Mayor of Bologna;;;
-Q2895612;Governor of Saint Petersburg;Wikimedia list article;;;Smolny Institute
-Q38931;Mayor of London;head of the government of Greater London;;;City Hall
-Q17078548;Mayor of Madrid;political position in Spain;;;
-Q2276266;Mayor of Jerusalem;;;;
-Q24703283;Mayor of Genève;;;;
-Q4377230;Prime Minister of Greece;head of government of the Hellenic Republic and the leader of the Greek cabinet;;;Maximos Mansion
-Q24701575;mayor of Vufflens-le-Château;;;;
-Q30185;mayor;head of municipal government such as a town or city;;;
-Q6341938;mayor of Cartagena;political position in Spain;;;
-Q50190176;mayor of Palermo;;;;
 Q54931516;Cathaoirleach of Wicklow County Council;honorific title of the chairperson of Wicklow County Council;;;
-Q13645132;Lord Mayor of Dublin;honorific title of the chairperson of Dublin City Council;;;Mansion House, Dublin
-Q26698271;mayor of Alcalá de Henares;political position in Spain;;;
+Q24701575;mayor of Vufflens-le-Château;;;;
+Q6341938;mayor of Cartagena;political position in Spain;;;
+Q50190063;Mayor of Naples;;;;
 Q27306390;mayor of Salvador;head of a municipal government in Brazil;;;
-Q26698798;mayor of Córdoba;political position in Spain;;;
-Q785304;Mayor of New York City;head of the executive branch of New York City's government;;;Gracie Mansion
+Q2276266;Mayor of Jerusalem;;;;
+Q52220796;Lord Mayor of Cologne;mayor of Cologne, Germany;;;
+Q24703283;Mayor of Genève;;;;
+Q27898073;Mayor of Bordeaux;;;;
+Q17149373;Mayor of Prague;;;;
 Q3961545;mayor of Milan;;;;
-Q11696;President of the United States;head of state and of government of the United States;;;White House
-Q191827;Taoiseach;head of government or prime minister of Ireland;;;Steward's Lodge
 Q26700989;mayor of Roncesvalles;political position in Spain;;;
+Q2895612;Governor of Saint Petersburg;Wikimedia list article;;;Smolny Institute
 Q132050;governor;governing official;;;
+Q26698271;mayor of Alcalá de Henares;political position in Spain;;;
+Q2741486;Chief Executive of Hong Kong;head of the Hong Kong Government;;;Government House
+Q4377230;Prime Minister of Greece;head of government of the Hellenic Republic and the leader of the Greek cabinet;;;Maximos Mansion
+Q38931;Mayor of London;head of the government of Greater London;;;City Hall
+Q26698798;mayor of Córdoba;political position in Spain;;;
+Q21510223;Mayor of Zürich;political position;;;
+Q50190176;mayor of Palermo;;;;
+Q17279086;Mayor of Beijing;;;;
+Q30185;mayor;head of municipal government such as a town or city;;;
 Q53926032;Mayor of Rio de Janeiro;head of a municipal government in Brazil;;;
+Q25927210;mayor of Florence;;;;
+Q11525354;Governor of Tokyo;;;;
+Q191827;Taoiseach;head of government or prime minister of Ireland;;;Steward's Lodge
+Q23936560;mayor of Rome;;;;
+Q13645132;Lord Mayor of Dublin;honorific title of the chairperson of Dublin City Council;;;Mansion House, Dublin
+Q17078548;Mayor of Madrid;political position in Spain;;;
+Q785304;Mayor of New York City;head of the executive branch of New York City's government;;;Gracie Mansion
+Q26274423;mayor of Seville;;;;
+Q50184139;Mayor of Bologna;Mayor of Bologna;;;
+Q11696;President of the United States;head of state and of government of the United States;;;White House

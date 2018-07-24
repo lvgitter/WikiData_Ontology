@@ -1,1 +1,1 @@
-fictional_city;real_city
+fictionalCity_id;realCity_id

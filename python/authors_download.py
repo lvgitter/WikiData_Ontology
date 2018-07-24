@@ -323,9 +323,18 @@ log_file_path = "../log/log_Author.txt"
 statistics = [0 for x in range(LEN_INDEX)]
 
 # DICTIONARIES LOADING
-occupations_dict = load_obj("occupations") # occupation wikidata id to label
-award_dict = load_obj("awards") # award wikidata id to label
-genre_dict = load_obj("genres")
+try:
+    occupations_dict = load_obj("occupations") # occupation wikidata id to label
+except:
+    occupations_dict = {}
+try:
+    award_dict = load_obj("awards") # award wikidata id to label
+except:
+    award_dict = {}
+try:
+    genre_dict = load_obj("genres")
+except:
+    genre_dict = {}
 
 # RETRIEVING ALL AUTHORS WIKIDATA IDs
 processed_authors_file_path = "../processed/processedAuthors.txt"

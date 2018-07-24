@@ -176,8 +176,14 @@ log_file_path = "../log/log_Mayor.txt"
 statistics = [0 for x in range(LEN_INDEX)]
 
 # DICTIONARIES LOADING
-occupations_dict = load_obj("occupations") # occupation wikidata id to label
-official_residence_dict = {}
+try:
+    occupations_dict = load_obj("occupations") # occupation wikidata id to label
+except:
+    occupations_dict = {}
+try:
+    official_residence_dict = load_obj('official_residence')
+except:
+    official_residence_dict = {}
 
 # RETRIEVING ALL MAYORS WIKIDATA IDs
 has_mayor_file_path = "../roles/hasMayor.txt"
@@ -230,7 +236,7 @@ has_role_file.close()
 
 # UPDATING DICTIONARIES
 save_obj(official_residence_dict, 'official_residence')
-
+save_obj(occupations_dict, 'occupations')
 # STATISTICS REPORTING
 print("\n\n*** STATISTICS ***\n")
 for i in range(len(statistics)):

@@ -93,7 +93,6 @@ class myThread(threading.Thread):
                     data = response.json()
                     break
                 except:
-                    print("EXCEPTION " + url)
                     time.sleep(0.5)
                     continue
             book_id = books[j]
@@ -129,13 +128,9 @@ class myThread(threading.Thread):
                     loc = loc["mainsnak"]["datavalue"]["value"]["id"]
                     # retrieve loc name or retrieve and save it
                     if loc in locations_dict:
-                        if locations_dict[loc] == "real city":
+                        if locations_dict[loc] == "city":
                             locations_lock.acquire()
-                            file_has_city_location.write(book_id + ";" + loc + ";r\n")
-                            locations_lock.release()
-                        elif locations_dict[loc] == "fictional city":
-                            locations_lock.acquire()
-                            file_has_city_location.write(book_id + ";" + loc + ";f\n")
+                            file_has_city_location.write(book_id + ";" + loc + "\n")
                             locations_lock.release()
                         elif locations_dict[loc] == "country":
                             locations_lock.acquire()
@@ -156,15 +151,10 @@ class myThread(threading.Thread):
                             for instance in data_loc['entities'][loc]["claims"]["P31"]:
                                 instances_of_location.append(instance["mainsnak"]["datavalue"]["value"]["id"])
                             try:
-                                if "Q515" in instances_of_location:
+                                if "Q515" in instances_of_location or "Q1964689" in instances_of_location:
                                     locations_lock.acquire()
-                                    locations_dict[loc] = "real city"
-                                    file_has_city_location.write(book_id + ";" + loc + ";r\n")
-                                    locations_lock.release()
-                                elif "Q1964689" in instances_of_location:
-                                    locations_lock.acquire()
-                                    locations_dict[loc] = "fictional city"
-                                    file_has_city_location.write(book_id + ";" + loc + ";f\n")
+                                    locations_dict[loc] = "city"
+                                    file_has_city_location.write(book_id + ";" + loc + "\n")
                                     locations_lock.release()
                                 elif "Q6256" in instances_of_location:
                                     locations_lock.acquire()
@@ -463,6 +453,9 @@ for i in range(N_THREADS):
     threads.append(myThread(i, min(prec, n_results), min(succ, n_results)))
     prec = succ
     succ = succ + step
+
+print(books[-1])
+print(books[-2])
 
 for t in threads:
     t.start()

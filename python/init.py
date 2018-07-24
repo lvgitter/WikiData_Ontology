@@ -2,6 +2,20 @@ import subprocess
 import os
 import datetime
 
+# DICTIONARIES (delete old ones)
+
+dicts = [
+    "awards.pkl",
+    "genres.pkl",
+    "locations.pkl",
+    "occupations.pkl",
+    "official_residence.pkl",
+    "series.pkl"
+        ]
+
+for dict in dicts:
+    os.remove("obj/"+dict)
+
 # PROCESSED CONCEPTS
 processed_concepts = [
     "processedAuthors.txt",
@@ -57,7 +71,7 @@ fictional_cities_file.close()
 
 countries_file_path = "../concepts/Country.txt"
 countries_file = open(countries_file_path, 'w')
-countries_file.write("country_id;country_label;country_description;area;population\n")
+countries_file.write("country_id;country_label;country_description;country_area;country_population\n")
 countries_file.close()
 
 editions_file_path = "../concepts/Edition.txt"
@@ -67,7 +81,7 @@ editions_file.close()
 
 humans_file_path = "../concepts/Human.txt"
 humans_file = open(humans_file_path, 'w')
-humans_file.write('human_id;human_label;human_description;human_name;human_sex;human_DoB;human_DoD;character\n')
+humans_file.write('human_id;human_label;human_description;human_name;human_sex;human_DoB;human_DoD;is_character\n')
 humans_file.close()
 
 languages_file_path = "../concepts/Language.txt"
@@ -87,7 +101,7 @@ publishers_file.close()
 
 translators_file_path = "../concepts/Translator.txt"
 translators_file = open(translators_file_path, 'w')
-translators_file.write('human_id;human__label;human_description;human_name;human_sex;human_DoB;human_DoD\n')
+translators_file.write('human_id;human_label;human_description;human_name;human_sex;human_DoB;human_DoD\n')
 
 # ROLES
 
@@ -116,12 +130,12 @@ place_of_death_file = open(place_of_death_file_path, 'w')
 place_of_death_file.write('human_id;realCity_id\n')
 place_of_death_file.close()
 
-has_awards_file_path = "../roles/_Author_has_awards.txt"
+has_awards_file_path = "../roles/hasAuthorAwards.txt"
 has_awards_file = open(has_awards_file_path, 'w')
 has_awards_file.write("author_id;award\n")
 has_awards_file.close()
 
-author_has_genres_file_path = "../roles/_Author_has_genres.txt"
+author_has_genres_file_path = "../roles/hasAuthorGenres.txt"
 author_has_genres_file = open(author_has_genres_file_path, 'w')
 author_has_genres_file.write("author_id;genre\n")
 author_has_genres_file.close()
@@ -166,7 +180,7 @@ follows_file = open(follows_file_path, 'w')
 follows_file.write("book_id;followed_book_id\n")
 follows_file.close()
 
-book_has_genres_file_path = "../roles/_Book_has_genres.txt"
+book_has_genres_file_path = "../roles/hasBookGenres.txt"
 book_has_genres_file = open(book_has_genres_file_path, 'w')
 book_has_genres_file.write("book_id;genre\n")
 book_has_genres_file.close()
@@ -183,7 +197,7 @@ has_mayor_file.close()
 
 has_analog_file_path = "../roles/hasAnalog.txt"
 has_analog_file = open(has_analog_file_path, 'w')
-has_analog_file.write("fictional_city;real_city\n")
+has_analog_file.write("fictionalCity_id;realCity_id\n")
 has_analog_file.close()
 
 has_used_language_file_path = "../roles/hasUsedLanguage.txt"
@@ -201,7 +215,7 @@ has_publisher_file = open(has_publisher_file_path, 'w')
 has_publisher_file.write("edition_id;publisher_id\n")
 has_publisher_file.close()
 
-human_has_occupations_file_path = "../roles/_Human_has_occupation.txt"
+human_has_occupations_file_path = "../roles/hasHumanOccupation.txt"
 human_has_occupations_file = open(human_has_occupations_file_path, 'w')
 human_has_occupations_file.write("human_id;occupation\n")
 human_has_occupations_file.close()
@@ -319,8 +333,8 @@ for iteration in range(10):
         if int(subprocess.call("python " + program, shell=True))==1:
             completed.append(program)
             count += 1
-    print("Iteration n. "+str(iteration)+"\n")
-    print("missing programs = "+str(list(set(programs).difference(set(completed))))+"\n")
+    print(" * * * * * * * * * * * * * * * * * * * *\nIteration n. "+str(iteration)+"\n")
+    print("missing programs = "+str(list(set(programs).difference(set(completed))))+"\n\n\n\n")
     if count==len(programs):
         break
 

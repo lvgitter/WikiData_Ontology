@@ -1,4 +1,4 @@
-2018-07-24 13:07:32
+2018-07-24 16:18:13
 
 
 
@@ -9,4 +9,4 @@ no official residence:26  (76.0 %)
 no label        :0  (0.0 %) 
 no description  :0  (0.0 %) 
 no human        :0  (0.0 %) 
-Total_time:	3.29 sec
+Total_time:	1.73 sec
