@@ -1,1 +1,0 @@
-city_id;city_label;city_description
