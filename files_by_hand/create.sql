@@ -10,27 +10,43 @@ CREATE TABLE Language(
 	 );
 
 CREATE TABLE InfluencedBy(
-	author_id varchar (255)  primary key,
-	foreign key (author_id) references Author(author_id));
+	author_id varchar (255),
+	foreign key (author_id) references Author(author_id),
+	influencing_author_id varchar (255),
+	foreign key (influencing_author_id) references Author(author_id),
+	);
 
-CREATE TABLE Author_Genre(
-	author_genre_id varchar (255)  primary key);
+CREATE TABLE hasBookGenre(
+	book_id varchar (255),
+	foreign key (book_id) references Book(book_id),
+	genre varchar (255)	
+	);
 
 CREATE TABLE Country(
 	country_id varchar (255) primary key,
 	country_label varchar (255)  ,
 	country_description varchar (255),
-	area varchar (255),
-	population varchar (255)
+	country_area varchar (255),
+	country_population varchar (255)
 	);
 
 CREATE TABLE hasCharacter(
-	character_id varchar (255)  primary key,
-	foreign key (character_id) references Character(character_id),
 	book_id varchar (255)  primary key,
-	foreign key (book_id) references Book(book_id));
+	foreign key (book_id) references Book(book_id),
+	character_id varchar (255)  primary key,
+	foreign key (character_id) references Character(character_id)
+	);
 
-CREATE TABLE FictionalHuman);
+
+CREATE TABLE FictionalHuman(
+	character_id varchar (255) primary key,
+	character_label varchar (255)  ,
+	character_description varchar (255),
+	character_name varchar (255),
+	character_sex varchar (255),
+	character_DoB varchar (255),
+	character_DoD varchar (255)
+	);
 
 CREATE TABLE locatedIn(
 	publisher_id varchar (255),
@@ -46,10 +62,11 @@ CREATE TABLE hasCountryLocation(
 	foreign key (book_id) references Book(book_id));
 
 CREATE TABLE hasMayor(
-	realcity_id varchar (255)  primary key,
-	foreign key (realcity_id) references RealCity(realcity_id),
-	mayor_id varchar (255)  primary key,
-	foreign key (mayor_id) references Mayor(mayor_id));
+	city_id varchar (255),
+	foreign key (city_id) references RealCity(city_id),
+	mayor_id varchar (255),
+	foreign key (mayor_id) references Mayor(mayor_id)
+	);
 
 CREATE TABLE writtenIn(
 book_id varchar (255),
@@ -71,24 +88,26 @@ CREATE TABLE FictionalCity(
 	);
 
 CREATE TABLE Mayor(
-	mayor_description varchar (255) ,
-	start_time varchar (255) ,
-	official_residence varchar (255) ,
-	end_time varchar (255),
 	mayor_id varchar (255)  primary key,
-	mayor_label varchar (255) );
+	mayor_label varchar (255),
+	mayor_description varchar (255),
+	start_time varchar (255),
+	end_time varchar (255),
+	official_residence varchar (255)
+	);
 
 CREATE TABLE hasForewordAuthor(
-	author_id varchar (255)  primary key,
-	foreign key (author_id) references Author(author_id),
 	book_id varchar (255)  primary key,
-	foreign key (book_id) references Book(book_id));
+	foreign key (book_id) references Book(book_id),
+	foreauthor_id varchar (255)  primary key,
+	foreign key (foreauthor_id) references Author(author_id)	
+	);
 
 CREATE TABLE hasAward(
-	award_id varchar (255),
-	foreign key (award_id) references Award(award_id),
 	author_id varchar (255),
-	foreign key (author_id) references Author(author_id));
+	foreign key (author_id) references Author(author_id),
+	award varchar (255)
+	);
 
 CREATE TABLE Character(
 	character_description varchar (255) ,
@@ -97,10 +116,9 @@ CREATE TABLE Character(
 	character_DoD varchar (255),
 	character_name varchar (255) ,
 	character_sex varchar (255) ,
-	character_label varchar (255) );
-
-book_id;book_label;book_description;title;subtitle;first_line;series
-
+	character_label varchar (255) 
+	);
+	
 
 CREATE TABLE Book(
 	book_id varchar (255)  primary key,
@@ -113,9 +131,9 @@ CREATE TABLE Book(
 	);
 
 CREATE TABLE PlaceOfDeath(
-	realcity_id varchar (255)  primary key,
+	realcity_id varchar (255),
 	foreign key (realcity_id) references RealCity(realcity_id),
-	human_id varchar (255)  primary key,
+	human_id varchar (255),
 	foreign key (human_id) references Human(human_id));
 
 CREATE TABLE hasUsedLanguage(
@@ -132,22 +150,25 @@ CREATE TABLE Edition(
 	);
 
 CREATE TABLE foundedBy(
-	human_id varchar (255)  primary key,
+	publisher_id varchar (255),
+	foreign key (publisher_id) references Publisher(publisher_id)
+	human_id varchar (255),
 	foreign key (human_id) references Human(human_id),
-	publisher_id varchar (255)  primary key,
-	foreign key (publisher_id) references Publisher(publisher_id));
+	);
 
 CREATE TABLE hasIllustrator(
-	human_id varchar (255)  primary key,
-	foreign key (human_id) references Human(human_id),
-	edition_id varchar (255)  primary key,
-	foreign key (edition_id) references Edition(edition_id));
+	edition_id varchar (255),
+	foreign key (edition_id) references Edition(edition_id)
+	human_id varchar (255),
+	foreign key (human_id) references Human(human_id)	
+	);
 
 CREATE TABLE hasTranslator(
-	translator_id varchar (255)  primary key,
+	edition_id varchar (255),
+	foreign key (edition_id) references Edition(edition_id),
+	translator_id varchar (255),
 	foreign key (translator_id) references Translator(translator_id),
-	edition_id varchar (255)  primary key,
-	foreign key (edition_id) references Edition(edition_id));
+	);
 
 CREATE TABLE hasCityLocation(
 	city_id varchar (255),
@@ -156,10 +177,9 @@ CREATE TABLE hasCityLocation(
 	foreign key (book_id) references Book(book_id));
 
 CREATE TABLE PlaceOfBirth(
-	realcity_id varchar (255)  primary key,
-	foreign key (realcity_id) references RealCity(realcity_id),
-	human_id varchar (255)  primary key,
-	foreign key (human_id) references Human(human_id));
+	realcity_id varchar (255),
+	human_id varchar (255)
+	);
 
 CREATE TABLE hasAuthor(
 	human_id varchar (255),
@@ -168,10 +188,11 @@ CREATE TABLE hasAuthor(
 	foreign key (book_id) references Book(book_id));
 
 CREATE TABLE hasAfterwordAuthor(
-	author_id varchar (255)  primary key,
-	foreign key (author_id) references Author(author_id),
 	book_id varchar (255)  primary key,
-	foreign key (book_id) references Book(book_id));
+	foreign key (book_id) references Book(book_id),
+	afterauthor_id varchar (255)  primary key,
+	foreign key (afterauthor_id) references Author(author_id)
+	);
 
 CREATE TABLE RealCity(
 	city_id varchar (255)  primary key,
@@ -199,22 +220,37 @@ CREATE TABLE Author(
 	);
 
 CREATE TABLE hasAnalog(
-	realCity_id varchar (255),
-	foreign key (realCity_id) references RealCity(realCity_id),
 	fictionalCity_id varchar (255),
-	foreign key (fictionalCity_id) references FictionalCity(fictionalCity_id));
+	foreign key (fictionalCity_id) references FictionalCity(fictionalCity_id),
+	realCity_id varchar (255),
+	foreign key (realCity_id) references RealCity(realCity_id)	
+	);
 
-CREATE TABLE FictionalNotHuman);
+CREATE TABLE FictionaNotlHuman(
+	character_id varchar (255) primary key,
+	character_label varchar (255)  ,
+	character_description varchar (255),
+	character_name varchar (255),
+	character_sex varchar (255),
+	character_DoB varchar (255),
+	character_DoD varchar (255)
+	);
+	
+CREATE TABLE FictionaCharacter(
+	character_id varchar (255) primary key,
+	character_label varchar (255)  ,
+	character_description varchar (255),
+	character_name varchar (255),
+	character_sex varchar (255),
+	character_DoB varchar (255),
+	character_DoD varchar (255)
+	);
 
-CREATE TABLE hasAuthor_Genre(
-	author_genre_id varchar (255)  primary key,
-	foreign key (author_genre_id) references Author_Genre(author_genre_id),
-	author_id varchar (255)  primary key,
-	foreign key (author_id) references Author(author_id));
-
-CREATE TABLE Award(
-	award_id varchar (255)  primary key);
-
+CREATE TABLE hasAuthorGenre(
+	author_id varchar (255),
+	foreign key (author_id) references Author(author_id),
+	genre varchar (255)	
+	);
 
 CREATE TABLE Publisher(
 	publisher_id varchar (255)  primary key,
@@ -230,20 +266,23 @@ CREATE TABLE hasPublisher(
 	foreign key (publisher_id) references Publisher(publisher_id)
 	);
 
+
 CREATE TABLE Translator(
-	human_label varchar (255) ,
 	human_id varchar (255)  primary key,
-	sex varchar (255) ,
-	DoD varchar (255),
+	human_label varchar (255) ,
 	human_description varchar (255) ,
-	name varchar (255) ,
-	DoB varchar (255) );
+	human_name varchar (255) ,
+	human_sex varchar (255) ,
+	human_DoB varchar (255),
+	human_DoD varchar (255)
+	);
 
 CREATE TABLE speaks(
-	language_id varchar (255)  primary key,
-	foreign key (language_id) references Language(language_id),
-	translator_id varchar (255)  primary key,
-	foreign key (translator_id) references Translator(translator_id));
+	translator_id varchar (255),
+	foreign key (translator_id) references Translator(translator_id))
+	language_id varchar (255),
+	foreign key (language_id) references Language(language_id)
+	);
 
 CREATE TABLE City(
 	city_id varchar (255)  primary key,
@@ -257,7 +296,8 @@ CREATE TABLE FictionalCharacter(
 	character_DoD varchar (255),
 	character_name varchar (255) ,
 	character_sex varchar (255) ,
-	character_label varchar (255) );
+	character_label varchar (255) 
+	);
 
 CREATE TABLE hasRole(
 	human_id varchar (255)  primary key,
@@ -265,16 +305,21 @@ CREATE TABLE hasRole(
 	mayor_id varchar (255)  primary key,
 	foreign key (mayor_id) references Mayor(mayor_id));
 
-CREATE TABLE followedBy(
-	book_id varchar (255)  primary key,
-	foreign key (book_id) references Book(book_id));
+CREATE TABLE follows(
+	book_id varchar (255),
+	foreign key (book_id) references Book(book_id),
+	followed_book_id varchar (255),
+	foreign key (followed_book_id) references Book(book_id),
+	);
 
 CREATE TABLE Human(
-	human_label varchar (255) ,
 	human_id varchar (255)  primary key,
-	sex varchar (255) ,
-	DoD varchar (255),
+	human_label varchar (255) ,
 	human_description varchar (255) ,
-	name varchar (255) ,
-	DoB varchar (255) );
+	human_name varchar (255) ,
+	human_sex varchar (255) ,
+	human_DoB varchar (255),
+	human_DoD varchar (255),
+	is_character varchar (255)
+	 );
 
