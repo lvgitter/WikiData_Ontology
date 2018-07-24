@@ -101,7 +101,7 @@ publishers_file.close()
 
 translators_file_path = "../concepts/Translator.txt"
 translators_file = open(translators_file_path, 'w')
-translators_file.write('human_id;human_label;human_description;human_name;human_sex;human_DoB;human_DoD\n')
+translators_file.write("human_id;human_label;human_description;human_name;human_sex;human_DoB;human_DoD\n")
 
 # ROLES
 

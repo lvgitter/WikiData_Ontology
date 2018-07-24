@@ -85,7 +85,7 @@ class myThread (threading.Thread):
 
                 
             file_out_lock.acquire()
-            file_out.write(language_id + ";" + label + ";" + description + ";" + speakers + "\n")
+            file_out.write(language_id + ";" + label.replace(";", " ") + ";" + description.replace(";", " ") + ";" + speakers.replace(";", " ") + "\n")
             file_out_lock.release()
 
    def join(self):

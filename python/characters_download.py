@@ -133,25 +133,26 @@ class CharacterDownloadThread(threading.Thread):
 
 
             if ("P31" in data['entities'][character]["claims"]):
-                for instance_of in \
-                data['entities'][character]["claims"]["P31"]:
-                    if instance_of["mainsnak"]["datavalue"]["value"]["id"] == "Q15632617":
-                        fictional_human_lock.acquire()
-                        fictional_human_file.write(str(
+                instance_of = []
+                for iO in data['entities'][character]["claims"]["P31"]:
+                    instance_of.append(iO["mainsnak"]["datavalue"]["value"]["id"])
+                if "Q15632617" in instance_of:
+                    fictional_human_lock.acquire()
+                    fictional_human_file.write(str(
                 character) + ";" + label + ";" + description + ";" + name + ";" + sex + ";" + DoB + ";" + DoD + "\n")
-                        fictional_human_lock.release()
-                        self.local_statistics[index("fictionalHuman")] += 1
-                    elif instance_of["mainsnak"]["datavalue"]["value"]["id"] == "Q5":
-                        human_characters_lock.acquire()
-                        human_character_file.write(character+"\n")
-                        human_characters_lock.release()
-                        self.local_statistics[index("human")] += 1
-                    else:
-                        fictional_not_human_lock.acquire()
-                        fictional_not_human_file.write(str(
-                            character) + ";" + label + ";" + description + ";" + name + ";" + sex + ";" + DoB + ";" + DoD + "\n")
-                        fictional_not_human_lock.release()
-                    self.local_statistics[index("fictionalNotHuman")] += 1
+                    fictional_human_lock.release()
+                    self.local_statistics[index("fictionalHuman")] += 1
+                elif "Q5" in instance_of:
+                    human_characters_lock.acquire()
+                    human_character_file.write(character+"\n")
+                    human_characters_lock.release()
+                    self.local_statistics[index("human")] += 1
+                else:
+                    fictional_not_human_lock.acquire()
+                    fictional_not_human_file.write(str(
+                        character).replace(";", " ") + ";" + label.replace(";", " ") + ";" + description.replace(";", " ") + ";" + name.replace(";", " ") + ";" + sex + ";" + DoB + ";" + DoD + "\n")
+                    fictional_not_human_lock.release()
+                self.local_statistics[index("fictionalNotHuman")] += 1
 
 
     def join(self):

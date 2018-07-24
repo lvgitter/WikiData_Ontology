@@ -201,7 +201,7 @@ class HumanDownloadThread(threading.Thread):
                 self.local_statistics[index("no occupation")] += 1
 
             humans_file.write(str(
-                human) + ";" + label + ";" + description + ";" + name + ";" + sex + ";" + DoB + ";" + DoD + ";" + "nc\n")
+                human) + ";" + label.replace(";", " ") + ";" + description.replace(";", " ") + ";" + name.replace(";", " ") + ";" + sex + ";" + DoB + ";" + DoD + ";" + "nc\n")
 
     def join(self):
         Thread.join(self)
@@ -222,7 +222,7 @@ humans_file_path = "../concepts/Human.txt"
 place_of_birth_file_path = "../roles/placeOfBirth.txt"
 place_of_death_file_path = "../roles/placeOfDeath.txt"
 processed_humans_file_path = "../processed/processedHumans.txt"
-file_has_occupation_path = "../roles/_Human_has_occupation.txt"
+file_has_occupation_path = "../roles/hasHumanOccupation.txt"
 log_file_path = "../log/log_Human.txt"
 
 # STATISTICS VARIABLES

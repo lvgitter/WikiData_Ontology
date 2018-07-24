@@ -110,7 +110,7 @@ class myThread (threading.Thread):
                 self.local_statistics[index("no language")] += 1
                 
             file_out_lock.acquire()
-            file_out.write(country_id + ";" + label + ";" + description + ";" + area + ";" + population + ";" + "\n")
+            file_out.write(country_id + ";" + label.replace(";", " ") + ";" + description.replace(";", " ") + ";" + area.replace(";", " ") + ";" + population.replace(";", " ") + ";" + "\n")
             file_out_lock.release()
 
    def join(self):

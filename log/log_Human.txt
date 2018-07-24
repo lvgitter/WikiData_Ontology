@@ -1,4 +1,4 @@
-2018-07-24 16:18:13
+2018-07-24 17:27:58
 
 
 
@@ -12,17 +12,17 @@ no PoB          :16  (13.0 %)
 no PoD          :22  (18.0 %) 
 no label        :0  (0.0 %) 
 no description  :0  (0.0 %) 
-Total_time:	9.91 sec
+Total_time:	9.38 sec
 
 
 *** STATISTICS *** 
-no name         :7  (41.0 %) 
+no name         :7  (37.0 %) 
 no sex          :0  (0.0 %) 
 no DoB          :0  (0.0 %) 
-no DoD          :16  (94.0 %) 
+no DoD          :18  (95.0 %) 
 no occupation   :0  (0.0 %) 
 no PoB          :0  (0.0 %) 
-no PoD          :16  (94.0 %) 
+no PoD          :18  (95.0 %) 
 no label        :0  (0.0 %) 
 no description  :0  (0.0 %) 
-Total_time:	1.1 sec
+Total_time:	0.9 sec

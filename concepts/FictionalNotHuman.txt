@@ -1,209 +1,84 @@
 character_id;character_label;character_description;character_name;character_sex;character_DoB;character_DoD
-Q2362299;Rhett Butler;fictional character from Gone with the Wind by Margaret Mitchell;Rhett Butler;male;;
-Q220822;Esau;older son of Isaac in the Hebrew Bible;Esau;male;-1653-00-00T00:00:00Z;-1506-00-00T00:00:00Z
-Q2053078;Julius No;fictional character in the 1958 James Bond novel and 1962 film Dr. No;Julius No;male;;
-Q12056060;Stannis Baratheon;character in A Song of Ice and Fire;Stannis Baratheon;male;;
-Q12056060;Stannis Baratheon;character in A Song of Ice and Fire;Stannis Baratheon;male;;
-Q1334087;Phyllis;Character in Greek mythology;Phyllis;female;;
-Q45581;Michael;archangel in Jewish, Christian, and Islamic teachings;Michael;male;;
-Q45581;Michael;archangel in Jewish, Christian, and Islamic teachings;Michael;male;;
-Q45581;Michael;archangel in Jewish, Christian, and Islamic teachings;Michael;male;;
-Q45581;Michael;archangel in Jewish, Christian, and Islamic teachings;Michael;male;;
-Q4221831;;;;male;+1815-00-00T00:00:00Z;
-Q3713482;Don Abbondio;One of the main characters of The Betrothed, the best known novel by Alessandro Manzoni.;Don Abbondio;;;
-Q70899;Adam;biblical figure in the Book of Genesis;Adam;male;-3760-00-00T00:00:00Z;-2831-00-00T00:00:00Z
-Q70899;Adam;biblical figure in the Book of Genesis;Adam;male;-3760-00-00T00:00:00Z;-2831-00-00T00:00:00Z
-Q771366;Myrrha;character in Greek mythology;Myrrha;female;;
-Q1918252;Rocinante;;Rocinante;unknown;;
-Q1918252;Rocinante;;Rocinante;unknown;;
-Q3643599;Bran Stark;character in A Song of Ice and Fire;Bran Stark;male;;
-Q3643599;Bran Stark;character in A Song of Ice and Fire;Bran Stark;male;;
-Q3643599;Bran Stark;character in A Song of Ice and Fire;Bran Stark;male;;
-Q181360;Harpies;group of harpies in the Greek mythology;Harpies;;;
-Q3713591;Don Rodrigo;;Don Rodrigo;male;;
-Q82732;Aeneas;Trojan hero in Greco-Roman mythology;Αινείας;male;;
-Q82732;Aeneas;Trojan hero in Greco-Roman mythology;Αινείας;male;;
-Q905162;Dido;founder of Carthage;Dido;female;-0839-00-00T00:00:00Z;-0759-00-00T00:00:00Z
-Q905162;Dido;founder of Carthage;Dido;female;-0839-00-00T00:00:00Z;-0759-00-00T00:00:00Z
-Q345;Mary;religious figure and mother of Jesus of Nazareth;Mary;female;-0100-00-00T00:00:00Z;+0100-00-00T00:00:00Z
-Q345;Mary;religious figure and mother of Jesus of Nazareth;Mary;female;-0100-00-00T00:00:00Z;+0100-00-00T00:00:00Z
-Q193531;Miss Marple;fictional character appearing in Agatha Christie's crime novels;Jane Marple;female;;
-Q193531;Miss Marple;fictional character appearing in Agatha Christie's crime novels;Jane Marple;female;;
-Q47231;Odysseus;legendary Greek king of Ithaca;Odysseus;male;;
-Q47231;Odysseus;legendary Greek king of Ithaca;Odysseus;male;;
-Q223805;Angra Mainyu;personification of the "destructive spirit" in Zoroastrianism;Angra Mainyu;;;
-Q8347121;jaculus;mythological serpent;jaculus;;;
-Q35230;Satan;Christian devil;Satan;male;;
-Q35230;Satan;Christian devil;Satan;male;;
-Q302;Jesus Christ;central figure of Christianity;ישוע;male;-0002-00-00T00:00:00Z;+0033-00-00T00:00:00Z
-Q302;Jesus Christ;central figure of Christianity;ישוע;male;-0002-00-00T00:00:00Z;+0033-00-00T00:00:00Z
-Q302;Jesus Christ;central figure of Christianity;ישוע;male;-0002-00-00T00:00:00Z;+0033-00-00T00:00:00Z
-Q302;Jesus Christ;central figure of Christianity;ישוע;male;-0002-00-00T00:00:00Z;+0033-00-00T00:00:00Z
-Q721135;Azazel;old ritual, later - demon;Azazel;male;;
-Q721135;Azazel;old ritual, later - demon;Azazel;male;;
-Q721135;Azazel;old ritual, later - demon;Azazel;male;;
-Q2076759;Tyrion Lannister;character in A Song of Ice and Fire;Tyrion Lannister;male;;
-Q2076759;Tyrion Lannister;character in A Song of Ice and Fire;Tyrion Lannister;male;;
-Q19792294;Tommen Baratheon;character in A Song of Ice and Fire;Tommen Baratheon;male;;
-Q19792294;Tommen Baratheon;character in A Song of Ice and Fire;Tommen Baratheon;male;;
-Q572381;Iseult;lover of Tristan in the Arthurian legend;Iseult;female;;
-Q572381;Iseult;lover of Tristan in the Arthurian legend;Iseult;female;;
-Q572381;Iseult;lover of Tristan in the Arthurian legend;Iseult;female;;
-Q5563337;Ginés de Pasamonte;fictional character in Miguel de Cervantes' novel Don Quixote;Ginés de Pasamonte;male;;
-Q754686;Cacus;fire breathing giant in Roman mythology;Cacus;male;;
-Q754686;Cacus;fire breathing giant in Roman mythology;Cacus;male;;
-Q2708078;Daenerys Targaryen;character in A Song of Ice and Fire;Daenerys Targaryen;female;;
-Q2708078;Daenerys Targaryen;character in A Song of Ice and Fire;Daenerys Targaryen;female;;
-Q4008842;Varys;character in A Song of Ice and Fire;Varys;male;;
-Q4008842;Varys;character in A Song of Ice and Fire;Varys;male;;
-Q41410;Hades;Greek god of the underworld in Greek mythology;Hades;male;;
-Q1200843;Zahhak;mythological serpent;Zahhak;male;;
-Q103960;Semiramis;legendary queen;Semiramis;female;;
-Q474962;Amphisbaena;mythological serpent;Amphisbaena;;;
-Q1135632;Rahab;biblical figure;Rahab;female;;
-Q3687891;;;;;;
-Q335367;Tristan and Iseult;medieval romance related to the Arthurian legends;Tristan and Iseult;;;
-Q335367;Tristan and Iseult;medieval romance related to the Arthurian legends;Tristan and Iseult;;;
-Q335367;Tristan and Iseult;medieval romance related to the Arthurian legends;Tristan and Iseult;;;
-Q24944284;Tormund Giantsbane;character in A Song of Ice and Fire;Tormund Giantsbane;male;;
-Q24944284;Tormund Giantsbane;character in A Song of Ice and Fire;Tormund Giantsbane;male;;
-Q159666;Hector;Greek mythological hero;Hector;male;;
-Q128176;Agamemnon;figure from Greek mythology;Agamemnon;male;;
-Q128176;Agamemnon;figure from Greek mythology;Agamemnon;male;;
-Q17355556;Janos Slynt;character in A Song of Ice and Fire;Janos Slynt;male;;
-Q17355556;Janos Slynt;character in A Song of Ice and Fire;Janos Slynt;male;;
-Q6113413;Rucio;;Rucio;;;
-Q6113413;Rucio;;Rucio;;;
-Q289957;Jacob;third patriarch of the Hebrew people with whom God made a covenant;Jacob;male;-1653-00-00T00:00:00Z;-1506-00-00T00:00:00Z
-Q183417;Chiron;centaur, figure from Greek mythology;Chiron;male;;
-Q831583;Phlegyas;king of the Lapiths in Greek mythology;Phlegyas;male;;
-Q831583;Phlegyas;king of the Lapiths in Greek mythology;Phlegyas;male;;
-Q23758900;Kevan Lannister;character in A Song of Ice and Fire;Kevan Lannister;male;;
-Q23758900;Kevan Lannister;character in A Song of Ice and Fire;Kevan Lannister;male;;
-Q223440;Lucius Junius Brutus;Founder of the Roman Republic;L. Iunius M.f. Brutus;male;-0600-00-00T00:00:00Z;-0509-00-00T00:00:00Z
-Q41746;Achilles;Greek mythological hero;Achilles;male;;
-Q330584;Amphiaraus;mythical character;Ἀμφιάραος;male;;
-Q330584;Amphiaraus;mythical character;Ἀμφιάραος;male;;
-Q3888810;;;;;;
-Q3796490;Illyrio Mopatis;character in A Song of Ice and Fire;Illyrio Mopatis;male;;
-Q3796490;Illyrio Mopatis;character in A Song of Ice and Fire;Illyrio Mopatis;male;;
-Q167646;Paris;son of Priam, king of Troy;Paris;male;;
-Q652232;Ciacco;fictional character;Ciacco;male;;
-Q250506;Tydeus;figure in Greek mythology;Tydeus;male;;
-Q1128478;Kaveh the blacksmith;legendary figure;Kaveh the blacksmith;male;;
-Q81422;Noah;Biblical figure;Noah;male;-2705-00-00T00:00:00Z;-1755-00-00T00:00:00Z
-Q22254472;Daario Naharis;character in A Song of Ice and Fire;Daario Naharis;male;;
-Q22254472;Daario Naharis;character in A Song of Ice and Fire;Daario Naharis;male;;
-Q20190268;Victarion Greyjoy;;Victarion Greyjoy;male;;
-Q334817;Polynices;mythological prince of Thebes;Polynices;male;;
-Q3183235;Jon Snow;character in A Song of Ice and Fire;Jon Snow;male;;
-Q3183235;Jon Snow;character in A Song of Ice and Fire;Jon Snow;male;;
-Q3806180;Jaime Lannister;character in A Song of Ice and Fire;Jaime Lannister;male;;
-Q3806180;Jaime Lannister;character in A Song of Ice and Fire;Jaime Lannister;male;;
-Q129866;Minotaur;creature of Greek mythology;Μῑνώταυρος;male;;
-Q129866;Minotaur;creature of Greek mythology;Μῑνώταυρος;male;;
-Q5800500;Davos Seaworth;character in A Song of Ice and Fire;Davos Seaworth;male;;
-Q5800500;Davos Seaworth;character in A Song of Ice and Fire;Davos Seaworth;male;;
-Q205365;Cain;Biblical figure;Cain;male;;
-Q23168;Minos;mythological king of Crete;Minos;male;;
-Q23168;Minos;mythological king of Crete;Minos;male;;
-Q6009607;Melisandre;character in A Song of Ice and Fire;Melisandre;female;;
-Q6009607;Melisandre;character in A Song of Ice and Fire;Melisandre;female;;
-Q6009607;Melisandre;character in A Song of Ice and Fire;Melisandre;female;;
-Q944201;Alonso Quijano;protagonist of Don Quixote;Alonso Quijano;male;;
-Q174353;Orpheus;legendary musician, poet, and prophet in ancient Greek religion and myth;Orpheus;male;;
-Q176758;Jason;Greek mythological hero;Jason;male;;
-Q176758;Jason;Greek mythological hero;Jason;male;;
-Q830183;Eve;biblical figure;Eve;female;-3760-00-00T00:00:00Z;
-Q830183;Eve;biblical figure;Eve;female;-3760-00-00T00:00:00Z;
-Q687726;Honey Rider;female character in the James Bond novel and film Dr. No;Honey Rider;female;;
-Q954012;Tristan;Cornish knight of the Round Table Arthurian legend;Tristan;male;+0535-01-01T00:00:00Z;+0585-01-01T00:00:00Z
-Q954012;Tristan;Cornish knight of the Round Table Arthurian legend;Tristan;male;+0535-01-01T00:00:00Z;+0585-01-01T00:00:00Z
-Q954012;Tristan;Cornish knight of the Round Table Arthurian legend;Tristan;male;+0535-01-01T00:00:00Z;+0585-01-01T00:00:00Z
-Q1264776;Dulcinea;fictional character from Don Quixote;Dulcinea;female;;
-Q6612;Charon;ferryman of Hades;Χάρων;male;;
-Q6612;Charon;ferryman of Hades;Χάρων;male;;
-Q86805;Geryon;;Geryon;male;;
-Q11703515;Samwell Tarly;character in A Song of Ice and Fire;Samwell Tarly;male;;
-Q11703515;Samwell Tarly;character in A Song of Ice and Fire;Samwell Tarly;male;;
-Q180262;Erinyes;group of fictional characters;Erinyes;;;
-Q208256;Diomedes;hero in Greek mythology;Diomedes;male;;
-Q208256;Diomedes;hero in Greek mythology;Diomedes;male;;
-Q1077286;Keyumars;Ancient Iranian mythological figure;Keyumars;male;;
-Q779406;Latinus;mythical character;Latinus;male;;
-Q779406;Latinus;mythical character;Latinus;male;;
-Q1133523;Jephthah;biblical character;Jephthah;male;;
-Q205251;Plutus;mythical character;Plutus;male;;
-Q186350;God the Father;;God the Father;male;;
-Q186350;God the Father;;God the Father;male;;
-Q19796006;Ramsay Bolton;character in A Song of Ice and Fire;Ramsay Bolton;male;;
-Q19796006;Ramsay Bolton;character in A Song of Ice and Fire;Ramsay Bolton;male;;
-Q833806;Capaneus;son of Hipponous in Greek mythology;Capaneus;male;;
-Q571969;Antenor;mythical character;Antenor;male;;
-Q246154;M;James Bond character;M;;;
-Q19799430;Roose Bolton;character in A Song of Ice and Fire;Roose Bolton;male;;
-Q19799430;Roose Bolton;character in A Song of Ice and Fire;Roose Bolton;male;;
-Q244912;Hezekiah;King of Judah;Hezekiah;male;-0800-01-01T00:00:00Z;-0697-01-01T00:00:00Z
 Q663792;Sinon;mythical character;Sinon;male;;
+Q56951;Raphael;Archangel featuring in Book of Tobit;Raphael;male;;
+Q174353;Orpheus;legendary musician, poet, and prophet in ancient Greek religion and myth;Orpheus;male;;
+Q223805;Angra Mainyu;personification of the "destructive spirit" in Zoroastrianism;Angra Mainyu;;;
+Q335367;Tristan and Iseult;medieval romance related to the Arthurian legends;Tristan and Iseult;;;
+Q180262;Erinyes;group of fictional characters;Erinyes;;;
 Q131651;Elektra;figure from Greek mythology;Elektra;female;;
-Q19799441;Asha Greyjoy;character in A Song of Ice and Fire;Asha Greyjoy;female;;
-Q19799441;Asha Greyjoy;character in A Song of Ice and Fire;Asha Greyjoy;female;;
-Q185498;Lucifer;another name for Satan or  the name for the "Morning star" (the planet Venus, or other stars);Lucifer;male;;
-Q185498;Lucifer;another name for Satan or  the name for the "Morning star" (the planet Venus, or other stars);Lucifer;male;;
-Q185498;Lucifer;another name for Satan or  the name for the "Morning star" (the planet Venus, or other stars);Lucifer;male;;
-Q185498;Lucifer;another name for Satan or  the name for the "Morning star" (the planet Venus, or other stars);Lucifer;male;;
-Q2009573;James Bond;fictional spy;James Bond;male;;
-Q19799435;Myrcella Baratheon;character in A Song of Ice and Fire;Myrcella Baratheon;female;;
-Q19799435;Myrcella Baratheon;character in A Song of Ice and Fire;Myrcella Baratheon;female;;
-Q56951;Raphael;Archangel featuring in Book of Tobit;Raphael;male;;
-Q56951;Raphael;Archangel featuring in Book of Tobit;Raphael;male;;
-Q56951;Raphael;Archangel featuring in Book of Tobit;Raphael;male;;
-Q81989;Gabriel;angel in Abrahamic religions;Gabriel;male;;
-Q81989;Gabriel;angel in Abrahamic religions;Gabriel;male;;
-Q81989;Gabriel;angel in Abrahamic religions;Gabriel;male;;
-Q81989;Gabriel;angel in Abrahamic religions;Gabriel;male;;
-Q24285726;Hizdahr zo Loraq;character in A Song of Ice and Fire;Hizdahr zo Loraq;male;;
-Q24285726;Hizdahr zo Loraq;character in A Song of Ice and Fire;Hizdahr zo Loraq;male;;
-Q3749188;;;;male;;
-Q630823;Sancho Panza;fictional character in the novel Don Quixote;Sancho Panza;male;;
-Q671872;Isaac;Biblical character;Isaac;male;-1713-00-00T00:00:00Z;-1533-00-00T00:00:00Z
-Q3665163;Cersei Lannister;character in A Song of Ice and Fire;Cersei Lannister;female;;
-Q3665163;Cersei Lannister;character in A Song of Ice and Fire;Cersei Lannister;female;;
-Q3810007;Jorah Mormont;character in A Song of Ice and Fire;Jorah Mormont;male;;
-Q3810007;Jorah Mormont;character in A Song of Ice and Fire;Jorah Mormont;male;;
-Q164061;Helen of Troy;daughter of Zeus in Greek Mythology;Helen of Troy;female;;
-Q669992;Rincewind;fictional character;Rincewind;male;;
-Q506550;Eteocles;mythological king of Thebes;Eteocles;male;;
-Q506550;Eteocles;mythological king of Thebes;Eteocles;male;;
-Q849647;Briareus;one of the Hundred-Handers;Briareus;male;;
-Q849647;Briareus;one of the Hundred-Handers;Briareus;male;;
-Q647496;Linus;son of Apollo and Urrania;Linus;male;;
-Q5721186;Barristan Selmy;character in A Song of Ice and Fire;Barristan Selmy;male;;
-Q5721186;Barristan Selmy;character in A Song of Ice and Fire;Barristan Selmy;male;;
-Q26492768;Modestine;fictional donkey from Stevenson's Travels with a Donkey in the Cévennes;Modestine;unknown;;
-Q2024961;Bill Tanner;fictional character in the James Bond film and novel series;Bill Tanner;male;;
-Q431387;Deidamia;;Deidamia;female;;
-Q725527;Calchas;mythical character;Calchas;male;;
-Q83496;Cerberus;guardian of Hell;Cerberus;unknown;;
-Q83496;Cerberus;guardian of Hell;Cerberus;unknown;;
-Q275010;Moloch;Biblical name of a Canaanite god;Moloch;male;;
-Q9077;Moses;person, mentioned in the Torah (Pentateuch) and in the Quran, who led the Israelites out of slavery in Egypt to Canaan;מֹשֶׁה;male;-1393-00-00T00:00:00Z;-1273-00-00T00:00:00Z
+Q70899;Adam;biblical figure in the Book of Genesis;Adam;male;-3760-00-00T00:00:00Z;-2831-00-00T00:00:00Z
+Q86805;Geryon;;Geryon;male;;
 Q815594;Belial;Christian demon;Belial;;;
-Q33923;Peter;apostle and first pope;بطرس;male;;+0067-01-01T00:00:00Z
-Q272006;Antaeus;character in Greek and Berber mythology;Antaeus;male;;
-Q272006;Antaeus;character in Greek and Berber mythology;Antaeus;male;;
-Q1120793;Theon Greyjoy;character in A Song of Ice and Fire;Theon Greyjoy;male;;
-Q1120793;Theon Greyjoy;character in A Song of Ice and Fire;Theon Greyjoy;male;;
-Q41370;David;king of Israel and Judah;דָּוִד;male;-1040-01-01T00:00:00Z;-0970-01-01T00:00:00Z
-Q11680307;Brienne of Tarth;character in A Song of Ice and Fire;Brienne of Tarth;female;;
-Q11680307;Brienne of Tarth;character in A Song of Ice and Fire;Brienne of Tarth;female;;
-Q4221833;;;;male;;
-Q1141210;God the Son;term for Jesus within Christian trinity doctrine;God the Son;;;
-Q379828;Penthesilea;mythical character;Penthesilea;female;;
-Q379828;Penthesilea;mythical character;Penthesilea;female;;
-Q382610;Fionn mac Cumhaill;;Fionn mac Cumhaill;male;;
-Q466866;Nessus;centaur in Greek mythology;Nessus;;;
+Q82732;Aeneas;Trojan hero in Greco-Roman mythology;Αινείας;male;;
+Q954012;Tristan;Cornish knight of the Round Table Arthurian legend;Tristan;male;+0535-01-01T00:00:00Z;+0585-01-01T00:00:00Z
+Q183417;Chiron;centaur, figure from Greek mythology;Chiron;male;;
 Q192673;Iphigenia;figure from Greek mythology;Iphigenia;female;;
+Q208256;Diomedes;hero in Greek mythology;Diomedes;male;;
+Q45581;Michael;archangel in Jewish, Christian, and Islamic teachings;Michael;male;;
+Q3713591;Don Rodrigo;;Don Rodrigo;male;;
+Q1200843;Zahhak;mythological serpent;Zahhak;male;;
+Q275010;Moloch;Biblical name of a Canaanite god;Moloch;male;;
+Q186350;God the Father;;God the Father;male;;
+Q23168;Minos;mythological king of Crete;Minos;male;;
+Q2362299;Rhett Butler;fictional character from Gone with the Wind by Margaret Mitchell;Rhett Butler;male;;
+Q345;Mary;religious figure and mother of Jesus of Nazareth;Mary;female;-0100-00-00T00:00:00Z;+0100-00-00T00:00:00Z
+Q671872;Isaac;Biblical character;Isaac;male;-1713-00-00T00:00:00Z;-1533-00-00T00:00:00Z
+Q6612;Charon;ferryman of Hades;Χάρων;male;;
+Q779406;Latinus;mythical character;Latinus;male;;
+Q3713482;Don Abbondio;One of the main characters of The Betrothed, the best known novel by Alessandro Manzoni.;Don Abbondio;;;
+Q4221831;;;;male;+1815-00-00T00:00:00Z;
+Q185498;Lucifer;another name for Satan or  the name for the "Morning star" (the planet Venus, or other stars);Lucifer;male;;
+Q129866;Minotaur;creature of Greek mythology;Μῑνώταυρος;male;;
+Q1918252;Rocinante;;Rocinante;unknown;;
+Q1135632;Rahab;biblical figure;Rahab;female;;
+Q289957;Jacob;third patriarch of the Hebrew people with whom God made a covenant;Jacob;male;-1653-00-00T00:00:00Z;-1506-00-00T00:00:00Z
+Q833806;Capaneus;son of Hipponous in Greek mythology;Capaneus;male;;
+Q330584;Amphiaraus;mythical character;Ἀμφιάραος;male;;
+Q572381;Iseult;lover of Tristan in the Arthurian legend;Iseult;female;;
+Q83496;Cerberus;guardian of Hell;Cerberus;unknown;;
+Q81989;Gabriel;angel in Abrahamic religions;Gabriel;male;;
+Q9077;Moses;person, mentioned in the Torah (Pentateuch) and in the Quran, who led the Israelites out of slavery in Egypt to Canaan;מֹשֶׁה;male;-1393-00-00T00:00:00Z;-1273-00-00T00:00:00Z
+Q8347121;jaculus;mythological serpent;jaculus;;;
+Q849647;Briareus;one of the Hundred-Handers;Briareus;male;;
+Q3888810;;;;;;
+Q1334087;Phyllis;Character in Greek mythology;Phyllis;female;;
+Q1141210;God the Son;term for Jesus within Christian trinity doctrine;God the Son;;;
+Q176758;Jason;Greek mythological hero;Jason;male;;
+Q754686;Cacus;fire breathing giant in Roman mythology;Cacus;male;;
+Q47231;Odysseus;legendary Greek king of Ithaca;Odysseus;male;;
+Q181360;Harpies;group of harpies in the Greek mythology;Harpies;;;
+Q205251;Plutus;mythical character;Plutus;male;;
+Q379828;Penthesilea;mythical character;Penthesilea;female;;
+Q905162;Dido;founder of Carthage;Dido;female;-0839-00-00T00:00:00Z;-0759-00-00T00:00:00Z
+Q4221833;;;;male;;
+Q26492768;Modestine;fictional donkey from Stevenson's Travels with a Donkey in the Cévennes;Modestine;unknown;;
+Q205365;Cain;Biblical figure;Cain;male;;
+Q334817;Polynices;mythological prince of Thebes;Polynices;male;;
+Q382610;Fionn mac Cumhaill;;Fionn mac Cumhaill;male;;
+Q3749188;;;;male;;
+Q250506;Tydeus;figure in Greek mythology;Tydeus;male;;
+Q771366;Myrrha;character in Greek mythology;Myrrha;female;;
+Q159666;Hector;Greek mythological hero;Hector;male;;
+Q830183;Eve;biblical figure;Eve;female;-3760-00-00T00:00:00Z;
+Q41746;Achilles;Greek mythological hero;Achilles;male;;
+Q669992;Rincewind;fictional character;Rincewind;male;;
+Q571969;Antenor;mythical character;Antenor;male;;
+Q3687891;;;;;;
+Q164061;Helen of Troy;daughter of Zeus in Greek Mythology;Helen of Troy;female;;
+Q220822;Esau;older son of Isaac in the Hebrew Bible;Esau;male;-1653-00-00T00:00:00Z;-1506-00-00T00:00:00Z
+Q647496;Linus;son of Apollo and Urrania;Linus;male;;
+Q466866;Nessus;centaur in Greek mythology;Nessus;;;
+Q167646;Paris;son of Priam, king of Troy;Paris;male;;
+Q831583;Phlegyas;king of the Lapiths in Greek mythology;Phlegyas;male;;
+Q81422;Noah;Biblical figure;Noah;male;-2705-00-00T00:00:00Z;-1755-00-00T00:00:00Z
+Q721135;Azazel;old ritual, later - demon;Azazel;male;;
+Q506550;Eteocles;mythological king of Thebes;Eteocles;male;;
+Q128176;Agamemnon;figure from Greek mythology;Agamemnon;male;;
+Q474962;Amphisbaena;mythological serpent;Amphisbaena;;;
+Q41410;Hades;Greek god of the underworld in Greek mythology;Hades;male;;
+Q431387;Deidamia;;Deidamia;female;;
+Q272006;Antaeus;character in Greek and Berber mythology;Antaeus;male;;
+Q35230;Satan;Christian devil;Satan;male;;
+Q6113413;Rucio;;Rucio;;;
+Q725527;Calchas;mythical character;Calchas;male;;
 Q7734;Joshua;figure in the Torah;Joshua;male;-1355-00-00T00:00:00Z;-1245-00-00T00:00:00Z
-Q40662;John the Baptist;major religious figure;יוחנן המטביל;male;;+0030-00-00T00:00:00Z
-Q6072772;Pero Perez;;Pero Perez;male;;

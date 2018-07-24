@@ -1,16 +1,16 @@
-2018-07-24 16:18:13
+2018-07-24 17:27:58
 
 
 
 *** STATISTICS *** 
-no name         :7  (57.99999999999999 %) 
+no name         :35  (78.0 %) 
 no sex          :0  (0.0 %) 
-no DoB          :1  (8.0 %) 
-no DoD          :6  (50.0 %) 
-no occupation   :1  (8.0 %) 
-no PoB          :1  (8.0 %) 
-no PoD          :7  (57.99999999999999 %) 
+no DoB          :7  (16.0 %) 
+no DoD          :10  (22.0 %) 
+no occupation   :3  (7.000000000000001 %) 
+no PoB          :17  (38.0 %) 
+no PoD          :32  (71.0 %) 
 no language     :0  (0.0 %) 
 no label        :0  (0.0 %) 
 no description  :0  (0.0 %) 
-Total_time:	1.16 sec
+Total_time:	2.28 sec

@@ -334,7 +334,7 @@ class myThread(threading.Thread):
 
             file_out_lock.acquire()
             file_out.write(
-                book_id + ";" + label + ";" + description + ";" + title + ";" + subtitle + ";" + first_line + ";" + series_name + "\n")
+                book_id + ";" + label.replace(";", " ") + ";" + description.replace(";", " ") + ";" + title.replace(";", " ") + ";" + subtitle.replace(";", " ") + ";" + first_line.replace(";", " ") + ";" + series_name.replace(";", " ") + "\n")
             file_out_lock.release()
 
     def join(self):
@@ -375,10 +375,9 @@ file_afterauthors_path = "../roles/hasAfterwordAuthor.txt"
 file_foreauthors_path = "../roles/hasForewordAuthor.txt"
 file_langs_path = "../roles/writtenIn.txt"
 file_tras_path = "../roles/hasTranslator.txt"
-#file_has_characters_path = "../hasCharacter.txt"
 file_edits_path = "../roles/hasEdition.txt"
 file_folls_path = "../roles/follows.txt"
-file_has_genres_path = "../roles/_Book_has_genres.txt"
+file_has_genres_path = "../roles/hasBookGenres.txt"
 
 
 # STATISTICS VARIABLES
@@ -454,8 +453,6 @@ for i in range(N_THREADS):
     prec = succ
     succ = succ + step
 
-print(books[-1])
-print(books[-2])
 
 for t in threads:
     t.start()

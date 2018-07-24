@@ -212,8 +212,9 @@ class TranslatorDownloadThread(threading.Thread):
             else:
                 self.local_statistics[index("no PoD")] += 1
 
-            translators_file.write(str(
-                translator) + ";" + label + ";" + description + ";" + name + ";" + sex + ";" + DoB + ";" + DoD  + "\n")
+            translators_lock.acquire()
+            translators_file.write(translator + ";" + label.replace(";", " ") + ";" + description.replace(";", " ") + ";" + name.replace(";", " ") + ";" + sex + ";" + DoB + ";" + DoD + "\n")
+            translators_lock.release()
 
     def join(self):
         Thread.join(self)
@@ -232,12 +233,12 @@ total_time = time.time()
 
 # FILES OUTPUT PATH
 translators_file_path = "../concepts/Translator.txt"
-translators_id_file_path = "../translators_test.txt"
+translators_id_file_path = "../roles/hasTranslator.txt"
 speaks_file_path = "../roles/speaks.txt"
 place_of_birth_file_path = "../roles/placeOfBirth.txt"
 place_of_death_file_path = "../roles/placeOfDeath.txt"
 log_file_path = "../log/log_Translator.txt"
-occupations_file_path = "../roles/_Human_has_occupation.txt"
+occupations_file_path = "../roles/hasHumanOccupation.txt"
 
 # STATISTICS VARIABLES
 statistics = [0 for x in range(LEN_INDEX)]
@@ -253,7 +254,7 @@ processed_translators_file_path = "../processed/processedTranslators.txt"
 processed_translators_file = open(processed_translators_file_path, 'r')
 processed_translators = set([x.strip() for x in processed_translators_file.readlines()[1:]])
 translators_id_file = open(translators_id_file_path, 'r')
-translators = set([x.strip().split(';')[0] for x in translators_id_file.readlines()[1:]]) # CHECK IF IT IS RIGHT IN THE FIRST POSITION
+translators = set([x.strip().split(';')[1] for x in translators_id_file.readlines()[1:]])
 translators = list(translators.difference(processed_translators))
 translators_id_file.close()
 processed_translators_file.close()
@@ -270,7 +271,7 @@ occupations_file = open(occupations_file_path, 'a')
 log_file = open(log_file_path, 'a')
 
 n_translators = len(translators)
-print("Number of authors: " + str(n_translators))
+print("Number of translators: " + str(n_translators))
 
 # PARALLEL COMPUTATION INITIALIZATION
 threads = []

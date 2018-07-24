@@ -113,7 +113,7 @@ class myThread (threading.Thread):
                 self.local_statistics[index("no founder")] += 1
                 
             file_out_lock.acquire()
-            file_out.write(pub_id + ";" + label + ";" + description + ";" + inception + "\n")
+            file_out.write(pub_id + ";" + label.replace(";", " ") + ";" + description.replace(";", " ") + ";" + inception.replace(";", " ") + "\n")
             file_out_lock.release()
 
    def join(self):

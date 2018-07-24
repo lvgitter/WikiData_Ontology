@@ -1,35 +1,43 @@
 mayor_id;mayor_label;mayor_description;start_time;end_time;official_residence
-Q54931516;Cathaoirleach of Wicklow County Council;honorific title of the chairperson of Wicklow County Council;;;
-Q24701575;mayor of Vufflens-le-Château;;;;
-Q6341938;mayor of Cartagena;political position in Spain;;;
+Q50184139;Mayor of Bologna;Mayor of Bologna;;;
+Q30185;mayor;head of municipal government such as a town or city;;;
+Q23936560;mayor of Rome;;;;
+Q641159;Governing Mayor of Berlin;head of government presiding over the Berlin Senate;;;
 Q50190063;Mayor of Naples;;;;
-Q27306390;mayor of Salvador;head of a municipal government in Brazil;;;
-Q2276266;Mayor of Jerusalem;;;;
-Q52220796;Lord Mayor of Cologne;mayor of Cologne, Germany;;;
-Q24703283;Mayor of Genève;;;;
-Q27898073;Mayor of Bordeaux;;;;
-Q17149373;Mayor of Prague;;;;
 Q3961545;mayor of Milan;;;;
-Q26700989;mayor of Roncesvalles;political position in Spain;;;
-Q2895612;Governor of Saint Petersburg;Wikimedia list article;;;Smolny Institute
+Q53926032;Mayor of Rio de Janeiro;head of a municipal government in Brazil;;;
 Q132050;governor;governing official;;;
-Q26698271;mayor of Alcalá de Henares;political position in Spain;;;
+Q17078548;Mayor of Madrid;political position in Spain;;;
+Q27898073;Mayor of Bordeaux;;;;
+Q26698798;mayor of Córdoba;political position in Spain;;;
+Q8350052;;;;;
+Q24701575;mayor of Vufflens-le-Château;;;;
 Q2741486;Chief Executive of Hong Kong;head of the Hong Kong Government;;;Government House
 Q4377230;Prime Minister of Greece;head of government of the Hellenic Republic and the leader of the Greek cabinet;;;Maximos Mansion
-Q38931;Mayor of London;head of the government of Greater London;;;City Hall
-Q26698798;mayor of Córdoba;political position in Spain;;;
-Q21510223;Mayor of Zürich;political position;;;
-Q50190176;mayor of Palermo;;;;
+Q26691142;mayor of Vic;political position in Spain;;;
+Q26690449;mayor of Alicante;political position in Spain;;;
 Q17279086;Mayor of Beijing;;;;
-Q30185;mayor;head of municipal government such as a town or city;;;
-Q53926032;Mayor of Rio de Janeiro;head of a municipal government in Brazil;;;
 Q25927210;mayor of Florence;;;;
+Q26698271;mayor of Alcalá de Henares;political position in Spain;;;
 Q11525354;Governor of Tokyo;;;;
-Q191827;Taoiseach;head of government or prime minister of Ireland;;;Steward's Lodge
-Q23936560;mayor of Rome;;;;
-Q13645132;Lord Mayor of Dublin;honorific title of the chairperson of Dublin City Council;;;Mansion House, Dublin
-Q17078548;Mayor of Madrid;political position in Spain;;;
-Q785304;Mayor of New York City;head of the executive branch of New York City's government;;;Gracie Mansion
+Q54931516;Cathaoirleach of Wicklow County Council;honorific title of the chairperson of Wicklow County Council;;;
+Q38931;Mayor of London;head of the government of Greater London;;;City Hall
+Q17149373;Mayor of Prague;;;;
 Q26274423;mayor of Seville;;;;
-Q50184139;Mayor of Bologna;Mayor of Bologna;;;
+Q27306390;mayor of Salvador;head of a municipal government in Brazil;;;
+Q6627774;Mayor of Warsaw;;;;
+Q24703283;Mayor of Genève;;;;
+Q6341938;mayor of Cartagena;political position in Spain;;;
+Q21510223;Mayor of Zürich;political position;;;
+Q12155639;Mayor of Barcelona;President of the municipal corporation of Barcelona;;;
+Q2276266;Mayor of Jerusalem;;;;
+Q13645132;Lord Mayor of Dublin;honorific title of the chairperson of Dublin City Council;;;Mansion House, Dublin
+Q50190176;mayor of Palermo;;;;
+Q785304;Mayor of New York City;head of the executive branch of New York City's government;;;Gracie Mansion
+Q26700989;mayor of Roncesvalles;political position in Spain;;;
+Q844587;Prime Minister of Spain;head of government of Spain;;;Palace of Moncloa
 Q11696;President of the United States;head of state and of government of the United States;;;White House
+Q1362118;First Mayor of Hamburg;head of government of the city and state of Hamburg, Germany;;;Hamburg Rathaus
+Q191827;Taoiseach;head of government or prime minister of Ireland;;;Steward's Lodge
+Q2895612;Governor of Saint Petersburg;Wikimedia list article;;;Smolny Institute
+Q52220796;Lord Mayor of Cologne;mayor of Cologne, Germany;;;

@@ -1,110 +1,174 @@
-human_id;occupation
-Q241248;writer
-Q241248;novelist
-Q241248;screenwriter
-Q241248;essayist
-Q241248;journalist
-Q9711;novelist
-Q9711;literary critic
-Q49081;journalist
-Q49081;writer
-Q49081;essayist
-Q49081;autobiographer
-Q49081;literary critic
-Q49081;political scientist
-Q46248;writer
-Q46248;novelist
-Q46248;journalist
-Q46248;screenwriter
-Q46248;science fiction writer
-Q46248;children's writer
-Q46248;author
-Q991;translator
-Q991;poet
-Q991;novelist
-Q991;essayist
-Q991;short story writer
-Q991;journalist
-Q991;philosopher
-Q991;biographer
-Q991;engineer
-Q991;writer
-Q1035;naturalist
-Q1035;geologist
-Q1035;explorer
-Q1035;travel writer
-Q1035;ethologist
-Q1035;entomologist
-Q180903;writer
-Q180903;poet
-Q180903;novelist
-Q180903;university teacher
-Q50039;journalist
-Q50039;media historian
-Q39829;writer
-Q39829;television producer
-Q39829;actor
-Q39829;musician
-Q6969361;historian
-Q13230;linguist
-Q13230;pedagogue
-Q13230;university teacher
-Q13230;sociologist
-Q13230;philosopher
-Q13230;phonologist
-Q170596;anthropologist
-Q170596;archaeologist
-Q170596;autobiographer
-Q170596;writer
-Q170596;military officer
-Q170596;screenwriter
-Q170596;translator
-Q170596;castellologist
-Q43459;poet
-Q43459;writer
-Q102513;writer
-Q102513;novelist
-Q102513;poet
-Q102513;children's writer
-Q102513;short story writer
-Q105118;writer
-Q105118;screenwriter
-Q105118;novelist
-Q105118;playwright
-Q105118;film director
-Q105118;actor
-Q105118;television producer
-Q18430;economist
-Q18430;university teacher
-Q18430;science writer
-Q18430;non-fiction writer
-Q18430;professor
-Q18430;critic
-Q18430;writer
-Q18430;scientist
-Q4583;diarist
+Q79759;writer
+Q47484;journalist
+Q163118;translator
+Q40479;writer
+Q4671;writer
+Q449085;writer
+Q23434;war correspondent
 Q240576;writer
+Q34474;writer
+Q967307;historian
+Q1067;politician
+Q1035;naturalist
+Q905;novelist
+Q991;translator
+Q47484;film producer
+Q79759;poet
+Q79759;politician
+Q163118;poet
+Q163118;novelist
 Q240576;politician
 Q240576;journalist
-Q240576;children's writer
-Q240576;poet
-Q34660;film producer
-Q34660;writer
-Q34660;novelist
-Q34660;teacher
-Q34660;children's writer
-Q34660;screenwriter
-Q34660;author
-Q34660;prose
-Q34660;executive producer
-Q23434;war correspondent
+Q449085;autobiographer
+Q449085;novelist
 Q23434;screenwriter
 Q23434;writer
 Q23434;novelist
 Q23434;journalist
 Q23434;autobiographer
+Q40479;linguist
+Q40479;novelist
+Q1067;philosopher
+Q967307;biographer
+Q34474;historian
+Q34474;novelist
+Q34474;screenwriter
+Q1035;geologist
+Q905;fabulist
+Q311145;writer
+Q311145;linguist
+Q311145;poet
+Q311145;journalist
+Q311145;novelist
+Q311145;translator
+Q991;poet
+Q991;novelist
+Q42831;writer
+Q42831;poet
+Q240576;children's writer
+Q240576;poet
+Q163118;essayist
+Q47484;essayist
+Q449085;playwright
+Q449085;screenwriter
+Q449085;children's writer
+Q13230;linguist
+Q40479;science fiction writer
+Q40479;translator
 Q23434;playwright
+Q1067;political theorist
+Q34474;playwright
+Q34474;poet
+Q1035;explorer
+Q991;essayist
+Q905;short story writer
+Q5816;politician
+Q5816;poet
+Q5816;writer
+Q5816;philosopher
+Q311145;playwright
+Q42831;playwright
+Q42831;novelist
+Q42831;translator
+Q4731;writer
+Q4731;novelist
+Q47484;playwright
+Q47484;novelist
+Q13230;pedagogue
 Q23434;artist
+Q1067;lyricist
+Q163118;university teacher
+Q163118;writer
+Q1035;travel writer
+Q102513;writer
+Q102513;novelist
+Q102513;poet
+Q102513;children's writer
+Q102513;short story writer
+Q34474;public figure
+Q991;short story writer
+Q991;journalist
+Q991;philosopher
+Q991;biographer
+Q905;aphorist
+Q311145;literary critic
+Q42831;prosaist
+Q4731;poet lawyer
+Q47484;diarist
+Q47484;travel writer
+Q47484;translator
+Q47484;autobiographer
+Q47484;writer
+Q1067;prosaist
+Q13230;university teacher
+Q314771;graphic designer
+Q1035;ethologist
+Q991;engineer
+Q991;writer
+Q905;diarist
+Q905;translator
+Q42831;dramaturge
+Q1067;intellectual
+Q1067;poet
+Q13230;sociologist
+Q13230;philosopher
+Q314771;cartoonist
+Q314771;writer
+Q1035;entomologist
+Q905;lawyer
+Q905;screenwriter
+Q905;poet lawyer
+Q34660;film producer
+Q34660;writer
+Q34660;novelist
+Q28170;comedian
+Q13230;phonologist
+Q314771;illustrator
+Q314771;artist
+Q905;claims adjuster
+Q905;writer
+Q34660;teacher
+Q34660;children's writer
+Q34660;screenwriter
+Q310379;writer
+Q310379;screenwriter
+Q310379;novelist
+Q310379;children's writer
+Q28170;voice actor
+Q28170;screenwriter
+Q28170;writer
+Q18430;economist
+Q18430;university teacher
+Q726264;anthropologist
+Q314771;painter
+Q314771;children's writer
+Q314771;screenwriter
+Q34660;author
+Q28170;television actor
+Q9458;merchant
+Q9458;politician
+Q18430;science writer
+Q726264;archaeologist
+Q726264;pedagogue
+Q726264;university teacher
+Q34660;prose
+Q584990;physician
+Q584990;writer
+Q228624;writer
+Q228624;novelist
+Q228624;screenwriter
+Q228624;science fiction writer
+Q228624;children's writer
+Q9458;prophet
+Q50039;journalist
+Q18430;non-fiction writer
+Q1043;geologist
+Q34660;executive producer
+Q584990;Encyclopédistes
+Q584990;philosopher
+Q9458;rasul
+Q18430;professor
+Q1043;professor
 Q42;playwright
 Q42;screenwriter
 Q42;novelist
@@ -112,3088 +176,146 @@ Q42;children's writer
 Q42;science fiction writer
 Q42;comedian
 Q42;dramaturge
-Q71501;librarian
-Q71501;writer
-Q71501;archivist
-Q71501;historian
-Q584990;physician
-Q584990;writer
-Q584990;Encyclopédistes
-Q584990;philosopher
-Q1167679;historian
-Q1167679;university teacher
-Q1167679;writer
-Q274848;mathematician
-Q210059;beekeeper
-Q210059;comics writer
-Q210059;novelist
-Q210059;journalist
-Q210059;blogger
-Q210059;screenwriter
-Q210059;film producer
-Q210059;actor
-Q210059;writer
-Q210059;science fiction writer
-Q210059;author
-Q1064;writer
-Q1064;poet
-Q1064;politician
-Q1064;novelist
-Q6882;poet
-Q6882;playwright
-Q6882;novelist
-Q6882;teacher
-Q6882;author
-Q34474;writer
-Q34474;historian
-Q34474;novelist
-Q34474;screenwriter
-Q34474;playwright
-Q34474;poet
-Q34474;public figure
-Q79759;writer
-Q79759;poet
-Q79759;politician
-Q163118;translator
-Q163118;poet
-Q163118;novelist
-Q163118;essayist
-Q163118;university teacher
-Q163118;writer
+Q50039;media historian
 Q11471103;novelist
-Q47484;journalist
-Q47484;film producer
-Q47484;essayist
-Q47484;playwright
-Q47484;novelist
-Q47484;diarist
-Q47484;travel writer
-Q47484;translator
-Q47484;autobiographer
-Q47484;writer
+Q39829;writer
+Q18430;critic
+Q18430;writer
+Q9458;preacher
 Q1357338;anthropologist
 Q1357338;archaeologist
 Q1357338;historian
-Q180589;journalist
-Q180589;politician
-Q180589;editor
-Q180589;writer
-Q180589;historian
-Q9215;neurologist
-Q9215;psychoanalyst
+Q1043;botanist
+Q1043;physician
+Q1043;autobiographer
+Q1043;naturalist
+Q82104;journalist
+Q82104;writer
+Q82104;novelist
+Q82104;screenwriter
+Q39829;television producer
+Q233956;writer
+Q233956;poet
+Q233956;novelist
+Q233956;playwright
+Q528826;screenwriter
+Q237555;novelist
+Q237555;writer
+Q1043;mycologist
+Q18430;scientist
 Q295431;writer
 Q295431;translator
 Q295431;novelist
 Q295431;essayist
 Q295431;literary critic
 Q295431;science fiction writer
-Q237555;novelist
-Q237555;writer
-Q909;translator
-Q909;poet
-Q909;linguist
-Q909;librarian
-Q909;literary critic
-Q909;screenwriter
-Q909;essayist
-Q909;short story writer
-Q909;science fiction writer
-Q909;novelist
-Q909;lyricist
-Q909;writer
-Q720306;writer
-Q249197;writer
-Q249197;novelist
-Q249197;aviator
-Q249197;foreign correspondent
-Q249197;spy
-Q249197;screenwriter
-Q249197;journalist
-Q134798;linguist
-Q134798;novelist
-Q134798;writer
-Q134798;translator
-Q134798;essayist
-Q134798;athletics competitor
-Q134798;university teacher
-Q134798;science fiction writer
-Q35064;playwright
-Q35064;nurse
-Q35064;writer
-Q35064;novelist
-Q35064;screenwriter
-Q35064;prose
-Q35064;dramaturge
-Q76;politician
-Q76;lawyer
-Q76;political writer
-Q76;community organizer
-Q76;statesperson
-Q42831;writer
-Q42831;poet
-Q42831;playwright
-Q42831;novelist
-Q42831;translator
-Q42831;prosaist
-Q42831;dramaturge
-Q1512;poet
-Q1512;essayist
-Q1512;novelist
-Q1512;short story writer
-Q1512;children's writer
-Q1512;writer
-Q37731;politician
-Q4731;writer
-Q4731;novelist
-Q4731;poet lawyer
-Q861482;writer
-Q861482;novelist
-Q861482;science fiction writer
-Q182874;writer
-Q182874;poet
-Q182874;painter
-Q182874;novelist
-Q182874;ci lyric writer
-Q37151;writer
-Q37151;philosopher
-Q37151;military personnel
+Q1064;writer
+Q1064;poet
+Q1064;politician
+Q1064;novelist
+Q39829;actor
 Q9038;mathematician
-Q9038;astronomer
-Q9038;geographer
-Q9038;philosopher
-Q9038;translator
-Q9038;astrologer
-Q9038;historian
-Q726264;anthropologist
-Q726264;archaeologist
-Q726264;pedagogue
-Q726264;university teacher
-Q311145;writer
-Q311145;linguist
-Q311145;poet
-Q311145;journalist
-Q311145;novelist
-Q311145;translator
-Q311145;playwright
-Q311145;literary critic
-Q82778;writer
-Q82778;historian
-Q82778;lawyer
-Q82778;naturalist
-Q1067;politician
-Q1067;philosopher
-Q1067;political theorist
-Q1067;lyricist
-Q1067;prosaist
-Q1067;intellectual
-Q1067;poet
-Q924927;journalist
-Q924927;writer
-Q170509;writer
-Q170509;novelist
-Q170509;screenwriter
-Q170509;playwright
-Q170509;poet lawyer
-Q170509;literary critic
-Q1348862;writer
-Q1348862;historian
-Q1348862;science fiction writer
-Q4671;writer
-Q365955;writer
-Q365955;playwright
-Q365955;painter
-Q365955;screenwriter
-Q905;novelist
-Q905;fabulist
-Q905;short story writer
-Q905;aphorist
-Q905;diarist
-Q905;translator
-Q905;lawyer
-Q905;screenwriter
-Q905;poet lawyer
-Q905;claims adjuster
-Q905;writer
-Q5816;politician
-Q5816;poet
-Q5816;writer
-Q5816;philosopher
-Q233956;writer
-Q233956;poet
-Q233956;novelist
-Q233956;playwright
+Q329937;mathematician
 Q233956;editor
 Q233956;screenwriter
 Q233956;literary critic
-Q28170;comedian
-Q28170;voice actor
-Q28170;screenwriter
-Q28170;writer
-Q28170;television actor
-Q228624;writer
-Q228624;novelist
-Q228624;screenwriter
-Q228624;science fiction writer
-Q228624;children's writer
-Q9458;merchant
-Q9458;politician
-Q9458;prophet
-Q9458;rasul
-Q9458;preacher
-Q40479;writer
-Q40479;linguist
-Q40479;novelist
-Q40479;science fiction writer
-Q40479;translator
-Q181677;screenwriter
-Q181677;writer
-Q181677;television producer
-Q181677;novelist
-Q181677;playwright
-Q181677;blogger
-Q181677;science fiction writer
-Q329937;mathematician
-Q528826;screenwriter
+Q180589;journalist
+Q180589;politician
+Q180589;editor
+Q180589;writer
+Q180589;historian
+Q1043;pteridologist
+Q720306;writer
 Q528826;sculptor
 Q528826;novelist
 Q528826;playwright
 Q528826;translator
 Q528826;writer
-Q82104;journalist
-Q82104;writer
-Q82104;novelist
-Q82104;screenwriter
-Q81731;lady-in-waiting
-Q81731;novelist
-Q81731;poet
-Q81731;writer
-Q81731;diarist
-Q62892;physician
-Q62892;physician writer
-Q62892;novelist
-Q62892;screenwriter
-Q1392021;writer
-Q1392021;journalist
-Q1392021;novelist
-Q967307;historian
-Q967307;biographer
+Q39829;musician
+Q732338;writer
+Q9038;astronomer
 Q153232;philosopher
 Q153232;mathematician
-Q153232;physicist
-Q153232;musicologist
-Q153232;translator
-Q153232;writer
-Q153232;music theorist
-Q153232;Encyclopédistes
-Q153232;engineer
-Q81685;writer
-Q81685;journalist
-Q81685;poet
-Q81685;novelist
-Q81685;playwright
-Q81685;screenwriter
-Q81685;literary critic
-Q310379;writer
-Q310379;screenwriter
-Q310379;novelist
-Q310379;children's writer
-Q6074970;writer
-Q506120;historian
-Q506120;university teacher
-Q448;philosopher
-Q448;novelist
-Q448;essayist
-Q448;Encyclopédistes
-Q448;art critic
-Q448;playwright
-Q448;literary critic
-Q448;correspondent
-Q314771;graphic designer
-Q314771;cartoonist
-Q314771;writer
-Q314771;illustrator
-Q314771;artist
-Q314771;painter
-Q314771;children's writer
-Q314771;screenwriter
-Q1043;geologist
-Q1043;professor
-Q1043;botanist
-Q1043;physician
-Q1043;autobiographer
-Q1043;naturalist
-Q1043;mycologist
-Q1043;pteridologist
 Q1043;bryologist
-Q1043;zoologist
-Q1043;entomologist
-Q235291;historian
-Q235291;autobiographer
-Q235291;writer
-Q235291;biographer
-Q193111;writer
-Q193111;translator
-Q193111;journalist
-Q193111;novelist
-Q193111;screenwriter
 Q5682;novelist
 Q5682;playwright
 Q5682;poet
 Q5682;lyricist
-Q5682;soldier
-Q732338;writer
-Q310800;journalist
-Q310800;poet
-Q310800;writer
-Q310800;screenwriter
-Q310800;trade unionist
-Q42511;writer
-Q42511;historian
-Q42511;journalist
-Q173540;writer
-Q173540;novelist
-Q173540;screenwriter
-Q173540;journalist
-Q449085;writer
-Q449085;autobiographer
-Q449085;novelist
-Q449085;playwright
-Q449085;screenwriter
-Q449085;children's writer
-Q562163;writer
-Q562163;science fiction writer
-Q562163;children's writer
-Q215665;writer
-Q215665;screenwriter
-Q81438;nurse
-Q81438;poet
-Q81438;novelist
-Q81438;journalist
-Q81438;essayist
-Q81438;writer
-Q621458;physician
-Q621458;writer
-Q621458;university teacher
-Q621458;psychiatrist
-Q365955;writer
-Q365955;playwright
-Q365955;painter
-Q365955;screenwriter
-Q28147;poet
-Q28147;children's writer
-Q28147;playwright
-Q28147;translator
-Q28147;writer
-Q28147;journalist
-Q28147;prosaist
-Q28147;prose
-Q184440;writer
-Q184440;journalist
-Q184440;poet
-Q184440;novelist
-Q184440;lawyer
-Q184440;science fiction writer
-Q184440;politician
-Q449085;writer
-Q449085;autobiographer
-Q449085;novelist
-Q449085;playwright
-Q449085;screenwriter
-Q449085;children's writer
-Q312532;contemporary historian
-Q312532;university teacher
-Q312532;writer
-Q312532;historian
-Q352;politician
-Q352;soldier
-Q352;painter
-Q352;political writer
-Q352;revolutionary
-Q352;statesperson
-Q352;author
-Q352;antisemite
-Q185548;writer
-Q185548;teacher
-Q185548;novelist
-Q185548;philosopher
-Q185548;children's writer
-Q185548;screenwriter
-Q76529;journalist
-Q76529;writer
-Q2054;playwright
-Q2054;poet
-Q2054;philosopher
-Q2054;aphorist
-Q2054;statesperson
-Q2054;politician
-Q2054;writer
-Q36724;sovereign
-Q160441;theologian
-Q160441;writer
-Q160441;philosopher
-Q160441;Catholic priest
-Q160441;entomologist
-Q199991;theologian
-Q199991;writer
-Q199991;philosopher
-Q130221;sovereign
-Q130221;writer
-Q130221;poet
-Q311456;historian
-Q311456;writer
-Q83041;mathematician
-Q83041;philosopher
-Q83041;physicist
-Q83041;astronomer
-Q1048;politician
-Q1048;writer
-Q1048;augur
-Q1048;orator
-Q1048;memoirist
-Q1048;military officer
-Q1048;ruler
-Q1048;historian
-Q1048;military personnel
-Q1093574;priest
-Q332750;politician
-Q676555;Christian religious
-Q676555;poet
-Q676555;friar
-Q676555;writer
-Q676555;deacon
-Q297776;physician
-Q297776;botanist
-Q297776;pharmacist
-Q297776;pharmacologist
-Q297776;writer
-Q172916;politician
-Q172916;writer
-Q172916;cleric
-Q172916;university teacher
-Q172916;Catholic priest
-Q188411;theologian
-Q188411;writer
-Q188411;philosopher
-Q188411;religious
-Q188411;hymnwriter
-Q1707785;politician
-Q1707785;trade unionist
-Q6239779;journalist
-Q6239779;politician
-Q316876;poet
-Q316876;writer
-Q426862;astronomer
-Q426862;astrologer
-Q859;philosopher
-Q859;epigrammatist
-Q859;poet
-Q131463;cleric
-Q131463;Catholic priest
-Q7326690;linguist
-Q302;preacher
-Q302;prophet
-Q302;carpenter
-Q302;rabbi
-Q302;curandero
-Q302;thaumaturge
-Q302;religious leader
-Q6691;poet
-Q635;politician
-Q785250;historian
-Q785250;theologian
-Q785250;writer
-Q44265;monk
-Q40662;hermit
-Q40662;prophet
-Q8581;Sultan of Egypt
-Q5254;troubadour
-Q5254;poet
-Q5254;Catholic priest
-Q5254;composer
-Q165479;cleric
-Q165479;Catholic priest
-Q165479;farmer
-Q310686;priest
-Q8409;politician
-Q8409;military leader
-Q8747;mathematician
-Q8747;writer
-Q76721;monarch
-Q868;metaphysician
-Q868;biologist
-Q868;cosmologist
-Q868;logician
-Q868;zoologist
-Q868;literary critic
-Q868;mathematician
-Q868;ethicist
-Q868;epistemologist
-Q868;political philosopher
-Q868;polymath
-Q868;philosopher of language
-Q868;writer
-Q868;philosopher
-Q868;astronomer
-Q868;geographer
-Q868;teacher
-Q868;tutor
-Q131691;politician
-Q131691;diplomat
-Q131691;military officer
-Q7198;poet
-Q7198;writer
-Q7198;mythographer
-Q211246;priest
-Q203792;condottiero
-Q2442652;lithographer
-Q2442652;painter
-Q2442652;illustrator
-Q2442652;engraver
-Q9458;merchant
-Q9458;politician
-Q9458;prophet
-Q9458;rasul
-Q9458;preacher
-Q1425;statesperson
-Q1425;politician
-Q1425;military personnel
-Q41166;poet
-Q41166;novelist
-Q41166;satirist
-Q41166;philosopher
-Q41166;human rights activist
-Q41166;pamphleteer
-Q41166;priest
-Q41166;writer
-Q41166;science fiction writer
-Q41166;essayist
-Q41166;prose
-Q41166;opinion journalism
-Q2721219;politician
-Q41980;philosopher
-Q41980;mathematician
-Q2755054;condottiero
-Q2755054;politician
-Q60059;chemist
-Q60059;priest
-Q60059;musicologist
-Q60059;philosopher
-Q60059;writer
-Q60059;music theorist
-Q60059;professor
-Q60059;economist
-Q60059;astrologer
-Q60059;entomologist
-Q60059;theologian
-Q60059;scientist
-Q60059;religious
-Q60059;monk
-Q41866;legislator
-Q81018;economist
-Q451516;politician
-Q451516;military personnel
-Q48305;tragedy writer
-Q258369;monk
-Q258369;diplomat
-Q258369;Catholic priest
-Q258369;philosopher
-Q1067;politician
-Q1067;philosopher
-Q1067;political theorist
-Q1067;lyricist
-Q1067;prosaist
-Q1067;intellectual
-Q1067;poet
-Q4344;troubadour
-Q4344;poet
-Q4344;writer
-Q4344;composer
-Q243203;poet
-Q243203;writer
-Q355903;philosopher
-Q118081;cleric
-Q118081;Catholic priest
-Q102851;philosopher
-Q102851;statesperson
-Q102851;writer
-Q102851;musicologist
-Q102851;music theorist
-Q102851;politician
-Q102851;mathematician
-Q170335;queen consort
-Q18880357;editor
-Q5264;physician
-Q5264;philosopher
-Q5264;writer
-Q1416892;librarian
-Q43706;theologian
-Q43706;priest
-Q43706;writer
-Q33923;priest
-Q1398;poet
-Q134646;cleric
-Q134646;Catholic priest
-Q706003;politician
-Q706003;soldier
-Q315347;philosopher
-Q315347;Catholic priest
-Q315347;theologian
-Q132786;cleric
-Q132786;Catholic priest
-Q1927217;teacher
-Q41370;herder
-Q41370;sovereign
-Q41370;singer
-Q41370;prophet
-Q41370;politician
-Q41370;judge
-Q41370;poet
-Q41370;farmer
-Q6197;poet
-Q6197;writer
-Q83375;physician
-Q83375;philosopher
-Q83375;writer
-Q83375;poet
-Q8011;philosopher
-Q8011;scientist
-Q8011;poet
-Q8011;astronomer
-Q8011;physician
-Q8011;music theorist
-Q8011;physicist
-Q8011;mathematician
-Q8011;chemist
-Q8011;ethicist
-Q8011;faqih
-Q223440;politician
-Q223440;military personnel
-Q665165;troubadour
-Q665165;poet
-Q665165;composer
-Q5239704;politician
-Q267733;hetaera
-Q466048;poet
-Q2521377;Catholic priest
-Q913;philosopher
-Q172353;politician
-Q172353;military personnel
-Q366270;poet
-Q366270;writer
-Q207370;politician
-Q207370;military personnel
-Q111559;Kohen
-Q166876;writer
-Q166876;musicologist
-Q166876;philosopher
-Q166876;music theorist
-Q166876;cleric
-Q166876;Catholic priest
-Q166876;historian
-Q39837;philosopher
-Q39837;physician
-Q39837;mathematician
-Q39837;astronomer
-Q39837;judge
-Q366070;poet
-Q366070;painter
-Q366070;writer
-Q366070;journalist
-Q36303;mathematician
-Q36303;philosopher
-Q36303;astronomer
-Q36303;physicist
-Q36303;engineer
-Q8778;physician writer
-Q8778;surgeon
-Q1133523;judge
-Q317436;politician
-Q188646;poet
-Q188646;historian
-Q188646;writer
-Q172248;politician
-Q172248;philosopher
-Q172248;military personnel
-Q170859;cleric
-Q170859;Catholic priest
-Q9438;philosopher
-Q9438;writer
-Q9438;theologian
-Q9438;friar
-Q9438;professor
-Q9438;Catholic priest
-Q59180;philosopher
-Q8018;philosopher
-Q8018;theologian
-Q8018;writer
-Q8018;autobiographer
-Q8018;music theorist
-Q8018;preacher
-Q8018;historian
-Q1541;philosopher
-Q1541;politician
-Q1541;poet
-Q1541;political theorist
-Q1541;jurist
-Q1541;orator
-Q1541;writer
-Q1541;lawyer
-Q1541;military personnel
-Q34943;mathematician
-Q34943;geographer
-Q34943;astronomer
-Q34943;astrologer
-Q34943;music theorist
-Q34943;philosopher
-Q34943;writer
-Q34943;musicologist
-Q34943;epigrammatist
-Q234533;writer
-Q247137;writer
-Q43746;philosopher
-Q43746;writer
-Q43746;theologian
-Q43746;Catholic priest
-Q43746;religious
-Q43939;philosopher
-Q43939;theologian
-Q43939;priest
-Q43939;cleric
-Q43939;monk
-Q154938;monk
-Q154938;hagiographer
-Q154938;poet
-Q154938;church historian
-Q154938;translator
-Q154938;theologian
-Q154938;writer
-Q154938;Bible translator
-Q154938;historian
-Q359237;politician
-Q152717;priest
-Q152717;cleric
-Q448586;preacher
-Q41155;philosopher
-Q41155;writer
-Q207535;knight
-Q549041;jurist
-Q317554;theologian
-Q317554;philosopher
-Q317554;writer
-Q15976266;politician
-Q6756538;politician
-Q1728820;politician
-Q1728820;physician
-Q23766020;politician
-Q23766020;lawyer
-Q1148719;politician
-Q1148719;lawyer
-Q312015;politician
-Q312015;civil engineer
-Q312015;engineer
-Q2885098;politician
-Q4014539;politician
-Q703503;politician
-Q703503;lawyer
-Q703503;university teacher
-Q703503;writer
-Q468394;politician
-Q468394;entrepreneur
-Q468394;businessperson
-Q334155;politician
-Q334155;lawyer
-Q983514;politician
-Q2641759;politician
-Q2641759;judge
-Q17146774;manager
-Q17146774;politician
-Q18104657;politician
-Q19592761;judge
-Q19592761;politician
-Q19592761;writer
-Q19592761;lawyer
-Q4911497;politician
-Q4911497;lawyer
-Q967307;historian
-Q506120;historian
-Q6969361;historian
-Q329937;mathematician
-Q237555;novelist
-Q905;novelist
-Q249197;writer
-Q249197;novelist
-Q311145;writer
-Q1392021;writer
+Q9038;geographer
+Q9038;philosopher
+Q9038;translator
+Q153232;physicist
+Q1043;zoologist
+Q1043;entomologist
+Q37151;writer
+Q37151;philosopher
 Q181677;screenwriter
 Q181677;writer
-Q924927;journalist
-Q924927;writer
-Q47484;journalist
-Q1043;geologist
-Q365955;writer
-Q237555;writer
-Q1392021;journalist
-Q1392021;novelist
-Q506120;university teacher
-Q967307;biographer
-Q173540;writer
-Q173540;novelist
-Q173540;screenwriter
-Q173540;journalist
-Q5682;novelist
-Q905;fabulist
+Q181677;television producer
+Q181677;novelist
+Q181677;playwright
+Q6074970;writer
+Q5682;soldier
+Q9038;astrologer
+Q9038;historian
+Q37151;military personnel
+Q153232;musicologist
+Q153232;translator
+Q153232;writer
+Q181677;blogger
+Q181677;science fiction writer
+Q249197;writer
+Q249197;novelist
+Q153232;music theorist
+Q153232;Encyclopédistes
+Q153232;engineer
+Q274848;mathematician
 Q249197;aircraft pilot
-Q181677;television producer
-Q181677;novelist
-Q47484;film producer
-Q311145;linguist
-Q1043;professor
-Q42511;writer
-Q42511;historian
-Q42511;journalist
-Q6074970;writer
-Q5682;playwright
-Q365955;playwright
-Q79759;writer
-Q181677;playwright
-Q905;short story writer
-Q47484;essayist
-Q47484;playwright
-Q47484;novelist
-Q1043;botanist
-Q249197;foreign correspondent
-Q311145;poet
-Q311145;journalist
-Q311145;novelist
-Q5682;poet
-Q274848;mathematician
-Q79759;poet
-Q365955;painter
-Q365955;screenwriter
-Q905;aphorist
-Q181677;blogger
-Q1043;physician
-Q47484;diarist
-Q5682;lyricist
-Q82104;journalist
-Q82104;writer
-Q82104;novelist
-Q82104;screenwriter
-Q311145;translator
-Q311145;playwright
-Q249197;spy
-Q249197;screenwriter
-Q249197;journalist
-Q79759;politician
-Q9215;neurologist
-Q905;diarist
-Q905;translator
-Q181677;science fiction writer
-Q47484;travel writer
-Q47484;translator
-Q76;politician
-Q5682;soldier
-Q1043;autobiographer
-Q1512;poet
-Q1512;essayist
-Q1512;novelist
-Q1512;short story writer
-Q311145;literary critic
-Q9215;psychoanalyst
-Q991;translator
-Q991;poet
-Q991;novelist
-Q991;essayist
-Q991;short story writer
-Q991;journalist
-Q37731;politician
-Q905;lawyer
-Q905;screenwriter
-Q76;lawyer
-Q47484;autobiographer
-Q47484;writer
-Q1043;naturalist
-Q1512;children's writer
-Q1512;writer
-Q163118;translator
-Q163118;poet
-Q163118;novelist
-Q163118;essayist
-Q163118;university teacher
-Q163118;writer
-Q170596;anthropologist
-Q991;philosopher
-Q991;biographer
-Q76;political writer
-Q905;poet lawyer
-Q4731;writer
-Q4731;novelist
-Q4731;poet lawyer
-Q1043;mycologist
-Q4671;writer
-Q23434;war correspondent
-Q23434;screenwriter
-Q23434;writer
-Q23434;novelist
-Q23434;journalist
-Q23434;autobiographer
-Q23434;playwright
-Q182874;writer
-Q182874;poet
-Q182874;painter
-Q182874;novelist
-Q170596;archaeologist
-Q170596;autobiographer
-Q170596;writer
-Q76;community organizer
-Q905;claims adjuster
-Q905;writer
-Q1043;pteridologist
-Q991;engineer
-Q991;writer
-Q102513;writer
-Q102513;novelist
-Q102513;poet
-Q102513;children's writer
-Q102513;short story writer
-Q170596;military officer
-Q170596;screenwriter
-Q170596;translator
-Q182874;ci lyric writer
-Q76;statesperson
-Q310800;journalist
-Q310800;poet
-Q310800;writer
-Q310800;screenwriter
-Q23434;artist
-Q6882;poet
-Q6882;playwright
-Q6882;novelist
-Q1043;bryologist
-Q9458;merchant
-Q9458;politician
-Q39829;writer
-Q39829;television producer
-Q170596;castellologist
-Q310800;trade unionist
-Q35064;playwright
-Q1043;zoologist
-Q6882;teacher
-Q9458;prophet
-Q39829;actor
-Q35064;nurse
-Q35064;writer
-Q35064;novelist
-Q35064;screenwriter
-Q180589;journalist
-Q180589;politician
-Q6882;author
-Q1043;entomologist
-Q9458;rasul
-Q35064;prose
-Q39829;musician
-Q310379;writer
-Q310379;screenwriter
-Q310379;novelist
-Q310379;children's writer
-Q180589;editor
-Q180589;writer
-Q180589;historian
-Q9458;preacher
-Q13230;linguist
-Q35064;dramaturge
-Q49081;journalist
-Q49081;writer
-Q49081;essayist
-Q49081;autobiographer
-Q49081;literary critic
-Q720306;writer
 Q1167679;historian
 Q1167679;university teacher
 Q1167679;writer
-Q13230;pedagogue
-Q13230;university teacher
-Q1067;politician
-Q1067;philosopher
-Q28170;comedian
-Q1357338;anthropologist
-Q1357338;archaeologist
-Q1357338;historian
-Q9038;mathematician
-Q49081;political scientist
-Q11471103;novelist
-Q13230;sociologist
-Q13230;philosopher
-Q1067;political theorist
-Q1067;lyricist
-Q28170;voice actor
-Q28170;screenwriter
-Q28170;writer
-Q42831;writer
-Q42831;poet
-Q42831;playwright
-Q42831;novelist
-Q42831;translator
-Q9038;astronomer
+Q6969361;historian
+Q180903;writer
+Q180903;poet
+Q180903;novelist
+Q180903;university teacher
+Q249197;foreign correspondent
 Q134798;linguist
 Q134798;novelist
 Q134798;writer
 Q134798;translator
 Q134798;essayist
-Q50039;journalist
-Q13230;phonologist
-Q726264;anthropologist
-Q726264;archaeologist
-Q726264;pedagogue
-Q726264;university teacher
-Q42831;prosaist
-Q42831;dramaturge
-Q1067;prosaist
-Q28170;television actor
-Q9038;geographer
-Q9038;philosopher
-Q9038;translator
-Q18430;economist
-Q18430;university teacher
-Q50039;media historian
-Q134798;athletics competitor
-Q134798;university teacher
-Q134798;science fiction writer
-Q37151;writer
-Q37151;philosopher
-Q1067;intellectual
-Q1067;poet
-Q9038;astrologer
-Q9038;historian
-Q18430;science writer
-Q71501;librarian
-Q71501;writer
-Q37151;military personnel
-Q180903;writer
-Q180903;poet
-Q180903;novelist
-Q180903;university teacher
-Q1064;writer
-Q1064;poet
-Q1064;politician
-Q1064;novelist
-Q4583;diarist
-Q1348862;writer
-Q1348862;historian
-Q1348862;science fiction writer
-Q18430;non-fiction writer
-Q18430;professor
-Q71501;archivist
-Q71501;historian
-Q210059;beekeeper
-Q42;playwright
-Q42;screenwriter
-Q42;novelist
-Q42;children's writer
-Q42;science fiction writer
-Q42;comedian
-Q42;dramaturge
-Q1035;naturalist
-Q1035;geologist
-Q193111;writer
-Q193111;translator
-Q193111;journalist
-Q193111;novelist
-Q193111;screenwriter
-Q18430;critic
-Q18430;writer
-Q40479;writer
-Q40479;linguist
-Q40479;novelist
-Q40479;science fiction writer
-Q40479;translator
-Q81685;writer
-Q81685;journalist
-Q81685;poet
-Q81685;novelist
-Q81685;playwright
-Q81685;screenwriter
-Q81685;literary critic
-Q210059;comics writer
-Q210059;novelist
-Q210059;journalist
-Q210059;blogger
-Q210059;screenwriter
-Q210059;film producer
-Q210059;actor
-Q210059;writer
-Q210059;science fiction writer
-Q210059;author
-Q43459;poet
-Q43459;writer
-Q105118;writer
-Q105118;screenwriter
-Q105118;novelist
-Q105118;playwright
-Q1035;explorer
-Q1035;travel writer
-Q18430;scientist
-Q241248;writer
-Q241248;novelist
-Q241248;screenwriter
-Q241248;essayist
-Q241248;journalist
-Q82778;writer
-Q82778;historian
-Q82778;lawyer
-Q82778;naturalist
-Q105118;film director
-Q105118;actor
-Q105118;television producer
-Q1035;ethologist
-Q1035;entomologist
-Q562163;writer
-Q562163;science fiction writer
-Q562163;children's writer
-Q228624;writer
-Q228624;novelist
-Q228624;screenwriter
-Q228624;science fiction writer
-Q228624;children's writer
-Q34474;writer
-Q34474;historian
-Q34474;novelist
-Q34474;screenwriter
-Q34474;playwright
-Q34474;poet
-Q233956;writer
-Q233956;poet
-Q233956;novelist
-Q233956;playwright
-Q233956;editor
-Q233956;screenwriter
-Q233956;literary critic
-Q34474;public figure
-Q528826;screenwriter
-Q5816;politician
-Q5816;poet
-Q5816;writer
-Q5816;philosopher
-Q528826;sculptor
-Q528826;novelist
-Q528826;playwright
-Q528826;translator
-Q528826;writer
-Q9711;novelist
-Q9711;literary critic
-Q81731;lady-in-waiting
-Q81731;novelist
-Q81731;poet
-Q81731;writer
-Q81731;diarist
-Q170509;writer
-Q170509;novelist
-Q170509;screenwriter
-Q170509;playwright
-Q170509;poet lawyer
-Q170509;literary critic
-Q732338;writer
-Q861482;writer
-Q861482;novelist
-Q861482;science fiction writer
-Q584990;physician
-Q584990;writer
-Q62892;physician
-Q584990;Encyclopédistes
-Q584990;philosopher
-Q153232;philosopher
-Q153232;mathematician
-Q62892;physician writer
-Q62892;novelist
-Q62892;screenwriter
-Q449085;writer
-Q449085;autobiographer
-Q449085;novelist
-Q449085;playwright
-Q449085;screenwriter
-Q449085;children's writer
-Q235291;historian
-Q235291;autobiographer
-Q235291;writer
-Q235291;biographer
-Q153232;physicist
-Q34660;film producer
-Q34660;writer
-Q34660;novelist
-Q34660;teacher
-Q34660;children's writer
-Q34660;screenwriter
-Q34660;author
-Q34660;prose
-Q153232;musicologist
-Q153232;translator
-Q153232;writer
-Q34660;executive producer
-Q314771;graphic designer
-Q153232;music theorist
-Q153232;Encyclopédistes
-Q153232;engineer
-Q295431;writer
-Q295431;translator
-Q295431;novelist
-Q295431;essayist
-Q295431;literary critic
-Q295431;science fiction writer
-Q314771;cartoonist
-Q314771;writer
-Q240576;writer
-Q240576;politician
-Q240576;journalist
-Q240576;children's writer
-Q240576;poet
-Q314771;illustrator
-Q314771;artist
-Q314771;painter
-Q314771;children's writer
-Q314771;screenwriter
-Q448;philosopher
-Q448;novelist
-Q448;essayist
-Q448;Encyclopédistes
-Q448;art critic
-Q448;playwright
-Q448;literary critic
-Q448;correspondent
-Q909;translator
-Q909;poet
-Q909;linguist
-Q909;librarian
-Q909;literary critic
-Q909;screenwriter
-Q909;essayist
-Q909;short story writer
-Q909;science fiction writer
-Q909;novelist
-Q909;lyricist
-Q909;writer
-Q46248;writer
-Q46248;novelist
-Q46248;journalist
-Q46248;screenwriter
-Q46248;science fiction writer
-Q46248;children's writer
-Q46248;author
-Q449085;writer
-Q449085;autobiographer
-Q449085;novelist
-Q449085;playwright
-Q449085;screenwriter
-Q449085;children's writer
-Q621458;physician
-Q621458;writer
-Q621458;university teacher
-Q185548;writer
-Q185548;teacher
-Q185548;novelist
-Q185548;philosopher
-Q185548;children's writer
-Q185548;screenwriter
-Q28147;poet
-Q28147;children's writer
-Q28147;playwright
-Q28147;translator
-Q28147;writer
-Q28147;journalist
-Q28147;prosaist
-Q28147;prose
-Q365955;writer
-Q365955;playwright
-Q365955;painter
-Q365955;screenwriter
-Q184440;writer
-Q184440;journalist
-Q184440;poet
-Q184440;novelist
-Q184440;lawyer
-Q184440;science fiction writer
-Q184440;politician
-Q76529;journalist
-Q76529;writer
-Q215665;writer
-Q215665;screenwriter
-Q352;politician
-Q352;soldier
-Q352;painter
-Q352;political writer
-Q81438;nurse
-Q81438;poet
-Q81438;novelist
-Q81438;journalist
-Q81438;essayist
-Q81438;writer
-Q621458;psychiatrist
-Q312532;contemporary historian
-Q312532;university teacher
-Q312532;writer
-Q312532;historian
-Q352;revolutionary
-Q352;statesperson
-Q352;author
-Q352;antisemite
-Q39837;philosopher
-Q39837;physician
-Q39837;mathematician
-Q39837;astronomer
-Q8747;mathematician
-Q8747;writer
-Q635;politician
-Q466048;poet
-Q302;preacher
-Q302;prophet
-Q448586;preacher
-Q1067;politician
-Q1067;philosopher
-Q1067;political theorist
-Q1067;lyricist
-Q1067;prosaist
-Q1067;intellectual
-Q1067;poet
-Q2721219;politician
-Q247137;writer
-Q7326690;linguist
-Q315347;philosopher
-Q43939;philosopher
-Q39837;judge
-Q302;carpenter
-Q7198;poet
-Q7198;writer
-Q43706;theologian
-Q8581;Sultan of Egypt
-Q170859;cleric
-Q165479;cleric
-Q40662;hermit
-Q40662;prophet
-Q199991;theologian
-Q199991;writer
-Q199991;philosopher
-Q43939;theologian
-Q131463;cleric
-Q4344;troubadour
-Q4344;poet
-Q4344;writer
-Q868;metaphysician
-Q315347;Catholic priest
-Q315347;theologian
-Q1541;philosopher
-Q1541;politician
-Q1541;poet
-Q1541;political theorist
-Q165479;Catholic priest
-Q170859;Catholic priest
-Q48305;tragedy writer
-Q7198;mythographer
-Q43706;priest
-Q43706;writer
-Q41370;herder
-Q118081;cleric
-Q118081;Catholic priest
-Q302;rabbi
-Q43939;priest
-Q43939;cleric
-Q131463;Catholic priest
-Q166876;writer
-Q166876;musicologist
-Q166876;philosopher
-Q166876;music theorist
-Q166876;cleric
-Q166876;Catholic priest
-Q166876;historian
-Q451516;politician
-Q451516;military personnel
-Q188411;theologian
-Q188411;writer
-Q188411;philosopher
-Q868;biologist
-Q4344;composer
-Q18880357;editor
-Q1541;jurist
-Q267733;hetaera
-Q165479;farmer
-Q366270;poet
-Q366270;writer
-Q41370;sovereign
-Q302;curandero
-Q43939;monk
-Q1927217;teacher
-Q258369;monk
-Q76721;monarch
-Q8409;politician
-Q706003;politician
-Q706003;soldier
-Q6239779;journalist
-Q6239779;politician
-Q43746;philosopher
-Q43746;writer
-Q43746;theologian
-Q43746;Catholic priest
-Q188411;religious
-Q868;cosmologist
-Q5254;troubadour
-Q5254;poet
-Q5254;Catholic priest
-Q5254;composer
-Q1541;orator
-Q1541;writer
-Q1541;lawyer
-Q1541;military personnel
-Q316876;poet
-Q316876;writer
-Q132786;cleric
-Q132786;Catholic priest
-Q111559;Kohen
-Q41370;singer
-Q41370;prophet
-Q41370;politician
-Q41370;judge
-Q41370;poet
-Q41370;farmer
-Q355903;philosopher
-Q302;thaumaturge
-Q43746;religious
-Q258369;diplomat
-Q258369;Catholic priest
-Q258369;philosopher
-Q8018;philosopher
-Q8018;theologian
-Q8018;writer
-Q8018;autobiographer
-Q8018;music theorist
-Q8018;preacher
-Q8018;historian
-Q8409;military leader
-Q243203;poet
-Q243203;writer
-Q41155;philosopher
-Q41155;writer
-Q868;logician
-Q868;zoologist
-Q868;literary critic
-Q868;mathematician
-Q6691;poet
-Q41866;legislator
-Q152717;priest
-Q152717;cleric
-Q102851;philosopher
-Q102851;statesperson
-Q102851;writer
-Q102851;musicologist
-Q102851;music theorist
-Q102851;politician
-Q102851;mathematician
-Q188411;hymnwriter
-Q6197;poet
-Q6197;writer
-Q2054;playwright
-Q2054;poet
-Q2054;philosopher
-Q2054;aphorist
-Q2054;statesperson
-Q2054;politician
-Q2054;writer
-Q302;religious leader
-Q34943;mathematician
-Q34943;geographer
-Q34943;astronomer
-Q34943;astrologer
-Q34943;music theorist
-Q34943;philosopher
-Q34943;writer
-Q34943;musicologist
-Q81018;economist
-Q317436;politician
-Q2521377;Catholic priest
-Q1425;statesperson
-Q1425;politician
-Q1425;military personnel
-Q130221;sovereign
-Q130221;writer
-Q130221;poet
-Q172353;politician
-Q172353;military personnel
-Q211246;priest
-Q207370;politician
-Q207370;military personnel
-Q172248;politician
-Q172248;philosopher
-Q172248;military personnel
-Q366070;poet
-Q366070;painter
-Q366070;writer
-Q366070;journalist
-Q310686;priest
-Q868;ethicist
-Q83041;mathematician
-Q83041;philosopher
-Q83041;physicist
-Q83041;astronomer
-Q9458;merchant
-Q9458;politician
-Q9458;prophet
-Q9458;rasul
-Q9458;preacher
-Q317554;theologian
-Q317554;philosopher
-Q317554;writer
-Q9438;philosopher
-Q9438;writer
-Q9438;theologian
-Q8011;philosopher
-Q8011;scientist
-Q8011;poet
-Q8011;astronomer
-Q8011;physician
-Q8011;music theorist
-Q8011;physicist
-Q8011;mathematician
-Q36303;mathematician
-Q36303;philosopher
-Q36303;astronomer
-Q36303;physicist
-Q36303;engineer
-Q154938;monk
-Q41980;philosopher
-Q41980;mathematician
-Q223440;politician
-Q223440;military personnel
-Q34943;epigrammatist
-Q83375;physician
-Q83375;philosopher
-Q83375;writer
-Q83375;poet
-Q332750;politician
-Q913;philosopher
-Q60059;chemist
-Q60059;priest
-Q60059;musicologist
-Q60059;philosopher
-Q60059;writer
-Q60059;music theorist
-Q60059;professor
-Q60059;economist
-Q60059;astrologer
-Q60059;entomologist
-Q60059;theologian
-Q60059;scientist
-Q60059;religious
-Q60059;monk
-Q1048;politician
-Q1048;writer
-Q549041;jurist
-Q8011;chemist
-Q8011;ethicist
-Q1398;poet
-Q868;epistemologist
-Q785250;historian
-Q785250;theologian
-Q785250;writer
-Q188646;poet
-Q188646;historian
-Q188646;writer
-Q9438;friar
-Q9438;professor
-Q9438;Catholic priest
-Q5264;physician
-Q5264;philosopher
-Q5264;writer
-Q33923;priest
-Q154938;hagiographer
-Q154938;poet
-Q859;philosopher
-Q859;epigrammatist
-Q859;poet
-Q203792;condottiero
-Q868;political philosopher
-Q5239704;politician
-Q1048;augur
-Q1048;orator
-Q8778;physician writer
-Q1093574;priest
-Q36724;sovereign
-Q8011;faqih
-Q1707785;politician
-Q1707785;trade unionist
-Q154938;church historian
-Q154938;translator
-Q154938;theologian
-Q154938;writer
-Q2755054;condottiero
-Q2755054;politician
-Q44265;monk
-Q868;polymath
-Q1048;memoirist
-Q1048;military officer
-Q665165;troubadour
-Q665165;poet
-Q665165;composer
-Q8778;surgeon
-Q2442652;lithographer
-Q2442652;painter
-Q2442652;illustrator
-Q172916;politician
-Q172916;writer
-Q172916;cleric
-Q172916;university teacher
-Q172916;Catholic priest
-Q154938;Bible translator
-Q154938;historian
-Q359237;politician
-Q134646;cleric
-Q134646;Catholic priest
-Q311456;historian
-Q311456;writer
-Q59180;philosopher
-Q868;philosopher of language
-Q868;writer
-Q868;philosopher
-Q868;astronomer
-Q868;geographer
-Q868;teacher
-Q1048;ruler
-Q1048;historian
-Q1048;military personnel
-Q2442652;engraver
-Q297776;physician
-Q297776;botanist
-Q426862;astronomer
-Q426862;astrologer
-Q160441;theologian
-Q160441;writer
-Q160441;philosopher
-Q160441;Catholic priest
-Q160441;entomologist
-Q234533;writer
-Q868;tutor
-Q297776;pharmacist
-Q297776;pharmacologist
-Q297776;writer
-Q170335;queen consort
-Q676555;Christian religious
-Q676555;poet
-Q676555;friar
-Q676555;writer
-Q676555;deacon
-Q1416892;librarian
-Q41166;poet
-Q41166;novelist
-Q41166;satirist
-Q41166;philosopher
-Q41166;human rights activist
-Q41166;pamphleteer
-Q41166;priest
-Q41166;writer
-Q41166;science fiction writer
-Q41166;essayist
-Q41166;prose
-Q41166;opinion journalism
-Q207535;knight
-Q131691;politician
-Q131691;diplomat
-Q131691;military officer
-Q1133523;judge
-Q15976266;politician
-Q4911497;politician
-Q4911497;lawyer
-Q983514;politician
-Q703503;politician
-Q703503;lawyer
-Q703503;university teacher
-Q703503;writer
-Q1148719;politician
-Q1148719;lawyer
-Q334155;politician
-Q334155;lawyer
-Q23766020;politician
-Q23766020;lawyer
-Q19592761;judge
-Q19592761;politician
-Q19592761;writer
-Q19592761;lawyer
-Q2885098;politician
-Q468394;politician
-Q2641759;politician
-Q2641759;judge
-Q312015;politician
-Q18104657;politician
-Q6756538;politician
-Q1728820;politician
-Q1728820;physician
-Q17146774;manager
-Q17146774;politician
-Q468394;entrepreneur
-Q312015;civil engineer
-Q312015;engineer
-Q4014539;politician
-Q468394;businessperson
-Q46248;writer
-Q170596;anthropologist
-Q170509;writer
-Q528826;screenwriter
-Q173540;writer
-Q35064;playwright
-Q50039;journalist
-Q905;novelist
-Q105118;writer
-Q105118;screenwriter
-Q105118;novelist
-Q105118;playwright
-Q924927;journalist
-Q924927;writer
-Q1043;geologist
-Q82104;journalist
-Q82104;writer
-Q82104;novelist
-Q82104;screenwriter
-Q1035;naturalist
-Q1035;geologist
-Q732338;writer
-Q170596;archaeologist
-Q170509;novelist
-Q170509;screenwriter
-Q170509;playwright
-Q50039;media historian
-Q905;fabulist
-Q46248;novelist
-Q46248;journalist
-Q46248;screenwriter
-Q173540;novelist
-Q173540;screenwriter
-Q173540;journalist
-Q105118;film director
-Q528826;sculptor
-Q528826;novelist
-Q528826;playwright
-Q35064;nurse
-Q35064;writer
-Q35064;novelist
-Q35064;screenwriter
-Q1035;explorer
-Q1043;professor
-Q170509;poet lawyer
-Q170596;autobiographer
-Q170596;writer
-Q905;short story writer
-Q4731;writer
-Q4731;novelist
-Q4731;poet lawyer
-Q46248;science fiction writer
-Q105118;actor
-Q1043;botanist
-Q1035;travel writer
-Q210059;beekeeper
-Q35064;prose
-Q528826;translator
-Q528826;writer
-Q170509;literary critic
-Q170596;military officer
-Q170596;screenwriter
-Q170596;translator
-Q905;aphorist
-Q46248;children's writer
-Q105118;television producer
-Q1035;ethologist
-Q1043;physician
-Q1043;autobiographer
-Q1043;naturalist
-Q210059;comics writer
-Q210059;novelist
-Q210059;journalist
-Q35064;dramaturge
-Q448;philosopher
-Q448;novelist
-Q170596;castellologist
-Q905;diarist
-Q905;translator
-Q5816;politician
-Q46248;author
-Q1035;entomologist
-Q1043;mycologist
-Q210059;blogger
-Q210059;screenwriter
-Q448;essayist
-Q5816;poet
-Q5816;writer
-Q5816;philosopher
-Q905;lawyer
-Q905;screenwriter
-Q905;poet lawyer
-Q102513;writer
-Q102513;novelist
-Q102513;poet
-Q102513;children's writer
-Q102513;short story writer
-Q1043;pteridologist
-Q210059;film producer
-Q210059;actor
-Q210059;writer
-Q210059;science fiction writer
-Q210059;author
-Q448;Encyclopédistes
-Q1512;poet
-Q1512;essayist
-Q1512;novelist
-Q1512;short story writer
-Q1512;children's writer
-Q1512;writer
-Q43459;poet
-Q43459;writer
-Q905;claims adjuster
-Q905;writer
-Q1043;bryologist
-Q42511;writer
-Q448;art critic
-Q448;playwright
-Q448;literary critic
-Q909;translator
-Q909;poet
-Q4583;diarist
-Q42511;historian
-Q42511;journalist
-Q1043;zoologist
-Q1043;entomologist
-Q193111;writer
-Q193111;translator
-Q193111;journalist
-Q193111;novelist
-Q193111;screenwriter
-Q991;translator
-Q991;poet
-Q991;novelist
-Q991;essayist
-Q991;short story writer
-Q991;journalist
-Q991;philosopher
-Q13230;linguist
-Q448;correspondent
-Q79759;writer
-Q79759;poet
-Q79759;politician
-Q909;linguist
-Q49081;journalist
-Q49081;writer
-Q49081;essayist
-Q49081;autobiographer
-Q49081;literary critic
-Q991;biographer
-Q726264;anthropologist
-Q726264;archaeologist
-Q6074970;writer
-Q13230;pedagogue
-Q909;librarian
-Q909;literary critic
-Q909;screenwriter
-Q909;essayist
-Q909;short story writer
-Q909;science fiction writer
-Q909;novelist
-Q23434;war correspondent
-Q23434;screenwriter
-Q23434;writer
-Q23434;novelist
-Q23434;journalist
-Q23434;autobiographer
-Q23434;playwright
-Q49081;political scientist
-Q991;engineer
-Q991;writer
-Q726264;pedagogue
-Q180903;writer
-Q180903;poet
-Q180903;novelist
-Q13230;university teacher
-Q909;lyricist
-Q909;writer
-Q23434;artist
-Q1064;writer
-Q1064;poet
-Q1064;politician
-Q1064;novelist
-Q726264;university teacher
-Q180903;university teacher
-Q13230;sociologist
-Q13230;philosopher
-Q180589;journalist
-Q180589;politician
-Q967307;historian
-Q967307;biographer
-Q81685;writer
-Q81685;journalist
-Q81685;poet
-Q81685;novelist
-Q81685;playwright
-Q81685;screenwriter
-Q81685;literary critic
-Q233956;writer
-Q233956;poet
-Q233956;novelist
-Q233956;playwright
-Q6969361;historian
-Q1392021;writer
-Q1392021;journalist
-Q1392021;novelist
-Q39829;writer
-Q39829;television producer
-Q39829;actor
-Q13230;phonologist
-Q62892;physician
-Q11471103;novelist
-Q180589;editor
-Q180589;writer
-Q180589;historian
-Q235291;historian
-Q235291;autobiographer
-Q235291;writer
-Q235291;biographer
-Q233956;editor
-Q233956;screenwriter
-Q233956;literary critic
-Q39829;musician
-Q163118;translator
-Q163118;poet
-Q163118;novelist
-Q163118;essayist
-Q163118;university teacher
-Q163118;writer
-Q62892;physician writer
-Q62892;novelist
-Q62892;screenwriter
-Q76;politician
-Q76;lawyer
-Q241248;writer
-Q241248;novelist
-Q241248;screenwriter
-Q241248;essayist
-Q241248;journalist
-Q5682;novelist
-Q5682;playwright
-Q5682;poet
-Q5682;lyricist
-Q274848;mathematician
-Q76;political writer
-Q5682;soldier
-Q310800;journalist
-Q310800;poet
-Q310800;writer
-Q310800;screenwriter
-Q76;community organizer
-Q47484;journalist
-Q47484;film producer
-Q47484;essayist
-Q47484;playwright
-Q47484;novelist
-Q47484;diarist
-Q47484;travel writer
-Q47484;translator
-Q47484;autobiographer
-Q47484;writer
-Q314771;graphic designer
-Q365955;writer
-Q365955;playwright
-Q249197;writer
-Q249197;novelist
-Q76;statesperson
-Q310800;trade unionist
-Q228624;writer
-Q228624;novelist
-Q228624;screenwriter
-Q228624;science fiction writer
-Q228624;children's writer
-Q134798;linguist
-Q134798;novelist
-Q134798;writer
-Q134798;translator
-Q134798;essayist
-Q314771;cartoonist
-Q314771;writer
-Q365955;painter
-Q365955;screenwriter
-Q249197;aircraft pilot
-Q82778;writer
-Q82778;historian
-Q82778;lawyer
-Q82778;naturalist
-Q134798;athletics competitor
-Q134798;university teacher
-Q134798;science fiction writer
-Q314771;illustrator
-Q314771;artist
-Q314771;painter
-Q314771;children's writer
-Q314771;screenwriter
-Q4671;writer
-Q9711;novelist
-Q9711;literary critic
-Q249197;foreign correspondent
-Q311145;writer
-Q311145;linguist
-Q311145;poet
-Q311145;journalist
-Q311145;novelist
-Q311145;translator
-Q311145;playwright
-Q311145;literary critic
-Q181677;screenwriter
-Q181677;writer
-Q181677;television producer
-Q181677;novelist
-Q181677;playwright
-Q181677;blogger
-Q181677;science fiction writer
-Q34660;film producer
-Q34660;writer
-Q34660;novelist
-Q9215;neurologist
-Q249197;spy
-Q249197;screenwriter
-Q249197;journalist
-Q37151;writer
-Q37151;philosopher
-Q34660;teacher
-Q34660;children's writer
-Q34660;screenwriter
-Q34660;author
-Q34660;prose
-Q9215;psychoanalyst
-Q37151;military personnel
-Q34660;executive producer
-Q153232;philosopher
-Q153232;mathematician
-Q42;playwright
-Q42;screenwriter
-Q42;novelist
-Q42;children's writer
-Q42;science fiction writer
-Q1357338;anthropologist
-Q1357338;archaeologist
-Q1357338;historian
-Q153232;physicist
-Q42;comedian
-Q42;dramaturge
-Q310379;writer
-Q310379;screenwriter
-Q310379;novelist
-Q310379;children's writer
-Q153232;musicologist
-Q153232;translator
-Q153232;writer
-Q81731;lady-in-waiting
-Q81731;novelist
-Q81731;poet
-Q81731;writer
-Q81731;diarist
-Q153232;music theorist
-Q153232;Encyclopédistes
-Q153232;engineer
-Q37731;politician
-Q240576;writer
-Q240576;politician
-Q240576;journalist
-Q240576;children's writer
-Q240576;poet
-Q71501;librarian
-Q71501;writer
-Q18430;economist
-Q18430;university teacher
-Q9038;mathematician
-Q1167679;historian
-Q1167679;university teacher
-Q1167679;writer
-Q182874;writer
-Q182874;poet
-Q182874;painter
-Q182874;novelist
-Q71501;archivist
-Q71501;historian
-Q18430;science writer
-Q9038;astronomer
-Q584990;physician
-Q584990;writer
-Q584990;Encyclopédistes
-Q584990;philosopher
-Q720306;writer
-Q1067;politician
-Q1067;philosopher
-Q182874;ci lyric writer
-Q18430;non-fiction writer
-Q18430;professor
-Q9038;geographer
-Q9038;philosopher
-Q9038;translator
-Q861482;writer
-Q861482;novelist
-Q861482;science fiction writer
-Q329937;mathematician
-Q1067;political theorist
-Q1067;lyricist
-Q18430;critic
-Q18430;writer
-Q9038;astrologer
-Q9038;historian
-Q1067;prosaist
-Q237555;novelist
-Q237555;writer
-Q18430;scientist
-Q1067;intellectual
-Q1067;poet
-Q449085;writer
-Q449085;autobiographer
-Q449085;novelist
-Q449085;playwright
-Q449085;screenwriter
-Q449085;children's writer
-Q34474;writer
-Q34474;historian
-Q34474;novelist
-Q34474;screenwriter
-Q34474;playwright
-Q34474;poet
-Q28170;comedian
-Q562163;writer
-Q562163;science fiction writer
-Q562163;children's writer
-Q34474;public figure
-Q42831;writer
-Q42831;poet
-Q42831;playwright
-Q42831;novelist
-Q42831;translator
-Q42831;prosaist
-Q42831;dramaturge
-Q506120;historian
-Q506120;university teacher
-Q28170;voice actor
-Q28170;screenwriter
-Q28170;writer
-Q1348862;writer
-Q1348862;historian
-Q1348862;science fiction writer
-Q28170;television actor
-Q295431;writer
-Q295431;translator
-Q295431;novelist
-Q295431;essayist
-Q295431;literary critic
-Q295431;science fiction writer
-Q40479;writer
-Q40479;linguist
-Q40479;novelist
-Q40479;science fiction writer
-Q40479;translator
-Q9458;merchant
-Q9458;politician
-Q9458;prophet
-Q9458;rasul
-Q9458;preacher
-Q6882;poet
-Q6882;playwright
-Q6882;novelist
-Q6882;teacher
-Q6882;author
-Q184440;writer
-Q184440;journalist
-Q184440;poet
-Q184440;novelist
-Q184440;lawyer
-Q184440;science fiction writer
-Q184440;politician
-Q81438;nurse
-Q81438;poet
-Q81438;novelist
-Q81438;journalist
-Q81438;essayist
-Q81438;writer
-Q621458;physician
-Q621458;writer
-Q621458;university teacher
-Q185548;writer
-Q185548;teacher
-Q185548;novelist
-Q185548;philosopher
-Q185548;children's writer
-Q185548;screenwriter
-Q215665;writer
-Q215665;screenwriter
-Q449085;writer
-Q449085;autobiographer
-Q449085;novelist
-Q449085;playwright
-Q449085;screenwriter
-Q449085;children's writer
-Q76529;journalist
-Q76529;writer
-Q28147;poet
-Q28147;children's writer
-Q28147;playwright
-Q28147;translator
-Q28147;writer
-Q28147;journalist
-Q28147;prosaist
-Q28147;prose
-Q365955;writer
-Q365955;playwright
-Q365955;painter
-Q365955;screenwriter
-Q352;politician
-Q352;soldier
-Q352;painter
-Q352;political writer
-Q312532;contemporary historian
-Q312532;university teacher
-Q312532;writer
-Q312532;historian
-Q621458;psychiatrist
-Q352;revolutionary
-Q352;statesperson
-Q352;author
-Q352;antisemite
-Q5239704;politician
-Q311456;historian
-Q311456;writer
-Q366270;poet
-Q366270;writer
-Q8018;philosopher
-Q302;preacher
-Q302;prophet
-Q243203;poet
-Q243203;writer
-Q1425;statesperson
-Q1425;politician
-Q1425;military personnel
-Q1416892;librarian
-Q130221;sovereign
-Q130221;writer
-Q130221;poet
-Q366070;poet
-Q366070;painter
-Q366070;writer
-Q366070;journalist
-Q43706;theologian
-Q223440;politician
-Q223440;military personnel
-Q43939;philosopher
-Q43939;theologian
-Q8018;theologian
-Q8018;writer
-Q8018;autobiographer
-Q8018;music theorist
-Q8018;preacher
-Q8018;historian
-Q2755054;condottiero
-Q2755054;politician
-Q44265;monk
-Q40662;hermit
-Q40662;prophet
-Q302;carpenter
-Q203792;condottiero
-Q81018;economist
-Q48305;tragedy writer
-Q188411;theologian
-Q188411;writer
-Q188411;philosopher
-Q355903;philosopher
-Q160441;theologian
-Q160441;writer
-Q160441;philosopher
-Q297776;physician
-Q297776;botanist
-Q43706;priest
-Q43706;writer
-Q6239779;journalist
-Q6239779;politician
-Q9438;philosopher
-Q9438;writer
-Q9438;theologian
-Q43939;priest
-Q41980;philosopher
-Q41980;mathematician
-Q448586;preacher
-Q302;rabbi
-Q18880357;editor
-Q188411;religious
-Q41370;herder
-Q41370;sovereign
-Q359237;politician
-Q33923;priest
-Q8011;philosopher
-Q8011;scientist
-Q8011;poet
-Q8011;astronomer
-Q8011;physician
-Q8011;music theorist
-Q8011;physicist
-Q8011;mathematician
-Q9438;friar
-Q9438;professor
-Q43939;cleric
-Q43939;monk
-Q297776;pharmacist
-Q160441;Catholic priest
-Q160441;entomologist
-Q170859;cleric
-Q170859;Catholic priest
-Q665165;troubadour
-Q665165;poet
-Q302;curandero
-Q426862;astronomer
-Q426862;astrologer
-Q41155;philosopher
-Q41155;writer
-Q188411;hymnwriter
-Q41370;singer
-Q41370;prophet
-Q41370;politician
-Q131463;cleric
-Q131463;Catholic priest
-Q8011;chemist
-Q1133523;judge
-Q118081;cleric
-Q118081;Catholic priest
-Q9438;Catholic priest
-Q859;philosopher
-Q297776;pharmacologist
-Q297776;writer
-Q332750;politician
-Q172916;politician
-Q172916;writer
-Q172916;cleric
-Q172916;university teacher
-Q172916;Catholic priest
-Q302;thaumaturge
-Q188646;poet
-Q188646;historian
-Q188646;writer
-Q665165;composer
-Q154938;monk
-Q9458;merchant
-Q9458;politician
-Q9458;prophet
-Q9458;rasul
-Q9458;preacher
-Q41370;judge
-Q41370;poet
-Q8011;ethicist
-Q5264;physician
-Q5264;philosopher
-Q5264;writer
-Q234533;writer
-Q549041;jurist
-Q134646;cleric
-Q134646;Catholic priest
-Q207370;politician
-Q207370;military personnel
-Q83375;physician
-Q83375;philosopher
-Q83375;writer
-Q83375;poet
-Q302;religious leader
-Q635;politician
-Q8409;politician
-Q859;epigrammatist
-Q859;poet
-Q1093574;priest
-Q2521377;Catholic priest
-Q154938;hagiographer
-Q154938;poet
-Q41370;farmer
-Q60059;chemist
-Q60059;priest
-Q60059;musicologist
-Q60059;philosopher
-Q60059;writer
-Q60059;music theorist
-Q60059;professor
-Q60059;economist
-Q60059;astrologer
-Q60059;entomologist
-Q60059;theologian
-Q60059;scientist
-Q60059;religious
-Q60059;monk
-Q8011;faqih
-Q1541;philosopher
-Q1541;politician
-Q1541;poet
-Q1541;political theorist
-Q1541;jurist
-Q102851;philosopher
-Q102851;statesperson
-Q102851;writer
-Q102851;musicologist
-Q102851;music theorist
-Q102851;politician
-Q102851;mathematician
-Q913;philosopher
-Q199991;theologian
-Q199991;writer
-Q199991;philosopher
-Q2054;playwright
-Q2054;poet
-Q2054;philosopher
-Q2054;aphorist
-Q2054;statesperson
-Q2054;politician
-Q2054;writer
-Q8409;military leader
-Q36303;mathematician
-Q36303;philosopher
-Q36303;astronomer
-Q36303;physicist
-Q36303;engineer
-Q132786;cleric
-Q132786;Catholic priest
-Q466048;poet
-Q172248;politician
-Q172248;philosopher
-Q172248;military personnel
-Q868;metaphysician
-Q7198;poet
-Q7198;writer
-Q1541;orator
-Q1541;writer
-Q1541;lawyer
-Q1541;military personnel
-Q1067;politician
-Q1067;philosopher
-Q1067;political theorist
-Q1067;lyricist
-Q1067;prosaist
-Q1067;intellectual
-Q1067;poet
-Q154938;church historian
-Q154938;translator
-Q154938;theologian
-Q154938;writer
-Q267733;hetaera
-Q83041;mathematician
-Q83041;philosopher
-Q83041;physicist
-Q83041;astronomer
-Q258369;monk
-Q1707785;politician
-Q1707785;trade unionist
-Q451516;politician
-Q451516;military personnel
-Q76721;monarch
-Q310686;priest
-Q785250;historian
-Q785250;theologian
-Q785250;writer
-Q34943;mathematician
-Q34943;geographer
-Q34943;astronomer
-Q34943;astrologer
-Q34943;music theorist
-Q34943;philosopher
-Q34943;writer
-Q34943;musicologist
-Q34943;epigrammatist
-Q247137;writer
-Q868;biologist
-Q7198;mythographer
-Q317436;politician
-Q2442652;lithographer
-Q2442652;painter
-Q2442652;illustrator
-Q1048;politician
-Q1048;writer
-Q154938;Bible translator
-Q154938;historian
-Q258369;diplomat
-Q258369;Catholic priest
-Q258369;philosopher
-Q207535;knight
-Q706003;politician
-Q706003;soldier
-Q8778;physician writer
-Q6691;poet
-Q43746;philosopher
-Q43746;writer
-Q43746;theologian
-Q43746;Catholic priest
-Q43746;religious
-Q868;cosmologist
-Q131691;politician
-Q131691;diplomat
-Q131691;military officer
-Q316876;poet
-Q316876;writer
-Q2442652;engraver
-Q1048;augur
-Q1048;orator
-Q4344;troubadour
-Q4344;poet
-Q4344;writer
-Q4344;composer
-Q2721219;politician
-Q8778;surgeon
-Q317554;theologian
-Q317554;philosopher
-Q317554;writer
-Q41166;poet
-Q41166;novelist
-Q7326690;linguist
-Q868;logician
-Q868;zoologist
-Q868;literary critic
-Q868;mathematician
-Q868;ethicist
-Q172353;politician
-Q172353;military personnel
-Q152717;priest
-Q152717;cleric
-Q1048;memoirist
-Q1048;military officer
-Q315347;philosopher
-Q315347;Catholic priest
-Q315347;theologian
-Q8747;mathematician
-Q8747;writer
-Q166876;writer
-Q166876;musicologist
-Q166876;philosopher
-Q166876;music theorist
-Q166876;cleric
-Q166876;Catholic priest
-Q166876;historian
-Q868;epistemologist
-Q41166;satirist
-Q41166;philosopher
-Q39837;philosopher
-Q39837;physician
-Q39837;mathematician
-Q39837;astronomer
-Q39837;judge
-Q170335;queen consort
-Q1048;ruler
-Q1048;historian
-Q1048;military personnel
-Q59180;philosopher
-Q6197;poet
-Q6197;writer
-Q41166;human rights activist
-Q868;political philosopher
-Q676555;Christian religious
-Q676555;poet
-Q676555;friar
-Q676555;writer
-Q36724;sovereign
-Q211246;priest
-Q868;polymath
-Q676555;deacon
-Q41166;pamphleteer
-Q41166;priest
-Q41166;writer
-Q41166;science fiction writer
-Q41166;essayist
-Q41166;prose
-Q41166;opinion journalism
-Q868;philosopher of language
-Q868;writer
-Q868;philosopher
-Q868;astronomer
-Q868;geographer
-Q868;teacher
-Q1927217;teacher
-Q868;tutor
-Q41866;legislator
-Q111559;Kohen
-Q1398;poet
-Q5254;troubadour
-Q5254;poet
-Q5254;Catholic priest
-Q5254;composer
-Q165479;cleric
-Q165479;Catholic priest
-Q165479;farmer
-Q8581;Sultan of Egypt
-Q6756538;politician
-Q4014539;politician
-Q2641759;politician
-Q2641759;judge
-Q983514;politician
-Q1728820;politician
-Q1728820;physician
-Q312015;politician
-Q334155;politician
-Q334155;lawyer
-Q23766020;politician
-Q23766020;lawyer
-Q18104657;politician
-Q4911497;politician
-Q4911497;lawyer
-Q15976266;politician
-Q1148719;politician
-Q1148719;lawyer
-Q312015;civil engineer
-Q312015;engineer
-Q468394;politician
-Q703503;politician
-Q703503;lawyer
-Q703503;university teacher
-Q703503;writer
-Q2885098;politician
-Q17146774;manager
-Q17146774;politician
-Q19592761;judge
-Q19592761;politician
-Q19592761;writer
-Q19592761;lawyer
-Q468394;entrepreneur
-Q468394;businessperson
-Q6969361;historian
-Q924927;journalist
-Q1392021;writer
-Q1392021;journalist
-Q909;translator
-Q1067;politician
-Q311145;writer
-Q241248;writer
-Q81731;lady-in-waiting
-Q967307;historian
-Q18430;economist
-Q28170;comedian
-Q9215;neurologist
-Q182874;writer
-Q274848;mathematician
-Q295431;writer
-Q295431;translator
-Q1392021;novelist
-Q924927;writer
-Q1067;philosopher
-Q311145;linguist
-Q909;poet
-Q909;linguist
-Q241248;novelist
-Q967307;biographer
-Q28170;voice actor
-Q9215;psychoanalyst
-Q182874;poet
-Q81731;novelist
-Q81731;poet
-Q81731;writer
-Q295431;novelist
-Q18430;university teacher
-Q173540;writer
-Q173540;novelist
-Q13230;linguist
-Q909;librarian
-Q311145;poet
-Q311145;journalist
-Q311145;novelist
-Q311145;translator
-Q241248;screenwriter
-Q1067;political theorist
-Q47484;journalist
-Q28170;screenwriter
-Q28170;writer
-Q182874;painter
-Q182874;novelist
-Q18430;science writer
-Q295431;essayist
-Q13230;pedagogue
-Q13230;university teacher
-Q81731;diarist
-Q909;literary critic
-Q909;screenwriter
-Q909;essayist
-Q173540;screenwriter
-Q173540;journalist
-Q311145;playwright
-Q311145;literary critic
-Q241248;essayist
-Q241248;journalist
-Q1067;lyricist
-Q47484;film producer
-Q47484;essayist
-Q47484;playwright
-Q47484;novelist
-Q47484;diarist
-Q182874;ci lyric writer
-Q28170;television actor
-Q295431;literary critic
-Q18430;non-fiction writer
-Q909;short story writer
-Q13230;sociologist
-Q13230;philosopher
-Q181677;screenwriter
-Q181677;writer
-Q1067;prosaist
-Q47484;travel writer
-Q47484;translator
-Q1167679;historian
-Q1167679;university teacher
-Q1167679;writer
-Q909;science fiction writer
-Q909;novelist
-Q909;lyricist
-Q909;writer
-Q295431;science fiction writer
-Q18430;professor
-Q181677;television producer
-Q181677;novelist
-Q181677;playwright
-Q13230;phonologist
-Q314771;graphic designer
-Q1067;intellectual
-Q1067;poet
-Q50039;journalist
-Q47484;autobiographer
-Q47484;writer
-Q42511;writer
-Q42511;historian
-Q42511;journalist
-Q1357338;anthropologist
-Q18430;critic
-Q18430;writer
-Q235291;historian
-Q235291;autobiographer
-Q235291;writer
-Q235291;biographer
-Q39829;writer
-Q39829;television producer
-Q181677;blogger
-Q181677;science fiction writer
-Q50039;media historian
-Q314771;cartoonist
-Q314771;writer
-Q1357338;archaeologist
-Q1357338;historian
-Q163118;translator
-Q163118;poet
-Q163118;novelist
-Q163118;essayist
-Q163118;university teacher
-Q163118;writer
-Q18430;scientist
-Q170509;writer
-Q170509;novelist
-Q170509;screenwriter
-Q170509;playwright
-Q71501;librarian
-Q71501;writer
-Q82104;journalist
-Q82104;writer
-Q82104;novelist
-Q82104;screenwriter
-Q79759;writer
-Q79759;poet
-Q79759;politician
-Q314771;illustrator
-Q39829;actor
-Q584990;physician
-Q584990;writer
-Q170509;poet lawyer
-Q170509;literary critic
-Q180589;journalist
-Q180589;politician
-Q71501;archivist
-Q71501;historian
-Q449085;writer
-Q449085;autobiographer
-Q449085;novelist
-Q449085;playwright
-Q449085;screenwriter
-Q314771;artist
-Q314771;painter
-Q732338;writer
-Q584990;Encyclopédistes
-Q584990;philosopher
-Q39829;musician
-Q180589;editor
-Q180589;writer
-Q180589;historian
-Q37731;politician
-Q449085;children's writer
-Q314771;children's writer
-Q314771;screenwriter
-Q991;translator
-Q991;poet
-Q991;novelist
-Q991;essayist
-Q991;short story writer
-Q991;journalist
-Q991;philosopher
-Q991;biographer
-Q228624;writer
-Q228624;novelist
-Q228624;screenwriter
-Q228624;science fiction writer
-Q228624;children's writer
 Q506120;historian
 Q506120;university teacher
 Q6882;poet
 Q6882;playwright
 Q6882;novelist
-Q991;engineer
-Q991;writer
-Q9711;novelist
-Q9711;literary critic
 Q6882;teacher
-Q720306;writer
-Q81685;writer
-Q81685;journalist
-Q81685;poet
-Q81685;novelist
-Q81685;playwright
-Q81685;screenwriter
-Q81685;literary critic
-Q40479;writer
-Q40479;linguist
-Q40479;novelist
-Q40479;science fiction writer
-Q40479;translator
-Q1064;writer
-Q1064;poet
-Q1064;politician
-Q1064;novelist
-Q861482;writer
-Q861482;novelist
-Q861482;science fiction writer
 Q6882;author
-Q34474;writer
-Q34474;historian
-Q34474;novelist
-Q34474;screenwriter
-Q34474;playwright
-Q34474;poet
-Q34660;film producer
-Q34660;writer
-Q34660;novelist
-Q34660;teacher
-Q34660;children's writer
-Q34660;screenwriter
-Q34660;author
-Q11471103;novelist
-Q5816;politician
-Q5816;poet
-Q5816;writer
-Q5816;philosopher
-Q905;novelist
-Q42831;writer
-Q42831;poet
-Q42831;playwright
-Q42831;novelist
-Q42831;translator
-Q42831;prosaist
-Q34474;public figure
-Q34660;prose
-Q42;playwright
-Q42;screenwriter
-Q42;novelist
-Q42;children's writer
-Q42;science fiction writer
-Q42;comedian
-Q905;fabulist
-Q905;short story writer
-Q42831;dramaturge
-Q233956;writer
-Q233956;poet
-Q233956;novelist
-Q233956;playwright
-Q233956;editor
-Q233956;screenwriter
-Q233956;literary critic
-Q42;dramaturge
-Q34660;executive producer
-Q134798;linguist
-Q134798;novelist
-Q134798;writer
-Q134798;translator
-Q134798;essayist
-Q905;aphorist
-Q905;diarist
-Q905;translator
-Q134798;athletics competitor
-Q134798;university teacher
-Q134798;science fiction writer
-Q180903;writer
-Q180903;poet
-Q180903;novelist
-Q180903;university teacher
-Q905;lawyer
-Q905;screenwriter
-Q905;poet lawyer
-Q1043;geologist
-Q1043;professor
-Q43459;poet
-Q43459;writer
-Q82778;writer
-Q82778;historian
-Q82778;lawyer
-Q905;claims adjuster
-Q905;writer
-Q193111;writer
-Q193111;translator
-Q193111;journalist
-Q193111;novelist
-Q193111;screenwriter
-Q1043;botanist
-Q1043;physician
-Q1043;autobiographer
-Q23434;war correspondent
-Q23434;screenwriter
-Q23434;writer
-Q23434;novelist
-Q23434;journalist
-Q23434;autobiographer
-Q23434;playwright
-Q23434;artist
-Q4731;writer
-Q4731;novelist
-Q4731;poet lawyer
-Q82778;naturalist
-Q1043;naturalist
-Q240576;writer
-Q240576;politician
-Q240576;journalist
-Q240576;children's writer
-Q240576;poet
-Q46248;writer
-Q46248;novelist
-Q46248;journalist
-Q46248;screenwriter
-Q46248;science fiction writer
-Q46248;children's writer
-Q46248;author
-Q1043;mycologist
-Q562163;writer
-Q562163;science fiction writer
-Q562163;children's writer
-Q1043;pteridologist
-Q726264;anthropologist
-Q726264;archaeologist
-Q726264;pedagogue
-Q726264;university teacher
-Q4583;diarist
-Q1043;bryologist
-Q102513;writer
-Q102513;novelist
-Q102513;poet
-Q102513;children's writer
-Q102513;short story writer
-Q249197;writer
-Q249197;novelist
-Q1043;zoologist
-Q310379;writer
-Q310379;screenwriter
-Q310379;novelist
-Q310379;children's writer
-Q35064;playwright
-Q249197;aircraft pilot
-Q1043;entomologist
-Q35064;nurse
-Q35064;writer
-Q35064;novelist
-Q35064;screenwriter
-Q35064;prose
-Q35064;dramaturge
-Q249197;foreign correspondent
-Q6074970;writer
-Q448;philosopher
-Q448;novelist
-Q448;essayist
-Q448;Encyclopédistes
-Q249197;spy
-Q249197;screenwriter
-Q249197;journalist
-Q5682;novelist
-Q5682;playwright
-Q5682;poet
-Q5682;lyricist
-Q448;art critic
-Q448;playwright
-Q448;literary critic
-Q9038;mathematician
-Q5682;soldier
-Q153232;philosopher
-Q153232;mathematician
-Q448;correspondent
-Q9038;astronomer
-Q170596;anthropologist
-Q170596;archaeologist
-Q170596;autobiographer
-Q170596;writer
-Q153232;physicist
-Q310800;journalist
-Q310800;poet
-Q310800;writer
-Q310800;screenwriter
-Q9038;geographer
-Q9038;philosopher
-Q9038;translator
-Q76;politician
-Q76;lawyer
-Q170596;military officer
-Q170596;screenwriter
-Q170596;translator
-Q153232;musicologist
-Q153232;translator
-Q153232;writer
-Q310800;trade unionist
-Q9038;astrologer
-Q9038;historian
-Q76;political writer
-Q170596;castellologist
-Q153232;music theorist
-Q153232;Encyclopédistes
-Q153232;engineer
-Q1512;poet
-Q1512;essayist
-Q1512;novelist
-Q1512;short story writer
-Q1512;children's writer
-Q1512;writer
-Q76;community organizer
-Q329937;mathematician
-Q9458;merchant
-Q9458;politician
 Q1348862;writer
 Q1348862;historian
 Q1348862;science fiction writer
-Q76;statesperson
-Q37151;writer
-Q37151;philosopher
-Q9458;prophet
-Q37151;military personnel
-Q9458;rasul
-Q62892;physician
-Q528826;screenwriter
-Q9458;preacher
-Q62892;physician writer
-Q62892;novelist
-Q62892;screenwriter
-Q528826;sculptor
-Q528826;novelist
-Q528826;playwright
-Q528826;translator
-Q528826;writer
-Q1035;naturalist
-Q1035;geologist
-Q1035;explorer
-Q1035;travel writer
-Q1035;ethologist
-Q1035;entomologist
-Q4671;writer
-Q49081;journalist
-Q49081;writer
-Q49081;essayist
-Q49081;autobiographer
-Q49081;literary critic
-Q49081;political scientist
-Q105118;writer
-Q105118;screenwriter
-Q105118;novelist
-Q105118;playwright
-Q237555;novelist
-Q237555;writer
-Q105118;film director
-Q105118;actor
-Q105118;television producer
+Q924927;journalist
+Q924927;writer
+Q81731;lady-in-waiting
+Q81731;novelist
+Q81731;poet
+Q81731;writer
+Q81731;diarist
+Q249197;spy
+Q249197;screenwriter
+Q249197;journalist
+Q134798;athletics competitor
+Q134798;university teacher
+Q134798;science fiction writer
+Q861482;writer
+Q861482;novelist
+Q861482;science fiction writer
 Q210059;beekeeper
+Q1392021;writer
+Q1392021;journalist
+Q1392021;novelist
+Q35064;playwright
 Q210059;comics writer
 Q210059;novelist
 Q210059;journalist
@@ -3204,636 +326,92 @@ Q210059;actor
 Q210059;writer
 Q210059;science fiction writer
 Q210059;author
-Q365955;writer
-Q365955;playwright
-Q365955;painter
-Q365955;screenwriter
-Q81438;nurse
-Q81438;poet
-Q81438;novelist
-Q81438;journalist
-Q81438;essayist
-Q81438;writer
-Q365955;writer
-Q365955;playwright
-Q365955;painter
-Q365955;screenwriter
-Q449085;writer
-Q449085;autobiographer
-Q449085;novelist
-Q449085;playwright
-Q449085;screenwriter
-Q449085;children's writer
-Q184440;writer
-Q184440;journalist
-Q184440;poet
-Q184440;novelist
-Q184440;lawyer
-Q184440;science fiction writer
-Q184440;politician
-Q215665;writer
-Q215665;screenwriter
-Q621458;physician
-Q621458;writer
-Q621458;university teacher
-Q28147;poet
-Q28147;children's writer
-Q28147;playwright
-Q28147;translator
-Q28147;writer
-Q28147;journalist
-Q28147;prosaist
-Q28147;prose
-Q76529;journalist
-Q76529;writer
-Q185548;writer
-Q185548;teacher
-Q185548;novelist
-Q185548;philosopher
-Q185548;children's writer
-Q185548;screenwriter
-Q352;politician
-Q352;soldier
-Q352;painter
-Q352;political writer
-Q621458;psychiatrist
-Q312532;contemporary historian
-Q312532;university teacher
-Q312532;writer
-Q312532;historian
-Q352;revolutionary
-Q352;statesperson
-Q352;author
-Q352;antisemite
-Q316876;poet
-Q316876;writer
-Q466048;poet
-Q8778;physician writer
-Q448586;preacher
-Q366070;poet
-Q366070;painter
-Q366070;writer
-Q366070;journalist
-Q81018;economist
-Q317436;politician
-Q41980;philosopher
-Q41980;mathematician
-Q913;philosopher
-Q41166;poet
-Q41166;novelist
-Q18880357;editor
-Q9458;merchant
-Q9458;politician
-Q9458;prophet
-Q9458;rasul
-Q9458;preacher
-Q1416892;librarian
-Q188646;poet
-Q188646;historian
-Q188646;writer
-Q43746;philosopher
-Q43746;writer
-Q8409;politician
-Q83041;mathematician
-Q83041;philosopher
-Q83041;physicist
-Q83041;astronomer
-Q1425;statesperson
-Q1425;politician
-Q1425;military personnel
-Q8778;surgeon
-Q41155;philosopher
-Q41155;writer
-Q172353;politician
-Q172353;military personnel
-Q549041;jurist
-Q41166;satirist
-Q41166;philosopher
-Q2442652;lithographer
-Q2442652;painter
-Q2442652;illustrator
-Q131691;politician
-Q41370;herder
-Q59180;philosopher
-Q43746;theologian
-Q4344;troubadour
-Q4344;poet
-Q4344;writer
-Q8409;military leader
-Q2442652;engraver
-Q131691;diplomat
-Q131691;military officer
-Q41370;sovereign
-Q41166;human rights activist
-Q165479;cleric
-Q199991;theologian
-Q199991;writer
-Q199991;philosopher
-Q33923;priest
-Q44265;monk
-Q1048;politician
-Q1048;writer
-Q2755054;condottiero
-Q2755054;politician
-Q43746;Catholic priest
-Q359237;politician
-Q8747;mathematician
-Q8747;writer
-Q207535;knight
-Q223440;politician
-Q223440;military personnel
-Q4344;composer
-Q41370;singer
-Q41370;prophet
-Q41370;politician
-Q203792;condottiero
-Q165479;Catholic priest
-Q41166;pamphleteer
-Q41166;priest
-Q41166;writer
-Q41166;science fiction writer
-Q41166;essayist
-Q41166;prose
-Q5239704;politician
-Q332750;politician
-Q302;preacher
-Q302;prophet
-Q355903;philosopher
-Q1048;augur
-Q43746;religious
-Q243203;poet
-Q243203;writer
-Q5254;troubadour
-Q5254;poet
-Q5254;Catholic priest
-Q5254;composer
-Q1067;politician
-Q1067;philosopher
-Q1067;political theorist
-Q1067;lyricist
-Q1067;prosaist
-Q1067;intellectual
-Q1067;poet
-Q311456;historian
-Q311456;writer
-Q111559;Kohen
-Q41370;judge
-Q41370;poet
-Q165479;farmer
-Q172916;politician
-Q172916;writer
-Q172916;cleric
-Q172916;university teacher
-Q172916;Catholic priest
-Q258369;monk
-Q258369;diplomat
-Q258369;Catholic priest
-Q258369;philosopher
-Q41166;opinion journalism
-Q302;carpenter
-Q1398;poet
-Q207370;politician
-Q207370;military personnel
-Q1048;orator
-Q706003;politician
-Q706003;soldier
-Q426862;astronomer
-Q426862;astrologer
-Q83375;physician
-Q83375;philosopher
-Q83375;writer
-Q83375;poet
-Q7198;poet
-Q7198;writer
-Q41370;farmer
-Q6197;poet
-Q6197;writer
-Q315347;philosopher
-Q315347;Catholic priest
-Q315347;theologian
-Q310686;priest
-Q8018;philosopher
-Q8018;theologian
-Q8018;writer
-Q8018;autobiographer
-Q8018;music theorist
-Q8018;preacher
-Q8018;historian
-Q302;rabbi
-Q1048;memoirist
-Q1048;military officer
-Q6239779;journalist
-Q6239779;politician
-Q172248;politician
-Q172248;philosopher
-Q172248;military personnel
-Q7198;mythographer
-Q8011;philosopher
-Q8011;scientist
-Q8011;poet
-Q8011;astronomer
-Q8011;physician
-Q8011;music theorist
-Q8011;physicist
-Q8011;mathematician
-Q118081;cleric
-Q118081;Catholic priest
-Q635;politician
-Q676555;Christian religious
-Q676555;poet
-Q267733;hetaera
-Q130221;sovereign
-Q130221;writer
-Q130221;poet
-Q302;curandero
-Q1048;ruler
-Q1048;historian
-Q1048;military personnel
-Q2054;playwright
-Q2054;poet
-Q2054;philosopher
-Q2054;aphorist
-Q2054;statesperson
-Q2054;politician
-Q2054;writer
-Q1927217;teacher
-Q60059;chemist
-Q60059;priest
-Q60059;musicologist
-Q60059;philosopher
-Q60059;writer
-Q60059;music theorist
-Q60059;professor
-Q60059;economist
-Q60059;astrologer
-Q60059;entomologist
-Q60059;theologian
-Q60059;scientist
-Q60059;religious
-Q60059;monk
-Q859;philosopher
-Q34943;mathematician
-Q34943;geographer
-Q34943;astronomer
-Q34943;astrologer
-Q34943;music theorist
-Q34943;philosopher
-Q34943;writer
-Q34943;musicologist
-Q170335;queen consort
-Q1093574;priest
-Q8011;chemist
-Q48305;tragedy writer
-Q8581;Sultan of Egypt
-Q665165;troubadour
-Q665165;poet
-Q665165;composer
-Q676555;friar
-Q676555;writer
-Q1133523;judge
-Q302;thaumaturge
-Q211246;priest
-Q39837;philosopher
-Q39837;physician
-Q39837;mathematician
-Q39837;astronomer
-Q39837;judge
-Q785250;historian
-Q785250;theologian
-Q785250;writer
-Q859;epigrammatist
-Q859;poet
-Q2521377;Catholic priest
-Q34943;epigrammatist
-Q154938;monk
-Q1541;philosopher
-Q1541;politician
-Q1541;poet
-Q1541;political theorist
-Q1541;jurist
-Q1541;orator
-Q1541;writer
-Q1541;lawyer
-Q1541;military personnel
-Q8011;ethicist
-Q43939;philosopher
-Q43939;theologian
-Q43939;priest
-Q43939;cleric
-Q43939;monk
-Q676555;deacon
-Q302;religious leader
-Q451516;politician
-Q451516;military personnel
-Q160441;theologian
-Q160441;writer
-Q160441;philosopher
-Q160441;Catholic priest
-Q160441;entomologist
-Q868;metaphysician
-Q170859;cleric
-Q170859;Catholic priest
-Q166876;writer
-Q166876;musicologist
-Q166876;philosopher
-Q166876;music theorist
-Q166876;cleric
-Q166876;Catholic priest
-Q166876;historian
-Q154938;hagiographer
-Q154938;poet
-Q8011;faqih
-Q366270;poet
-Q366270;writer
-Q2721219;politician
-Q41866;legislator
-Q40662;hermit
-Q40662;prophet
-Q36724;sovereign
-Q9438;philosopher
-Q9438;writer
-Q9438;theologian
-Q9438;friar
-Q9438;professor
-Q9438;Catholic priest
-Q868;biologist
-Q7326690;linguist
-Q188411;theologian
-Q188411;writer
-Q188411;philosopher
-Q188411;religious
-Q5264;physician
-Q5264;philosopher
-Q5264;writer
-Q154938;church historian
-Q154938;translator
-Q154938;theologian
-Q154938;writer
-Q102851;philosopher
-Q102851;statesperson
-Q102851;writer
-Q102851;musicologist
-Q102851;music theorist
-Q102851;politician
-Q102851;mathematician
-Q76721;monarch
-Q1707785;politician
-Q1707785;trade unionist
-Q868;cosmologist
-Q247137;writer
-Q154938;Bible translator
-Q154938;historian
-Q317554;theologian
-Q317554;philosopher
-Q317554;writer
-Q188411;hymnwriter
-Q131463;cleric
-Q131463;Catholic priest
-Q132786;cleric
-Q132786;Catholic priest
-Q868;logician
-Q868;zoologist
-Q868;literary critic
-Q868;mathematician
-Q868;ethicist
-Q6691;poet
-Q36303;mathematician
-Q36303;philosopher
-Q36303;astronomer
-Q36303;physicist
-Q36303;engineer
-Q868;epistemologist
-Q868;political philosopher
-Q43706;theologian
-Q43706;priest
-Q43706;writer
-Q868;polymath
-Q297776;physician
-Q297776;botanist
-Q868;philosopher of language
-Q868;writer
-Q868;philosopher
-Q868;astronomer
-Q868;geographer
-Q868;teacher
-Q297776;pharmacist
-Q868;tutor
-Q297776;pharmacologist
-Q297776;writer
-Q152717;priest
-Q152717;cleric
-Q134646;cleric
-Q134646;Catholic priest
-Q234533;writer
-Q4014539;politician
-Q6756538;politician
-Q4911497;politician
-Q4911497;lawyer
-Q703503;politician
-Q703503;lawyer
-Q703503;university teacher
-Q703503;writer
-Q2641759;politician
-Q2641759;judge
-Q1728820;politician
-Q1728820;physician
-Q468394;politician
-Q983514;politician
-Q334155;politician
-Q334155;lawyer
-Q19592761;judge
-Q19592761;politician
-Q19592761;writer
-Q19592761;lawyer
-Q23766020;politician
-Q23766020;lawyer
-Q2885098;politician
-Q312015;politician
-Q17146774;manager
-Q17146774;politician
-Q18104657;politician
-Q468394;entrepreneur
-Q312015;civil engineer
-Q312015;engineer
-Q15976266;politician
-Q468394;businessperson
-Q1148719;politician
-Q1148719;lawyer
-Q71501;librarian
-Q134798;linguist
-Q76;politician
-Q102513;writer
-Q170596;anthropologist
-Q726264;anthropologist
-Q1392021;writer
-Q39829;writer
-Q50039;journalist
-Q905;novelist
-Q365955;writer
-Q47484;journalist
-Q71501;writer
-Q134798;novelist
-Q134798;writer
-Q102513;novelist
-Q163118;translator
-Q42;playwright
-Q76;lawyer
-Q726264;archaeologist
-Q170596;archaeologist
-Q1392021;journalist
-Q1392021;novelist
-Q39829;television producer
-Q50039;media historian
-Q365955;playwright
-Q47484;film producer
-Q134798;translator
-Q905;fabulist
-Q71501;archivist
-Q163118;poet
-Q163118;novelist
-Q102513;poet
-Q42;screenwriter
-Q42;novelist
-Q170596;autobiographer
-Q170596;writer
-Q726264;pedagogue
-Q39829;actor
-Q365955;painter
-Q365955;screenwriter
-Q76;political writer
-Q47484;essayist
-Q47484;playwright
-Q47484;novelist
-Q905;short story writer
-Q71501;historian
-Q134798;essayist
-Q163118;essayist
-Q102513;children's writer
-Q102513;short story writer
-Q170596;military officer
-Q170596;screenwriter
-Q170596;translator
-Q42;children's writer
-Q726264;university teacher
-Q39829;musician
-Q6969361;historian
-Q310800;journalist
-Q310800;poet
-Q310800;writer
-Q310800;screenwriter
-Q76;community organizer
-Q905;aphorist
-Q47484;diarist
-Q134798;athletics competitor
-Q134798;university teacher
-Q37151;writer
-Q163118;university teacher
-Q163118;writer
-Q42;science fiction writer
-Q170596;castellologist
-Q76;statesperson
-Q905;diarist
-Q905;translator
-Q905;lawyer
-Q905;screenwriter
-Q310800;trade unionist
-Q42831;writer
-Q42831;poet
-Q42831;playwright
-Q42831;novelist
-Q42831;translator
-Q134798;science fiction writer
-Q47484;travel writer
-Q47484;translator
-Q47484;autobiographer
-Q47484;writer
-Q37151;philosopher
-Q42;comedian
-Q180903;writer
-Q180903;poet
-Q180903;novelist
-Q180903;university teacher
-Q81731;lady-in-waiting
-Q81731;novelist
-Q81731;poet
-Q81731;writer
-Q81731;diarist
-Q105118;writer
-Q105118;screenwriter
-Q105118;novelist
-Q105118;playwright
-Q42831;prosaist
-Q905;poet lawyer
-Q37151;military personnel
-Q49081;journalist
-Q49081;writer
-Q49081;essayist
-Q49081;autobiographer
-Q42;dramaturge
-Q909;translator
-Q909;poet
-Q909;linguist
-Q909;librarian
-Q105118;film director
-Q105118;actor
-Q105118;television producer
-Q905;claims adjuster
-Q905;writer
-Q42831;dramaturge
-Q34660;film producer
-Q34660;writer
-Q34660;novelist
-Q49081;literary critic
-Q909;literary critic
-Q909;screenwriter
-Q909;essayist
-Q909;short story writer
-Q909;science fiction writer
-Q909;novelist
-Q34660;teacher
-Q34660;children's writer
-Q34660;screenwriter
-Q82104;journalist
-Q82104;writer
-Q82104;novelist
-Q82104;screenwriter
+Q35064;nurse
+Q35064;writer
+Q35064;novelist
+Q35064;screenwriter
+Q35064;prose
+Q35064;dramaturge
+Q9215;neurologist
+Q62892;physician
+Q37731;politician
+Q9215;psychoanalyst
+Q62892;physician writer
+Q62892;novelist
+Q62892;screenwriter
+Q173540;writer
+Q173540;novelist
+Q173540;screenwriter
+Q173540;journalist
+Q235291;historian
+Q235291;autobiographer
+Q235291;writer
+Q235291;biographer
 Q170509;writer
 Q170509;novelist
 Q170509;screenwriter
 Q170509;playwright
 Q170509;poet lawyer
 Q170509;literary critic
+Q448;philosopher
+Q448;novelist
+Q448;essayist
+Q448;Encyclopédistes
+Q562163;writer
+Q562163;science fiction writer
+Q562163;children's writer
+Q71501;librarian
+Q71501;writer
+Q448;art critic
+Q448;playwright
+Q448;literary critic
+Q71501;archivist
+Q71501;historian
+Q4583;diarist
+Q448;correspondent
+Q42511;writer
+Q42511;historian
+Q42511;journalist
+Q170596;anthropologist
+Q170596;archaeologist
+Q170596;autobiographer
+Q170596;writer
+Q76;politician
+Q76;lawyer
+Q49081;journalist
+Q49081;writer
+Q49081;essayist
+Q49081;autobiographer
+Q49081;literary critic
+Q43459;poet
+Q43459;writer
+Q1512;poet
+Q1512;essayist
+Q1512;novelist
+Q1512;short story writer
+Q1512;children's writer
+Q1512;writer
+Q170596;military officer
+Q170596;screenwriter
+Q170596;translator
+Q76;political writer
 Q49081;political scientist
-Q909;lyricist
-Q909;writer
-Q34660;author
-Q449085;writer
-Q449085;autobiographer
-Q449085;novelist
-Q449085;playwright
-Q449085;screenwriter
-Q449085;children's writer
-Q295431;writer
-Q295431;translator
-Q295431;novelist
-Q295431;essayist
-Q295431;literary critic
-Q295431;science fiction writer
-Q181677;screenwriter
-Q181677;writer
-Q181677;television producer
-Q181677;novelist
-Q181677;playwright
-Q34660;prose
 Q82778;writer
 Q82778;historian
 Q82778;lawyer
-Q1043;geologist
-Q181677;blogger
-Q181677;science fiction writer
-Q9458;merchant
-Q9458;politician
-Q34660;executive producer
+Q82778;naturalist
+Q9711;novelist
+Q9711;literary critic
+Q105118;writer
+Q105118;screenwriter
+Q105118;novelist
+Q105118;playwright
+Q170596;castellologist
+Q76;community organizer
+Q182874;writer
+Q182874;poet
+Q182874;painter
+Q182874;novelist
 Q46248;writer
 Q46248;novelist
 Q46248;journalist
@@ -3841,12 +419,37 @@ Q46248;screenwriter
 Q46248;science fiction writer
 Q46248;children's writer
 Q46248;author
-Q82778;naturalist
-Q235291;historian
-Q235291;autobiographer
-Q235291;writer
-Q1043;professor
-Q9458;prophet
+Q105118;film director
+Q105118;actor
+Q105118;television producer
+Q76;statesperson
+Q182874;ci lyric writer
+Q241248;writer
+Q241248;novelist
+Q241248;screenwriter
+Q241248;essayist
+Q241248;journalist
+Q193111;writer
+Q193111;translator
+Q193111;journalist
+Q193111;novelist
+Q193111;screenwriter
+Q909;translator
+Q909;poet
+Q909;linguist
+Q909;librarian
+Q909;literary critic
+Q909;screenwriter
+Q909;essayist
+Q909;short story writer
+Q909;science fiction writer
+Q909;novelist
+Q909;lyricist
+Q909;writer
+Q365955;writer
+Q365955;playwright
+Q365955;painter
+Q365955;screenwriter
 Q81685;writer
 Q81685;journalist
 Q81685;poet
@@ -3854,291 +457,13 @@ Q81685;novelist
 Q81685;playwright
 Q81685;screenwriter
 Q81685;literary critic
-Q235291;biographer
-Q1043;botanist
-Q861482;writer
-Q861482;novelist
-Q861482;science fiction writer
-Q924927;journalist
-Q924927;writer
-Q9458;rasul
-Q1043;physician
-Q1043;autobiographer
-Q1043;naturalist
-Q4731;writer
-Q4731;novelist
-Q4731;poet lawyer
-Q9711;novelist
-Q9711;literary critic
-Q9458;preacher
-Q11471103;novelist
-Q1043;mycologist
-Q18430;economist
-Q18430;university teacher
-Q1064;writer
-Q1064;poet
-Q1064;politician
-Q1064;novelist
-Q4583;diarist
-Q182874;writer
-Q182874;poet
-Q182874;painter
-Q182874;novelist
-Q1043;pteridologist
-Q237555;novelist
-Q237555;writer
-Q18430;science writer
-Q173540;writer
-Q173540;novelist
-Q173540;screenwriter
-Q173540;journalist
-Q732338;writer
-Q1043;bryologist
-Q182874;ci lyric writer
-Q18430;non-fiction writer
-Q18430;professor
-Q6074970;writer
-Q1043;zoologist
-Q5682;novelist
-Q5682;playwright
-Q5682;poet
-Q5682;lyricist
-Q311145;writer
-Q311145;linguist
-Q311145;poet
-Q311145;journalist
-Q311145;novelist
-Q311145;translator
-Q311145;playwright
-Q311145;literary critic
-Q18430;critic
-Q18430;writer
-Q1043;entomologist
-Q5682;soldier
-Q506120;historian
-Q506120;university teacher
-Q37731;politician
-Q18430;scientist
-Q40479;writer
-Q40479;linguist
-Q40479;novelist
-Q40479;science fiction writer
-Q40479;translator
-Q28170;comedian
-Q4671;writer
-Q241248;writer
-Q241248;novelist
-Q241248;screenwriter
-Q241248;essayist
-Q241248;journalist
-Q28170;voice actor
-Q28170;screenwriter
-Q28170;writer
-Q34474;writer
-Q34474;historian
-Q34474;novelist
-Q34474;screenwriter
-Q34474;playwright
-Q34474;poet
-Q240576;writer
-Q240576;politician
-Q240576;journalist
-Q240576;children's writer
-Q240576;poet
-Q233956;writer
-Q233956;poet
-Q233956;novelist
-Q233956;playwright
-Q967307;historian
-Q967307;biographer
-Q28170;television actor
-Q23434;war correspondent
-Q23434;screenwriter
-Q23434;writer
-Q23434;novelist
-Q23434;journalist
-Q23434;autobiographer
-Q23434;playwright
-Q193111;writer
-Q193111;translator
-Q193111;journalist
-Q193111;novelist
-Q193111;screenwriter
-Q34474;public figure
-Q1167679;historian
-Q1167679;university teacher
-Q1167679;writer
-Q79759;writer
-Q79759;poet
-Q79759;politician
-Q1035;naturalist
-Q1035;geologist
-Q233956;editor
-Q233956;screenwriter
-Q233956;literary critic
-Q23434;artist
-Q6882;poet
-Q6882;playwright
-Q6882;novelist
-Q6882;teacher
-Q6882;author
-Q1035;explorer
-Q1035;travel writer
-Q562163;writer
-Q562163;science fiction writer
-Q562163;children's writer
-Q9215;neurologist
-Q249197;writer
-Q249197;novelist
-Q1035;ethologist
-Q1035;entomologist
-Q9215;psychoanalyst
-Q249197;aircraft pilot
-Q210059;beekeeper
-Q13230;linguist
-Q13230;pedagogue
-Q13230;university teacher
-Q42511;writer
-Q42511;historian
-Q42511;journalist
-Q210059;comics writer
-Q210059;novelist
-Q210059;journalist
-Q210059;blogger
-Q210059;screenwriter
-Q210059;film producer
-Q210059;actor
-Q210059;writer
-Q210059;science fiction writer
-Q210059;author
-Q249197;foreign correspondent
-Q13230;sociologist
-Q13230;philosopher
-Q720306;writer
-Q249197;spy
-Q249197;screenwriter
-Q249197;journalist
-Q1067;politician
-Q1067;philosopher
-Q13230;phonologist
-Q62892;physician
-Q228624;writer
-Q228624;novelist
-Q228624;screenwriter
-Q228624;science fiction writer
-Q228624;children's writer
-Q1067;political theorist
-Q1067;lyricist
-Q1067;prosaist
-Q62892;physician writer
-Q62892;novelist
-Q62892;screenwriter
-Q528826;screenwriter
-Q1512;poet
-Q1512;essayist
-Q1512;novelist
-Q1512;short story writer
-Q1512;children's writer
-Q1512;writer
-Q1067;intellectual
-Q1067;poet
-Q9038;mathematician
-Q528826;sculptor
-Q528826;novelist
-Q528826;playwright
-Q528826;translator
-Q528826;writer
-Q153232;philosopher
-Q153232;mathematician
-Q1357338;anthropologist
-Q1357338;archaeologist
-Q1357338;historian
-Q9038;astronomer
-Q35064;playwright
-Q153232;physicist
-Q35064;nurse
-Q35064;writer
-Q35064;novelist
-Q35064;screenwriter
-Q35064;prose
-Q35064;dramaturge
-Q9038;geographer
-Q9038;philosopher
-Q9038;translator
-Q153232;musicologist
-Q153232;translator
-Q153232;writer
-Q584990;physician
-Q584990;writer
-Q9038;astrologer
-Q9038;historian
-Q153232;music theorist
-Q584990;Encyclopédistes
-Q584990;philosopher
-Q43459;poet
-Q43459;writer
-Q1348862;writer
-Q1348862;historian
-Q1348862;science fiction writer
-Q153232;Encyclopédistes
-Q448;philosopher
-Q448;novelist
-Q448;essayist
-Q448;Encyclopédistes
-Q314771;graphic designer
-Q5816;politician
-Q5816;poet
-Q5816;writer
-Q5816;philosopher
-Q991;translator
-Q991;poet
-Q991;novelist
-Q991;essayist
-Q991;short story writer
-Q991;journalist
-Q991;philosopher
-Q991;biographer
-Q153232;engineer
-Q448;art critic
-Q448;playwright
-Q448;literary critic
-Q329937;mathematician
-Q314771;cartoonist
-Q314771;writer
-Q991;engineer
-Q991;writer
-Q448;correspondent
-Q314771;illustrator
-Q314771;artist
-Q314771;painter
-Q314771;children's writer
-Q314771;screenwriter
-Q274848;mathematician
-Q310379;writer
-Q310379;screenwriter
-Q310379;novelist
-Q310379;children's writer
-Q180589;journalist
-Q180589;politician
-Q180589;editor
-Q180589;writer
-Q180589;historian
-Q185548;writer
-Q185548;teacher
-Q185548;novelist
-Q185548;philosopher
-Q185548;children's writer
-Q185548;screenwriter
-Q449085;writer
-Q449085;autobiographer
-Q449085;novelist
-Q449085;playwright
-Q449085;screenwriter
-Q449085;children's writer
-Q365955;writer
-Q365955;playwright
-Q365955;painter
-Q365955;screenwriter
+Q310800;journalist
+Q310800;poet
+Q310800;writer
+Q310800;screenwriter
+Q310800;trade unionist
+Q215665;writer
+Q215665;screenwriter
 Q184440;writer
 Q184440;journalist
 Q184440;poet
@@ -4146,6 +471,13 @@ Q184440;novelist
 Q184440;lawyer
 Q184440;science fiction writer
 Q184440;politician
+Q621458;physician
+Q621458;writer
+Q621458;university teacher
+Q365955;writer
+Q365955;playwright
+Q365955;painter
+Q365955;screenwriter
 Q28147;poet
 Q28147;children's writer
 Q28147;playwright
@@ -4154,133 +486,49 @@ Q28147;writer
 Q28147;journalist
 Q28147;prosaist
 Q28147;prose
-Q215665;writer
-Q215665;screenwriter
-Q76529;journalist
-Q76529;writer
-Q621458;physician
-Q621458;writer
-Q621458;university teacher
 Q81438;nurse
 Q81438;poet
 Q81438;novelist
 Q81438;journalist
 Q81438;essayist
 Q81438;writer
+Q449085;writer
+Q449085;autobiographer
+Q449085;novelist
+Q449085;playwright
+Q449085;screenwriter
+Q449085;children's writer
+Q185548;writer
+Q185548;teacher
+Q185548;novelist
+Q185548;philosopher
+Q185548;children's writer
+Q185548;screenwriter
+Q76529;journalist
+Q76529;writer
 Q352;politician
 Q352;soldier
 Q352;painter
 Q352;political writer
-Q312532;contemporary historian
-Q312532;university teacher
-Q312532;writer
-Q312532;historian
 Q621458;psychiatrist
 Q352;revolutionary
 Q352;statesperson
 Q352;author
+Q312532;contemporary historian
+Q312532;university teacher
+Q312532;writer
+Q312532;historian
 Q352;antisemite
-Q1416892;librarian
-Q83375;physician
-Q83375;philosopher
-Q83375;writer
-Q83375;poet
-Q34943;mathematician
-Q34943;geographer
-Q34943;astronomer
-Q34943;astrologer
-Q34943;music theorist
-Q34943;philosopher
-Q34943;writer
-Q34943;musicologist
-Q332750;politician
-Q1927217;teacher
-Q1707785;politician
-Q1707785;trade unionist
-Q448586;preacher
-Q172916;politician
-Q172916;writer
-Q2521377;Catholic priest
-Q102851;philosopher
-Q102851;statesperson
-Q102851;writer
-Q102851;musicologist
-Q102851;music theorist
-Q102851;politician
-Q102851;mathematician
-Q1067;politician
-Q1067;philosopher
-Q1067;political theorist
-Q1067;lyricist
-Q1067;prosaist
-Q1067;intellectual
-Q1067;poet
-Q207535;knight
-Q203792;condottiero
-Q34943;epigrammatist
-Q5254;troubadour
-Q5254;poet
-Q5254;Catholic priest
-Q2442652;lithographer
-Q2442652;painter
-Q2442652;illustrator
-Q6239779;journalist
-Q6239779;politician
-Q172916;cleric
-Q172916;university teacher
-Q172916;Catholic priest
-Q40662;hermit
-Q40662;prophet
-Q170859;cleric
-Q170859;Catholic priest
-Q1093574;priest
-Q132786;cleric
-Q132786;Catholic priest
-Q316876;poet
-Q316876;writer
-Q39837;philosopher
-Q39837;physician
-Q39837;mathematician
-Q39837;astronomer
-Q134646;cleric
-Q134646;Catholic priest
-Q118081;cleric
-Q118081;Catholic priest
-Q5254;composer
-Q33923;priest
-Q7198;poet
-Q7198;writer
-Q676555;Christian religious
-Q676555;poet
-Q2442652;engraver
-Q172248;politician
-Q172248;philosopher
-Q172248;military personnel
 Q41155;philosopher
 Q41155;writer
-Q859;philosopher
-Q859;epigrammatist
-Q859;poet
-Q39837;judge
-Q199991;theologian
-Q199991;writer
-Q199991;philosopher
-Q2755054;condottiero
-Q2755054;politician
-Q1425;statesperson
-Q1425;politician
-Q1425;military personnel
-Q41370;herder
-Q1048;politician
-Q1048;writer
-Q676555;friar
-Q676555;writer
-Q297776;physician
-Q297776;botanist
-Q8409;politician
-Q7198;mythographer
-Q6197;poet
-Q6197;writer
+Q81018;economist
+Q223440;politician
+Q223440;military personnel
+Q188646;poet
+Q188646;historian
+Q188646;writer
+Q43746;philosopher
+Q43746;writer
 Q8011;philosopher
 Q8011;scientist
 Q8011;poet
@@ -4289,67 +537,58 @@ Q8011;physician
 Q8011;music theorist
 Q8011;physicist
 Q8011;mathematician
-Q7326690;linguist
-Q315347;philosopher
-Q315347;Catholic priest
-Q315347;theologian
-Q2721219;politician
-Q549041;jurist
-Q170335;queen consort
-Q366070;poet
-Q366070;painter
-Q366070;writer
-Q366070;journalist
+Q6239779;journalist
+Q6239779;politician
+Q34943;mathematician
+Q34943;geographer
+Q34943;astronomer
+Q34943;astrologer
+Q34943;music theorist
+Q34943;philosopher
+Q34943;writer
+Q34943;musicologist
+Q41980;philosopher
+Q41980;mathematician
+Q9458;merchant
+Q9458;politician
+Q9458;prophet
+Q9458;rasul
+Q9458;preacher
+Q7198;poet
+Q7198;writer
+Q1067;politician
+Q1067;philosopher
+Q1067;political theorist
+Q1067;lyricist
+Q1067;prosaist
+Q1067;intellectual
+Q1067;poet
+Q267733;hetaera
+Q118081;cleric
+Q6197;poet
+Q6197;writer
+Q170859;cleric
+Q8011;chemist
 Q5264;physician
 Q5264;philosopher
 Q5264;writer
-Q59180;philosopher
-Q41370;sovereign
-Q1048;augur
-Q8409;military leader
-Q676555;deacon
-Q451516;politician
-Q451516;military personnel
-Q297776;pharmacist
-Q234533;writer
-Q366270;poet
-Q366270;writer
-Q81018;economist
-Q44265;monk
-Q8011;chemist
-Q317436;politician
-Q785250;historian
-Q785250;theologian
-Q785250;writer
-Q36303;mathematician
-Q36303;philosopher
-Q36303;astronomer
-Q36303;physicist
-Q36303;engineer
-Q6691;poet
-Q41370;singer
-Q41370;prophet
-Q41370;politician
-Q41370;judge
-Q41370;poet
+Q43746;theologian
+Q39837;philosopher
+Q39837;physician
+Q39837;mathematician
+Q39837;astronomer
+Q7198;mythographer
 Q41166;poet
 Q41166;novelist
-Q131691;politician
-Q258369;monk
-Q18880357;editor
-Q297776;pharmacologist
-Q297776;writer
-Q1048;orator
-Q317554;theologian
-Q317554;philosopher
-Q317554;writer
-Q165479;cleric
-Q165479;Catholic priest
-Q76721;monarch
+Q34943;epigrammatist
+Q154938;monk
+Q359237;politician
+Q130221;sovereign
+Q130221;writer
+Q130221;poet
+Q118081;Catholic priest
+Q8409;politician
 Q8011;ethicist
-Q48305;tragedy writer
-Q8747;mathematician
-Q8747;writer
 Q166876;writer
 Q166876;musicologist
 Q166876;philosopher
@@ -4357,55 +596,76 @@ Q166876;music theorist
 Q166876;cleric
 Q166876;Catholic priest
 Q166876;historian
-Q41370;farmer
-Q9458;merchant
-Q9458;politician
-Q9458;prophet
-Q9458;rasul
-Q9458;preacher
-Q154938;monk
-Q131691;diplomat
-Q131691;military officer
-Q1048;memoirist
-Q1048;military officer
-Q131463;cleric
-Q131463;Catholic priest
+Q170859;Catholic priest
+Q355903;philosopher
+Q39837;judge
+Q43746;Catholic priest
 Q41166;satirist
 Q41166;philosopher
-Q258369;diplomat
-Q258369;Catholic priest
-Q258369;philosopher
-Q130221;sovereign
-Q130221;writer
-Q130221;poet
-Q211246;priest
-Q359237;politician
-Q165479;farmer
-Q8011;faqih
-Q665165;troubadour
-Q665165;poet
-Q665165;composer
-Q41980;philosopher
-Q41980;mathematician
+Q59180;philosopher
+Q5254;troubadour
+Q5254;poet
+Q5254;Catholic priest
+Q448586;preacher
 Q154938;hagiographer
 Q154938;poet
-Q41866;legislator
-Q706003;politician
-Q706003;soldier
-Q188646;poet
-Q188646;historian
-Q188646;writer
+Q315347;philosopher
+Q315347;Catholic priest
+Q315347;theologian
+Q1927217;teacher
+Q8409;military leader
+Q1707785;politician
+Q1707785;trade unionist
+Q131691;politician
+Q8011;faqih
+Q199991;theologian
+Q199991;writer
+Q199991;philosopher
+Q83041;mathematician
+Q83041;philosopher
+Q83041;physicist
+Q83041;astronomer
+Q43746;religious
+Q5254;composer
 Q41166;human rights activist
-Q5239704;politician
-Q1048;ruler
-Q1048;historian
-Q1048;military personnel
-Q160441;theologian
-Q160441;writer
-Q160441;philosopher
-Q160441;Catholic priest
-Q160441;entomologist
+Q297776;physician
+Q297776;botanist
 Q60059;chemist
+Q154938;church historian
+Q154938;translator
+Q154938;theologian
+Q154938;writer
+Q247137;writer
+Q131691;diplomat
+Q131691;military officer
+Q549041;jurist
+Q1398;poet
+Q188411;theologian
+Q188411;writer
+Q188411;philosopher
+Q188411;religious
+Q33923;priest
+Q7326690;linguist
+Q41166;pamphleteer
+Q41166;priest
+Q41166;writer
+Q41166;science fiction writer
+Q41166;essayist
+Q41166;prose
+Q297776;pharmacist
+Q43939;philosopher
+Q43939;theologian
+Q43939;priest
+Q43939;cleric
+Q43939;monk
+Q172916;politician
+Q172916;writer
+Q172916;cleric
+Q172916;university teacher
+Q172916;Catholic priest
+Q2755054;condottiero
+Q2755054;politician
+Q18880357;editor
 Q60059;priest
 Q60059;musicologist
 Q60059;philosopher
@@ -4417,18 +677,115 @@ Q60059;astrologer
 Q60059;entomologist
 Q60059;theologian
 Q60059;scientist
+Q60059;religious
+Q60059;monk
+Q1093574;priest
+Q868;metaphysician
+Q154938;Bible translator
+Q154938;historian
+Q188411;hymnwriter
+Q41370;herder
+Q41370;sovereign
+Q111559;Kohen
+Q203792;condottiero
+Q8747;mathematician
+Q8747;writer
+Q132786;cleric
+Q132786;Catholic priest
+Q316876;poet
+Q316876;writer
+Q165479;cleric
+Q165479;Catholic priest
+Q4344;troubadour
+Q4344;poet
+Q4344;writer
+Q4344;composer
 Q1133523;judge
+Q297776;pharmacologist
+Q297776;writer
+Q5239704;politician
+Q131463;cleric
+Q131463;Catholic priest
+Q868;biologist
+Q451516;politician
+Q451516;military personnel
+Q302;preacher
+Q302;prophet
+Q234533;writer
+Q41370;singer
+Q41370;prophet
+Q41370;politician
+Q41370;judge
+Q41370;poet
+Q41166;opinion journalism
 Q207370;politician
 Q207370;military personnel
+Q665165;troubadour
+Q665165;poet
+Q665165;composer
+Q258369;monk
+Q258369;diplomat
+Q258369;Catholic priest
+Q258369;philosopher
+Q332750;politician
+Q2442652;lithographer
+Q2442652;painter
+Q2442652;illustrator
+Q317554;theologian
+Q317554;philosopher
+Q317554;writer
+Q165479;farmer
+Q36303;mathematician
+Q36303;philosopher
+Q36303;astronomer
+Q36303;physicist
+Q36303;engineer
+Q868;cosmologist
+Q302;carpenter
 Q466048;poet
-Q868;metaphysician
-Q243203;poet
-Q243203;writer
-Q154938;church historian
-Q154938;translator
-Q154938;theologian
-Q154938;writer
-Q310686;priest
+Q41370;farmer
+Q172248;politician
+Q172248;philosopher
+Q172248;military personnel
+Q706003;politician
+Q706003;soldier
+Q635;politician
+Q311456;historian
+Q311456;writer
+Q1048;politician
+Q1048;writer
+Q76721;monarch
+Q1416892;librarian
+Q2442652;engraver
+Q868;logician
+Q868;zoologist
+Q868;literary critic
+Q868;mathematician
+Q868;ethicist
+Q172353;politician
+Q172353;military personnel
+Q317436;politician
+Q785250;historian
+Q785250;theologian
+Q785250;writer
+Q426862;astronomer
+Q426862;astrologer
+Q41866;legislator
+Q302;rabbi
+Q102851;philosopher
+Q102851;statesperson
+Q102851;writer
+Q102851;musicologist
+Q102851;music theorist
+Q102851;politician
+Q102851;mathematician
+Q44265;monk
+Q1048;augur
+Q36724;sovereign
+Q913;philosopher
+Q2521377;Catholic priest
+Q868;epistemologist
+Q8778;physician writer
 Q2054;playwright
 Q2054;poet
 Q2054;philosopher
@@ -4436,31 +793,64 @@ Q2054;aphorist
 Q2054;statesperson
 Q2054;politician
 Q2054;writer
-Q41166;pamphleteer
-Q41166;priest
-Q41166;writer
-Q41166;science fiction writer
-Q41166;essayist
-Q41166;prose
-Q267733;hetaera
-Q60059;religious
-Q60059;monk
-Q311456;historian
-Q311456;writer
-Q172353;politician
-Q172353;military personnel
-Q868;biologist
-Q8778;physician writer
-Q41166;opinion journalism
-Q154938;Bible translator
-Q154938;historian
-Q223440;politician
-Q223440;military personnel
-Q43939;philosopher
-Q43939;theologian
-Q43939;priest
-Q43939;cleric
-Q43939;monk
+Q859;philosopher
+Q859;epigrammatist
+Q859;poet
+Q83375;physician
+Q83375;philosopher
+Q83375;writer
+Q83375;poet
+Q302;curandero
+Q676555;Christian religious
+Q676555;poet
+Q1048;orator
+Q366070;poet
+Q366070;painter
+Q366070;writer
+Q366070;journalist
+Q160441;theologian
+Q160441;writer
+Q160441;philosopher
+Q160441;Catholic priest
+Q160441;entomologist
+Q8778;surgeon
+Q868;political philosopher
+Q134646;cleric
+Q134646;Catholic priest
+Q2721219;politician
+Q302;thaumaturge
+Q207535;knight
+Q676555;friar
+Q676555;writer
+Q1425;statesperson
+Q1425;politician
+Q1425;military personnel
+Q1048;memoirist
+Q1048;military officer
+Q366270;poet
+Q366270;writer
+Q211246;priest
+Q868;polymath
+Q676555;deacon
+Q302;religious leader
+Q1048;ruler
+Q1048;historian
+Q1048;military personnel
+Q40662;hermit
+Q40662;prophet
+Q868;philosopher of language
+Q868;writer
+Q868;philosopher
+Q868;astronomer
+Q868;geographer
+Q868;teacher
+Q8581;Sultan of Egypt
+Q43706;theologian
+Q43706;priest
+Q43706;writer
+Q6691;poet
+Q868;tutor
+Q48305;tragedy writer
 Q8018;philosopher
 Q8018;theologian
 Q8018;writer
@@ -4468,63 +858,18 @@ Q8018;autobiographer
 Q8018;music theorist
 Q8018;preacher
 Q8018;historian
-Q1398;poet
-Q8778;surgeon
-Q868;cosmologist
-Q43746;philosopher
-Q43746;writer
-Q43746;theologian
-Q43746;Catholic priest
-Q43746;religious
-Q302;preacher
-Q302;prophet
-Q868;logician
-Q868;zoologist
-Q868;literary critic
-Q868;mathematician
-Q868;ethicist
-Q302;carpenter
-Q247137;writer
-Q8581;Sultan of Egypt
-Q635;politician
-Q868;epistemologist
-Q302;rabbi
-Q83041;mathematician
-Q83041;philosopher
-Q83041;physicist
-Q83041;astronomer
-Q868;political philosopher
-Q36724;sovereign
-Q302;curandero
+Q152717;priest
+Q152717;cleric
 Q9438;philosopher
 Q9438;writer
 Q9438;theologian
 Q9438;friar
 Q9438;professor
 Q9438;Catholic priest
-Q302;thaumaturge
-Q868;polymath
-Q4344;troubadour
-Q4344;poet
-Q4344;writer
-Q4344;composer
-Q302;religious leader
-Q868;philosopher of language
-Q868;writer
-Q868;philosopher
-Q868;astronomer
-Q868;geographer
-Q868;teacher
-Q43706;theologian
-Q43706;priest
-Q43706;writer
-Q868;tutor
-Q188411;theologian
-Q188411;writer
-Q188411;philosopher
-Q188411;religious
-Q188411;hymnwriter
-Q355903;philosopher
+Q243203;poet
+Q243203;writer
+Q170335;queen consort
+Q310686;priest
 Q1541;philosopher
 Q1541;politician
 Q1541;poet
@@ -4534,43 +879,37 @@ Q1541;orator
 Q1541;writer
 Q1541;lawyer
 Q1541;military personnel
-Q152717;priest
-Q152717;cleric
-Q913;philosopher
-Q111559;Kohen
-Q426862;astronomer
-Q426862;astrologer
-Q468394;politician
-Q983514;politician
-Q19592761;judge
-Q19592761;politician
-Q19592761;writer
-Q19592761;lawyer
+Q334155;politician
+Q334155;lawyer
+Q4911497;politician
+Q4911497;lawyer
+Q4014539;politician
+Q23766020;politician
+Q23766020;lawyer
 Q1728820;politician
 Q1728820;physician
 Q1148719;politician
 Q1148719;lawyer
-Q15976266;politician
-Q23766020;politician
-Q23766020;lawyer
-Q6756538;politician
-Q2885098;politician
-Q18104657;politician
-Q4911497;politician
-Q4911497;lawyer
-Q312015;politician
 Q2641759;politician
 Q2641759;judge
-Q4014539;politician
-Q468394;entrepreneur
-Q334155;politician
-Q334155;lawyer
-Q312015;civil engineer
-Q312015;engineer
-Q17146774;manager
-Q17146774;politician
-Q468394;businessperson
+Q15976266;politician
+Q6756538;politician
+Q2885098;politician
 Q703503;politician
 Q703503;lawyer
 Q703503;university teacher
 Q703503;writer
+Q312015;politician
+Q18104657;politician
+Q17146774;manager
+Q17146774;politician
+Q468394;politician
+Q19592761;judge
+Q19592761;politician
+Q19592761;writer
+Q19592761;lawyer
+Q312015;civil engineer
+Q312015;engineer
+Q983514;politician
+Q468394;entrepreneur
+Q468394;businessperson

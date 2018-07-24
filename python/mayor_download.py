@@ -150,7 +150,7 @@ class MayorDownloadThread(threading.Thread):
 
 
             mayors_file.write(str(
-                mayor) + ";" + label + ";" + description + ";" + start_time + ";" + end_time + ";" + residence_name + "\n")
+                mayor) + ";" + label.replace(";", " ") + ";" + description.replace(";", " ") + ";" + start_time.replace(";", " ") + ";" + end_time.replace(";", " ") + ";" + residence_name.replace(";", " ") + "\n")
 
     def join(self):
         Thread.join(self)

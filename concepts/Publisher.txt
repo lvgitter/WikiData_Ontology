@@ -1,36 +1,36 @@
 publisher_id;publisher_label;publisher_description;inception
-Q2934320;Calmann-Lévy;French publisher;1836
-Q821732;Metropol Verlag;German publishing house;1988
-Q3560313;Vintage Books;publishing imprint of Random House; American to 1990, now international;1954
-Q1587900;Harvard University Press;American university publishing house;1913
-Q22695861;;;
-Q3752406;;;1870
-Q1305980;Giulio Einaudi editions;Italian publisher;1933
-Q1503157;Shakespeare and Company;bookstore;
-Q21091410;;;
-Q3132837;Henry Holt and Company;American publishing company established 1866, under this name from 1873, succeeded by Holt, Rinehart & Winston 1960, continued as division or imprint;1866
-Q186225;Mercure de France;French publishing house;1890
-Q1368849;Firmin Didot;French businessman;
-Q2980071;;organization;1894
-Q2277384;Contact;Dutch publisher;
-Q1251563;Doubleday;American publishing company;1897
-Q1815400;;;1814
-Q845617;Charles Scribner's Sons;American publisher;1846
-Q11918026;Editorial Selecta;;1946
-Q3157979;Jacques-Julien Dubochet;Swiss lawyer, newspaper editor;
-Q4453850;Text Publishers;;1988
-Q301609;Suhrkamp Verlag;German publishing house;1950
-Q7800720;Ticknor and Fields;;1854
-Q5677798;Harvill Secker;British publishing company;1936
-Q14624871;Editorial Garbo;publisher from Barcelona, Spain;
-Q2108217;Macmillan Publishers;British publishing company;1843
-Q779172;Sdu;Dutch publishing company;1988
 Q3822096;Modern Library;American publishing company;1917
-Q95145;Allen & Unwin;Australian publishing company;1914
-Q82708;Church of England;Christian church in England and the Mother Church of the worldwide Anglican Communion;
-Q744182;Random House;general-interest trade book publisher;1927
+Q21091410;;;
+Q2980071;;organization;1894
+Q845617;Charles Scribner's Sons;American publisher;1846
+Q3132837;Henry Holt and Company;American publishing company established 1866, under this name from 1873, succeeded by Holt, Rinehart & Winston 1960, continued as division or imprint;1866
+Q3157979;Jacques-Julien Dubochet;Swiss lawyer, newspaper editor;
 Q898067;Watch Tower Bible and Tract Society of Pennsylvania;not-for-profit organization headquartered in Wallkill, New York;1884
-Q21093676;;;
-Q1232629;John Murray;English publisher;1768
+Q22695861;;;
 Q14624944;Lambert Schneider Verlag;German publisher;
+Q186225;Mercure de France;French publishing house;1890
+Q2108217;Macmillan Publishers;British publishing company;1843
 Q3117417;Groupe Flammarion;French publisher;1875
+Q2277384;Contact;Dutch publisher;
+Q1368849;Firmin Didot;French businessman;
+Q4453850;Text Publishers;;1988
+Q7800720;Ticknor and Fields;;1854
+Q1587900;Harvard University Press;American university publishing house;1913
+Q301609;Suhrkamp Verlag;German publishing house;1950
+Q1503157;Shakespeare and Company;bookstore;
+Q1305980;Giulio Einaudi editions;Italian publisher;1933
+Q779172;Sdu;Dutch publishing company;1988
+Q14624871;Editorial Garbo;publisher from Barcelona, Spain;
+Q5677798;Harvill Secker;British publishing company;1936
+Q3560313;Vintage Books;publishing imprint of Random House  American to 1990, now international;1954
+Q1815400;;;1814
+Q3752406;;;1870
+Q95145;Allen & Unwin;Australian publishing company;1914
+Q1232629;John Murray;English publisher;1768
+Q11918026;Editorial Selecta;;1946
+Q1251563;Doubleday;American publishing company;1897
+Q744182;Random House;general-interest trade book publisher;1927
+Q821732;Metropol Verlag;German publishing house;1988
+Q82708;Church of England;Christian church in England and the Mother Church of the worldwide Anglican Communion;
+Q2934320;Calmann-Lévy;French publisher;1836
+Q21093676;;;

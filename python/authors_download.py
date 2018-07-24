@@ -284,7 +284,7 @@ class AuthorDownloadThread(threading.Thread):
             
             # ID
 
-            authors_file.write(str(author)+";"+label+";"+description+";"+name+";"+sex+";"+DoB+";"+DoD+"\n")
+            authors_file.write(str(author)+";"+label.replace(";"," ")+";"+description.replace(";"," ")+";"+name.replace(";"," ")+";"+sex+";"+DoB+";"+DoD+"\n")
 
     def join(self):
         Thread.join(self)
@@ -311,10 +311,10 @@ foreword_authors_id_file_path = "../roles/hasForewordAuthor.txt"
 influenced_by_file_path = "../roles/influencedBy.txt"
 place_of_birth_file_path = "../roles/placeOfBirth.txt"
 place_of_death_file_path = "../roles/placeOfDeath.txt"
-file_has_awards_path = "../roles/_Author_has_awards.txt"
-file_has_genres_path = "../roles/_Author_has_genres.txt"
+file_has_awards_path = "../roles/hasAuthorAwards.txt"
+file_has_genres_path = "../roles/hasAuthorGenres.txt"
 processed_humans_file_path = "../tmp/processed_humans.txt"
-file_has_occupation_path = "../roles/_Human_has_occupation.txt"
+file_has_occupation_path = "../roles/hasHumanOccupation.txt"
 has_author_file_path = "../roles/hasAuthor.txt"
 log_file_path = "../log/log_Author.txt"
 

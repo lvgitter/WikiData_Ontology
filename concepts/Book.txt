@@ -1,100 +1,100 @@
 book_id;book_label;book_description;title;subtitle;first_line;series
-Q5825;Lend Me Your Ears;British book by Boris Johnson;Lend Me Your Ears;;;
 Q12826;Froissart's Chronicles;chronicles by Jean Froissart;Froissart's Chronicles;;;
-Q29132;A Pocket Full of Rye;novel by Agatha Christie;A Pocket Full of Rye;;;
-Q31285;Thérèse Desqueyroux;Novel by François Mauriac;Thérèse Desqueyroux;;;
-Q24555;Abramowitz and Stegun;informal name of a mathematical reference work;Handbook of Mathematical Functions with Formulas, Graphs, and Mathematical Tables;;;
-Q8269;The Tale of Genji;classic work of Japanese literature;The Tale of Genji;;いづれの御時にか、女御、更衣あまたさぶらひたまひけるなかに、いとやむごとなき際にはあらぬが、すぐれて時めきたまふありけり。;
-Q470;World Brain;collection of essays by H. G. Wells;World Brain;;;
-Q25555;The Party Journalist;2012 non-fiction book by Patrick Conley;Der parteiliche Journalist;;;
-Q25551;The Running Man;novel;The Running Man;;;
-Q39961;Fervor de Buenos Aires;book of poetry by Jorge Luis Borges;Fervor de Buenos Aires;;;
-Q27321;One Day in the Life of Ivan Denisovich;novel by the Russian author Aleksandr Solzhenitsyn;Один день Ивана Денисовича;;;
-Q8650;10 tips on how to stop killing people and start doing the dishes;Icelandic novel by Hallgrímur Helgasson;10 tips on how to stop killing people and start doing the dishes;;;
-Q31692;Moskof Cariye Hürrem;Turkish novel;Moskof Cariye Hürrem;;;
-Q30613;Windmills of the Gods;novel by Sidney Sheldon;Windmills of the Gods;;;
-Q11829;Hansel and Gretel;fairy tale;Hansel and Gretel;;;
-Q26004;Lehrbuch der Topologie;book;Lehrbuch der Topologie;;;
-Q8563;The Hundred and One Dalmatians;1956 children's novel;The Hundred and One Dalmatians;;;
-Q18725;Lamb: The Gospel According to Biff, Christ's Childhood Pal;novel by Christopher Moore;Lamb: The Gospel According to Biff, Christ's Childhood Pal;;;
-Q27352;The Jesus Dynasty;novel;The Jesus Dynasty;;;
-Q13231;Course in General Linguistics;book compiled by Charles Bally and Albert Sechehaye;Cours de linguistique générale;;;
-Q38213;Such a Long Journey;book by Rohinton Mistry;Such a Long Journey;;;
-Q442;Natural History;encyclopedia published circa AD 77–79 by Pliny the Elder;Naturalis historia;;;
-Q4795;Carry Me Down;2006 novel;Carry Me Down;;;
-Q38564;The Warlock: The Secrets of the Immortal Nicholas Flamel;book;The Warlock: The Secrets of the Immortal Nicholas Flamel;;;The Secrets of the Immortal Nicholas Flamel
-Q35690;I Am a Cat;satirical novel by Natsume Sōseki;吾輩は猫である;;吾輩は猫である。名前はまだ無い。;
-Q22765;Index Librorum Prohibitorum;list of publications prohibited by the Catholic Church;Index Librorum Prohibitorum;;;
-Q23172;Altdeutsches Namenbuch;book of place names;Altdeutsches Namenbuch;;;
-Q29399;The Tower;2008 novel written by Uwe Tellkamp;Der Turm;Geschichte aus einem versunkenen Land;;
-Q4672;English Passengers;2000 historical novel;English Passengers;;;
-Q26505;The Old Man and the Sea;novel by Ernest Hemingway;The Old Man And The Sea;;;
-Q27592;The Psychopathology of Everyday Life;Work by Sigmund Freud;Zur Psychopathologie des Alltagslebens;;;
-Q25435;Social Outsiders in Nazi Germany;2001 non-fiction book. Ed. by Robert Gellately and Nathan Stoltzfus;Social Outsiders in Nazi Germany;;;
-Q40205;Cloud Atlas;David Mitchell's novel;Cloud Atlas;;;
-Q31720;The New Life;novel by Orhan Pamuk;Yeni Hayat;;;
-Q13912;Where the Wild Things Are;1963 children's picture book by Maurice Sendak;Where the Wild Things Are;;;
-Q27451;Underground: The Tokyo Gas Attack and the Japanese Psyche;book by Japanese novelist Haruki Murakami;アンダーグラウンド;;;
-Q27463;Strait is the Gate;novel;Strait is the Gate;;;
-Q25750;The Casual Vacancy;novel by J.K. Rowling;The Casual Vacancy;;;
-Q40185;The Divine Comedy;epic poem by Dante Alighieri;Commedia;;pico;
-Q27544;Mao: The Unknown Story;biography by Jung Chang and Jon Halliday;Mao: The Unknown Story;;;
-Q6911;Diary of Anne Frank;the various published editions of Anne Frank's diaries. For the manuscripts, use Q29571913;Het Achterhuis;;;
-Q8251;The Art of War;ancient Chinese military treatise;The Art of War;;;Seven Military Classics
-Q2222;Uncle Tom's Cabin;anti-slavery novel by Harriet Beecher Stowe;Uncle Tom's Cabin; or, Life Among the Lowly;;;
-Q27462;The Dungeons of the Vatican;novel;The Dungeons of the Vatican;;;
-Q27466;Globalization and Its Discontents;2002 non-fiction book by Joseph E. Stiglitz;Globalization and Its Discontents;;;
-Q11678;The Hunger Games;2008 novel by Suzanne Collins;The Hunger Games;;;The Hunger Games
-Q28306;A Dance with Dragons;novel by George R. R. Martin;A Dance with Dragons;;;A Song of Ice and Fire
-Q38190;Sour Sweet;book;Sour Sweet;;;
-Q31385;The Audacity of Hope;book by Barack Obama;The Audacity of Hope;Thoughts on Reclaiming the American Dream;;
-Q38793;The Abyss;Yourcenar novel;L’Œuvre au noir;;;
-Q25091;Stigma of the Wind;novel series;Stigma of the Wind;;;
-Q4784;Metroland;English novel written by Julian Barnes;Metroland;;;
-Q480;Don Quixote;novel by the Spanish author Miguel de Cervantes Saavedra;El ingenioso hidalgo don Quijote de la Mancha;;En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor.;
+Q5825;Lend Me Your Ears;British book by Boris Johnson;Lend Me Your Ears;;;
 Q27453;The Bible Unearthed;2001 book about the archaeology of Israel and its relationship to the origins of the Hebrew Bible;The Bible Unearthed;;;
-Q23163;A Scientific Romance;novel;A Scientific Romance;;;
-Q36097;The Trial;novel by Franz Kafka;Der Prozess;;Someone must have been telling lies about Joseph K., for without having done anything wrong he was arrested one fine morning.;
-Q18990;Hunminjeongeum;15th century document detailing a new Korean script;훈민정음;;;
-Q29424;Fathers and Sons;novel by Ivan Turgenev;Отцы и дѣти;;;
-Q8014;The MLA Style Manual;academic format of citation made by Modern Language Association of America (MLA);MLA Style Manual and Guide to Scholarly Publishing;;;
+Q38213;Such a Long Journey;book by Rohinton Mistry;Such a Long Journey;;;
 Q31179;The Ballad of Peckham Rye;book by Muriel Spark;The Ballad of Peckham Rye;;;
-Q24402;Pierrette;novel;Pierrette;;;La Comédie humaine
-Q2870;Gone with the Wind;1936 novel by Margaret Mitchell;Gone with the Wind;;;
-Q1845;Bible;collection of sacred books in Judaism and Christianity;Bible;;;
-Q30925;Ten Days that Shook the World;book by John Reed;Ten Days that Shook the World;;;
-Q10202;Travels with a Donkey in the Cévennes;1879 book by Robert Louis Stevenson;Travels with a Donkey in the Cévennes;;;
-Q11191;The World Factbook;reference resource;The World Factbook;;;
 Q29270;Systema Naturae;major work by Carolus Linnaeus;Systema Naturae;;;
-Q6507;Finnegans Wake;comic fiction by James Joyce;Finnegans Wake;;riverrun, past Eve and Adam's, from swerve of shore to bend of bay, brings us by a commodius vicus of recirculation back to Howth Castle and Environs.;
-Q11336;Heart;children's novel;Cuore;;;
-Q36393;The Little Red Book;book of selected statements from speeches and writings by Mao Zedong;The Little Red Book;;;
+Q2222;Uncle Tom's Cabin;anti-slavery novel by Harriet Beecher Stowe;Uncle Tom's Cabin  or, Life Among the Lowly;;;
+Q24596;God Is Not Great;2007 book;God is Not Great;How Religion Poisons Everything;;
 Q26193;The Protocols of the Elders of Zion;antisemitic hoax;Програма завоевания мира евреями;;;
-Q25666;Österreichisches Biographisches Lexikon 1815–1950;Austrian biographical dictionary;Österreichisches Biographisches Lexikon 1815–1950;;;
-Q26541;Dr. No;1958 novel by Ian Fleming;Dr. No;;;James Bond
-Q4710;The Sandman: Endless Nights;graphic novel;The Sandman: Endless Nights;;;The Sandman
-Q28491;The Betrothed;Italian historical novel by Alessandro Manzoni;I promessi sposi;;;
+Q30925;Ten Days that Shook the World;book by John Reed;Ten Days that Shook the World;;;
+Q38190;Sour Sweet;book;Sour Sweet;;;
+Q28754;Paradise Lost;epic poem;Paradise Lost;;Of Mans First Disobedience, and the Fruit;
+Q18725;Lamb: The Gospel According to Biff, Christ's Childhood Pal;novel by Christopher Moore;Lamb: The Gospel According to Biff, Christ's Childhood Pal;;;
+Q480;Don Quixote;novel by the Spanish author Miguel de Cervantes Saavedra;El ingenioso hidalgo don Quijote de la Mancha;;En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor.;
+Q13912;Where the Wild Things Are;1963 children's picture book by Maurice Sendak;Where the Wild Things Are;;;
+Q10202;Travels with a Donkey in the Cévennes;1879 book by Robert Louis Stevenson;Travels with a Donkey in the Cévennes;;;
+Q1845;Bible;collection of sacred books in Judaism and Christianity;Bible;;;
+Q39961;Fervor de Buenos Aires;book of poetry by Jorge Luis Borges;Fervor de Buenos Aires;;;
+Q8563;The Hundred and One Dalmatians;1956 children's novel;The Hundred and One Dalmatians;;;
+Q24402;Pierrette;novel;Pierrette;;;La Comédie humaine
+Q27544;Mao: The Unknown Story;biography by Jung Chang and Jon Halliday;Mao: The Unknown Story;;;
 Q20124;On the Origin of Species;book by Charles Darwin;On the Origin of Species by Means of Natural Selection, or the Preservation of Favoured Races in the Struggle for Life;;;
-Q8369;The Compendious Book on Calculation by Completion and Balancing;mathematical book written in Arabic;The Compendious Book on Calculation by Completion and Balancing;;;
-Q33787;The Adventurer;novel;The Adventurer;;;
 Q38187;The Night Watch;book;The Night Watch;;;
-Q32594;Franz Kafka: The Office Writings;book;Franz Kafka: The Office Writings;;;
+Q25091;Stigma of the Wind;novel series;Stigma of the Wind;;;
+Q2870;Gone with the Wind;1936 novel by Margaret Mitchell;Gone with the Wind;;;
+Q38793;The Abyss;Yourcenar novel;L’Œuvre au noir;;;
+Q25666;Österreichisches Biographisches Lexikon 1815–1950;Austrian biographical dictionary;Österreichisches Biographisches Lexikon 1815–1950;;;
+Q31692;Moskof Cariye Hürrem;Turkish novel;Moskof Cariye Hürrem;;;
+Q8279;Shahnameh;long epic Persian poem written by Ferdowsi;شاهنامه;;به نام خداوند جان و خرد کزین برتر اندیشه برنگذرد;
+Q36393;The Little Red Book;book of selected statements from speeches and writings by Mao Zedong;The Little Red Book;;;
+Q8014;The MLA Style Manual;academic format of citation made by Modern Language Association of America (MLA);MLA Style Manual and Guide to Scholarly Publishing;;;
+Q27592;The Psychopathology of Everyday Life;Work by Sigmund Freud;Zur Psychopathologie des Alltagslebens;;;
+Q29424;Fathers and Sons;novel by Ivan Turgenev;Отцы и дѣти;;;
+Q31385;The Audacity of Hope;book by Barack Obama;The Audacity of Hope;Thoughts on Reclaiming the American Dream;;
+Q11678;The Hunger Games;2008 novel by Suzanne Collins;The Hunger Games;;;The Hunger Games
+Q27331;The Beast in the Jungle;novella;The Beast in the Jungle;;;
+Q6911;Diary of Anne Frank;the various published editions of Anne Frank's diaries. For the manuscripts, use Q29571913;Het Achterhuis;;;
+Q27462;The Dungeons of the Vatican;novel;The Dungeons of the Vatican;;;
+Q40185;The Divine Comedy;epic poem by Dante Alighieri;Commedia;;pico;
+Q25555;The Party Journalist;2012 non-fiction book by Patrick Conley;Der parteiliche Journalist;;;
+Q31285;Thérèse Desqueyroux;Novel by François Mauriac;Thérèse Desqueyroux;;;
+Q13231;Course in General Linguistics;book compiled by Charles Bally and Albert Sechehaye;Cours de linguistique générale;;;
+Q8650;10 tips on how to stop killing people and start doing the dishes;Icelandic novel by Hallgrímur Helgasson;10 tips on how to stop killing people and start doing the dishes;;;
+Q38564;The Warlock: The Secrets of the Immortal Nicholas Flamel;book;The Warlock: The Secrets of the Immortal Nicholas Flamel;;;The Secrets of the Immortal Nicholas Flamel
+Q11829;Hansel and Gretel;fairy tale;Hansel and Gretel;;;
+Q6507;Finnegans Wake;comic fiction by James Joyce;Finnegans Wake;;riverrun, past Eve and Adam's, from swerve of shore to bend of bay, brings us by a commodius vicus of recirculation back to Howth Castle and Environs.;
+Q4710;The Sandman: Endless Nights;graphic novel;The Sandman: Endless Nights;;;The Sandman
+Q8269;The Tale of Genji;classic work of Japanese literature;The Tale of Genji;;いづれの御時にか、女御、更衣あまたさぶらひたまひけるなかに、いとやむごとなき際にはあらぬが、すぐれて時めきたまふありけり。;
+Q26541;Dr. No;1958 novel by Ian Fleming;Dr. No;;;James Bond
+Q27321;One Day in the Life of Ivan Denisovich;novel by the Russian author Aleksandr Solzhenitsyn;Один день Ивана Денисовича;;;
+Q13911;A Prayer for Owen Meany;novel by John Irving;A Prayer for Owen Meany;;;
+Q470;World Brain;collection of essays by H. G. Wells;World Brain;;;
+Q4795;Carry Me Down;2006 novel;Carry Me Down;;;
+Q28491;The Betrothed;Italian historical novel by Alessandro Manzoni;I promessi sposi;;;
+Q27451;Underground: The Tokyo Gas Attack and the Japanese Psyche;book by Japanese novelist Haruki Murakami;アンダーグラウンド;;;
+Q721;Life, the Universe and Everything;1982 book by Douglas Adams;Life, the Universe and Everything;;;The Hitchhiker's Guide to the Galaxy pentalogy
+Q4791;The Story of Lucy Gault;2002 novel;The Story of Lucy Gault;;;
+Q35690;I Am a Cat;satirical novel by Natsume Sōseki;吾輩は猫である;;吾輩は猫である。名前はまだ無い。;
+Q31720;The New Life;novel by Orhan Pamuk;Yeni Hayat;;;
+Q25435;Social Outsiders in Nazi Germany;2001 non-fiction book. Ed. by Robert Gellately and Nathan Stoltzfus;Social Outsiders in Nazi Germany;;;
+Q28172;World War Z;horror novel written by Max Brooks;World War Z;An Oral History of the Zombie War;;
+Q428;Quran;the central religious text of Islam;Quran;;;
+Q32136;The Colour of Magic;Discworld novel by Terry Pratchett;The Colour of Magic;;;Rincewind
+Q26085;The Day of the Jackal;novel by Frederick Forsyth;The Day of the Jackal;;;
+Q24555;Abramowitz and Stegun;informal name of a mathematical reference work;Handbook of Mathematical Functions with Formulas, Graphs, and Mathematical Tables;;;
+Q11191;The World Factbook;reference resource;The World Factbook;;;
+Q442;Natural History;encyclopedia published circa AD 77–79 by Pliny the Elder;Naturalis historia;;;
+Q33787;The Adventurer;novel;The Adventurer;;;
+Q30613;Windmills of the Gods;novel by Sidney Sheldon;Windmills of the Gods;;;
 Q28772;Ming Shilu;imperial annals of Ming dynasty emperors;Ming Shilu;;;
 Q31137;O alienista;novella by Machado de Assis;O alienista;;;
-Q13911;A Prayer for Owen Meany;novel by John Irving;A Prayer for Owen Meany;;;
-Q24323;Seven Pillars of Wisdom;autobiography of British soldier T. E. Lawrence;Seven Pillars of Wisdom;A Triumph;;
-Q428;Quran;the central religious text of Islam;Quran;;;
 Q4804;Oxygen;novel by Andrew Miller;Oxygen;;;
-Q4791;The Story of Lucy Gault;2002 novel;The Story of Lucy Gault;;;
-Q8279;Shahnameh;long epic Persian poem written by Ferdowsi;شاهنامه;;به نام خداوند جان و خرد کزین برتر اندیشه برنگذرد;
-Q24596;God Is Not Great;2007 book;God is Not Great;How Religion Poisons Everything;;
-Q28172;World War Z;horror novel written by Max Brooks;World War Z;An Oral History of the Zombie War;;
-Q447;Encyclopédie;general encyclopedia published in France between 1751 and 1772;Encyclopédie;;;
-Q28754;Paradise Lost;epic poem;Paradise Lost;;Of Mans First Disobedience, and the Fruit;
-Q26085;The Day of the Jackal;novel by Frederick Forsyth;The Day of the Jackal;;;
-Q27331;The Beast in the Jungle;novella;The Beast in the Jungle;;;
-Q721;Life, the Universe and Everything;1982 book by Douglas Adams;Life, the Universe and Everything;;;The Hitchhiker's Guide to the Galaxy pentalogy
-Q27775;The Village of Stepanchikovo;novel by Fyodor Dostoyevsky;Село Степанчиково и его обитатели;;;
-Q32136;The Colour of Magic;Discworld novel by Terry Pratchett;The Colour of Magic;;;Rincewind
-Q6511;Ulysses;novel by the Irish author James Joyce;Ulysses;;Stately, plump Buck Mulligan came from the stairhead, bearing a bowl of lather on which a mirror and a razor lay crossed.;
+Q27463;Strait is the Gate;novel;Strait is the Gate;;;
+Q27352;The Jesus Dynasty;novel;The Jesus Dynasty;;;
+Q8251;The Art of War;ancient Chinese military treatise;The Art of War;;;Seven Military Classics
+Q22765;Index Librorum Prohibitorum;list of publications prohibited by the Catholic Church;Index Librorum Prohibitorum;;;
+Q11336;Heart;children's novel;Cuore;;;
+Q8369;The Compendious Book on Calculation by Completion and Balancing;mathematical book written in Arabic;The Compendious Book on Calculation by Completion and Balancing;;;
+Q26505;The Old Man and the Sea;novel by Ernest Hemingway;The Old Man And The Sea;;;
 Q8265;Dream of the Red Chamber;One of China's Four Great Classical Novels;红楼梦;;卻說那女媧氏煉石補天之時，於大荒山無稽崖煉成高十二丈、見方二十四丈大的頑石三萬六千五百零一塊。那媧皇只用了三萬六千五百塊，單單剩下一塊未用，棄在青埂峰下。誰知此石自經鍛煉之後，靈性已通，自去自來，可大可小。因見眾石俱得補天，獨自己無才，不得入選，遂自怨自愧，日夜悲哀。;
+Q29132;A Pocket Full of Rye;novel by Agatha Christie;A Pocket Full of Rye;;;
+Q24323;Seven Pillars of Wisdom;autobiography of British soldier T. E. Lawrence;Seven Pillars of Wisdom;A Triumph;;
+Q28306;A Dance with Dragons;novel by George R. R. Martin;A Dance with Dragons;;;A Song of Ice and Fire
+Q27775;The Village of Stepanchikovo;novel by Fyodor Dostoyevsky;Село Степанчиково и его обитатели;;;
+Q36097;The Trial;novel by Franz Kafka;Der Prozess;;Someone must have been telling lies about Joseph K., for without having done anything wrong he was arrested one fine morning.;
+Q40205;Cloud Atlas;David Mitchell's novel;Cloud Atlas;;;
+Q26004;Lehrbuch der Topologie;book;Lehrbuch der Topologie;;;
+Q447;Encyclopédie;general encyclopedia published in France between 1751 and 1772;Encyclopédie;;;
+Q18990;Hunminjeongeum;15th century document detailing a new Korean script;훈민정음;;;
+Q25750;The Casual Vacancy;novel by J.K. Rowling;The Casual Vacancy;;;
+Q23172;Altdeutsches Namenbuch;book of place names;Altdeutsches Namenbuch;;;
+Q6511;Ulysses;novel by the Irish author James Joyce;Ulysses;;Stately, plump Buck Mulligan came from the stairhead, bearing a bowl of lather on which a mirror and a razor lay crossed.;
+Q4672;English Passengers;2000 historical novel;English Passengers;;;
+Q4784;Metroland;English novel written by Julian Barnes;Metroland;;;
+Q27466;Globalization and Its Discontents;2002 non-fiction book by Joseph E. Stiglitz;Globalization and Its Discontents;;;
+Q23163;A Scientific Romance;novel;A Scientific Romance;;;
+Q32594;Franz Kafka: The Office Writings;book;Franz Kafka: The Office Writings;;;
+Q25551;The Running Man;novel;The Running Man;;;
+Q29399;The Tower;2008 novel written by Uwe Tellkamp;Der Turm;Geschichte aus einem versunkenen Land;;

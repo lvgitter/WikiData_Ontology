@@ -126,7 +126,7 @@ class myThread(threading.Thread):
                 
             file_out_lock.acquire()
             file_out.write(
-                edition_id + ";" + label + ";" + description + "\n")
+                edition_id + ";" + label.replace(";", " ") + ";" + description.replace(";", " ") + "\n")
             file_out_lock.release()
 
     def join(self):

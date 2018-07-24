@@ -1,17 +1,17 @@
-2018-07-24 16:18:13
+2018-07-24 17:27:58
 
-Number of cities: 259
+Number of cities: 280
 
 
 *** STATISTICS *** 
-no population   :86  (33.0 %) 
+no population   :87  (31.0 %) 
 no area         :0  (0.0 %) 
-no label        :0  (0.0 %) 
+no label        :1  (0.0 %) 
 no description  :0  (0.0 %) 
-no country      :0  (0.0 %) 
-no mayor        :225  (87.0 %) 
+no country      :1  (0.0 %) 
+no mayor        :238  (85.0 %) 
 fictional       :0  (0.0 %) 
-Total_time:	8.06 sec
+Total_time:	8.76 sec
 Number of cities: 8
 
 
@@ -23,4 +23,4 @@ no description  :0  (0.0 %)
 no country      :0  (0.0 %) 
 no mayor        :8  (100.0 %) 
 fictional       :0  (0.0 %) 
-Total_time:	0.37 sec
+Total_time:	0.32 sec

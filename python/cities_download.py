@@ -156,7 +156,7 @@ class myThread (threading.Thread):
 
                 
             file_real_lock.acquire()
-            file_real_city.write(city_id + ";" + label + ";" + description + ";" + area + ";" + population + "\n")
+            file_real_city.write(city_id + ";" + label.replace(";", " ") + ";" + description.replace(";", " ") + ";" + area.replace(";", " ") + ";" + population.replace(";", " ") + "\n")
             file_real_lock.release()
 
    def join(self):
