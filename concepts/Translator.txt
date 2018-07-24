@@ -1,0 +1,46 @@
+human_id;human_label;human_description;human_name;human_sex;human_DoB;human_DoD
+ubleday;female;+1919-03-11T00:00:00Z;
+Q18197843;Charles Torquet;;Charles Torquet;male;+1864-05-05T00:00:00Z;+1938-04-23T00:00:00Z
+Q14624887;Arrigo de Vita;Italian writer;Arrigo de Vita;male;;
+Q14624850;Tylia Caren;French translator;Tylia Caren;female;;
+Q71467;Hans Wollschläger;German writer;Hans Wollschläger;male;+1935-03-17T00:00:00Z;+2007-05-19T00:00:00Z
+Q332780;Robert of Ketton;English theologian, astronomer and Arabist;Robert of Ketton;male;+1110-00-00T00:00:00Z;+1160-00-00T00:00:00Z
+Q59188;Lionel Giles;British scholar and translator;Lionel Giles;male;+1875-12-29T00:00:00Z;+1958-01-22T00:00:00Z
+Q18036076;Antoni Robert Stanisławski;;Antoni Robert Stanisławski;male;+1817-01-01T00:00:00Z;+1883-01-01T00:00:00Z
+Q18117918;Louise Swanton-Belloc;;Anne-Louise Chassériau Swanton;female;+1796-10-01T00:00:00Z;+1881-11-06T00:00:00Z
+Q15072522;Dmitri Egorovitch Min;;Дмитрий Егорович Мин;male;+1818-03-27T00:00:00Z;+1885-10-30T00:00:00Z
+Q18197319;Léon Bocquet;;Léon Bocquet;male;+1876-01-01T00:00:00Z;+1954-01-01T00:00:00Z
+Q566194;Anneliese Schütz;German translator;Anneliese Schütz;female;+1900-01-01T00:00:00Z;+2000-01-01T00:00:00Z
+Q23296908;A. Moulharac;;A. Moulharac;;;
+Q9251137;Edward Porębowicz;;Edward Porębowicz;male;+1862-02-20T00:00:00Z;+1937-08-24T00:00:00Z
+Q152513;Henry Wadsworth Longfellow;American poet;Henry Wadsworth Longfellow;male;+1807-02-27T00:00:00Z;+1882-03-24T00:00:00Z
+Q10429320;Royal Bible Commission;Swedish Bible translation organization;Royal Bible Commission;;;
+Q4391279;Sergey Rachinsky;Russian mathematician;Sergey Rachinsky;male;+1833-05-02T00:00:00Z;+1902-05-02T00:00:00Z
+Q16029878;Dagobert von Mikusch;;Dagobert von Mikusch;male;+1874-01-01T00:00:00Z;+1950-01-01T00:00:00Z
+Q3156735;J.-Wladimir Bienstock;French writer and translator;J.-Wladimir Bienstock;male;+1868-01-01T00:00:00Z;+1933-03-12T00:00:00Z
+Q3037160;Dorothy Bussy;English novelist and translator;Dorothy Bussy;female;+1865-07-24T00:00:00Z;+1960-05-01T00:00:00Z
+Q334973;Hugues Felicité Robert de Lamennais;French priest, philosopher and political theorist;Hugues Felicité Robert de Lamennais;male;+1782-06-19T00:00:00Z;+1854-02-27T00:00:00Z
+Q16964476;Edmond Barbier;French writer and translator;Edmond Barbier;male;+1834-01-01T00:00:00Z;+1880-09-29T00:00:00Z
+Q1040724;Carl Streckfuß;German translator;Carl Streckfuß;male;+1779-09-20T00:00:00Z;+1844-07-26T00:00:00Z
+Q1294115;Tomislav Dretar;Croatian writer and politician;Tomislav Dretar;male;+1945-03-02T00:00:00Z;
+Q6251314;John Ormsby;British translator;John Ormsby;male;+1829-01-01T00:00:00Z;+1895-01-01T00:00:00Z
+Q9066286;Ramon Folch i Camarasa;Spanish writer and translator;Ramon Folch i Camarasa;male;+1926-10-30T00:00:00Z;
+Q473257;George Coșbuc;Romanian poet, translator, teacher, and journalist;George Coșbuc;male;+1866-09-20T00:00:00Z;+1918-05-09T00:00:00Z
+Q14624853;Suzanne Lombard;French translator;Suzanne Lombard;female;+1950-01-01T00:00:00Z;
+Q15631816;José Pedro Xavier Pinheiro;;José Pedro Xavier Pinheiro;male;+1822-10-12T00:00:00Z;+1882-10-20T00:00:00Z
+Q64395;Heinrich Georg Bronn;German scientist;Heinrich Georg Bronn;male;+1800-03-03T00:00:00Z;+1862-07-05T00:00:00Z
+Q1903409;Martin Beheim-Schwarzbach;author, chess player;Martin Beheim-Schwarzbach;male;+1900-04-27T00:00:00Z;+1985-05-07T00:00:00Z
+Q1019741;Unity of the Brethren;religious denomination;Unity of the Brethren;;;
+Q14624870;María Isabel Iglesias;Spanish translator;María Isabel Iglesias;female;;
+Q3616238;Andreu Febrer;Spanish poet and diplomat;Andreu Febrer;male;+1375-01-01T00:00:00Z;+1440-01-01T00:00:00Z
+Q16598134;Manuel Aranda San Juan;Spanish writer (1845-1900);Manuel Aranda San Juan;male;+1845-00-00T00:00:00Z;+1900-00-00T00:00:00Z
+Q2834417;Alexis-François Artaud De Montor;French historian;Alexis-François Artaud de Montor;male;+1772-07-31T00:00:00Z;+1849-11-12T00:00:00Z
+Q17778060;Jože Debevec;;Jože Debevec;male;+1867-03-15T00:00:00Z;+1938-10-05T00:00:00Z
+Q2712746;Arthur John Arberry;British orientalist, scholar of Arabic, Persian & Islamic studies;Arthur John Arberry;male;+1905-05-12T00:00:00Z;+1969-10-02T00:00:00Z
+Q12022556;Jan Hejčl;Czech professor, translator, theologist, university educator and roman catholic priest;Jan Hejčl;male;+1868-05-15T00:00:00Z;+1935-02-05T00:00:00Z
+Q203952;Antoine de Rivarol;French writer;Antoine de Rivarol;male;+1753-06-26T00:00:00Z;+1801-04-11T00:00:00Z
+Q44248;Jerome;Catholic saint and Doctor of the Church;Jerome;male;+0345-00-00T00:00:00Z;+0420-09-30T00:00:00Z
+Q5659344;Philemon Holland;English schoolmaster, physician, and Classics translator;Philemon Holland;male;+1552-01-01T00:00:00Z;+1637-02-09T00:00:00Z
+Q22695858;David Friedrich Megerlin;;David Friedrich Megerlin;male;;+1778-00-00T00:00:00Z
+Q584292;Louis Viardot;French literary critic, impresario and translator;Louis Viardot;male;+1800-07-31T00:00:00Z;+1883-05-05T00:00:00Z
+Q286107;Émile Littré;French lexicographer and philosopher;Émile Littré;male;+1801-02-01T00:00:00Z;+1881-06-02T00:00:00Z
