@@ -1,84 +1,84 @@
 character_id;character_label;character_description;character_name;character_sex;character_DoB;character_DoD
-Q208256;Diomedes;hero in Greek mythology;Diomedes;male;;
-Q183417;Chiron;centaur, figure from Greek mythology;Chiron;male;;
-Q647496;Linus;son of Apollo and Urrania;Linus;male;;
-Q2362299;Rhett Butler;fictional character from Gone with the Wind by Margaret Mitchell;Rhett Butler;male;;
-Q129866;Minotaur;creature of Greek mythology;Μῑνώταυρος;male;;
-Q669992;Rincewind;fictional character;Rincewind;male;;
-Q721135;Azazel;old ritual, later - demon;Azazel;male;;
-Q830183;Eve;biblical figure;Eve;female;-3760-00-00T00:00:00Z;
-Q474962;Amphisbaena;mythological serpent;Amphisbaena;;;
-Q9077;Moses;person, mentioned in the Torah (Pentateuch) and in the Quran, who led the Israelites out of slavery in Egypt to Canaan;מֹשֶׁה;male;-1393-00-00T00:00:00Z;-1273-00-00T00:00:00Z
-Q6113413;Rucio;;Rucio;;;
-Q3749188;;;;male;;
-Q3713482;Don Abbondio;One of the main characters of The Betrothed, the best known novel by Alessandro Manzoni.;Don Abbondio;;;
-Q382610;Fionn mac Cumhaill;;Fionn mac Cumhaill;male;;
-Q174353;Orpheus;legendary musician, poet, and prophet in ancient Greek religion and myth;Orpheus;male;;
-Q220822;Esau;older son of Isaac in the Hebrew Bible;Esau;male;-1653-00-00T00:00:00Z;-1506-00-00T00:00:00Z
-Q671872;Isaac;Biblical character;Isaac;male;-1713-00-00T00:00:00Z;-1533-00-00T00:00:00Z
-Q250506;Tydeus;figure in Greek mythology;Tydeus;male;;
-Q192673;Iphigenia;figure from Greek mythology;Iphigenia;female;;
-Q4221831;;;;male;+1815-00-00T00:00:00Z;
-Q26492768;Modestine;fictional donkey from Stevenson's Travels with a Donkey in the Cévennes;Modestine;unknown;;
-Q275010;Moloch;Biblical name of a Canaanite god;Moloch;male;;
-Q70899;Adam;biblical figure in the Book of Genesis;Adam;male;-3760-00-00T00:00:00Z;-2831-00-00T00:00:00Z
-Q849647;Briareus;one of the Hundred-Handers;Briareus;male;;
-Q725527;Calchas;mythical character;Calchas;male;;
-Q180262;Erinyes;group of fictional characters;Erinyes;;;
-Q41746;Achilles;Greek mythological hero;Achilles;male;;
-Q330584;Amphiaraus;mythical character;Ἀμφιάραος;male;;
-Q334817;Polynices;mythological prince of Thebes;Polynices;male;;
-Q223805;Angra Mainyu;personification of the "destructive spirit" in Zoroastrianism;Angra Mainyu;;;
-Q81989;Gabriel;angel in Abrahamic religions;Gabriel;male;;
-Q1135632;Rahab;biblical figure;Rahab;female;;
-Q815594;Belial;Christian demon;Belial;;;
-Q186350;God the Father;;God the Father;male;;
-Q176758;Jason;Greek mythological hero;Jason;male;;
-Q83496;Cerberus;guardian of Hell;Cerberus;unknown;;
-Q272006;Antaeus;character in Greek and Berber mythology;Antaeus;male;;
-Q6612;Charon;ferryman of Hades;Χάρων;male;;
 Q3888810;;;;;;
-Q81422;Noah;Biblical figure;Noah;male;-2705-00-00T00:00:00Z;-1755-00-00T00:00:00Z
-Q47231;Odysseus;legendary Greek king of Ithaca;Odysseus;male;;
-Q572381;Iseult;lover of Tristan in the Arthurian legend;Iseult;female;;
-Q335367;Tristan and Iseult;medieval romance related to the Arthurian legends;Tristan and Iseult;;;
-Q571969;Antenor;mythical character;Antenor;male;;
-Q159666;Hector;Greek mythological hero;Hector;male;;
-Q663792;Sinon;mythical character;Sinon;male;;
-Q82732;Aeneas;Trojan hero in Greco-Roman mythology;Αινείας;male;;
-Q181360;Harpies;group of harpies in the Greek mythology;Harpies;;;
-Q131651;Elektra;figure from Greek mythology;Elektra;female;;
-Q1334087;Phyllis;Character in Greek mythology;Phyllis;female;;
 Q23168;Minos;mythological king of Crete;Minos;male;;
-Q905162;Dido;founder of Carthage;Dido;female;-0839-00-00T00:00:00Z;-0759-00-00T00:00:00Z
-Q771366;Myrrha;character in Greek mythology;Myrrha;female;;
-Q954012;Tristan;Cornish knight of the Round Table Arthurian legend;Tristan;male;+0535-01-01T00:00:00Z;+0585-01-01T00:00:00Z
-Q466866;Nessus;centaur in Greek mythology;Nessus;;;
-Q164061;Helen of Troy;daughter of Zeus in Greek Mythology;Helen of Troy;female;;
-Q289957;Jacob;third patriarch of the Hebrew people with whom God made a covenant;Jacob;male;-1653-00-00T00:00:00Z;-1506-00-00T00:00:00Z
-Q35230;Satan;Christian devil;Satan;male;;
-Q754686;Cacus;fire breathing giant in Roman mythology;Cacus;male;;
-Q3687891;;;;;;
-Q1141210;God the Son;term for Jesus within Christian trinity doctrine;God the Son;;;
-Q205251;Plutus;mythical character;Plutus;male;;
-Q506550;Eteocles;mythological king of Thebes;Eteocles;male;;
-Q1918252;Rocinante;;Rocinante;unknown;;
-Q205365;Cain;Biblical figure;Cain;male;;
+Q345;Mary;religious figure and mother of Jesus of Nazareth;Mary;female;-0100-00-00T00:00:00Z;+0100-00-00T00:00:00Z
+Q272006;Antaeus;character in Greek and Berber mythology;Antaeus;male;;
+Q180262;Erinyes;group of fictional characters;Erinyes;;;
 Q431387;Deidamia;;Deidamia;female;;
+Q176758;Jason;Greek mythological hero;Jason;male;;
 Q8347121;jaculus;mythological serpent;jaculus;;;
+Q205251;Plutus;mythical character;Plutus;male;;
+Q35230;Satan;Christian devil;Satan;male;;
+Q205365;Cain;Biblical figure;Cain;male;;
+Q41746;Achilles;Greek mythological hero;Achilles;male;;
+Q725527;Calchas;mythical character;Calchas;male;;
+Q47231;Odysseus;legendary Greek king of Ithaca;Odysseus;male;;
+Q7734;Joshua;figure in the Torah;Joshua;male;-1355-00-00T00:00:00Z;-1245-00-00T00:00:00Z
+Q1334087;Phyllis;Character in Greek mythology;Phyllis;female;;
+Q159666;Hector;Greek mythological hero;Hector;male;;
+Q41410;Hades;Greek god of the underworld in Greek mythology;Hades;male;;
+Q905162;Dido;founder of Carthage;Dido;female;-0839-00-00T00:00:00Z;-0759-00-00T00:00:00Z
+Q466866;Nessus;centaur in Greek mythology;Nessus;;;
+Q56951;Raphael;Archangel featuring in Book of Tobit;Raphael;male;;
+Q174353;Orpheus;legendary musician, poet, and prophet in ancient Greek religion and myth;Orpheus;male;;
+Q382610;Fionn mac Cumhaill;;Fionn mac Cumhaill;male;;
+Q3749188;;;;male;;
 Q3713591;Don Rodrigo;;Don Rodrigo;male;;
+Q671872;Isaac;Biblical character;Isaac;male;-1713-00-00T00:00:00Z;-1533-00-00T00:00:00Z
+Q754686;Cacus;fire breathing giant in Roman mythology;Cacus;male;;
+Q220822;Esau;older son of Isaac in the Hebrew Bible;Esau;male;-1653-00-00T00:00:00Z;-1506-00-00T00:00:00Z
+Q771366;Myrrha;character in Greek mythology;Myrrha;female;;
+Q830183;Eve;biblical figure;Eve;female;-3760-00-00T00:00:00Z;
+Q1135632;Rahab;biblical figure;Rahab;female;;
+Q6113413;Rucio;;Rucio;;;
+Q815594;Belial;Christian demon;Belial;;;
+Q86805;Geryon;;Geryon;male;;
+Q183417;Chiron;centaur, figure from Greek mythology;Chiron;male;;
+Q81422;Noah;Biblical figure;Noah;male;-2705-00-00T00:00:00Z;-1755-00-00T00:00:00Z
+Q192673;Iphigenia;figure from Greek mythology;Iphigenia;female;;
+Q334817;Polynices;mythological prince of Thebes;Polynices;male;;
+Q330584;Amphiaraus;mythical character;Ἀμφιάραος;male;;
+Q167646;Paris;son of Priam, king of Troy;Paris;male;;
+Q669992;Rincewind;fictional character;Rincewind;male;;
+Q572381;Iseult;lover of Tristan in the Arthurian legend;Iseult;female;;
+Q9077;Moses;person, mentioned in the Torah (Pentateuch) and in the Quran, who led the Israelites out of slavery in Egypt to Canaan;מֹשֶׁה;male;-1393-00-00T00:00:00Z;-1273-00-00T00:00:00Z
+Q208256;Diomedes;hero in Greek mythology;Diomedes;male;;
+Q1141210;God the Son;term for Jesus within Christian trinity doctrine;God the Son;;;
+Q129866;Minotaur;creature of Greek mythology;Μῑνώταυρος;male;;
+Q250506;Tydeus;figure in Greek mythology;Tydeus;male;;
+Q186350;God the Father;;God the Father;male;;
+Q3687891;;;;;;
+Q26492768;Modestine;fictional donkey from Stevenson's Travels with a Donkey in the Cévennes;Modestine;unknown;;
+Q83496;Cerberus;guardian of Hell;Cerberus;unknown;;
+Q647496;Linus;son of Apollo and Urrania;Linus;male;;
+Q1918252;Rocinante;;Rocinante;unknown;;
 Q4221833;;;;male;;
 Q833806;Capaneus;son of Hipponous in Greek mythology;Capaneus;male;;
-Q7734;Joshua;figure in the Torah;Joshua;male;-1355-00-00T00:00:00Z;-1245-00-00T00:00:00Z
-Q128176;Agamemnon;figure from Greek mythology;Agamemnon;male;;
-Q1200843;Zahhak;mythological serpent;Zahhak;male;;
 Q379828;Penthesilea;mythical character;Penthesilea;female;;
-Q779406;Latinus;mythical character;Latinus;male;;
-Q41410;Hades;Greek god of the underworld in Greek mythology;Hades;male;;
-Q167646;Paris;son of Priam, king of Troy;Paris;male;;
-Q831583;Phlegyas;king of the Lapiths in Greek mythology;Phlegyas;male;;
-Q345;Mary;religious figure and mother of Jesus of Nazareth;Mary;female;-0100-00-00T00:00:00Z;+0100-00-00T00:00:00Z
-Q86805;Geryon;;Geryon;male;;
+Q954012;Tristan;Cornish knight of the Round Table Arthurian legend;Tristan;male;+0535-01-01T00:00:00Z;+0585-01-01T00:00:00Z
+Q721135;Azazel;old ritual, later - demon;Azazel;male;;
+Q289957;Jacob;third patriarch of the Hebrew people with whom God made a covenant;Jacob;male;-1653-00-00T00:00:00Z;-1506-00-00T00:00:00Z
+Q4221831;;;;male;+1815-00-00T00:00:00Z;
+Q81989;Gabriel;angel in Abrahamic religions;Gabriel;male;;
+Q1200843;Zahhak;mythological serpent;Zahhak;male;;
+Q181360;Harpies;group of harpies in the Greek mythology;Harpies;;;
+Q335367;Tristan and Iseult;medieval romance related to the Arthurian legends;Tristan and Iseult;;;
 Q45581;Michael;archangel in Jewish, Christian, and Islamic teachings;Michael;male;;
+Q831583;Phlegyas;king of the Lapiths in Greek mythology;Phlegyas;male;;
+Q82732;Aeneas;Trojan hero in Greco-Roman mythology;Αινείας;male;;
+Q663792;Sinon;mythical character;Sinon;male;;
+Q6612;Charon;ferryman of Hades;Χάρων;male;;
+Q128176;Agamemnon;figure from Greek mythology;Agamemnon;male;;
+Q131651;Elektra;figure from Greek mythology;Elektra;female;;
 Q185498;Lucifer;another name for Satan or  the name for the "Morning star" (the planet Venus, or other stars);Lucifer;male;;
-Q56951;Raphael;Archangel featuring in Book of Tobit;Raphael;male;;
+Q571969;Antenor;mythical character;Antenor;male;;
+Q70899;Adam;biblical figure in the Book of Genesis;Adam;male;-3760-00-00T00:00:00Z;-2831-00-00T00:00:00Z
+Q275010;Moloch;Biblical name of a Canaanite god;Moloch;male;;
+Q2362299;Rhett Butler;fictional character from Gone with the Wind by Margaret Mitchell;Rhett Butler;male;;
+Q779406;Latinus;mythical character;Latinus;male;;
+Q849647;Briareus;one of the Hundred-Handers;Briareus;male;;
+Q474962;Amphisbaena;mythological serpent;Amphisbaena;;;
+Q164061;Helen of Troy;daughter of Zeus in Greek Mythology;Helen of Troy;female;;
+Q223805;Angra Mainyu;personification of the "destructive spirit" in Zoroastrianism;Angra Mainyu;;;
+Q506550;Eteocles;mythological king of Thebes;Eteocles;male;;
+Q3713482;Don Abbondio;One of the main characters of The Betrothed, the best known novel by Alessandro Manzoni.;Don Abbondio;;;

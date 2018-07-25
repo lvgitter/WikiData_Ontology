@@ -1,41 +1,41 @@
 language_id;language_label;language_description;speakers
-Q5364419;Early Modern Spanish;variety of Spanish used in the sixteenth and seventeenth centuries;
-Q9168;Persian;Indo-European language;52939220
-Q7411;Dutch;West Germanic language;24000000
-Q256;Turkish;Turkic language (possibly Altaic);71435850
-Q652;Italian;Romance language;63413657
-Q7976;American English;set of dialects of the English language spoken in the US;
-Q1860;English;West Germanic language originating in England with linguistic roots in French, German and Vulgar Latin;339370920
-Q7850;Chinese;family of languages;1299877520
-Q13955;Arabic;Semitic language;313177600
-Q397;Latin;Indo-European language of the Italic family;100
-Q188;German;West Germanic language;105000000
-Q5146;Portuguese;Romanic language originated in Portugal;202225450
-Q37041;Classical Chinese;language of the Sino-Tibetan language family (ISO 639-3: lzh);
-Q182695;Late Old Japanese;extinct language;
-Q7737;Russian;East Slavic language;171428900
 Q1472196;Early Modern English;stage of development of English, starting c. 16th century;0
-Q107358;Koine Greek;common dialect of Greek spoken and written in the ancient world;
-Q1654327;Classical Arabic;form of the Arabic language used in Umayyad and Abbasid literary texts;
-Q1412;Finnish;language arising and mostly spoken in Finland, of the Finnic family;5413380
-Q1321;Spanish;Romance language;470000000
-Q1982248;Biblical Hebrew;stage of the Hebrew language written and spoken during the composition of the Bible;
+Q5364419;Early Modern Spanish;variety of Spanish used in the sixteenth and seventeenth centuries;
+Q7737;Russian;East Slavic language;171428900
 Q28602;Aramaic;language belonging to the Semitic family, part of the Northwest Semitic subfamily;445000
+Q37041;Classical Chinese;language of the Sino-Tibetan language family (ISO 639-3: lzh);
+Q9168;Persian;Indo-European language;52939220
 Q5287;Japanese;East Asian language;130000000
+Q7411;Dutch;West Germanic language;24000000
 Q150;French;Romance language;75917870
-Q809;Polish;language spoken in Poland;40200000
-Q9240;Indonesian;language spoken in Indonesia;23208480
-Q665624;Hiberno-English;the set of English dialects natively written and spoken within the island of Ireland;
+Q13955;Arabic;Semitic language;313177600
+Q652;Italian;Romance language;63413657
+Q5146;Portuguese;Romanic language originated in Portugal;202225450
+Q397;Latin;Indo-European language of the Italic family;100
+Q256;Turkish;Turkic language (possibly Altaic);71435850
+Q7976;American English;set of dialects of the English language spoken in the US;
+Q1982248;Biblical Hebrew;stage of the Hebrew language written and spoken during the composition of the Bible;
+Q7850;Chinese;family of languages;1299877520
+Q188;German;West Germanic language;105000000
+Q1654327;Classical Arabic;form of the Arabic language used in Umayyad and Abbasid literary texts;
+Q1321;Spanish;Romance language;470000000
+Q1412;Finnish;language arising and mostly spoken in Finland, of the Finnic family;5413380
+Q182695;Late Old Japanese;extinct language;
+Q107358;Koine Greek;common dialect of Greek spoken and written in the ancient world;
+Q1860;English;West Germanic language originating in England with linguistic roots in French, German and Vulgar Latin;339370920
 Q6654;Croatian;South Slavic language;7000000
-Q36395;Middle English;stage of the English language from about the 12th through 15th centuries;0
 Q9142;Irish;language spoken in Ireland;276310
-Q7026;Catalan;Romance language;4079420
+Q9240;Indonesian;language spoken in Indonesia;23208480
 Q9056;Czech;West Slavic language spoken in the Czech Republic;11500000
+Q7026;Catalan;Romance language;4079420
+Q665624;Hiberno-English;the set of English dialects natively written and spoken within the island of Ireland;
 Q7913;Romanian;Romance language;24000000
-Q9035;Danish;language spoken in Denmark;6000000
-Q33856;Papiamento;creole language spoken in the Dutch West Indies;319000
-Q8752;Basque;language of the Basque people;714136
+Q36395;Middle English;stage of the English language from about the 12th through 15th centuries;0
+Q809;Polish;language spoken in Poland;40200000
 Q14185;Occitan;Romance language;4000000
+Q33856;Papiamento;creole language spoken in the Dutch West Indies;319000
 Q27175;West Frisian;Germanic language;460000
-Q9307;Galician;language of the Western Ibero-Romranch;2500000
 Q9309;Welsh;Brythonic language spoken natively in Wales;724000
+Q9035;Danish;language spoken in Denmark;6000000
+Q8752;Basque;language of the Basque people;714136
+Q9307;Galician;language of the Western Ibero-Romranch;2500000

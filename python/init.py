@@ -63,6 +63,7 @@ fictional_not_humans_file.close()
 real_cities_file_path = "../concepts/RealCity.txt"
 real_cities_file = open(real_cities_file_path, 'w')
 real_cities_file.write("city_id;city_label;city_description;realCity_area;realCity_population\n")
+real_cities_file.close()
 
 fictional_cities_file_path = "../concepts/FictionalCity.txt"
 fictional_cities_file = open(fictional_cities_file_path, 'w')
@@ -102,6 +103,7 @@ publishers_file.close()
 translators_file_path = "../concepts/Translator.txt"
 translators_file = open(translators_file_path, 'w')
 translators_file.write("human_id;human_label;human_description;human_name;human_sex;human_DoB;human_DoD\n")
+translators_file.close()
 
 # ROLES
 

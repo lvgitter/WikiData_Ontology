@@ -1,263 +1,263 @@
 author_id;award
-Q4671;John Llewellyn Rhys Prize
-Q1357338;John Simon Guggenheim Memorial Foundation Fellowship
-Q1392021;James Tait Black Memorial Prize
-Q193111;Pro Finlandia Medal of the Order of the Lion of Finland
-Q1392021;Geoffrey Faber Memorial Prize
-Q726264;Dan David Prize
-Q193111;Aleksis Kivi Award
 Q732338;John Simon Guggenheim Memorial Foundation Fellowship
-Q181677;Nebula Award for Best Novelette
-Q193111;Jussi Award for Best Script
-Q1392021;E. M. Forster Award
-Q584990;Fellow of the Royal Society
-Q732338;Scotiabank Giller Prize
-Q28170;Primetime Emmy Award
-Q181677;Hugo Award for Best Novelette
-Q310379;John Simon Guggenheim Memorial Foundation Fellowship
-Q732338;Commonwealth Writers' Prize
-Q181677;Hugo Award for Best Novella
-Q274848;Department of Commerce Gold Medal
-Q310379;Lambda Literary Award
-Q732338;Neustadt International Prize for Literature
-Q170596;Knight of the Legion of Honour
-Q181677;Hugo Award for Best Short Story
-Q181677;Nebula Award for Best Novelette
-Q62892;Ingeborg Bachmann Prize
-Q310379;National Book Award
-Q170596;Croix de guerre 1914–1918
-Q233956;Dame Commander of the Order of the British Empire
-Q233956;James Tait Black Memorial Prize
-Q1064;Order of Merit for Arts and Science
-Q181677;Seiun Award for Best Translated Short Story
-Q62892;German Book Prize
-Q233956;doctor honoris causa of the university of Aberdeen
-Q310379;Academy Award for Best Writing, Adapted Screenplay
-Q170596;Companion of the Order of the Bath
-Q18430;John Simon Guggenheim Memorial Foundation Fellowship
-Q181677;Locus Award for Best Collection
-Q181677;Locus Award for Best Collection
-Q35064;Dame Commander of the Order of the British Empire
-Q233956;Honorary doctor of the University of Oxford
-Q170596;Distinguished Service Order
-Q310379;National Book Award for Fiction
-Q181677;Locus Award for Best Novelette
-Q18430;John Bates Clark Medal
-Q170509;Order of Merit
-Q47484;Nobel Prize in Literature
-Q35064;Edgar Award
-Q1043;Order of the Polar Star - Knight 2nd Class
-Q1043;Order of the Polar Star - Knight 2nd Class
-Q134798;Franz Kafka Prize
-Q181677;Locus Award for Best Novella
-Q47484;Goethe Plaque of the City of Frankfurt
-Q170509;National Book Award for Nonfiction
-Q18430;H. C. Recktenwald Prize in Economics
-Q249197;Edgar Award
-Q173540;National Book Award
-Q35064;Order of the British Empire
-Q134798;Yomiuri Prize
-Q720306;James Tait Black Memorial Prize
-Q18430;Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel
-Q1043;Order of the Polar Star
-Q181677;Locus Award for Best Short Story
-Q181677;Locus Award for Best Novella
-Q181677;Locus Award for Best Novelette
-Q181677;Locus Award for Best Novelette
-Q173540;Georgia Women of Achievement
-Q49081;Richard Dawkins Award
-Q249197;Gold Dagger
-Q228624;Children's bookshop prize
-Q134798;Tanizaki Prize
-Q18430;Global Economy Prize
-Q49081;PEN/Diamonstein-Spielvogel Award for the Art of the Essay
-Q181677;Locus Award for Best Fantasy Novel
-Q181677;Locus Award for Best Fantasy Novel
-Q181677;Locus Award for Best Fantasy Novel
-Q181677;Locus Award for Best Fantasy Novel
-Q249197;Swedish Crime Writers' Academy
-Q18430;Fulbright Scholarship
-Q134798;Jerusalem Prize
-Q49081;Lannan Literary Awards
-Q249197;Grand Prix de Littérature Policière
 Q9711;Legion of Honour
-Q134798;Noma Literary New Face Prize
-Q18430;Daniel Patrick Moynihan Prize
+Q732338;Scotiabank Giller Prize
+Q1357338;John Simon Guggenheim Memorial Foundation Fellowship
+Q732338;Commonwealth Writers' Prize
+Q228624;Children's bookshop prize
+Q584990;Fellow of the Royal Society
+Q732338;Neustadt International Prize for Literature
+Q726264;Dan David Prize
+Q163118;Commander of the Legion of Honour
+Q81685;Nobel Prize in Literature
+Q163118;Prix Femina
+Q170596;Knight of the Legion of Honour
 Q311145;Order of the Rose
-Q49081;LennonOno Grant for Peace
-Q9215;Goethe Prize
-Q249197;Martin Beck Award
-Q18430;Gerald Loeb Award
-Q134798;World Fantasy Award for Best Novel
-Q249197;Cartier Diamond Dagger
-Q34474;Nobel Prize in Literature
-Q134798;Frank O'Connor International Short Story Award
+Q23434;Nobel Prize in Literature
+Q102513;National Women's Hall of Fame
 Q295431;Austrian State Prize for European Literature
-Q295431;Geoffrey Faber Memorial Prize
-Q241248;Nobel Prize in Literature
-Q34474;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
-Q46248;Officer of the Order of the British Empire
-Q249197;Commander of the Order of the British Empire
-Q249197;Martin Beck Award
-Q134798;Hans Christian Andersen Literature Award
-Q909;Commander's Cross of the Order of Merit of the Federal Republic of Germany
-Q241248;Officer of the Legion of Honour
-Q295431;Prix Médicis essai
-Q34474;Order of the Patriotic War 2nd class
-Q46248;Margaret Edwards Award
-Q241248;Peace Prize of the German Book Trade
-Q46248;Bollinger Everyman Wodehouse Prize
-Q295431;Prix Femina étranger
-Q34474;Templeton Prize
-Q909;Knight Commander of the Order of the British Empire
-Q134798;Catalonia International Prize
-Q241248;Prix du Meilleur Livre Étranger
-Q909;Prix mondial Cino Del Duca
-Q909;Knight of the Legion of Honour
-Q34474;Order of the Red Star
-Q295431;Ordre des Arts et des Lettres
-Q295431;E. M. Forster Award
-Q46248;Carnegie Medal
-Q46248;Locus Award for Best Fantasy Novel
-Q528826;Knight Commander of the Order of the British Empire
-Q105118;Academy Award for Best Writing, Original Screenplay
-Q241248;Independent Foreign Fiction Prize
-Q34474;Medal "For the Capture of Königsberg"
-Q295431;Shakespeare Prize
-Q909;Prix Formentor
-Q76;2009 Nobel Peace Prize
-Q528826;Irish PEN Award
-Q46248;Edward E. Smith Memorial Award
-Q134798;Asahi Prize
-Q241248;International Antalya Golden Orange Film Festival Award for Best Original Screenplay
-Q34474;Lomonosov Gold Medal
-Q76;Grammy Award for Best Spoken Word Album
-Q295431;Man Booker Prize
-Q528826;Hawthornden Prize
-Q46248;Knight Bachelor
-Q909;World Fantasy Award for Life Achievement
-Q134798;Time 100
-Q34660;Knight of the Legion of Honour
-Q34660;Officer of the Order of the British Empire
-Q34660;Hans Christian Andersen Literature Award
-Q241248;Grinzane Cavour Prize
-Q34474;Order of the Star of Romania
-Q76;Presidential Medal of Distinction
-Q528826;International Nonino Prize
-Q909;Knight Grand Cross of the Order of Merit of the Italian Republic
-Q295431;Siegfried Lenz prize
-Q34660;Princess of Asturias Award for Concord
-Q241248;International IMPAC Dublin Literary Award
-Q76;Time Person of the Year
-Q76;Time Person of the Year
-Q76;Grammy Award for Best Spoken Word Album
-Q295431;Europese Literatuurprijs
-Q909;Alfonso Reyes International Prize
-Q909;Jerusalem Prize
-Q34660;Nestlé Children's Book Prize
-Q34660;Nestlé Children's Book Prize
-Q34660;Nestlé Children's Book Prize
-Q34660;Locus Award for Best Fantasy Novel
-Q241248;Prix Médicis for foreign literature
-Q909;Miguel de Cervantes Prize
-Q76;NAACP Image Award for Outstanding Literary Work, Nonfiction
-Q34660;Hugo Award for Best Novel
-Q241248;Ovid Prize
-Q909;Balzan Prize
+Q81685;Grand Cross of the Legion of Honour
+Q310379;John Simon Guggenheim Memorial Foundation Fellowship
+Q163118;Erasmus Prize
 Q1035;Wollaston Medal
-Q76;NAACP Image Award – Chairman's Award
-Q241248;Norman Mailer Prize
-Q34660;Andre Norton Award
-Q909;Commandeur des Arts et des Lettres‎
-Q153232;Fellow of the Royal Society
+Q170596;Croix de guerre 1914–1918
+Q23434;Bronze Star Medal
+Q102513;Connecticut Women's Hall of Fame
+Q46248;Officer of the Order of the British Empire
+Q163118;Prince Pierre Award
+Q295431;Geoffrey Faber Memorial Prize
+Q81685;Grand Prix du roman de l'Académie française
 Q1035;Royal Medal
-Q76;German Media Award
-Q241248;Commandeur des Arts et des Lettres‎
-Q34660;James Joyce Awards
-Q909;Grand Cross of the Civil Order of Alfonso X the Wise
+Q310379;Lambda Literary Award
+Q1043;Order of the Polar Star - Knight 2nd Class
+Q1043;Order of the Polar Star - Knight 2nd Class
+Q170596;Companion of the Order of the Bath
+Q23434;Pulitzer Prize for Fiction
+Q102513;Ohio Women's Hall of Fame
+Q46248;Margaret Edwards Award
+Q295431;Prix Médicis essai
+Q310379;National Book Award
+Q163118;Grand prix de littérature de l'Académie française
 Q1035;Copley Medal
+Q1043;Order of the Polar Star
+Q170596;Distinguished Service Order
+Q23434;Florida Artists Hall of Fame
+Q102513;Distinguished Americans series
+Q46248;Bollinger Everyman Wodehouse Prize
+Q310379;Academy Award for Best Writing, Adapted Screenplay
 Q1035;Order of Merit for Arts and Science
 Q1035;Fellow of the Royal Society
-Q76;Order of Abdulaziz al Saud
+Q295431;Prix Femina étranger
+Q720306;James Tait Black Memorial Prize
+Q46248;Carnegie Medal
+Q310379;National Book Award for Fiction
+Q1035;Pour le Mérite
+Q295431;Ordre des Arts et des Lettres
+Q46248;Locus Award for Best Fantasy Novel
+Q295431;E. M. Forster Award
+Q295431;Shakespeare Prize
+Q46248;Edward E. Smith Memorial Award
+Q314771;Astrid Lindgren Memorial Award
+Q46248;Knight Bachelor
+Q249197;Edgar Award
+Q295431;Man Booker Prize
+Q314771;National Medal of Arts
+Q170509;Order of Merit
+Q249197;Gold Dagger
+Q314771;Hans Christian Andersen Award for illustration
+Q170509;National Book Award for Nonfiction
+Q295431;Siegfried Lenz prize
+Q210059;Grand Prix de l'Imaginaire
+Q314771;Library of Congress Living Legend
+Q4671;John Llewellyn Rhys Prize
+Q295431;Europese Literatuurprijs
+Q28170;Primetime Emmy Award
+Q249197;Swedish Crime Writers' Academy
+Q1392021;James Tait Black Memorial Prize
+Q1392021;Geoffrey Faber Memorial Prize
+Q1392021;E. M. Forster Award
+Q210059;World Fantasy Award for Best Short Fiction
+Q105118;Academy Award for Best Writing, Original Screenplay
+Q181677;Nebula Award for Best Novelette
+Q249197;Grand Prix de Littérature Policière
+Q314771;Children's Literature Legacy Award
+Q210059;Bram Stoker Award for Novel
+Q35064;Dame Commander of the Order of the British Empire
+Q35064;Edgar Award
+Q237555;Lambda Literary Award
+Q181677;Hugo Award for Best Novelette
+Q249197;Martin Beck Award
+Q314771;Caldecott Medal
+Q210059;Hugo Award for Best Novel
+Q528826;Knight Commander of the Order of the British Empire
+Q35064;Order of the British Empire
+Q181677;Hugo Award for Best Novella
+Q153232;Fellow of the Royal Society
+Q249197;Cartier Diamond Dagger
 Q39829;National Book Award
 Q39829;Edgar Award
-Q34660;Fellow of the Royal Society of Edinburgh
-Q241248;Honorary doctor of the Free University of Berlin
-Q909;Grand Knights with Star of the Order of the Falcon
-Q1035;Pour le Mérite
-Q76;Order of Sikatuna
 Q39829;Grand Prix de l'Imaginaire
-Q909;World Fantasy Award
-Q241248;doctor honoris causa
-Q76;Nobel Prize
+Q18430;John Simon Guggenheim Memorial Foundation Fellowship
+Q528826;Irish PEN Award
+Q210059;Nebula Award for Best Novel
+Q210059;Locus Award for Best Fantasy Novel
+Q181677;Hugo Award for Best Short Story
+Q181677;Nebula Award for Best Novelette
+Q249197;Commander of the Order of the British Empire
+Q249197;Martin Beck Award
+Q40479;John Llewellyn Rhys Prize
 Q39829;Bram Stoker Award
 Q39829;Bram Stoker Award
 Q39829;Bram Stoker Award
-Q34660;Hotze de Roos Prize
-Q34660;Children's bookshop prize
-Q81685;Nobel Prize in Literature
 Q39829;Bram Stoker Award for Novel
-Q81685;Grand Cross of the Legion of Honour
-Q909;Order of the Sun
-Q909;Edgar Award
-Q34660;Prijs van de Jonge Jury
+Q34660;Knight of the Legion of Honour
+Q34660;Officer of the Order of the British Empire
+Q18430;John Bates Clark Medal
+Q181677;Seiun Award for Best Translated Short Story
+Q528826;Hawthornden Prize
+Q210059;Nebula Award for Best Novella
 Q39829;Bram Stoker Award for Best Non-Fiction
 Q39829;Bram Stoker Award for Novel
 Q39829;Bram Stoker Award for Novel
-Q81685;Grand Prix du roman de l'Académie française
-Q909;Order of Saint James of the Sword
-Q34660;Prijs van de Nederlandse Kinderjury
-Q34660;doctor honoris causa of the university of Aberdeen
-Q23434;Nobel Prize in Literature
 Q39829;National Medal of Arts
 Q39829;Edgar Award
 Q39829;Edgar Award
 Q39829;Grand Prix de l'Imaginaire
-Q34660;Order of the Companions of Honour
-Q23434;Bronze Star Medal
-Q909;Commander of the Order of the Sun of Peru‎
-Q34660;Order of the Smile
-Q23434;Pulitzer Prize for Fiction
-Q23434;Florida Artists Hall of Fame
-Q102513;National Women's Hall of Fame
-Q102513;Connecticut Women's Hall of Fame
-Q314771;Astrid Lindgren Memorial Award
-Q314771;National Medal of Arts
-Q163118;Commander of the Legion of Honour
-Q102513;Ohio Women's Hall of Fame
-Q314771;Hans Christian Andersen Award for illustration
-Q163118;Prix Femina
-Q102513;Distinguished Americans series
-Q314771;Library of Congress Living Legend
-Q163118;Erasmus Prize
-Q314771;Children's Literature Legacy Award
-Q163118;Prince Pierre Award
-Q314771;Caldecott Medal
-Q210059;Grand Prix de l'Imaginaire
-Q163118;Grand prix de littérature de l'Académie française
-Q210059;World Fantasy Award for Best Short Fiction
-Q210059;Bram Stoker Award for Novel
-Q210059;Hugo Award for Best Novel
-Q210059;Nebula Award for Best Novel
-Q210059;Locus Award for Best Fantasy Novel
-Q210059;Nebula Award for Best Novella
+Q34660;Hans Christian Andersen Literature Award
+Q18430;H. C. Recktenwald Prize in Economics
+Q181677;Locus Award for Best Collection
+Q181677;Locus Award for Best Collection
+Q528826;International Nonino Prize
 Q210059;Locus Award for Best Short Story
 Q210059;Hugo Award for Best Novella
 Q210059;Hugo Award for Best Short Story
 Q210059;Locus Award for Best Short Story
 Q210059;Locus Award for Best Short Story
+Q47484;Nobel Prize in Literature
+Q34660;Princess of Asturias Award for Concord
+Q181677;Locus Award for Best Novelette
+Q18430;Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel
 Q210059;August Derleth Award
 Q210059;Locus Award for Best Short Story
 Q210059;Locus Award for Best Fantasy Novel
 Q210059;Locus Award for Best Short Story
+Q9215;Goethe Prize
+Q47484;Goethe Plaque of the City of Frankfurt
+Q34660;Nestlé Children's Book Prize
+Q34660;Nestlé Children's Book Prize
+Q34660;Nestlé Children's Book Prize
+Q34660;Locus Award for Best Fantasy Novel
+Q34660;Hugo Award for Best Novel
+Q49081;Richard Dawkins Award
+Q181677;Locus Award for Best Novella
+Q181677;Locus Award for Best Short Story
+Q181677;Locus Award for Best Novella
+Q181677;Locus Award for Best Novelette
+Q181677;Locus Award for Best Novelette
+Q181677;Locus Award for Best Fantasy Novel
+Q181677;Locus Award for Best Fantasy Novel
+Q181677;Locus Award for Best Fantasy Novel
+Q181677;Locus Award for Best Fantasy Novel
+Q76;2009 Nobel Peace Prize
+Q18430;Global Economy Prize
 Q210059;Hugo Award for Best Dramatic Presentation (Long Form)
 Q210059;Hugo Award for Best Novel
+Q34660;Andre Norton Award
+Q49081;PEN/Diamonstein-Spielvogel Award for the Art of the Essay
+Q18430;Fulbright Scholarship
+Q76;Grammy Award for Best Spoken Word Album
 Q210059;Newbery Medal
 Q210059;Carnegie Medal
+Q173540;National Book Award
+Q18430;Daniel Patrick Moynihan Prize
+Q49081;Lannan Literary Awards
+Q34660;James Joyce Awards
+Q76;Presidential Medal of Distinction
 Q210059;Hugo Award for Best Dramatic Presentation, Short Form
+Q173540;Georgia Women of Achievement
+Q18430;Gerald Loeb Award
+Q49081;LennonOno Grant for Peace
+Q34660;Fellow of the Royal Society of Edinburgh
+Q76;Time Person of the Year
+Q76;Time Person of the Year
+Q76;Grammy Award for Best Spoken Word Album
 Q210059;Bob Morane Prize
+Q134798;Franz Kafka Prize
+Q76;NAACP Image Award for Outstanding Literary Work, Nonfiction
 Q210059;Yellow Kid Award
 Q210059;Locus Award for Best Collection
 Q210059;Locus Award for Best Collection
-Q40479;John Llewellyn Rhys Prize
-Q237555;Lambda Literary Award
+Q134798;Yomiuri Prize
+Q34660;Hotze de Roos Prize
+Q34660;Children's bookshop prize
+Q76;NAACP Image Award – Chairman's Award
+Q233956;Dame Commander of the Order of the British Empire
+Q233956;James Tait Black Memorial Prize
+Q34660;Prijs van de Jonge Jury
+Q909;Commander's Cross of the Order of Merit of the Federal Republic of Germany
+Q909;Knight Commander of the Order of the British Empire
+Q134798;Tanizaki Prize
+Q76;German Media Award
+Q34660;Prijs van de Nederlandse Kinderjury
+Q233956;doctor honoris causa of the university of Aberdeen
+Q909;Prix mondial Cino Del Duca
+Q909;Knight of the Legion of Honour
+Q134798;Jerusalem Prize
+Q76;Order of Abdulaziz al Saud
+Q34660;doctor honoris causa of the university of Aberdeen
+Q233956;Honorary doctor of the University of Oxford
+Q134798;Noma Literary New Face Prize
+Q909;Prix Formentor
+Q76;Order of Sikatuna
+Q34660;Order of the Companions of Honour
+Q134798;World Fantasy Award for Best Novel
+Q909;World Fantasy Award for Life Achievement
+Q76;Nobel Prize
+Q34660;Order of the Smile
+Q909;Knight Grand Cross of the Order of Merit of the Italian Republic
+Q134798;Frank O'Connor International Short Story Award
+Q134798;Hans Christian Andersen Literature Award
+Q193111;Pro Finlandia Medal of the Order of the Lion of Finland
+Q909;Alfonso Reyes International Prize
+Q909;Jerusalem Prize
+Q1064;Order of Merit for Arts and Science
+Q274848;Department of Commerce Gold Medal
+Q193111;Aleksis Kivi Award
+Q909;Miguel de Cervantes Prize
+Q134798;Catalonia International Prize
+Q193111;Jussi Award for Best Script
+Q909;Balzan Prize
+Q909;Commandeur des Arts et des Lettres‎
+Q134798;Asahi Prize
+Q909;Grand Cross of the Civil Order of Alfonso X the Wise
+Q34474;Nobel Prize in Literature
+Q134798;Time 100
+Q909;Grand Knights with Star of the Order of the Falcon
+Q34474;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q909;World Fantasy Award
+Q241248;Nobel Prize in Literature
+Q34474;Order of the Patriotic War 2nd class
+Q34474;Templeton Prize
+Q241248;Officer of the Legion of Honour
+Q34474;Order of the Red Star
+Q909;Order of the Sun
+Q909;Edgar Award
+Q241248;Peace Prize of the German Book Trade
+Q34474;Medal "For the Capture of Königsberg"
+Q909;Order of Saint James of the Sword
+Q241248;Prix du Meilleur Livre Étranger
+Q34474;Lomonosov Gold Medal
+Q241248;Independent Foreign Fiction Prize
+Q34474;Order of the Star of Romania
+Q909;Commander of the Order of the Sun of Peru‎
+Q241248;International Antalya Golden Orange Film Festival Award for Best Original Screenplay
+Q241248;Grinzane Cavour Prize
+Q62892;Ingeborg Bachmann Prize
+Q241248;International IMPAC Dublin Literary Award
+Q62892;German Book Prize
+Q241248;Prix Médicis for foreign literature
+Q241248;Ovid Prize
+Q241248;Norman Mailer Prize
+Q241248;Commandeur des Arts et des Lettres‎
+Q241248;Honorary doctor of the Free University of Berlin
+Q241248;doctor honoris causa

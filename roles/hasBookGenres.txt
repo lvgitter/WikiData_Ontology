@@ -1,150 +1,150 @@
 book_id;genre
-Q27466;essay
-Q28754;epic literature
-Q24596;opinion journalism
-Q24596;essay
-Q24323;autobiography
-Q27451;non-fiction literature
-Q4795;novel
-Q2222;novel
-Q6507;novel
-Q27462;novel
-Q27321;novel
-Q4710;novel
-Q2870;historical novel
-Q2870;novel
-Q24402;novel
-Q11678;adventure novel
-Q6507;xiaoshuo
-Q27462;Sotie
-Q38190;novel
-Q4791;novel
-Q480;adventure novel
-Q470;essay
-Q38187;historical novel
+Q27453;historiography
+Q25555;non-fiction literature
+Q8279;epic poem
+Q31137;Brazilian literature
+Q27775;novel
 Q25666;biographical dictionary
-Q8563;children's literature
-Q6507;Comic fiction
-Q27592;psychoanalysis
-Q11678;dystopian novel
-Q40185;narrative poetry
-Q23163;apocalyptic novel
-Q480;chivalric romance
-Q29399;novel
-Q8563;children's novel
-Q4804;novel
-Q11678;young adult novel
-Q6911;diary
-Q13231;non-fiction literature
-Q10202;travel book
-Q480;Manuel mejia
-Q23163;time travel novel
-Q23163;dystopian novel
-Q40205;post-apocalyptic novel
-Q31385;autobiography
-Q28772;chronicle
+Q27451;non-fiction literature
+Q27544;biography
+Q27331;novella
+Q25091;novel
+Q31692;novel
 Q20124;scientific literature
-Q8650;novel
-Q13911;novel
-Q6911;world literature
-Q6911;autobiography
-Q31720;novel
-Q40205;epistolary novel
-Q4672;historical novel
+Q38213;novel
+Q8279;epic literature
+Q31137;short story
+Q25091;action anime and manga
+Q27544;narrative history
+Q27466;essay
+Q11678;adventure novel
+Q13912;picture book
 Q20124;biology
 Q26505;narrative
-Q38213;novel
-Q24555;reference work
-Q29424;novel
-Q40205;fantasy novel
-Q38564;fantasy novel
-Q8251;Economics
-Q8279;epic poem
-Q8279;epic literature
-Q20124;science
 Q26505;novella
-Q25555;non-fiction literature
-Q26193;propaganda
+Q31137;cróniques
+Q31137;novella
+Q11829;children's literature
+Q6911;diary
+Q25091;fantasy anime and manga
+Q8563;children's literature
+Q470;essay
+Q13231;non-fiction literature
+Q11678;dystopian novel
+Q4791;novel
+Q28754;epic literature
+Q8650;novel
+Q28306;fantasy novel
+Q24402;novel
+Q25091;shōnen manga
+Q6911;world literature
+Q20124;science
+Q8563;children's novel
+Q721;comic novel
+Q11678;young adult novel
+Q29424;novel
+Q6911;autobiography
+Q28306;high fantasy
+Q20124;treatise
+Q38564;fantasy novel
+Q721;science fiction novel
+Q428;religion
+Q27462;novel
+Q18725;fantasy literature
+Q18725;novel
+Q18725;comic novel
+Q8269;novel
+Q38564;thriller novel
+Q721;comic science fiction
+Q27592;psychoanalysis
+Q27462;Sotie
+Q26085;thriller novel
+Q447;encyclopedia
 Q4784;Bildungsroman
 Q4784;novel
+Q38190;novel
+Q10202;travel book
+Q721;speculative fiction
+Q24323;autobiography
+Q38793;historical novel
+Q26085;historical novel
+Q31285;novel
+Q38187;historical novel
+Q24596;opinion journalism
+Q24596;essay
 Q36097;philosophical novel
 Q36097;dystopian novel
-Q38564;thriller novel
-Q8251;treatise
-Q20124;treatise
-Q25750;tragicomedy
-Q25750;novel
-Q26193;literary forgery
+Q442;encyclopedia
+Q721;humour
+Q31385;autobiography
+Q26085;espionage novel
+Q26541;espionage novel
+Q6507;novel
 Q36097;absurdist fiction
 Q36097;novel
-Q27544;biography
-Q27463;novel
-Q428;religion
-Q27775;novel
-Q27331;novella
-Q31285;novel
-Q25750;black comedy
-Q36393;political philosophy
-Q26541;espionage novel
-Q8269;novel
-Q33787;novel
-Q27544;narrative history
-Q27453;historiography
+Q28172;horror novel
+Q721;science fiction
+Q29399;novel
 Q26541;crime novel
-Q11829;children's literature
-Q28306;fantasy novel
-Q39961;poetry
-Q29132;crime novel
-Q447;encyclopedia
-Q13912;picture book
+Q36393;political philosophy
 Q32136;fantasy literature
 Q32136;novel
-Q28306;high fantasy
-Q30613;novel
-Q442;encyclopedia
-Q11191;almanac
-Q28491;historical novel
-Q721;comic novel
-Q26085;thriller novel
-Q26085;historical novel
-Q26085;espionage novel
-Q25091;novel
-Q28172;horror novel
-Q11336;novel
-Q721;science fiction novel
-Q38793;historical novel
+Q31720;novel
+Q2222;novel
+Q6507;xiaoshuo
+Q27321;novel
 Q28172;zombie apocalyptic fiction
+Q721;fantasy
+Q28772;chronicle
+Q4672;historical novel
+Q33787;novel
+Q24555;reference work
+Q6507;Comic fiction
+Q8251;economics
+Q8251;treatise
+Q4795;novel
 Q28172;epistolary novel
 Q28172;science fiction novel
-Q25091;action anime and manga
-Q35690;satire
-Q35690;novel
-Q35690;comic novel
-Q721;comic science fiction
-Q25091;fantasy anime and manga
-Q28172;apocalyptic fiction
+Q480;adventure novel
+Q23163;apocalyptic novel
+Q28491;historical novel
 Q8265;zhanghui novel
 Q8265;novel
 Q8265;xiaoshuo
-Q721;speculative fiction
-Q25091;shōnen manga
-Q721;humour
-Q31692;novel
-Q721;science fiction
 Q31179;novel
+Q11336;novel
+Q26193;propaganda
+Q28172;apocalyptic fiction
+Q23163;time travel novel
+Q23163;dystopian novel
+Q480;chivalric romance
+Q27463;novel
+Q11191;almanac
+Q26193;literary forgery
+Q480;Manuel mejia
+Q2870;historical novel
+Q2870;novel
+Q35690;satire
+Q35690;novel
+Q35690;comic novel
+Q4804;novel
+Q30613;novel
+Q13911;novel
+Q4710;novel
+Q29270;essay
+Q39961;poetry
 Q6511;novel
-Q721;fantasy
 Q6511;Modernist literature
 Q6511;experimental literature
 Q6511;literary fiction
 Q6511;autobiographical novel
 Q6511;metafiction
 Q25551;science fiction novel
-Q18725;fantasy literature
-Q18725;novel
-Q18725;comic novel
-Q31137;Brazilian literature
-Q31137;short story
-Q31137;cróniques
-Q31137;novella
-Q29270;essay
+Q29132;crime novel
+Q40205;post-apocalyptic novel
+Q40205;epistolary novel
+Q40205;fantasy novel
+Q25750;tragicomedy
+Q25750;novel
+Q25750;black comedy
+Q40185;narrative poetry
