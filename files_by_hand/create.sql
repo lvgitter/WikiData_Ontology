@@ -107,8 +107,8 @@ CREATE TABLE Book(
 	);
 
 CREATE TABLE placeOfDeath(
-	realcity_id varchar (255),
-	human_id varchar (255)
+	human_id varchar (255),
+	realcity_id varchar (255)
 	);
 
 CREATE TABLE hasUsedLanguage(
@@ -138,13 +138,13 @@ CREATE TABLE hasTranslator(
 	);
 
 CREATE TABLE hasCityLocation(
-	city_id varchar (255),
-	book_id varchar (255)
+	book_id varchar (255),
+	city_id varchar (255)
 	);
 
 CREATE TABLE placeOfBirth(
-	realcity_id varchar (255),
-	human_id varchar (255)
+	human_id varchar (255),
+	realcity_id varchar (255)
 	);
 
 CREATE TABLE hasAuthor(
@@ -166,7 +166,7 @@ CREATE TABLE RealCity(
 	);
 
 CREATE TABLE hasEdition(
-	ook_id varchar (255),
+	book_id varchar (255),
 	edition_id varchar (255)
 	);
 
