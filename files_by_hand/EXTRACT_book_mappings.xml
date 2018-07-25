@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OBDA version="1.0">
-    <dataSource databaseDriver="com.mysql.jdbc.Driver" databaseName="bookDB"
+    <dataSource databaseDriver="com.mysql.jdbc.Driver" databaseName=""
         databasePassword="root"
         databaseURL="jdbc:mysql://localhost/bookDB"
         databaseUsername="root" name="datasource"/>
@@ -8,182 +8,159 @@
         <prefix name="owl:" namespace="http://www.w3.org/2002/07/owl#"/>
         <prefix name="rdf:" namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
         <prefix name="xsd:" namespace="http://www.w3.org/2001/XMLSchema#"/>
-        <prefix name=":" namespace="http://www.semanticweb.org/giacomovettraino/ontologies/2018/4/untitled-ontology-8#"/>
+        <prefix name=":" namespace="http://books/"/>
         <prefix name="xml:" namespace="http://www.w3.org/XML/1998/namespace"/>
+        <prefix name="bo:" namespace="http://books/"/>
         <prefix name="rdfs:" namespace="http://www.w3.org/2000/01/rdf-schema#"/>
     </prefixes>
     <templates>
-       	<template>https://www.wikidata.org/wiki/{_}</template>
+        <template>https://www.wikidata.org/wiki/{_}</template>
         <template>{_}</template>
     </templates>
-
-<mappings>
-
-<ontologyPredicateMapping id="M3_Book">
-<concept string="Book">
-<template>https://www.wikidata.org/wiki/{book_id}</template>
-</concept>
-<HEAD string="Book_view(book_id, book_label, book_description, title, subtitle, first_line, series)"/>
-</ontologyPredicateMapping>
-
-<ontologyPredicateMapping id="M4_book_id">
-<attribute string="book_id">
-<domainTemplate>https://www.wikidata.org/wiki/{book_id}</domainTemplate>
-<rangeVariable>book_id</rangeVariable> 
-</attribute>
-<HEAD string="Book_view(book_id, book_label, book_description, title, subtitle, first_line, series)"/>
-</ontologyPredicateMapping>
-
-<ontologyPredicateMapping id="M5_book_description">
-<attribute string="book_description">
-<domainTemplate>https://www.wikidata.org/wiki/{book_id}</domainTemplate>
-<rangeVariable>book_description</rangeVariable> 
-</attribute>
-<HEAD string="Book_view(book_id, book_label, book_description, title, subtitle, first_line, series)"/>
-</ontologyPredicateMapping>
-
-<ontologyPredicateMapping id="M6_title">
-<attribute string="title">
-<domainTemplate>https://www.wikidata.org/wiki/{book_id}</domainTemplate>
-<rangeVariable>title</rangeVariable> 
-</attribute>
-<HEAD string="Book_view(book_id, book_label, book_description, title, subtitle, first_line, series)"/>
-</ontologyPredicateMapping>
-
-<ontologyPredicateMapping id="M7_subtitle">
-<attribute string="subtitle">
-<domainTemplate>https://www.wikidata.org/wiki/{book_id}</domainTemplate>
-<rangeVariable>subtitle</rangeVariable> 
-</attribute>
-<HEAD string="Book_view(book_id, book_label, book_description, title, subtitle, first_line, series)"/>
-</ontologyPredicateMapping>
-
-<ontologyPredicateMapping id="M8_book_label">
-<attribute string="book_label">
-<domainTemplate>https://www.wikidata.org/wiki/{book_id}</domainTemplate>
-<rangeVariable>book_label</rangeVariable> 
-</attribute>
-<HEAD string="Book_view(book_id, book_label, book_description, title, subtitle, first_line, series)"/>
-</ontologyPredicateMapping>
-
-<ontologyPredicateMapping id="M900_series">
-<attribute string="series">
-<domainTemplate>https://www.wikidata.org/wiki/{book_id}</domainTemplate>
-<rangeVariable>series</rangeVariable> 
-</attribute>
-<HEAD string="Book_view(book_id, book_label, book_description, title, subtitle, first_line, series)"/>
-</ontologyPredicateMapping>
-
-<ontologyPredicateMapping id="M901_first_line">
-<attribute string="first_line">
-<domainTemplate>https://www.wikidata.org/wiki/{book_id}</domainTemplate>
-<rangeVariable>first_line</rangeVariable> 
-</attribute>
-<HEAD string="Book_view(book_id, book_label, book_description, title, subtitle, first_line, series)"/>
-</ontologyPredicateMapping>
-
-<primitiveView>
-<HEAD string="Book_view(book_id, book_label, book_description, title, subtitle, first_line, series)"/>
-<SQLQuery> SELECT b.book_id AS book_id,b.book_label AS book_label, b.book_description AS book_description, b.title AS title, b.subtitle AS subtitle,b.first_line AS first_line,b.series AS series  FROM bookDB.Book b </SQLQuery>
-</primitiveView>
-
-<ontologyPredicateMapping id="M9_FictionalCity">
-<concept string="FictionalCity">
-<template>https://www.wikidata.org/wiki/{city_id}</template>
-</concept>
-<HEAD string="FictionalCity_view(city_id, city_label, city_description)"/>
-</ontologyPredicateMapping>
-
-<primitiveView>
-<HEAD string="FictionalCity_view(city_id, city_label,  city_description)"/>
-<SQLQuery> SELECT c.city_id AS city_id, c.city_label AS city_label, c.city_description AS city_description FROM bookDB.FictionalCity c </SQLQuery>
-</primitiveView>
-
-<ontologyPredicateMapping id="M105_fictionalCity_label">
-<attribute string="city_label">
-<domainTemplate>https://www.wikidata.org/wiki/{city_id}</domainTemplate>
-<rangeVariable>city_label</rangeVariable> 
-</attribute>
-<HEAD string="FictionalCity_view(city_id, city_label, city_description)"/>
-</ontologyPredicateMapping>
-
-<ontologyPredicateMapping id="M106_fictionalCity_id">
-<attribute string="city_id">
-<domainTemplate>https://www.wikidata.org/wiki/{city_id}</domainTemplate>
-<rangeVariable>city_id</rangeVariable> 
-</attribute>
-<HEAD string="FictionalCity_view(city_id, city_label, city_description)"/>
-</ontologyPredicateMapping>
-
-<ontologyPredicateMapping id="M107_fictionalCity_description">
-<attribute string="city_description">
-<domainTemplate>https://www.wikidata.org/wiki/{city_id}</domainTemplate>
-<rangeVariable>city_description</rangeVariable> 
-</attribute>
-<HEAD string="FictionalCity_view(city_id, city_label, city_description)"/>
-</ontologyPredicateMapping>
-
-<ontologyPredicateMapping id="M12_Mayor">
-<concept string="Mayor">
-<template>https://www.wikidata.org/wiki/{mayor_id}</template>
-</concept>
-<HEAD string="Mayor_view(mayor_id, mayor_label, mayor_description, start_time, end_time, official_residence)"/>
-</ontologyPredicateMapping>
-
-<ontologyPredicateMapping id="M13_mayor_description">
-<attribute string="mayor_description">
-<domainTemplate>https://www.wikidata.org/wiki/{mayor_id}</domainTemplate>
-<rangeVariable>mayor_description</rangeVariable> 
-</attribute>
-<HEAD string="Mayor_view(mayor_id, mayor_label, mayor_description, start_time, end_time, official_residence)"/>
-</ontologyPredicateMapping>
-
-<ontologyPredicateMapping id="M13_start_time">
-<attribute string="start_time">
-<domainTemplate>https://www.wikidata.org/wiki/{mayor_id}</domainTemplate>
-<rangeVariable>start_time</rangeVariable> 
-</attribute>
-<HEAD string="Mayor_view(mayor_id, mayor_label, mayor_description, start_time, end_time, official_residence)"/>
-</ontologyPredicateMapping>
-
-<ontologyPredicateMapping id="M15_mayor_id">
-<attribute string="mayor_id">
-<domainTemplate>https://www.wikidata.org/wiki/{mayor_id}</domainTemplate>
-<rangeVariable>mayor_id</rangeVariable> 
-</attribute>
-<HEAD string="Mayor_view(mayor_id, mayor_label, mayor_description, start_time, end_time, official_residence)"/>
-</ontologyPredicateMapping>
-
-<ontologyPredicateMapping id="M16_mayor_label">
-<attribute string="mayor_label">
-<domainTemplate>https://www.wikidata.org/wiki/{mayor_id}</domainTemplate>
-<rangeVariable>mayor_label</rangeVariable> 
-</attribute>
-<HEAD string="Mayor_view(mayor_id, mayor_label, mayor_description, start_time, end_time, official_residence)"/>
-</ontologyPredicateMapping>
-
-<ontologyPredicateMapping id="M17_end_time">
-<attribute string="end_time">
-<domainTemplate>https://www.wikidata.org/wiki/{mayor_id}</domainTemplate>
-<rangeVariable>end_time</rangeVariable> 
-</attribute>
-<HEAD string="Mayor_view(mayor_id, mayor_label, mayor_description, start_time, end_time, official_residence)"/>
-</ontologyPredicateMapping>
-
-<ontologyPredicateMapping id="M18_official_residence">
-<attribute string="official_residence">
-<domainTemplate>https://www.wikidata.org/wiki/{mayor_id}</domainTemplate>
-<rangeVariable>official_residence</rangeVariable> 
-</attribute>
-<HEAD string="Mayor_view(mayor_id, mayor_label, mayor_description, start_time, end_time, official_residence)"/>
-</ontologyPredicateMapping>
-
-<primitiveView>
-<HEAD string="Mayor_view(mayor_id, mayor_label, mayor_description, start_time, end_time, official_residence)"/>
-<SQLQuery> SELECT m.mayor_id AS mayor_id, m.mayor_label AS mayor_label, m.mayor_description AS mayor_description, m.start_time AS start_time, m.end_time AS end_time, m.official_residence AS official_residence FROM bookDB.Mayor m </SQLQuery>
-</primitiveView>
-
-</mappings>
-<blocks/>
-<constraints/>
+    <mappings>
+        <ontologyPredicateMapping id="M3_Book">
+            <concept string="http://books/Book">
+                <template>https://www.wikidata.org/wiki/{book_id}</template>
+            </concept>
+            <HEAD string="Book_view(book_id, book_label, book_description, title, subtitle, first_line, series)"/>
+        </ontologyPredicateMapping>
+        <ontologyPredicateMapping id="M4_book_id">
+            <attribute string="http://books/#book_id">
+                <domainTemplate>https://www.wikidata.org/wiki/{book_id}</domainTemplate>
+                <rangeVariable>book_id</rangeVariable>
+            </attribute>
+            <HEAD string="Book_view(book_id, book_label, book_description, title, subtitle, first_line, series)"/>
+        </ontologyPredicateMapping>
+        <ontologyPredicateMapping id="M5_book_description">
+            <attribute string="http://books/#book_description">
+                <domainTemplate>https://www.wikidata.org/wiki/{book_id}</domainTemplate>
+                <rangeVariable>book_description</rangeVariable>
+            </attribute>
+            <HEAD string="Book_view(book_id, book_label, book_description, title, subtitle, first_line, series)"/>
+        </ontologyPredicateMapping>
+        <ontologyPredicateMapping id="M6_title">
+            <attribute string="http://books/#title">
+                <domainTemplate>https://www.wikidata.org/wiki/{book_id}</domainTemplate>
+                <rangeVariable>title</rangeVariable>
+            </attribute>
+            <HEAD string="Book_view(book_id, book_label, book_description, title, subtitle, first_line, series)"/>
+        </ontologyPredicateMapping>
+        <ontologyPredicateMapping id="M7_subtitle">
+            <attribute string="http://books/#subtitle">
+                <domainTemplate>https://www.wikidata.org/wiki/{book_id}</domainTemplate>
+                <rangeVariable>subtitle</rangeVariable>
+            </attribute>
+            <HEAD string="Book_view(book_id, book_label, book_description, title, subtitle, first_line, series)"/>
+        </ontologyPredicateMapping>
+        <ontologyPredicateMapping id="M8_book_label">
+            <attribute string="http://books/#book_label">
+                <domainTemplate>https://www.wikidata.org/wiki/{book_id}</domainTemplate>
+                <rangeVariable>book_label</rangeVariable>
+            </attribute>
+            <HEAD string="Book_view(book_id, book_label, book_description, title, subtitle, first_line, series)"/>
+        </ontologyPredicateMapping>
+        <ontologyPredicateMapping id="M9_FictionalCity">
+            <concept string="http://books/#FictionalCity">
+                <template>https://www.wikidata.org/wiki/{city_id}</template>
+            </concept>
+            <HEAD string="FictionalCity_view(city_id, city_label, city_description)"/>
+        </ontologyPredicateMapping>
+        <ontologyPredicateMapping id="M12_Mayor">
+            <concept string="http://books/#Mayor">
+                <template>https://www.wikidata.org/wiki/{mayor_id}</template>
+            </concept>
+            <HEAD string="Mayor_view(mayor_id, mayor_label, mayor_description, start_time, end_time, official_residence)"/>
+        </ontologyPredicateMapping>
+        <ontologyPredicateMapping id="M13_mayor_description">
+            <attribute string="http://books/#mayor_description">
+                <domainTemplate>https://www.wikidata.org/wiki/{mayor_id}</domainTemplate>
+                <rangeVariable>mayor_description</rangeVariable>
+            </attribute>
+            <HEAD string="Mayor_view(mayor_id, mayor_label, mayor_description, start_time, end_time, official_residence)"/>
+        </ontologyPredicateMapping>
+        <ontologyPredicateMapping id="M13_start_time">
+            <attribute string="http://books/#start_time">
+                <domainTemplate>https://www.wikidata.org/wiki/{mayor_id}</domainTemplate>
+                <rangeVariable>start_time</rangeVariable>
+            </attribute>
+            <HEAD string="Mayor_view(mayor_id, mayor_label, mayor_description, start_time, end_time, official_residence)"/>
+        </ontologyPredicateMapping>
+        <ontologyPredicateMapping id="M15_mayor_id">
+            <attribute string="http://books/#mayor_id">
+                <domainTemplate>https://www.wikidata.org/wiki/{mayor_id}</domainTemplate>
+                <rangeVariable>mayor_id</rangeVariable>
+            </attribute>
+            <HEAD string="Mayor_view(mayor_id, mayor_label, mayor_description, start_time, end_time, official_residence)"/>
+        </ontologyPredicateMapping>
+        <ontologyPredicateMapping id="M16_mayor_label">
+            <attribute string="http://books/#mayor_label">
+                <domainTemplate>https://www.wikidata.org/wiki/{mayor_id}</domainTemplate>
+                <rangeVariable>mayor_label</rangeVariable>
+            </attribute>
+            <HEAD string="Mayor_view(mayor_id, mayor_label, mayor_description, start_time, end_time, official_residence)"/>
+        </ontologyPredicateMapping>
+        <ontologyPredicateMapping id="M17_end_time">
+            <attribute string="http://books/#end_time">
+                <domainTemplate>https://www.wikidata.org/wiki/{mayor_id}</domainTemplate>
+                <rangeVariable>end_time</rangeVariable>
+            </attribute>
+            <HEAD string="Mayor_view(mayor_id, mayor_label, mayor_description, start_time, end_time, official_residence)"/>
+        </ontologyPredicateMapping>
+        <ontologyPredicateMapping id="M18_official_residence">
+            <attribute string="http://books/#official_residence">
+                <domainTemplate>https://www.wikidata.org/wiki/{mayor_id}</domainTemplate>
+                <rangeVariable>official_residence</rangeVariable>
+            </attribute>
+            <HEAD string="Mayor_view(mayor_id, mayor_label, mayor_description, start_time, end_time, official_residence)"/>
+        </ontologyPredicateMapping>
+        <ontologyPredicateMapping id="M105_fictionalCity_label">
+            <attribute string="http://books/#city_label">
+                <domainTemplate>https://www.wikidata.org/wiki/{city_id}</domainTemplate>
+                <rangeVariable>city_label</rangeVariable>
+            </attribute>
+            <HEAD string="FictionalCity_view(city_id, city_label, city_description)"/>
+        </ontologyPredicateMapping>
+        <ontologyPredicateMapping id="M106_fictionalCity_id">
+            <attribute string="http://books/#city_id">
+                <domainTemplate>https://www.wikidata.org/wiki/{city_id}</domainTemplate>
+                <rangeVariable>city_id</rangeVariable>
+            </attribute>
+            <HEAD string="FictionalCity_view(city_id, city_label, city_description)"/>
+        </ontologyPredicateMapping>
+        <ontologyPredicateMapping id="M107_fictionalCity_description">
+            <attribute string="http://books/#city_description">
+                <domainTemplate>https://www.wikidata.org/wiki/{city_id}</domainTemplate>
+                <rangeVariable>city_description</rangeVariable>
+            </attribute>
+            <HEAD string="FictionalCity_view(city_id, city_label, city_description)"/>
+        </ontologyPredicateMapping>
+        <ontologyPredicateMapping id="M900_series">
+            <attribute string="http://books/#series">
+                <domainTemplate>https://www.wikidata.org/wiki/{book_id}</domainTemplate>
+                <rangeVariable>series</rangeVariable>
+            </attribute>
+            <HEAD string="Book_view(book_id, book_label, book_description, title, subtitle, first_line, series)"/>
+        </ontologyPredicateMapping>
+        <ontologyPredicateMapping id="M901_first_line">
+            <attribute string="http://books/#first_line">
+                <domainTemplate>https://www.wikidata.org/wiki/{book_id}</domainTemplate>
+                <rangeVariable>first_line</rangeVariable>
+            </attribute>
+            <HEAD string="Book_view(book_id, book_label, book_description, title, subtitle, first_line, series)"/>
+        </ontologyPredicateMapping>
+        <primitiveView>
+            <HEAD string="Book_view(book_id, book_label, book_description, title, subtitle, first_line, series)"/>
+            <SQLQuery> SELECT b.book_id AS book_id,b.book_label AS book_label, b.book_description AS book_description, b.title AS title, b.subtitle AS subtitle,b.first_line AS first_line,b.series AS series  FROM bookDB.Book b </SQLQuery>
+        </primitiveView>
+        <primitiveView>
+            <HEAD string="FictionalCity_view(city_id, city_label, city_description)"/>
+            <SQLQuery> SELECT c.city_id AS city_id, c.city_label AS city_label, c.city_description AS city_description FROM bookDB.FictionalCity c </SQLQuery>
+        </primitiveView>
+        <primitiveView>
+            <HEAD string="Mayor_view(mayor_id, mayor_label, mayor_description, start_time, end_time, official_residence)"/>
+            <SQLQuery> SELECT m.mayor_id AS mayor_id, m.mayor_label AS mayor_label, m.mayor_description AS mayor_description, m.start_time AS start_time, m.end_time AS end_time, m.official_residence AS official_residence FROM bookDB.Mayor m </SQLQuery>
+        </primitiveView>
+    </mappings>
+    <blocks/>
+    <constraints/>
 </OBDA>

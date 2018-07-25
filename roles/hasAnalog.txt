@@ -1,1 +1,0 @@
-fictionalCity_id;realCity_id

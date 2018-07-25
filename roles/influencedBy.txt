@@ -1,1 +1,0 @@
-author_id;influencing_author_id

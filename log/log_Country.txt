@@ -1,2 +1,25 @@
+<<<<<<< HEAD
 2018-07-24 17:53:45
 
+=======
+2018-07-24 17:39:11
+
+Number of countries: 1
+
+*** STATISTICS *** 
+no population   :0  (0.0 %) 
+no area         :0  (0.0 %) 
+no label        :0  (0.0 %) 
+no description  :0  (0.0 %) 
+no language     :0  (0.0 %) 
+Total_time:	0.35 sec
+Number of countries: 9
+
+*** STATISTICS *** 
+no population   :0  (0.0 %) 
+no area         :0  (0.0 %) 
+no label        :0  (0.0 %) 
+no description  :0  (0.0 %) 
+no language     :0  (0.0 %) 
+Total_time:	1.52 sec
+>>>>>>> 03d843f537419c52a95bbed2f3546ed5c8b989e2

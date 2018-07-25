@@ -34,7 +34,7 @@
 <!--</primitiveView>-->
 
 <ontologyPredicateMapping id="M3_Book">
-<concept string="Book">
+<concept string="http://books/Book">
 <template>https://www.wikidata.org/wiki/{book_id}</template>
 </concept>
 <HEAD string="Book_view(book_id, book_label, book_description, title, subtitle, first_line, series)"/>

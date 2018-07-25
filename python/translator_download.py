@@ -213,7 +213,8 @@ class TranslatorDownloadThread(threading.Thread):
                 self.local_statistics[index("no PoD")] += 1
 
             translators_lock.acquire()
-            translators_file.write(translator + ";" + label.replace(";", " ") + ";" + description.replace(";", " ") + ";" + name.replace(";", " ") + ";" + sex + ";" + DoB + ";" + DoD + "\n")
+            translators_file.write(str(translator) + ";" + label.replace(";", " ") + ";" + description.replace(";", " ") + ";" + name.replace(";", " ") + ";" + sex + ";" + DoB + ";" + DoD + "\n")
+            print(translator + ";" + label.replace(";", " ") + ";" + description.replace(";", " ") + ";" + name.replace(";", " ") + ";" + sex + ";" + DoB + ";" + DoD + "\n")
             translators_lock.release()
 
     def join(self):

@@ -1,1 +1,0 @@
-human_id;human_label;human_description;human_name;human_sex;human_DoB;human_DoD;is_character

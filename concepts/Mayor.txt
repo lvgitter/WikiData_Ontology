@@ -1,1 +1,0 @@
-mayor_id;mayor_label;mayor_description;start_time;end_time;official_residence

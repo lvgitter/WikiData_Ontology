@@ -1,2 +1,21 @@
+<<<<<<< HEAD
 2018-07-24 17:53:45
 
+=======
+2018-07-24 17:39:11
+
+
+
+*** STATISTICS *** 
+no name         :35  (78.0 %) 
+no sex          :0  (0.0 %) 
+no DoB          :7  (16.0 %) 
+no DoD          :10  (22.0 %) 
+no occupation   :3  (7.000000000000001 %) 
+no PoB          :17  (38.0 %) 
+no PoD          :32  (71.0 %) 
+no language     :0  (0.0 %) 
+no label        :0  (0.0 %) 
+no description  :0  (0.0 %) 
+Total_time:	3.74 sec
+>>>>>>> 03d843f537419c52a95bbed2f3546ed5c8b989e2

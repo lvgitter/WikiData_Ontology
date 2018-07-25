@@ -1,2 +1,31 @@
+<<<<<<< HEAD
 2018-07-24 17:53:45
 
+=======
+2018-07-24 17:39:11
+
+Number of cities: 280
+
+
+*** STATISTICS *** 
+no population   :87  (31.0 %) 
+no area         :0  (0.0 %) 
+no label        :1  (0.0 %) 
+no description  :0  (0.0 %) 
+no country      :0  (0.0 %) 
+no mayor        :238  (85.0 %) 
+fictional       :0  (0.0 %) 
+Total_time:	8.25 sec
+Number of cities: 8
+
+
+*** STATISTICS *** 
+no population   :2  (25.0 %) 
+no area         :0  (0.0 %) 
+no label        :0  (0.0 %) 
+no description  :0  (0.0 %) 
+no country      :0  (0.0 %) 
+no mayor        :8  (100.0 %) 
+fictional       :0  (0.0 %) 
+Total_time:	0.32 sec
+>>>>>>> 03d843f537419c52a95bbed2f3546ed5c8b989e2
