@@ -1,0 +1,98 @@
+human_id;human_label;human_description;human_name;human_sex;human_DoB;human_DoD
+Q562163;Michael Scott;Irish author and collector and editor of folklore;Michael Scott;male;+1959-09-28T00:00:00Z;
+Q9711;Honoré de Balzac;French writer;Honoré de Balzac;male;+1799-05-20T00:00:00Z;+1850-08-18T00:00:00Z
+Q1357338;Neil Asher Silberman;American archaeologist;Neil Asher Silberman;male;+1950-06-19T00:00:00Z;
+Q228624;Suzanne Collins;American television writer and novelist;Suzanne Marie Collins;female;+1962-08-10T00:00:00Z;
+Q584990;Louis de Jaucourt;scholar;Louis de Jaucourt;male;+1704-09-16T00:00:00Z;+1779-02-03T00:00:00Z
+Q235291;Jung Chang;writer from China;Jung Chang;female;+1952-03-25T00:00:00Z;
+Q732338;Rohinton Mistry;Canadian writer;Rohinton Mistry;male;+1952-07-03T00:00:00Z;
+Q9038;Muḥammad ibn Mūsā al-Khwārizmī;Persian  mathematician, astronomer and geographer;محمد بن موسى الخوارزمي;male;;+0846-01-01T00:00:00Z
+Q726264;Israel Finkelstein;Israeli archaeologist;Israel Finkelstein;male;+1949-01-01T00:00:00Z;
+Q81731;Murasaki Shikibu;Japanese novelist and poet;紫式部;female;+0978-00-00T00:00:00Z;+1016-00-00T00:00:00Z
+Q311145;Joaquim Maria Machado de Assis;Brazilian writer;Joaquim Maria Machado de Assis;male;+1839-06-21T00:00:00Z;+1908-09-29T00:00:00Z
+Q310800;John Reed;American journalist, poet, and communist activist;John Reed;male;+1887-10-22T00:00:00Z;+1920-10-17T00:00:00Z
+Q50039;Patrick Conley;German-American journalist and media historian;Patrick Conley;male;+1965-01-01T00:00:00Z;
+Q1512;Robert Louis Stevenson;Scottish novelist, poet, essayist, and travel writer;Robert Louis Stevenson;male;+1850-11-13T00:00:00Z;+1894-12-03T00:00:00Z
+Q37230;Central Intelligence Agency;national intelligence agency of the United States;Central Intelligence Agency;;;
+Q1167679;James Tabor;biblical scholar;James Tabor;male;+1946-03-02T00:00:00Z;
+Q506120;Robert Gellately;Canadian academic;Robert Gellately;male;+1943-01-01T00:00:00Z;
+Q81685;François Mauriac;French author;François Mauriac;male;+1885-10-11T00:00:00Z;+1970-09-01T00:00:00Z
+Q6074970;Demet Altinyeleklioglu;;Demet Altınyeleklioğlu;female;+1955-02-13T00:00:00Z;
+Q37731;Uthman ibn Affan;Companion of Muhammad and third Rashidun;عثمان بن عفان;male;+0574-01-01T00:00:00Z;+0656-07-17T00:00:00Z
+Q449085;Dodie Smith;English novelist and playwright;Dodie Smith;female;+1896-05-03T00:00:00Z;+1990-11-24T00:00:00Z
+Q240576;Edmondo De Amicis;Italian writer;Edmondo De Amicis;male;+1846-10-21T00:00:00Z;+1908-03-11T00:00:00Z
+Q163118;Marguerite Yourcenar;French writer;Marguerite Yourcenar;female;+1903-06-08T00:00:00Z;+1987-12-17T00:00:00Z
+Q1043;Carl Linnaeus;Swedish botanist, physician, and zoologist;Carl Linné;male;+1707-05-23T00:00:00Z;+1778-01-10T00:00:00Z
+Q11471103;Takahiro Yamato;;Takahiro Yamato;male;+1972-00-00T00:00:00Z;+2009-07-20T00:00:00Z
+Q170596;T. E. Lawrence;British archaeologist, military officer, and diplomat;Thomas Edward Lawrence;male;+1888-08-16T00:00:00Z;+1935-05-19T00:00:00Z
+Q23434;Ernest Hemingway;American author and journalist;Ernest Hemingway;male;+1899-07-21T00:00:00Z;+1961-07-02T00:00:00Z
+Q6882;James Joyce;Irish novelist and poet;James Augustine Aloysius Joyce;male;+1882-02-02T00:00:00Z;+1941-01-13T00:00:00Z
+Q102513;Harriet Beecher Stowe;American abolitionist and author;Elizabeth Harriet Beecher;female;+1811-06-14T00:00:00Z;+1896-07-01T00:00:00Z
+Q180903;Natsume Sōseki;Japanese novelist;夏目漱石;male;+1867-02-09T00:00:00Z;+1916-12-09T00:00:00Z
+Q82104;Ian Fleming;English author, journalist and naval intelligence officer;Ian Fleming;male;+1908-05-28T00:00:00Z;+1964-08-12T00:00:00Z
+Q720306;Andrew Miller;English novelist;Andrew Miller;male;+1960-04-29T00:00:00Z;
+Q82778;Pliny the Elder;Roman military commander and writer;Gaius Plinius Secundus;male;+0023-01-01T00:00:00Z;+0079-08-24T00:00:00Z
+Q310379;John Irving;American novelist and screenwriter;John Irving;male;+1942-03-02T00:00:00Z;
+Q1035;Charles Darwin;British naturalist, author of "On the origin of species, by means of natural selection";Charles Robert Darwin;male;+1809-02-12T00:00:00Z;+1882-04-19T00:00:00Z
+Q37151;Sun Tzu;ancient Chinese military general, strategist and philosopher from the Zhou Dynasty;孫子;male;-0543-01-01T00:00:00Z;-0495-01-01T00:00:00Z
+Q329937;Milton Abramowitz;American mathematician;Milton Abramowitz;male;+1915-01-01T00:00:00Z;+1958-07-05T00:00:00Z
+Q42;Douglas Adams;author and humorist;Douglas Adams;male;+1952-03-11T00:00:00Z;+2001-05-11T00:00:00Z
+Q13230;Ferdinand de Saussure;Swiss linguist;Ferdinand de Saussure;male;+1857-11-26T00:00:00Z;+1913-02-22T00:00:00Z
+Q71501;Ernst Förstemann;German historian, archivist and librarian;Ernst Förstemann;male;+1822-09-18T00:00:00Z;+1906-11-04T00:00:00Z
+Q46248;Terry Pratchett;English  fantasy author;Terry Pratchett;male;+1948-04-28T00:00:00Z;+2015-03-12T00:00:00Z
+Q1067;Dante Alighieri;Italian poet;Dante Alighieri;male;+1265-05-00T00:00:00Z;+1321-09-14T00:00:00Z
+Q9458;Muhammad;the Prophet of Islam;محمد بن عبدالله بن عبد المطلب بن هاشم بن عبد مناف بن قصي;male;+0570-04-26T00:00:00Z;+0632-06-08T00:00:00Z
+Q170509;Henry James;American novelist, short story author, and literary critic;Henry James;male;+1843-04-15T00:00:00Z;+1916-02-28T00:00:00Z
+Q991;Fyodor Dostoyevsky;Russian author;Фёдор Михайлович Достоевский;male;+1821-10-30T00:00:00Z;+1881-02-09T00:00:00Z
+Q1348862;Ronald Wright;Canadian author;Ronald Wright;male;+1948-01-01T00:00:00Z;
+Q4671;Matthew Kneale;British writer;Matthew Kneale;male;+1960-11-24T00:00:00Z;
+Q295431;Julian Barnes;English writer;Julian Barnes;male;+1946-01-19T00:00:00Z;
+Q28170;Max Brooks;American author;Max Brooks;male;+1972-05-22T00:00:00Z;
+Q1392021;Timothy Mo;novelist;Timothy Mo;male;+1950-12-30T00:00:00Z;
+Q105118;Sidney Sheldon;American writer;Sidney Sheldon;male;+1917-02-11T00:00:00Z;+2007-01-30T00:00:00Z
+Q42511;H. G. Wells;English writer;Herbert George Wells;male;+1866-09-21T00:00:00Z;+1946-08-13T00:00:00Z
+Q42831;Ivan Turgenev;Russian writer;Ivan Turgenev;male;+1818-10-28T00:00:00Z;+1883-09-03T00:00:00Z
+Q237555;Sarah Waters;novelist;Sarah Waters;female;+1966-07-21T00:00:00Z;
+Q299015;Austrian Academy of Sciences;;Austrian Academy of Sciences;;;
+Q314771;Maurice Sendak;American illustrator and writer of children's books;Maurice Bernard Sendak;male;+1928-06-10T00:00:00Z;+2012-05-08T00:00:00Z
+Q4583;Anne Frank;German-born diarist and holocaust victim;Anne Frank;female;+1929-06-12T00:00:00Z;+1945-02-01T00:00:00Z
+Q35064;Agatha Christie;English mystery and detective writer;Agatha Christie;female;+1890-09-15T00:00:00Z;+1976-01-12T00:00:00Z
+Q153232;Jean le Rond D'Alembert;French philosopher;Jean Le Rond D'Alembert;male;+1717-11-16T00:00:00Z;+1783-10-29T00:00:00Z
+Q5816;Mao Zedong;Chairman of the Central Committee of the Communist Party of China;毛澤東;male;+1893-12-26T00:00:00Z;+1976-09-09T00:00:00Z
+Q967307;Jon Halliday;Irish historian;Jon Halliday;male;+1939-01-01T00:00:00Z;
+Q249197;Frederick Forsyth;English novelist;Frederick Forsyth;male;+1938-08-25T00:00:00Z;
+Q40479;David Mitchell;English novelist;David Stephen Mitchell;male;+1969-01-12T00:00:00Z;
+Q448;Denis Diderot;French Enlightenment philosopher and encyclopædist;Denis Diderot;male;+1713-10-05T00:00:00Z;+1784-07-31T00:00:00Z
+Q81989;Gabriel;angel in Abrahamic religions;Gabriel;male;;
+Q6969361;Nathan Stoltzfus;American historian;Nathan Stoltzfus;male;+1954-07-24T00:00:00Z;
+Q39829;Stephen King;American author;Stephen King;male;+1947-09-21T00:00:00Z;
+Q528826;William Trevor;Irish writer;William Trevor;male;+1928-05-24T00:00:00Z;+2016-11-20T00:00:00Z
+Q9215;Sigmund Freud;Austrian neurologist known as the founding father of psychoanalysis;Sigmund Freud;male;+1856-05-06T00:00:00Z;+1939-09-23T00:00:00Z
+Q47484;André Gide;French novelist and essayist;André Gide;male;+1869-11-22T00:00:00Z;+1951-02-19T00:00:00Z
+Q181677;George R. R. Martin;American writer, screenwriter and television producer;George Raymond Richard Martin;male;+1948-09-20T00:00:00Z;
+Q43459;Ferdowsi;Persian poet;Hakīm Abol-Ghāsem Ferdowsī Tūsī;male;+0940-00-00T00:00:00Z;+1020-01-01T00:00:00Z
+Q173540;Margaret Mitchell;American author and journalist;Margaret Munnerlyn Mitchell;female;+1900-11-08T00:00:00Z;+1949-08-16T00:00:00Z
+Q18430;Joseph E. Stiglitz;American economist and professor, born 1943;Joseph Stiglitz;male;+1943-02-09T00:00:00Z;
+Q49081;Christopher Hitchens;British-American author and journalist;Christopher Eric Hitchens;male;+1949-04-13T00:00:00Z;+2011-12-15T00:00:00Z
+Q2793;Brothers Grimm;German authors and folklorists;Brothers Grimm;;;
+Q180589;Boris Johnson;British politician, historian and journalist;Boris Johnson;male;+1964-06-19T00:00:00Z;
+Q210059;Neil Gaiman;English fantasy writer;Neil Gaiman;male;+1960-11-10T00:00:00Z;
+Q5682;Miguel de Cervantes;Spanish novelist, poet, and playwright;Miguel de Cervantes y Saavedra;male;+1547-09-29T00:00:00Z;+1616-04-22T00:00:00Z
+Q233956;Muriel Spark;Scottish writer;Muriel Spark;female;+1918-02-01T00:00:00Z;+2006-04-13T00:00:00Z
+Q924927;Matvei Golovinski;French journalist;Матвей Васильевич Головинский;male;+1865-03-06T00:00:00Z;+1920-01-01T00:00:00Z
+Q76;Barack Obama;44th President of the United States of America;Barack Obama;male;+1961-08-04T00:00:00Z;
+Q34660;J. K. Rowling;English novelist;Joanne Rowling;female;+1965-07-31T00:00:00Z;
+Q4731;M. J. Hyland;English novelist;M. J. Hyland;female;+1968-06-06T00:00:00Z;
+Q1064;Alessandro Manzoni;Italian poet and novelist;Alessandro Francesco Tommaso Antonio Manzoni;male;+1785-03-07T00:00:00Z;+1873-05-22T00:00:00Z
+Q274848;Irene Stegun;American mathematician;Irene Stegun;female;+1919-02-09T00:00:00Z;+2008-01-27T00:00:00Z
+Q79759;John Milton;English epic poet;John Milton;male;+1608-12-09T00:00:00Z;+1674-11-08T00:00:00Z
+Q193111;Mika Waltari;Finnish author;Mika Toimi Waltari;male;+1908-09-19T00:00:00Z;+1979-08-26T00:00:00Z
+Q134798;Haruki Murakami;Japanese author and novelist;村上 春樹;male;+1949-01-12T00:00:00Z;
+Q905;Franz Kafka;German-speaking Bohemian Jewish novelist and short story writer;Franz Kafka;male;+1883-07-03T00:00:00Z;+1924-06-03T00:00:00Z
+Q34474;Aleksandr Solzhenitsyn;Russian writer;Aleksandr Solzhenitsyn;male;+1918-12-11T00:00:00Z;+2008-08-03T00:00:00Z
+Q909;Jorge Luis Borges;Argentine short-story writer, essayist, poet and translator;Jorge Luis Borges;male;+1899-08-24T00:00:00Z;+1986-06-14T00:00:00Z
+Q365955;Hallgrímur Helgason;Icelandic writer;Hallgrímur Helgason;male;+1959-02-18T00:00:00Z;
+Q861482;Christopher Moore;American writer of comic fantasy;Christopher Moore;male;+1957-01-01T00:00:00Z;
+Q182874;Cao Xueqin;Chinese writer during the Qing dynasty;Cao Xueqin;male;+1724-07-12T00:00:00Z;+1763-01-01T00:00:00Z
+Q62892;Uwe Tellkamp;German writer and physician;Uwe Tellkamp;male;+1968-10-28T00:00:00Z;
+Q241248;Orhan Pamuk;Turkish novelist and screenwriter;Orhan Pamuk;male;+1952-06-07T00:00:00Z;

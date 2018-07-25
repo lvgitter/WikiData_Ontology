@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 2018-07-24 17:53:45
 
 =======
 2018-07-24 17:39:11
+=======
+2018-07-25 09:18:57
+>>>>>>> 2b7cf292a21b314530dfb756fa2f8d4cace94c77
 
 
 
@@ -17,5 +21,9 @@ no PoD          :32  (71.0 %)
 no language     :0  (0.0 %) 
 no label        :0  (0.0 %) 
 no description  :0  (0.0 %) 
+<<<<<<< HEAD
 Total_time:	3.74 sec
 >>>>>>> 03d843f537419c52a95bbed2f3546ed5c8b989e2
+=======
+Total_time:	1.9 sec
+>>>>>>> 2b7cf292a21b314530dfb756fa2f8d4cace94c77

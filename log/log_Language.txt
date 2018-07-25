@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 2018-07-24 17:53:45
 
 =======
 2018-07-24 17:39:11
+=======
+2018-07-25 09:18:57
+>>>>>>> 2b7cf292a21b314530dfb756fa2f8d4cace94c77
 
 Number of languages: 24
 
@@ -10,19 +14,23 @@ Number of languages: 24
 no speakers     :7  (28.999999999999996 %) 
 no label        :0  (0.0 %) 
 no description  :0  (0.0 %) 
-Total_time:	2.24 sec
+Total_time:	0.82 sec
 Number of languages: 9
 
 *** STATISTICS *** 
 no speakers     :1  (11.0 %) 
 no label        :0  (0.0 %) 
 no description  :0  (0.0 %) 
-Total_time:	0.32 sec
+Total_time:	0.38 sec
 Number of languages: 7
 
 *** STATISTICS *** 
 no speakers     :0  (0.0 %) 
 no label        :0  (0.0 %) 
 no description  :0  (0.0 %) 
+<<<<<<< HEAD
 Total_time:	0.29 sec
 >>>>>>> 03d843f537419c52a95bbed2f3546ed5c8b989e2
+=======
+Total_time:	0.3 sec
+>>>>>>> 2b7cf292a21b314530dfb756fa2f8d4cace94c77

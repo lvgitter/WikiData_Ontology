@@ -4,10 +4,23 @@
     <list default="true" id="9f9c1132-1bf9-4d35-a890-1b8aab879b41" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/obj/awards.pkl" afterPath="$PROJECT_DIR$/python/obj/awards.pkl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/obj/genres.pkl" afterPath="$PROJECT_DIR$/python/obj/genres.pkl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/obj/locations.pkl" afterPath="$PROJECT_DIR$/python/obj/locations.pkl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/obj/occupations.pkl" afterPath="$PROJECT_DIR$/python/obj/occupations.pkl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/obj/official_residence.pkl" afterPath="$PROJECT_DIR$/python/obj/official_residence.pkl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/obj/series.pkl" afterPath="$PROJECT_DIR$/python/obj/series.pkl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concepts/Author.txt" afterPath="$PROJECT_DIR$/concepts/Author.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concepts/Book.txt" afterPath="$PROJECT_DIR$/concepts/Book.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concepts/Country.txt" afterPath="$PROJECT_DIR$/concepts/Country.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concepts/Edition.txt" afterPath="$PROJECT_DIR$/concepts/Edition.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concepts/FictionalHuman.txt" afterPath="$PROJECT_DIR$/concepts/FictionalHuman.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concepts/FictionalNotHuman.txt" afterPath="$PROJECT_DIR$/concepts/FictionalNotHuman.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concepts/Human.txt" afterPath="$PROJECT_DIR$/concepts/Human.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concepts/Language.txt" afterPath="$PROJECT_DIR$/concepts/Language.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concepts/Mayor.txt" afterPath="$PROJECT_DIR$/concepts/Mayor.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concepts/Publisher.txt" afterPath="$PROJECT_DIR$/concepts/Publisher.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concepts/RealCity.txt" afterPath="$PROJECT_DIR$/concepts/RealCity.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concepts/Translator.txt" afterPath="$PROJECT_DIR$/concepts/Translator.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/log_Author.txt" afterPath="$PROJECT_DIR$/log/log_Author.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/log_Book.txt" afterPath="$PROJECT_DIR$/log/log_Book.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/log_Characters.txt" afterPath="$PROJECT_DIR$/log/log_Characters.txt" />
@@ -31,8 +44,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processed/processedMayors.txt" afterPath="$PROJECT_DIR$/processed/processedMayors.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processed/processedPublishers.txt" afterPath="$PROJECT_DIR$/processed/processedPublishers.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processed/processedTranslators.txt" afterPath="$PROJECT_DIR$/processed/processedTranslators.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/init.py" afterPath="$PROJECT_DIR$/python/init.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/translator_download.py" afterPath="$PROJECT_DIR$/python/translator_download.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/follows.txt" afterPath="$PROJECT_DIR$/roles/follows.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/foundedBy.txt" afterPath="$PROJECT_DIR$/roles/foundedBy.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/hasAuthor.txt" afterPath="$PROJECT_DIR$/roles/hasAuthor.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/hasAuthorAwards.txt" afterPath="$PROJECT_DIR$/roles/hasAuthorAwards.txt" />
@@ -75,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="translator_download.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="translator_download.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/translator_download.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="214" column="28" lean-forward="false" selection-start-line="214" selection-start-column="12" selection-end-line="214" selection-end-column="28" />
+            <state relative-caret-position="216">
+              <caret line="216" column="0" lean-forward="false" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -105,11 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="init.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="init.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python/init.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3725">
-              <caret line="186" column="0" lean-forward="true" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
+            <state relative-caret-position="-6536">
+              <caret line="65" column="23" lean-forward="false" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -659,16 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/init.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3725">
-          <caret line="186" column="0" lean-forward="true" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python/countries_download.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -687,9 +690,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python/translator_download.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="214" column="28" lean-forward="false" selection-start-line="214" selection-start-column="12" selection-end-line="214" selection-end-column="28" />
+        <state relative-caret-position="216">
+          <caret line="216" column="0" lean-forward="false" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6536">
+          <caret line="65" column="23" lean-forward="false" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

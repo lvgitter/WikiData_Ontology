@@ -214,7 +214,6 @@ class TranslatorDownloadThread(threading.Thread):
 
             translators_lock.acquire()
             translators_file.write(str(translator) + ";" + label.replace(";", " ") + ";" + description.replace(";", " ") + ";" + name.replace(";", " ") + ";" + sex + ";" + DoB + ";" + DoD + "\n")
-            print(translator + ";" + label.replace(";", " ") + ";" + description.replace(";", " ") + ";" + name.replace(";", " ") + ";" + sex + ";" + DoB + ";" + DoD + "\n")
             translators_lock.release()
 
     def join(self):

@@ -1,0 +1,66 @@
+author_id;genre
+Q732338;novel
+Q228624;speculative fiction
+Q235291;biography
+Q102513;novel
+Q295431;satire
+Q311145;style of Machado de Assis
+Q102513;tale
+Q102513;short story
+Q1512;adventure novel
+Q295431;detective fiction
+Q23434;prose
+Q23434;opinion journalism
+Q1512;gothic fiction
+Q46248;fantasy
+Q240576;children's literature
+Q82104;detective fiction
+Q42;science fiction
+Q170509;gothic fiction
+Q42;comedy
+Q42;satire
+Q210059;fantasy
+Q28170;speculative fiction
+Q39829;horror literature
+Q39829;fantasy
+Q39829;science fiction
+Q42831;short story
+Q105118;drama
+Q181677;science fiction
+Q39829;drama
+Q35064;crime novel
+Q35064;detective fiction
+Q35064;adventure novel
+Q35064;autobiography
+Q42831;powest
+Q42831;novel
+Q42511;science fiction
+Q39829;epistolary genre
+Q39829;gothic fiction
+Q42831;elegy
+Q42831;drama
+Q39829;post-apocalyptic fiction
+Q39829;thriller
+Q39829;detective fiction
+Q34660;fantasy
+Q34660;tragicomedy
+Q34660;crime novel
+Q47484;novel
+Q173540;romance novel
+Q134798;novel
+Q909;poetry
+Q909;short story
+Q5682;poetry
+Q5682;novel
+Q5682;tragedy
+Q34474;powest
+Q34474;short story
+Q34474;opinion journalism
+Q34474;essay
+Q34474;novel
+Q34474;lexicography
+Q905;modernism
+Q905;fiction
+Q905;short story
+Q905;novel
+Q905;flash fiction
