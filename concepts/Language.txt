@@ -1,41 +1,336 @@
 language_id;language_label;language_description;speakers
-Q1472196;Early Modern English;stage of development of English, starting c. 16th century;0
-Q5364419;Early Modern Spanish;variety of Spanish used in the sixteenth and seventeenth centuries;
-Q7737;Russian;East Slavic language;171428900
-Q28602;Aramaic;language belonging to the Semitic family, part of the Northwest Semitic subfamily;445000
-Q37041;Classical Chinese;language of the Sino-Tibetan language family (ISO 639-3: lzh);
+Q1450506;Canadian French;dialect;
+Q7838;Swahili;Bantu language. Mostly spoken mainly within East Africa. National language in Tanzania and one of the official languages of Kenya.;15437390
+Q28092;Algonquin;distinct Algonquian language closely related to the Ojibwe language or a particularly divergent Ojibwe dialect;2430
 Q9168;Persian;Indo-European language;52939220
-Q5287;Japanese;East Asian language;130000000
-Q7411;Dutch;West Germanic language;24000000
-Q150;French;Romance language;75917870
-Q13955;Arabic;Semitic language;313177600
-Q652;Italian;Romance language;63413657
-Q5146;Portuguese;Romanic language originated in Portugal;202225450
-Q397;Latin;Indo-European language of the Italic family;100
-Q256;Turkish;Turkic language (possibly Altaic);71435850
-Q7976;American English;set of dialects of the English language spoken in the US;
-Q1982248;Biblical Hebrew;stage of the Hebrew language written and spoken during the composition of the Bible;
-Q7850;Chinese;family of languages;1299877520
-Q188;German;West Germanic language;105000000
-Q1654327;Classical Arabic;form of the Arabic language used in Umayyad and Abbasid literary texts;
-Q1321;Spanish;Romance language;470000000
-Q1412;Finnish;language arising and mostly spoken in Finland, of the Finnic family;5413380
-Q182695;Late Old Japanese;extinct language;
-Q107358;Koine Greek;common dialect of Greek spoken and written in the ancient world;
-Q1860;English;West Germanic language originating in England with linguistic roots in French, German and Vulgar Latin;339370920
+Q2582455;Middle Mongolian;;
 Q6654;Croatian;South Slavic language;7000000
-Q9142;Irish;language spoken in Ireland;276310
-Q9240;Indonesian;language spoken in Indonesia;23208480
-Q9056;Czech;West Slavic language spoken in the Czech Republic;11500000
-Q7026;Catalan;Romance language;4079420
-Q665624;Hiberno-English;the set of English dialects natively written and spoken within the island of Ireland;
-Q7913;Romanian;Romance language;24000000
-Q36395;Middle English;stage of the English language from about the 12th through 15th centuries;0
-Q809;Polish;language spoken in Poland;40200000
-Q14185;Occitan;Romance language;4000000
-Q33856;Papiamento;creole language spoken in the Dutch West Indies;319000
-Q27175;West Frisian;Germanic language;460000
-Q9309;Welsh;Brythonic language spoken natively in Wales;724000
-Q9035;Danish;language spoken in Denmark;6000000
-Q8752;Basque;language of the Basque people;714136
+Q11051;Hindi-Urdu;Indo-Aryan language;
+Q164667;Arabic languages;language family;
+Q29579;Awadhi;Eastern Hindi language, sometimes considered a dialect of the Hindi-Urdu dialect continuum;38000000
 Q9307;Galician;language of the Western Ibero-Romranch;2500000
+Q192996;CA;Wikimedia disambiguation page;
+Q9303;Bosnian;South Slavic language;2500000
+Q33690;Kashubian;Indo-European language spoken in Poland;108000
+Q256;Turkish;Turkic language (possibly Altaic);71435850
+Q7918;Bulgarian;South Slavic language;12000000
+Q9252;Kazakh;Turkic language;12753100
+Q33557;Karelian;Finnic language;35600
+Q5287;Japanese;East Asian language;130000000
+Q14185;Occitan;Romance language;4000000
+Q506588;Attic Greek;Ancient Greek dialect;
+Q37015;Riksmål;unofficial Norwegian written standard language;
+Q1472199;Early New High German;extinct Germanic language (1350–1650);
+Q1553250;Scottish English;varieties of English spoken in Scotland;
+Q9091;Belarusian;east Slavic language;7960000
+Q5222637;Dargin languages;;
+Q1191063;linguistic purism in English;efforts at retaining Germanic influences in the language;
+Q44676;Canadian English;dialect within the English language;
+Q13211;Ruthenian;language;
+Q9158783;Arabe;French destroyer;
+Q653415;Malay trade and creole languages;language family;
+Q1412;Finnish;language arising and mostly spoken in Finland, of the Finnic family;5413380
+Q665624;Hiberno-English;the set of English dialects natively written and spoken within the island of Ireland;
+Q205979;Sogdian;extinct language from Central Asia;0
+Q35939;Jamaican Patois;English-based creole spoken in Jamaica;3200000
+Q5736700;Old Japanese;oldest attested stage of the Japanese language;
+Q33587;Gikuyu;language of the Bantu family spoken primarily by the Kikuyu people of Kenya;7180000
+Q37733;Judeo-Arabic languages;language;
+Q783605;written vernacular Chinese;language;
+Q499083;Renaissance Latin;;
+Q1321;Spanish;Romance language;470000000
+Q5885;Tamil;language;67832790
+Q9051;Luxembourgish;Germanic language or language variety spoken in Luxembourg;390000
+Q8765;Aragonese;Romance language;10000
+Q34340;Sesotho;language;6000000
+Q15065;Malaysian;official language of Malaysia  standardized register of the Malacca dialect of Malay;25000000
+Q2530387;Taglish;;
+Q192170;Prakrit;The common name of the common Indian languages which developed in the medieval period of Indian Orion language is Prakrit;
+Q9142;Irish;language spoken in Ireland;276310
+Q7976;American English;set of dialects of the English language spoken in the US;
+Q1571;Marathi;Indo-Aryan language  a constitutionally-recognised Indian language;71775760
+Q657330;Middle Egyptian;language written from 2000-1300 BC, during the Middle Kingdom and the Second Intermediate Period;
+Q34239;Konkani;Indo-Aryan language spoken in India;7600000
+Q1617;Urdu;national language and lingua franca of Pakistan  standardized register of Hindustani;68619830
+Q5146;Portuguese;Romanic language originated in Portugal;202225450
+Q143;Esperanto;international auxiliary language designed by Ludwik Lejzer Zamenhof;2000000
+Q9246;Mongolian;language spoken in Mongolia;7000000
+Q46728;Fiji Hindi;language spoken by most Fijian citizens of Indian descent;380000
+Q13248;Upper Sorbian;language spoken by Sorbs in Germany in the historical province of Upper Lusatia;13300
+Q150;French;Romance language;75917870
+Q33725;Karaim;Turkic language spoken by the Crimean Karaites;80
+Q33251;Church Slavonic;liturgical language of the Orthodox Church in Russia, Ukraine and Belarus;
+Q180945;Western Armenian;one of the two standardized forms of Modern Armenian;1395240
+Q12294897;Middle Bulgarian;standard language during the time of Second Bulgarian Empire;
+Q9056;Czech;West Slavic language spoken in the Czech Republic;11500000
+Q12107;Breton;Celtic language;206000
+Q285494;Doric Greek;dialect;
+Q9267;Turkmen;language of the Turkic family;12000000
+Q28244;Amharic;Semitic language spoken in Ethiopia;21000000
+Q9237;Malay;Austronesian language;225000000
+Q58635;Punjabi;Indo-Aryan language spoken mainly in Pakistan (Western Punjabi) and India (Eastern Punjabi);28200000
+Q9063;Slovene;language spoken in Slovenia;2400000
+Q9301;Serbo-Croatian;South Slavic language;24000000
+Q178440;Dari;language dialect of Persian;
+Q603200;Jamaican English;dialect;
+Q131339;Alemannic German;group of dialects of the Upper German branch of the Germanic language family;10000000
+Q36116;Middle Irish;Goidelic language which was spoken in Ireland, Scotland and the Isle of Man from the 10th to 12th centuries;
+Q26245;Rusyn;east Slavic language;610000
+Q36395;Middle English;stage of the English language from about the 12th through 15th centuries;0
+Q33947;Northern Sami;most widely spoken of all Sami languages;20000
+Q22283016;language without language code;no WMF language code available for language;
+Q33673;Kannada;Dravidian language of India;35000000
+Q35961;Katharevousa;former prestige form of the Modern Greek language;
+Q9027;Swedish;North Germanic language;9244250
+Q14196;Afrikaans;West Germanic language;6000000
+Q750553;Brazilian Portuguese;dialect within the Portuguese language;
+Q8141;Modern Hebrew;language;
+Q13349;Mon;Austroasiatic language spoken by the Mon in Burma and Thailand;850000
+Q1348800;Indian English;group of English dialects spoken primarily in the Indian subcontinent;
+Q13267;Sinhala;language of the Sinhalese people of Sri Lanka;16000000
+Q34057;Tagalog;Austronesian language;24000000
+Q13955;Arabic;Semitic language;313177600
+Q32063;Middle Persian;ancestor of New Persian language;0
+Q9199;Vietnamese;language spoken in Vietnam;68058620
+Q252;Indonesia;republic in Southeast Asia;
+Q9072;Estonian;language spoken in Estonia;1100000
+Q33976;Sardinian;Romance language indigenous to the island of Sardinia;1500000
+Q13300;Nahuatl;language of the Nahuan branch of the Uto-Aztecan language family;1740000
+Q188;German;West Germanic language;105000000
+Q7913;Romanian;Romance language;24000000
+Q2281181;Rezina;town in Moldova;
+Q7979;British English;form of the English language used in the United Kingdom;
+Q28602;Aramaic;language belonging to the Semitic family, part of the Northwest Semitic subfamily;445000
+Q9083;Lithuanian;language spoken in Lithuania;4000000
+Q1194795;Maghrebi Arabic;language;73212000
+Q7850;Chinese;family of languages;1299877520
+Q33538;Syriac;dialect of Middle Aramaic;
+Q29401;Assamese;Eastern Indo-Aryan language of Assam in North-East India;17000000
+Q36109;Maithili;language spoken by Indian and Nepalese peoples;33890000
+Q1654327;Classical Arabic;form of the Arabic language used in Umayyad and Abbasid literary texts;
+Q9035;Danish;language spoken in Denmark;6000000
+Q36831;Chagatai;language;0
+Q56421;Hopi;Uto-Aztecan language spoken by the Hopi people of\ Arizona;5264
+Q9240;Indonesian;language spoken in Indonesia;23208480
+Q9205;Khmer;language spoken in Cambodia;14224500
+Q9264;Uzbek;Turkic language;27000000
+Q9296;Macedonian;language spoken in Macedonia;2000000
+Q56418;Spanglish;hybrid lang;
+Q2039185;Manglish;;
+Q29919;Egyptian Arabic;language spoken by contemporary Egyptians;64542400
+Q37041;Classical Chinese;language of the Sino-Tibetan language family (ISO 639-3: lzh);
+Q14549;Scots;Germanic language;90000
+Q18496871;Castellano;frazione of Sant'Elpidio a Mare, Italy;
+Q3400731;Favorlang language;;
+Q2712572;Medieval Hebrew;literary and liturgical language that existed between the 4th and 18th century;
+Q1860;English;West Germanic language originating in England with linguistic roots in French, German and Vulgar Latin;339370920
+Q181074;Classical Armenian;oldest attested form of the Armenian language;
+Q34065;Tuareg languages;language;1248200
+Q35602;Hawaiian Pidgin;English-based creole spoken in Hawai'i;700000
+Q1472196;Early Modern English;stage of development of English, starting c. 16th century;0
+Q35137;Old Chinese;form of Chinese spoken from the beginning of written records (around 1200 BC) until the 3rd century BC;
+Q33070;Balinese;Malayo-Polynesian language spoken by people on the Indonesian island of Bali;4000000
+Q33845;Neapolitan;Italo-Dalmatian language native to Naples;7500000
+Q2091290;list of Code Lyoko Evolution episodes;Wikimedia list article;
+Q653421;Geordie;Northern English dialect;
+Q36196;Ladino;language of Sephardic Jews and form of Spanish;137000
+Q44679;Australian English;language;
+Q8097;Telugu;Dravidian language;74244300
+Q1990745;Tuscan;Italo-Dalmatian variety mainly spoken in Tuscany, Italy;3000000
+Q1156228;South African English;dialect;
+Q33298;Filipino;official language of the Philippines;90000000
+Q815549;Belgian French;dialect;
+Q1473289;Middle French;historical variety of French used c. 1350–1600;
+Q35225;Old Persian;language of Achaemenid Empire and ancestor of Middle Persian;
+Q9260;Tajik;language spoken in Tajikistan;8500000
+Q32641;Valencian;Romance language spoken in the Land of Valencia;2400000
+Q1432985;Norsk;car;
+Q1572128;Philippine Spanish;dialect;
+Q29507;Asturian;Romance language of the West Iberian group;550000
+Q6393846;Kerewe;;100000
+Q9309;Welsh;Brythonic language spoken natively in Wales;724000
+Q13199;Romansh;Romance language spoken predominantly in the southeastern Swiss canton of Grisons (Graubünden);40039
+Q979914;Quebec French;form of the Romance language French as spoken in the Canadian province of Quebec;
+Q18130932;Traditional Chinese;written Chinese language;
+Q8641;Yiddish;language used by Ashkenazi Jews;1200000
+Q809;Polish;language spoken in Poland;40200000
+Q1088025;Old Spanish;early form of the Spanish language;
+Q13414913;Simplified Chinese;Written set of Chinese characters developed in mainland China;
+Q1413694;Philippine English;dialect;
+Q10134;Klingon;constructed language created for Star Trek;9000
+Q182695;Late Old Japanese;extinct language;
+Q8202951;;;
+Q107358;Koine Greek;common dialect of Greek spoken and written in the ancient world;
+Q294;Icelandic;North Germanic language mainly spoken in Iceland;320000
+Q36510;Modern Greek;dialects and varieties of the Greek language spoken in the modern era;15000000
+Q13263;Uyghur;Turkic language spoken by the Uyghur people;10389840
+Q9314;Scottish Gaelic;Celtic language native to Scotland;57000
+Q33549;Javanese;Austronesian language;84308740
+Q8785;Armenian;Indo-European language;
+Q655076;Nadsat;language;
+Q36368;Kurdish;Northwestern Iranian macro-language;31000000
+Q1163234;Medieval Latin;form of Latin used in the Middle Ages;
+Q9299;Serbian;South Slavic language;12000000
+Q9228;Burmese;language spoken in Myanmar;32035300
+Q34219;Walloon;language;600000
+Q33634;Kalmyk Oirat;Register of the Oirat language, natively spoken by the Kalmyk people of Kalmykia;360800
+Q559242;Classical Nahuatl language;language;
+Q26678452;Upper Harz Dialect;Local dialect spoken in seven Upper Harz towns;
+Q9211;Lao;Tai–Kadai language official in Laos;5225552
+Q25258;Faroese;insular Nordic language spoken as a native language by the people of Faroe Islands;69150
+Q34147;Flemish;variety of the Dutch language as spoken in Flanders (Belgium);
+Q9058;Slovak;language spoken in Slovakia;7000000
+Q7026;Catalan;Romance language;4079420
+Q34271;Tibetan;Tibeto-Birman language;1200000
+Q10867404;Sabah Malay;pidginised local trade language of Sabah;3000000
+Q29921;Inuktitut;name of some Inuit languages spoken in Canada;36220
+Q33997;Sindhi;Indo-Aryan language spoken in South Asia (Pakistan and India);21000000
+Q15840745;Polski;Wikimedia disambiguation page;
+Q9217;Thai;language spoken in Thailand;20490000
+Q727694;Standard Chinese;Modern standard form of Chinese. The version used in PRC is called "Putonghua", and the version used in ROC (Taiwan) is called "Guoyu" or "Kuo-yü". These two version are both official language of their country, and have some difference.;897071810
+Q36387;Medieval Greek;language;
+Q616620;Mexican Spanish;dialect of Spanish spoken and written in Mexico;
+Q9292;Azerbaijani;Turkic language;32000000
+Q1248221;New Latin;form of the Latin language between c. 1375 and c. 1900;
+Q36730;Ottoman Turkish;language that was used in the Ottoman Empire;
+Q36155;Coptic;latest stage of the Egyptian language;300
+Q9255;Kyrgyz;language spoken in Kyrgyzstan;4568480
+Q35505;Old Norse;North Germanic language;
+Q9067;Hungarian;language spoken in and around Hungary;15000000
+Q50868;Egyptian;language spoken in ancient Egypt, branch of the Afro-Asiatic languages;
+Q25164;Nynorsk;one of two official written standards for the Norwegian language;
+Q42365;Old English;West Germanic language, early form of English, spoken circa 450–1100;0
+Q397;Latin;Indo-European language of the Italic family;100
+Q25325;Frisian languages;group of Germanic languages;480000
+Q34988;Old Turkic;earliest attested form of Turkic, found in Göktürk and Uyghur inscriptions dating from about the 7th century to the 13th century;
+Q33500;Mandaic;language of the Mandaean religion and community;
+Q33810;Odia;classical Indian language;32137870
+Q508332;Burgundian;Oïl language spoken in Burgundy and particularly in the Morvan area of the region;200000
+Q56482;Shan;language;3000000
+Q8798;Ukrainian;member of the East Slavic subgroup of the Slavic languages;34710100
+Q506395;Chino;city in San Bernardino County, California, United States;
+Q9288;Hebrew;Semitic language spoken primarily in Israel;9000000
+Q11059;Sanskrit;ancient Indian language;2212
+Q7411;Dutch;West Germanic language;24000000
+Q9192;Mandarin Chinese;group of related varieties or dialects spoken across most of northern and southwestern China;
+Q33491;Haitian Creole;language spoken in Haiti;12000000
+Q7573411;South American Spanish;;
+Q5137;Gujarati;one of the official languages of India;46857670
+Q3110592;written Chinese language;;
+Q11996816;radical bokmål;;
+Q13354;Yucatec Maya;Mayan language spoken in the Yucatán Peninsula;706000
+Q9610;Bengali;language native to the region of eastern South Asia known as Bengal;189261200
+Q710218;Wenzhounese;language;
+Q35308;Old Irish;oldest form of the Goidelic languages for which extensive written texts are extant, used from c.600 to c.900;0
+Q36727;Pali;Middle Indo-Aryan language;0
+Q36236;Malayalam;language spoken in India;30000000
+Q8748;Albanian;Indo-European language;6200000
+Q8108;Georgian;official language of Georgia;3700000
+Q306626;Austrian German;variety of Standard German written and spoken in Austria and North Italy;8500000
+Q35222;Old French;Gallo-Romance dialect continuum spoken from the 9th century to the middle of the 14th century;
+Q33111;Corsican;Italo-Dalmatian language spoken in Corsica and part of Sardinia;340000
+Q9129;Greek;language spoken in Greece, Cyprus and Southern Albania;13000000
+Q6582819;Template:Zh icon;Wikimedia template;
+Q35497;Ancient Greek;version of the Greek language used from roughly the 9th century BCE to the 6th century CE;
+Q494600;Oghuz languages;sub-branch of the Turkic language family, spoken mainly in Western and Central Asia, and also in Eastern Europe;
+Q25167;Bokmål;one of two official written standards for the Norwegian language;4000000
+Q652;Italian;Romance language;63413657
+Q9176;Korean;language spoken in Korea;73233270
+Q8752;Basque;language of the Basque people;714136
+Q783;Honduras;republic in Central America;
+Q33578;Igbo;native language of the Igbo people;18000000
+Q35228;Old East Slavic;Slavic language used in the 10th–15th centuries;0
+Q3396844;Prilep-Bitola dialect;;
+Q1480152;Swiss French;dialect;
+Q33655;Nigerian Pidgin;;30
+Q9166;Maltese;Semitic language;520000
+Q7737;Russian;East Slavic language;171428900
+Q1982248;Biblical Hebrew;stage of the Hebrew language written and spoken during the composition of the Bible;
+Q13389;Bashkir language;Turkic language in Russia;1245990
+Q33823;Nepali;Indo-Aryan (Pahari) and official language of Nepal;17000000
+Q938216;Khowar;language;1000000
+Q1568;Hindi;language in India;260123420
+Q6359692;Kamrupi dialect;;
+Q9078;Latvian;Baltic language, official in Latvia and the European Union;1500000
+Q2919292;Yinglish;;
+Q29;Spain;constitutional monarchy in Southwest Europe;
+Q5364419;Early Modern Spanish;variety of Spanish used in the sixteenth and seventeenth centuries;
+Q9043;Norwegian;language spoken in Norway;4600000
+Q3724623;Engish;river in Russia;
+Q29540;Bavarian language;major group of Upper German varieties spoken in the southeast of the German language area Bavaria;14000000
+Q33973;Sicilian;Italo-Dalmatian language spoken in Sicily and Southern Italy;4700000
+Q33813;Hmong language;language;4000000
+Q36757;Rutul;language;47400
+Q32704;Venda;Bantu language;1064000
+Q33714;Karachay-Balkar;Turkic language;400000
+Q13275;Somali;language of East Cushitic branch of Afro-Asiatic family;14000000
+Q36451;Māori;Polynesian language spoken by New Zealand Māori;160000
+Q973685;Mari;Uralic language;
+Q33295;Fijian;Austronesian language of the Malayo-Polynesian family spoken in Fiji;350000
+Q34011;Samoan;language;370000
+Q29561;Avar;language belonging to the Avar–Andic group of the Northeast Caucasian language family;550000
+Q35392;Demotic Greek;;
+Q33968;Ossetian;Eastern Iranian language;500000
+Q33573;Kinyarwanda;Bantu language spoken in Central Africa, official in Rwanda;9800000
+Q36785;Southern Ndebele;a language belonging to the Nguni group of Bantu languages, one of the official languages of South Africa;640000
+Q33871;Nogai;Turkic language;90000
+Q33120;Buryat;variety of Mongolic spoken by the Buryats that is classified either as a language or as a major dialect group of Mongolian;329000
+Q58680;Pashto;language;50000000
+Q1991779;Southern Altai;official language of Altai Republic;55720
+Q13238;Udmurt;Uralic language;550000
+Q3436689;Brazilian Sign Language;;
+Q33856;Papiamento;creole language spoken in the Dutch West Indies;319000
+Q36206;Lak;Northeast Caucasian language;150000
+Q29952;Erzya;language spoken by people in the northern, eastern and north-western parts of the Republic of Mordovia and adjacent regions;500000
+Q25285;Tatar;Turkic language;5427318
+Q33350;Chechen;language spoken mostly in Chechnya and by Chechen people;1393900
+Q10179;Zulu;language of the Zulu people;11969100
+Q28071661;Tamazight language;;
+Q36745;Cook Islands Māori;language;42669
+Q36126;Komi;Uralic language;300000
+Q5111;Abkhaz;Northwest Caucasian language spoken mostly by the Abkhaz people;190110
+Q34137;Tswana;Bantu language;4500000
+Q36209;Kumyk;Turkic language;426212
+Q36239;New Zealand Sign Language;sign language used among New Zealand deaf community;20200
+Q34327;Tsonga;language;13000000
+Q36498;Aghul;Lezgic language spoken by the Aghuls in southern Dagestan (Russia) and in Azerbaijan;29300
+Q13357;Meänkieli;The name used in Sweden for Finnish dialects spoken in the northernmost parts of the country around the valley of the Torne River;60000
+Q25448;Berber languages;family of similar or closely related languages and dialects indigenous to North Africa;
+Q13343;Moksha;member of the Mordvinic branch of the Uralic languages and the majority language in the western part of Mordovia;2025
+Q34159;Tok Pisin;English creole spoken in Papua New Guinea;122000
+Q33522;Kabardian;Northwest Caucasian language;1600000
+Q7930;Malagasy;language spoken in Madagascar;17604640
+Q5218;Quechua;language family spoken primarily in the Andes region of South America;7767820
+Q1740805;Kichwa;Quechuan language of Ecuador and Colombia;
+Q33357;Crimean Tatar;Turkic language spoken in Crimea, Central Asia (mainly in Uzbekistan), and the Crimean Tatar diasporas in Turkey, Romania, Bulgaria;500000
+Q34014;Swazi;language;2034200
+Q13330;Mirandese;Romance language belonging to the Astur-Leonese linguistic group, sparsely spoken in a small area of northeastern Portugal;15000
+Q13201;Romani;language of the Romani people belonging to the Indo-Aryan branch of the Indo-European language family;4800000
+Q33138;Khwarezmian;extinct East Iranian language closely related to Sogdian;0
+Q56489;Tat language;language;
+Q27567;Abaza;language of the Caucasus mountains in the Russian Karachay–Cherkess Republic by the Abazins;45000
+Q4627;Aymara;native language in South America;2000000
+Q33509;Ingush;language spoken by the Ingush people;322900
+Q36668;Austrian Sign Language;sign language;
+Q4155031;;;
+Q34079;Tabasaran;Northeast Caucasian language;126900
+Q36853;Tsakhur;language;23000
+Q34094;Tongan;Polynesian language;186010
+Q27175;West Frisian;Germanic language;460000
+Q7598268;Standard Moroccan Tamazight;;
+Q33348;Chuvash;Turkic language spoken in central Russia, primarily in the Chuvash Republic and adjacent areas;1300000
+Q56463;Sami languages;group of Uralic languages spoken by the Sami people in northern Europe;25000
+Q34119;Tuvan;Turkic language in Russia;283400
+Q33575;Khakas;Turkic language spoken by the Khakas people;42604
+Q33583;Kirundi;Bantu language;4851000
+Q25044405;Papua New Guinean Sign Language;;
+Q34299;Sakha;Turkic language spoken in Sakha Republic, Russia;450000
+Q617291;Shuar;language;
+Q27776;Adyghe;one of the official languages of the Republic of Adygea in Russia;300000
+Q31746;Lezgian;language;500000
+Q33617;Hiri Motu;official language of Papua New Guinea;180000
+Q33890;Northern Sotho;language;4100000
+Q35963;Cape Verdean Creole;Portuguese-based creole language spoken in Cape Verde;871000
+Q13218;Xhosa;language;7900000
+Q33077;Comorian;language on the Comoros and Mayotte;
+Q25442;Sorbian;two languages spoken by the Sorbs;60000

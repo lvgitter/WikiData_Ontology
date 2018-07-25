@@ -1,36 +1,624 @@
 publisher_id;publisher_label;publisher_description;inception
-Q14624944;Lambert Schneider Verlag;German publisher;
-Q1587900;Harvard University Press;American university publishing house;1913
-Q2980071;;organization;1894
-Q1815400;;;1814
-Q5677798;Harvill Secker;British publishing company;1936
-Q1251563;Doubleday;American publishing company;1897
-Q3752406;;;1870
-Q21093676;;;
-Q21091410;;;
-Q845617;Charles Scribner's Sons;American publisher;1846
-Q3822096;Modern Library;American publishing company;1917
-Q821732;Metropol Verlag;German publishing house;1988
-Q4453850;Text Publishers;;1988
-Q82708;Church of England;Christian church in England and the Mother Church of the worldwide Anglican Communion;
-Q3117417;Groupe Flammarion;French publisher;1875
+Q22811304;W & R Chambers;former publisher;
+Q20926521;;;1794
+Q12018412;Grada;Czech publisher;
+Q26213420;;;
+Q17414341;;;
+Q52295467;;;1781
+Q746413;Elsevier;academic publishing company that publishes medical and scientific literature;1880
+Q20729008;Harper & Brothers;publisher;
+Q50728030;Trigon;Czech publisher;
+Q16996118;Humana Press;;1976
+Q47911839;G plus G;Czech publisher;
+Q4785084;Arcade Publishing;;1988
+Q54820827;;;
+Q18668758;;;
+Q23679680;;;
+Q7890797;United States Naval Institute;private military association;
+Q6978168;;;
+Q2861671;Arléa;;
+Q17308959;Charles Dilly;English bookseller;
+Q6283171;Joseph Foster;British genealogist;
+Q1327389;RCS MediaGroup;large publisher;1986
+Q3223258;le Grand livre du mois;French publisher;
+Q12483289;;;
+Q15702074;Hurst & Co.;publisher;
+Q15912320;Derby & Miller;New York based book publisher;1848
+Q17518122;Alphonse Lemerre;publishing company;
+Q6468767;;;
+Q2824641;;;1858
+Q55450037;Malvern;Czech publishing house;
+Q1176665;David Singmaster;British mathematician;
+Q42660339;;;
+Q15694188;Kegan Paul, Trench, Trübner & Co.;British publisher (London), successor to Kegan Paul, Trench, & Co.  and George Redway or Redway & Co.  and Trübner & Co.;
+Q2228426;;;
+Q54820878;;;
+Q41529828;Aldine Publishing Company;;
+Q1423356;Norwegian Academy of Science and Letters;academy of sciences;1857
+Q1065097;O’Reilly Media;publisher;1978
+Q12040355;Nakladatelství Lidové noviny;Czech publisher;
+Q12324541;Lindhardt & Ringhof;;1984
+Q22771879;;;
+Q1702955;Verlag für moderne Kunst;;1974
 Q779172;Sdu;Dutch publishing company;1988
+Q1372939;Eugen Ulmer Verlag;publisher;1868
+Q15054593;Gallery Books;publisher;
+Q10779739;Alois Hynek;Czech publisher;
+Q19323335;filmdenken Verlag;German publishing house;2010
+Q3831780;Libreria Editrice Felice Paggi;;1841
+Q22829043;;;
+Q3157979;Jacques-Julien Dubochet;Swiss lawyer, newspaper editor;
+Q5663419;Harper Perennial;American publisher;1964
+Q1282208;W. W. Norton & Company;American publishing company;1923
+Q867530;Victoria University of Manchester;former university in England, United Kingdom;1851
+Q22774948;;;
+Q1141167;Cross Cult;;2001
+Q2976945;Claude Barbin;French publisher;
+Q2923456;Bradbury and Evans;English printing and publishing business;1830
+Q11080946;New Century Press;;
+Q3579511;Éditions Slatkine;swiss publisher;1964
+Q47260462;Hubei Education Press;;
+Q7896016;University of Oklahoma Press;;
+Q4803879;Aschehoug;Danish publishing company;
+Q16165729;Volvox Globator;Czech publishing house;
+Q539881;University of La Laguna;university;1927
+Q1508259;Routledge;global publisher;1851
+Q3817364;Pavilion Books;British publishing house;2005
+Q4034881;Basic Books;American book publisher;1952
+Q47163356;Beiyue Wenyi Press;;
+Q24204324;A. L. Burt Company;publishing house;1883
+Q6035487;Inner Mongolia People's Publishing House;;1951
+Q712646;Artikel 19 Verlag;publisher;1989
+Q2077283;Gale;educational publishing company based in Farmington Hills, Michigan;1954
+Q3560313;Vintage Books;publishing imprint of Random House  American to 1990, now international;1954
+Q21704522;Aventinum;Czech publishing house;
+Q22679604;;;
+Q1610731;Landesarchiv Berlin;;
+Q14266181;;;
+Q95149;HarperCollins;American publishing house;1990
+Q912887;Cambridge University Press;publishing business of the University of Cambridge;1534
+Q2045104;;;1949
+Q15052913;Chartwell Books;publisher;
+Q15726956;Treuttel et Würtz;;
+Q21694393;John Wiley & Sons Ltd;;
+Q1547190;Statistics Poland;Poland's principal government institution in charge of statistics and census data;1918
+Q15053371;Brassey's Publishers;publisher;
+Q1070969;LibriVox;audiobook library;2005
+Q20895926;Unwin Paperbacks;British book publisher;
+Q3011053;D. Appleton & Company;publishing company;1905
+Q22810063;;;
+Q217595;Oxford University Press;publishing arm of the University of Oxford;1586
+Q3880860;Odhams Press;;
+Q4705496;Aladdin Paperbacks;;1967
+Q24264177;E. Sauzet;;
+Q1665106;Institut National de la Recherche Agronomique;;1946
+Q42081374;The Military Press;publisher;
+Q21001293;Charpentier;French publisher;1830
+Q54820880;Maariv Book Guild;publisher;
+Q2645334;Alfred Kröner Verlag;German publisher;1904
+Q7895979;University of North Texas Press;;1987
+Q2777746;Fayard;Paris-based French publishing house;1857
+Q2294382;George Newnes;British politician;
+Q2122662;;;
+Q54801528;John Bale, Sons and Danielsson, Ltd.;British publishing house;
+Q812420;Bavarian State Office for Statistics and Data;;1808
+Q20088183;;;
+Q8015856;William Morrow and Company;publisher;1926
+Q26162441;Českoslovanská akciová tiskárna;Czech publisher and printer;
+Q1815400;;;1814
+Q6283940;Joseph Henry Press;American publisher;
+Q24271477;Rybka Publishers;Czech publisher;
+Q4281452;;;1925
+Q3579411;Éditions Liana Levi;french publishing house;1982
+Q15137072;Hong Kong University Press;university publisher;
+Q3353255;;;1999
+Q3313834;Milady;;
+Q5565322;Giuseppe Allegrini;Italian engraver and printer;
+Q6724738;Macmillan Publishers;American publishing company;1869
+Q2295283;Smith, Elder & Co.;British book publisher;
+Q928675;Phaidon Press;publisher;1923
+Q878427;Kiepenheuer & Witsch;German publishing house;1951
+Q2522363;Victor Gollancz Ltd;British book publishing house;1927
+Q2420821;;;1849
+Q28803186;W. H. Allen & Co.;British publishing company;1835
+Q3579394;Le Dauphin blanc;Quebecois publisher;1991
+Q19862364;G. and W. B. Whittaker;London publisher;
+Q2961352;;;1981
+Q6042553;Nicolaus Spindeler;;
+Q1606982;Henry Lemoine;French piano teacher, music publisher, and composer;1772
+Q257186;Literatura Mondo;literary Esperanto periodical and publishing house in Budapest, Hungary;1922
+Q896837;C. H. Beck;German publisher;1763
+Q82708;Church of England;Christian church in England and the Mother Church of the worldwide Anglican Communion;
+Q3047430;Edgar Bourloton;French publisher;
+Q6259235;John Stockdale;English publisher;
+Q8011829;William Heinemann;British publisher;
+Q21076601;;;
+Q19000363;Ganesh & Co.;Publisher of texts by Indian authors in London, UK;
+Q13746872;Jilin Education Publishing House;;
+Q5980753;Ian Allan Publishing Ltd;publisher of transportation books;1945
+Q795454;Barnes & Noble;American book retailer;1873
+Q21448495;Games & Puzzles Publications;Publisher of Games & Puzzles magazine;
+Q5267472;Devin-Adair Publishing Company;;1911
+Q3064526;Fairchild Fashion Media;American publisher;1892
+Q19348308;Longman, Orme, Brown, Green, and Longmans;publisher in London;
+Q3579376;Karthala;French publisher;1980
+Q3579629;;;1963
+Q13128814;Gwasg Gwynedd;;1972
+Q1431868;Alfred A. Knopf;American publishing house;1915
+Q1573424;Assembly of the Union of the Comoros;;
+Q273559;École française d'Extrême-Orient;;1907
+Q15651528;Ludwig Röhrscheid Verlag;publisher;
+Q22295029;MBI Publishing Company LLC;;1965
+Q2421005;Presses Pocket;;
+Q5008528;CABI;not-for-profit inter-governmental development and information organisation;
+Q22771751;;;
+Q14271902;;;
+Q15053375;Bonanza Printing;publisher;
+Q2865431;;;
+Q23297711;Pierre Plassan;printer in Paris;
+Q27907916;John Brindley;English bookseller;
+Q1448947;;publisher;1913
+Q47472233;Academic Studies Press;publisher;2007
+Q2823584;Actes Sud;French publisher;1978
+Q10622327;Pelican Books;;1937
+Q85355;Arnoldo Mondadori Editore;Italian publishing company;1907
+Q3156592;;;1958
+Q15730918;Práh;Czech publisher;1991
+Q12347661;Federatie van Arbeiders-Esperantisten;former Esperanto organization for the Dutch working class;1911
+Q3093062;G. P. Putnam's Sons;US book publisher, under this name from 1872;1838
+Q15054644;Crescent Books;publisher;
+Q3087181;Frederick Warne & Co;British publishing company known for children's books;1865
+Q26459753;Josef Richard Vilímek;Czech publishing company;1884
+Q16912403;Espasa-Calpe;;1926
+Q7551917;Sociedade Brasileira de Matemática;;
+Q744182;Random House;general-interest trade book publisher;1927
+Q42899273;I.W.W. Publishing Bureau;publishing department of the Industrial Workers of the World union;
+Q7896557;University of Wales Press;academic publisher;1922
 Q14624871;Editorial Garbo;publisher from Barcelona, Spain;
+Q2308846;;;1991
+Q917031;Brill Publishers;Dutch international academic publisher;1683
+Q7357246;Rodopi Publishers;publishing company;1966
+Q54820777;Corgi Books;publisher;
+Q46920928;Pressfoto;Czech publisher;
+Q3579246;Éditions Belin;French publisher;
+Q1232629;John Murray;English publisher;1768
+Q5640839;Hal Leonard Corporation;;1947
+Q390074;Houghton Mifflin Harcourt;publisher;1880
+Q2541678;Anthos;Dutch publisher;
+Q3057051;Ernest Leroux;French publisher and bookseller;
+Q15815551;;;2007
+Q7603485;State Publishing Institute PIW;;
+Q13030868;Zmicier Kołas;Belarusian specialist in literature and translator;
+Q11720920;Jarosław Leitgeber;Polish writer, bookseller and publisher.;
+Q3120217;Guillaume Vandive;French printer;
+Q3739444;Fanucci Editore;Italian publisher;1971
+Q2054191;Chapman & Hall;;1834
+Q50331380;Bokvennen;publisher;
+Q5817833;Ediciones Akal;;1972
+Q380360;Christophe Plantin;artist;
+Q53343983;ENI editions;;1981
+Q54820756;Williams-Verlag;German publisher;
+Q22677395;;;
+Q16078830;;;
+Q4424524;Alexander Smirdin;Russian publisher;
+Q7809739;Titan Books;;1981
+Q20724495;Éditions Delagrave;Publishing House;1865
+Q3408689;Livraria Lello;;1869
+Q443253;Prentice Hall;educational publisher;1913
+Q7833710;Transaction Publishers;American publishing house;1962
+Q1892146;Presses Universitaires de France;French university publishing house;1921
+Q23653650;Auguste Nepveu;;
+Q7721960;The Century Company;publisher;1881
+Q3208426;La Découverte;French publisher;1983
+Q5953914;Shanghai Lexicographical Publishing House;;1958
+Q3579256;Bompiani;Italian publisher;1929
+Q7788285;Thomas Cautley Newby;British publisher;
+Q3392522;Plon;French publishing house;1852
+Q3020074;De Boeck;Belgian publisher;
+Q10858979;Atlantis;Czech publishing house;1989
+Q2881141;Ballantine Books;American book publisher;1952
+Q10270397;;;1988
+Q55740353;B. T. Batsford;historic British publishing house, now imprint of Pavilion Books;1843
+Q2080179;Columbia University Press;university press based in New York City, and affiliated with Columbia University;1893
+Q9379269;Wydawnictwo W.A.B.;;1991
+Q12269955;Chinese University Press;publisher in Hong Kong;
+Q2923533;Bragelonne;;
+Q12040357;Paseka;Czech publisher;1989
+Q54800129;D. Van Nostrand Company (Canada), Ltd.;Canadian book publisher;
+Q6090225;Lars Salvius;Swedish writer;
+Q6981212;Naukova Dumka;;1922
+Q18670089;;;
+Q3117078;Grosset & Dunlap;New York publisher;1898
+Q29034841;AIRtime Publishing;American publisher;
+Q19444127;Gaspar y Roig;;
+Q43964634;;;2004
+Q15622041;;;
+Q14175176;Hodder & Stoughton;British publisher;1868
+Q5152520;Commercial Press;Chinese publishing company;1897
+Q1046463;Casa Ricordi;organization;1808
+Q21187471;;;
+Q251266;SAGE Publications;publisher;1965
+Q1305980;Giulio Einaudi editions;Italian publisher;1933
+Q19835706;The Norman, Remington Company;bookseller and publisher in Baltimore, Maryland, United States;1910
+Q3042717;Gomer Press;printing and publishing company;1892
+Q1251563;Doubleday;American publishing company;1897
+Q6107326;J. W. Arrowsmith;;
+Q23301327;G. G. J. and J. Robinson;London booksellers;
+Q11741034;;;2001
+Q2980071;;organization;1894
+Q24063233;;;
+Q15077094;J. B. Lippincott & Co.;American publishing house founded in 1836;1885
+Q2997531;Cornell University Press;American university press;1869
+Q19444229;George Routledge & Sons;British publishing company;
+Q552619;Pierre-Jules Hetzel;French publisher and writer;
+Q3892930;Pan Books;publishing company;1944
+Q1503157;Shakespeare and Company;bookstore;
+Q51466197;Gurudas Chattopadhyay & sons;Bengali publishing house;1885
+Q23017752;J. van Schoonhoven;;
+Q5049289;Cassell;publisher;1848
+Q19795167;Padmini Mohan Neogi;Indian publisher;
+Q1020343;Schocken Books;publisher;1931
+Q18508796;;;
+Q21093676;;;
+Q73820;MIT Press;American university press;1932
+Q911673;Longman;publishing company;1724
+Q2137023;Dover Publications;American book publisher;1941
+Q20182190;Loewe Verlag;German Publisher;1863
+Q11918026;Editorial Selecta;;1946
+Q50331447;Portobello;English publisher;
+Q634246;Breitkopf & Härtel;publisher;1719
+Q29472075;;;
+Q3579544;;;1979
+Q11713066;;;
+Q5574338;Gnome Press;American small-press publishing company;1948
+Q6736763;Mainstream Publishing;;1978
+Q3579517;Stock;publishing company in France;
+Q883522;Weltbild;German publisher and media retailer;2001
+Q19016714;Parry Hall;publisher in Philadelphia, Pennsylvania;
+Q42512509;;;1850
+Q21403337;John D. Beasley (British writer);;
+Q15054612;Smithmark;publisher;
+Q50331499;Art;Romanian publisher;
+Q1799238;La Voce;;1908
+Q15053072;Salamander Books;publisher;
+Q3296078;Methuen Publishing;UK book publishing company;1889
+Q722999;Erhard Reuwich;Dutch artist;
+Q32859451;McGraw-Hill;;1909
+Q4764054;Angus & Robertson;online Australian bookseller, book publisher and book printer;
+Q24042493;Edibesa;Spanish publisher;
+Q3579473;Perrin;;
+Q2277384;Contact;Dutch publisher;
+Q22827513;;;
+Q18507668;;;
+Q15058132;United States Playing Card Company;playing card manufacturer;1867
+Q23017365;;;
+Q5434321;Fantasy Press;;1946
+Q7798937;Thunder Bay Press;;1990
+Q3342740;Noir sur Blanc;publisher;
+Q55314680;Plejáda publishing;Czech publishing house;
+Q1617004;Heyne Verlag;German publisher;1934
+Q24089476;;;
+Q1340702;Jane's Information Group;company;1898
+Q568077;Casterman;Belgian book/comics publisher;1780
+Q1368849;Firmin Didot;French businessman;
+Q26252474;;;
+Q1360524;Ernst Wasmuth Verlag;publisher;1872
+Q48756519;;;
+Q26213372;;;
+Q112413;Thomas von Trattner;Austrian publisher;
+Q1372258;Tokuma Shoten;;1954
+Q24081298;DharmaGaia;Czech publisher;
+Q2152124;Hoffmann und Campe;german publisher;1781
+Q1708210;Princeton University Press;independent publisher with close connections to Princeton University;1911
+Q6128174;Siglo XXI;;1965
+Q11065759;Bedřich Kočí;Czech healer, publisher and writer;
+Q3339382;NiL Éditions;;1993
+Q9342109;Stanisław Jan Strąbski;Polish publisher;
+Q3917522;;;1993
+Q4669406;Abrams & Chronicle Books;;2004
+Q25804321;Antonín Renn;Czech printer and publisher;
+Q18536063;;;
+Q4008202;Vallecchi;;1919
+Q16638858;;;1857
+Q3928116;R. Bemporad & figlio;Italian publisher;1889
+Q12351828;Lithuanian Esperanto Association;national association linked to the World Esperanto Association (UEA);1919
+Q11281443;Penguin Classics;imprint of Penguin Random House;
+Q21091410;;;
+Q7913619;Van Riebeeck Society;historical society and publisher;1918
+Q20003475;George Allen & Unwin;former British publishing company;
+Q1377565;Europäische Verlagsanstalt;German publisher;1946
+Q3093066;G. Schirmer Inc.;;1861
+Q646071;Rowohlt Verlag;German publishing house;1908
+Q1756332;Simon & Schuster;large English-language publisher;1924
+Q898067;Watch Tower Bible and Tract Society of Pennsylvania;not-for-profit organization headquartered in Wallkill, New York;1884
+Q41107124;;;
+Q50331285;Kalligram;publisher;
+Q28344192;DataBase Publishing;;
+Q5901940;Horace Liveright;American publisher and stage producer;
+Q25532028;Gʻafur Gʻulom Printing and Publishing House;publishing house in Uzbekistan;1957
+Q16684409;Éditions Odile Jacob;;
+Q172299;Richard Bentley;English publisher;
+Q186225;Mercure de France;French publishing house;1890
+Q3641749;Bollati Boringhieri;Italian publishing house;1957
+Q5114023;Chronicle Books;American publisher;1968
+Q2635075;Éditions du Seuil;French publisher;1935
+Q50331392;Paradoks;Bulgarian publisher;
+Q6219202;John Anthony Galignani;French publisher;
+Q7996621;Whitman Publishing;;
+Q2190366;Éditions Albin Michel;French book publisher;1900
+Q3304275;A & C Black;British book publishing company;1807
+Q11638022;National Institute of Agrobiological Sciences;;
+Q44022641;Lawrence and Bullen Ltd.;British publishing house;1891
+Q176916;Springer Science+Business Media;global publishing company;1842
+Q12874655;Hestia Publishers;old Greek publishing house;1885
+Q7595984;Stackpole Books;publisher;1930
+Q52196843;Čin;Czech publisher;
+Q2854271;Antoine Mourès;French printer;
+Q29015963;L. C. Page & Company;US book publisher (Boston) from 1897, successor to the Joseph Knight Company  as The Page Company 1914 to 1923;
+Q2108217;Macmillan Publishers;British publishing company;1843
+Q22809943;;;
+Q15055885;Arms and Armour Press;publishing imprint;
+Q2188;Gyldendal;Danish publishing house.;1770
+Q20004081;Providence Press;book publisher in Indiana, USA;
+Q11179076;Československý spisovatel;Czech publisher;
+Q1148755;Progress Publishers;publisher;1931
+Q2696397;Éditions Robert Laffont;;1941
+Q3579357;;;
+Q17497148;;;
+Q11878550;Universalia;Czech publisher;
+Q18668264;;;
+Q3579224;Éditions Apogée;;1991
+Q5322081;E. P. Dutton;American book publishing company founded as a book retailer in Boston, Massachusetts in 1852;1852
+Q3303647;McFarland & Company;publishing company;1979
+Q8015638;William Miller;English publisher, born 1769;
+Q552959;Little, Brown and Company;publisher;1837
+Q18669661;;;
+Q12331280;People'sPress;;2002
+Q15815945;Horace Cardon;French publisher;
+Q5561874;Gill & Macmillan;;1856
+Q12565;Universal Esperanto Association;international organization of Esperanto speakers;1908
+Q54820798;;;
+Q1245484;DK;DK is a top publisher of general reference and illustrated non-fiction books.;1974
+Q2806609;10/18;;1962
+Q28869242;F. Kytka;Czech publishing house;
+Q3445044;St. Martin's Press;publisher;1952
+Q2996566;Coop Breizh;organization;1964
+Q6915916;Moses Pitt;English bookseller;
+Q2647037;Tor Books;book publisher of the United States;1980
+Q2753848;Berkley Books;an imprint of Penguin Group (USA);1955
+Q5666172;Harrison and Sons;British publisher;1750
+Q19854293;;;
+Q24207816;;;
 Q95145;Allen & Unwin;Australian publishing company;1914
-Q7800720;Ticknor and Fields;;1854
+Q29167144;Alan Sutton;French publisher;
+Q12043220;Otakar Štorch-Marien;Czech poet, publisher and writer;
+Q265577;Feral House;American publishing house;1989
+Q18118077;Casa editrice Risorgimento;Italian publisher;
+Q349566;Hachette;French publisher;1826
+Q3836399;;;1861
+Q51796186;Avatar;Czech publisher;
+Q25473804;;;
+Q45833562;Phillip Wilson Publishers Ltd;Publisher in London;
+Q10655173;Library of Parliament;library of the parliament of Finland;1872
+Q4875979;Beacon Press;American non-profit book publisher;1854
+Q1574550;Unionsverlag;Sviss publisher;1975
+Q2824830;Adolphe Goupil;French art dealer and publisher (1806-1893);
+Q481576;S. Fischer Verlag;German publishing house;1886
+Q19358359;Paragon-Verlag;German publishing house;
+Q3666843;Chatto & Windus;British publisher of books;1855
+Q28840617;Publishing house Jan Otto;Czech publisher;
+Q13651022;Phoenix Publishing House;;
+Q3579630;;;
+Q3402596;Presses Universitaires de Rennes;French university press;1984
+Q29964110;Daniel Cortezo y Cª;;
+Q257666;68 Publishers;Canadian publisher;
+Q2955987;;;
+Q1587900;Harvard University Press;American university publishing house;1913
+Q16194953;Charles Gosselin;French editor and publisher;
+Q3579533;;;
+Q3310248;Michel Lévy Frères;Parisian publishing house;1836
+Q621534;Éditions Grasset;French publisher;1907
+Q366651;Audible.com;Amazon-owned seller and producer of spoken online audio content;1995
+Q30561822;Sella Meir Publishing;Israeli publisher;
+Q2821519;Abel L'Angelier;French bookseller and printer (1574-1610);
+Q22282310;;;
+Q5301168;Douglas & McIntyre;;1971
+Q3828387;Le Monnier;;1837
+Q3117417;Groupe Flammarion;French publisher;1875
+Q1204376;Deutsche Verlags-Anstalt;German publisher;1881
+Q19444280;Ginn & Company;US publishing company known for textbooks;
+Q15649730;Bouvier;publishing house;
+Q3579805;Édouard Dentu;French publisher and bookseller;
+Q273819;Éditions Gallimard;French publishing company;1911
+Q27612534;OpenEdition Press;;
+Q18669653;;;
+Q1479937;Stanford University Press;American university press;1892
+Q1336200;Penguin Books;British publishing house;1935
+Q15730345;Ferdinand Hirt & Sohn;publisher house;
+Q3067003;Farrar, Straus and Giroux;American book publishing company;1946
+Q24577740;Trübner & Co.;British book publisher;1851
+Q22712006;Thomas Dawson;English author of cookery and housekeeping books;
+Q34433;University of Oxford;collegiate public research university located in Oxford, England, United Kingdom;1096
+Q3340791;Nicolas Simart;French printer;
+Q3579242;;;1918
+Q3052794;Calouste Gulbenkian Foundation;;1956
+Q38059284;Giorgos Stephanides;Cypriot volleyball player;
+Q2893244;Feldheim Publishers;;1939
+Q3132837;Henry Holt and Company;American publishing company established 1866, under this name from 1873, succeeded by Holt, Rinehart & Winston 1960, continued as division or imprint;1866
+Q3765886;Giornale di Brescia;Italian daily newspaper;1945
+Q15053551;Presidio Press;publisher;
+Q6414076;Kinneret Zmora-Bitan Dvir;;1919
+Q5581863;Adolf Bonnier;;
+Q585234;Claude Briasson;French publisher and printer;
+Q26247975;;;
+Q20058724;Castle Books;New York publisher;
+Q19458201;;;
+Q24175336;Editorial MAD;;
+Q705849;François-Ambroise Didot;French editor and printer;
+Q4902925;Białystok School of Public Administration;;1996
+Q52931848;Mazda Publishers;publisher;
+Q54820867;;;
+Q26321498;Yosh gvardiya;Uzbek Soviet publishing house for children's literature;
+Q20829329;Quorum;belgian publisher;1986
+Q3822096;Modern Library;American publishing company;1917
+Q660769;Ouest-France;French newspaper;1944
+Q3116159;Greenwood Publishing Group;;1967
 Q2934320;Calmann-Lévy;French publisher;1836
 Q22695861;;;
-Q3560313;Vintage Books;publishing imprint of Random House  American to 1990, now international;1954
+Q22346059;Svoboda;former publisher in Czechoslovakia;1945
+Q40783371;;;1899
+Q324876;Steidl;German-language publisher;1972
+Q24573336;;;
+Q1593476;;publisher;1980
+Q1549024;Society for Promoting Christian Knowledge;Anglican mission organization founded in 1698;
+Q3752406;;;1870
+Q1696381;Johann Theodor de Bry;Flemish engraver and publisher, son of Dirk de Bry;
+Q26581877;Yulduzcha;Publishing house in Uzbekistan;
+Q1549083;Klartext Verlag;German publishing house;1983
+Q3551355;University of Nebraska Press;;1941
+Q54029384;Giuseppe Bouchard;publisher and plate printer in Florence  according to Jombert he was selling in 1772 impessions from della Bella plates in the Medici archive (p.209);
+Q47520278;;;
+Q1900088;Noordhoff Uitgevers;Dutch publisher;1968
+Q17617848;Istituto Editoriale Italiano;italian publishing house;1904
+Q15823534;Kindle Direct Publishing;;
+Q4453850;Text Publishers;;1988
+Q898097;Faber and Faber;British publishing house;1929
+Q36394223;The Oakwood Press;;
+Q3661317;Laterza;;1901
+Q1298310;VGS;trademark;
+Q3719260;;;1961
+Q22939073;;;
+Q818478;Benziger Brothers;publishing house;1792
+Q6273015;Heinemann;publishing house;1890
+Q27864023;;;
+Q24296659;Adam and Charles Black;British publisher;
+Q2846305;Henry Colburn;British publisher;
+Q4397841;Росмэн;;1992
+Q50327732;Dobrovský;Czech publisher;2001
+Q353060;Addison-Wesley;publisher;1942
+Q17317603;;;
+Q29185383;;;
+Q70993;Rudolph Ackermann;German inventor;
+Q23668460;;;
+Q26237400;;;
+Q23319176;;;
+Q5677798;Harvill Secker;British publishing company;1936
+Q11249875;Torst;Czech publisher;
+Q1564874;Luchterhand;German publisher;1924
+Q23010273;;;
+Q20897933;Science Fiction Book Club;British publisher;
+Q26805825;Choʻlpon;publishing house in Uzbekistan;
+Q670903;Fleuve noir;publisher;1949
+Q15058282;Midland Publishing;publisher;
+Q12016903;František Bačkovský;Czech literature reviewer, writer and publisher;
+Q98818;Walter de Gruyter;Academic publisher;1749
+Q1024605;CW Niemeyer Buchverlage;German publishing house;1797
 Q301609;Suhrkamp Verlag;German publishing house;1950
-Q1368849;Firmin Didot;French businessman;
-Q3132837;Henry Holt and Company;American publishing company established 1866, under this name from 1873, succeeded by Holt, Rinehart & Winston 1960, continued as division or imprint;1866
-Q2108217;Macmillan Publishers;British publishing company;1843
-Q11918026;Editorial Selecta;;1946
-Q2277384;Contact;Dutch publisher;
-Q186225;Mercure de France;French publishing house;1890
-Q1503157;Shakespeare and Company;bookstore;
-Q3157979;Jacques-Julien Dubochet;Swiss lawyer, newspaper editor;
-Q1305980;Giulio Einaudi editions;Italian publisher;1933
-Q1232629;John Murray;English publisher;1768
-Q898067;Watch Tower Bible and Tract Society of Pennsylvania;not-for-profit organization headquartered in Wallkill, New York;1884
-Q744182;Random House;general-interest trade book publisher;1927
+Q20198753;The Frontier Press Company;publisher;
+Q54820881;;;
+Q4300556;Molodaya Gvardiya;publisher;1922
+Q15123566;;;
+Q896783;Carl Hanser Verlag;German publishing house;1928
+Q15053117;Greenhill Books;publisher;
+Q2958183;Charles Louis Fleury Panckoucke;French publisher;
+Q47294610;Lujiang Publishing House;;1985
+Q3828372;;;1976
+Q3551360;University of Washington Press;;
+Q22810152;Gervais Clousier;French publisher;
+Q3149496;Imprimerie nationale;official printing works of the French government;1640
+Q5592517;Grafton;publisher;
+Q25437050;Komubook;Crowdpublishing platform;2015
+Q19446771;;;
+Q15126130;;;1794
+Q10379185;Academia;Czech publisher;1953
+Q1479654;John Wiley & Sons;publishing company;1807
+Q16649652;Michel Lévy;French editor;
+Q7206385;Pocket Books;American publisher;1939
+Q22963001;;;
+Q3564797;WSOY;Finnish book publishing company;1878
+Q29178161;;;1822
+Q845617;Charles Scribner's Sons;American publisher;1846
+Q7800720;Ticknor and Fields;;1854
+Q5524900;Gary Coull;Canadian businessman;
+Q15895038;;;
+Q26207691;Boulé;publisher;
+Q20851149;František Topič;Czech publisher and bookseller;
+Q3325508;;;
+Q821732;Metropol Verlag;German publishing house;1988
+Q20124673;Diana Verlag;;
+Q7668241;T. Fisher Unwin;British publishing company;1882
+Q3542453;Tuttle Publishing;;1948
+Q12021441;Ignác Leopold Kober;Czech publisher;
+Q3876396;;;
+Q4134637;Gebethner i Wolff;;
+Q15058159;JL International;publisher in the United States;
+Q26207724;;;
+Q2581203;Williams and Norgate;publisher;
+Q5423798;F. A. Davis Company;Philadelphia publisher;1879
+Q20057503;Jan Melvil Publishing;Czech publisher;2007
+Q5536864;George Bell & Sons;British publisher;1839
+Q13768816;Jacques-Louis Bance;French editor, art dealer and printmaker (1761-1847);
+Q5654997;Harcourt;United States publishing firm;1919
+Q10729193;Albatros;Czech publisher;1949
+Q3020081;;;
+Q324303;K. G. Saur Verlag;German publisher;1948
+Q3579383;L'Harmattan;French publisher;1975
+Q298289;Museum of Far Eastern Antiquities;museum in Stockholm, Sweden;1963
+Q21898136;Carl Gerold’s Sohn Verlag (Gerold Verlag);;
+Q18670304;Jajasan Kebudajaan Sadar;publisher;
+Q26221587;Gay and Bird;book publisher;
+Q19559148;Lea & Febiger;US publishing company;1785
+Q29045184;Editorial Zocodover;;
+Q14624944;Lambert Schneider Verlag;German publisher;
+Q4049337;;;
+Q26311999;;;2002
+Q28859138;;;
+Q3579388;;;
+Q4822671;Aurum Press;publisher;1976
+Q2859303;Ar Falz;Breton organization;
+Q20828340;Librairie générale française;French publisher;
+Q29784179;Pragma;Czech publishing house;
+Q15054678;Amber Books;publisher;
+Q536795;Ace Books;oldest active specialty publisher of science fiction and fantasy books;1952
+Q15085475;Panini Group;Italian publishing house;1961
+Q11511323;Hayakawa Shobō;Japanese publisher;1945
+Q7809;United Nations Educational, Scientific and Cultural Organization;specialized agency of the UN that promotes education, science and culture;1945
+Q24084694;;;
+Q2609948;Bantam Books;Publisher from the USA;1945
+Q921536;Viking Press;publisher;1925
+Q5818669;Lengua de Trapo;Spanish publisher;1995
+Q54844791;Williams & Wilkins Company;American book publisher;
+Q19274313;Jules Carbonel;;
+Q1959000;;;1997
+Q1668479;J.P. Bachem Verlag;;1818
+Q7793870;Thomas Seltzer;Russian-American translator, editor and book publisher.;
+Q36680839;;;
+Q27816;University of California Press;American publishing house;1893
+Q558781;Reclam;German publisher;1828
+Q2756191;Guillaume Rouillé;one of the most prominent humanist bookseller-printers in 16th-century Lyon;
+Q54799284;D. Van Nostrand Company, Inc.;American publisher;
+Q733801;Garnier Frères;French publisher;1833
+Q3127696;Harper;American publishing company;1817
+Q16934727;Scarecrow Press;imprint of Rowman & Littlefield;
+Q731126;J. Paul Getty Museum;art museum in Los Angeles;1974
+Q1273447;E. A. Seemann;German publishing house;1858
+Q296327;Brewster;Wikimedia disambiguation page;
+Q212405;Procter & Gamble;American multinational consumer goods company;1837
+Q9379259;;;
+Q616067;Nouvelle Revue Française;journal;1908
+Q23017624;;;
+Q830655;Königshausen & Neumann;German publishing house;1979
+Q1543201;TSR;former company, publisher of "Dungeons & Dragons";1972
+Q10855591;InterVarsity Press;;1947
+Q3521877;The Mineralogical Record;journal and website;
+Q53433458;Boxtree;;
+Q29440946;Friedman/Fairfax Publishers;publishing company;
+Q273837;Éditions du Cerf;publisher;1929
+Q3403686;Funk & Wagnalls;American publisher;1875
+Q914456;Goldmann;German publisher;1922
+Q122655;Droemer Knaur;German publishing group;1846
+Q55407746;;;
+Q119818;Bernard Quaritch;British bookseller and publisher;
+Q2039376;Otto Janke;German bookseller, publisher and printer;
+Q22680018;;;
+Q15297015;Bruns;;

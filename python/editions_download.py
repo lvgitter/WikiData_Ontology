@@ -76,52 +76,55 @@ class myThread(threading.Thread):
 
             # DESCRIPTION
             description = ""
-            if ("descriptions" in data['entities'][edition_id]["claims"]):
+            try:
                 if ("en" in data['entities'][edition_id]["claims"]["descriptions"]):
                     description = data['entities'][edition_id]["claims"]["descriptions"]["en"]["value"]
-            elif ("descriptions" in data['entities'][edition_id]):
-                if ("en" in data['entities'][edition_id]["descriptions"]):
-                    description = data['entities'][edition_id]["descriptions"]["en"]["value"]
-            else:
+                elif ("descriptions" in data['entities'][edition_id]):
+                    if ("en" in data['entities'][edition_id]["descriptions"]):
+                        description = data['entities'][edition_id]["descriptions"]["en"]["value"]
+            except:
                 self.local_statistics[index("no description")] += 1
 
             # TRANSLATOR (HUMANS)
-            if ("P655" in data['entities'][edition_id]["claims"]):
-                for tra in data['entities'][edition_id]["claims"]["P655"]:
-                    try:
-                        tras_file_lock.acquire()
-                        file_tras_out.write(
-                            str(edition_id + ";"+tra["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
-                        tras_file_lock.release()
-                    except:
-                        tras_file_lock.release()
-            else:
+            try:
+                if ("P655" in data['entities'][edition_id]["claims"]):
+                    for tra in data['entities'][edition_id]["claims"]["P655"]:
+                        try:
+                            tras_file_lock.acquire()
+                            file_tras_out.write(
+                                str(edition_id + ";"+tra["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
+                            tras_file_lock.release()
+                        except:
+                            tras_file_lock.release()
+            except:
                 self.local_statistics[index("no translator")] += 1
 
             # PUBLISHERS
-            if ("P123" in data['entities'][edition_id]["claims"]):
-                for pub in data['entities'][edition_id]["claims"]["P123"]:
-                    try:
-                        pubs_file_lock.acquire()
-                        file_pubs_out.write(
-                            str(edition_id+";"+pub["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
-                        pubs_file_lock.release()
-                    except:
-                        pubs_file_lock.release()
-            else:
+            try:
+                if ("P123" in data['entities'][edition_id]["claims"]):
+                    for pub in data['entities'][edition_id]["claims"]["P123"]:
+                        try:
+                            pubs_file_lock.acquire()
+                            file_pubs_out.write(
+                                str(edition_id+";"+pub["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
+                            pubs_file_lock.release()
+                        except:
+                            pubs_file_lock.release()
+            except:
                 self.local_statistics[index("no publisher")] += 1
 
             # ILLUSTRATORS (HUMANS)
-            if ("P110" in data['entities'][edition_id]["claims"]):
-                for ill in data['entities'][edition_id]["claims"]["P110"]:
-                    try:
-                        ills_file_lock.acquire()
-                        file_ills_out.write(
-                            str(edition_id+";"+ill["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
-                        ills_file_lock.release()
-                    except:
-                        ills_file_lock.release()
-            else:
+            try:
+                if ("P110" in data['entities'][edition_id]["claims"]):
+                    for ill in data['entities'][edition_id]["claims"]["P110"]:
+                        try:
+                            ills_file_lock.acquire()
+                            file_ills_out.write(
+                                str(edition_id+";"+ill["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
+                            ills_file_lock.release()
+                        except:
+                            ills_file_lock.release()
+            except:
                 self.local_statistics[index("no illustrator")] += 1
                 
             file_out_lock.acquire()
@@ -185,8 +188,8 @@ file_pubs_out = open(file_pubs_path, 'a')
 file_ills_out = open(file_ills_path, 'a')
 
 n_results = len(editions)
-print("Number of results: " + str(n_results))
-file_log.write("Number of results: " + str(n_results) + "\n")
+print("Number of editions: " + str(n_results)+"\n")
+file_log.write("Number of editions: " + str(n_results) + "\n")
 
 # PARALLEL COMPUTATION INITIALIZATION
 threads = []
@@ -216,7 +219,7 @@ file_tras_out.close()
 file_pubs_out.close()
 file_ills_out.close()
 
-
+'''
 # STATISTICS REPORTING
 print("\n\n*** STATISTICS ***\n")
 for i in range(len(statistics)):
@@ -224,7 +227,7 @@ for i in range(len(statistics)):
         label(i).ljust(16) + ":" + str(statistics[i]) + "  (" + str(round(statistics[i] / n_results, 2) * 100) + " %)")
 
 total_time = time.time() - total_time
-print("Total_time:\t" + str(round(total_time, 2)) + " sec")
+print("Total_time:\t" + str(round(total_time, 2)) + " sec")'''
 
 # STATISTICS REPORTING
 file_log.write("\n\n*** STATISTICS *** \n")

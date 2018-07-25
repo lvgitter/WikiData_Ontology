@@ -1,12 +1,13 @@
-2018-07-25 09:18:57
+2018-07-25 16:54:46
 
+Number of mayors: 700
 
 
 *** STATISTICS *** 
-no start time   :19  (45.0 %) 
-no end time     :19  (45.0 %) 
-no official residence:32  (76.0 %) 
-no label        :1  (2.0 %) 
-no description  :0  (0.0 %) 
+no start time   :177  (25.0 %) 
+no end time     :177  (25.0 %) 
+no official residence:3  (0.0 %) 
+no label        :11  (2.0 %) 
+no description  :1  (0.0 %) 
 no human        :0  (0.0 %) 
-Total_time:	1.51 sec
+Total_time:	1532535711.15 sec

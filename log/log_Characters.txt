@@ -1,15 +1,16 @@
-2018-07-25 09:18:57
+2018-07-25 16:54:46
 
+Number of characters: 1797
 
 
 *** STATISTICS *** 
-no name         :175  (64.0 %) 
-no label        :8  (3.0 %) 
+no name         :0  (0.0 %) 
+no label        :93  (5.0 %) 
 no description  :0  (0.0 %) 
-fictionalHuman  :70  (26.0 %) 
-no DoB          :150  (55.00000000000001 %) 
-no DoD          :150  (55.00000000000001 %) 
-no sex          :4  (1.0 %) 
-fictionalNotHuman:272  (99.0 %) 
-human           :119  (43.0 %) 
-Total_time:	12.72 sec
+fictionalHuman  :783  (44.0 %) 
+no DoB          :1241  (69.0 %) 
+no DoD          :1347  (75.0 %) 
+no sex          :35  (2.0 %) 
+fictionalNotHuman:551  (31.0 %) 
+human           :444  (25.0 %) 
+Total_time:	1532535117.85 sec

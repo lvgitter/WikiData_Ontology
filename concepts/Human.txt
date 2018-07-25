@@ -1,140 +1,707 @@
 human_id;human_label;human_description;human_name;human_sex;human_DoB;human_DoD;is_character
-Q59180;Diogenes of Sinope;ancient Greek philosopher, one of the founders of the Cynic philosophy;Διογένης ὁ Σινωπεύς;male;-0404-01-01T00:00:00Z;-0322-01-01T00:00:00Z;nc
-Q5239704;David Sheehy;British politician;David Sheehy;male;+1844-00-00T00:00:00Z;+1932-12-17T00:00:00Z;nc
-Q207370;Gaius Cassius Longinus;Roman politician;Gaius Cassius Longinus;male;-0087-01-01T00:00:00Z;-0042-01-01T00:00:00Z;nc
-Q83375;Empedocles;ancient Greek philosopher;Empedocles;male;-0490-00-00T00:00:00Z;-0430-00-00T00:00:00Z;nc
-Q103960;Semiramis;legendary queen;Semiramis;female;;;nc
-Q244912;Hezekiah;King of Judah;Hezekiah;male;-0800-01-01T00:00:00Z;-0697-01-01T00:00:00Z;nc
-Q317436;Charles Stewart Parnell;Irish politician;Charles Stewart Parnell;male;+1846-06-27T00:00:00Z;+1891-10-06T00:00:00Z;nc
-Q34943;Ptolemy;Greco-Egyptian writer and astronomer of Alexandria;Κλαύδιος Πτολεμαῖος;male;+0100-00-00T00:00:00Z;+0160-00-00T00:00:00Z;nc
-Q223440;Lucius Junius Brutus;Founder of the Roman Republic;L. Iunius M.f. Brutus;male;-0600-00-00T00:00:00Z;-0509-00-00T00:00:00Z;nc
-Q549041;Gratian;Italian jurist;Gratian;male;+1070-01-01T00:00:00Z;+1140-01-01T00:00:00Z;nc
-Q913;Socrates;classical Greek Athenian philosopher;Σωκράτης;male;-0470-00-00T00:00:00Z;-0399-00-00T00:00:00Z;nc
-Q9458;Muhammad;the Prophet of Islam;محمد بن عبدالله بن عبد المطلب بن هاشم بن عبد مناف بن قصي;male;+0570-04-26T00:00:00Z;+0632-06-08T00:00:00Z;nc
-Q207535;Roland;Frankish military leader under Charlemagne;Roland;male;;+0778-08-15T00:00:00Z;nc
-Q134646;Boniface VIII;193rd Pope of the Catholic Church;Benedetto Caetani;male;+1235-01-01T00:00:00Z;+1303-10-11T00:00:00Z;nc
-Q131691;Arthur Wellesley, 1st Duke of Wellington;British soldier and statesman;Arthur Wellesley, 1. Duke of Wellington;male;+1769-05-01T00:00:00Z;+1852-09-14T00:00:00Z;nc
-Q41980;Democritus;Ancient Greek philosopher, pupil of Leucippus, founder of the atomic theory;Δημόκριτος;male;-0460-01-01T00:00:00Z;-0360-01-01T00:00:00Z;nc
-Q8018;Augustine of Hippo;early Christian theologian and philosopher;Aurelius Augustinus;male;+0354-11-13T00:00:00Z;+0430-08-28T00:00:00Z;nc
-Q111559;Judah Maccabee;Jewish revolutionary;Judah Maccabee;male;;-0160-00-00T00:00:00Z;nc
-Q18880357;William Magee;Irish writer;William Magee;male;+1868-01-17T00:00:00Z;+1961-01-17T00:00:00Z;nc
-Q1416892;Thomas William Lyster;Irish librarian;Thomas William Lyster;male;+1855-01-01T00:00:00Z;+1922-01-01T00:00:00Z;nc
-Q258369;Peter Damian;reformist monk;Peter Damian;male;+1007-01-01T00:00:00Z;+1072-02-22T00:00:00Z;nc
-Q4344;Arnaut Daniel;Occitan troubadour;Arnaut Daniel;male;+1150-00-00T00:00:00Z;+1210-00-00T00:00:00Z;nc
-Q170859;Nicholas III;Pope from 1277 to 1280;Nicholas III;male;+1215-01-01T00:00:00Z;+1280-08-29T00:00:00Z;nc
-Q44265;Benedict of Nursia;Christian saint and monk;Benedict of Nursia;male;+0480-03-02T00:00:00Z;+0547-03-21T00:00:00Z;nc
-Q188646;Lucan;Roman poet;Marcus Annaeus Lucanus;male;+0039-11-03T00:00:00Z;+0065-04-30T00:00:00Z;nc
-Q36303;Thales;ancient Greek philosopher and mathematician;Θαλῆς ὁ Μιλήσιος;male;-0623-01-01T00:00:00Z;-0546-01-01T00:00:00Z;nc
-Q33923;Peter;apostle and first pope;بطرس;male;;+0067-01-01T00:00:00Z;nc
-Q2254800;Cunizza da Romano;Italian noble;Cunizza da Romano;female;+1198-01-01T00:00:00Z;+1279-01-01T00:00:00Z;nc
-Q7198;Ovid;Roman poet;Publius Ovidius Naso;male;-0043-03-20T00:00:00Z;+0017-00-00T00:00:00Z;nc
-Q165479;Saint Patrick;5th-century Romano-British Christian missionary and bishop in Ireland;Saint Patrick;male;+0385-01-01T00:00:00Z;+0461-03-17T00:00:00Z;nc
-Q635;Cleopatra;last active pharaoh of Ptolemaic Egypt;Cleopatra;female;-0069-00-00T00:00:00Z;-0030-08-12T00:00:00Z;nc
-Q41866;Justinian I;Eastern Roman Emperor (Byzantine Emperor);Flavius Petrus Sabbatius Iustinianus;male;+0482-05-11T00:00:00Z;+0565-11-14T00:00:00Z;nc
-Q8581;Saladin;Kurdish leader. First Sultan of Egypt and Syria, founder of the Ayyubid dynasty;صلاح الدين الأيوبي;male;+1138-00-00T00:00:00Z;+1193-03-04T00:00:00Z;nc
-Q267733;Thaïs;Greek hetaera;Thaïs;female;-0400-01-01T00:00:00Z;;nc
-Q1425;Trajan;Emperor of Ancient Rome;Caesar Marcus Ulpius Nerva Traianus;male;+0053-09-18T00:00:00Z;+0117-08-09T00:00:00Z;nc
-Q39837;Averroes;Medieval Arab scholar and philosopher;ابن رشد;male;+1126-04-14T00:00:00Z;+1198-12-10T00:00:00Z;nc
-Q199991;Joachim of Fiore;Italian abbot;Joachim of Fiore;male;+1135-00-00T00:00:00Z;+1202-03-30T00:00:00Z;nc
-Q160441;Rabanus Maurus;archbishop of Mainz and writer;Rabanus Maurus;male;+0780-00-00T00:00:00Z;+0856-02-04T00:00:00Z;nc
-Q43939;Anselm of Canterbury;Benedictine monk, philosopher, and prelate;Anselmus Cantuariensis;male;+1033-00-00T00:00:00Z;+1109-04-21T00:00:00Z;nc
-Q1133523;Jephthah;biblical character;Jephthah;male;;;nc
-Q359237;Charles Martel of Anjou;King of Hungary;Charles Martel of Anjou;male;+1271-09-15T00:00:00Z;+1295-08-12T00:00:00Z;nc
-Q366270;Guido Guinizelli;Italian poet;Guido Guinizelli;male;+1230-01-01T00:00:00Z;+1276-01-01T00:00:00Z;nc
-Q311456;Orosius;Roman scholar;Orosius;male;+0375-01-01T00:00:00Z;+0420-01-01T00:00:00Z;nc
-Q8747;Euclid;Greek mathematician, inventor of axiomatic geometry;Εὐκλείδης;male;;;nc
-Q41166;Jonathan Swift;Anglo-Irish satirist, essayist, and poet;Jonathan Swift;male;+1667-11-30T00:00:00Z;+1745-10-19T00:00:00Z;nc
-Q172248;Marcus Junius Brutus;Roman politician;Marcus Junius Brutus;male;-0085-01-01T00:00:00Z;-0042-01-01T00:00:00Z;nc
-Q2442652;Tony Johannot;French painter;Tony Johannot;male;+1803-11-09T00:00:00Z;+1852-08-04T00:00:00Z;nc
-Q310686;Dionysius the Areopagite;bishop and saint;Dionysius the Areopagite;male;+0100-01-01T00:00:00Z;+0100-00-00T00:00:00Z;nc
-Q665165;Sordello;Italian troubadour, poet and composer;Sordello;male;+1200-00-00T00:00:00Z;+1269-01-01T00:00:00Z;nc
-Q1707785;Joseph Patrick Nannetti;Irish politician;Joseph Patrick Nannetti;male;+1851-01-01T00:00:00Z;+1915-04-26T00:00:00Z;nc
-Q130221;Frederick II, Holy Roman Emperor;1194 – 1250, Holy Roman Emperor of the Middle Ages;Friedrich II von Staufen;male;+1194-12-26T00:00:00Z;+1250-12-13T00:00:00Z;nc
-Q83041;Anaxagoras;ancient Greek philosopher;Ἀναξαγόρας;male;-0500-00-00T00:00:00Z;-0428-00-00T00:00:00Z;nc
-Q448586;Fra Dolcino;Italian preacher;Fra Dolcino;male;+1250-01-01T00:00:00Z;+1307-06-01T00:00:00Z;nc
-Q2521377;Ottaviano degli Ubaldini;Italian cardinal;Ottaviano degli Ubaldini;male;+1214-01-01T00:00:00Z;+1273-01-01T00:00:00Z;nc
-Q302;Jesus Christ;central figure of Christianity;ישוע;male;-0002-00-00T00:00:00Z;+0033-00-00T00:00:00Z;nc
-Q41155;Heraclitus;pre-Socratic Greek philosopher;Heraclitus;male;-0535-00-00T00:00:00Z;-0470-00-00T00:00:00Z;nc
-Q5264;Hippocrates;ancient Greek physician;Ἱπποκράτης;male;-0460-01-01T00:00:00Z;-0365-00-00T00:00:00Z;nc
-Q172353;Pyrrhus;Epirot Illyrian military leader;Πύρρος;male;-0318-01-01T00:00:00Z;-0272-01-01T00:00:00Z;nc
-Q5254;Folquet de Marselha;trobadour and anti-Cathar bishop of Toulouse;Folquet de Marseille;male;+1150-01-01T00:00:00Z;+1231-12-25T00:00:00Z;nc
-Q172916;John XXI;pope;Johannes XXI.;male;+1215-00-00T00:00:00Z;+1277-05-20T00:00:00Z;nc
-Q166876;Isidore of Seville;bishop, confessor and doctor of the Catholic Church;Isidorus Hispalensis;male;+0560-00-00T00:00:00Z;+0636-04-04T00:00:00Z;nc
-Q40662;John the Baptist;major religious figure;יוחנן המטביל;male;;+0030-00-00T00:00:00Z;nc
-Q316876;Guido Cavalcanti;poet from Italy;Guido Cavalcanti;male;+1258-00-00T00:00:00Z;+1300-08-29T00:00:00Z;nc
-Q118081;Pope Celestine V;192nd Pope of the Catholic Church;Celestinus PP. V;male;+1215-00-00T00:00:00Z;+1296-05-19T00:00:00Z;nc
-Q317554;Hugh of Saint Victor;German-French canon regular and theologian;Hugues de Saint-Victor;male;+1096-00-00T00:00:00Z;+1141-02-11T00:00:00Z;nc
-Q6239779;John Hooper;British politician;John Hooper;male;+1846-00-00T00:00:00Z;+1897-11-23T00:00:00Z;nc
-Q132786;Anastasius II;pope;Anastasius II;male;;+0498-11-17T00:00:00Z;nc
-Q297776;Pedanius Dioscorides;Greco-Roman physician and pharmacologist;Pedanius Dioscorides;male;+0040-01-01T00:00:00Z;+0090-01-01T00:00:00Z;nc
-Q366070;George William Russell;Irish writer, editor, critic, poet, and artistic painter;George William Russell;male;+1867-04-10T00:00:00Z;+1935-07-17T00:00:00Z;nc
-Q60059;Albertus Magnus;Dominican friar;Albertus Magnus;male;+1206-00-00T00:00:00Z;+1280-11-15T00:00:00Z;nc
-Q315347;Peter Lombard;medieval priest and theologian;Petrus Lombardus;male;+1100-00-00T00:00:00Z;+1160-00-00T00:00:00Z;nc
-Q188411;Bernard of Clairvaux;French abbot, theologian;Bernard de Clairvaux;male;+1090-01-01T00:00:00Z;+1153-08-20T00:00:00Z;nc
-Q785250;Petrus Comestor;French theologian;Pierre le Mangeur;male;+1100-01-01T00:00:00Z;+1179-10-22T00:00:00Z;nc
-Q203792;Robert Guiscard;Duke of Apulia and Calabria;Robert Guiscard;male;+1016-01-01T00:00:00Z;+1085-07-17T00:00:00Z;nc
-Q8778;Galen;Roman physician, surgeon and philosopher;Γαληνός;male;+0129-00-00T00:00:00Z;+0216-00-00T00:00:00Z;nc
+Q330895;Ulrich von Jungingen;German noble;Ulrich von Jungingen;male;+1360-01-08T00:00:00Z;+1410-07-15T00:00:00Z;nc
+Q3064195;Hovsep Ier de Holotsim;;;male;;+0454-07-25T00:00:00Z;nc
 Q1067;Dante Alighieri;Italian poet;Dante Alighieri;male;+1265-05-00T00:00:00Z;+1321-09-14T00:00:00Z;nc
-Q154938;Bede;English monk and saint;Beda Venerabilis;male;+0672-01-01T00:00:00Z;+0735-05-25T00:00:00Z;nc
-Q3687804;Conte Attilio;;Conte Attilio;male;;;nc
-Q859;Plato;Classical Greek philosopher;Πλάτων;male;-0427-00-00T00:00:00Z;-0347-00-00T00:00:00Z;nc
-Q76721;Godfrey of Bouillon;Medieval Frankish knight;Godefroi de Bouillon;male;+1060-01-01T00:00:00Z;+1100-07-18T00:00:00Z;nc
-Q43706;John Chrysostom;important Early Church Father;John Chrysostom;male;+0349-00-00T00:00:00Z;+0407-09-14T00:00:00Z;nc
-Q2721219;Farinata degli Uberti;Italian aristocrat;Farinata degli Uberti;male;+1212-01-01T00:00:00Z;+1264-11-11T00:00:00Z;nc
-Q43746;Bonaventure;franciscan, bishop, cardinal, Doctor of the Church, catholic saint;Giovanni Fidanza;male;+1221-00-00T00:00:00Z;+1274-07-15T00:00:00Z;nc
-Q2755054;Guido I da Montefeltro;Italian military strategist;Guido I da Montefeltro;male;+1223-01-01T00:00:00Z;+1298-09-29T00:00:00Z;nc
-Q211246;Kaiphaso;;Kaiphaso;male;-0100-01-01T00:00:00Z;+0100-01-01T00:00:00Z;nc
-Q247137;Aelius Donatus;Roman grammarian;Aelius Donatus;male;+0320-00-00T00:00:00Z;+0380-00-00T00:00:00Z;nc
-Q466048;Francesca da Rimini;Italian noble;Francesca da Rimini;female;+1259-01-01T00:00:00Z;+1285-01-01T00:00:00Z;nc
-Q131463;Clement V;pope;Clément V;male;+1264-00-00T00:00:00Z;+1314-04-20T00:00:00Z;nc
-Q355903;Siger of Brabant;Brabantian philosopher;Siger of Brabant;male;+1235-00-00T00:00:00Z;+1284-11-10T00:00:00Z;nc
-Q7326690;Richard Irvine Best;Irish scholar;Richard Irvine Best;male;+1872-01-01T00:00:00Z;+1959-09-25T00:00:00Z;nc
-Q6691;Homer;ancient Greek epic poet, traditionally considered as the author of the Iliad and the Odyssey;Ὅμηρος;male;-0900-00-00T00:00:00Z;-0800-00-00T00:00:00Z;nc
-Q332750;Dionysius I of Syracuse;Sicilian tyrant;Διονύσιος;male;-0430-01-01T00:00:00Z;-0366-01-01T00:00:00Z;nc
-Q234533;Cornelia Africana;Roman patrician woman;Cornelia;female;-0189-01-01T00:00:00Z;-0110-01-01T00:00:00Z;nc
-Q1048;Julius Caesar;Roman politician and general;Gaius Iulius Caesar;male;-0100-00-00T00:00:00Z;-0044-03-01T00:00:00Z;nc
-Q1541;Cicero;Roman philosopher and statesman;Marcus Tullius Cicero;male;-0106-01-03T00:00:00Z;-0043-12-07T00:00:00Z;nc
-Q9438;Santo Tomás de Aquinas;Dominican scholastic philosopher of the Roman Catholic Church;Thomas Aquinas;male;+1225-00-00T00:00:00Z;+1274-03-07T00:00:00Z;nc
-Q152717;Henry VII, Holy Roman Emperor;King of the Romans from 1308 to 1313;Henry VII, Holy Roman Emperor;male;+1275-01-01T00:00:00Z;+1313-08-24T00:00:00Z;nc
-Q8011;Avicenna;medieval Persian polymath, physician, and philosopher;ابوعلی حسین بن عبدالله بن حسن بن علی بن سینا;male;+0980-08-16T00:00:00Z;+1037-06-18T00:00:00Z;nc
-Q170335;Constance;Queen of Sicily;Constance;female;+1154-11-02T00:00:00Z;+1198-11-27T00:00:00Z;nc
-Q1398;Virgil;Ancient Roman poet;Publius Vergilius Maro;male;-0070-10-15T00:00:00Z;-0019-09-21T00:00:00Z;nc
-Q1093574;Ruggieri degli Ubaldini;Italian archbishop;Ruggieri degli Ubaldini;male;;+1295-09-15T00:00:00Z;nc
-Q243203;Publius Papinius Statius;Roman poet of the 1st century AD (Silver Age of Latin literature);Publius Papinius Statius;male;+0040-01-01T00:00:00Z;+0096-01-01T00:00:00Z;nc
-Q676555;Francis of Assisi;Catholic saint and founder of the Franciscan Order;Francesco;male;+1182-00-00T00:00:00Z;+1226-10-03T00:00:00Z;nc
-Q451516;Gaius Scribonius Curio;politician (0090-0049);Gaius Scribonius Curio;male;-0090-01-01T00:00:00Z;-0049-01-01T00:00:00Z;nc
-Q81018;Judas Iscariot;one of the twelve original apostles of Jesus Christ, known for betrayal of Jesus;Judas Iscariot;male;;+0100-01-01T00:00:00Z;nc
-Q232913;Beatrice Portinari;Dante's muse;Beatrice Portinari;female;+1266-01-01T00:00:00Z;+1290-06-15T00:00:00Z;nc
-Q8409;Alexander the Great;King of Macedon;Ἀλέξανδρος Γ' ὁ Μέγας;male;-0356-07-20T00:00:00Z;-0323-06-10T00:00:00Z;nc
-Q426862;Guido Bonatti;famed Italian astrologer/astronomer;Guido Bonatti;male;+1210-01-01T00:00:00Z;+1296-01-01T00:00:00Z;nc
-Q2054;Seneca;Roman Stoic philosopher, statesman, and dramatist;Lucius Annaeus Seneca;male;-0004-00-00T00:00:00Z;+0065-04-12T00:00:00Z;nc
-Q36724;Attila;King of the Hunnic Empire;Attila;male;+0406-00-00T00:00:00Z;+0453-03-00T00:00:00Z;nc
+Q12316446;Henrik Sass Larsen;Danish politician;Henrik Sass Larsen;male;+1966-05-29T00:00:00Z;;nc
 Q6197;Horace;Roman lyric poet;Q. Horatius Flaccus;male;-0065-12-08T00:00:00Z;-0008-11-27T00:00:00Z;nc
-Q41370;David;king of Israel and Judah;דָּוִד;male;-1040-01-01T00:00:00Z;-0970-01-01T00:00:00Z;nc
-Q367387;William II of Sicily;King of Sicily;William II of Sicily;male;+1153-01-01T00:00:00Z;+1189-11-18T00:00:00Z;nc
-Q48305;Euripides;ancient Athenian playwright;Εὐριπίδης;male;-0480-00-00T00:00:00Z;-0406-00-00T00:00:00Z;nc
-Q3860377;The Nun of Monza;Italian nun;The Nun of Monza;female;+1575-12-04T00:00:00Z;+1650-01-17T00:00:00Z;nc
+Q1281235;Abas I of Armenia;King of Armenia;Աբաս Ա;male;+0880-01-01T00:00:00Z;+0953-01-01T00:00:00Z;nc
+Q234931;Princess Caroline of Naples and Sicily;Italian princess;;female;+1798-11-05T00:00:00Z;+1870-04-17T00:00:00Z;nc
+Q20511704;;;;male;;+0852-00-00T00:00:00Z;nc
+Q41166;Jonathan Swift;Anglo-Irish satirist, essayist, and poet;Jonathan Swift;male;+1667-11-30T00:00:00Z;+1745-10-19T00:00:00Z;nc
+Q1707785;Joseph Patrick Nannetti;Irish politician;Joseph Patrick Nannetti;male;+1851-01-01T00:00:00Z;+1915-04-26T00:00:00Z;nc
+Q11050431;Yue Yun;son of Yue Fei;;male;+1119-00-00T00:00:00Z;+1141-00-00T00:00:00Z;nc
+Q6780526;Mary Pius Regnier;Catholic leader from the USA;Helen Marie Regnier;female;+1914-04-28T00:00:00Z;+2005-11-27T00:00:00Z;nc
+Q3021759;Meruzhan Artsruni;Armenian general;;male;;+0381-01-01T00:00:00Z;nc
+Q7523;Kublai Khan;founding emperor of the Yuan Dynasty, grandson of Genghis Khan;ᠬᠤᠪᠢᠯᠠᠢ ᠬᠠᠭᠠᠨ;male;+1215-09-23T00:00:00Z;+1294-02-18T00:00:00Z;nc
+Q353081;Robert de Sablé;Grand Master of the Knights Templar;Robert IV de Sablé;male;+1150-01-01T00:00:00Z;+1193-09-30T00:00:00Z;nc
+Q262513;John Felton;English assassin;;male;+1595-01-01T00:00:00Z;+1628-10-29T00:00:00Z;nc
+Q3524240;Thierry Ehrmann;French businessman;;male;+1962-03-13T00:00:00Z;;nc
+Q36591;Vladimir Nabokov;Russian-American novelist, lepidopterist, professor;Владимир Владимирович Набоков;male;+1899-04-10T00:00:00Z;+1977-07-02T00:00:00Z;nc
+Q57109;Josef Mengele;Nazi officer and physician;Josef Mengele;male;+1911-03-16T00:00:00Z;+1979-02-07T00:00:00Z;nc
+Q5582;Vincent van Gogh;Dutch painter;Vincent Willem Van Gogh;male;+1853-03-30T00:00:00Z;+1890-07-29T00:00:00Z;nc
+Q9011959;Joan Llimona;Spanish painter;;male;+1860-02-23T00:00:00Z;+1926-06-23T00:00:00Z;nc
+Q5082131;Charles Robinson;English book illustrator;;male;+1870-01-01T00:00:00Z;+1937-01-01T00:00:00Z;nc
+Q722999;Erhard Reuwich;Dutch artist;;male;+1445-01-01T00:00:00Z;+1505-01-01T00:00:00Z;nc
+Q1280744;Vardan Mamikonian;Armenian military leader and saint;Վարդան Մամիկոնյան;male;+0388-01-01T00:00:00Z;+0451-06-03T00:00:00Z;nc
+Q103598;Luc Montagnier;French virologist and joint recipient of the 2008 Nobel Prize in Physiology or Medicine;Luc Montagnier;male;+1932-08-18T00:00:00Z;;nc
+Q1866386;Louis Rhead;American artist;;male;+1857-11-18T00:00:00Z;+1926-07-29T00:00:00Z;nc
+Q837180;Curiatius Maternus;Ancient Roman dramatist;;male;;;nc
+Q6221056;John Batchelor;illustrator;;male;+1936-01-01T00:00:00Z;;nc
+Q59180;Diogenes of Sinope;ancient Greek philosopher, one of the founders of the Cynic philosophy;Διογένης ὁ Σινωπεύς;male;-0404-01-01T00:00:00Z;-0322-01-01T00:00:00Z;nc
+Q4725732;Alice Bolingbroke Woodward;English illustrator;;female;+1862-10-03T00:00:00Z;+1951-01-01T00:00:00Z;nc
+Q294147;William Bligh;officer of the British Royal Navy and a colonial administrator;;male;+1754-09-09T00:00:00Z;+1817-12-07T00:00:00Z;nc
+Q333236;Vasily Chapayev;Red Army commander;;male;+1887-02-09T00:00:00Z;+1919-09-05T00:00:00Z;nc
+Q717441;Alberto Salazar;American track coach and long-distance runner born in Cuba;;male;+1958-08-07T00:00:00Z;;nc
+Q7243;Leo Tolstoy;Russian writer;Лев Николаевич Толстой;male;+1828-08-28T00:00:00Z;+1910-11-07T00:00:00Z;nc
+Q211246;Kaiphaso;;;male;-0100-01-01T00:00:00Z;+0100-01-01T00:00:00Z;nc
+Q2975528;Janusz I of Warsaw;Polish noble;;male;+1346-00-00T00:00:00Z;+1429-12-08T00:00:00Z;nc
+Q7367631;Rose Angela Horan;American educator, writer, religious leader;Mary Cecilia Horan;female;+1895-06-13T00:00:00Z;+1985-08-19T00:00:00Z;nc
+Q125414;Pompey;Roman general;Gnaeus Pompeius Magnus;male;-0106-09-01T00:00:00Z;-0048-09-01T00:00:00Z;nc
+Q1591928;John Gilbert;English artist, illustrator and engraver;;male;+1817-07-21T00:00:00Z;+1897-10-05T00:00:00Z;nc
+Q1684928;Kuno von Lichtenstein;;;male;+1360-01-01T00:00:00Z;+1410-07-15T00:00:00Z;nc
+Q335362;Alauddin Khalji;Ruler of the Khalji dynasty;علاء الدین الخلجی‎;male;+1266-01-01T00:00:00Z;+1316-01-04T00:00:00Z;nc
+Q3085430;François Mussard;;;male;+1718-11-25T00:00:00Z;+1784-08-25T00:00:00Z;nc
+Q18880357;William Magee;Irish writer;;male;+1868-01-17T00:00:00Z;+1961-01-17T00:00:00Z;nc
+Q15407394;Kamil Vladislav Muttich;Czech painter (1873-1924);;male;+1873-02-10T00:00:00Z;+1924-11-06T00:00:00Z;nc
+Q53449;Jadwiga of Poland;Queen regnant of Poland;Jadwiga Andegaweńska;female;+1374-02-18T00:00:00Z;+1399-07-17T00:00:00Z;nc
+Q132786;Anastasius II;pope;;male;;+0498-11-17T00:00:00Z;nc
+Q15897;Amy Winehouse;English singer and songwriter;Amy Jade Winehouse;female;+1983-09-14T00:00:00Z;+2011-07-23T00:00:00Z;nc
+Q633169;Archibald Hamilton Rowan;United irishman;;male;+1751-05-01T00:00:00Z;+1834-11-01T00:00:00Z;nc
+Q230091;Herodias;princess of the Herodian Dynasty of Judaea;;female;-0100-01-01T00:00:00Z;+0100-01-01T00:00:00Z;nc
+Q6239779;John Hooper;British politician;John Hooper;male;+1846-00-00T00:00:00Z;+1897-11-23T00:00:00Z;nc
+Q166056;Cardinal Mazarin;Catholic cardinal;Jules Mazarin;male;+1602-07-14T00:00:00Z;+1661-03-09T00:00:00Z;nc
+Q204236;John Fryer;British sailing master on the HMAV Bounty;;male;+1753-08-15T00:00:00Z;+1817-05-26T00:00:00Z;nc
+Q1824066;Arturo Bandini;;;male;;;nc
+Q315795;Bernal Díaz del Castillo;Spanish conquistador;Bernal Díaz del Castillo;male;+1492-01-01T00:00:00Z;+1584-00-00T00:00:00Z;nc
+Q674683;Terpsion;;;male;;;nc
+Q310303;Yazdegerd II;Persian king;;male;+0500-01-01T00:00:00Z;+0457-01-01T00:00:00Z;nc
+Q15053140;Ray Hutchins;illustrator;;male;;;nc
+Q1507860;George Marston;British artist who took part in two Antarctic expeditions;;male;+1882-03-19T00:00:00Z;+1940-11-22T00:00:00Z;nc
+Q5264;Hippocrates;ancient Greek physician;Ἱπποκράτης;male;-0460-01-01T00:00:00Z;-0365-00-00T00:00:00Z;nc
+Q155596;Philippe, Duke of Orléans, Regent of France;member of the royal family of France, Regent of the Kingdom from 1715 to 1723;Philippe d'Orléans;male;+1674-08-02T00:00:00Z;+1723-12-02T00:00:00Z;nc
+Q719829;Jules Bonnot;French anarchist;Jules Bonnot;male;+1876-10-14T00:00:00Z;+1912-04-28T00:00:00Z;nc
+Q6779045;Mary Bernard Laughlin;educator and Catholic leader from the USA;Mary Laughlin;female;+1876-08-12T00:00:00Z;+1948-10-06T00:00:00Z;nc
+Q737533;Louis XIII of France;King of France and Navarra 1610-1643;Louis XIII;male;+1601-09-27T00:00:00Z;+1643-05-14T00:00:00Z;nc
+Q785250;Petrus Comestor;French theologian;Pierre le Mangeur;male;+1100-01-01T00:00:00Z;+1179-10-22T00:00:00Z;nc
+Q434579;Théodore Guérin;Catholic saint and nun from France;Sainte Théodore Guérin;female;+1798-10-02T00:00:00Z;+1856-05-14T00:00:00Z;nc
+Q297050;Cuauhtémoc;Tlatoani of Tenochtitlan;;male;+1495-01-01T00:00:00Z;+1525-02-28T00:00:00Z;nc
+Q9200;Paul;Early Christian apostle and missionary;Παῦλος;male;+0005-00-00T00:00:00Z;+0067-00-00T00:00:00Z;nc
+Q3526691;Théophile Schuler;French painter;;male;+1821-06-18T00:00:00Z;+1878-01-26T00:00:00Z;nc
+Q83041;Anaxagoras;ancient Greek philosopher;Ἀναξαγόρας;male;-0500-00-00T00:00:00Z;-0428-00-00T00:00:00Z;nc
+Q913;Socrates;classical Greek Athenian philosopher;Σωκράτης;male;-0470-00-00T00:00:00Z;-0399-00-00T00:00:00Z;nc
+Q41155;Heraclitus;pre-Socratic Greek philosopher;;male;-0535-00-00T00:00:00Z;-0470-00-00T00:00:00Z;nc
+Q16560559;Julius Secundus;;;male;+0050-01-01T00:00:00Z;;nc
+Q2361032;Thomas Ken;Bishop of Bath and Wells;;male;+1637-07-01T00:00:00Z;+1711-03-19T00:00:00Z;nc
+Q6004781;;;;female;;+1440-00-00T00:00:00Z;nc
+Q245407;Richard Bach;American spiritual writer;Richard David Bach;male;+1936-06-23T00:00:00Z;;nc
+Q33080662;Enrique Gómez Polo;;;male;+1841-00-00T00:00:00Z;+1911-00-00T00:00:00Z;nc
+Q29441065;Deval Devi;fourteenth century Vaghela Rajput princess;;female;;;nc
+Q5202472;Célestine Guynemer de la Hailandière;French-born bishop in the United States;;male;+1798-05-03T00:00:00Z;+1882-05-01T00:00:00Z;nc
+Q2535205;Enrico Mazzanti;Italian artist;;male;+1850-04-05T00:00:00Z;+1910-09-03T00:00:00Z;nc
+Q352489;Aulus Plautius;Roman governor;;male;;;nc
+Q16198124;Philip Dadd;British illustrator;Philip John Stephen Dadd;male;+1880-01-01T00:00:00Z;+1916-08-02T00:00:00Z;nc
+Q5239704;David Sheehy;British politician;David Sheehy;male;+1844-00-00T00:00:00Z;+1932-12-17T00:00:00Z;nc
+Q34943;Ptolemy;Greco-Egyptian writer and astronomer of Alexandria;Κλαύδιος Πτολεμαῖος;male;+0100-00-00T00:00:00Z;+0160-00-00T00:00:00Z;nc
+Q8747;Euclid;Greek mathematician, inventor of axiomatic geometry;Εὐκλείδης;male;;;nc
+Q1398;Virgil;Ancient Roman poet;Publius Vergilius Maro;male;-0070-10-15T00:00:00Z;-0019-09-21T00:00:00Z;nc
+Q316876;Guido Cavalcanti;poet from Italy;Guido Cavalcanti;male;+1258-00-00T00:00:00Z;+1300-08-29T00:00:00Z;nc
+Q9640;Lyndon B. Johnson;American politician, 36th President of the United States;Lyndon B. Johnson;male;+1908-08-27T00:00:00Z;+1973-01-22T00:00:00Z;nc
+Q17094166;Josep Simont i Guillén;;;male;+1875-09-30T00:00:00Z;+1968-11-19T00:00:00Z;nc
+Q44279;Oliver Cromwell;English military and political leader;Oliver Cromwell;male;+1599-04-25T00:00:00Z;+1658-09-03T00:00:00Z;nc
+Q48828;Mushegh I Mamikonian;Armenian noble;;male;;+0370-00-00T00:00:00Z;nc
+Q91673;Gaspar Schott;German mathematician;;male;+1608-02-05T00:00:00Z;+1666-05-22T00:00:00Z;nc
+Q381374;Zyndram of Maszkowice;Polish knight;;male;+1355-00-00T00:00:00Z;+1414-01-01T00:00:00Z;nc
+Q380482;Agathon;Athenian tragic poet;;male;-0448-01-01T00:00:00Z;-0401-01-01T00:00:00Z;nc
+Q531748;Carsten Hansen;Danish politician;Carsten Hansen;male;+1957-01-10T00:00:00Z;;nc
+Q188646;Lucan;Roman poet;Marcus Annaeus Lucanus;male;+0039-11-03T00:00:00Z;+0065-04-30T00:00:00Z;nc
+Q483026;Kwon Ram;Korean politician;;male;+1416-00-00T00:00:00Z;+1465-02-06T00:00:00Z;nc
+Q7198;Ovid;Roman poet;Publius Ovidius Naso;male;-0043-03-20T00:00:00Z;+0017-00-00T00:00:00Z;nc
+Q7149500;Paul Bransom;American artist;;male;+1885-01-01T00:00:00Z;+1979-01-01T00:00:00Z;nc
+Q4260905;Adolf Liebscher;Czech painter;;male;+1857-03-11T00:00:00Z;+1919-06-11T00:00:00Z;nc
+Q1452797;Frederick Bayer;American malacologist;;male;+1921-10-31T00:00:00Z;+2007-10-02T00:00:00Z;nc
+Q82006;Benjamin Disraeli;British Conservative politician, writer, aristocrat and Prime Minister;Benjamin Disraeli;male;+1804-12-21T00:00:00Z;+1881-04-19T00:00:00Z;nc
+Q1494309;Alphonse de Neuville;French painter;Alphonse de Neuville;male;+1836-05-31T00:00:00Z;+1885-05-19T00:00:00Z;nc
+Q41866;Justinian I;Eastern Roman Emperor (Byzantine Emperor);Flavius Petrus Sabbatius Iustinianus;male;+0482-05-11T00:00:00Z;+0565-11-14T00:00:00Z;nc
+Q332750;Dionysius I of Syracuse;Sicilian tyrant;Διονύσιος;male;-0430-01-01T00:00:00Z;-0366-01-01T00:00:00Z;nc
+Q367196;Ettore Majorana;Italian physicist;Ettore Majorana;male;+1906-08-05T00:00:00Z;+1938-03-27T00:00:00Z;nc
+Q315347;Peter Lombard;medieval priest and theologian;Petrus Lombardus;male;+1100-00-00T00:00:00Z;+1160-00-00T00:00:00Z;nc
+Q469050;Pomponia Graecina;Roman woman;;female;+0100-01-01T00:00:00Z;;nc
+Q23690172;F. Colombari;;;male;+1800-00-00T00:00:00Z;;nc
+Q366205;Tigellinus;Praetorian prefect;;male;+0010-01-01T00:00:00Z;+0069-01-01T00:00:00Z;nc
+Q6755525;Niu Gao;Song dynasty general;;male;+1086-01-01T00:00:00Z;+1147-01-01T00:00:00Z;nc
+Q44265;Benedict of Nursia;Christian saint and monk;;male;+0480-03-02T00:00:00Z;+0547-03-21T00:00:00Z;nc
+Q36303;Thales;ancient Greek philosopher and mathematician;Θαλῆς ὁ Μιλήσιος;male;-0623-01-01T00:00:00Z;-0546-01-01T00:00:00Z;nc
+Q539;Giuseppe Garibaldi;Italian general and politician;Giuseppe Garibaldi;male;+1807-07-04T00:00:00Z;+1882-06-02T00:00:00Z;nc
+Q43999;James;major religious figure in Christian tradition and one of the Twelve Apostles;;male;+0001-00-00T00:00:00Z;+0044-01-01T00:00:00Z;nc
+Q8409;Alexander the Great;King of Macedon;Ἀλέξανδρος Γ' ὁ Μέγας;male;-0356-07-20T00:00:00Z;-0323-06-10T00:00:00Z;nc
+Q9438;Santo Tomás de Aquinas;Dominican scholastic philosopher of the Roman Catholic Church;Thomas Aquinas;male;+1225-00-00T00:00:00Z;+1274-03-07T00:00:00Z;nc
+Q145746;Joseph;Biblical character, son of Jacob;;male;-1562-00-00T00:00:00Z;-1452-00-00T00:00:00Z;nc
+Q187982;Alcibiades;Athenian statesman;;male;-0450-01-01T00:00:00Z;-0404-01-01T00:00:00Z;nc
+Q485547;Aurangzeb;Sixth Mughal Emperor;;male;+1618-11-03T00:00:00Z;+1707-03-03T00:00:00Z;nc
+Q334398;Yue Fei;Song dynasty general;;male;+1103-03-24T00:00:00Z;+1142-01-27T00:00:00Z;nc
+Q302986;Aretas IV Philopatris;King of the Nabataens;;male;-0100-01-01T00:00:00Z;-0060-00-00T00:00:00Z;nc
+Q231944;Ann Radcliffe;English author and a pioneer of the Gothic novel;Ann Radcliffe;female;+1764-07-09T00:00:00Z;+1823-02-07T00:00:00Z;nc
+Q5254;Folquet de Marselha;trobadour and anti-Cathar bishop of Toulouse;Folquet de Marseille;male;+1150-01-01T00:00:00Z;+1231-12-25T00:00:00Z;nc
+Q367387;William II of Sicily;King of Sicily;;male;+1153-01-01T00:00:00Z;+1189-11-18T00:00:00Z;nc
+Q4712236;Alberto Villamizar;Cuban ambassador;;male;+1944-10-26T00:00:00Z;+2007-07-26T00:00:00Z;nc
+Q6777920;Maruja Pachón;Kidnap victim and Minister for Education;;female;+1948-12-09T00:00:00Z;;nc
+Q470621;Saint Methodius;Christian missionary to the Slavs;;male;+0815-01-01T00:00:00Z;+0885-04-06T00:00:00Z;nc
+Q676555;Francis of Assisi;Catholic saint and founder of the Franciscan Order;Francesco;male;+1182-00-00T00:00:00Z;+1226-10-03T00:00:00Z;nc
+Q5403117;Ethel Franklin Betts;American artist;;female;+1878-01-01T00:00:00Z;+1956-01-01T00:00:00Z;nc
+Q218186;Vytautas;King of Lithuania;;male;+1352-00-00T00:00:00Z;+1430-10-27T00:00:00Z;nc
+Q77103;Carl Ludvig Engel;German architect;Johann Carl Ludwig Engel;male;+1778-07-03T00:00:00Z;+1840-05-04T00:00:00Z;nc
+Q634239;Atto Melani;Italian opera singer;;male;+1626-03-30T00:00:00Z;+1714-01-04T00:00:00Z;nc
+Q937415;James Stewart, 1st Earl of Moray;regent of Scotland, natural son of James V, king of Scots;;male;+1531-01-01T00:00:00Z;+1570-01-23T00:00:00Z;nc
+Q230677;Madame du Barry;mistress of Louis XV;Madame du Barry;female;+1743-08-19T00:00:00Z;+1793-12-08T00:00:00Z;nc
+Q39446221;František Slabý;Czech painter, 1863-1919;;male;+1863-01-01T00:00:00Z;+1919-01-01T00:00:00Z;nc
+Q731694;Qin Hui;Chinese politician of the Song Dynasty;;male;+1090-01-01T00:00:00Z;+1155-01-01T00:00:00Z;nc
+Q1981295;Francisco Santos Calderón;Colombian politician;Francisco Santos Calderón;male;+1961-08-14T00:00:00Z;;nc
+Q612501;Yeghishe;Armenian historian;Եղիշե;male;+0410-01-01T00:00:00Z;+0475-01-01T00:00:00Z;nc
+Q434479;Lino Banfi;actor;Pasquale Zagaria;male;+1936-07-09T00:00:00Z;;nc
+Q5598;Rembrandt;Dutch painter and etcher;Rembrandt Harmenszoon van Rijn;male;+1606-07-15T00:00:00Z;+1669-10-04T00:00:00Z;nc
+Q28575591;Tisdall Farrell;Dublin eccentric in James Joyce's Ulysses;;male;+1851-06-17T00:00:00Z;;nc
+Q1063544;Charles Allan Gilbert;American illustrator;;male;+1873-09-03T00:00:00Z;+1929-04-20T00:00:00Z;nc
+Q6582069;Watanabe no Tsuna;Japanese samurai;;male;+0953-00-00T00:00:00Z;+1025-03-17T00:00:00Z;nc
+Q12324262;Lene Jensen;Danish politician;Lene Jensen;female;+1964-09-26T00:00:00Z;;nc
+Q549041;Gratian;Italian jurist;;male;+1070-01-01T00:00:00Z;+1140-01-01T00:00:00Z;nc
+Q24845917;William Alexander;Australian politician;;male;+1844-12-00T00:00:00Z;+1924-05-27T00:00:00Z;nc
+Q4230107;William Compton;English army officer;;male;+1625-01-01T00:00:00Z;+1663-01-01T00:00:00Z;nc
+Q936761;Pap of Armenia;King of Arsacid;;male;+0353-01-01T00:00:00Z;+0374-00-00T00:00:00Z;nc
+Q83375;Empedocles;ancient Greek philosopher;;male;-0490-00-00T00:00:00Z;-0430-00-00T00:00:00Z;nc
+Q487550;Heo Jun;Korean court physician;;male;+1546-01-01T00:00:00Z;+1615-01-01T00:00:00Z;nc
+Q7235954;Powała of Taczew;;;male;+1380-00-00T00:00:00Z;;nc
+Q665165;Sordello;Italian troubadour, poet and composer;;male;+1200-00-00T00:00:00Z;+1269-01-01T00:00:00Z;nc
+Q172248;Marcus Junius Brutus;Roman politician;;male;-0085-01-01T00:00:00Z;-0042-01-01T00:00:00Z;nc
+Q218747;Honoré Gabriel Riqueti, comte de Mirabeau;French writer, orator and statesman;Honoré Gabriel Riqueti, comte de Mirabeau;male;+1749-03-09T00:00:00Z;+1791-04-02T00:00:00Z;nc
+Q5685;Anton Chekhov;Russian dramatist, author and physician;Антон Павлович Чехов;male;+1860-01-17T00:00:00Z;+1904-07-02T00:00:00Z;nc
+Q1177456;David of Scotland, Earl of Huntingdon;Scottish princeand Earl of Huntingdon;;male;+1152-00-00T00:00:00Z;+1219-06-17T00:00:00Z;nc
+Q256663;Anne Geneviève de Bourbon;French princess;Anne Geneviève de Bourbon-Condé;female;+1619-08-28T00:00:00Z;+1679-04-05T00:00:00Z;nc
+Q141791;Moctezuma II;Mexica tlatoani;;male;+1466-01-01T00:00:00Z;+1520-06-29T00:00:00Z;nc
+Q45403232;Yue Lei;;;male;;;nc
+Q5078521;Charles H. Bennett;illustrator;;male;+1829-01-01T00:00:00Z;+1867-01-01T00:00:00Z;nc
+Q1338025;Emma Forsayth;American businessman;;female;+1850-09-26T00:00:00Z;+1913-01-01T00:00:00Z;nc
+Q43600;Matthew the Apostle;Christian evangelist and apostle;;male;+0010-01-01T00:00:00Z;+0074-00-00T00:00:00Z;nc
+Q13427322;Chmouel Mamikonian;Armenian noble;;male;;;nc
+Q983349;Newell Convers Wyeth;illustrator;;male;+1882-10-22T00:00:00Z;+1945-10-19T00:00:00Z;nc
+Q2442652;Tony Johannot;French painter;Tony Johannot;male;+1803-11-09T00:00:00Z;+1852-08-04T00:00:00Z;nc
+Q4363875;;;;male;;+1455-01-01T00:00:00Z;nc
+Q297776;Pedanius Dioscorides;Greco-Roman physician and pharmacologist;;male;+0040-01-01T00:00:00Z;+0090-01-01T00:00:00Z;nc
+Q9960;Ronald Reagan;40th President of the United States (in office from 1981 to 1989);Ronald Reagan;male;+1911-02-06T00:00:00Z;+2004-06-05T00:00:00Z;nc
+Q281456;Enrique de Villena;Spanish noble and writer;;male;+1384-01-01T00:00:00Z;+1434-12-15T00:00:00Z;nc
+Q5494534;Fred Barnard;British artist;;male;+1846-05-16T00:00:00Z;+1896-09-28T00:00:00Z;nc
+Q743858;Joscius, Archbishop of Tyre;Archbishop of Tyre, Jerusalem;;male;+1200-01-01T00:00:00Z;+1202-01-01T00:00:00Z;nc
+Q1394174;Paphnutius of Thebes;Egyptian saint;;male;+0360-01-01T00:00:00Z;+0400-00-00T00:00:00Z;nc
+Q27868400;Virginia Albert;American illustrator;;female;;;nc
+Q4403346;Sahak Sevada;Prince of Gardman;;male;+0895-00-00T00:00:00Z;+0940-00-00T00:00:00Z;nc
+Q229807;Berengaria of Navarre;Medieval English queen consort;Berenguera de Navarra;female;+1165-01-01T00:00:00Z;+1230-12-23T00:00:00Z;nc
+Q635;Cleopatra;last active pharaoh of Ptolemaic Egypt;;female;-0069-00-00T00:00:00Z;-0030-08-12T00:00:00Z;nc
+Q247137;Aelius Donatus;Roman grammarian;;male;+0320-00-00T00:00:00Z;+0380-00-00T00:00:00Z;nc
+Q7326;Hernán Cortés;Spanish conquistador;Hernán Cortés;male;+1485-01-01T00:00:00Z;+1547-12-02T00:00:00Z;nc
+Q47561;Ivo Andrić;Yugoslavian writer;Иво Андрић;male;+1892-10-09T00:00:00Z;+1975-03-13T00:00:00Z;nc
+Q4344;Arnaut Daniel;Occitan troubadour;Arnaut Daniel;male;+1150-00-00T00:00:00Z;+1210-00-00T00:00:00Z;nc
+Q26408;Pierre Bonnard;French painter and printmaker;Pierre Bonnard;male;+1867-10-03T00:00:00Z;+1947-01-23T00:00:00Z;nc
+Q738590;Lucius Vipstanus Messalla;;;male;+0045-01-01T00:00:00Z;+0080-01-01T00:00:00Z;nc
+Q137680;Angela Burdett-Coutts, 1st Baroness Burdett-Coutts;British peer, philanthropist and humanitarian;;female;+1814-04-21T00:00:00Z;+1906-12-30T00:00:00Z;nc
+Q4202726;;;;male;;+1470-06-06T00:00:00Z;nc
+Q43353;Aristophanes;Athenian playwright of Old Comedy;;male;-0446-01-01T00:00:00Z;-0386-01-01T00:00:00Z;nc
+Q154938;Bede;English monk and saint;Beda Venerabilis;male;+0672-01-01T00:00:00Z;+0735-05-25T00:00:00Z;nc
+Q1980579;Siemowit IV, Duke of Masovia;Duke of Masovia;;male;+1352-01-01T00:00:00Z;+1426-01-21T00:00:00Z;nc
+Q256439;Claudia Acte;freedwoman of ancient Rome who became a mistress of the emperor Nero;;female;+0100-01-01T00:00:00Z;;nc
+Q525713;Howard Pyle;American illustrator and author;;male;+1853-03-05T00:00:00Z;+1911-11-09T00:00:00Z;nc
+Q4099779;;;;male;;;nc
+Q26335015;Jean-Michel Roignant;;;male;+1959-00-00T00:00:00Z;;nc
+Q352;Adolf Hitler;Führer and Reich Chancellor of Germany, Leader of the Nazi Party;Adolf Hitler;male;+1889-04-20T00:00:00Z;+1945-04-30T00:00:00Z;nc
+Q170335;Constance;Queen of Sicily;;female;+1154-11-02T00:00:00Z;+1198-11-27T00:00:00Z;nc
+Q5289324;Marcin of Wrocimowice;Polish diplomat;;male;;+1442-01-01T00:00:00Z;nc
+Q1855648;Luke Fildes;British artist;;male;+1843-10-03T00:00:00Z;+1927-02-28T00:00:00Z;nc
+Q778520;Diana Turbay;Colombian journalist;;female;+1950-03-09T00:00:00Z;+1991-01-25T00:00:00Z;nc
+Q54049;Władysław II Jagiełło;Grand Duke of Lithuania and King of Poland;;male;+1362-01-01T00:00:00Z;+1434-06-01T00:00:00Z;nc
+Q346846;Georges Rochegrosse;French painter;Georges-Antoine Rochegrosse;male;+1859-08-02T00:00:00Z;+1938-07-11T00:00:00Z;nc
+Q169363;Zebedee;father of James and John, two disciples of Jesus;;male;-0100-01-01T00:00:00Z;+0100-01-01T00:00:00Z;nc
+Q4821453;Augustus Hoppin;American writer;;male;+1828-01-01T00:00:00Z;+1896-01-01T00:00:00Z;nc
+Q950850;Samuel Morland;British academic, diplomat and spy;;male;+1625-01-01T00:00:00Z;+1695-12-30T00:00:00Z;nc
+Q111559;Judah Maccabee;Jewish revolutionary;;male;;-0160-00-00T00:00:00Z;nc
+Q43399;Andrew;religious figure of the Christian faith;Ἀνδρέας;male;-0006-01-01T00:00:00Z;+0060-11-30T00:00:00Z;nc
+Q44015;John the Apostle;apostle of Jesus  son of Zebedee and Salome, brother of James,  traditionally identified with John the Evangelist, John of Patmos, and the Beloved Disciple;;male;+0006-01-01T00:00:00Z;+0100-01-01T00:00:00Z;nc
+Q319713;Leopold V, Duke of Austria;Austrian duke;Luitpold V der Tugendhafte;male;+1157-01-01T00:00:00Z;+1194-12-31T00:00:00Z;nc
+Q5689201;Hernando Santos Castillo;Colombian lawyer (1922-1999);;male;+1922-08-15T00:00:00Z;+1999-04-20T00:00:00Z;nc
+Q2085338;Vahan Mamikonian;Armenian rebel;Վահան Մամիկոնյան;male;+0440-01-01T00:00:00Z;+0505-01-01T00:00:00Z;nc
+Q7326690;Richard Irvine Best;Irish scholar;;male;+1872-01-01T00:00:00Z;+1959-09-25T00:00:00Z;nc
+Q650946;Věnceslav Černý;Czech illustrator and painter;Věnceslav Černý;male;+1865-01-27T00:00:00Z;+1936-04-15T00:00:00Z;nc
+Q24259135;Nick Orsi;artist working for Disney;;male;;;nc
+Q956193;Pierre Clémenti;French actor;Pierre Clémenti;male;+1942-09-28T00:00:00Z;+1999-12-27T00:00:00Z;nc
+Q6780580;Mary Raphael Slattery;Catholic leader from the USA;Mary Slattery;female;+1863-01-17T00:00:00Z;+1940-09-09T00:00:00Z;nc
+Q2142823;Thierry Breton;French businessman;Thierry Breton;male;+1955-01-15T00:00:00Z;;nc
+Q1427;Hadrian;Emperor of Ancient Rome;whats app boi;male;+0076-01-24T00:00:00Z;+0138-07-10T00:00:00Z;nc
+Q366070;George William Russell;Irish writer, editor, critic, poet, and artistic painter;;male;+1867-04-10T00:00:00Z;+1935-07-17T00:00:00Z;nc
+Q20749193;Irma Le Fer de la Motte;Catholic leader and nun from France;Marie-Sophie-Julienne Le Fer de la Motte;female;+1816-00-00T00:00:00Z;+1856-01-31T00:00:00Z;nc
+Q551481;Antoine Barnave;French politician;Antoine Barnave;male;+1761-10-22T00:00:00Z;+1793-11-29T00:00:00Z;nc
+Q1595134;Marcus Aper;;;male;+0100-01-01T00:00:00Z;;nc
+Q1416892;Thomas William Lyster;Irish librarian;;male;+1855-01-01T00:00:00Z;+1922-01-01T00:00:00Z;nc
+Q5553293;Gertrude Clare Owens;administrator and Catholic leader from the USA;Margaret Genevieve Haughan;female;+1887-03-26T00:00:00Z;+1963-11-18T00:00:00Z;nc
+Q772558;Carlo Chiostri;painter and illustrator;;male;+1863-05-05T00:00:00Z;+1939-07-09T00:00:00Z;nc
+Q959748;Frans Hogenberg;German painter;Frans Hogenberg;male;+1535-01-01T00:00:00Z;+1590-01-01T00:00:00Z;nc
+Q16912694;Cornelia van Rijn;;;female;+1654-01-01T00:00:00Z;+1684-01-01T00:00:00Z;nc
+Q559541;Salvatore Giuliano;outlaw;;male;+1922-11-16T00:00:00Z;+1950-07-05T00:00:00Z;nc
+Q15725991;Joseph Schindelman;;;male;;;nc
+Q172480;Isaac of Armenia;Armenian saint;;male;+0338-01-01T00:00:00Z;+0439-07-10T00:00:00Z;nc
+Q7200;Alexander Pushkin;Russian poet;Александр Сергеевич Пушкин;male;+1799-05-26T00:00:00Z;+1837-01-29T00:00:00Z;nc
+Q61078;Walter Benjamin;German literary critic, philosopher and social critic (1892-1940);;male;+1892-07-15T00:00:00Z;+1940-09-26T00:00:00Z;nc
+Q37693;Paul Gauguin;French artist;Paul Gauguin;male;+1848-06-07T00:00:00Z;+1903-05-09T00:00:00Z;nc
+Q670332;Comte de Troisville;French soldier;Jean-Armand du Peyrer;male;+1598-01-01T00:00:00Z;+1672-05-08T00:00:00Z;nc
+Q231997;Sadako Sasaki;Japanese origami artist;佐々木禎子;female;+1943-01-07T00:00:00Z;+1955-10-25T00:00:00Z;nc
+Q719418;Vasily Rozanov;Russian philosopher;;male;+1856-04-20T00:00:00Z;+1919-02-05T00:00:00Z;nc
+Q151209;Anne of Austria;Queen, consort of Louis XIII, King of France;Anne d'Autriche;female;+1601-09-22T00:00:00Z;+1666-01-20T00:00:00Z;nc
+Q7732;Louis XVI of France;King of France and Navarre;Louis XVI;male;+1754-08-23T00:00:00Z;+1793-01-21T00:00:00Z;nc
+Q186652;Gilbert du Motier, Marquis de Lafayette;French general and politician;Gilbert du Motier;male;+1757-09-06T00:00:00Z;+1834-05-20T00:00:00Z;nc
+Q1059572;Khaled Al Khamissi;Egyptian novelist and writer;خالد الخميسي;male;+1962-09-27T00:00:00Z;;nc
+Q199991;Joachim of Fiore;Italian abbot;;male;+1135-00-00T00:00:00Z;+1202-03-30T00:00:00Z;nc
+Q4534473;;;;male;;;nc
+Q4293869;;;;male;+1829-04-08T00:00:00Z;+1907-06-04T00:00:00Z;nc
+Q134309;Charles IX of France;King of France;Charles IX;male;+1550-06-27T00:00:00Z;+1574-05-30T00:00:00Z;nc
+Q1093574;Ruggieri degli Ubaldini;Italian archbishop;;male;;+1295-09-15T00:00:00Z;nc
+Q19844997;Sahakanuysh;Queen of Armenia, wife of Ashot the Iron;;female;;;nc
+Q2223396;Georges Lévis;Comic artist;Georges Lévis;male;+1924-08-07T00:00:00Z;+1988-03-31T00:00:00Z;nc
+Q166876;Isidore of Seville;bishop, confessor and doctor of the Catholic Church;Isidorus Hispalensis;male;+0560-00-00T00:00:00Z;+0636-04-04T00:00:00Z;nc
+Q43939;Anselm of Canterbury;Benedictine monk, philosopher, and prelate;Anselmus Cantuariensis;male;+1033-00-00T00:00:00Z;+1109-04-21T00:00:00Z;nc
+Q57652;Helle Thorning-Schmidt;Danish politician, former Danish Prime Minister;Helle Thorning-Schmidt;female;+1966-12-14T00:00:00Z;;nc
+Q17348732;Karel Štapfer;Czech illustrator and scenographer;;male;+1863-05-14T00:00:00Z;+1930-11-30T00:00:00Z;nc
+Q1409;Caligula;3rd Emperor of Ancient Rome, a member of the Julio-Claudian dynasty;Gaius Iulius Caesar Augustus Germanicus;male;+0012-08-31T00:00:00Z;+0041-01-24T00:00:00Z;nc
+Q208359;John Wallis;English mathematician;John Wallis;male;+1616-11-23T00:00:00Z;+1703-10-28T00:00:00Z;nc
+Q172353;Pyrrhus;Epirot Illyrian military leader;Πύρρος;male;-0318-01-01T00:00:00Z;-0272-01-01T00:00:00Z;nc
+Q258369;Peter Damian;reformist monk;;male;+1007-01-01T00:00:00Z;+1072-02-22T00:00:00Z;nc
+Q16303667;Pierre Laurent;French school teacher;;male;+1919-01-01T00:00:00Z;+2012-02-01T00:00:00Z;nc
+Q43669;Thomas the Apostle;Apostle of Jesus Christ;;male;;+0072-07-03T00:00:00Z;nc
+Q18733964;Peter Stahl;Stahl, Peter (d. c.1675), chemist and physician;;male;;;nc
+Q469118;Gaius Calpurnius Piso;politician;;male;;+0065-04-19T00:00:00Z;nc
+Q4297179;Michael of Perm;ruler of Perm;Ермолай Микаил;male;;+1481-01-01T00:00:00Z;nc
+Q43706;John Chrysostom;important Early Church Father;;male;+0349-00-00T00:00:00Z;+0407-09-14T00:00:00Z;nc
+Q267733;Thaïs;Greek hetaera;;female;-0400-01-01T00:00:00Z;;nc
+Q3090807;Almanzo Wilder;Member of the Wilder family;;male;+1857-02-13T00:00:00Z;+1949-10-23T00:00:00Z;nc
+Q33866;Theodore Roosevelt;American politician, 26th President of the United States;Theodore Roosevelt;male;+1858-10-27T00:00:00Z;+1919-01-06T00:00:00Z;nc
+Q134646;Boniface VIII;193rd Pope of the Catholic Church;Benedetto Caetani;male;+1235-01-01T00:00:00Z;+1303-10-11T00:00:00Z;nc
+Q2083692;Danutė of Lithuania;Lithuanian princess, daughter of Kęstutis, Grand Duke of Lithuania, and wife of Janusz I of Warsaw;;female;+1358-01-01T00:00:00Z;+1424-00-00T00:00:00Z;nc
 Q102851;Boethius;philosopher of the early 6th century;Anicius Manlius Torquatus Severinus Boethius;male;+0480-01-01T00:00:00Z;+0525-00-00T00:00:00Z;nc
-Q1927217;Michael Cusack;Founder of the Gaelic Athletic Association;Michael Cusack;male;+1847-09-20T00:00:00Z;+1906-11-27T00:00:00Z;nc
-Q706003;Ugolino della Gherardesca;Italian politician and soldier;Ugolino della Gherardesca;male;+1220-01-01T00:00:00Z;+1289-01-01T00:00:00Z;nc
+Q7489;Emperor Gaozong of Song;emperor of Song Dynasty China;;male;+1107-06-12T00:00:00Z;+1187-11-09T00:00:00Z;nc
+Q353879;Jean François Paul de Gondi;Catholic cardinal;Jean-François Paul de Gondi;male;+1613-09-29T00:00:00Z;+1679-08-24T00:00:00Z;nc
+Q849;François Villon;French poet and criminal;François Villon;male;+1431-04-01T00:00:00Z;+1463-00-00T00:00:00Z;nc
+Q15912340;Nathaniel Orr;illustrator;;male;+1856-00-00T00:00:00Z;;nc
+Q1370965;Peter Heywood;British naval officer;;male;+1772-06-06T00:00:00Z;+1831-02-10T00:00:00Z;nc
+Q2254800;Cunizza da Romano;Italian noble;;female;+1198-01-01T00:00:00Z;+1279-01-01T00:00:00Z;nc
+Q122290;Jean-Paul Marat;politician and journalist during the French Revolution;Jean-Paul Marat;male;+1743-05-24T00:00:00Z;+1793-07-13T00:00:00Z;nc
+Q156521;Andrea Doria;Italian admiral;;male;+1466-11-30T00:00:00Z;+1560-11-25T00:00:00Z;nc
+Q2054;Seneca;Roman Stoic philosopher, statesman, and dramatist;Lucius Annaeus Seneca;male;-0004-00-00T00:00:00Z;+0065-04-12T00:00:00Z;nc
+Q1197656;Teimei;Japanese empress;貞明皇后;female;+1884-06-25T00:00:00Z;+1951-05-17T00:00:00Z;nc
+Q2161;Tacitus;Roman senator and historian;Publius (Gaius) Cornelius Tacitus;male;+0054-00-00T00:00:00Z;+0120-01-01T00:00:00Z;nc
+Q174210;Julio Cortázar;Argentinian writer;Julio Cortázar;male;+1914-08-26T00:00:00Z;+1984-02-12T00:00:00Z;nc
+Q43393;Robert Boyle;English natural philosopher, chemist, physicist, and inventor;Robert Boyle;male;+1627-01-25T00:00:00Z;+1691-12-31T00:00:00Z;nc
+Q15406986;Guydo;French painter, affichiste, illustrator and draughtsperson;Joseph Robert Guillaume Le Barrois d'Orgeval;male;+1868-08-22T00:00:00Z;+1930-00-00T00:00:00Z;nc
+Q286337;Al-Ashraf Qansuh Al-Ghuri;Ruler of Egypt;;male;+1441-01-01T00:00:00Z;+1516-09-03T00:00:00Z;nc
+Q1133523;Jephthah;biblical character;;male;;;nc
+Q5544435;George Seton, 7th Lord Seton;Lord of the Parliament of Scotland;;male;+1530-00-00T00:00:00Z;+1586-00-00T00:00:00Z;nc
+Q532354;Margaret Erskine;Mistress of Scottish King;;female;+1513-00-00T00:00:00Z;+1572-05-05T00:00:00Z;nc
+Q555304;Georges Cadoudal;Marshal of France;Georges Cadoudal;male;+1771-01-01T00:00:00Z;+1804-06-25T00:00:00Z;nc
 Q868;Aristotle;Classical Greek philosopher, student of Plato and founder of Western philosophy;Ἀριστοτέλης;male;-0383-00-00T00:00:00Z;-0321-00-00T00:00:00Z;nc
-Q28575591;Tisdall Farrell;Dublin eccentric in James Joyce's Ulysses;Tisdall Farrell;male;+1851-06-17T00:00:00Z;;nc
-Q4014539;Virginio Merola;Italian politician;Virginio Merola;male;+1955-02-14T00:00:00Z;;nc
-Q6756538;Marcelo Crivellla;Brazilian politician and evangelical leader;Marcelo Crivellla;male;+1957-10-09T00:00:00Z;;nc
-Q1728820;Leo Varadkar;Irish Fine Gael politician;Leo Varadkar;male;+1979-01-18T00:00:00Z;;nc
-Q15976266;Dario Nardella;Italian politician and mayor of Florence;Dario Nardella;male;+1975-11-20T00:00:00Z;;nc
-Q2641759;Alexander Bachem;German politician;Alexander Bachem;male;+1806-01-08T00:00:00Z;+1878-02-11T00:00:00Z;nc
+Q426862;Guido Bonatti;famed Italian astrologer/astronomer;;male;+1210-01-01T00:00:00Z;+1296-01-01T00:00:00Z;nc
+Q351026;Saint Cyril the Philosopher;Christian missionary to the Slavs (9th c.);;male;+0827-01-01T00:00:00Z;+0869-02-14T00:00:00Z;nc
+Q273942;Pia Gjellerup;Danish politician;Pia Gjellerup;female;+1959-08-22T00:00:00Z;;nc
+Q118653;August Engelhardt;German nutritionist;;male;+1877-11-27T00:00:00Z;+1919-05-06T00:00:00Z;nc
+Q188411;Bernard of Clairvaux;French abbot, theologian;Bernard de Clairvaux;male;+1090-01-01T00:00:00Z;+1153-08-20T00:00:00Z;nc
+Q6527;Jean-Jacques Rousseau;Genevan philosopher, writer, and composer;;male;+1712-06-28T00:00:00Z;+1778-07-02T00:00:00Z;nc
+Q43963;Jack the Ripper;Unidentified serial killer;Jack the Ripper;male;+1850-00-00T00:00:00Z;+1900-00-00T00:00:00Z;nc
+Q20750935;Athanasius Fogarty;Catholic nun and hospital administrator;Margaret Fogarty;female;+1834-05-15T00:00:00Z;+1900-04-11T00:00:00Z;nc
+Q18508125;Douglas Duer;American artist and illustrator;;male;+1887-10-04T00:00:00Z;+1964-01-01T00:00:00Z;nc
+Q244912;Hezekiah;King of Judah;;male;-0800-01-01T00:00:00Z;-0697-01-01T00:00:00Z;nc
+Q315608;Vojtěch Preissig;Czech graphic, illustrator, painter and typographer;;male;+1873-07-31T00:00:00Z;+1944-06-11T00:00:00Z;nc
+Q297040;Apollonius of Tyana;Ancient Greek philosopher;Ἀπολλώνιος ὁ Τυανεύς;male;+0015-00-00T00:00:00Z;+0100-00-00T00:00:00Z;nc
+Q470122;Shin Suk-ju;Korean philosopher;;male;+1417-01-01T00:00:00Z;+1475-06-21T00:00:00Z;nc
+Q12026771;Josef Wenig;Czech painter, scenographer and artist;;male;+1885-02-12T00:00:00Z;+1939-09-08T00:00:00Z;nc
+Q130221;Frederick II, Holy Roman Emperor;1194 – 1250, Holy Roman Emperor of the Middle Ages;Friedrich II von Staufen;male;+1194-12-26T00:00:00Z;+1250-12-13T00:00:00Z;nc
+Q466048;Francesca da Rimini;Italian noble;;female;+1259-01-01T00:00:00Z;+1285-01-01T00:00:00Z;nc
+Q951503;Ashot II of Armenia;Armenian king;Աշոտ Բ Երկաթ;male;;+0928-01-01T00:00:00Z;nc
+Q446504;Eleonora Fonseca Pimentel;Italian poet;;female;+1752-01-13T00:00:00Z;+1799-08-20T00:00:00Z;nc
+Q1841706;Theodore Rshtuni;Soldier and nobleman;;male;+0590-00-00T00:00:00Z;+0656-01-01T00:00:00Z;nc
+Q81018;Judas Iscariot;one of the twelve original apostles of Jesus Christ, known for betrayal of Jesus;;male;;+0100-01-01T00:00:00Z;nc
+Q6562057;Mushegh IV Mamikonian;;;male;;;nc
+Q335165;Osceola;Billy Powell, leader of the Seminole in Florida;;male;+1804-01-01T00:00:00Z;+1838-01-20T00:00:00Z;nc
+Q24259104;Borja Montoro;character designer and animator;;male;+1966-07-00T00:00:00Z;;nc
+Q485023;Danjong of Joseon;6th King of Joseon Dynasty in Korean history;;male;+1441-07-23T00:00:00Z;+1457-12-24T00:00:00Z;nc
+Q512266;Thomas Pesquet;French astronaut;Thomas Pesquet;male;+1978-02-27T00:00:00Z;;nc
+Q167778;Zawisza Czarny;Polish diplomat and Knight;;male;+1379-00-00T00:00:00Z;+1428-01-01T00:00:00Z;nc
+Q15463333;John Mordaunt, 1st Viscount Mordaunt;English politician;;male;+1626-06-18T00:00:00Z;+1675-06-05T00:00:00Z;nc
+Q55665185;John H. Colen;American scientific illustrator;;male;+1853-00-00T00:00:00Z;+1983-00-00T00:00:00Z;nc
+Q4776434;Antonio Baratti;Italian engraver;;male;+1724-01-07T00:00:00Z;+1787-07-28T00:00:00Z;nc
+Q317188;Theo van Gogh;Dutch art dealer, brother of Vincent (1857-1891);Theodorus van Gogh;male;+1857-05-01T00:00:00Z;+1891-01-25T00:00:00Z;nc
+Q991;Fyodor Dostoyevsky;Russian author;Фёдор Михайлович Достоевский;male;+1821-10-30T00:00:00Z;+1881-02-09T00:00:00Z;nc
+Q451174;Jeanne Agnès Berthelot de Pléneuf, marquise de Prie;French noble;Jeanne Agnès Berthelot de Pléneuf;female;+1698-08-01T00:00:00Z;+1727-10-07T00:00:00Z;nc
+Q9458;Muhammad;the Prophet of Islam;محمد بن عبدالله بن عبد المطلب بن هاشم بن عبد مناف بن قصي;male;+0570-04-26T00:00:00Z;+0632-06-08T00:00:00Z;nc
+Q7617726;William Douglas, 6th Earl of Morton;Scottish Earl;;male;+1540-01-01T00:00:00Z;+1606-09-27T00:00:00Z;nc
+Q18534452;Vladimír Rocman;Czech graphic, illustrator, painter and artist;;male;+1923-09-08T00:00:00Z;+2016-04-28T00:00:00Z;nc
+Q41370;David;king of Israel and Judah;דָּוִד;male;-1040-01-01T00:00:00Z;-0970-01-01T00:00:00Z;nc
+Q378053;Rob Roy MacGregor;Scottish outlaw;Robert Roy MacGregor;male;+1671-03-07T00:00:00Z;+1734-12-28T00:00:00Z;nc
+Q131463;Clement V;pope;Clément V;male;+1264-00-00T00:00:00Z;+1314-04-20T00:00:00Z;nc
+Q41980;Democritus;Ancient Greek philosopher, pupil of Leucippus, founder of the atomic theory;Δημόκριτος;male;-0460-01-01T00:00:00Z;-0360-01-01T00:00:00Z;nc
+Q76721;Godfrey of Bouillon;Medieval Frankish knight;Godefroi de Bouillon;male;+1060-01-01T00:00:00Z;+1100-07-18T00:00:00Z;nc
+Q453382;John Adams;British seaman and mutineer, last survivor of the Bounty mutineers;;male;+1767-12-04T00:00:00Z;+1829-03-05T00:00:00Z;nc
+Q43746;Bonaventure;franciscan, bishop, cardinal, Doctor of the Church, catholic saint;Giovanni Fidanza;male;+1221-00-00T00:00:00Z;+1274-07-15T00:00:00Z;nc
+Q706244;Empress Zhao Feiyan;Empress of Han Dynasty China;;female;-0032-01-01T00:00:00Z;-0001-00-00T00:00:00Z;nc
+Q457881;John Tenniel;British illustrator, graphic humourist and political cartoonist;;male;+1820-02-28T00:00:00Z;+1914-02-25T00:00:00Z;nc
+Q15995718;Albert Hahl;German colonial governor;;male;+1868-09-10T00:00:00Z;+1945-12-25T00:00:00Z;nc
+Q334308;Sejo of Joseon;7th King of Joseon Dynasty in Korean history;;male;+1417-09-29T00:00:00Z;+1468-09-08T00:00:00Z;nc
+Q223440;Lucius Junius Brutus;Founder of the Roman Republic;L. Iunius M.f. Brutus;male;-0600-00-00T00:00:00Z;-0509-00-00T00:00:00Z;nc
+Q7742;Louis XIV of France;King of France and Navarra, from 1643 to 1715;Louis XIV;male;+1638-09-05T00:00:00Z;+1715-09-01T00:00:00Z;nc
+Q1374807;John Leech;English caricaturist and illustrator;;male;+1817-08-29T00:00:00Z;+1864-10-29T00:00:00Z;nc
+Q359237;Charles Martel of Anjou;King of Hungary;;male;+1271-09-15T00:00:00Z;+1295-08-12T00:00:00Z;nc
+Q60059;Albertus Magnus;Dominican friar;Albertus Magnus;male;+1206-00-00T00:00:00Z;+1280-11-15T00:00:00Z;nc
+Q451516;Gaius Scribonius Curio;politician (0090-0049);;male;-0090-01-01T00:00:00Z;-0049-01-01T00:00:00Z;nc
+Q836741;Wuzhu;Jurchen prince and general;;male;;+1148-11-19T00:00:00Z;nc
+Q3619926;Antonio Moresco;Italian writer;;male;+1947-10-30T00:00:00Z;;nc
+Q4791018;Aristodemus of Cydathenaeum;Ancient Athenian philosopher;;male;;;nc
+Q104804;Mesrop Mashtots;medieval Armenian theologian and linguist;Մեսրոպ Մաշտոց;male;+0361-01-01T00:00:00Z;+0440-02-17T00:00:00Z;nc
+Q8058;Louis XI of France;king;Louis XI;male;+1423-07-03T00:00:00Z;+1483-08-30T00:00:00Z;nc
+Q332020;César Gaviria;President of Colombia;;male;+1947-03-31T00:00:00Z;;nc
+Q363636;Cardinal de Rohan;Catholic cardinal;Cardinal de Rohan;male;+1734-09-25T00:00:00Z;+1803-02-16T00:00:00Z;nc
+Q360079;Eino Leino;Finnish poet and journalist;Armas Einar Leopold Lönnbohm;male;+1878-07-06T00:00:00Z;+1926-01-10T00:00:00Z;nc
+Q192950;Herod Antipas;Tetrarch of Galilee and Perea;;male;-0020-01-01T00:00:00Z;+0039-00-00T00:00:00Z;nc
+Q1113333;Regina Kehn;German illustrator;;female;+1962-01-01T00:00:00Z;;nc
+Q966547;Léon Benett;French painter;Léon Benett;male;+1839-03-02T00:00:00Z;+1916-12-07T00:00:00Z;nc
+Q463440;Hendrickje Stoffels;partner of Rembrandt van Rijn;;female;+1626-01-01T00:00:00Z;+1663-07-21T00:00:00Z;nc
+Q8018;Augustine of Hippo;early Christian theologian and philosopher;Aurelius Augustinus;male;+0354-11-13T00:00:00Z;+0430-08-28T00:00:00Z;nc
+Q24259053;Mac George;artist working at Disney;;male;;;nc
+Q234533;Cornelia Africana;Roman patrician woman;Cornelia;female;-0189-01-01T00:00:00Z;-0110-01-01T00:00:00Z;nc
+Q6779230;Mary Cleophas Foley;educator and Catholic leader from the USA;Margaret Teresa Foley;female;+1845-02-18T00:00:00Z;+1928-01-01T00:00:00Z;nc
+Q187447;Pablo Escobar Gaviria;Colombian drug lord;Pablo Escobar;male;+1949-12-01T00:00:00Z;+1993-12-02T00:00:00Z;nc
+Q486298;Han Myeonghoe;Korean politician;;male;+1415-11-26T00:00:00Z;+1487-11-28T00:00:00Z;nc
+Q544680;John Thurloe;English barrister;;male;+1616-01-01T00:00:00Z;+1668-02-21T00:00:00Z;nc
+Q312682;Euclid of Megara;Greek philosopher;Ευκλείδης;male;-0436-12-27T00:00:00Z;-0365-01-01T00:00:00Z;nc
+Q24259199;Bill Schwab;character designer and animator;;male;;;nc
+Q313817;George Villiers, 1st Duke of Buckingham;politician from England;;male;+1592-08-28T00:00:00Z;+1628-08-23T00:00:00Z;nc
+Q29042917;Pavel Körber;Czech painter, illustrator and publisher;;male;+1862-09-15T00:00:00Z;+1925-10-22T00:00:00Z;nc
+Q47180;Petronius;Roman courtier, supposed author of the Satyricon;Petronius Arbiter;male;+0027-00-00T00:00:00Z;+0066-01-01T00:00:00Z;nc
+Q48305;Euripides;ancient Athenian playwright;Εὐριπίδης;male;-0480-00-00T00:00:00Z;-0406-00-00T00:00:00Z;nc
+Q21495507;Émile Duhousset;French explorer, artist and geographer (1823-1900);Émile Louis Duhousset;male;+1823-04-18T00:00:00Z;+1900-00-00T00:00:00Z;nc
+Q310267;Shapur III;Shah of Persia;;male;+0400-01-01T00:00:00Z;+0388-01-01T00:00:00Z;nc
+Q335173;Edward Hyde, 1st Earl of Clarendon;English politician;;male;+1609-02-18T00:00:00Z;+1674-12-09T00:00:00Z;nc
+Q859;Plato;Classical Greek philosopher;Πλάτων;male;-0427-00-00T00:00:00Z;-0347-00-00T00:00:00Z;nc
+Q211619;Dale Baer;American animator;;male;+1950-00-00T00:00:00Z;;nc
+Q83672;Shah Jahan;5th Mughal Emperor;شاه ‌جهان‎;male;+1592-01-05T00:00:00Z;+1666-01-22T00:00:00Z;nc
+Q6101;Marco Polo;Venetian explorer and merchant noted for travel to central and eastern Asia;Marco Polo;male;+1254-09-15T00:00:00Z;+1324-01-08T00:00:00Z;nc
+Q1419;Vespasian;Emperor of Ancient Rome, founder of the Flavian dynasty;Titus Flavius Vespasianus;male;+0009-11-17T00:00:00Z;+0079-06-23T00:00:00Z;nc
+Q243203;Publius Papinius Statius;Roman poet of the 1st century AD (Silver Age of Latin literature);;male;+0040-01-01T00:00:00Z;+0096-01-01T00:00:00Z;nc
+Q1394857;Luca Parmitano;Italian astronaut;;male;+1976-09-27T00:00:00Z;;nc
+Q76508;Emmanuel Philibert, Duke of Savoy;Duke of Savoy from 1553 to 1580;;male;+1528-07-08T00:00:00Z;+1580-08-30T00:00:00Z;nc
+Q1541;Cicero;Roman philosopher and statesman;Marcus Tullius Cicero;male;-0106-01-03T00:00:00Z;-0043-12-07T00:00:00Z;nc
+Q366270;Guido Guinizelli;Italian poet;;male;+1230-01-01T00:00:00Z;+1276-01-01T00:00:00Z;nc
+Q2318426;Alexandra of Lithuania;Youngest daughter of Algirdas, Grand Duke of Lithuania, and his second wife, Uliana of Tver;;female;+1360-01-01T00:00:00Z;+1434-04-20T00:00:00Z;nc
+Q297285;Ali Pasha;Ottoman ruler;;male;+1750-00-00T00:00:00Z;+1822-01-24T00:00:00Z;nc
+Q953718;Henry Bennet, 1st Earl of Arlington;English diplomat;;male;+1618-01-01T00:00:00Z;+1685-07-28T00:00:00Z;nc
+Q5170;Blondel de Nesle;French trouvère;Blondel de Nesle;male;+1150-00-00T00:00:00Z;+1202-00-00T00:00:00Z;nc
+Q3860377;The Nun of Monza;Italian nun;;female;+1575-12-04T00:00:00Z;+1650-01-17T00:00:00Z;nc
+Q289149;Étienne François, duc de Choiseul;French general, diplomat and statesman;Étienne François de Choiseul;male;+1719-06-28T00:00:00Z;+1785-05-08T00:00:00Z;nc
+Q33923;Peter;apostle and first pope;بطرس;male;;+0067-01-01T00:00:00Z;nc
+Q2633351;Vasak of Syunik;King of Syunik, Armenia,;;male;+0387-01-01T00:00:00Z;+0452-01-01T00:00:00Z;nc
+Q131691;Arthur Wellesley, 1st Duke of Wellington;British soldier and statesman;Arthur Wellesley, 1. Duke of Wellington;male;+1769-05-01T00:00:00Z;+1852-09-14T00:00:00Z;nc
+Q281146;Yeznik of Kolb;Fifth century Christian Writer;;male;+0500-01-01T00:00:00Z;+0450-00-00T00:00:00Z;nc
+Q152513;Henry Wadsworth Longfellow;American poet;Henry Wadsworth Longfellow;male;+1807-02-27T00:00:00Z;+1882-03-24T00:00:00Z;nc
+Q3310969;Michel Thérais;;;male;;;nc
+Q81506;Charles I of England;monarch of the three kingdoms of England, Scotland, and Ireland;;male;+1600-11-19T00:00:00Z;+1649-01-30T00:00:00Z;nc
+Q2521377;Ottaviano degli Ubaldini;Italian cardinal;;male;+1214-01-01T00:00:00Z;+1273-01-01T00:00:00Z;nc
+Q4071856;;;;male;;;nc
+Q36724;Attila;King of the Hunnic Empire;;male;+0406-00-00T00:00:00Z;+0453-03-00T00:00:00Z;nc
+Q879350;Bjarne Corydon;Danish politician;Bjarne Corydon;male;+1973-03-01T00:00:00Z;;nc
+Q8778;Galen;Roman physician, surgeon and philosopher;Γαληνός;male;+0129-00-00T00:00:00Z;+0216-00-00T00:00:00Z;nc
+Q334818;Kazi Nazrul Islam;National poet of Bangladesh;কাজী নজরুল ইসলাম;male;+1899-05-24T00:00:00Z;+1976-08-29T00:00:00Z;nc
+Q131412;Mary, Queen of Scots;Scottish monarch and queen consort of France;Mary Stewart;female;+1542-12-08T00:00:00Z;+1587-02-08T00:00:00Z;nc
+Q1348718;Jean-Claude Romand;French murderer;Jean-Claude Romand;male;+1954-02-11T00:00:00Z;;nc
+Q2438324;Julie d'Aubigny;French opera singer;Julie d'Aubigny;female;+1670-00-00T00:00:00Z;+1707-01-01T00:00:00Z;nc
+Q17523641;José Maria Baptista Coelho;;;male;+1812-01-01T00:00:00Z;+1891-01-01T00:00:00Z;nc
+Q329;Nicolas Sarkozy;23rd President of the French Republic;Nicolas Sarkozy;male;+1955-01-28T00:00:00Z;;nc
+Q9215;Sigmund Freud;Austrian neurologist known as the founding father of psychoanalysis;Sigmund Freud;male;+1856-05-06T00:00:00Z;+1939-09-23T00:00:00Z;nc
+Q170842;Sergei Korolev;Soviet rocket engineer;Серге́й Па́влович Королёв;male;+1906-12-30T00:00:00Z;+1966-01-14T00:00:00Z;nc
+Q13769198;Alexandre Moisy;;;male;+1763-01-01T00:00:00Z;+1827-01-01T00:00:00Z;nc
+Q20749268;John Corbe;Catholic priest, artist and botanist born in France;;male;+1805-11-04T00:00:00Z;+1872-06-03T00:00:00Z;nc
+Q230314;La Malinche;Nahua woman who was the interpreter, advisor, and intermediary to Hernan Cortez;;female;+1496-00-00T00:00:00Z;+1529-00-00T00:00:00Z;nc
+Q2669574;Barry Gifford;Novelist, poet, screenwriter, biographer, editor;;male;+1946-10-18T00:00:00Z;;nc
+Q43718;Nikolai Gogol;Russian writer;;male;+1809-03-20T00:00:00Z;+1852-02-21T00:00:00Z;nc
+Q26702;Cardinal Richelieu;French clergyman, noble and statesman;Armand Jean du Plessis de Richelieu;male;+1585-09-09T00:00:00Z;+1642-12-04T00:00:00Z;nc
+Q23689886;François-Barthélémy-Augustin Desmoulins;;;male;+1788-00-00T00:00:00Z;+1856-01-01T00:00:00Z;nc
+Q1407;Tiberius;2nd Emperor of Ancient Rome, member of the Julio-Claudian dynasty;Tiberius Iulius Caesar;male;-0042-11-16T00:00:00Z;+0037-03-16T00:00:00Z;nc
+Q42305;Richard I of England;English king;Richard the Lionheart;male;+1157-09-08T00:00:00Z;+1199-04-06T00:00:00Z;nc
+Q170373;Christopher Wren;English architect;Christopher Wren;male;+1632-10-20T00:00:00Z;+1723-03-08T00:00:00Z;nc
+Q9353;John Locke;English philosopher and physician;John Locke;male;+1632-08-29T00:00:00Z;+1704-10-28T00:00:00Z;nc
+Q235835;Margaret of France, Duchess of Berry;daughter of King Francis I of France;;female;+1523-06-05T00:00:00Z;+1574-09-15T00:00:00Z;nc
+Q23680546;Claude Allin Shepperson;British painter, printmaker, illustrator;Claude Allin Shepperson;male;+1867-10-25T00:00:00Z;+1921-12-30T00:00:00Z;nc
+Q40662;John the Baptist;major religious figure;יוחנן המטביל;male;;+0030-00-00T00:00:00Z;nc
+Q57384;Wernher von Braun;German, later an American, aerospace engineer and space architect;Wernher von Braun;male;+1912-03-23T00:00:00Z;+1977-06-16T00:00:00Z;nc
+Q331485;Jean-Marie Messier;French businessman;Jean-Marie Messier;male;+1956-12-13T00:00:00Z;;nc
+Q181875;Robert Peel;British Conservative statesman;Robert Peel;male;+1788-02-05T00:00:00Z;+1850-07-02T00:00:00Z;nc
+Q6139425;Thomas Hayward;British Royal Navy officer;;male;+1767-01-01T00:00:00Z;+1798-01-01T00:00:00Z;nc
+Q706003;Ugolino della Gherardesca;Italian politician and soldier;;male;+1220-01-01T00:00:00Z;+1289-01-01T00:00:00Z;nc
+Q828583;Bertrand-François Mahé de La Bourdonnais;French admiral and colonial governor;Bertrand-François Mahé de La Bourdonnais;male;+1699-02-11T00:00:00Z;+1753-11-10T00:00:00Z;nc
+Q3687804;Conte Attilio;;;male;;;nc
+Q3770052;Giuseppe Bandi;Italian writer and journalist;;male;+1834-07-15T00:00:00Z;+1894-07-01T00:00:00Z;nc
+Q4493856;;;;male;;;nc
+Q691873;Anthony Wood;English antiquarian;;male;+1632-12-17T00:00:00Z;+1695-11-28T00:00:00Z;nc
+Q118081;Pope Celestine V;192nd Pope of the Catholic Church;Celestinus PP. V;male;+1215-00-00T00:00:00Z;+1296-05-19T00:00:00Z;nc
+Q310686;Dionysius the Areopagite;bishop and saint;;male;+0100-01-01T00:00:00Z;+0100-00-00T00:00:00Z;nc
+Q1048;Julius Caesar;Roman politician and general;Gaius Iulius Caesar;male;-0100-00-00T00:00:00Z;-0044-03-01T00:00:00Z;nc
+Q23771657;Shiyoon Kim;concept artist working for Disney;;male;;;nc
+Q1425;Trajan;Emperor of Ancient Rome;Caesar Marcus Ulpius Nerva Traianus;male;+0053-09-18T00:00:00Z;+0117-08-09T00:00:00Z;nc
+Q230716;Poppaea Sabina;Roman Empress;;female;+0030-01-01T00:00:00Z;+0065-01-01T00:00:00Z;nc
+Q2252;Buzz Aldrin;American astronaut;Buzz Aldrin;male;+1930-01-20T00:00:00Z;;nc
+Q7071043;Nydia Quintero Turbay;First lady of Colombia;;female;+1928-10-20T00:00:00Z;;nc
+Q154723;Viktor Frankl;Austrian neurologist and psychiatrist, and Holocaust survivor;Viktor Frankl;male;+1905-03-26T00:00:00Z;+1997-09-02T00:00:00Z;nc
+Q153670;Primo Levi;Italian chemist, memoirist, short story writer, novelist, essayist;Primo Levi;male;+1919-07-31T00:00:00Z;+1987-04-11T00:00:00Z;nc
+Q207370;Gaius Cassius Longinus;Roman politician;;male;-0087-01-01T00:00:00Z;-0042-01-01T00:00:00Z;nc
+Q4284663;;;Микаил Матвей;male;;;nc
+Q4194870;;;;male;;;nc
+Q302;Jesus Christ;central figure of Christianity;ישוע;male;-0002-00-00T00:00:00Z;+0033-00-00T00:00:00Z;nc
+Q355903;Siger of Brabant;Brabantian philosopher;;male;+1235-00-00T00:00:00Z;+1284-11-10T00:00:00Z;nc
+Q590523;Minamoto no Yorimitsu;Regent of the Fujiwara clan;源頼光;male;+0944-01-01T00:00:00Z;+1021-08-29T00:00:00Z;nc
+Q40787;Nicholas II of Russia;last Emperor of Russia, Grand Duke of Finland, and titular King of Poland;Николай II Александрович Романов;male;+1868-05-06T00:00:00Z;+1918-07-17T00:00:00Z;nc
+Q17131;Pontius Pilatus;was the fifth Prefect of the Roman province of Judaea, from AD 26–36;Pontius Pilatus;male;;+0038-00-00T00:00:00Z;nc
+Q271278;Jeanne of Valois-Saint-Rémy;French adventuress;Jeanne de Valois-Saint-Rémy;female;+1756-07-22T00:00:00Z;+1791-08-23T00:00:00Z;nc
+Q316070;Fletcher Christian;HMS Bounty mutineer;;male;+1764-09-25T00:00:00Z;+1793-09-20T00:00:00Z;nc
+Q3486927;Smbat II Bagratuni;;;male;;;nc
+Q157107;John of Austria;Spanish general;Don Juan de Austria;male;+1547-02-24T00:00:00Z;+1578-10-01T00:00:00Z;nc
+Q76738;Athanasius Kircher;German Jesuit scholar;Athanasius Kircher;male;+1602-05-12T00:00:00Z;+1680-11-28T00:00:00Z;nc
+Q28966326;Josef Ulrich;Czech painter and illustrator;;male;+1857-02-28T00:00:00Z;+1930-10-06T00:00:00Z;nc
+Q1394;Vladimir Lenin;Russian politician, communist theorist and first leader of Soviet Russia;Владимир Ильич Ульянов;male;+1870-04-10T00:00:00Z;+1924-01-21T00:00:00Z;nc
+Q27624911;Jan Kostěnec;Czech painter and illustrator;;male;+1834-08-03T00:00:00Z;+1905-04-12T00:00:00Z;nc
+Q438615;Marie de Rohan;French noble;Marie de Rohan;female;+1600-12-01T00:00:00Z;+1679-08-12T00:00:00Z;nc
+Q200817;Titus van Rijn;child of Dutch painter Rembrandt;;male;+1641-09-22T00:00:00Z;+1668-01-01T00:00:00Z;nc
+Q34428;Philip II of France;King of France from 1180 to 1223, and the first to be called by that title;Philippe II Auguste;male;+1165-08-21T00:00:00Z;+1223-07-14T00:00:00Z;nc
+Q4205158;;;;male;;;nc
+Q232913;Beatrice Portinari;Dante's muse;;female;+1266-01-01T00:00:00Z;+1290-06-15T00:00:00Z;nc
+Q1774745;Billy Milligan;First suspect acquitted by reason of multiple personality disorder.;;male;+1955-02-14T00:00:00Z;+2014-12-13T00:00:00Z;nc
+Q59736;Ignaz Semmelweis;Austrian doctor;Ignaz Philipp Semmelweis;male;+1818-07-01T00:00:00Z;+1865-08-13T00:00:00Z;nc
+Q8011;Avicenna;medieval Persian polymath, physician, and philosopher;ابوعلی حسین بن عبدالله بن حسن بن علی بن سینا;male;+0980-08-16T00:00:00Z;+1037-06-18T00:00:00Z;nc
+Q167768;William Makepeace Thackeray;novelist;William Makepeace Thackeray;male;+1811-07-18T00:00:00Z;+1863-12-24T00:00:00Z;nc
+Q1018606;Byron Howard;American film director and animator;;male;+1968-01-01T00:00:00Z;;nc
+Q2750254;Pharantzem;;;female;;+0369-00-00T00:00:00Z;nc
+Q1300641;Rembrandt Bugatti;Italian sculptor;Rembrandt Bugatti;male;+1884-10-16T00:00:00Z;+1916-01-08T00:00:00Z;nc
+Q1413;Nero;Emperor of Ancient Rome, 5th and last of the Julio-Claudian dynasty;Nero Claudius Cæsar Augustus Germanicus;male;+0037-12-15T00:00:00Z;+0068-06-09T00:00:00Z;nc
+Q170859;Nicholas III;Pope from 1277 to 1280;;male;+1215-01-01T00:00:00Z;+1280-08-29T00:00:00Z;nc
+Q214565;Beatrix Potter;English children's writer and illustrator;;female;+1866-07-28T00:00:00Z;+1943-12-22T00:00:00Z;nc
+Q454568;Josef Čapek;Czech painter and writer;;male;+1887-03-23T00:00:00Z;+1945-04-01T00:00:00Z;nc
+Q315628;Cuitláhuac;Tlatloani of Tenochtitlan;;male;+1476-01-01T00:00:00Z;+1520-01-01T00:00:00Z;nc
+Q163366;Ezra Pound;American poet and critic;;male;+1885-10-30T00:00:00Z;+1972-11-01T00:00:00Z;nc
+Q1927217;Michael Cusack;Founder of the Gaelic Athletic Association;;male;+1847-09-20T00:00:00Z;+1906-11-27T00:00:00Z;nc
+Q13562217;Mary Cecilia Bailly;educator and Catholic leader from the USA;Eleanor Cecilia Kinzie Bailly;female;+1815-06-02T00:00:00Z;+1898-08-02T00:00:00Z;nc
+Q20057070;Bohumír Čermák;;;male;+1882-11-08T00:00:00Z;+1961-09-23T00:00:00Z;nc
+Q3048295;Nasreddine Dinet;French painter;Étienne Dinet;male;+1861-03-28T00:00:00Z;+1929-12-24T00:00:00Z;nc
+Q920912;Theaetetus;ancient Greek mathematician;Θεαίτητος;male;-0416-01-01T00:00:00Z;-0369-01-01T00:00:00Z;nc
+Q3008497;Vassak Mamikonian;Armenian sparapet for King Arsaces II;;male;;+0364-01-01T00:00:00Z;nc
+Q1227273;Henry Mayhew;British writer and activist;;male;+1812-11-25T00:00:00Z;+1887-07-25T00:00:00Z;nc
+Q39837;Averroes;Medieval Arab scholar and philosopher;ابن رشد;male;+1126-04-14T00:00:00Z;+1198-12-10T00:00:00Z;nc
+Q127641;Vitus Bering;Danish explorer;;male;+1681-08-05T00:00:00Z;+1741-12-08T00:00:00Z;nc
+Q203792;Robert Guiscard;Duke of Apulia and Calabria;;male;+1016-01-01T00:00:00Z;+1085-07-17T00:00:00Z;nc
+Q6762867;Marie Helene Franey;educator and Catholic leader from the USA;Helena Agnes Franey;female;+1898-07-29T00:00:00Z;+1953-11-23T00:00:00Z;nc
+Q560015;Hugh Lofting;British author, trained as a civil engineer;Hugh Lofting;male;+1886-01-14T00:00:00Z;+1947-09-26T00:00:00Z;nc
+Q5686;Charles Dickens;English writer and social critic;Charles John Huffam Dickens;male;+1812-02-07T00:00:00Z;+1870-06-09T00:00:00Z;nc
+Q311456;Orosius;Roman scholar;;male;+0375-01-01T00:00:00Z;+0420-01-01T00:00:00Z;nc
+Q2755054;Guido I da Montefeltro;Italian military strategist;;male;+1223-01-01T00:00:00Z;+1298-09-29T00:00:00Z;nc
+Q448586;Fra Dolcino;Italian preacher;;male;+1250-01-01T00:00:00Z;+1307-06-01T00:00:00Z;nc
+Q24259036;Cory Loftis;artist working at Disney;;male;;;nc
+Q165479;Saint Patrick;5th-century Romano-British Christian missionary and bishop in Ireland;;male;+0385-01-01T00:00:00Z;+0461-03-17T00:00:00Z;nc
+Q317436;Charles Stewart Parnell;Irish politician;Charles Stewart Parnell;male;+1846-06-27T00:00:00Z;+1891-10-06T00:00:00Z;nc
+Q6691;Homer;ancient Greek epic poet, traditionally considered as the author of the Iliad and the Odyssey;Ὅμηρος;male;-0900-00-00T00:00:00Z;-0800-00-00T00:00:00Z;nc
+Q12927;Marine Le Pen;French lawyer and politician;Marine Le Pen;female;+1968-08-05T00:00:00Z;;nc
+Q1347324;François de Vendôme, Duc de Beaufort;French noble;François de Vendôme;male;+1616-01-16T00:00:00Z;+1669-06-25T00:00:00Z;nc
+Q315726;Grand Duke Alexei Alexandrovich of Russia;Russian grand duke;;male;+1850-01-02T00:00:00Z;+1908-11-01T00:00:00Z;nc
+Q312332;Alessandro Cagliostro;Italian occultist;;male;+1743-06-02T00:00:00Z;+1795-08-26T00:00:00Z;nc
+Q235523;Peggy Whitson;NASA astronaut;Peggy Annette Whitson;female;+1960-02-09T00:00:00Z;;nc
+Q860084;Pausanias of Athens;Athenian noble;;male;;;nc
+Q244413;Vincent de Paul;French priest, founder and saint;Vincent de Paul;male;+1581-04-24T00:00:00Z;+1660-09-27T00:00:00Z;nc
+Q2535359;Cornelis de Bruijn;Dutch painter, writer and traveller;Cornelis de Bruijn;male;+1652-01-01T00:00:00Z;+1727-00-00T00:00:00Z;nc
+Q6369293;Karel Franta;Czech illustrator and painter;;male;+1928-05-01T00:00:00Z;+2017-07-19T00:00:00Z;nc
+Q26457837;Aziza bint as-Sathi;;;female;+1421-00-00T00:00:00Z;+1501-00-00T00:00:00Z;nc
+Q317554;Hugh of Saint Victor;German-French canon regular and theologian;Hugues de Saint-Victor;male;+1096-00-00T00:00:00Z;+1141-02-11T00:00:00Z;nc
+Q1209603;Dick Beardsley;American distance runner;;male;+1956-03-21T00:00:00Z;;nc
+Q193660;Ramon Llull;Majorcan writer and philosopher;;male;+1232-00-00T00:00:00Z;+1316-00-00T00:00:00Z;nc
+Q24259046;Marty Baumann;artist working at Disney;;male;;;nc
+Q83321;Giacomo Casanova;Italian adventurer and author;Giacomo Casanova;male;+1725-04-02T00:00:00Z;+1798-06-04T00:00:00Z;nc
+Q282280;Vladimir Solovyov;Russian philosopher;;male;+1853-01-28T00:00:00Z;+1900-08-13T00:00:00Z;nc
+Q1403;Luigi Pirandello;Italian dramatist, novelist, short story writer, and poet, Nobel Prize for Literature laureate;;male;+1867-06-28T00:00:00Z;+1936-12-10T00:00:00Z;nc
+Q519984;Neil Strauss;American writer;;male;+1973-10-13T00:00:00Z;;nc
+Q3905385;Pio Panfili;Italian painter and engraver;;male;+1723-05-05T00:00:00Z;+1812-06-17T00:00:00Z;nc
+Q3260577;Louis-Henri Brévière;Wood engraver;;male;+1797-12-15T00:00:00Z;+1869-06-02T00:00:00Z;nc
+Q981915;Joseph Bazalgette;19th-century English civil engineer;;male;+1819-03-28T00:00:00Z;+1891-03-15T00:00:00Z;nc
+Q286238;Thaïs;saint;;female;;+0400-01-01T00:00:00Z;nc
+Q103960;Semiramis;legendary queen;;female;;;nc
+Q28053702;Simon Novellanus;German artist;;male;;;nc
+Q47365;Marie Antoinette;last Queen of France prior to the French Revolution;Marie-Antoinette d'Autriche;female;+1755-11-02T00:00:00Z;+1793-10-16T00:00:00Z;nc
+Q5015;Mette Frederiksen;Danish Social Democrat politician;Mette Frederiksen;female;+1977-11-19T00:00:00Z;;nc
+Q1937560;Mogens Lykketoft;Danish politician;Mogens Lykketoft;male;+1946-01-09T00:00:00Z;;nc
+Q2721219;Farinata degli Uberti;Italian aristocrat;;male;+1212-01-01T00:00:00Z;+1264-11-11T00:00:00Z;nc
+Q169329;Conrad of Montferrat;King of Jerusalem;;male;+1146-00-00T00:00:00Z;+1192-04-28T00:00:00Z;nc
+Q172916;John XXI;pope;Johannes XXI.;male;+1215-00-00T00:00:00Z;+1277-05-20T00:00:00Z;nc
+Q243811;Pope Joan;mythical female pope;;female;;;nc
+Q517792;George-Daniel de Monfreid;French painter and art collector;George-Daniel de Monfreid;male;+1856-03-14T00:00:00Z;+1929-11-26T00:00:00Z;nc
+Q583275;Édouard Riou;French painter and writer;Édouard Riou;male;+1833-12-02T00:00:00Z;+1900-01-27T00:00:00Z;nc
+Q157;François Hollande;24th President of the French Republic;François Gérard Georges Nicolas Hollande;male;+1954-08-12T00:00:00Z;;nc
+Q24259034;David Goetz;artist working at Disney;;male;;;nc
+Q152717;Henry VII, Holy Roman Emperor;King of the Romans from 1308 to 1313;;male;+1275-01-01T00:00:00Z;+1313-08-24T00:00:00Z;nc
+Q345647;Philip the Tetrarch;;;male;-0004-01-01T00:00:00Z;+0034-01-01T00:00:00Z;nc
+Q8581;Saladin;Kurdish leader. First Sultan of Egypt and Syria, founder of the Ayyubid dynasty;صلاح الدين الأيوبي;male;+1138-00-00T00:00:00Z;+1193-03-04T00:00:00Z;nc
+Q365695;Moses of Chorene;Armenian historian;Մովսէս Խորենացի;male;+0400-01-01T00:00:00Z;+0500-01-01T00:00:00Z;nc
+Q160441;Rabanus Maurus;archbishop of Mainz and writer;;male;+0780-00-00T00:00:00Z;+0856-02-04T00:00:00Z;nc
+Q207535;Roland;Frankish military leader under Charlemagne;;male;;+0778-08-15T00:00:00Z;nc
+Q17523640;Manuel Maria Bordalo Pinheiro;Portuguese painter;;male;+1815-11-28T00:00:00Z;+1880-01-31T00:00:00Z;nc
+Q39259;Recep Tayyip Erdoğan;12th President of Turkey from 2014;Recep Tayyip Erdoğan;male;+1954-02-26T00:00:00Z;;nc
+Q27517421;Gavin St Pier;politician;;male;+1967-01-00T00:00:00Z;;nc
+Q5951349;Juan María Aburto;Spanish politician;Juan María Aburto Rike;male;+1961-03-28T00:00:00Z;;nc
+Q983514;Georgy Poltavchenko;Russian politician;;male;+1953-02-24T00:00:00Z;;nc
 Q19592761;Manuela Carmena;Spanish judge and politician;Manuela Carmena;female;+1944-02-09T00:00:00Z;;nc
-Q1148719;Luigi de Magistris;Italian politician;Luigi de Magistris;male;+1967-06-20T00:00:00Z;;nc
-Q334155;Sadiq Khan;British politician;Sadiq Khan;male;+1970-10-08T00:00:00Z;;nc
-Q18104657;Adriana Krnáčová;Czech politician, mayor of Prague;Adriana Krnáčová;female;+1960-09-26T00:00:00Z;;nc
-Q312015;Alexis Tsipras;Greek politician;Αλέξης Τσίπρας;male;+1974-07-28T00:00:00Z;;nc
-Q23766020;Virginia Raggi;Italian politician;Virginia Raggi;female;+1978-07-18T00:00:00Z;;nc
-Q703503;Leoluca Orlando;Italian politician;Leoluca Orlando;male;+1947-08-01T00:00:00Z;;nc
-Q2885098;Javier Rodríguez Palacios;Spanish politician;Javier Rodríguez Palacios;male;+1972-04-05T00:00:00Z;;nc
-Q17146774;Giuseppe Sala;Sole Commissioner of the Government for Expo Milano 2015;Giuseppe Sala;male;+1958-05-28T00:00:00Z;;nc
 Q4911497;Bill de Blasio;American politician and mayor of New York City;Bill De Blasio;male;+1961-05-08T00:00:00Z;;nc
-Q468394;Nir Barkat;Israeli politician and mayor of Jerusalem;Nir Barkat;male;+1959-10-19T00:00:00Z;;nc
-Q4779594;Ada Colau;Spanish activist;Ada Colau i Ballano;female;+1974-03-03T00:00:00Z;;nc
+Q57613;Ahmed Ouyahia;Algerian politician;أحمد أويحي;male;+1952-07-02T00:00:00Z;;nc
+Q57460;Ernest Bai Koroma;Sierra Leonean President;Ernest Bai Koroma;male;+1953-10-02T00:00:00Z;;nc
+Q367825;Salman of Saudi Arabia;King of Saudi Arabia;سلمان بن عبد العزيز آل سعود;male;+1935-12-31T00:00:00Z;;nc
+Q1932603;Miguel Díaz-Canel;3rd President of the Council of State of Cuba;Miguel Díaz-Canel;male;+1960-04-20T00:00:00Z;;nc
+Q24030720;Martín Vizcarra;president of Perú;Martín Vizcarra;male;+1963-03-22T00:00:00Z;;nc
+Q57643;Lee Hsien Loong;Prime Minister of Singapore;李显龙;male;+1952-02-10T00:00:00Z;;nc
+Q57618;Artur Rasizade;Azerbaijani politician;Artur Tahir oğlu Rəsizadə;male;+1935-02-26T00:00:00Z;;nc
+Q57274;Yoweri Museveni;President of Uganda;Yoweri Kaguta Museveni;male;+1944-09-15T00:00:00Z;;nc
+Q50365049;Abiy Ahmed;Ethiopian politician;;male;+1976-08-15T00:00:00Z;;nc
+Q316553;Ramush Haradinaj;Kosovar soldier and Prime Minister of Kosovo;Ramush Haradinaj;male;+1968-07-03T00:00:00Z;;nc
+Q3099714;Justin Trudeau;23rd Prime Minister of Canada  eldest son of Pierre Trudeau;Justin Trudeau;male;+1971-12-25T00:00:00Z;;nc
+Q25752048;Howard Quayle;politician;;male;+1967-00-00T00:00:00Z;;nc
+Q505200;Andrew Holness;Jamaican politician;;male;+1972-07-22T00:00:00Z;;nc
+Q983971;Tom Thabane;Prime Minister of Lesotho;Tom Thabane;male;+1939-01-01T00:00:00Z;;nc
+Q610788;António Costa;Prime Minister of Portugal;António Costa;male;+1961-07-17T00:00:00Z;;nc
+Q7279347;Rachel Notley;17th Premier of Alberta;;female;+1964-04-17T00:00:00Z;;nc
+Q543040;José Manuel de la Sota;Argentine politician;José Manuel de la Sota;male;+1949-11-28T00:00:00Z;;nc
+Q6782004;María Eugenia Vidal;politician from Argentina;;female;+1973-09-08T00:00:00Z;;nc
+Q57775;Boyko Borisov;Bulgarian politician;Бойко Методиев Борисов;male;+1959-06-13T00:00:00Z;;nc
+Q42937156;Víctor Puga López;;;male;+1972-00-00T00:00:00Z;;nc
+Q7176020;Peter Mutharika;President of Malawi;;male;+1940-01-01T00:00:00Z;;nc
+Q510523;Emmerson Mnangagwa;President of the Republic of Zimbabwe;Emmerson Mnangagwa;male;+1942-09-15T00:00:00Z;;nc
+Q38188115;Édouard Ngirente;Prime Minister of the Republic of Rwanda, 2017-;;male;+1973-00-00T00:00:00Z;;nc
+Q6001983;Imad Mohammad Deeb Khamis;Prime Minister of Syria;عماد محمد ديب خميس;male;+1961-08-01T00:00:00Z;;nc
+Q1148719;Luigi de Magistris;Italian politician;;male;+1967-06-20T00:00:00Z;;nc
+Q7035479;Nikol Pashinyan;Prime Minister of Armenia;Նիկոլ Փաշինյան;male;+1975-06-01T00:00:00Z;;nc
+Q15700032;Bakri Hassan Saleh;Sudanese politician;بكري حسن صالح;male;+1949-00-00T00:00:00Z;;nc
+Q57830;Frank Bainimarama;Prime Minister of Fiji;Frank Bainimarama;male;+1954-04-27T00:00:00Z;;nc
+Q255442;Francisco de la Torre Prados;Spanish politician;Francisco de la Torre Prados;male;+1942-12-21T00:00:00Z;;nc
+Q3479546;Serge Telle;Minister of State of Monaco;Serge Telle;male;+1955-05-05T00:00:00Z;;nc
+Q334155;Sadiq Khan;British politician;Sadiq Khan;male;+1970-10-08T00:00:00Z;;nc
+Q2834514;Alexis Galanos;Cypriot politician;Αλέξης Γαλανός;male;+1940-08-30T00:00:00Z;;nc
+Q43723;Benjamin Netanyahu;Israeli prime minister;בנימין נתניהו;male;+1949-10-21T00:00:00Z;;nc
+Q57792;Mark Rutte;Prime Minister of the Netherlands;Mark Rutte;male;+1967-02-14T00:00:00Z;;nc
+Q264766;Theresa May;Prime Minister of the United Kingdom;Theresa May;female;+1956-10-01T00:00:00Z;;nc
+Q2840866;Amadou Gon Coulibaly;Ivorian politician;Amadou Gon Coulibaly;male;+1959-02-10T00:00:00Z;;nc
+Q14074180;Lluís Guinó Subirós;Spanish politician;;male;+1969-05-29T00:00:00Z;;nc
+Q182397;Lars Løkke Rasmussen;Danish politician;Lars Løkke Rasmussen;male;+1964-05-15T00:00:00Z;;nc
+Q16203640;Allen Chastanet;Saint Lucian businessman and politician;Allen Michael Chastanet;male;+1960-11-20T00:00:00Z;;nc
+Q468394;Nir Barkat;Israeli politician and mayor of Jerusalem;;male;+1959-10-19T00:00:00Z;;nc
+Q3318231;Joko Widodo;President of Indonesia;Joko Widodo;male;+1961-06-21T00:00:00Z;;nc
+Q502864;Andrei Kobyakov;;Андрэй Уладзіміравіч Кабякоў;male;+1960-11-21T00:00:00Z;;nc
+Q7436891;Scott Moe;Member of Legislative Assembly of Saskatchewan, Canada;;male;;;nc
+Q795241;B. S. Yeddyurappa;Indian politician;;male;+1943-02-27T00:00:00Z;;nc
+Q58132;Nicolás Maduro;53rd President of Venezuela;Nicolás Maduro Moros;male;+1962-11-23T00:00:00Z;;nc
+Q3379654;Philippe Couillard;Canadian politician;Philippe Couillard;male;+1957-06-26T00:00:00Z;;nc
+Q2355582;Geert Bourgeois;Flemish minister-president;;male;+1951-07-06T00:00:00Z;;nc
+Q18352991;Edgar Lungu;Zambian politician;Edgar Chagwa Lungu;male;+1956-11-11T00:00:00Z;;nc
+Q59155;Arvind Kejriwal;Indian politician;;male;+1968-08-16T00:00:00Z;;nc
+Q23766020;Virginia Raggi;Italian politician;Virginia Raggi;female;+1978-07-18T00:00:00Z;;nc
+Q77391;Stanislaw Tillich;former Minister-President of Saxony;Stanislaw Tillich;male;+1959-04-10T00:00:00Z;;nc
+Q3786221;Kathleen Wynne;25th Premier of Ontario;Kathleen Wynne;female;+1953-05-21T00:00:00Z;;nc
+Q11771436;Mateusz Morawiecki;Polish politician;Mateusz Jakub Morawiecki;male;+1968-06-20T00:00:00Z;;nc
+Q10800073;Nguyen Xuan Phuc;Prime Minister of Vietnam;Nguyễn Xuân Phúc;male;+1954-07-20T00:00:00Z;;nc
+Q318508;Andrés Manuel López Obrador;Mexican politician and writer;Andrés Manuel López Obrador;male;+1953-11-13T00:00:00Z;;nc
+Q2740012;Stefan Löfven;Swedish 20th century prime minister;Stefan Löfven;male;+1957-07-21T00:00:00Z;;nc
+Q6384971;Keith Rowley;Trinidad and Tobago politician;Keith Christopher Rowley;male;+1949-10-24T00:00:00Z;;nc
+Q18104657;Adriana Krnáčová;Czech politician, mayor of Prague;;female;+1960-09-26T00:00:00Z;;nc
+Q370110;Keith Mitchell;Grenadian politician;Keith Claudius Mitchell;male;+1946-11-12T00:00:00Z;;nc
+Q467464;Katrín Jakobsdóttir;28th Prime Minister of Iceland;Katrín Jakobsdóttir;female;+1976-02-01T00:00:00Z;;nc
+Q4683097;Yogi Adityanath;Indian politician;;male;+1972-06-05T00:00:00Z;;nc
+Q57530;Gurbanguly Berdimuhamedow;president of Turkmenistan;Gurbanguly Mälikgulyýewiç Berdimuhamedow;male;+1957-06-29T00:00:00Z;;nc
+Q16669148;Patrice Talon;Beninese president;;male;+1958-05-01T00:00:00Z;;nc
+Q241750;Ed Lee;US politician;;male;+1952-05-05T00:00:00Z;+2017-12-12T00:00:00Z;nc
+Q5373253;Emmanuel Issoze-Ngondet;Prime Minister of Gabon;;male;+1961-04-02T00:00:00Z;;nc
+Q30046006;Josep Maria Corominas Barnadas;Spanish politician;;male;+1955-00-00T00:00:00Z;;nc
+Q936831;Salvador Sánchez Cerén;Salvadoran politician;;male;+1944-06-18T00:00:00Z;;nc
+Q3606816;Jacinda Ardern;Prime Minister of New Zealand;Jacinda Ardern;female;+1980-07-26T00:00:00Z;;nc
+Q15976266;Dario Nardella;Italian politician and mayor of Florence;Dario Nardella;male;+1975-11-20T00:00:00Z;;nc
+Q4404442;Bakhytzhan Sagintayev;;Бақытжан Әбдірұлы Сағынтаев;male;+1963-10-13T00:00:00Z;;nc
+Q23782689;Olivier Mahafaly Solonandrasana;Malagasy politician;;male;+1964-06-21T00:00:00Z;;nc
+Q467112;Nicola Sturgeon;First Minister of Scotland and leader of the Scottish National Party;Nicola Sturgeon;female;+1970-07-19T00:00:00Z;;nc
+Q132345;Shinzō Abe;Prime Minister of Japan;安倍 晋三;male;+1954-09-21T00:00:00Z;;nc
+Q23530;Dmitry Medvedev;Russian Prime Minister and former president;;male;+1965-09-14T00:00:00Z;;nc
+Q950958;Charles Michel;Belgian politician;Charles Michel;male;+1975-12-21T00:00:00Z;;nc
+Q2641759;Alexander Bachem;German politician;;male;+1806-01-08T00:00:00Z;+1878-02-11T00:00:00Z;nc
+Q7461686;Shahid Khaqan Abbasi;Pakistani politician;Shahid Khaqan Abbasi;male;+1958-12-27T00:00:00Z;;nc
+Q10819807;Andrej Babiš;Prime Minister of the Czech Republic;Andrej Babiš;male;+1954-09-02T00:00:00Z;;nc
+Q57402;Daniel Ortega;President of Nicaragua;José Daniel Ortega Saavedra;male;+1945-11-11T00:00:00Z;;nc
+Q927550;Malcolm Turnbull;Australian politician, lawyer and businessman, 29th Prime Minister of Australia;;male;+1954-10-24T00:00:00Z;;nc
+Q348144;Hassan Rouhani;7th President of Islamic Republic of Iran;‌حسن روحانى;male;+1948-11-12T00:00:00Z;;nc
+Q863496;Binali Yıldırım;Turkish politician  27th Prime Minister of Turkey;Binali Yıldırım;male;+1955-12-20T00:00:00Z;;nc
+Q463533;Michel Temer;President of Brazil;;male;+1940-09-23T00:00:00Z;;nc
+Q9368300;Viorica Dăncilă;Romanian politician;Viorica Dăncilă;female;+1963-12-16T00:00:00Z;;nc
+Q54901515;Moustafa Madbouly;Egyptian politician, Prime Minister of Egypt;مصطفى مدبولي;male;+1966-04-28T00:00:00Z;;nc
+Q111840;Carwyn Jones;Welsh politician and the First Minister of Wales;Carwyn Howell Jones;male;+1967-03-21T00:00:00Z;;nc
+Q312015;Alexis Tsipras;Greek politician;Αλέξης Τσίπρας;male;+1974-07-28T00:00:00Z;;nc
+Q26701859;Carles Motas López;;;male;;;nc
+Q561213;Xavier Bettel;Luxembourgish politician;Xavier Bettel;male;+1973-03-03T00:00:00Z;;nc
+Q57823;Roosevelt Skerrit;Prime Minister of Dominica;;male;+1972-06-08T00:00:00Z;;nc
+Q291644;Erna Solberg;Norwegian politician;Erna Solberg;female;+1961-02-24T00:00:00Z;;nc
+Q7615025;Steven Marshall;Premier of South Australia (2018-);Steven Spence Marshall;male;+1968-01-21T00:00:00Z;;nc
+Q296771;Saad Hariri;Lebanese politician;سعد الدين رفيق الحريري;male;+1970-04-18T00:00:00Z;;nc
+Q1148669;Cyril Ramaphosa;5th President of South Africa;Matamela Cyril Ramaphosa;male;+1952-11-17T00:00:00Z;;nc
+Q6323772;K. Palanisamy;Tamil Nadu politician;;male;+1954-03-02T00:00:00Z;;nc
+Q21001;Moon Jae-in;President of South Korea;문재인;male;+1953-01-24T00:00:00Z;;nc
+Q561837;Mauricio Macri;Argentine politician and President of Argentina;Mauricio Macri;male;+1959-02-08T00:00:00Z;;nc
+Q3847080;William Lai;Taiwanese politician;賴清德;male;+1959-10-06T00:00:00Z;;nc
+Q3579995;Édouard Philippe;French politician;Édouard Philippe;male;+1970-11-28T00:00:00Z;;nc
+Q179502;Jacek Majchrowski;Polish historian and politician, Mayor of Kraków;;male;+1947-01-13T00:00:00Z;;nc
+Q57715;Barnabas Sibusiso Dlamini;Prime Minister of Swaziland;;male;+1942-05-15T00:00:00Z;;nc
+Q5639013;Haider Al-Abadi;Iraqi politician and Prime Minister of Iraq;حيدر جواد العبادي;male;+1952-04-25T00:00:00Z;;nc
+Q26158335;Dmitriy Ovsyannikov;politician;;male;+1977-02-21T00:00:00Z;;nc
+Q4150130;Volodymyr Groysman;Prime Minister of Ukraine since 14 April 2016;Володимир Борисович Гройсман;male;+1978-01-20T00:00:00Z;;nc
+Q2885098;Javier Rodríguez Palacios;Spanish politician;Javier Rodríguez Palacios;male;+1972-04-05T00:00:00Z;;nc
+Q17490240;Luigi Brugnaro;Italian entrepreneur and politician;;male;+1961-09-13T00:00:00Z;;nc
+Q5648173;Hani al-Mulki;Jordanian politician;هاني الملقي;male;+1951-10-15T00:00:00Z;;nc
+Q42942052;Xavier Sala i Congost;Spanish politician;;male;;;nc
+Q16527490;Antonio Decaro;Italian politician and mayor;Antonio Decaro;male;+1970-07-17T00:00:00Z;;nc
+Q53844829;Giuseppe Conte;58th Prime Minister of Italy;Giuseppe Conte;male;+1964-08-08T00:00:00Z;;nc
+Q17478000;Iván Duque;Colombian politician and lawyer;Iván Duque Márquez;male;+1976-08-01T00:00:00Z;;nc
+Q6756538;Marcelo Crivellla;Brazilian politician and evangelical leader;;male;+1957-10-09T00:00:00Z;;nc
+Q17146774;Giuseppe Sala;Sole Commissioner of the Government for Expo Milano 2015;;male;+1958-05-28T00:00:00Z;;nc
+Q2588612;Naheed Nenshi;Mayor of Calgary;;male;+1972-02-02T00:00:00Z;;nc
+Q1045675;Carsten Sieling;German politician, Mayor of Bremen;Carsten Sieling;male;+1959-01-13T00:00:00Z;;nc
+Q35121341;Mohammed Adjei Sowah;mayor of city of Accra;;male;;;nc
+Q57892;Peter O'Neill;Papua New Guinean politician;Peter Charles Paire O'Neill;male;+1965-02-13T00:00:00Z;;nc
+Q57894;Jaber Al-Mubarak Al-Hamad Al-Sabah;Prime Minister of Kuwait;;male;+1942-01-05T00:00:00Z;;nc
+Q3595385;Pinarayi Vijayan;Indian politician;;male;+1944-03-21T00:00:00Z;;nc
+Q196070;Uhuru Kenyatta;Kenyan politician;Uhuru Kenyatta;male;+1961-10-26T00:00:00Z;;nc
+Q3401447;Pravind Jugnauth;Mauritian politician;;male;+1961-12-25T00:00:00Z;;nc
+Q78205;Armin Laschet;German politician;Armin Laschet;male;+1961-02-18T00:00:00Z;;nc
+Q703503;Leoluca Orlando;Italian politician;Leoluca Orlando;male;+1947-08-01T00:00:00Z;;nc
+Q306;Sebastian Piñera;35th & 37th President of Chile;Miguel Juan Sebastián Piñera Echenique;male;+1949-12-01T00:00:00Z;;nc
+Q23016975;Eric Holcomb;American politician;Eric Holcomb;male;+1968-05-02T00:00:00Z;;nc
+Q57701;Dean Barrow;Belizean politician;Dean Oliver Barrow;male;+1951-03-02T00:00:00Z;;nc
+Q27982663;Josep Piferrer Puig;;;male;+1958-03-19T00:00:00Z;;nc
+Q14914110;Thorsten Semrau;German politician;;male;+1956-03-15T00:00:00Z;;nc
 Q6070218;Pedro Sánchez Pérez-Castejón;Spanish Prime Minister;Pedro Sánchez;male;+1972-02-29T00:00:00Z;;nc
-Q983514;Georgy Poltavchenko;Russian politician;Georgy Poltavchenko;male;+1953-02-24T00:00:00Z;;nc
+Q470903;Sher Bahadur Deuba;Nepalese politician and the Prime Minister of Nepal, in office since 2017;;male;+1946-06-13T00:00:00Z;;nc
+Q21855433;Mamady Youla;Guinean politician and economist;;male;+1961-11-05T00:00:00Z;;nc
+Q28836953;Jack Guy Lafontant;Prime Minister of Haiti;;male;+1961-04-04T00:00:00Z;;nc
+Q983402;Ranil Wickremesinghe;Sri Lankan politician;;male;+1949-03-24T00:00:00Z;;nc
+Q30708188;Federico Sboarina;;;male;+1971-01-10T00:00:00Z;;nc
+Q6239861;John Horgan;36th Premier of British Columbia;;male;+1959-08-07T00:00:00Z;;nc
+Q57840;Philémon Yang;Prime Minister of Cameroon;;male;+1947-06-14T00:00:00Z;;nc
+Q25391268;Youssef Chahed;Tunisian politician;يوسف الشاهد;male;+1975-09-18T00:00:00Z;;nc
+Q57667;Dési Bouterse;President of Suriname;Desiré Delano Bouterse;male;+1945-10-13T00:00:00Z;;nc
+Q3105581;Gilbert Annette;Member of the National Assembly of France;Gilbert Annette;male;+1946-03-10T00:00:00Z;;nc
+Q457786;Rodrigo Duterte;Filipino politician and the 16th President of the Philippines;Rodrigo Roa Duterte;male;+1945-03-28T00:00:00Z;;nc
+Q18437559;Željko Burić;mayor of Šibenik;;male;+1955-07-15T00:00:00Z;;nc
+Q28002959;Aripov Abdulla Nigmatovich;politician;Abdulla Nigmatovich Aripov;male;+1961-05-24T00:00:00Z;;nc
+Q13607430;Urmas Klaas;Estonian politician;Urmas Klaas;male;+1971-03-17T00:00:00Z;;nc
+Q6428317;Komi Klassou;Togolese politician;;male;+1960-02-10T00:00:00Z;;nc
+Q2924893;Brian Gallant;Canadian politician;;male;+1982-04-27T00:00:00Z;;nc
+Q2033385;Saad-Eddine El Othmani;head of the government of Morocco;;male;+1956-01-16T00:00:00Z;;nc
+Q5318112;Dwight Ball;Canadian politician;;male;+1957-00-00T00:00:00Z;;nc
+Q5951723;Juan Orlando Hernández;Honduran politician;Juan Orlando Hernández;male;+1968-10-28T00:00:00Z;;nc
+Q1711532;Juha Sipilä;Finnish businessman and politician (b. 1961);Juha Sipilä;male;+1961-04-25T00:00:00Z;;nc
+Q30745227;Marco Bucci;Italian politician;;male;+1959-10-31T00:00:00Z;;nc
+Q4779594;Ada Colau;Spanish activist;Ada Colau i Ballano;female;+1974-03-03T00:00:00Z;;nc
+Q317556;Abdullah Abdullah;Afghan politician;;male;+1960-09-05T00:00:00Z;;nc
+Q26996246;Carlos Alvarado Quesada;48th President of Costa Rica;Carlos Andrés Alvarado Quesada;male;+1980-01-14T00:00:00Z;;nc
+Q20385886;Ahmed Obaid Bin-Dagher;Prime minister of Yemen;أحمد عبيد بن دغر;male;+1952-12-02T00:00:00Z;;nc
+Q57641;Viktor Orbán;Hungarian politician, chairman of Fidesz;Orbán Viktor;male;+1963-05-31T00:00:00Z;;nc
+Q567;Angela Merkel;Chancellor of Germany;Angela Merkel;female;+1954-07-17T00:00:00Z;;nc
+Q969340;Daniel Günther;German politician;Daniel Günther;male;+1973-07-24T00:00:00Z;;nc
+Q1346089;Enzo Bianco;Italian politician;Enzo Bianco;male;+1951-02-24T00:00:00Z;;nc
+Q938224;Joseph Muscat;Prime Minister of Malta;Joseph Muscat;male;+1974-01-22T00:00:00Z;;nc
+Q181383;Mahathir Mohamad;Prime Minister of Malaysia;;male;+1925-07-10T00:00:00Z;;nc
+Q43289295;Joan Martí Bonmatí;;;male;+1963-00-00T00:00:00Z;;nc
+Q47009412;Kathy Bailey;mayor of Loveland, Ohio, United States;;female;;;nc
+Q4014539;Virginio Merola;Italian politician;Virginio Merola;male;+1955-02-14T00:00:00Z;;nc
+Q1190856;Naveen Patnaik;Chief Minister, Odisha, India;ନବୀନ ପଟ୍ଟନାୟକ;male;+1946-10-16T00:00:00Z;;nc
+Q316901;Edi Rama;Albanian politician;Edi Rama;male;+1964-07-04T00:00:00Z;;nc
+Q26258815;Ana Brnabić;Prime Minister of Serbia;Ана Брнабић;female;+1975-09-28T00:00:00Z;;nc
+Q57429;Danilo Medina;President of the Dominican Republic;;male;+1951-11-10T00:00:00Z;;nc
+Q28650390;João Lourenço;Angolan politician, president of Angola;João Manuel Gonçalves Lourenço;male;+1954-03-05T00:00:00Z;;nc
+Q18111;Li Keqiang;Premier of the People's Republic of China;;male;+1955-07-01T00:00:00Z;;nc
+Q17320405;Mohamed Ben Abdallah Dionne;Senegalese prime minister;Mahammed Boun Abdallah Dionne;male;+1959-09-22T00:00:00Z;;nc
+Q1728820;Leo Varadkar;Irish Fine Gael politician;Leo Varadkar;male;+1979-01-18T00:00:00Z;;nc

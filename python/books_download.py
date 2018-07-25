@@ -105,231 +105,246 @@ class myThread(threading.Thread):
 
             # DESCRIPTION
             description = ""
-            if ("descriptions" in data['entities'][book_id]["claims"]):
-                if ("en" in data['entities'][book_id]["claims"]["descriptions"]):
-                    description = data['entities'][book_id]["claims"]["descriptions"]["en"]["value"]
-            elif ("descriptions" in data['entities'][book_id]):
-                if ("en" in data['entities'][book_id]["descriptions"]):
-                    description = data['entities'][book_id]["descriptions"]["en"]["value"]
-            else:
+            try:
+                if ("descriptions" in data['entities'][book_id]["claims"]):
+                    if ("en" in data['entities'][book_id]["claims"]["descriptions"]):
+                        description = data['entities'][book_id]["claims"]["descriptions"]["en"]["value"]
+                elif ("descriptions" in data['entities'][book_id]):
+                    if ("en" in data['entities'][book_id]["descriptions"]):
+                        description = data['entities'][book_id]["descriptions"]["en"]["value"]
+            except:
                 self.local_statistics[index("no description")] += 1
 
             # TITLE
             title = label
-            if ("P1476" in data['entities'][book_id]["claims"]):
+            try:
                 title = (data['entities'][book_id]["claims"]["P1476"][0]["mainsnak"]["datavalue"]["value"]["text"])
-            else:
+            except:
                 self.local_statistics[index("no title")] += 1
 
 
             # LOCATIONS
-            if ("P840" in data['entities'][book_id]["claims"]):
-                for loc in data['entities'][book_id]["claims"]["P840"]:
-                    loc = loc["mainsnak"]["datavalue"]["value"]["id"]
-                    # retrieve loc name or retrieve and save it
-                    if loc in locations_dict:
-                        if locations_dict[loc] == "city":
-                            locations_lock.acquire()
-                            file_has_city_location.write(book_id + ";" + loc + "\n")
-                            locations_lock.release()
-                        elif locations_dict[loc] == "country":
-                            locations_lock.acquire()
-                            file_has_genres.write(book_id + ";" + loc+ "\n")
-                            locations_lock.release()
-                    else:
-                        for i in range(3):
-                            try:
-                                url_loc = "http://www.wikidata.org/wiki/Special:EntityData/" + loc + ".json" #INSTANCE OF
-                                response_loc = requests.get(url_loc)
-                                data_loc = response_loc.json()
-                                break
-                            except:
-                                time.sleep(i*0.5)
-                                continue
-                        instances_of_location = []
-                        if "P31" in data_loc['entities'][loc]["claims"]:
-                            for instance in data_loc['entities'][loc]["claims"]["P31"]:
-                                instances_of_location.append(instance["mainsnak"]["datavalue"]["value"]["id"])
-                            try:
-                                if "Q515" in instances_of_location or "Q1964689" in instances_of_location:
-                                    locations_lock.acquire()
-                                    locations_dict[loc] = "city"
-                                    file_has_city_location.write(book_id + ";" + loc + "\n")
-                                    locations_lock.release()
-                                elif "Q6256" in instances_of_location:
-                                    locations_lock.acquire()
-                                    locations_dict[loc] = "country"
-                                    file_has_country_location.write(book_id + ";" + loc + "\n")
-                                    locations_lock.release()
-                            except:
+            try:
+                if ("P840" in data['entities'][book_id]["claims"]):
+                    for loc in data['entities'][book_id]["claims"]["P840"]:
+                        loc = loc["mainsnak"]["datavalue"]["value"]["id"]
+                        # retrieve loc name or retrieve and save it
+                        if loc in locations_dict:
+                            if locations_dict[loc] == "city":
+                                locations_lock.acquire()
+                                file_has_city_location.write(book_id + ";" + loc + "\n")
                                 locations_lock.release()
-            else:
+                            elif locations_dict[loc] == "country":
+                                locations_lock.acquire()
+                                file_has_genres.write(book_id + ";" + loc+ "\n")
+                                locations_lock.release()
+                        else:
+                            for i in range(3):
+                                try:
+                                    url_loc = "http://www.wikidata.org/wiki/Special:EntityData/" + loc + ".json" #INSTANCE OF
+                                    response_loc = requests.get(url_loc)
+                                    data_loc = response_loc.json()
+                                    break
+                                except:
+                                    time.sleep(i*0.5)
+                                    continue
+                            instances_of_location = []
+                            if "P31" in data_loc['entities'][loc]["claims"]:
+                                for instance in data_loc['entities'][loc]["claims"]["P31"]:
+                                    instances_of_location.append(instance["mainsnak"]["datavalue"]["value"]["id"])
+                                try:
+                                    if "Q515" in instances_of_location or "Q1964689" in instances_of_location:
+                                        locations_lock.acquire()
+                                        locations_dict[loc] = "city"
+                                        file_has_city_location.write(book_id + ";" + loc + "\n")
+                                        locations_lock.release()
+                                    elif "Q6256" in instances_of_location:
+                                        locations_lock.acquire()
+                                        locations_dict[loc] = "country"
+                                        file_has_country_location.write(book_id + ";" + loc + "\n")
+                                        locations_lock.release()
+                                except:
+                                    locations_lock.release()
+            except:
                 self.local_statistics[index("no loc")] += 1
 
             # CHARACTERS
-            if ("P674" in data['entities'][book_id]["claims"]):
-                for loc in data['entities'][book_id]["claims"]["P674"]:
-                    try:
-                        chars_file_lock.acquire()
-                        file_chars_out.write(
-                            str(book_id + ";"+ loc["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
-                        chars_file_lock.release()
-                    except:
-                        chars_file_lock.release()
-            else:
+            try:
+                if ("P674" in data['entities'][book_id]["claims"]):
+                    for loc in data['entities'][book_id]["claims"]["P674"]:
+                        try:
+                            chars_file_lock.acquire()
+                            file_chars_out.write(
+                                str(book_id + ";"+ loc["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
+                            chars_file_lock.release()
+                        except:
+                            chars_file_lock.release()
+            except:
                 self.local_statistics[index("no character")] += 1
 
             # AUTHORS
-            if ("P50" in data['entities'][book_id]["claims"]):
-                for author in data['entities'][book_id]["claims"]["P50"]:
-                    try:
-                        authors_file_lock.acquire()
-                        file_authors_out.write(
-                            str(book_id + ";" + author["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
-                        authors_file_lock.release()
-                    except:
-                        authors_file_lock.release()
-            else:
+            try:
+                if ("P50" in data['entities'][book_id]["claims"]):
+                    for author in data['entities'][book_id]["claims"]["P50"]:
+                        try:
+                            authors_file_lock.acquire()
+                            file_authors_out.write(
+                                str(book_id + ";" + author["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
+                            authors_file_lock.release()
+                        except:
+                            authors_file_lock.release()
+            except:
                 self.local_statistics[index("no author")] += 1
 
             # FOREAUTHORS
-            if ("P2679" in data['entities'][book_id]["claims"]):
-                for foreauthor in data['entities'][book_id]["claims"]["P2679"]:
-                    try:
-                        foreauthors_file_lock.acquire()
-                        file_foreauthors_out.write(
-                            str(book_id + foreauthor["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
-                        foreauthors_file_lock.release()
-                    except:
-                        foreauthors_file_lock.release()
-            else:
+            try:
+                if ("P2679" in data['entities'][book_id]["claims"]):
+                    for foreauthor in data['entities'][book_id]["claims"]["P2679"]:
+                        try:
+                            foreauthors_file_lock.acquire()
+                            file_foreauthors_out.write(
+                                str(book_id + foreauthor["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
+                            foreauthors_file_lock.release()
+                        except:
+                            foreauthors_file_lock.release()
+            except:
                 self.local_statistics[index("no foreauthor")] += 1
 
             # AFTERAUTHORS
-            if ("P2680" in data['entities'][book_id]["claims"]):
-                for afterauthor in data['entities'][book_id]["claims"]["P2680"]:
-                    try:
-                        afterauthors_file_lock.acquire()
-                        file_afterauthors_out.write(
-                            str(book_id+";"+afterauthor["mainsnak"]["datavalue"]["value"]["id"]) +"\n")
-                        afterauthors_file_lock.release()
-                    except:
-                        afterauthors_file_lock.release()
-            else:
+            try:
+                if ("P2680" in data['entities'][book_id]["claims"]):
+                    for afterauthor in data['entities'][book_id]["claims"]["P2680"]:
+                        try:
+                            afterauthors_file_lock.acquire()
+                            file_afterauthors_out.write(
+                                str(book_id+";"+afterauthor["mainsnak"]["datavalue"]["value"]["id"]) +"\n")
+                            afterauthors_file_lock.release()
+                        except:
+                            afterauthors_file_lock.release()
+            except:
                 self.local_statistics[index("no afterauthor")] += 1
 
             # LANGUAGE
-            if ("P407" in data['entities'][book_id]["claims"]):
-                for lang in data['entities'][book_id]["claims"]["P407"]:
-                    try:
-                        langs_file_lock.acquire()
-                        file_langs_out.write(
-                            str(book_id + ";"+lang["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
-                        langs_file_lock.release()
-                    except:
-                        langs_file_lock.release()
-            else:
+            try:
+                if ("P407" in data['entities'][book_id]["claims"]):
+                    for lang in data['entities'][book_id]["claims"]["P407"]:
+                        try:
+                            langs_file_lock.acquire()
+                            file_langs_out.write(
+                                str(book_id + ";"+lang["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
+                            langs_file_lock.release()
+                        except:
+                            langs_file_lock.release()
+            except:
                 self.local_statistics[index("no lang")] += 1
 
             # EDITION
-            if ("P747" in data['entities'][book_id]["claims"]):
-                for edit in data['entities'][book_id]["claims"]["P747"]:
-                    try:
-                        edits_file_lock.acquire()
-                        file_edits_out.write(
-                            str(book_id+";"+edit["mainsnak"]["datavalue"]["value"]["id"])+"\n")
-                        edits_file_lock.release()
-                    except:
-                        edits_file_lock.release()
-            else:
+            try:
+                if ("P747" in data['entities'][book_id]["claims"]):
+                    for edit in data['entities'][book_id]["claims"]["P747"]:
+                        try:
+                            edits_file_lock.acquire()
+                            file_edits_out.write(
+                                str(book_id+";"+edit["mainsnak"]["datavalue"]["value"]["id"])+"\n")
+                            edits_file_lock.release()
+                        except:
+                            edits_file_lock.release()
+            except:
                 self.local_statistics[index("no editions")] += 1
 
             # SUBTITLE
             subtitle = ""
-            if ("P1680" in data['entities'][book_id]["claims"]):
-                subtitle = data['entities'][book_id]["claims"]["P1680"][0]["mainsnak"]["datavalue"]["value"]["text"]
-            else:
+            try:
+                if ("P1680" in data['entities'][book_id]["claims"]):
+                    subtitle = data['entities'][book_id]["claims"]["P1680"][0]["mainsnak"]["datavalue"]["value"]["text"]
+            except:
                 self.local_statistics[index("no subtitle")] += 1
 
             # FIRST LINE
             first_line = ""
-            if ("P1922" in data['entities'][book_id]["claims"]):
-                first_line = data['entities'][book_id]["claims"]["P1922"][0]["mainsnak"]["datavalue"]["value"]["text"]
-            else:
+            try:
+                if ("P1922" in data['entities'][book_id]["claims"]):
+                    first_line = data['entities'][book_id]["claims"]["P1922"][0]["mainsnak"]["datavalue"]["value"]["text"]
+            except:
                 self.local_statistics[index("no first line")] += 1
 
             # SERIES
             series_name = ""
-            if ("P179" in data['entities'][book_id]["claims"]):
-                for ser in data['entities'][book_id]["claims"]["P179"]:
-                    se = ser["mainsnak"]["datavalue"]["value"]["id"]
-                    # retrieve genre name or retrieve and save it
-                    if se in series_dict:
-                        series_name = series_dict[se]
-                    else:
-                        for i in range(3):
-                            try:
-                                urls = "http://www.wikidata.org/wiki/Special:EntityData/" + se + ".json"
-                                responses = requests.get(urls)
-                                datas = responses.json()
-                                break
-                            except:
-                                time.sleep(i*0.5)
-                                continue
+            try:
+                if ("P179" in data['entities'][book_id]["claims"]):
+                    for ser in data['entities'][book_id]["claims"]["P179"]:
                         try:
-                            series_lock.acquire()
-                            series_name = datas['entities'][se]["labels"]["en"]["value"]
-                            series_dict[se] = series_name
-                            series_lock.release()
+                            se = ser["mainsnak"]["datavalue"]["value"]["id"]
+                            # retrieve genre name or retrieve and save it
+                            if se in series_dict:
+                                series_name = series_dict[se]
+                            else:
+                                for i in range(3):
+                                    try:
+                                        urls = "http://www.wikidata.org/wiki/Special:EntityData/" + se + ".json"
+                                        responses = requests.get(urls)
+                                        datas = responses.json()
+                                        break
+                                    except:
+                                        time.sleep(i*0.5)
+                                        continue
+                                try:
+                                    series_lock.acquire()
+                                    series_name = datas['entities'][se]["labels"]["en"]["value"]
+                                    series_dict[se] = series_name
+                                    series_lock.release()
+                                except:
+                                    series_lock.release()
                         except:
-                            series_lock.release()
-            else:
+                            continue
+            except:
                 self.local_statistics[index("no series")] += 1
-
-            if (series_name != ""):
-                if ("qualifiers" in ser and "P156" in ser['qualifiers']):
-                    try:
-                        foll = ser['qualifiers']["P156"][0]["datavalue"]["value"]["id"]
-                    except:
-                        continue
-                    try:
-                        folls_file_lock.acquire()
-                        file_folls_out.write(str(book_id) + ";"+ str(foll) + "\n")
-                        folls_file_lock.release()
-                    except:
-                        folls_file_lock.release()
-            else:
+            try:
+                if (series_name != ""):
+                    if ("qualifiers" in ser and "P156" in ser['qualifiers']):
+                        try:
+                            foll = ser['qualifiers']["P156"][0]["datavalue"]["value"]["id"]
+                        except:
+                            continue
+                        try:
+                            folls_file_lock.acquire()
+                            file_folls_out.write(str(book_id) + ";"+ str(foll) + "\n")
+                            folls_file_lock.release()
+                        except:
+                            folls_file_lock.release()
+            except:
                 self.local_statistics[index("no follower")] += 1
 
             # GENRES
-            if ("P136" in data['entities'][book_id]["claims"]):
-                for genre in data['entities'][book_id]["claims"]["P136"]:
-                    genre = genre["mainsnak"]["datavalue"]["value"]["id"]
-                    # retrieve genre name or retrieve and save it
-                    if genre in genre_dict:
-                        gname = genre_dict[genre]
-                        genres_lock.acquire()
-                        file_has_genres.write(book_id + ";" + gname + "\n")
-                        genres_lock.release()
-                    else:
-                        for i in range(3):
-                            try:
-                                urlg = "http://www.wikidata.org/wiki/Special:EntityData/" + genre + ".json"
-                                responseg = requests.get(urlg)
-                                datag = responseg.json()
-                                break
-                            except:
-                                time.sleep(i*0.5)
-                                continue
-                        try:
+            try:
+                if ("P136" in data['entities'][book_id]["claims"]):
+                    for genre in data['entities'][book_id]["claims"]["P136"]:
+                        genre = genre["mainsnak"]["datavalue"]["value"]["id"]
+                        # retrieve genre name or retrieve and save it
+                        if genre in genre_dict:
+                            gname = genre_dict[genre]
                             genres_lock.acquire()
-                            gname = datag['entities'][genre]["labels"]["en"]["value"]
-                            genre_dict[genre] = gname
-                            file_has_genres.write(book_id+";"+gname+"\n")
+                            file_has_genres.write(book_id + ";" + gname + "\n")
                             genres_lock.release()
-                        except:
-                            genres_lock.release()
-            else:
+                        else:
+                            for i in range(3):
+                                try:
+                                    urlg = "http://www.wikidata.org/wiki/Special:EntityData/" + genre + ".json"
+                                    responseg = requests.get(urlg)
+                                    datag = responseg.json()
+                                    break
+                                except:
+                                    time.sleep(i*0.5)
+                                    continue
+                            try:
+                                genres_lock.acquire()
+                                gname = datag['entities'][genre]["labels"]["en"]["value"]
+                                genre_dict[genre] = gname
+                                file_has_genres.write(book_id+";"+gname+"\n")
+                                genres_lock.release()
+                            except:
+                                genres_lock.release()
+            except:
                 self.local_statistics[index("no genre")] += 1
 
             file_out_lock.acquire()
@@ -409,7 +424,6 @@ sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
 sparql.setQuery("""SELECT ?book WHERE {
     ?book wdt:P31 wd:Q571
     }
-    LIMIT 100
 """)
 sparql.setReturnFormat(JSON)
 results = sparql.query().convert()
@@ -438,10 +452,10 @@ file_has_genres = open(file_has_genres_path, 'a')
 file_processed_books = open(processed_books_file_path, 'a')
 
 
-n_results = len(results["results"]["bindings"])
+n_results = len(books)
 
-print("Number of results: " + str(n_results))
-file_log.write("Number of results: " + str(n_results) + "\n")
+print("Number of books: " + str(n_results)+"\n")
+file_log.write("Number of books: " + str(n_results) + "\n")
 
 # PARALLEL COMPUTATION INITIALIZATION
 threads = []
@@ -479,7 +493,7 @@ file_processed_books.close()
 save_obj(genre_dict, "genres")
 save_obj(series_dict, "series")
 save_obj(locations_dict, "locations")
-
+'''
 # STATISTICS REPORTING
 print("\n\n*** STATISTICS ***\n")
 for i in range(len(statistics)):
@@ -487,7 +501,7 @@ for i in range(len(statistics)):
         label(i).ljust(16) + ":" + str(statistics[i]) + "  (" + str(round(statistics[i] / n_results, 2) * 100) + " %)")
 
 total_time = time.time() - total_time
-print("Total_time:\t" + str(round(total_time, 2)) + " sec")
+print("Total_time:\t" + str(round(total_time, 2)) + " sec")'''
 
 # STATISTICS REPORTING
 file_log.write("\n\n*** STATISTICS *** \n")

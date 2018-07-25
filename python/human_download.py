@@ -92,29 +92,31 @@ class HumanDownloadThread(threading.Thread):
 
             # DESCRIPTION
             description = ""
-            if ("descriptions" in data['entities'][human]["claims"]):
-                if ("en" in data['entities'][human]["claims"]["descriptions"]):
-                    description = data['entities'][human]["claims"]["descriptions"]["en"]["value"]
-            elif ("descriptions" in data['entities'][human]):
-                if ("en" in data['entities'][human]["descriptions"]):
-                    description = data['entities'][human]["descriptions"]["en"]["value"]
-            else:
+            try:
+                if ("descriptions" in data['entities'][human]["claims"]):
+                    if ("en" in data['entities'][human]["claims"]["descriptions"]):
+                        description = data['entities'][human]["claims"]["descriptions"]["en"]["value"]
+                elif ("descriptions" in data['entities'][human]):
+                    if ("en" in data['entities'][human]["descriptions"]):
+                        description = data['entities'][human]["descriptions"]["en"]["value"]
+            except:
                 self.local_statistics[index("no description")] += 1
 
             # NAME
             name = ""
-            if ("P1559" in data['entities'][human]["claims"]):
-                name = (data['entities'][human]["claims"]["P1559"][0]["mainsnak"]["datavalue"]["value"]["text"])
-            elif ("P1477" in data['entities'][human]["claims"]):
-                name = (data['entities'][human]["claims"]["P1477"][0]["mainsnak"]["datavalue"]["value"]["text"])
-            else:
+            try:
+                if ("P1559" in data['entities'][human]["claims"]):
+                    name = (data['entities'][human]["claims"]["P1559"][0]["mainsnak"]["datavalue"]["value"]["text"])
+                elif ("P1477" in data['entities'][human]["claims"]):
+                    name = (data['entities'][human]["claims"]["P1477"][0]["mainsnak"]["datavalue"]["value"]["text"])
+            except:
                 name = label
                 self.local_statistics[index("no name")] += 1
 
             # SEX
             sex = ""
-            if ("P21" in data['entities'][human]["claims"]):
-                try:
+            try:
+                if ("P21" in data['entities'][human]["claims"]):
                     sex = (data['entities'][human]["claims"]["P21"][0]["mainsnak"]["datavalue"]["value"]["id"])
                     if sex == 'Q6581097':
                         sex = 'male'
@@ -122,7 +124,7 @@ class HumanDownloadThread(threading.Thread):
                         sex = 'female'
                     else:
                         self.local_statistics[index("no sex")] += 1
-                except:
+            except:
                     self.local_statistics[index("no sex")] += 1
 
             # DoB
@@ -141,67 +143,72 @@ class HumanDownloadThread(threading.Thread):
 
             # PoB
             PoB = ""
-            if ("P19" in data['entities'][human]["claims"]):
-                for place in data['entities'][human]["claims"]["P19"]:
-                    try:
-                        place_of_birth_lock.acquire()
-                        place_of_birth_file.write(
-                            str(human + ";" + place["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
-                        place_of_birth_lock.release()
-                        PoB = place["mainsnak"]["datavalue"]["value"]["id"]
-                    except:
-                        place_of_birth_lock.release()
-            else:
+            try:
+                if ("P19" in data['entities'][human]["claims"]):
+                    for place in data['entities'][human]["claims"]["P19"]:
+                        try:
+                            place_of_birth_lock.acquire()
+                            place_of_birth_file.write(
+                                str(human + ";" + place["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
+                            place_of_birth_lock.release()
+                            PoB = place["mainsnak"]["datavalue"]["value"]["id"]
+                        except:
+                            place_of_birth_lock.release()
+            except:
                 self.local_statistics[index("no PoB")] += 1
 
             # PoD
             PoD = ""
-            if ("P20" in data['entities'][human]["claims"]):
-                for place in data['entities'][human]["claims"]["P20"]:
-                    try:
-                        place_of_death_lock.acquire()
-                        place_of_death_file.write(
-                            str(human + ";" + place["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
-                        place_of_death_lock.release()
-                        PoD = place["mainsnak"]["datavalue"]["value"]["id"]
-                    except:
-                        place_of_death_lock.release()
-            else:
+            try:
+                if ("P20" in data['entities'][human]["claims"]):
+                    for place in data['entities'][human]["claims"]["P20"]:
+                        try:
+                            place_of_death_lock.acquire()
+                            place_of_death_file.write(
+                                str(human + ";" + place["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
+                            place_of_death_lock.release()
+                            PoD = place["mainsnak"]["datavalue"]["value"]["id"]
+                        except:
+                            place_of_death_lock.release()
+            except:
                 self.local_statistics[index("no PoD")] += 1
 
             # OCCUPATION
-            if ("P106" in data['entities'][human]["claims"]):
-                for occupation in data['entities'][human]["claims"]["P106"]:
-                    occupation = occupation["mainsnak"]["datavalue"]["value"]["id"]
-                    # retrieve occupation name or retrieve and save it
-                    if occupation in occupations_dict:
-                        occupations_dict_lock.acquire()
-                        occupation_name = occupations_dict[occupation]
-                        file_has_occupation.write(human + ";" + occupation_name + "\n")
-                        occupations_dict_lock.release()
-                    else:
-                        for i in range(3):
-                            try:
-                                urlg = "http://www.wikidata.org/wiki/Special:EntityData/" + occupation + ".json"
-                                response_occupation = requests.get(urlg)
-                                data_occupation = response_occupation.json()
-                                break
-                            except:
-                                time.sleep(i*0.5)
-                                continue
-                        try:
+            try:
+                if ("P106" in data['entities'][human]["claims"]):
+                    for occupation in data['entities'][human]["claims"]["P106"]:
+                        occupation = occupation["mainsnak"]["datavalue"]["value"]["id"]
+                        # retrieve occupation name or retrieve and save it
+                        if occupation in occupations_dict:
                             occupations_dict_lock.acquire()
-                            occupation_name = data_occupation['entities'][occupation]["labels"]["en"]["value"]
-                            occupations_dict[occupation] = occupation_name
+                            occupation_name = occupations_dict[occupation]
                             file_has_occupation.write(human + ";" + occupation_name + "\n")
                             occupations_dict_lock.release()
-                        except:
-                            occupations_dict_lock.release()
-            else:
+                        else:
+                            for i in range(3):
+                                try:
+                                    urlg = "http://www.wikidata.org/wiki/Special:EntityData/" + occupation + ".json"
+                                    response_occupation = requests.get(urlg)
+                                    data_occupation = response_occupation.json()
+                                    break
+                                except:
+                                    time.sleep(i*0.5)
+                                    continue
+                            try:
+                                occupations_dict_lock.acquire()
+                                occupation_name = data_occupation['entities'][occupation]["labels"]["en"]["value"]
+                                occupations_dict[occupation] = occupation_name
+                                file_has_occupation.write(human + ";" + occupation_name + "\n")
+                                occupations_dict_lock.release()
+                            except:
+                                occupations_dict_lock.release()
+            except:
                 self.local_statistics[index("no occupation")] += 1
 
+            human_file_lock.acquire()
             humans_file.write(str(
                 human) + ";" + label.replace(";", " ") + ";" + description.replace(";", " ") + ";" + name.replace(";", " ") + ";" + sex + ";" + DoB + ";" + DoD + ";" + "nc\n")
+            human_file_lock.release()
 
     def join(self):
         Thread.join(self)
@@ -213,6 +220,7 @@ has_role_lock = threading.Lock()
 place_of_birth_lock = threading.Lock()
 place_of_death_lock = threading.Lock()
 occupations_dict_lock = threading.Lock()
+human_file_lock = threading.Lock()
 
 # TIME MEASUREMENTS
 total_time = time.time()
@@ -268,7 +276,8 @@ log_file = open(log_file_path, 'a')
 
 
 n_humans = len(humans)
-print("Number of humans: " + str(n_humans))
+print("Number of humans: " + str(n_humans)+"\n")
+log_file.write("Number of humans: " + str(n_humans)+"\n")
 
 # PARALLEL COMPUTATION
 threads = []
@@ -305,7 +314,7 @@ file_has_occupation.close()
 
 # UPDATING DICTIONARIES
 save_obj(occupations_dict, 'occupations')
-
+'''
 # STATISTICS REPORTING
 print("\n\n*** STATISTICS ***\n")
 for i in range(len(statistics)):
@@ -313,7 +322,7 @@ for i in range(len(statistics)):
         label(i).ljust(16) + ":" + str(statistics[i]) + "  (" + str(round(statistics[i] / n_humans, 2) * 100) + " %)")
 
 total_time = time.time() - total_time
-print("Total_time:\t" + str(round(total_time, 2)) + " sec")
+print("Total_time:\t" + str(round(total_time, 2)) + " sec")'''
 
 # STATISTICS REPORTING
 log_file.write("\n\n*** STATISTICS *** \n")

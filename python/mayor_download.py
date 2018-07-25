@@ -84,73 +84,78 @@ class MayorDownloadThread(threading.Thread):
 
             # DESCRIPTION
             description = ""
-            if ("descriptions" in data['entities'][mayor]["claims"]):
-                if ("en" in data['entities'][mayor]["claims"]["descriptions"]):
-                    description = data['entities'][mayor]["claims"]["descriptions"]["en"]["value"]
-            elif ("descriptions" in data['entities'][mayor]):
-                if ("en" in data['entities'][mayor]["descriptions"]):
-                    description = data['entities'][mayor]["descriptions"]["en"]["value"]
-            else:
+            try:
+                if ("descriptions" in data['entities'][mayor]["claims"]):
+                    if ("en" in data['entities'][mayor]["claims"]["descriptions"]):
+                        description = data['entities'][mayor]["claims"]["descriptions"]["en"]["value"]
+                elif ("descriptions" in data['entities'][mayor]):
+                    if ("en" in data['entities'][mayor]["descriptions"]):
+                        description = data['entities'][mayor]["descriptions"]["en"]["value"]
+            except:
                 self.local_statistics[index("no description")] += 1
 
             # OFFICIAL RESIDENCE
             residence_name = ""
-            if ("P263" in data['entities'][mayor]["claims"]):
-                residence = data['entities'][mayor]["claims"]["P263"][0]["mainsnak"]["datavalue"]["value"]["id"]
-                # retrieve residence name or retrieve and save it
-                if residence in official_residence_dict:
-                    residence_name = official_residence_dict[residence]
-                else:
-                    for i in range(3):
+            try:
+                if ("P263" in data['entities'][mayor]["claims"]):
+                    residence = data['entities'][mayor]["claims"]["P263"][0]["mainsnak"]["datavalue"]["value"]["id"]
+                    # retrieve residence name or retrieve and save it
+                    if residence in official_residence_dict:
+                        residence_name = official_residence_dict[residence]
+                    else:
+                        for i in range(3):
+                            try:
+                                url_residence = "http://www.wikidata.org/wiki/Special:EntityData/" + residence + ".json"
+                                response_residence = requests.get(url_residence)
+                                data_residence = response_residence.json()
+                                break
+                            except:
+                                time.sleep(i*0.5)
+                                continue
                         try:
-                            url_residence = "http://www.wikidata.org/wiki/Special:EntityData/" + residence + ".json"
-                            response_residence = requests.get(url_residence)
-                            data_residence = response_residence.json()
-                            break
+                            residence_dict_lock.acquire()
+                            residence_name = data_residence['entities'][residence]["labels"]["en"]["value"]
+                            official_residence_dict[residence] = residence_name
+                            residence_dict_lock.release()
                         except:
-                            time.sleep(i*0.5)
-                            continue
-                    try:
-                        residence_dict_lock.acquire()
-                        residence_name = data_residence['entities'][residence]["labels"]["en"]["value"]
-                        official_residence_dict[residence] = residence_name
-                        residence_dict_lock.release()
-                    except:
-                        residence_dict_lock.release()
-            else:
+                            residence_dict_lock.release()
+            except:
                 self.local_statistics[index("no official residence")] += 1
 
             # START/END TIME
             start_time = ""
             end_time = ""
-            if ("P1308" in data['entities'][mayor]["claims"]):
-                pref_mayor = ""
-                for mayor_data in data['entities'][mayor]["claims"]["P1308"]:
-                    pref_mayor = mayor_data
-                    if mayor_data["rank"] == "preferred":
-                        break
-                try:
-                    has_role_lock.acquire()
-                    human = pref_mayor["mainsnak"]["datavalue"]["value"]["id"]
-                    has_role_file.write(human+";"+mayor+"\n")
-                    has_role_lock.release()
-                except:
-                    print("exception human")
-                    has_role_lock.release()
-                    self.local_statistics[index("no human")] += 1
-                try:
-                    start_time = mayor_data["qualifiers"]["P580"]["datavalue"]["value"]["time"]
-                except:
-                    self.local_statistics[index("no start time")] += 1
+            try:
+                if ("P1308" in data['entities'][mayor]["claims"]):
+                    pref_mayor = ""
+                    for mayor_data in data['entities'][mayor]["claims"]["P1308"]:
+                        pref_mayor = mayor_data
+                        if mayor_data["rank"] == "preferred":
+                            break
+                    try:
+                        has_role_lock.acquire()
+                        human = pref_mayor["mainsnak"]["datavalue"]["value"]["id"]
+                        has_role_file.write(human+";"+mayor+"\n")
+                        has_role_lock.release()
+                    except:
+                        print("exception human")
+                        has_role_lock.release()
+                        self.local_statistics[index("no human")] += 1
+                    try:
+                        start_time = mayor_data["qualifiers"]["P580"]["datavalue"]["value"]["time"]
+                    except:
+                        self.local_statistics[index("no start time")] += 1
 
-                try:
-                    end_time = mayor_data["qualifiers"]["P582"]["datavalue"]["value"]["time"]
-                except:
-                    self.local_statistics[index("no end time")] += 1
-
-
+                    try:
+                        end_time = mayor_data["qualifiers"]["P582"]["datavalue"]["value"]["time"]
+                    except:
+                        self.local_statistics[index("no end time")] += 1
+            except:
+                pass
+            mayors_lock.acquire()
             mayors_file.write(str(
                 mayor) + ";" + label.replace(";", " ") + ";" + description.replace(";", " ") + ";" + start_time.replace(";", " ") + ";" + end_time.replace(";", " ") + ";" + residence_name.replace(";", " ") + "\n")
+            mayors_lock.release()
 
     def join(self):
         Thread.join(self)
@@ -206,7 +211,8 @@ has_role_file = open(has_role_file_path, 'a')
 log_file = open(log_file_path, 'a')
 
 n_mayors = len(mayors)
-print("Number of mayors: " + str(n_mayors))
+print("Number of mayors: " + str(n_mayors)+"\n")
+log_file.write("Number of mayors: " + str(n_mayors)+"\n")
 
 # PARALLEL COMPUTATION INITIALIZATION
 threads = []
@@ -237,6 +243,8 @@ has_role_file.close()
 # UPDATING DICTIONARIES
 save_obj(official_residence_dict, 'official_residence')
 save_obj(occupations_dict, 'occupations')
+
+'''
 # STATISTICS REPORTING
 print("\n\n*** STATISTICS ***\n")
 for i in range(len(statistics)):
@@ -244,7 +252,7 @@ for i in range(len(statistics)):
         label(i).ljust(16) + ":" + str(statistics[i]) + "  (" + str(round(statistics[i] / n_mayors, 2) * 100) + " %)")
 
 total_time = time.time() - total_time
-print("Total_time:\t" + str(round(total_time, 2)) + " sec")
+print("Total_time:\t" + str(round(total_time, 2)) + " sec")'''
 
 # STATISTICS REPORTING
 log_file.write("\n\n*** STATISTICS *** \n")

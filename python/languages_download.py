@@ -67,20 +67,22 @@ class myThread (threading.Thread):
 
             # DESCRIPTION
             description = ""
-            if ("descriptions" in data['entities'][language_id]["claims"]):
-                if ("en" in data['entities'][language_id]["claims"]["descriptions"]):
-                    description = data['entities'][language_id]["claims"]["descriptions"]["en"]["value"]
-            elif ("descriptions" in data['entities'][language_id]):
-                if ("en" in data['entities'][language_id]["descriptions"]):
-                    description = data['entities'][language_id]["descriptions"]["en"]["value"]
-            else:
+            try:
+                if ("descriptions" in data['entities'][language_id]["claims"]):
+                    if ("en" in data['entities'][language_id]["claims"]["descriptions"]):
+                        description = data['entities'][language_id]["claims"]["descriptions"]["en"]["value"]
+                elif ("descriptions" in data['entities'][language_id]):
+                    if ("en" in data['entities'][language_id]["descriptions"]):
+                        description = data['entities'][language_id]["descriptions"]["en"]["value"]
+            except:
                 self.local_statistics[index("no description")] += 1
 
             # SPEAKERS
             speakers = ""
-            if ("P1098" in data['entities'][language_id]["claims"]):
-                speakers = (data['entities'][language_id]["claims"]["P1098"][0]["mainsnak"]["datavalue"]["value"]["amount"][1:])
-            else:
+            try:
+                if ("P1098" in data['entities'][language_id]["claims"]):
+                    speakers = (data['entities'][language_id]["claims"]["P1098"][0]["mainsnak"]["datavalue"]["value"]["amount"][1:])
+            except:
                 self.local_statistics[index("no speakers")] += 1
 
                 
@@ -134,8 +136,8 @@ file_log = open(file_log_path, 'a')
 file_out = open(file_out_path, 'a')
 
 n_results = len(languages)
-print("Number of languages: " + str(n_results))
-file_log.write("Number of languages: " + str(n_results))
+print("Number of languages: " + str(n_results)+"\n")
+file_log.write("Number of languages: " + str(n_results)+"\n")
 
 n_results = len(languages)
 
@@ -165,14 +167,14 @@ processed_languages_file.close()
 
 #CLOSING OUTPUT FILES
 file_out.close()
-
+'''
 #STATISTICS REPORTING
 print("\n\n*** STATISTICS ***\n")
 for i in range(len(statistics)):
     print(label(i).ljust(16)+":"+str(statistics[i])+"  ("+str(round(statistics[i]/n_results,2)*100)+" %)")
 
 total_time = time.time() - total_time
-print("Total_time:\t"+str(round(total_time,2))+" sec")
+print("Total_time:\t"+str(round(total_time,2))+" sec")'''
 
 #STATISTICS REPORTING
 file_log.write("\n\n*** STATISTICS *** \n")

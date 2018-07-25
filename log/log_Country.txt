@@ -1,15 +1,7 @@
-2018-07-25 09:18:57
+2018-07-25 16:54:46
 
-Number of countries: 1
+Number of countries: 84
 
-*** STATISTICS *** 
-no population   :0  (0.0 %) 
-no area         :0  (0.0 %) 
-no label        :0  (0.0 %) 
-no description  :0  (0.0 %) 
-no language     :0  (0.0 %) 
-Total_time:	0.36 sec
-Number of countries: 9
 
 *** STATISTICS *** 
 no population   :0  (0.0 %) 
@@ -17,4 +9,14 @@ no area         :0  (0.0 %)
 no label        :0  (0.0 %) 
 no description  :0  (0.0 %) 
 no language     :0  (0.0 %) 
-Total_time:	0.53 sec
+Total_time:	1532535707.31 sec
+Number of countries: 14
+
+
+*** STATISTICS *** 
+no population   :0  (0.0 %) 
+no area         :0  (0.0 %) 
+no label        :0  (0.0 %) 
+no description  :0  (0.0 %) 
+no language     :0  (0.0 %) 
+Total_time:	1532535775.98 sec

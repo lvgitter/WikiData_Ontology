@@ -92,39 +92,40 @@ class TranslatorDownloadThread(threading.Thread):
 
             # DESCRIPTION
             description = ""
-            if ("descriptions" in data['entities'][translator]["claims"]):
-                if ("en" in data['entities'][translator]["claims"]["descriptions"]):
-                    description = data['entities'][translator]["claims"]["descriptions"]["en"]["value"]
-            elif ("descriptions" in data['entities'][translator]):
-                if ("en" in data['entities'][translator]["descriptions"]):
-                    description = data['entities'][translator]["descriptions"]["en"]["value"]
-            else:
+            try:
+                if ("descriptions" in data['entities'][translator]["claims"]):
+                    if ("en" in data['entities'][translator]["claims"]["descriptions"]):
+                        description = data['entities'][translator]["claims"]["descriptions"]["en"]["value"]
+                elif ("descriptions" in data['entities'][translator]):
+                    if ("en" in data['entities'][translator]["descriptions"]):
+                        description = data['entities'][translator]["descriptions"]["en"]["value"]
+            except:
                 self.local_statistics[index("no description")] += 1
 
             # NAME
             name = ""
-            if ("P1559" in data['entities'][translator]["claims"]):
-                name = (data['entities'][translator]["claims"]["P1559"][0]["mainsnak"]["datavalue"]["value"]["text"])
-            elif ("P1477" in data['entities'][translator]["claims"]):
-                name = (data['entities'][translator]["claims"]["P1477"][0]["mainsnak"]["datavalue"]["value"]["text"])
-            else:
+            try:
+                if ("P1559" in data['entities'][translator]["claims"]):
+                    name = (data['entities'][translator]["claims"]["P1559"][0]["mainsnak"]["datavalue"]["value"]["text"])
+                elif ("P1477" in data['entities'][translator]["claims"]):
+                    name = (data['entities'][translator]["claims"]["P1477"][0]["mainsnak"]["datavalue"]["value"]["text"])
+            except:
                 name = label
                 self.local_statistics[index("no name")] += 1
 
             # SEX
             sex = ""
-            if ("P21" in data['entities'][translator]["claims"]):
-                try:
+            try:
+                if ("P21" in data['entities'][translator]["claims"]):
                     sex = (data['entities'][translator]["claims"]["P21"][0]["mainsnak"]["datavalue"]["value"]["id"])
                     if sex == 'Q6581097':
                         sex = 'male'
                     elif sex == 'Q6581072':
                         sex = 'female'
                     else:
-                        sex = 'unknown'
                         self.local_statistics[index("no sex")] += 1
-                except:
-                    self.local_statistics[index("no sex")] += 1
+            except:
+                self.local_statistics[index("no sex")] += 1
 
             # DoB
             DoB = ""
@@ -141,75 +142,78 @@ class TranslatorDownloadThread(threading.Thread):
                 self.local_statistics[index("no DoD")] += 1
 
             # PoB
-            if ("P19" in data['entities'][translator]["claims"]):
-                for place in data['entities'][translator]["claims"]["P19"]:
-                    try:
-                        place_of_birth_lock.acquire()
-                        place_of_birth_file.write(
-                            str(translator + ";" + place["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
-                        place_of_birth_lock.release()
-                        PoB = place["mainsnak"]["datavalue"]["value"]["id"]
-                    except:
-                        place_of_birth_lock.release()
-            else:
+            try:
+                if ("P19" in data['entities'][translator]["claims"]):
+                    for place in data['entities'][translator]["claims"]["P19"]:
+                        try:
+                            place_of_birth_lock.acquire()
+                            place_of_birth_file.write(
+                                str(translator + ";" + place["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
+                            place_of_birth_lock.release()
+                            PoB = place["mainsnak"]["datavalue"]["value"]["id"]
+                        except:
+                            place_of_birth_lock.release()
+            except:
                 self.local_statistics[index("no PoB")] += 1
 
             # PoD
-            if ("P20" in data['entities'][translator]["claims"]):
-                for place in data['entities'][translator]["claims"]["P20"]:
-                    try:
-                        place_of_death_lock.acquire()
-                        place_of_death_file.write(
-                            str(translator + ";" + place["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
-                        place_of_death_lock.release()
-                        PoD = place["mainsnak"]["datavalue"]["value"]["id"]
-                    except:
-                        place_of_death_lock.release()
-            else:
+            try:
+                if ("P20" in data['entities'][translator]["claims"]):
+                    for place in data['entities'][translator]["claims"]["P20"]:
+                        try:
+                            place_of_death_lock.acquire()
+                            place_of_death_file.write(
+                                str(translator + ";" + place["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
+                            place_of_death_lock.release()
+                            PoD = place["mainsnak"]["datavalue"]["value"]["id"]
+                        except:
+                            place_of_death_lock.release()
+            except:
                 self.local_statistics[index("no PoD")] += 1
 
             # OCCUPATION
-            if ("P106" in data['entities'][translator]["claims"]):
-                for occupation in data['entities'][translator]["claims"]["P106"]:
-                    occupation = occupation["mainsnak"]["datavalue"]["value"]["id"]
-                    # retrieve occupation name or retrieve and save it
-                    if occupation in occupations_dict:
-                        occupation_name = occupations_dict[occupation]
-                        occupations_file.write(translator + ";" + occupation_name + "\n")
-                    else:
-                        for i in range(3):
+            try:
+                if ("P106" in data['entities'][translator]["claims"]):
+                    for occupation in data['entities'][translator]["claims"]["P106"]:
+                        occupation = occupation["mainsnak"]["datavalue"]["value"]["id"]
+                        # retrieve occupation name or retrieve and save it
+                        if occupation in occupations_dict:
+                            occupation_name = occupations_dict[occupation]
+                            occupations_file.write(translator + ";" + occupation_name + "\n")
+                        else:
+                            for i in range(3):
+                                try:
+                                    urlg = "http://www.wikidata.org/wiki/Special:EntityData/" + occupation + ".json"
+                                    response_occupation = requests.get(urlg)
+                                    data_occupation = response_occupation.json()
+                                    break
+                                except:
+                                    time.sleep(i*0.5)
+                                    continue
                             try:
-                                urlg = "http://www.wikidata.org/wiki/Special:EntityData/" + occupation + ".json"
-                                response_occupation = requests.get(urlg)
-                                data_occupation = response_occupation.json()
-                                break
+                                occupations_dict_lock.acquire()
+                                occupation_name = data_occupation['entities'][occupation]["labels"]["en"]["value"]
+                                occupations_dict[occupation] = occupation_name
+                                occupations_file.write(translator+";"+occupation_name+"\n")
+                                occupations_dict_lock.release()
                             except:
-                                time.sleep(i*0.5)
-                                continue
-                        try:
-                            occupations_dict_lock.acquire()
-                            occupation_name = data_occupation['entities'][occupation]["labels"]["en"]["value"]
-                            occupations_dict[occupation] = occupation_name
-                            occupations_file.write(translator+";"+occupation_name+"\n")
-                            occupations_dict_lock.release()
-                        except:
-                            occupations_dict_lock.release()
-
-            else:
+                                occupations_dict_lock.release()
+            except:
                 self.local_statistics[index("no occupation")] += 1
 
 
             # SPEAKS
-            if ("P1412" in data['entities'][translator]["claims"]):
-                for language in data['entities'][translator]["claims"]["P1412"]:
-                    try:
-                        speaks_lock.acquire()
-                        speaks_file.write(
-                            str(translator + ";" + language["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
-                        speaks_lock.release()
-                    except:
-                        speaks_lock.release()
-            else:
+            try:
+                if ("P1412" in data['entities'][translator]["claims"]):
+                    for language in data['entities'][translator]["claims"]["P1412"]:
+                        try:
+                            speaks_lock.acquire()
+                            speaks_file.write(
+                                str(translator + ";" + language["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
+                            speaks_lock.release()
+                        except:
+                            speaks_lock.release()
+            except:
                 self.local_statistics[index("no PoD")] += 1
 
             translators_lock.acquire()
@@ -271,7 +275,8 @@ occupations_file = open(occupations_file_path, 'a')
 log_file = open(log_file_path, 'a')
 
 n_translators = len(translators)
-print("Number of translators: " + str(n_translators))
+print("Number of translators: " + str(n_translators)+"\n")
+log_file.write("Number of translators: " + str(n_translators)+"\n")
 
 # PARALLEL COMPUTATION INITIALIZATION
 threads = []
@@ -303,7 +308,7 @@ place_of_birth_file.close()
 place_of_death_file.close()
 occupations_file.close()
 
-
+'''
 # STATISTICS REPORTING
 print("\n\n*** STATISTICS ***\n")
 for i in range(len(statistics)):
@@ -311,7 +316,7 @@ for i in range(len(statistics)):
         label(i).ljust(16) + ":" + str(statistics[i]) + "  (" + str(round(statistics[i] / n_translators, 2) * 100) + " %)")
 
 total_time = time.time() - total_time
-print("Total_time:\t" + str(round(total_time, 2)) + " sec")
+print("Total_time:\t" + str(round(total_time, 2)) + " sec")'''
 
 # STATISTICS REPORTING
 log_file.write("\n\n*** STATISTICS *** \n")

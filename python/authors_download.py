@@ -73,7 +73,7 @@ class AuthorDownloadThread(threading.Thread):
         for j in range(self.res_min, self.res_max):
             time.sleep(random.random() * 0.1)
             count += 1
-            if (count % 10 == 0):
+            if (count % 100 == 0):
                 print("[Thread " + str(self.id) + "]\t" + "author " + str(j - self.res_min + 1) + "/" + str(
                     self.res_max - self.res_min))
 
@@ -85,7 +85,6 @@ class AuthorDownloadThread(threading.Thread):
                     data = response.json()
                     break
                 except:
-                    print("EXCEPTION " + url)
                     time.sleep(i*0.5)
                     continue
             
@@ -100,29 +99,31 @@ class AuthorDownloadThread(threading.Thread):
 
             # DESCRIPTION
             description = ""
-            if ("descriptions" in data['entities'][author]["claims"]):
-                if ("en" in data['entities'][author]["claims"]["descriptions"]):
-                    description = data['entities'][author]["claims"]["descriptions"]["en"]["value"]
-            elif ("descriptions" in data['entities'][author]):
-                if ("en" in data['entities'][author]["descriptions"]):
-                    description = data['entities'][author]["descriptions"]["en"]["value"]
-            else:
+            try:
+                if ("descriptions" in data['entities'][author]["claims"]):
+                    if ("en" in data['entities'][author]["claims"]["descriptions"]):
+                        description = data['entities'][author]["claims"]["descriptions"]["en"]["value"]
+                elif ("descriptions" in data['entities'][author]):
+                    if ("en" in data['entities'][author]["descriptions"]):
+                        description = data['entities'][author]["descriptions"]["en"]["value"]
+            except:
                 self.local_statistics[index("no description")] += 1
 
             # NAME
             name = ""
-            if ("P1559" in data['entities'][author]["claims"]):
-                name = (data['entities'][author]["claims"]["P1559"][0]["mainsnak"]["datavalue"]["value"]["text"])
-            elif ("P1477" in data['entities'][author]["claims"]):
-                name = (data['entities'][author]["claims"]["P1477"][0]["mainsnak"]["datavalue"]["value"]["text"])
-            else:
+            try:
+                if ("P1559" in data['entities'][author]["claims"]):
+                    name = (data['entities'][author]["claims"]["P1559"][0]["mainsnak"]["datavalue"]["value"]["text"])
+                elif ("P1477" in data['entities'][author]["claims"]):
+                    name = (data['entities'][author]["claims"]["P1477"][0]["mainsnak"]["datavalue"]["value"]["text"])
+            except:
                 name = label
                 self.local_statistics[index("no name")] += 1
 
             # SEX
             sex = ""
-            if ("P21" in data['entities'][author]["claims"]):
-                try:
+            try:
+                if ("P21" in data['entities'][author]["claims"]):
                     sex = (data['entities'][author]["claims"]["P21"][0]["mainsnak"]["datavalue"]["value"]["id"])
                     if sex == 'Q6581097':
                         sex = 'male'
@@ -130,8 +131,8 @@ class AuthorDownloadThread(threading.Thread):
                         sex = 'female'
                     else:
                         self.local_statistics[index("no sex")] += 1
-                except:
-                    self.local_statistics[index("no sex")] += 1
+            except:
+                self.local_statistics[index("no sex")] += 1
 
             # DoB
             DoB = ""
@@ -148,143 +149,152 @@ class AuthorDownloadThread(threading.Thread):
                 self.local_statistics[index("no DoD")] += 1
 
             # PoB
-            if ("P19" in data['entities'][author]["claims"]):
-                for place in data['entities'][author]["claims"]["P19"]:
-                    try:
-                        place_of_birth_lock.acquire()
-                        place_of_birth_file.write(
-                            str(author+";"+place["mainsnak"]["datavalue"]["value"]["id"])+"\n")
-                        place_of_birth_lock.release()
-                        PoB = place["mainsnak"]["datavalue"]["value"]["id"]
-                    except:
-                        place_of_birth_lock.release()
-            else:
+            try:
+                if ("P19" in data['entities'][author]["claims"]):
+                    for place in data['entities'][author]["claims"]["P19"]:
+                        try:
+                            place_of_birth_lock.acquire()
+                            place_of_birth_file.write(
+                                str(author+";"+place["mainsnak"]["datavalue"]["value"]["id"])+"\n")
+                            place_of_birth_lock.release()
+                            PoB = place["mainsnak"]["datavalue"]["value"]["id"]
+                        except:
+                            place_of_birth_lock.release()
+            except:
                 self.local_statistics[index("no PoB")] += 1
 
             # PoD
-            if ("P20" in data['entities'][author]["claims"]):
-                for place in data['entities'][author]["claims"]["P20"]:
-                    try:
-                        place_of_death_lock.acquire()
-                        place_of_death_file.write(
-                            str(author+";"+place["mainsnak"]["datavalue"]["value"]["id"])+ "\n")
-                        place_of_death_lock.release()
-                        PoD=place["mainsnak"]["datavalue"]["value"]["id"]
-                    except:
-                        place_of_death_lock.release()
-            else:
+            try:
+                if ("P20" in data['entities'][author]["claims"]):
+                    for place in data['entities'][author]["claims"]["P20"]:
+                        try:
+                            place_of_death_lock.acquire()
+                            place_of_death_file.write(
+                                str(author+";"+place["mainsnak"]["datavalue"]["value"]["id"])+ "\n")
+                            place_of_death_lock.release()
+                            PoD=place["mainsnak"]["datavalue"]["value"]["id"]
+                        except:
+                            place_of_death_lock.release()
+            except:
                 self.local_statistics[index("no PoD")] += 1
 
             # OCCUPATION
-            if ("P106" in data['entities'][author]["claims"]):
-                for occupation in data['entities'][author]["claims"]["P106"]:
-                    occupation = occupation["mainsnak"]["datavalue"]["value"]["id"]
-                    # retrieve occupation name or retrieve and save it
-                    if occupation in occupations_dict:
-                        occupation_name = occupations_dict[occupation]
-                        file_has_occupation.write(author + ";" + occupation_name + "\n")
-                    else:
-                        for i in range(3):
-                            try:
-                                urlg = "http://www.wikidata.org/wiki/Special:EntityData/" + occupation + ".json"
-                                response_occupation = requests.get(urlg)
-                                data_occupation = response_occupation.json()
-                                break
-                            except:
-                                print("EXCEPTION " + urlg)
-                                time.sleep(i*0.5)
-                                continue
-
+            try:
+                if ("P106" in data['entities'][author]["claims"]):
+                    for occupation in data['entities'][author]["claims"]["P106"]:
                         try:
-                            occupations_dict_lock.acquire()
-                            occupation_name = data_occupation['entities'][occupation]["labels"]["en"]["value"]
-                            occupations_dict[occupation] = occupation_name
-                            file_has_occupation.write(author + ";" + occupation_name + "\n")
-                            occupations_dict_lock.release()
+                            occupation = occupation["mainsnak"]["datavalue"]["value"]["id"]
+                            # retrieve occupation name or retrieve and save it
+                            if occupation in occupations_dict:
+                                occupation_name = occupations_dict[occupation]
+                                file_has_occupation.write(author + ";" + occupation_name + "\n")
+                            else:
+                                for i in range(3):
+                                    try:
+                                        urlg = "http://www.wikidata.org/wiki/Special:EntityData/" + occupation + ".json"
+                                        response_occupation = requests.get(urlg)
+                                        data_occupation = response_occupation.json()
+                                        break
+                                    except:
+                                        print("EXCEPTION " + urlg)
+                                        time.sleep(i*0.5)
+                                        continue
+
+                                try:
+                                    occupations_dict_lock.acquire()
+                                    occupation_name = data_occupation['entities'][occupation]["labels"]["en"]["value"]
+                                    occupations_dict[occupation] = occupation_name
+                                    file_has_occupation.write(author + ";" + occupation_name + "\n")
+                                    occupations_dict_lock.release()
+                                except:
+                                    occupations_dict_lock.release()
                         except:
-                            occupations_dict_lock.release()
-            else:
+                            continue
+            except:
                 self.local_statistics[index("no occupation")] += 1
 
             # GENRES
-            if ("P136" in data['entities'][author]["claims"]):
-                for genre in data['entities'][author]["claims"]["P136"]:
-                    genre = genre["mainsnak"]["datavalue"]["value"]["id"]
-                    # retrieve genre name or retrieve and save it
-                    if genre in genre_dict:
-                        genres_lock.acquire()
-                        gname = genre_dict[genre]
-                        file_has_genres.write(author + ";" + gname + "\n")
-                        genres_lock.release()
-                    else:
-                        for i in range(3):
-                            try:
-                                urlg = "http://www.wikidata.org/wiki/Special:EntityData/" + genre + ".json"
-                                responseg = requests.get(urlg)
-                                datag = responseg.json()
-                                break
-                            except:
-                                time.sleep(i*0.5)
-                                continue
-                        try:
+            try:
+                if ("P136" in data['entities'][author]["claims"]):
+                    for genre in data['entities'][author]["claims"]["P136"]:
+                        genre = genre["mainsnak"]["datavalue"]["value"]["id"]
+                        # retrieve genre name or retrieve and save it
+                        if genre in genre_dict:
                             genres_lock.acquire()
-                            gname = datag['entities'][genre]["labels"]["en"]["value"]
-                            genre_dict[genre] = gname
-                            file_has_genres.write(author+";"+gname+"\n")
+                            gname = genre_dict[genre]
+                            file_has_genres.write(author + ";" + gname + "\n")
                             genres_lock.release()
-                        except:
-                            genres_lock.release()
-            else:
+                        else:
+                            for i in range(3):
+                                try:
+                                    urlg = "http://www.wikidata.org/wiki/Special:EntityData/" + genre + ".json"
+                                    responseg = requests.get(urlg)
+                                    datag = responseg.json()
+                                    break
+                                except:
+                                    time.sleep(i*0.5)
+                                    continue
+                            try:
+                                genres_lock.acquire()
+                                gname = datag['entities'][genre]["labels"]["en"]["value"]
+                                genre_dict[genre] = gname
+                                file_has_genres.write(author+";"+gname+"\n")
+                                genres_lock.release()
+                            except:
+                                genres_lock.release()
+            except:
                 self.local_statistics[index("no genre")] += 1
 
             # AWARDS
-            if ("P166" in data['entities'][author]["claims"]):
-                for award in data['entities'][author]["claims"]["P166"]:
-                    award = award["mainsnak"]["datavalue"]["value"]["id"]
-                    # retrieve award name or retrieve and save it
-                    if award in award_dict:
-                        award_name = award_dict[award]
-                        awards_dict_lock.acquire()
-                        file_has_awards.write(author + ";" + award_name + "\n")
-                        awards_dict_lock.release()
-                    else:
-                        for i in range(3):
-                            try:
-                                url_award = "http://www.wikidata.org/wiki/Special:EntityData/" + award + ".json"
-                                response_award = requests.get(url_award)
-                                data_award = response_award.json()
-                                break
-                            except:
-                                time.sleep(i*0.5)
-                                continue
-
-                        try:
+            try:
+                if ("P166" in data['entities'][author]["claims"]):
+                    for award in data['entities'][author]["claims"]["P166"]:
+                        award = award["mainsnak"]["datavalue"]["value"]["id"]
+                        # retrieve award name or retrieve and save it
+                        if award in award_dict:
+                            award_name = award_dict[award]
                             awards_dict_lock.acquire()
-                            award_name = data_award['entities'][award]["labels"]["en"]["value"]
-                            award_dict[award] = award_name
-                            file_has_awards.write(author+";"+award_name+"\n")
+                            file_has_awards.write(author + ";" + award_name + "\n")
                             awards_dict_lock.release()
-                        except:
-                            awards_dict_lock.release()
-            else:
+                        else:
+                            for i in range(3):
+                                try:
+                                    url_award = "http://www.wikidata.org/wiki/Special:EntityData/" + award + ".json"
+                                    response_award = requests.get(url_award)
+                                    data_award = response_award.json()
+                                    break
+                                except:
+                                    time.sleep(i*0.5)
+                                    continue
+
+                            try:
+                                awards_dict_lock.acquire()
+                                award_name = data_award['entities'][award]["labels"]["en"]["value"]
+                                award_dict[award] = award_name
+                                file_has_awards.write(author+";"+award_name+"\n")
+                                awards_dict_lock.release()
+                            except:
+                                awards_dict_lock.release()
+            except:
                 self.local_statistics[index("no award")] += 1
 
             # INFLUENCING AUTHORS
-            if ("P737" in data['entities'][author]["claims"]):
-                for influencing_author  in data['entities'][author]["claims"]["P737"]:
-                    try:
-                        if influencing_author["mainsnak"]["datavalue"]["value"]["id"] in authors:
-                            influenced_by_lock.acquire()
-                            influenced_by_file.write(author + ";" + influencing_author["mainsnak"]["datavalue"]["value"]["id"] + "\n")
+            try:
+                if ("P737" in data['entities'][author]["claims"]):
+                    for influencing_author  in data['entities'][author]["claims"]["P737"]:
+                        try:
+                            if influencing_author["mainsnak"]["datavalue"]["value"]["id"] in authors:
+                                influenced_by_lock.acquire()
+                                influenced_by_file.write(author + ";" + influencing_author["mainsnak"]["datavalue"]["value"]["id"] + "\n")
+                                influenced_by_lock.release()
+                        except:
                             influenced_by_lock.release()
-                    except:
-                        influenced_by_lock.release()
-            else:
+            except:
                 self.local_statistics[index("no PoB")] += 1
-            
-            # ID
 
+            authors_lock.acquire()
             authors_file.write(str(author)+";"+label.replace(";"," ")+";"+description.replace(";"," ")+";"+name.replace(";"," ")+";"+sex+";"+DoB+";"+DoD+"\n")
+            authors_lock.release()
 
     def join(self):
         Thread.join(self)
@@ -368,7 +378,8 @@ log_file = open(log_file_path, 'a')
 
 
 n_authors = len(authors)
-print("Number of authors: " + str(n_authors))
+print("Number of authors: " + str(n_authors)+"\n")
+log_file.write("Number of authors: " + str(n_authors)+"\n")
 
 # PARALLEL COMPUTATION
 threads = []
@@ -407,7 +418,7 @@ processed_humans_file.close()
 save_obj(occupations_dict, 'occupations')
 save_obj(award_dict, 'awards')
 save_obj(genre_dict, 'genres')
-
+'''
 # STATISTICS REPORTING
 print("\n\n*** STATISTICS ***\n")
 for i in range(len(statistics)):
@@ -415,7 +426,7 @@ for i in range(len(statistics)):
         label(i).ljust(16) + ":" + str(statistics[i]) + "  (" + str(round(statistics[i] / n_authors, 2) * 100) + " %)")
 
 total_time = time.time() - total_time
-print("Total_time:\t" + str(round(total_time, 2)) + " sec")
+print("Total_time:\t" + str(round(total_time, 2)) + " sec")'''
 
 # STATISTICS REPORTING
 log_file.write("\n\n*** STATISTICS *** \n")

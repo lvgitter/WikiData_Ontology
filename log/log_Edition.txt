@@ -1,13 +1,13 @@
-2018-07-25 09:18:57
+2018-07-25 16:54:46
 
-Number of results: 169
+Number of editions: 3201
 
 
 *** STATISTICS *** 
 no title        :0  (0.0 %) 
-no label        :21  (12.0 %) 
-no description  :0  (0.0 %) 
-no translator   :123  (73.0 %) 
-no publisher    :113  (67.0 %) 
-no illustrator  :168  (99.0 %) 
-Total_time:	5.38 sec
+no label        :1383  (43.0 %) 
+no description  :3201  (100.0 %) 
+no translator   :1  (0.0 %) 
+no publisher    :1  (0.0 %) 
+no illustrator  :1  (0.0 %) 
+Total_time:	1532535225.88 sec

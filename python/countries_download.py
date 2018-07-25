@@ -70,43 +70,47 @@ class myThread (threading.Thread):
                 self.local_statistics[index("no label")] += 1
 
             # DESCRIPTION
-            description = ""
-            if ("descriptions" in data['entities'][country_id]["claims"]):
-                if ("en" in data['entities'][country_id]["claims"]["descriptions"]):
-                    description = data['entities'][country_id]["claims"]["descriptions"]["en"]["value"]
-            elif ("descriptions" in data['entities'][country_id]):
-                if ("en" in data['entities'][country_id]["descriptions"]):
-                    description = data['entities'][country_id]["descriptions"]["en"]["value"]
-            else:
+            try:
+                description = ""
+                if ("descriptions" in data['entities'][country_id]["claims"]):
+                    if ("en" in data['entities'][country_id]["claims"]["descriptions"]):
+                        description = data['entities'][country_id]["claims"]["descriptions"]["en"]["value"]
+                elif ("descriptions" in data['entities'][country_id]):
+                    if ("en" in data['entities'][country_id]["descriptions"]):
+                        description = data['entities'][country_id]["descriptions"]["en"]["value"]
+            except:
                 self.local_statistics[index("no description")] += 1
 
             # POPULATION
             population = ""
-            if ("P1082" in data['entities'][country_id]["claims"]):
-                population = (data['entities'][country_id]["claims"]["P1082"][0]["mainsnak"]["datavalue"]["value"]["amount"][1:])
-            else:
+            try:
+                if ("P1082" in data['entities'][country_id]["claims"]):
+                    population = (data['entities'][country_id]["claims"]["P1082"][0]["mainsnak"]["datavalue"]["value"]["amount"][1:])
+            except:
                 self.local_statistics[index("no population")] += 1
             
             
             # AREA
             area = ""
-            if ("P2046" in data['entities'][country_id]["claims"]):
-                area = (data['entities'][country_id]["claims"]["P2046"][0]["mainsnak"]["datavalue"]["value"]["amount"][1:])
-            else:
+            try:
+                if ("P2046" in data['entities'][country_id]["claims"]):
+                    area = (data['entities'][country_id]["claims"]["P2046"][0]["mainsnak"]["datavalue"]["value"]["amount"][1:])
+            except:
             	self.local_statistics[index("no area")] += 1
 
             
             # LANGUAGE
-            if ("P37" in data['entities'][country_id]["claims"]):
-                for lang in data['entities'][country_id]["claims"]["P37"]:
-                    try:
-                        langs_file_lock.acquire()
-                        file_langs_out.write(
-                            str(str(country_id)+";"+lang["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
-                        langs_file_lock.release()
-                    except:
-                        langs_file_lock.release()
-            else:
+            try:
+                if ("P37" in data['entities'][country_id]["claims"]):
+                    for lang in data['entities'][country_id]["claims"]["P37"]:
+                        try:
+                            langs_file_lock.acquire()
+                            file_langs_out.write(
+                                str(str(country_id)+";"+lang["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
+                            langs_file_lock.release()
+                        except:
+                            langs_file_lock.release()
+            except:
                 self.local_statistics[index("no language")] += 1
                 
             file_out_lock.acquire()
@@ -158,8 +162,8 @@ file_langs_out = open(file_langs_path, 'a')
 
 n_results = len(countries)
 
-print("Number of countries: " + str(n_results))
-file_log.write("Number of countries: " + str(n_results))
+print("Number of countries: " + str(n_results)+"\n")
+file_log.write("Number of countries: " + str(n_results)+"\n")
 
 #PARALLEL COMPUTATION INITIALIZATION
 threads = []
@@ -188,14 +192,14 @@ processed_countries_file.close()
 #CLOSING OUTPUT FILES
 file_out.close()
 file_langs_out.close()
-
+'''
 #STATISTICS REPORTING
 print("\n\n*** STATISTICS ***\n")
 for i in range(len(statistics)):
     print(label(i).ljust(16)+":"+str(statistics[i])+"  ("+str(round(statistics[i]/n_results,2)*100)+" %)")
 
 total_time = time.time() - total_time
-print("Total_time:\t"+str(round(total_time,2))+" sec")
+print("Total_time:\t"+str(round(total_time,2))+" sec")'''
 
 #STATISTICS REPORTING
 file_log.write("\n\n*** STATISTICS *** \n")

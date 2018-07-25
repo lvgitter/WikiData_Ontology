@@ -1,66 +1,4109 @@
 author_id;genre
-Q732338;novel
-Q228624;speculative fiction
-Q235291;biography
-Q102513;novel
-Q295431;satire
-Q311145;style of Machado de Assis
-Q102513;tale
-Q102513;short story
-Q1512;adventure novel
-Q295431;detective fiction
-Q23434;prose
-Q23434;opinion journalism
-Q1512;gothic fiction
-Q46248;fantasy
-Q240576;children's literature
-Q82104;detective fiction
+Q3773066;poetry
+Q11666860;prose
+Q311744;detective fiction
+Q1386265;post-rock
+Q35610;gothic fiction
+Q3165136;young adult literature
+Q2419093;musical film
+Q997464;hard rock
+Q456473;romance novel
+Q117018;poetry
+Q630454;detective fiction
+Q127609;poetry
+Q18559966;novel
+Q331733;nu metal
+Q313135;nu metal
+Q705830;novel
+Q258096;romance novel
+Q922071;science fiction
+Q351168;science fiction
+Q2274948;mythological painting
+Q185696;gothic fiction
+Q272;novel
+Q319461;short story
+Q319461;novel
+Q3277452;chanson
+Q357839;science fiction
+Q1344495;science fiction
+Q191819;rock music
+Q299200;poetry
+Q1029714;powest
+Q1029714;short story
+Q181659;science fiction
+Q181659;fantasy
+Q1822007;prose
+Q1822007;dramaturgy
+Q7982623;romance novel
+Q4073010;speculative fiction
+Q971447;speculative fiction
+Q971447;detective fiction
+Q971447;esotericism
+Q971447;historical novel
+Q4522419;speculative fiction
+Q449;chanson
+Q16012037;novel
+Q16012037;short story
+Q645167;jazz
+Q721753;short story
+Q721753;novel
+Q23017315;jazz
+Q23017315;classical music
+Q313758;lyric poetry
+Q246594;jazz
+Q1152905;crime novel
+Q235899;science fiction
+Q235899;fantasy
+Q4083185;children's literature
+Q6702342;Western
+Q47619;novel
+Q1371735;post-punk
+Q1371735;rock music
+Q458509;fantasy
+Q5928154;novel
+Q941438;speculative fiction
+Q968184;novel
+Q968184;powest
+Q61453;speculative fiction
+Q161933;novel
+Q583814;prose
+Q140412;metaphysical poets
+Q6984190;young adult literature
+Q5931843;poetry
+Q150445;opera
+Q150445;symphony
+Q114509;children's literature
+Q69973;short story
+Q69973;play
+Q69973;essay
+Q69973;novel
+Q1185256;De Vijftigers
+Q15266701;erotica
+Q188646;poetry
+Q734397;novel
+Q1975019;science fiction novel
+Q2419891;narrative poetry
+Q4720749;romance novel
 Q42;science fiction
-Q170509;gothic fiction
 Q42;comedy
 Q42;satire
-Q210059;fantasy
-Q28170;speculative fiction
-Q39829;horror literature
-Q39829;fantasy
-Q39829;science fiction
-Q42831;short story
-Q105118;drama
-Q181677;science fiction
-Q39829;drama
-Q35064;crime novel
-Q35064;detective fiction
-Q35064;adventure novel
-Q35064;autobiography
-Q42831;powest
-Q42831;novel
+Q469283;novel
+Q469283;short story
+Q469283;essay
+Q85361;novel
+Q9648111;slave narrative
+Q2993752;powest
+Q17094091;novel
+Q3568581;children's literature
+Q4317718;children's literature
+Q4317718;powest
+Q4317718;fairy tale
+Q4317718;short story
+Q4317718;play
+Q274348;narrative
+Q274348;erotic novel
+Q274348;short story
+Q274348;chronicle
+Q274348;novel
+Q675108;doom metal
+Q43227;fantasy
+Q132524;objectivism
+Q132524;dystopia
+Q5893567;novel
+Q2372229;science fiction
+Q152929;rock music
+Q152929;heavy metal
+Q152929;hard rock
+Q378309;short story
+Q378309;powest
+Q378309;novel
+Q152929;prog rock
+Q3328249;novel
+Q715383;illustrator
+Q376859;science fiction
+Q2474166;diary
+Q193357;gothic fiction
+Q4100082;poetry
+Q425644;short story
+Q271905;Captivity narrative
+Q48226;Transcendentalism
+Q1381427;novel
+Q18155806;romance novel
+Q62742;detective fiction
+Q189991;alternative rock
+Q189991;reggae
+Q189991;art pop
+Q189991;electronica
+Q189991;hip hop music
+Q189991;trip hop
+Q7614549;novel
+Q219124;fantasy
+Q219124;horror film
+Q219124;drama
+Q195236;poetry
+Q195236;novel
+Q2682485;abstract art
+Q1140743;novel
+Q1140743;youth and children's literature
+Q419501;Liri
+Q219646;novel
+Q268755;fantasy
+Q224113;novel
+Q182870;detective fiction
+Q4263049;novel
+Q6056058;novel
+Q9068;novel
+Q3385917;novel
+Q4392571;fantasy
+Q5300251;alternative rock
+Q5300251;comedy
+Q5683;poetry
+Q535423;poetry
+Q535423;novel
+Q888561;jazz
+Q7803716;fiction
+Q2622688;satire
+Q2622688;parody
+Q3614333;novel
+Q762134;play
+Q762134;short story
+Q237196;fantasy
+Q237196;adventure fiction
+Q23114;essay
+Q23114;short story
+Q4421889;fantasy
+Q192308;punk rock
+Q192308;indie rock
+Q463630;novel
+Q347461;science fiction literature
+Q347461;military science fiction
+Q312242;science fiction
+Q4516103;science fiction
+Q31628;poetry
+Q31628;verse
+Q31628;narrative poetry
+Q5367778;romance novel
+Q3177043;romance novel
+Q1344012;poetry
+Q311755;thriller
+Q334219;crime fiction
+Q334219;mystery fiction
+Q254635;science fiction
+Q254635;fantasy
+Q308711;essay
+Q58612;novel
+Q58612;poetry
+Q457092;detective fiction
+Q273055;hip hop music
+Q291890;romance novel
+Q312637;novel
+Q2027528;novel
+Q2622356;poetry
+Q3039682;novel
+Q3506620;novel
+Q3506620;short story
+Q3506620;essay
+Q329066;novel
+Q329066;youth and children's literature
+Q5961285;short story
+Q1393388;novel
+Q1805285;novel
+Q1805285;short story
+Q1805285;novella
+Q5942792;novel
+Q19743033;speculative fiction
+Q695653;canzone Napoletana
+Q184785;gothic fiction
+Q2086431;French rock
+Q164047;poetry
+Q560371;short story
+Q342778;pop music
+Q633;country music
+Q633;grunge
+Q633;rock music
+Q633;experimental rock
+Q633;blues
+Q633;techno
+Q3572044;young adult literature
+Q633;folk rock
+Q3812966;historical novel
+Q633;country rock
+Q633;Southern rock
+Q633;hard rock
+Q252049;poetry
+Q252049;novel
+Q151113;pop music
+Q151113;dance-pop
+Q2777549;novel
+Q2886798;horror literature
+Q148234;science fiction
+Q148234;fantasy
+Q148234;adventure novel
+Q2760284;short story
+Q4508204;romance novel
+Q711137;science fiction
+Q4439957;play
+Q4439957;historical novel
+Q1059718;folk music
+Q1059718;kayōkyoku
+Q514080;children's literature
+Q2902847;children's literature
+Q350978;play
+Q350978;prose
+Q350978;poetry
+Q19981232;jazz
+Q2010;shōnen manga
+Q3643246;crime novel
+Q6810637;country music
+Q3099660;romance novel
+Q1369803;novel
+Q1369803;short story
+Q3175156;novel
+Q4354430;children's song
+Q736570;poetry
+Q132984;narrative poetry
+Q171091;science fiction literature
+Q171091;science fiction
+Q5364647;rock music
+Q356986;rock music
+Q559531;popular science literature
+Q236606;essay
+Q318470;powest
+Q1203;rock music
+Q1203;blues rock
+Q1203;experimental music
+Q1203;pop music
+Q320224;pop music
+Q1203;pop rock
+Q315744;opera
+Q9025151;novel
+Q473030;romance novel
+Q1203;art rock
+Q235014;chick lit
+Q692217;police procedural
+Q1203;psychedelic rock
+Q222744;poetry
+Q1203;rock and roll
+Q7324421;poetry
+Q519357;detective fiction
+Q1203;beat music
+Q1203;hard rock
+Q1203;experimental rock
+Q102564;prose
+Q366296;short story
+Q299347;novel
+Q6519;detective novel
+Q106083;novel
+Q373836;science fiction literature
+Q2528674;novel
+Q2528674;essay
+Q2528674;children's literature
+Q21334712;novel
+Q312883;new wave music
+Q103774;Hindustani classical music
+Q4020069;travel literature
+Q312883;soul music
+Q312883;pop music
+Q656292;poetry
+Q312387;rock music
+Q312387;punk rock
+Q312883;soft rock
+Q312883;disco
+Q234865;crime novel
+Q108912;blues rock
+Q108912;rock music
+Q108912;jazz
+Q312883;dance music
+Q185085;poetry
+Q185085;dramaturgy
+Q2302368;rhythm and blues
+Q347128;pop music
+Q347128;pop rock
+Q4218946;science fiction
+Q188111;J-pop
+Q315069;science fiction
+Q540166;horror literature
+Q84208;novel
+Q49496;fable
+Q49496;tale
+Q113022;play
+Q113022;prose
+Q4890229;children's literature
+Q3619926;play
+Q3619926;short story
+Q3619926;essay
+Q15428994;romance novel
+Q7327311;horror film
+Q1979276;article
+Q49575;jazz
+Q711974;landscape art
+Q468003;poetry
+Q468003;novel
+Q49575;bebop
+Q734092;novel
+Q49575;Afro-Cuban jazz
+Q76820;play
+Q51510;audio drama
+Q841664;science fiction
+Q5951962;novel
+Q727756;rock music
+Q1508039;detective fiction
+Q294773;comedy-drama
+Q355676;novel
+Q355676;theatre
+Q355676;literary criticism
+Q18062304;crime novel
+Q19845;pop music
+Q1713908;opera
+Q2655029;poetry
+Q446943;novel
+Q446943;youth and children's literature
+Q1713908;art music
+Q4885665;novel
+Q4885665;short story
+Q1672737;prose
+Q708629;marine art
+Q1713908;ballet
+Q3050728;novel
+Q1037372;politics
+Q54828;novel
+Q54828;scientific literature
+Q54828;short story
+Q298827;reportage
+Q381884;pop music
+Q35900;Ruba'i
+Q4898133;romance novel
+Q317631;speculative fiction
+Q333873;powest
+Q333873;fairy tale
+Q333873;novel
+Q333873;play
+Q333873;short story
+Q333873;ocherk
+Q333873;opinion journalism
+Q29418;poetry
+Q169150;historical novel
+Q1157672;novel
+Q4160428;horror literature
+Q4315797;speculative fiction
+Q180727;aleatoric music
+Q180727;opera
+Q180727;classical music
+Q180727;electronic music
+Q180727;experimental music
+Q1399133;science fiction
+Q180727;musique concrète
+Q7833;jazz
+Q180727;avant-garde music
+Q656476;magic realism
+Q180727;performance art
+Q509002;Lovecraftian horror
+Q180727;20th-century classical music
+Q335436;novel
+Q335436;conte
+Q335436;diary
+Q335436;essay
+Q1243368;novel
+Q34981;science fiction
+Q131725;folk music
+Q131725;country music
+Q131725;ballad
+Q4217805;powest
+Q447902;novel
+Q2846545;comic
+Q1896281;children's literature
+Q183167;fantasy literature
+Q598029;historical novel
+Q2749547;short story
+Q16981643;romance novel
+Q298033;verse drama
+Q298033;verse
+Q17460798;novel
+Q4337560;short story
+Q37060;novel
+Q14627518;novel
+Q188875;poetry
+Q505568;indie rock
+Q1138661;novel
+Q1138661;crime novel
+Q586756;science fiction
+Q601304;fantasy
+Q7086751;poetry
+Q262199;fantasy
+Q1332098;espionage novel
+Q1332098;war novel
+Q74042;Middle of the road
+Q74042;chanson
+Q781634;country music
+Q16202366;prose
+Q2092466;fantasy
+Q180223;historical novel
+Q295400;opera
+Q295400;symphony
+Q7839350;news satire
+Q7839350;political satire
+Q3809058;detective fiction
+Q7839350;observational comedy
+Q7839350;black comedy
+Q19664131;prose
+Q7839350;insult comedy
+Q2330022;non-fiction literature
+Q263552;children's literature
+Q7839350;deadpan
+Q7839350;surreal humour
+Q36591;satire
+Q1384133;novel
+Q152505;symphony
+Q184805;rock music
+Q454920;romance novel
+Q3047356;rock and roll
+Q725933;detective fiction
+Q725933;prose
+Q2627391;political journalism
+Q2627391;crime novel
+Q2627391;fantasy
+Q2627391;speculative fiction
+Q2627391;detective fiction
+Q3029392;fantasy
+Q5695740;novel
+Q205739;comic
+Q3327485;novel
+Q24261;detective literature
+Q3143113;poetry
+Q93450;horror literature
+Q93450;magic realism
+Q318297;detective fiction
+Q1185444;novel
+Q1185444;theatre
+Q7188520;romance novel
+Q237235;detective fiction
+Q2669586;poetry
+Q6051884;novel
+Q20887891;novel
+Q20887891;autobiography
+Q436796;youth and children's literature
+Q170302;ghazal
+Q4137236;novel
+Q4137236;screenplay
+Q16734402;young adult literature
+Q16734402;horror literature
+Q2599;rock music
+Q2599;rock and roll
+Q2599;art rock
+Q2599;psychedelic rock
+Q2599;pop rock
+Q2599;classical music
+Q649014;speculative fiction
+Q353137;fantasy
+Q314416;science fiction literature
+Q1238618;novel
+Q919069;techno
+Q175104;pop music
+Q346607;punk rock
+Q346607;hip hop music
+Q365709;opera
+Q2576435;hip hop music
+Q238438;science fiction
+Q238438;fantasy
+Q191912;pop rock
+Q605564;verse
+Q605564;narrative poetry
+Q313673;science fiction literature
+Q6060;hip hop music
+Q1412300;prose
+Q11975;pop music
+Q11975;dance-pop
+Q95231;novel
+Q95231;audio drama
+Q95231;powest
+Q770423;short story
+Q3298726;fantasy
+Q3298726;science fiction
+Q11975;electropop
+Q11975;electronic music
+Q11975;pop rock
+Q11975;teen pop
+Q233566;romance novel
+Q12054;prose
+Q26933;rock music
+Q40640;science fiction
+Q40640;fantasy
+Q40640;horror literature
+Q5582798;novel
+Q5582798;crime novel
+Q5582798;espionage novel
+Q322551;prose
+Q322551;comic
+Q723761;novel
+Q333123;horror literature
+Q4156847;adventure novel
+Q16525162;novel
+Q1358834;fairy tale
+Q1358834;historical novel
+Q5909132;short story
+Q555298;fantasy
+Q736990;novel
+Q736990;essay
+Q49637;novel
+Q389454;poetry
+Q721345;horror literature
+Q4064800;novel
+Q5041040;romance novel
+Q7380368;novel
+Q4749185;cooking show
+Q458658;fantasy
+Q458658;science fiction
+Q71618;play
+Q71618;novel
+Q4766601;novel
+Q235354;historical novel
+Q2517956;horror literature
+Q2517956;science fiction
+Q5084448;science fiction
+Q253702;Mandopop
+Q186779;novel
+Q723275;novel
+Q5396363;poetry
+Q5365986;floral painting
+Q115683;drama
+Q44695;novel
+Q971735;detective fiction
+Q444876;Modernist literature
+Q740256;novel
+Q740256;essay
+Q937000;science fiction
+Q315826;hip hop music
+Q446121;romance novel
+Q721300;comic
+Q6070269;romance novel
+Q2915105;eclecticism
+Q208101;satire
+Q208101;black comedy
+Q2577687;science fiction
+Q5752702;novel
+Q47899;pop music
+Q446941;science fiction
+Q298229;horror literature
+Q94280;speculative fiction
+Q437970;rock music
+Q3052385;science fiction
+Q131324;pop music
+Q131324;soul music
+Q505677;rock music
+Q505677;alternative rock
+Q505677;experimental rock
+Q131324;house music
+Q505677;noise rock
+Q272931;country music
+Q930301;crime novel
+Q131324;contemporary R&B
+Q131324;dance music
+Q505677;no wave
+Q7965359;novel
+Q505677;noise music
+Q505677;avant-garde music
+Q316644;soul music
+Q2849011;novel
+Q2849011;play
+Q2849011;poetry
+Q746217;Bijinga
+Q5470470;poetry
+Q5470470;novel
+Q746217;Shunga
+Q746217;Meisho-e
+Q3556005;noir novel
+Q3556005;erotic literature
+Q3556005;hardboiled
+Q746217;genre painting
+Q746217;book illustration
+Q746217;Nikuhitsuga
+Q23434;prose
+Q23434;opinion journalism
+Q746217;ukiyo-e
+Q19975696;autobiography
+Q219377;romance novel
+Q372313;essay
+Q372313;novel
+Q664673;science fiction
+Q181573;memoir
+Q181573;prose
+Q181573;satire
+Q553730;detective fiction
+Q181573;essay
+Q181573;aphorism
+Q4133240;novel
+Q430980;opinion journalism
+Q430980;powest
+Q430980;short story
+Q430980;novel
+Q430980;fairy tale
+Q430980;play
+Q72653;romance novel
+Q4076281;novel
+Q4076281;powest
+Q4076281;play
+Q4076281;narrative poetry
+Q4076281;verse
+Q60984;prose
+Q3398670;dramaturgy
+Q438141;madrigal
+Q7176;novel
+Q7176;short story
+Q30875;comedy
+Q30875;gothic fiction
+Q438141;anthem
+Q586362;detective fiction
+Q713647;poetry
+Q529583;novel
+Q529583;short story
+Q437174;novel
+Q529583;drama play
+Q529583;screenplay
+Q529583;flash fiction
+Q529583;essay
+Q742923;alternative rock
+Q7734307;hardcore punk
+Q468662;poetry
+Q1281119;Western
+Q66213;novel
+Q66213;essay
+Q568497;treatise
+Q18593;alternative rock
+Q467404;adventure novel
+Q107002;novel
+Q107002;short story
+Q107002;satire
+Q107002;travel book
+Q107002;biography
+Q6535633;children's literature
+Q261397;poetry
+Q80135;opera
+Q80135;symphony
+Q937610;essay
+Q59054;science fiction
+Q5107817;heavy metal
+Q80135;chamber music
+Q16204354;science fiction
+Q484523;alternative rock
+Q310166;rock music
+Q60128;prose
+Q60128;novel
+Q60128;powest
+Q60128;short story
+Q60128;ocherk
+Q60128;opinion journalism
+Q1395161;novel
+Q266075;fantasy
+Q12017362;science fiction
+Q1377191;short story
+Q127332;novel
+Q372533;speculative fiction
+Q372533;historical mystery
+Q372533;biography
+Q187166;drama
+Q187166;essay
+Q46599;verse
+Q46599;narrative poetry
+Q181881;J-pop
+Q231356;romance novel
+Q209641;espionage novel
+Q209641;detective fiction
+Q209641;spy fiction
+Q2004931;poetry
+Q268582;novel
+Q236233;detective fiction
+Q170509;gothic fiction
+Q331748;rock music
+Q331748;traditional heavy metal
+Q713747;novel
+Q5460344;novel
+Q468054;hard rock
+Q331748;glam metal
+Q331748;rap metal
+Q331748;nu metal
+Q1285626;science fiction
+Q453329;science fiction
+Q2210595;prose
+Q2210595;verse
+Q2210595;opinion journalism
+Q2427845;rock music
+Q2427845;pop music
+Q207824;black metal
+Q15513166;novel
+Q15513166;short story
+Q15513166;memoir
+Q259653;romance novel
+Q207824;dark ambient
+Q77319;novel
+Q77319;prose
+Q207824;thrash metal
+Q207824;death metal
+Q319746;novel
+Q1657241;novel
+Q15007932;essay
+Q15007932;pamphlet
+Q20873769;crime novel
+Q7129086;romance novel
+Q259841;poetry
+Q713778;alternate history
+Q6833449;non-fiction book
+Q6833449;biography
+Q6833449;essay
+Q6833449;novel
+Q16034473;manhwa
+Q705827;short story
+Q907963;fairy tale
+Q1462615;children's literature
+Q2055329;chanson
+Q72543;symphony
+Q72543;classical music
+Q318429;essay
+Q293109;crime novel
+Q293109;historical romance
+Q293109;detective fiction
+Q293109;historical novel
+Q72543;liturgical music
+Q506430;poetry
+Q506430;novel
+Q506430;short story
+Q464213;contemporary Christian music
+Q1727806;horror literature
+Q380506;comedy
+Q380506;memoir
+Q1984946;historical romance
+Q714185;pop music
+Q376210;essay
+Q376210;commentary
+Q376210;translation
+Q2749927;alternative rock
+Q334958;erotica
+Q1029497;science fiction
+Q1029497;fantasy
+Q2221096;speculative fiction
+Q9204;mirabilia
+Q9204;fantasy
+Q9204;science fiction
+Q9204;apologetics
+Q1163069;science fiction
+Q1163069;fantasy
+Q1163069;fantastic
+Q465028;Antiglobalization
+Q441214;romance novel
+Q368812;novel
+Q368812;powest
+Q368812;short story
+Q368812;play
+Q368812;fairy tale
+Q368812;ocherk
+Q321372;novel
+Q321372;magic realism
+Q321372;detective fiction
+Q457532;poetry
+Q316217;novel
+Q223949;novel
+Q437370;romance novel
+Q2388709;short story
+Q17907972;children's literature
+Q569003;ambient music
+Q290374;children's literature
+Q290374;young adult literature
+Q466234;novel
+Q2426087;prose
+Q2426087;play
+Q318487;detective fiction
+Q151573;portrait
+Q1394484;detective fiction
+Q1394484;thriller
+Q243771;poetry
+Q243771;dramaturgy
+Q444893;novel
+Q77214;play
+Q77214;poetry
+Q444893;greguería
 Q42511;science fiction
-Q39829;epistolary genre
-Q39829;gothic fiction
-Q42831;elegy
-Q42831;drama
-Q39829;post-apocalyptic fiction
-Q39829;thriller
-Q39829;detective fiction
-Q34660;fantasy
-Q34660;tragicomedy
-Q34660;crime novel
-Q47484;novel
-Q173540;romance novel
-Q134798;novel
+Q181677;science fiction
+Q182804;neo-romanticism
+Q182804;gothic fiction
+Q182804;magic realism
+Q289391;novel
+Q289391;short story
+Q6306433;novel
+Q262561;detective fiction
+Q4244170;powest
+Q8209355;novel
+Q468202;jazz
+Q559409;fantasy
+Q3087837;essay
+Q317491;science fiction
+Q704399;rock music
+Q2470299;fantasy novel
+Q2470299;science fiction novel
+Q2470299;horror novel
+Q1997461;theater
+Q204868;science fiction literature
+Q204868;political satire
+Q940958;science fiction
+Q940958;fantasy
+Q940958;dystopia
+Q940958;historical fiction
+Q452206;romance novel
+Q188492;vocal music
+Q1444345;science fiction
+Q333719;thriller
+Q1485988;powest
+Q2632;rock music
+Q2632;pop rock
+Q187019;novel
+Q187019;poetry
+Q76699;novel
+Q297736;poetry
+Q297736;prose
+Q4724680;short story
+Q4724680;novel
+Q6768895;novel
+Q6768895;screenplay
+Q705090;poetry
+Q705090;essay
+Q444365;hip hop music
+Q1394078;picaresque novel
+Q1394078;literary realism
+Q1394078;opinion journalism
+Q1110463;horror literature
+Q598485;fantasy
+Q368127;novel
+Q315059;science fiction
+Q347250;poetry
+Q452404;novel
+Q260420;detective fiction
+Q281411;Marcinelle school
+Q2978153;novel
+Q2978153;short story
+Q2978153;tale
+Q20968412;essay
+Q3156452;rock music
+Q1386445;powest
+Q2421158;short story
+Q1797771;science fiction
+Q92109;prose
+Q306759;landscape art
+Q311401;novel
+Q12589210;criticism
+Q19330;novel
+Q19330;essay
+Q13563113;novel
+Q13563113;short story
+Q123108;crime novel
+Q471948;novel
+Q471948;short story
+Q23304385;novel
+Q23304385;short story
+Q23304385;essay
+Q238941;New Age music
+Q4074179;hyperrealism
+Q737442;crime novel
+Q240570;alternative rock
+Q4074179;neo-expressionism
+Q6178155;romance novel
+Q5994285;poetry
+Q3354461;extreme metal
+Q1502891;novel
+Q1502891;essay
+Q514183;prose
+Q43718;drama
+Q43718;prose
+Q445930;fantasy
+Q720317;speculative fiction
+Q6418942;country music
+Q706999;novel
+Q2265116;short story
+Q2265116;novel
+Q2318799;detective fiction
+Q724517;hard rock
+Q214831;pop music
+Q2993820;short story
+Q441056;novel
+Q465257;rock music
 Q909;poetry
 Q909;short story
-Q5682;poetry
-Q5682;novel
-Q5682;tragedy
+Q557;punk rock
+Q319277;rock music
+Q3369484;novel
+Q3369484;autobiography
+Q76546;children's literature
+Q233424;chivalric romance
+Q233424;fantasy
+Q1443070;science fiction
+Q233424;mysticism
+Q233424;horror literature
+Q233424;science fiction
+Q316997;memoir
+Q240174;short story
+Q240174;powest
+Q240174;novel
+Q46248;fantasy
+Q134798;novel
+Q130779;science fiction
+Q5216262;novel
+Q131149;Transcendentalism
+Q311591;comedy
+Q2401060;novel
+Q3051104;romance novel
+Q2517291;novel
+Q2517291;theatre
+Q2517291;poetry
+Q982133;speculative fiction
+Q132589;poetry
+Q132589;novel
+Q272581;crossover
+Q272581;classical music
+Q272581;opera
+Q4908734;pop rock
+Q468247;epitaph
+Q260006;fairy tale
+Q5489059;punk rock
+Q464409;novel
+Q1703852;novel
+Q2827435;short story
+Q2827435;fantasy
+Q119957;opera
+Q263807;short story
+Q354148;fairy tale
+Q4910037;picture book
+Q122644;wordless novel
+Q1359038;detective fiction
+Q946733;science fiction
+Q983243;novel
+Q517682;biography
+Q1242948;novel
+Q1242948;essay
+Q312627;drama
+Q3732112;science fiction
+Q465700;short story
+Q1530559;prose
+Q514546;fantasy literature
+Q460602;romance novel
+Q744242;alternative rock
+Q231530;pop music
+Q93959;poetry
+Q93959;novel
+Q140135;prose
+Q1253264;powest
+Q1253264;satire
+Q5685;short story
+Q5685;powest
+Q5685;play
+Q236660;detective fiction
+Q912602;science fiction
+Q41166;satire
+Q41166;essay
+Q41166;pamphlet
+Q436664;science fiction
+Q436664;fantasy
+Q234700;science fiction
+Q3159741;novel
+Q3159741;short story
+Q2042700;short story
+Q641740;young adult literature
+Q641740;fantasy
+Q242130;poetry
+Q366765;narrative poetry
+Q7159564;poetry
+Q7422552;romance novel
+Q82349;detective fiction
+Q3828147;novel
+Q3828147;essay
+Q443109;fantasy
+Q6530;science fiction literature
+Q497925;science fiction
+Q225089;thriller
+Q2151644;speculative fiction
+Q290306;short story
+Q460425;romance novel
+Q460425;essay
+Q1512;adventure novel
+Q1512;gothic fiction
+Q159967;poetry
+Q561116;poetry
+Q561116;novel
+Q234819;short story
+Q242571;romance novel
+Q242571;children's literature
+Q16867;detective fiction
+Q16867;gothic fiction
+Q16867;Dark romanticism
+Q509515;detective fiction
+Q151872;short story
+Q219948;shōnen manga
+Q47152;novel
+Q47152;travel book
+Q47152;short story
+Q47152;gothic fiction
+Q47152;gothic literature
+Q47152;speculative fiction
+Q1981210;horror literature
+Q134644;poetry
+Q825140;linguistics
+Q1044648;young adult literature
+Q44647;fairy tale
+Q1044648;girls adventure stories
+Q1044648;mystery fiction
+Q15703238;romance novel
+Q1378879;vaudeville
+Q5055993;indie rock
+Q3430640;horror literature
+Q1353956;science fiction literature
+Q1353956;crime novel
+Q1333332;youth and children's literature
+Q158394;short story
+Q158394;novel
+Q5913209;opinion journalism
+Q101022;prose
+Q3847439;floral painting
+Q720199;novel
+Q4115628;novel
+Q7345;thriller
+Q7345;detective fiction
+Q7345;speculative fiction
+Q692757;novel
+Q495420;novel
+Q690238;Música Popular Brasileira
+Q2577729;alternative rock
+Q212476;epistolary novel
+Q3511950;children's literature
+Q126742;powest
+Q126742;short story
+Q355438;historical novel
+Q5367067;romance novel
+Q2737184;poetry
+Q288627;detective fiction
+Q380000;prose
+Q380000;satire
+Q380000;narrative poetry
+Q380000;fairy tale
+Q380000;novel
+Q380000;opinion journalism
+Q1367995;thriller
+Q1367995;horror literature
+Q1367995;science fiction literature
+Q1088019;fantasy anime and manga
+Q1088019;light novel
+Q1088019;slice of life anime and manga
+Q1201441;pop music
+Q3393862;novel
+Q3393862;children's literature
+Q93343;Romantic poetry
+Q603855;detective fiction
+Q371019;novel
+Q215369;pop music
+Q215369;Eurodance
+Q3626966;pop music
+Q3626966;rock music
+Q293497;satire
+Q5673;fairy tale
+Q2570788;prose
+Q315147;prose
+Q315147;opinion journalism
+Q1349297;novel
+Q274708;crime novel
+Q134180;Southern Gothic
+Q18832;play
+Q18832;prose
+Q2605075;travel book
+Q204751;rock music
+Q204751;funk rock
+Q204751;rapping
+Q204751;alternative rock
+Q140052;novel
+Q983233;novel
+Q736424;tragedy
+Q736424;epistle
+Q736424;ode
+Q736424;song
+Q448241;romance novel
+Q548180;poetry
+Q548180;novel
+Q119563;novel
 Q34474;powest
 Q34474;short story
 Q34474;opinion journalism
 Q34474;essay
 Q34474;novel
+Q363810;speculative fiction
+Q357108;romance novel
+Q704689;portrait
 Q34474;lexicography
+Q299161;novel
+Q7934;science fiction
+Q981086;lyric poetry
+Q461336;speculative fiction
+Q22714;pop novel
+Q15975273;Anti-Tom literature
+Q1151;opera
+Q1151;symphony
+Q180626;fantasy
+Q180626;Wuxia novels
+Q396;rock music
+Q396;alternative rock
+Q298295;musical
+Q1197667;poetry
+Q128790;detective fiction
+Q920996;gothic fiction
+Q325389;pop rock
+Q834621;rock music
+Q834621;alternative rock
+Q325389;synthpop
+Q325389;new wave music
+Q325389;contemporary folk music
+Q5219054;memoir
+Q40715;electronic dance music
+Q533287;romance novel
+Q188286;Cozy mystery
+Q2992438;prose
+Q2992438;poetry
+Q13499737;narrative
+Q13499737;novel
+Q13499737;review
+Q13499737;biography
+Q13499737;memoir
+Q13499737;family saga novel
+Q363729;poetry
+Q1145;opera
+Q1145;chamber music
+Q4112410;poetry
+Q1145;choral music
+Q363729;daily newspaper
+Q15809;poetry
+Q1997988;novel
+Q2975646;crime novel
+Q962565;portrait
+Q3175151;farce
+Q203715;poetry
+Q203715;short story
+Q203715;narrative
+Q6438255;romance novel
+Q2735316;novel
+Q2735316;serial fiction
+Q220883;science fiction
+Q1375599;novel
+Q1375599;short story
+Q1375599;powest
+Q3050522;novel
+Q4969421;rock music
+Q246722;prose
+Q358479;novel
+Q2635762;romance novel
+Q227137;novel
+Q227137;short story
+Q1773143;novel
+Q15521684;indie rock
+Q4096040;speculative fiction
+Q467741;powest
+Q467741;short story
+Q467741;novel
+Q467741;fairy tale
+Q467741;essay
+Q467741;opinion journalism
+Q4394767;science fiction
+Q537057;crime novel
+Q537057;thriller
+Q578031;science fiction
+Q639041;romance novel
+Q460303;romance novel
+Q234030;science fiction
+Q4125181;short story
+Q16270880;poetry
+Q381104;novel
+Q50186;baroque music
+Q361623;novella
+Q211542;novel
+Q211542;poetry
+Q3042797;novel
+Q3042797;short story
+Q3042797;essay
+Q77087;novel
+Q77087;theater
+Q77087;autobiography
+Q77087;short story
+Q1698;chanson
+Q339577;science fiction
+Q368224;fantasy
+Q238970;speculative fiction
+Q45205;portrait
+Q105118;drama
+Q25161;horror literature
+Q25161;mysticism
+Q25161;fantasy
+Q25161;children's literature
+Q1153933;thriller
+Q2503610;novel
+Q4307894;historical novel
+Q4307894;drama
+Q3243146;novel
 Q905;modernism
 Q905;fiction
 Q905;short story
+Q742254;short story
+Q454630;prose
+Q454630;powest
+Q454630;novel
+Q454630;fairy tale
+Q454630;play
 Q905;novel
 Q905;flash fiction
+Q353893;documentary
+Q291779;romance novel
+Q359457;alternative rock
+Q289624;landscape art
+Q1383662;novel
+Q1383662;adventure novel
+Q296752;novel
+Q1949960;2 Tone
+Q862;poetry
+Q3311831;poetry
+Q6962746;psychological horror
+Q1174539;science fiction
+Q21335034;essay
+Q21335034;biography
+Q4478006;prose
+Q2469968;poetry
+Q201221;prose
+Q201221;opinion journalism
+Q201221;literary criticism
+Q507868;novel
+Q52224;science fiction literature
+Q431443;science fiction comic
+Q6293869;poetry
+Q6405331;children's literature
+Q3165809;historical mystery
+Q345249;science fiction
+Q345249;fantasy
+Q345249;horror fiction
+Q3750903;dramaturgy
+Q3750903;poetry
+Q953288;science fiction
+Q237242;novel
+Q312632;fantasy
+Q312632;science fiction
+Q312632;mystery fiction
+Q284287;horror literature
+Q1208954;romance novel
+Q60137;spirituality
+Q130549;pop music
+Q503095;science fiction
+Q19667087;J-pop
+Q2438479;speculative fiction
+Q193346;crime novel
+Q193346;social novel
+Q193346;young adult literature
+Q193346;drama
+Q11537576;shōnen manga
+Q16402;satire
+Q16402;absurdity
+Q16402;black comedy
+Q16402;Surrealism
+Q16402;parody
+Q4270;pop punk
+Q4270;alternative rock
+Q910800;romance novel
+Q980385;short story
+Q5052109;romance novel
+Q2929721;still life
+Q2929721;floral painting
+Q2074380;powest
+Q2074380;short story
+Q2074380;novel
+Q14045;techno
+Q38082;children's literature
+Q14045;downtempo
+Q14045;electronica
+Q14045;trip hop
+Q14045;ambient music
+Q14045;house music
+Q3331024;manhwa
+Q558085;children's literature
+Q558085;erotic literature
+Q73176;novel
+Q188244;detective fiction
+Q188244;thriller
+Q185406;novel
+Q185406;short story
+Q77745;folk music
+Q355879;noir novel
+Q5959526;short story
+Q12023476;prose
+Q5679;narrative poetry
+Q5679;gothic fiction
+Q168040;novel
+Q168040;novella
+Q168040;short story
+Q16961273;romance novel
+Q176909;novel
+Q176909;essay
+Q205139;quartet
+Q205139;opera
+Q205139;symphony
+Q1666;chanson
+Q7705442;punk rock
+Q7154252;novel
+Q7154252;crime novel
+Q107432;jazz
+Q107432;bebop
+Q3168992;hip hop music
+Q732338;novel
+Q6691;epic poem
+Q1673135;jazz
+Q107432;post-bop
+Q6691;epic poem
+Q21634455;gamebook
+Q107432;gospel music
+Q107432;hard bop
+Q2376615;short story
+Q107432;free jazz
+Q107432;avant-garde jazz
+Q107432;Orchestral jazz
+Q460414;detective fiction
+Q2071;Surrealism
+Q2071;magic realism
+Q1134199;saga
+Q1134199;legend
+Q16214168;children's literature
+Q460109;novel
+Q699393;novel
+Q5248491;romance novel
+Q1788781;popular science literature
+Q23441;novel
+Q1475115;poetry
+Q1475115;prose
+Q556815;adventure novel
+Q556815;noir novel
+Q556815;crime novel
+Q469998;novel
+Q469998;detective fiction
+Q24668780;prose
+Q167856;adventure novel
+Q560015;children's literature
+Q316313;speculative fiction
+Q176405;novel
+Q176405;short story
+Q176405;poetry
+Q1751913;crime novel
+Q1751913;thriller
+Q4478015;humour
+Q4478015;short story
+Q4478015;fantasy
+Q44584;essay
+Q44584;prose
+Q1686458;popular science
+Q1138463;historical novel
+Q1138463;genre fiction
+Q1038491;speculative fiction
+Q923538;jazz
+Q1059911;light novel
+Q6076742;romance novel
+Q460323;children's literature
+Q73909;rock music
+Q379290;poetry
+Q36844;pop music
+Q36844;rhythm and blues
+Q292071;horror literature
+Q356283;poetry
+Q356283;novel
+Q598728;pop music
+Q4344165;urban fantasy
+Q4344165;cyberpunk
+Q4344165;steampunk
+Q580137;novel
+Q1699682;detective fiction
+Q1395092;novel
+Q2621397;poetry
+Q2621397;novel
+Q948093;Tampere
+Q235403;poetry
+Q235403;novel
+Q1087159;novel
+Q1087159;theater
+Q1266420;drama
+Q217787;pop music
+Q217787;soul music
+Q2741798;noir novel
+Q336519;detective fiction
+Q1354646;opera
+Q153670;memoir
+Q348623;novel
+Q7489084;rock music
+Q4392601;essay
+Q497454;speculative fiction
+Q3892030;science fiction
+Q3892030;speculative fiction
+Q5589;collage art
+Q747808;detective fiction
+Q202693;detective fiction
+Q361478;fantasy
+Q336081;detective fiction
+Q27589813;science fiction
+Q27589813;crime novel
+Q3269367;detective fiction
+Q8052159;children's literature
+Q702268;short story
+Q460352;poetry
+Q460352;novel
+Q460352;lyric poetry
+Q460352;short story
+Q7788145;history painting
+Q102513;novel
+Q102513;tale
+Q102513;short story
+Q59737;drama
+Q59737;narrative poetry
+Q342045;pop rock
+Q342045;rock music
+Q342045;chanson
+Q342045;folk rock
+Q272088;comedy
+Q59737;lament
+Q59737;epitaph
+Q59737;ode
+Q59737;elegy
+Q59737;epigram
+Q59737;epithalamium
+Q9079762;poetry
+Q4519699;speculative fiction
+Q294999;novel
+Q294999;short story
+Q294999;tale
+Q294999;autobiography
+Q504317;detective fiction
+Q240547;romance novel
+Q494257;novel
+Q69339;gothic fiction
+Q982361;novel
+Q6023538;novel
+Q2905689;novel
+Q3849130;novel
+Q3595068;crime novel
+Q519878;short story
+Q287784;novel
+Q324401;opera
+Q324401;classical music
+Q697741;novel
+Q697741;short story
+Q635171;powest
+Q3398374;rock music
+Q940594;novel
+Q940594;short story
+Q940594;essay
+Q940594;chronicle
+Q940594;biography
+Q4319777;science fiction
+Q4319777;Slavic fantasy
+Q4319777;social science fiction
+Q242956;poetry
+Q242956;mystery fiction
+Q289501;novel
+Q720787;science fiction
+Q720787;fantasy
+Q387853;powest
+Q362742;science fiction literature
+Q362742;mystery fiction
+Q186335;detective fiction
+Q366643;fantasy
+Q4499561;comic
+Q321466;comic science fiction
+Q951594;short story
+Q6118337;metalcore
+Q6834853;romance novel
+Q103578;comedy rock pop
+Q596925;detective fiction
+Q41980064;spy fiction
+Q41980064;non-fiction literature
+Q465181;prose
+Q970649;novel
+Q240954;poetry
+Q240954;prose
+Q240954;dramaturgy
+Q240954;opinion journalism
+Q78003;novel
+Q78003;theater
+Q78003;audio drama
+Q78003;narrative
+Q78003;libretto
+Q4230598;powest
+Q239739;fantasy
+Q239739;science fiction
+Q46606400;science fiction
+Q5948474;short story
+Q46606400;fan fiction
+Q4721550;novel
+Q4721550;short story
+Q4721550;essay
+Q292223;romance novel
+Q12409734;prose
+Q12409734;poetry
+Q12409734;dramaturgy
+Q22279323;romance novel
+Q174957;soul music
+Q3505896;comedy
+Q332088;poetry
+Q332088;dramaturgy
+Q332088;theater
+Q3505896;animated film
+Q325130;fantasy
+Q1372074;contemporary folk music
+Q291638;youth and children's literature
+Q2490265;pop music
+Q2490265;new wave music
+Q9029739;novel
+Q4122123;short story
+Q2460840;detective fiction
+Q188176;science fiction
+Q216692;play
+Q216692;prose
+Q5374889;fiction
+Q705999;science fiction
+Q978959;novel
+Q2625789;rock music
+Q6390093;crime novel
+Q726071;pop music
+Q13128619;rock music
+Q13128619;contemporary folk music
+Q13128619;reggae
+Q2625789;Bard
+Q2625789;new wave music
+Q537999;novel
+Q42831;short story
+Q42831;powest
+Q42831;novel
+Q42831;elegy
+Q42831;drama
+Q2498968;popular science literature
+Q1292432;science fiction
+Q3739850;memoir
+Q72541;novel
+Q275929;novel
+Q275929;short story
+Q1580049;short story
+Q6722307;hip hop music
+Q296729;jazz
+Q389233;poetry
+Q3812968;crime novel
+Q3812968;historical mystery
+Q329820;novel
+Q329820;crime novel
+Q329820;short story
+Q732980;detective fiction
+Q732980;thriller
+Q117455;novel
+Q81071;detective fiction
+Q315017;short story
+Q77069;prose
+Q3950902;speculative fiction
+Q3950902;humour
+Q4224237;novel
+Q4224237;short story
+Q4224237;verse
+Q4224237;article
+Q4224237;Bard
+Q77008;biography
+Q186630;poetry
+Q186630;essay
+Q11907;rock music
+Q434029;science fiction
+Q725475;science fiction
+Q725475;adventure novel
+Q2087069;novel
+Q2087069;short story
+Q234392;detective fiction
+Q953962;science fiction
+Q254110;opera
+Q461571;fantasy
+Q461571;history
+Q461571;children's literature
+Q944409;science fiction
+Q3046390;novel
+Q3046390;short story
+Q3046390;theater
+Q767609;pop music
+Q379684;Joik
+Q1304934;novel
+Q762;portrait
+Q470302;novel
+Q350734;science fiction
+Q1348138;speculative fiction
+Q7647645;novel
+Q2364621;novel
+Q245257;drama
+Q245257;prose
+Q356965;prose
+Q1350976;adult contemporary music
+Q328338;romance novel
+Q1399272;detective fiction
+Q913028;novel
+Q913028;poetry
+Q913028;theater
+Q62258;non-fiction literature
+Q483507;pop music
+Q2354768;novel
+Q259888;fantasy
+Q76357;critical theory
+Q240377;alternative rock
+Q533971;crime novel
+Q3098537;short story
+Q18697184;novel
+Q292629;short story
+Q4226283;novel
+Q4226283;powest
+Q4226283;short story
+Q187085;science fiction
+Q16220934;alternative rock
+Q302675;poetry
+Q331863;poetry
+Q331863;theater
+Q2095351;science fiction
+Q2095351;fantasy
+Q2095351;horror literature
+Q509974;poetry
+Q5660457;poetry
+Q6116457;romance novel
+Q960088;novel
+Q182658;Southern Gothic
+Q328212;young adult literature
+Q2082939;folk music
+Q8002390;figurative art
+Q8002390;floral painting
+Q2736738;romance novel
+Q15833924;portrait
+Q2940239;Riot grrrl
+Q5946061;novel
+Q265603;prose
+Q1990033;fantasy
+Q733547;historical novel
+Q733547;pop novel
+Q616169;abstract art
+Q93620;fantasy
+Q37767;poetry
+Q892;fantasy
+Q892;children's literature
+Q892;translation
+Q1541955;fantasy
+Q892;literary science
+Q892;poetry
+Q892;prose
+Q319820;autobiography
+Q319820;novel
+Q2481988;children's literature
+Q4517863;novel
+Q427167;powest
+Q427167;short story
+Q427167;ocherk
+Q150471;opera
+Q150471;short story
+Q153796;science fiction
+Q355793;essay
+Q355793;short story
+Q15935;hip hop music
+Q2161185;novel
+Q2161185;poetry
+Q2161185;essay
+Q5636755;short story
+Q73418;poetry
+Q441793;fantasy
+Q257261;novel
+Q330376;speculative fiction
+Q243027;science fiction
+Q243027;fantasy
+Q274302;verse
+Q274302;novel
+Q710435;science fiction
+Q425373;prose
+Q425373;poetry
+Q432552;hip hop music
+Q432552;conscious hip hop
+Q191050;satire
+Q432552;hardcore hip hop
+Q1393111;short story
+Q361888;prog rock
+Q7110994;noir novel
+Q278174;novel
+Q278174;short story
+Q278174;essay
+Q526681;jazz
+Q241583;satire
+Q142106;historical novel
+Q142106;gothic literature
+Q142106;romance novel
+Q503157;black metal
+Q2991109;novel
+Q2991109;crime novel
+Q228589;novel
+Q2930432;romance novel
+Q237039;poetry
+Q237039;essay
+Q237039;literature
+Q654747;novel
+Q654747;short story
+Q919140;symphony
+Q250321;narrative poetry
+Q250321;blazonry
+Q250321;elegy
+Q351410;lyric poetry
+Q312995;speculative fiction
+Q3321086;novel
+Q288198;fantasy
+Q2420498;theater
+Q2420498;poetry
+Q211893;novel
+Q20640708;fantasy
+Q3399470;novel
+Q3399470;essay
+Q3399470;youth and children's literature
+Q7241;essay
+Q7241;short story
+Q7241;novel
+Q298703;Surrealism
+Q298703;Modernist literature
+Q4521762;horror literature
+Q508218;light novel
+Q166721;marine art
+Q236950;romance novel
+Q201315;poetry
+Q201315;novel
+Q49478;comedy
+Q3960902;novel
+Q258067;youth and children's literature
+Q442130;detective fiction
+Q519372;romance novel
+Q276355;romance novel
+Q727416;novel
+Q727416;essay
+Q169566;mystery fiction
+Q169566;fantasy
+Q169566;gothic literature
+Q169566;science fiction
+Q1143660;rock music
+Q1400307;romance novel
+Q3113265;speculative fiction
+Q7436870;pop music
+Q590532;science fiction
+Q310580;rock music
+Q310580;alternative rock
+Q7117318;mystery fiction
+Q5707196;novel
+Q47484;novel
+Q961263;novel
+Q233898;short story
+Q82032;fantasy
+Q4172119;fantasy
+Q4529318;opinion journalism
+Q234964;fiction literature
+Q234964;essay
+Q234964;theatre
+Q234964;poetry
+Q7668495;Indian classical music
+Q82104;detective fiction
+Q43736;novel
+Q20733;short story
+Q20733;novel
+Q517719;novel
+Q465236;pop music
+Q534599;science fiction
+Q529309;fiction
+Q529309;Village Prose
+Q351455;poetry
+Q6501621;fiction
+Q729121;science fiction
+Q11998;pop music
+Q11998;synthpop
+Q11998;dance-pop
+Q11998;nu-disco
+Q11998;soul music
+Q11998;contemporary R&B
+Q3714367;floral painting
+Q602919;poetry
+Q602919;Gaucho literature
+Q207036;children's literature
+Q45970;poetry
+Q45970;prose
+Q577495;poetry
+Q577495;dramaturgy
+Q12020455;science fiction
+Q4758145;novel
+Q4758145;essay
+Q258462;literary criticism
+Q3074245;novel
+Q3074245;theater
+Q12028224;short story
+Q12028224;sketch story
+Q12028224;fairy tale
+Q12028224;translation
+Q3876249;novel
+Q262565;novel
+Q3518359;novel
+Q334200;portrait
+Q7024302;novel
+Q6112829;punk rock
+Q200580;Ars nova
+Q5721823;landscape art
+Q92562;novel
+Q92562;memoir
+Q92562;essay
+Q92562;pamphlet
+Q1945815;essay
+Q4162692;speculative fiction
+Q7202177;history
+Q313077;poetry
+Q333653;novel
+Q333653;short story
+Q333653;article
+Q16014885;Sufi music
+Q256789;detective fiction
+Q256789;psychological thriller
+Q437224;romance novel
+Q235368;children's literature
+Q5878;novel
+Q325262;short story
+Q1396654;crime novel
+Q1396654;thriller
+Q3158693;novel
+Q3158693;youth and children's literature
+Q55433;poetry
+Q171242;ocherk
+Q171242;short story
+Q171242;powest
+Q16028097;novel
+Q208116;verse
+Q208116;fable
+Q208116;play
+Q208116;opinion journalism
+Q235820;pop music
+Q235820;country music
+Q271824;thriller
+Q946744;classical music
+Q946744;liturgical music
+Q235820;Schlager
+Q3398027;science fiction
+Q3808005;poetry
+Q11540829;science fiction
+Q235820;dansband
+Q3615879;novel
+Q3615879;poetry
+Q3615879;children's literature
+Q273035;prose
+Q4235;pop music
+Q4235;country music
+Q4235;pop rock
+Q4235;dance-pop
+Q4235;electropop
+Q4235;rock music
+Q4235;hip hop music
+Q4235;teen pop
+Q5231276;crime novel
+Q367319;poetry
+Q251123;poetry
+Q251123;novel
+Q454937;romance novel
+Q550614;science fiction
+Q272585;novel
+Q211785;satire
+Q211785;novel
+Q211785;chronicle
+Q211785;short story
+Q211785;fairy tale
+Q6564937;short story
+Q232260;detective novel
+Q232260;crime fiction short story
+Q232260;novella
+Q232260;mystery novel
+Q1563821;historical novel
+Q311078;pop music
+Q541785;novel
+Q311078;comedy music
+Q313013;rock music
+Q708581;science fiction
+Q708581;poetry
+Q708581;children's literature
+Q708581;speculative fiction
+Q708581;literary criticism
+Q2567454;opinion journalism
+Q239917;pop music
+Q239917;soul music
+Q239917;rhythm and blues
+Q266073;novel
+Q733850;novel
+Q313185;fantasy
+Q313185;science fiction literature
+Q313185;horror literature
+Q59441;romance novel
+Q123089;novel
+Q5599;history painting
+Q5599;portrait painting
+Q5599;mythological painting
+Q5599;landscape art
+Q1187562;novel
+Q362516;heavy metal
+Q5599;religious painting
+Q809012;science fiction
+Q5599;nude
+Q5599;portrait
+Q288916;horror literature
+Q2001395;crime novel
+Q288916;Splatterpunk
+Q707415;children's literature
+Q270648;crime novel
+Q1351266;alternative rock
+Q457185;science fiction
+Q335794;powest
+Q335794;short story
+Q335794;opinion journalism
+Q335794;essay
+Q161955;Surrealism
+Q76324;prose
+Q76324;play
+Q299965;novel
+Q444002;narrative poetry
+Q1969995;novel
+Q1969995;poetry
+Q458240;novel
+Q3187526;science fiction
+Q3187526;children's literature
+Q5751226;poetry
+Q439292;romance novel
+Q276304;science fiction
+Q313667;opera
+Q313667;symphony
+Q62766;hip hop music
+Q575345;novel
+Q296047;popular science literature
+Q316616;novel
+Q77024;play
+Q77024;prose
+Q1368527;speculative fiction
+Q189869;dramaturgy
+Q189869;novel
+Q189869;theater
+Q297532;prose
+Q297532;poetry
+Q192668;rock music
+Q192668;alternative rock
+Q234255;melodrama
+Q443820;fantasy
+Q316610;hard science fiction
+Q472568;serial fiction
+Q472568;cloak and dagger novel
+Q472568;vampire literature
+Q472568;crime novel
+Q17150957;poetry
+Q2043544;speculative fiction
+Q17150957;lyrics
+Q17150957;essay
+Q17150957;translation
+Q17150957;drama play
+Q159758;marine art
+Q16638763;hip hop music
+Q4448419;speculative fiction
+Q720370;detective fiction
+Q1258747;science fiction
+Q15721003;novel
+Q15721003;young adult literature
+Q333713;adventure novel
+Q427503;novel
+Q105158;speculative fiction film
+Q105158;action film
+Q188668;rock music
+Q188668;alternative rock
+Q473196;novel
+Q473196;short story
+Q473196;essay
+Q12807;essay
+Q12807;novel
+Q261962;speculative fiction
+Q193674;novel
+Q1173398;science fiction
+Q442505;novel
+Q118058;prose
+Q294625;science fiction
+Q294625;fantasy
+Q132305;portrait
+Q469435;essay
+Q469435;novel
+Q825414;jazz
+Q1969208;fantasy
+Q1969208;science fiction
+Q114623;novel
+Q1393749;novel
+Q1139463;novel
+Q2635916;romance novel
+Q6376940;novel
+Q6376940;short story
+Q116288;novel
+Q5748559;punk rock
+Q505383;novel
+Q6376940;récit
+Q1398786;novel
+Q1398786;crime novel
+Q1398786;short story
+Q1398786;youth and children's literature
+Q435585;psychological novel
+Q1700390;detective fiction
+Q2382526;essay
+Q2382526;science fiction
+Q2382526;fantasy
+Q274404;essay
+Q274404;novel
+Q7383160;novel
+Q242351;novel
+Q5228350;indie rock
+Q315325;sexploitation film
+Q427403;novel
+Q427403;theatre
+Q427403;poetry
+Q419060;novel
+Q554685;novel
+Q705022;detective fiction
+Q508990;speculative fiction
+Q297542;memoir
+Q4777077;poetry
+Q3001999;novel
+Q3001999;short story
+Q2857082;novel
+Q239910;horror literature
+Q11954658;poetry
+Q11954658;essay
+Q109180;prose
+Q109180;blog
+Q7374;thriller
+Q7374;suspense
+Q168962;narrative poetry
+Q326726;dystopian novel
+Q326726;mystery fiction
+Q47087;science fiction
+Q47087;popular science
+Q61342;historicism
+Q6208106;fantasy
+Q6208106;science fiction
+Q356369;contemporary folk music
+Q435056;science fiction
+Q61342;Renaissance Revival architecture
+Q133054;confessional poetry
+Q2367411;poetry
+Q2367411;essay
+Q547794;novel
+Q3103853;opera
+Q551624;portrait
+Q683445;novel
+Q61980;literature
+Q726622;historical fiction
+Q466820;poetry
+Q466820;theater
+Q4536961;powest
+Q4536961;short story
+Q5337140;poetry
+Q2757124;novel
+Q125548;lyric poetry
+Q59152;fantasy
+Q809063;novel
+Q809063;essay
+Q4128;novel
+Q561027;gothic fiction
+Q561027;gothic literature
+Q5819791;science fiction
+Q5819791;fantasy
+Q5819791;horror fiction
+Q36184;horror literature
+Q36184;gothic fiction
+Q3322486;poetry
+Q155106;novel
+Q379895;Western
+Q2318968;musical film
+Q363577;poetry
+Q363577;pop music
+Q1234248;novel
+Q55993;poetry
+Q983424;seinen manga
+Q363577;trova
+Q363577;rock music
+Q363577;contemporary folk music
+Q467935;children's literature
+Q467935;sentimental novel
+Q467935;biography
+Q467935;literary criticism
+Q26116;science fiction
+Q26116;fantasy
+Q26116;biopunk
+Q1393983;chanson
+Q93166;poetry
+Q193116;novel
+Q1443787;science fiction
+Q709012;detective fiction
+Q286116;science fiction
+Q1745466;prose
+Q38222;speculative fiction film
+Q171344;history painting
+Q171344;portrait
+Q4100294;speculative fiction
+Q75831;prose
+Q6711;spoken word
+Q1545386;detective fiction
+Q3001533;alternative rock
+Q2059977;indie rock
+Q112772;prose
+Q61699;science fiction
+Q61940;poetry
+Q188798;poetry
+Q42775;country music
+Q42775;Outlaw country
+Q42775;gospel music
+Q42775;rock and roll
+Q29360131;poetry
+Q42775;rockabilly
+Q42775;blues
+Q42775;contemporary folk music
+Q16473;bluegrass music
+Q3195618;poetry
+Q3195618;novel
+Q3195618;serial fiction
+Q3195618;short story
+Q1226282;novel
+Q1226282;screenplay
+Q3532812;novel
+Q3532812;short story
+Q3532812;children's literature
+Q3532812;screenplay
+Q273266;novel
+Q3532812;film director
+Q2876626;science fiction novel
+Q700019;portrait
+Q448425;thriller
+Q835;satire
+Q455495;science fiction
+Q262850;novel
+Q214642;poetry
+Q258741;children's literature
+Q609553;essay
+Q381920;novel
+Q381920;chronicle
+Q381920;essay
+Q3106432;novel
+Q3752823;novel
+Q219862;short story
+Q468550;romance novel
+Q19297602;essay
+Q19297602;novel
+Q555449;novel
+Q555449;short story
+Q555449;essay
+Q1929063;children's literature
+Q3360474;children's literature
+Q6900418;short story
+Q561408;satiric novel
+Q221957;historical novel
+Q442330;novel
+Q186327;rock music
+Q336640;rock music
+Q336640;alternative rock
+Q186327;alternative metal
+Q61627;novel
+Q186327;industrial metal
+Q231886;romance novel
+Q186327;gothic metal
+Q186327;glam rock
+Q239944;romance novel
+Q186327;shock rock
+Q312405;science fiction
+Q70155;novel
+Q4068664;literary criticism
+Q4068664;detective fiction
+Q186327;industrial rock
+Q186327;hard rock
+Q4230833;powest
+Q312467;essay
+Q312467;screenplay
+Q312467;novel
+Q2939069;poetry
+Q4342622;social science fiction
+Q4342622;drama
+Q4342622;comedy
+Q555319;novel
+Q555319;short story
+Q555319;poetry
+Q325422;science fiction
+Q325422;magic realism
+Q325422;fantasy
+Q325422;Western
+Q325422;horror literature
+Q2435383;novel
+Q2848844;novel
+Q275601;novel
+Q383177;novel
+Q76485;fugue
+Q76485;canon
+Q2898328;crime novel
+Q76485;chaconne
+Q271825;novel
+Q271825;short story
+Q271825;poetry
+Q5958382;poetry
+Q75603;novel
+Q573997;detective fiction
+Q313668;hard rock
+Q314949;Ancient Greek novel
+Q1077057;speculative fiction
+Q358188;thriller
+Q2643;rock music
+Q2643;psychedelic rock
+Q2643;pop music
+Q180377;detective fiction
+Q1351191;novel
+Q2643;world music
+Q14536294;decoration
+Q14536294;illustration
+Q2643;Raga rock
+Q715505;science fiction
+Q4758259;contemporary Christian music
+Q320146;chanson
+Q320146;spoken word
+Q320146;classical music
+Q320146;French pop music
+Q1450960;novel
+Q237095;roman à clef
+Q7979300;children's film
+Q274334;narrative
+Q274334;powest
+Q3269562;fiction
+Q4174878;novel
+Q1396763;romance novel
+Q7273489;romance novel
+Q66745;autobiography
+Q1165276;science fiction
+Q796798;fantasy
+Q8009592;crime novel
+Q650906;treatise
+Q361149;science fiction
+Q361149;fantasy
+Q4567898;novel
+Q4567898;poetry
+Q4567898;essay
+Q10708;alternative rock
+Q10708;funk rock
+Q708266;jazz
+Q505455;hip hop music
+Q10708;jazz fusion
+Q318736;dramaturgy
+Q10708;classic rock
+Q10708;rock music
+Q10708;punk rock
+Q94186;poetry
+Q94186;prose
+Q94186;play
+Q10708;polka
+Q10708;psychedelic rock
+Q2143362;novel
+Q10708;jazz-funk
+Q10708;heavy metal
+Q71998;prose
+Q10708;ska
+Q10708;funk metal
+Q10708;hard rock
+Q10708;reggae
+Q314993;detective fiction
+Q314993;science fiction
+Q314993;psychological novel
+Q13186331;poetry
+Q13186331;essay
+Q13186331;fiction
+Q10708;rap rock
+Q10708;alternative metal
+Q363887;short story
+Q363887;poetry
+Q363887;dramaturgy
+Q18535587;contemporary folk music
+Q239458;poetry
+Q550449;science fiction
+Q1477082;poetry
+Q1477082;short story
+Q1477082;novel
+Q273210;novel
+Q273210;short story
+Q273210;essay
+Q321181;crime novel
+Q1332698;public art
+Q1332698;graffiti
+Q4215996;prose
+Q81960;verse
+Q81960;narrative poetry
+Q81960;song
+Q81960;ballad
+Q81960;hymn
+Q425821;pop music
+Q81960;cantata
+Q295537;poetry
+Q9053801;children's literature
+Q19848;electropop
+Q19848;dance-pop
+Q19848;synthpop
+Q19848;country
+Q19848;electronic dance music
+Q312747;novel
+Q2415217;gothic fiction
+Q110436;science fiction literature
+Q19848;Artpop
+Q19848;Europop
+Q6206463;novel
+Q6206463;essay
+Q6206463;short story
+Q186326;short story
+Q297881;novel
+Q297881;essay
+Q297881;epistolography
+Q297881;poetry
+Q297881;screenwriter
+Q709534;novel
+Q709534;essay
+Q434926;novel
+Q2746271;short story
+Q207817;ghazal
+Q544611;prose
+Q765050;science fiction
+Q981190;short story
+Q981190;novel
+Q6165437;novel
+Q2664596;historical romance
+Q951010;poetry
+Q2602846;science fiction
+Q5171266;landscape art
+Q274766;novel
+Q274766;play
+Q6142227;thriller
+Q3172846;novel
+Q5950210;poetry
+Q1496441;thriller
+Q178100;theater
+Q178100;poetry
+Q178100;novel
+Q222071;rock music
+Q222071;alternative rock
+Q222071;grunge
+Q470132;novel
+Q2600402;crime novel
+Q502;novel
+Q246303;science fiction
+Q206112;country music
+Q206112;pop music
+Q206112;reggae
+Q206112;progressive country
+Q1002127;novel
+Q18714083;romance novel
+Q706332;country music
+Q206112;Americana
+Q206112;blues
+Q206112;traditional pop music
+Q206112;rock music
+Q206112;alternative country
+Q206112;country rock
+Q206112;Outlaw country
+Q80321;narrative poetry
+Q489193;science fiction
+Q305402;novel
+Q305402;short story
+Q3241962;detective fiction
+Q625089;lyric poetry
+Q316048;poetry
+Q316048;novel
+Q316048;short story
+Q607825;novel
+Q607825;ocherk
+Q607825;essay
+Q347912;detective fiction
+Q1451213;ode
+Q966324;novel
+Q457923;satire
+Q1451213;stanza
+Q1451213;narrative poetry
+Q1451213;tragicomedy
+Q1451213;pastoral
+Q1451213;novel
+Q86417;children's literature
+Q164967;novel
+Q3351202;autofiction
+Q3351202;biography
+Q3351202;short story
+Q3351202;poetry
+Q3351202;novel
+Q1814907;historical mysteries
+Q88252;novel
+Q458077;romance novel
+Q298139;pop music
+Q242796;biography
+Q563481;novel
+Q563481;play
+Q95099;speculative fiction
+Q2063073;verse
+Q3647310;crime novel
+Q3647310;historical mystery
+Q529858;prose poetry
+Q955307;detective fiction
+Q187310;portrait
+Q8201830;novel
+Q709810;jazz
+Q847345;lyric poetry
+Q847345;free verse
+Q847345;satire
+Q847345;reportage
+Q6298996;poetry
+Q181683;pop music
+Q313096;neo-impressionism
+Q122622;prose
+Q3743412;poetry
+Q708049;science fiction
+Q543798;modernism
+Q277308;science fiction literature
+Q3034954;chanson
+Q1248054;fantasy
+Q123867;erotica
+Q123867;philosophy
+Q123867;prose
+Q315020;memoir
+Q316431;fantasy
+Q133042;short story
+Q6107;hip hop music
+Q295941;Sentimentalism
+Q6107;gangsta rap
+Q106662;punk rock
+Q106662;post-punk
+Q106662;alternative rock
+Q241714;romance novel
+Q235980;Música Popular Brasileira
+Q238702;science fiction
+Q106662;alternative dance
+Q106662;noise rock
+Q106662;experimental rock
+Q957627;blues rock
+Q957627;rock music
+Q724900;epic
+Q724900;drama
+Q3187233;novel
+Q3187233;essay
+Q106662;dance-punk
+Q106662;new wave music
+Q106662;post-rock
+Q2451001;chanson
+Q957627;Fusion
+Q1646;novel
+Q1646;essay
+Q1646;theater
+Q1646;poetry
+Q957627;folk rock
+Q957627;prog rock
+Q957627;psychedelic rock
+Q957627;art rock
+Q18200042;portrait
+Q18200042;landscape art
+Q61198;novel
+Q286701;novel
+Q19359621;portrait painting
+Q19359621;landscape art
+Q866323;novel
+Q121060;gothic fiction
+Q121060;gothic literature
+Q714739;feuilleton
+Q714739;novel
+Q714739;novella
+Q714739;powest
+Q714739;play
+Q504805;science fiction
+Q538638;essay
+Q538638;novel
+Q9025225;novel
+Q9025225;essay
+Q484292;novel
+Q484292;powest
+Q19054;short story
+Q5490062;boys adventure stories
+Q3113776;short story
+Q3113776;powest
+Q3113776;novella
+Q130786;opinion journalism
+Q126826;hard rock
+Q231736;thriller
+Q11901;alternative rock
+Q11901;anti-folk
+Q7290627;novel
+Q7290627;short story
+Q7290627;essay
+Q7716249;musical
+Q44328;satire
+Q7408684;Americana
+Q520303;speculative fiction
+Q4357833;novel
+Q4357833;short story
+Q941794;naturalism
+Q361257;children's literature
+Q17907843;prose
+Q463513;detective fiction
+Q7200;poetry
+Q7200;prose
+Q7200;play
+Q7200;criticism
+Q7200;opinion journalism
+Q7200;history
+Q7200;translation
+Q295431;satire
+Q295431;detective fiction
+Q46639650;science fiction
+Q46639650;fan fiction
+Q250136;poetry
+Q250136;essay
+Q7737546;alternate history
+Q720806;novel
+Q41408;dramaturgy
+Q41408;poetry
+Q41408;theater
+Q238719;world music
+Q167821;novel
+Q454840;lyric poetry
+Q316374;lyric poetry
+Q6149999;poetry
+Q6149999;short story
+Q214565;fairy tale
+Q101638;feminism
+Q24632;pop music
+Q24632;musical
+Q1193871;science fiction
+Q76134;science fiction
+Q922795;novel
+Q922795;short story
+Q922795;essay
+Q21483814;poetry
+Q432945;romance novel
+Q4288954;popular science literature
+Q368831;Angry young men
+Q468844;autobiography
+Q532336;romance novel
+Q280001;science fiction literature
+Q280001;horror literature
+Q6152259;youth and children's literature
+Q6152259;novel
+Q6152259;short story
+Q3425666;crime novel
+Q3425666;science fiction novel
+Q153701;romance novel
+Q720669;science fiction
+Q450346;short story
+Q210059;fantasy
+Q457608;fantasy
+Q272163;novel
+Q6499118;girls adventure stories
+Q1444495;novel
+Q504;novel
+Q372549;poetry
+Q372549;drama
+Q127330;rock music
+Q127330;experimental music
+Q127330;avant-garde music
+Q127330;jazz
+Q127330;classical music
+Q273453;historical romance
+Q435330;alternative rock
+Q4949447;short story
+Q4949447;novel
+Q595917;novel
+Q595917;essay
+Q34660;fantasy
+Q34660;tragicomedy
+Q34660;crime novel
+Q234928;science fiction
+Q2839072;poetry
+Q372505;science fiction
+Q486063;hard rock
+Q486063;nu metal
+Q486063;heavy metal
+Q486063;prog rock
+Q486063;alternative metal
+Q486063;experimental music
+Q486063;art rock
+Q230476;romance novel
+Q150679;portrait painting
+Q535108;romance novel
+Q2360782;science fiction
+Q272889;romance novel
+Q2595750;adventure novel
+Q2595750;serial fiction
+Q207640;novel
+Q261489;yé-yé
+Q265674;crime novel
+Q724817;children's literature
+Q310257;romance novel
+Q2919671;historical novel
+Q2919671;essay
+Q358342;opera
+Q185714;science fiction
+Q724323;opinion journalism
+Q724323;detective fiction
+Q558252;non-fiction literature
+Q205473;electropop
+Q205473;dance-pop
+Q205473;pop music
+Q1077158;jazz
+Q1077158;experimental music
+Q1077158;free improvisation
+Q10269193;novel
+Q10269193;short story
+Q10269193;essay
+Q10269193;poetry
+Q2846286;blues
+Q312579;science fiction literature
+Q312579;literary fiction
+Q3565560;literature
+Q3565560;theater
+Q295004;novel
+Q6769766;fantasy
+Q272767;romance novel
+Q354371;caricature
+Q176049;romance novel
+Q704294;novel
+Q3703786;novel
+Q5478699;poetry
+Q111619;novel
+Q1288248;marine art
+Q188838;theater
+Q430639;novel
+Q430639;poetry
+Q240623;pop music
+Q270632;modernism
+Q456914;poetry
+Q456914;novel
+Q4348254;science fiction
+Q12326920;pop music
+Q234663;novel
+Q17067170;romance novel
+Q5948833;poetry
+Q1807864;novel
+Q1807864;crime novel
+Q318462;historical novel
+Q318462;horror literature
+Q78509;satire
+Q468277;short story
+Q713270;rock music
+Q123521;verse
+Q123521;essay
+Q11136361;poetry
+Q4347428;crime literature
+Q315132;drama
+Q720012;comic
+Q1175607;children's literature
+Q291397;novel
+Q283496;poetry
+Q913403;science fiction
+Q913403;speculative fiction
+Q11685333;children's literature
+Q327261;satire
+Q359521;rock music
+Q215308;barroco
+Q57477;prose
+Q359521;acoustic music
+Q359521;alternative rock
+Q272076;science fiction
+Q1303988;romance novel
+Q4059788;novel
+Q55767;children's literature
+Q55767;fairy tale
+Q266947;science fiction
+Q999904;dramaturgy
+Q999904;novel
+Q1445641;novel
+Q1445641;essay
+Q1445641;science fiction
+Q1445641;Holocaust literature
+Q6950;romance novel
+Q133151;heavy metal
+Q133151;hard rock
+Q133151;traditional heavy metal
+Q133151;doom metal
+Q133151;shock rock
+Q1385774;children's literature
+Q1385774;fantasy
+Q297794;novel
+Q297794;play
+Q23481;play
+Q23481;prose
+Q468523;novel
+Q468523;short story
+Q84222;autobiography
+Q446586;alternative rock
+Q6391763;novel
+Q3898198;novel
+Q2411481;prose
+Q3476794;urban fantasy
+Q3476794;horror fiction
+Q3476794;apocalyptic literature
+Q534738;crime novel
+Q685053;prose
+Q685053;short story
+Q685053;powest
+Q20046422;Masonic studies
+Q4528769;novel
+Q229369;science fiction
+Q229369;fantasy
+Q1493271;romance novel
+Q313981;thriller
+Q491892;industrial metal
+Q446973;science fiction
+Q1276;rock music
+Q1276;spoken word
+Q1276;folk rock
+Q1276;synthpop
+Q1276;world music
+Q1276;soft rock
+Q1276;pop music
+Q1276;contemporary folk music
+Q1276;pop rock
+Q1276;blues
+Q2355375;poetry
+Q2355375;novel
+Q2355375;youth and children's literature
+Q2355375;theater
+Q2355375;essay
+Q453410;novel
+Q442643;popular science
+Q526709;novel
+Q366150;fantasy
+Q6530807;filk
+Q328753;pop music
+Q382360;adventure novel
+Q469250;memoir
+Q336698;novel
+Q1238901;science fiction
+Q314498;elegy
+Q3071789;science fiction
+Q691796;portrait
+Q173540;romance novel
+Q1340193;narrative poetry
+Q16604054;poetry
+Q235364;young adult literature
+Q62365;novel
+Q62365;poetry
+Q62365;short story
+Q283353;poetry
+Q283353;novel
+Q283353;play
+Q881756;poetry
+Q2910910;pop music
+Q144090;space opera
+Q212886;television
+Q212886;theater
+Q2976694;speculative fiction
+Q2976694;science fiction
+Q217427;pop music
+Q217427;soul music
+Q217427;house music
+Q334711;poetry
+Q4348970;shōnen manga
+Q765539;non-fiction literature
+Q48305;Greek tragedy
+Q628346;children's literature
+Q1093817;portrait
+Q298027;short story
+Q6499342;romance novel
+Q2628029;verse
+Q2628029;narrative poetry
+Q2628029;ocherk
+Q2628029;short story
+Q2672351;novel
+Q2672351;crime novel
+Q2672351;short story
+Q188461;pop music
+Q188461;dance music
+Q188461;disco
+Q188461;synthpop
+Q61091;play
+Q15920;thrash metal
+Q15920;hard rock
+Q15920;rock music
+Q15920;heavy metal
+Q94246;children's literature
+Q1361479;comic
+Q5593203;pop music
+Q858778;fictional crossover
+Q2305628;speculative fiction
+Q123080;novel
+Q444065;novel
+Q319610;hard rock
+Q3154938;novel
+Q3154938;translation
+Q1377013;poetry
+Q236727;detective fiction
+Q1344713;rock music
+Q1744;pop music
+Q1744;dance music
+Q1744;electronic music
+Q1744;dance-pop
+Q1744;pop rock
+Q4441;poetry
+Q1744;electronics
+Q1744;contemporary R&B
+Q1744;adult contemporary music
+Q1744;jazz
+Q1744;rock opera
+Q1744;contemporary folk music
+Q258431;detective fiction
+Q1077103;novel
+Q456340;novel
+Q823003;melodrama
+Q106018;novel
+Q438686;short story
+Q271457;short story
+Q271457;powest
+Q271457;ocherk
+Q271457;feuilleton
+Q271457;opinion journalism
+Q271457;speculative fiction
+Q740928;speculative fiction
+Q3495187;novel
+Q658341;detective fiction
+Q552025;science fiction
+Q1060636;fairy tale
+Q4342243;romance novel
+Q356918;poetry
+Q356918;novel
+Q5608;Midwest hip hop
+Q151820;essay
+Q151820;novel
+Q505274;detective fiction
+Q454010;pop music
+Q454010;new wave music
+Q454010;dance music
+Q454010;Eurodance
+Q454010;rock music
+Q454010;disco
+Q454010;dance-pop
+Q605664;poetry
+Q605664;essay
+Q605664;novel
+Q454010;Euro disco
+Q454010;jazz
+Q550819;detective fiction
+Q454010;Italo disco
+Q706856;magic realism
+Q233584;novel
+Q189080;rock music
+Q189080;protopunk
+Q189080;alternative rock
+Q189080;noise rock
+Q189080;experimental rock
+Q189080;glam rock
+Q189080;folk rock
+Q189080;psychedelic rock
+Q19665989;speculative fiction
+Q189080;blue-eyed soul
+Q189080;art rock
+Q189080;spoken word
+Q318099;thriller
+Q189080;drone music
+Q314797;art of sculpture
+Q228624;speculative fiction
+Q326773;poetry
+Q326773;novel
+Q3201139;novel
+Q3201139;youth and children's literature
+Q3201139;biography
+Q3201139;screenplay
+Q506885;novel
+Q506885;theatre
+Q506885;children's literature
+Q312407;Lost Generation
+Q266059;poetry
+Q28170;speculative fiction
+Q1371409;jazz
+Q363227;science fiction
+Q363227;mystery fiction
+Q1333364;alternate history
+Q470133;novel
+Q470133;short story
+Q558425;detective literature
+Q558425;detective fiction
+Q295406;science fiction
+Q295406;fantasy
+Q4390139;satire
+Q25159;hip hop music
+Q534455;romance novel
+Q164765;elegy
+Q369632;crime novel
+Q369632;mystery fiction
+Q369632;science fiction literature
+Q163366;opera
+Q1586250;novel
+Q1586250;short story
+Q562556;novel
+Q13030390;lyric poetry
+Q6112196;essay
+Q36322;romance novel
+Q36322;gothic fiction
+Q2264253;novel
+Q2264253;short story
+Q2264253;poetry
+Q2264253;youth and children's literature
+Q457338;theater
+Q3470420;novel
+Q3470420;autobiography
+Q3470420;erotic literature
+Q3470420;poetry
+Q645406;novel
+Q1392055;adventure
+Q36970;comedy
+Q36970;action film
+Q36970;drama
+Q36970;martial arts film
+Q36970;adventure
+Q2839677;novel
+Q44306;magic realism
+Q93714;children's literature
+Q202122;science fiction
+Q202122;fantasy
+Q469778;pop music
+Q756220;synthpop
+Q7228850;short story
+Q131318;poetry
+Q25408290;poetry
+Q1162833;science fiction
+Q458591;veganism
+Q207515;comedy
+Q4113348;science fiction
+Q79025;historical novel
+Q79025;poetry
+Q79025;short story
+Q79025;theater
+Q22958933;techno
+Q380869;science fiction
+Q234443;romance novel
+Q313007;novel
+Q7937601;electro
+Q459631;novel
+Q459631;short story
+Q49017;blues
+Q202246;alternative rock
+Q353762;novel
+Q353762;essay
+Q5682;poetry
+Q5682;novel
+Q5682;tragedy
+Q35208546;verse
+Q334471;shōjo manga
+Q132964;Russian Futurism
+Q34086;teen pop
+Q34086;contemporary R&B
+Q440877;romance novel
+Q465208;novel
+Q725065;speculative fiction
+Q455703;novel
+Q455703;dramaturgy
+Q455703;chronicle
+Q455703;autobiography
+Q256750;pop music
+Q1048828;comic science fiction
+Q5927494;novel
+Q260730;romance novel
+Q248207;soul music
+Q248207;rhythm and blues
+Q248207;funk
+Q248207;rock music
+Q559529;pop music
+Q717204;horror literature
+Q232495;rhythm and blues
+Q232495;funk
+Q232495;pop music
+Q5941703;novel
+Q3852568;poetry
+Q97142;prose
+Q97142;novel
+Q2804827;horror film
+Q192417;Neoteric
+Q3393472;poetry
+Q144439;novel
+Q144439;short story
+Q125663;detective fiction
+Q1176873;ambient music
+Q6760032;novel
+Q200798;landscape art
+Q230586;magic realism
+Q366469;Western swing
+Q463299;novelist
+Q3323486;youth and children's literature
+Q3323486;children's literature
+Q3323486;post-war
+Q312641;speculative fiction
+Q312641;science fiction
+Q314553;science fiction
+Q4755183;chick lit
+Q121140;prose
+Q712518;novel
+Q2965982;science fiction
+Q2965982;speculative fiction
+Q622046;pop music
+Q4506074;speculative fiction
+Q15137903;novel
+Q358178;fantasy
+Q326766;narrative poetry
+Q326766;libretto
+Q72334;African-American literature
+Q305909;short story
+Q4221522;science fiction
+Q79822;essay
+Q79822;narrative poetry
+Q47561;poetry
+Q546643;pop music
+Q1541271;novel
+Q1541271;short story
+Q316788;speculative fiction
+Q316788;science fiction
+Q2171566;satire
+Q2171566;feuilleton
+Q551710;science fiction
+Q240576;children's literature
+Q262274;children's literature
+Q262274;fantasy
+Q6142591;science fiction
+Q3754140;poetry
+Q3754140;novel
+Q3754140;essay
+Q5596333;culture
+Q5596333;commerce
+Q5596333;business
+Q497494;opera
+Q248867;science fiction
+Q248867;fantasy
+Q268495;novel
+Q4954294;non-fiction
+Q4954294;popular science
+Q1860923;historical novel
+Q1225937;novel
+Q1225937;short story
+Q443120;pop music
+Q4954294;analytic journalism
+Q4954294;investigative journalism
+Q2535359;portrait
+Q228546;novel
+Q228546;poetry
+Q228546;tale
+Q228546;drama
+Q228546;short story
+Q747;poetry
+Q747;tragedy
+Q747;comedy
+Q1995154;film noir
+Q236829;fantasy
+Q681136;electronic music
+Q23517;new wave music
+Q446708;essay
+Q16875324;dramaturgy
+Q275175;short story
+Q275175;powest
+Q275175;novel
+Q1093318;rock music
+Q1093318;hip hop music
+Q1093318;pop music
+Q1093318;soul music
+Q1093318;electronic music
+Q1093318;dance music
+Q2594458;science fiction
+Q298242;science fiction
+Q298242;crime novel
+Q298242;Western
+Q188987;science fiction
+Q188987;cyberpunk
+Q188987;steampunk
+Q188987;postcyberpunk
+Q629931;poetry
+Q267698;detective novel
+Q267698;crime novel
+Q5522851;contemporary classical music
+Q168569;novel
+Q242530;fantasy
+Q242530;science fiction
+Q44144;rock music
+Q4960513;children's literature
+Q3948609;pop music
+Q18590295;science fiction
+Q6395795;short story
+Q6395795;novel
+Q181667;biography
+Q6500316;romance novel
+Q2603691;young adult literature
+Q45765;naturalism
+Q45765;adventure novel
+Q1967762;novel
+Q173481;poetry
+Q1683201;romance novel
+Q500546;dramaturgy
+Q500546;novel
+Q235291;biography
+Q5379710;short story
+Q5379710;novel
+Q228899;pop rock
+Q180975;musical
+Q180975;rock opera
+Q7314;opera
+Q7314;symphony
+Q7314;20th-century classical music
+Q7314;chamber music
+Q1808983;fantasy
+Q190220;fantasy
+Q455780;alternate history
+Q269123;novel
+Q3336535;novel
+Q2898792;opera
+Q180962;novel
+Q1191493;shōnen manga
+Q2575446;novel
+Q312101;fantasy
+Q737570;speculative fiction
+Q941810;gothic fiction
+Q1038200;novel
+Q7199;novel
+Q7199;essay
+Q7199;pastiche
+Q16285;novel
+Q16285;short story
+Q16285;poetry
+Q16285;theatre
+Q16285;essay
+Q5942731;novel
+Q1395692;poetry
+Q52447;hip hop music
+Q1905056;opera
+Q704700;bluegrass music
+Q5938680;novel
+Q725387;shōnen manga
+Q724860;portrait
+Q220864;novel
+Q220864;play
+Q220864;script
+Q2861548;prose
+Q2861548;short story
+Q2861548;play
+Q2861548;satire
+Q2861548;verse
+Q451312;canzone
+Q451312;sonnet
+Q451312;Terza rima
+Q451312;essay
+Q451312;novel
+Q313254;novel
+Q309903;gothic fiction
+Q1239398;jazz
+Q123242;fiction
+Q123242;journalism
+Q239897;fantasy
+Q12022914;poetry
+Q12022914;prose
+Q51110;C-pop
+Q436801;satire
+Q181716;science fiction
+Q7114631;poetry
+Q7114631;novel
+Q7114631;theater
+Q301951;crime novel
+Q160219;fantasy
+Q160219;romance novel
+Q7405395;sufi rock
+Q166351;heroic fantasy
+Q297538;science fiction
+Q297538;horror fiction
+Q297538;fantasy
+Q297538;horror literature
+Q8017857;portrait
+Q1749125;science fiction
+Q3032581;novel
+Q739401;novel
+Q7279300;novel
+Q201732;novel
+Q44219;romance novel
+Q6782093;novel
+Q1065901;novel
+Q1065901;essay
+Q1065901;short story
+Q527920;fiction
+Q527920;drama
+Q3082457;novel
+Q465681;youth and children's literature
+Q465681;fairy tale
+Q465681;novel
+Q465681;powest
+Q316138;fantasy
+Q316138;science fiction
+Q316138;historical fiction
+Q234403;fantasy
+Q440569;science fiction
+Q48280;rock music
+Q162136;novel
+Q162136;short story
+Q12370068;prose
+Q12370068;science fiction novel
+Q83566;novel
+Q83566;novella
+Q362422;rock music
+Q362422;glam metal
+Q362422;traditional heavy metal
+Q356546;short story
+Q356546;novel
+Q356546;theater
+Q356546;poetry
+Q152824;novel
+Q11362;poetry
+Q598052;urban fantasy
+Q261521;detective novel
+Q3620203;novel
+Q724395;science fiction
+Q291500;narrative poetry
+Q291500;sonnet
+Q291500;short story
+Q291500;novel
+Q291500;fairy tale
+Q563699;rock music
+Q196773;novel
+Q196773;youth and children's literature
+Q921267;prog rock
+Q921267;alternative rock
+Q921267;funk rock
+Q446209;romance novel
+Q122020;pop music
+Q3751269;novel
+Q3751269;short story
+Q3751269;poetry
+Q3751269;dramaturgy
+Q3751269;essay
+Q2625592;novel
+Q2625592;powest
+Q2625592;pamphlet
+Q2495863;science fiction
+Q960862;poetry
+Q960862;novel
+Q2916655;poetry
+Q492029;pop music
+Q492029;hip hop music
+Q492029;pop rock
+Q492029;soul music
+Q492029;rhythm and blues
+Q504698;fiction
+Q153905;poetry
+Q313553;novel
+Q313553;theater
+Q175204;dramaturgy
+Q175204;novel
+Q492029;Latin pop
+Q492029;contemporary R&B
+Q11955300;dramaturgy
+Q266205;mystery fiction
+Q1971168;fantasy
+Q5953307;short story
+Q5252652;new wave music
+Q471443;satire
+Q471443;feuilleton
+Q471443;novel
+Q471443;novella
+Q471443;powest
+Q471443;prose
+Q471443;speculative fiction
+Q39829;horror literature
+Q39829;fantasy
+Q39829;science fiction
+Q39829;drama
+Q39829;epistolary genre
+Q39829;gothic fiction
+Q39829;post-apocalyptic fiction
+Q39829;thriller
+Q39829;detective fiction
+Q19662918;poetry
+Q137582;science fiction
+Q18870845;novel
+Q18870845;short story
+Q12773;lyric poetry
+Q5933680;crime novel
+Q1565362;prose
+Q1894353;crime novel
+Q1932708;essay
+Q1932708;novel
+Q1932708;short story
+Q8015163;portrait
+Q184440;novel
+Q273843;fantasy
+Q1961038;short story
+Q23924683;true crime
+Q7365855;country music
+Q722453;novel
+Q3057522;novel
+Q3057522;military history
+Q434997;romance novel
+Q5678883;novel
+Q15090962;dramaturgy
+Q6780053;novel
+Q80889;historical novel
+Q1528007;novel
+Q3725701;novel
+Q448776;romance novel
+Q59896;novel
+Q1351464;science fiction
+Q237997;bolero
+Q17709101;crime novel
+Q191499;ragtime
+Q191499;opera
+Q546374;novel
+Q311875;indie rock
+Q191499;march
+Q260560;science fiction
+Q191499;waltz
+Q438345;romance novel
+Q6396491;youth and children's literature
+Q1130431;opera
+Q377623;Gaucho literature
+Q321031;opera
+Q5582;landscape art
+Q5582;still life
+Q6002581;poetry
+Q220980;novel
+Q220980;theater
+Q123078;science fiction
+Q544207;detective fiction
+Q554746;short story
+Q554746;powest
+Q554746;novel
+Q11267967;seinen manga
+Q217388;novel
+Q16494089;poetry
+Q458860;romance novel
+Q465179;fantasy
+Q1159454;classical music
+Q23908891;free verse
+Q23908891;play
+Q974678;poetry
+Q974678;novel
+Q974678;musical
+Q2499817;novel
+Q18978000;prose
+Q18978000;children's literature
+Q7243;short story
+Q220450;fantasy
+Q983263;ballad
+Q42455;rock music
+Q42455;alternative rock
+Q42455;experimental music
+Q42455;electronic music
+Q42455;art pop
+Q4120750;poetry
+Q80095;novel
+Q74569;children's literature
+Q273400;romance novel
+Q2731432;shōjo manga
+Q60584;poetry
+Q13893647;classical music
+Q2941186;alternative rock
+Q6695027;romance novel
+Q2619780;novel
+Q272211;fantasy
+Q562428;chronicle
+Q7731156;folk music
+Q6819009;contemporary folk music
+Q203460;novel
+Q1386443;rock music
+Q43227885;children's literature
+Q190388;poetry
+Q724969;opera
+Q724969;symphony
+Q327825;chanson
+Q16466661;romance novel
+Q5186349;novel
+Q5186349;short story
+Q20442019;romance novel
+Q538508;detective fiction
+Q2497235;Western
+Q296256;science fiction
+Q296256;fantasy
+Q1701769;science fiction
+Q49080;prose
+Q49080;short story
+Q49080;ocherk
+Q49080;play
+Q555324;poetry
+Q555324;novel
+Q555324;short story
+Q555324;screenplay
+Q917004;pop music
+Q2843820;novel
+Q2843820;essay
+Q104358;jazz
+Q786927;romance novel
+Q104358;Jazz blues
+Q104358;ballad
+Q38049;novel
+Q38049;poetry
+Q38049;essay
+Q1399341;short story
+Q104358;swing music
+Q2560145;hip hop music
+Q310002;treatise
+Q104358;vocal jazz
+Q104358;blues
+Q57971;fantasy
+Q734278;satire
+Q261223;short story
+Q11770434;romance novel
+Q2843592;children's literature
+Q2843592;youth and children's literature
+Q686301;gospel music
+Q4422382;drama
+Q6042685;poetry
+Q316884;poetry
+Q316884;novel
+Q217110;science fiction
+Q271814;powest
+Q423298;tale
+Q423298;essay
+Q423298;novel
+Q210740;gothic fiction
+Q423298;literary fragment
+Q423298;treatise
+Q357455;pop music
+Q2087052;narrative poetry
+Q5580696;short story
+Q35064;crime novel
+Q35064;detective fiction
+Q35064;adventure novel
+Q35064;autobiography
+Q976059;fantasy
+Q24690604;paranormal romance
+Q24690604;romance
+Q24690604;fantasy
+Q462283;crime novel
+Q462283;youth and children's literature
+Q928940;novel
+Q928940;short story
+Q318431;detective fiction
+Q318509;hardcore punk
+Q46739;poetry
+Q5953398;short story
+Q5603;portrait
+Q613259;fantasy
+Q2348464;novel
+Q2028631;short story
+Q433322;essay
+Q460366;romance novel
+Q705715;dance-pop
+Q705715;rhythm and blues
+Q705715;disco
+Q705715;Eurodance
+Q705715;electronics
+Q705715;dance music
+Q6450928;landscape art
+Q434916;experimental music
+Q4894938;novel
+Q4894938;crime novel
+Q4894938;essay
+Q4894938;youth and children's literature
+Q6228586;indie folk
+Q562402;poetry
+Q34670;novel
+Q551638;floral painting
+Q118973;play
+Q118973;prose
+Q113764;children's literature
+Q1373235;short story
+Q251286;novel
+Q5021456;poetry
+Q157326;poetry
+Q157326;novel
+Q434635;novel
+Q434635;short story
+Q434635;science fiction
+Q434635;youth and children's literature
+Q192936;prog rock
+Q24070557;pop music
+Q24070557;rhythm and blues
+Q24070557;soul music
+Q5231354;rock music
+Q186317;detective fiction
+Q464264;poetry
+Q464264;novel
+Q464264;short story
+Q1899808;romance novel
+Q34190;satire
+Q4061;American folk music
+Q4061;contemporary folk music
+Q4061;country music
+Q47595;poetry
+Q47595;history
+Q47595;astronomy
+Q336093;short story
+Q551570;detective fiction
+Q366949;poetry
+Q215665;detective fiction
+Q311671;thriller
+Q1401;poetry
+Q34189;verse
+Q34189;prose
+Q438220;shōjo manga
+Q478068;fantasy
+Q4529299;speculative fiction
+Q4529299;action film
+Q28009015;history
+Q28009015;fantasy
+Q353784;poetry
+Q353784;narrative
+Q353784;short story
+Q6957553;short story
+Q28009015;architectural photography
+Q5409135;poetry
+Q28009015;prehistory
+Q938710;opera
+Q16946003;young adult literature
+Q28009015;ancient astronaut hypothesis
+Q360292;science fiction literature
+Q360292;powest
+Q333632;Música Popular Brasileira
+Q15902;soft rock
+Q333632;bossa nova
+Q15902;indie pop
+Q333632;samba
+Q267691;novel
+Q3008;prog rock
+Q333632;choro
+Q965375;novel
+Q267242;short story
+Q267242;novel
+Q267242;powest
+Q4083426;novel
+Q235505;prose
+Q235505;poetry
+Q6006879;poetry
+Q256959;science fiction
+Q3106338;essay
+Q3106338;novel
+Q403877;children's literature
+Q508259;crime novel
+Q5907634;poetry
+Q5907634;novel
+Q352059;thriller
+Q231841;romance novel
+Q8962216;novel
+Q33977;science fiction
+Q33977;drama
+Q61064;abstract art
+Q312853;speculative fiction
+Q312853;historical fiction
+Q312853;essay
+Q268181;fiction
+Q268181;fiction literature
+Q268181;horror literature
+Q268181;satire
+Q684748;science fiction
+Q332983;jazz
+Q44301;rock music
+Q44301;poetry
+Q44301;psychedelic rock
+Q2555120;dramaturgy
+Q4767693;children's literature
+Q327526;novel
+Q327526;short story
+Q327526;children's literature
+Q273677;romance novel
+Q1031954;novel
+Q433067;art of painting
+Q433067;graphics
+Q910392;crime novel
+Q1389497;jazz
+Q18227997;young adult literature
+Q2277277;romance novel
+Q44336;play
+Q44336;prose
+Q438164;science fiction
+Q77751;novel
+Q77751;theater
+Q77751;short story
+Q236684;novel
+Q919098;theater
+Q919098;poetry
+Q256763;detective novel
+Q83158;drama
+Q83158;tragedy
+Q87925;prose
+Q320358;novel
+Q320358;short story
+Q98434;prose
+Q209004;novel
+Q531563;novel
+Q77371;Romanticism
+Q1379791;poetry
+Q1379791;novel
+Q22670;ballad
+Q22670;play
+Q219780;gonzo journalism
+Q737874;novel
+Q737874;historical novel
+Q208582;shōnen manga
+Q962119;floral painting
+Q28035848;essay
+Q12871591;magic realism
+Q154691;poetry
+Q154691;theater
+Q2274592;novel
+Q2274592;theater
+Q316785;science fiction
+Q134477;children's literature
+Q392;rock music
+Q392;blues
+Q392;country music
+Q392;American folk music
+Q786526;novel
+Q786526;short story
+Q5752713;thriller
+Q5752713;detective fiction
+Q392;pop-folk
+Q392;country rock
+Q392;folk pop
+Q187857;Christian rock
+Q1288774;poetry
+Q1288774;children's literature
+Q268371;science fiction
+Q511948;pop music
+Q462585;poetry
+Q2826453;novel
+Q2826453;poetry
+Q452722;romance novel
+Q298394;novel
+Q2975082;young adult literature
+Q40874;science fiction
+Q791729;romance novel
+Q5878981;poetry
+Q561147;essay
+Q561147;poetry
+Q1934414;romance novel
+Q154770;20th-century classical music
+Q154770;opera
+Q12035521;ocherk
+Q154770;atonality
+Q154770;serialism
+Q57966;short story
+Q236993;novel
+Q637455;science fiction
+Q637455;mystery fiction
+Q4179607;non-fiction literature
+Q4179607;opinion journalism
+Q165467;rock music
+Q165467;hard rock
+Q165467;blues rock
+Q165467;folk rock
+Q165467;prog rock
+Q443235;pulp magazine
+Q447367;powest
+Q447367;verse
+Q447367;novel
+Q447367;screenplay
+Q272492;historical novel
+Q272492;fantasy
+Q8193878;novel
+Q8193878;poetry
+Q8193878;chronicle
+Q242162;science fiction
+Q2599418;novel
+Q2599418;short story
+Q155855;science fiction
+Q5340652;novel
+Q240786;science fiction
+Q230141;poetry
+Q230141;novel
+Q315015;lyric poetry
+Q6375429;novel
+Q3091084;poetry
+Q311145;style of Machado de Assis
+Q645141;novel
+Q1399637;novel
+Q703476;science fiction
+Q6916861;short story
+Q715796;novel
+Q18026907;short story
+Q4165727;short story
+Q233118;B movie
+Q174210;magic realism
+Q174210;poetry
+Q5686;novel
+Q5686;gothic fiction
+Q468658;novel
+Q468658;essay
+Q468658;narrative
+Q193660;poetry
+Q193660;novel
+Q193660;autobiography
+Q193660;dialogue
+Q193660;treatise
+Q193660;proverb
+Q193660;compendium
+Q1047108;light novel
+Q4695410;short story
+Q5238959;young adult literature
+Q335397;non-fiction comics
+Q52985;ligne claire
+Q427886;romance novel
+Q311382;rock music
+Q311382;alternative rock
+Q5522892;science fiction
+Q28414501;thriller
+Q28414501;young adult literature
+Q233033;fantasy
+Q4717502;novel
+Q588653;science fiction
+Q588653;fantasy
+Q588653;alternate history
+Q588653;military science fiction
+Q3334185;detective fiction
+Q1896356;youth and children's literature
+Q212772;pop music
+Q212772;dance-pop
+Q212772;contemporary R&B
+Q388140;poetry
+Q25106;folk music
+Q455776;romance novel
+Q17486589;children's literature
+Q17486589;Weird West
+Q7373309;young adult literature
+Q8201122;novel
+Q8201122;comic
+Q8201122;essay
+Q61994;fantasy
+Q61994;horror literature
+Q61994;science fiction
+Q1352236;thriller
+Q186273;poetry
+Q240485;pop music
+Q353983;endurance art
+Q44107;novel
+Q44107;short story
+Q44107;verse
+Q44107;play
+Q44107;essay
+Q133657;children's literature
+Q1685883;jazz
+Q346439;Eurodance
+Q3750965;novel
+Q3750965;essay
+Q726953;opera
+Q5548378;novel
+Q5548378;short story
+Q461360;novel
+Q222944;novel
+Q222944;biography
+Q57382;prose
+Q333106;essay
+Q93624;pop music
+Q5258405;science fiction
+Q4357901;powest
+Q241215;modernism
+Q241215;magic realism
+Q231944;gothic fiction
+Q231944;gothic literature
+Q3184925;prose
+Q283408;novel
+Q454595;thriller
+Q45909;experimental rock
+Q45909;alternative rock
+Q45909;art rock
+Q45909;pop rock
+Q45909;folk rock
+Q45909;drone music
+Q45909;protopunk
+Q45909;avant-garde music
+Q45909;spoken word
+Q45909;classical music
+Q45909;rock music
+Q20670070;crime novel
+Q45909;film score
+Q356429;science fiction
+Q18173445;novel
+Q3351937;travel literature
+Q309702;poetry
+Q205162;liberalism
+Q61629;novel
+Q2028727;autobiography
+Q523581;opera
+Q257132;poetry
+Q257132;prose
+Q259364;short story
+Q434597;poetry
+Q692;English Renaissance theatre
+Q503557;novel
+Q503557;biography
+Q455510;science fiction
+Q270199;romance novel
+Q163557;novel
+Q163557;theater
+Q163557;correspondence
+Q2831;pop music
+Q2831;soul music
+Q2831;dance music
+Q2831;disco
+Q2831;rock music
+Q2831;blues
+Q2831;rhythm and blues
+Q2831;funk
+Q455228;science fiction
+Q455228;fantasy
+Q2831;new jack swing
+Q445939;opera
+Q125598;novel
+Q6374151;country music
+Q6759163;romance novel
+Q755;lyric poetry
+Q329999;science fiction
+Q329999;irony
+Q329999;short story
+Q311644;non-fiction literature
+Q1393782;novel
+Q1393782;short story
+Q2320966;poetry
+Q62435;science fiction
+Q174880;poetry
+Q3943873;short story
+Q1084428;fairy tale
+Q1400917;detective fiction
+Q1400917;prose
+Q17612370;narrative
+Q17612370;essay
+Q42398;novel
+Q42398;short story
+Q42398;ocherk
+Q1334326;poetry
+Q1334326;novel
+Q1334326;short story
+Q1334326;poetic prose
+Q1334326;essay
+Q313605;portrait
+Q616541;mystery fiction
+Q41502;novel
+Q41502;novella
+Q41502;reportage
+Q41502;powest
+Q41502;short story
+Q41502;feuilleton
+Q103285;poetry
+Q5372094;romance novel
+Q16314211;crime novel
+Q189599;rock music
+Q189599;blues rock
+Q189599;rock and roll
+Q189599;rhythm and blues
+Q501;elegy
+Q4361649;prose
+Q106465;detective fiction
+Q34166;hard rock
+Q34166;traditional heavy metal
+Q34166;blues rock
+Q34166;glam metal
+Q2977074;crime novel
+Q717520;young adult literature
+Q617215;dramaturgy
+Q617215;literature
+Q617215;cinematography
+Q2068682;novel
+Q7945871;novel
+Q7945871;short story
+Q7945871;lyric poetry
+Q450335;novel
+Q450335;prose
+Q450335;essay
+Q209077;lyric
+Q909874;adventure novel
+Q434280;fiction
+Q458625;indie rock
+Q3335;dystopian literature
+Q535308;jazz
+Q192609;New Age music
+Q57393;novel
+Q3309992;speculative fiction
+Q3309992;literary realism
+Q318374;rock music
+Q975764;novel
+Q6766303;romance novel
+Q739973;satire
+Q3517037;detective fiction
+Q158878;novel
+Q369398;youth and children's literature
+Q706272;novel
+Q439578;poetry
+Q167768;satire
+Q167768;novel
+Q167768;essay
+Q189665;novel
+Q272622;poetry
+Q266816;poetry
+Q266816;novel
+Q706370;novel
+Q448983;pop music
+Q63309;prose
+Q572655;short story
+Q572655;novel
+Q1338416;novel
+Q3237147;novel
+Q3237147;ocherk
+Q3237147;play
+Q465237;prose
+Q207867;rock music
+Q207867;gothic rock
+Q207867;dark wave
+Q275955;romance novel
+Q555888;historical novel
+Q165257;poetry
+Q165257;theater
+Q3757000;poetry
+Q18800;hip hop music
+Q508574;alternative rock
+Q384863;novel
+Q273873;children's literature
+Q298685;fairy tale
+Q2452725;romance novel
+Q6808023;novel
+Q1225;rock music
+Q193744;alternative rock
+Q700555;novel
+Q6149033;novel
+Q115483;play
+Q115483;prose
+Q2657001;novel
+Q185002;pop music
+Q185002;synthpop
+Q185002;trip hop
+Q185002;pop rock
+Q185002;dark wave
+Q1775181;pop music
+Q357929;biography
+Q3505471;science fiction
+Q15873;rock music
+Q15873;glam rock
+Q15873;pop rock
+Q15873;hard rock
+Q15873;prog rock
+Q4469924;novel
+Q4469924;short story
+Q4469924;travel book
+Q231948;novel
+Q231948;essay
+Q231948;short story
+Q773830;contemporary folk music
+Q773830;folk rock
+Q773830;rock music
+Q773830;jazz
+Q4098361;opinion journalism
+Q4098361;essay
+Q7843341;pop music
+Q447658;Tartan Noir
+Q447658;gothic fiction
+Q235965;romance novel
+Q725559;lyric poetry
+Q319196;science fiction
+Q433800;detective fiction
+Q233046;speculative fiction
+Q1910631;detective fiction
+Q33605;pop music
+Q1318953;prose
+Q1819994;poetry
+Q1819994;short story
+Q1819994;novel
+Q1819994;essay
+Q1819994;theatre
+Q36878;verse
+Q36878;narrative poetry
+Q9013203;dramaturgy
+Q8198780;poetry
+Q1872966;prose
+Q5942516;investigative journalism
+Q5942516;historiography
+Q5942516;popular science
+Q5942516;essay
+Q114860;children's literature
+Q20190248;novel
+Q3018710;romance novel
+Q2029665;novel
+Q2712435;novel
+Q2712435;chronicle
+Q2712435;essay
+Q645074;detective fiction
+Q12862;poetry
+Q273731;historical mystery
+Q273731;essay
+Q273731;historical novel
+Q3724307;novel
+Q133855;free verse
+Q2082072;horror literature
+Q529082;novel
+Q529082;short story
+Q724068;poetry
+Q724068;essay
+Q2468256;romance novel
+Q8016608;portrait
+Q613846;historical novel
+Q744019;pop music
+Q2388302;novel
+Q2388302;powest
+Q21481534;crime novel
+Q21481534;biography
+Q314223;aerial photography
+Q712191;novel
+Q5740688;novel
+Q515421;fantasy
+Q93356;poetry
+Q455605;rock music
+Q273034;children's literature
+Q3126428;anthology
+Q3126428;novel
+Q525967;short story
+Q211133;treatise
+Q211133;epistolary genre
+Q211133;elegy
+Q309926;rock music
+Q309926;heavy metal
+Q309926;rock and roll
+Q309926;speed metal
+Q309926;hard rock
+Q309926;traditional heavy metal
+Q309926;punk rock
+Q337351;detective fiction
+Q309926;space rock
+Q309926;psychedelic rock
+Q706445;novel
+Q49074;satire
+Q76483;Dinggedicht
+Q76483;prose
+Q40909;drama
+Q40909;prose
+Q212727;fantasy
+Q51101;pop music
+Q51101;dance-pop
+Q80871;poetry
+Q157004;novel
+Q2295075;rock music
+Q743057;thriller
+Q743057;erotica
+Q76539;novel
+Q9088386;novel
+Q9088386;essay
+Q1375663;folk rock
+Q240253;science fiction
+Q34628;drama
+Q4462435;science fiction
+Q1850594;play
+Q1850594;prose
+Q1299;rock music
+Q1299;pop music
+Q1299;hard rock
+Q1299;rock and roll
+Q1299;blues rock
+Q1299;beat music
+Q1299;folk rock
+Q1299;psychedelic rock
+Q1299;folk music
+Q1299;heavy metal
+Q1299;experimental rock
+Q2908;novel
+Q470515;Créolité
+Q357970;historical novel
+Q369482;observational comedy
+Q318391;autobiography
+Q318391;travel journal
+Q318391;essay
+Q318391;diary
+Q318391;novel

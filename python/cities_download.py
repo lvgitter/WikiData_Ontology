@@ -75,85 +75,91 @@ class myThread (threading.Thread):
                 self.local_statistics[index("no label")] += 1
 
             # DESCRIPTION
-            description = ""
-            if ("descriptions" in data['entities'][city_id]["claims"]):
-                if ("en" in data['entities'][city_id]["claims"]["descriptions"]):
-                    description = data['entities'][city_id]["claims"]["descriptions"]["en"]["value"]
-            elif ("descriptions" in data['entities'][city_id]):
-                if ("en" in data['entities'][city_id]["descriptions"]):
-                    description = data['entities'][city_id]["descriptions"]["en"]["value"]
-            else:
+            try:
+                description = ""
+                if ("descriptions" in data['entities'][city_id]["claims"]):
+                    if ("en" in data['entities'][city_id]["claims"]["descriptions"]):
+                        description = data['entities'][city_id]["claims"]["descriptions"]["en"]["value"]
+                elif ("descriptions" in data['entities'][city_id]):
+                    if ("en" in data['entities'][city_id]["descriptions"]):
+                        description = data['entities'][city_id]["descriptions"]["en"]["value"]
+            except:
                 self.local_statistics[index("no description")] += 1
 
             # REAL OR FICTIONAL CITY
-            instance_of = []
-            if ("P31" in data['entities'][city_id]["claims"]):
-                for iof in data['entities'][city_id]["claims"]["P31"]:
-                    instance_of.append(iof["mainsnak"]["datavalue"]["value"]["id"])
-            if "Q1964689" in instance_of:
-                self.local_statistics[index("fictional")] += 1
-                # HAS ANALOG (P1074)
-                if ("P1074" in data['entities'][city_id]["claims"]):
-                    try:
-                        has_analog_lock.acquire()
-                        real_city = data['entities'][city_id]["claims"]["P1074"][0]["mainsnak"]["datavalue"]["value"]["id"]
-                        file_has_analog.write(city_id+";"+real_city+"\n")
-                        has_analog_lock.release()
-                    except:
-                        has_analog_lock.release()
-                file_fict_lock.acquire()
-                file_fictional_city.write(city_id + ";" + label + ";" + description + "\n")
-                file_fict_lock.release()
-                self.local_statistics[index("fictional")] += 1
-                continue
-
+            try:
+                instance_of = []
+                if ("P31" in data['entities'][city_id]["claims"]):
+                    for iof in data['entities'][city_id]["claims"]["P31"]:
+                        instance_of.append(iof["mainsnak"]["datavalue"]["value"]["id"])
+                if "Q1964689" in instance_of:
+                    self.local_statistics[index("fictional")] += 1
+                    # HAS ANALOG (P1074)
+                    if ("P1074" in data['entities'][city_id]["claims"]):
+                        try:
+                            has_analog_lock.acquire()
+                            real_city = data['entities'][city_id]["claims"]["P1074"][0]["mainsnak"]["datavalue"]["value"]["id"]
+                            file_has_analog.write(city_id+";"+real_city+"\n")
+                            has_analog_lock.release()
+                        except:
+                            has_analog_lock.release()
+                    file_fict_lock.acquire()
+                    file_fictional_city.write(city_id + ";" + label + ";" + description + "\n")
+                    file_fict_lock.release()
+                    self.local_statistics[index("fictional")] += 1
+                    continue
+            except:
+                pass
 
             # POPULATION
             population = ""
-            if ("P1082" in data['entities'][city_id]["claims"]):
+            try:
                 population = (data['entities'][city_id]["claims"]["P1082"][0]["mainsnak"]["datavalue"]["value"]["amount"][1:])
-            else:
+            except:
                 self.local_statistics[index("no population")] += 1
             
             
             # AREA
             area = ""
-            if ("P2046" in data['entities'][city_id]["claims"]):
-                try:
+            try:
+                if ("P2046" in data['entities'][city_id]["claims"]):
                     area = (data['entities'][city_id]["claims"]["P2046"][0]["mainsnak"]["datavalue"]["value"]["amount"][1:])
-                except:
-                    self.local_statistics[index("no area")] += 1
+            except:
+                self.local_statistics[index("no area")] += 1
 
 
 
             # MAYOR (P1313)
-            if ("P1313" in data['entities'][city_id]["claims"]):
-                for mayor in data['entities'][city_id]["claims"]["P1313"]:
-                    try:
-                        #if (mayor["mainsnak"]["datavalue"]["value"]["id"] in mayors):
-                        has_mayor_lock.acquire()
-                        has_mayor_file.write(
-                            str(city_id + ";" + mayor["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
-                        has_mayor_lock.release()
+            try:
+                if ("P1313" in data['entities'][city_id]["claims"]):
+                    for mayor in data['entities'][city_id]["claims"]["P1313"]:
+                        try:
+                            #if (mayor["mainsnak"]["datavalue"]["value"]["id"] in mayors):
+                            has_mayor_lock.acquire()
+                            has_mayor_file.write(
+                                str(city_id + ";" + mayor["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
+                            has_mayor_lock.release()
 
-                    except:
-                        has_mayor_lock.release()
-            else:
+                        except:
+                            has_mayor_lock.release()
+            except:
                 self.local_statistics[index("no mayor")] += 1
 
             
             
             # COUNTRY
-            if ("P17" in data['entities'][city_id]["claims"]):
-                coun = data['entities'][city_id]["claims"]["P17"][0] #take only the preferred one; assumption: it's the FIRST
             try:
-                couns_file_lock.acquire()
-                file_couns_out.write(str(city_id) + ";"+ str(coun["mainsnak"]["datavalue"]["value"]["id"]+"\n"))
-                couns_file_lock.release()
+                if ("P17" in data['entities'][city_id]["claims"]):
+                    coun = data['entities'][city_id]["claims"]["P17"][0] #take only the preferred one; assumption: it's the FIRST
+                try:
+                    couns_file_lock.acquire()
+                    file_couns_out.write(str(city_id) + ";"+ str(coun["mainsnak"]["datavalue"]["value"]["id"]+"\n"))
+                    couns_file_lock.release()
+                except:
+                    couns_file_lock.release()
+                    self.local_statistics[index("no country")] += 1
             except:
-                couns_file_lock.release()
-                self.local_statistics[index("no country")] += 1
-
+                pass
                 
             file_real_lock.acquire()
             file_real_city.write(city_id + ";" + label.replace(";", " ") + ";" + description.replace(";", " ") + ";" + area.replace(";", " ") + ";" + population.replace(";", " ") + "\n")
@@ -219,7 +225,7 @@ has_mayor_file = open(file_has_mayor_path, 'a')
 file_has_analog = open(file_has_analog_path, 'a')
 
 n_results = len(cities)
-print("Number of cities: " + str(n_results))
+print("Number of cities: " + str(n_results)+"\n")
 file_log.write("Number of cities: " + str(n_results) + "\n")
 
 #PARALLEL COMPUTATION INITIALIZATION
@@ -250,7 +256,7 @@ file_fictional_city.close()
 file_couns_out.close()
 has_mayor_file.close()
 file_has_analog.close()
-
+'''
 #STATISTICS REPORTING
 print("\n\n*** STATISTICS ***\n")
 for i in range(len(statistics)):
@@ -258,7 +264,7 @@ for i in range(len(statistics)):
 
 
 total_time = time.time() - total_time
-print("Total_time:\t"+str(round(total_time,2))+" sec")
+print("Total_time:\t"+str(round(total_time,2))+" sec")'''
 
 
 #STATISTICS REPORTING

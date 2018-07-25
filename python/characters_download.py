@@ -82,39 +82,40 @@ class CharacterDownloadThread(threading.Thread):
 
             # DESCRIPTION
             description = ""
-            if ("descriptions" in data['entities'][character]["claims"]):
-                if ("en" in data['entities'][character]["claims"]["descriptions"]):
-                    description = data['entities'][character]["claims"]["descriptions"]["en"]["value"]
-            elif ("descriptions" in data['entities'][character]):
-                if ("en" in data['entities'][character]["descriptions"]):
-                    description = data['entities'][character]["descriptions"]["en"]["value"]
-            else:
+            try:
+                if ("descriptions" in data['entities'][character]["claims"]):
+                    if ("en" in data['entities'][character]["claims"]["descriptions"]):
+                        description = data['entities'][character]["claims"]["descriptions"]["en"]["value"]
+                elif ("descriptions" in data['entities'][character]):
+                    if ("en" in data['entities'][character]["descriptions"]):
+                        description = data['entities'][character]["descriptions"]["en"]["value"]
+            except:
                 self.local_statistics[index("no description")] += 1
 
             # NAME
             name = label
-            if ("P1559" in data['entities'][character]["claims"]):
-                name = (data['entities'][character]["claims"]["P1559"][0]["mainsnak"]["datavalue"]["value"]["text"])
-            elif ("P1477" in data['entities'][character]["claims"]):
-                name = (data['entities'][character]["claims"]["P1477"][0]["mainsnak"]["datavalue"]["value"]["text"])
-            else:
+            try:
+                if ("P1559" in data['entities'][character]["claims"]):
+                    name = (data['entities'][character]["claims"]["P1559"][0]["mainsnak"]["datavalue"]["value"]["text"])
+                elif ("P1477" in data['entities'][character]["claims"]):
+                    name = (data['entities'][character]["claims"]["P1477"][0]["mainsnak"]["datavalue"]["value"]["text"])
+            except:
                 name = label
                 self.local_statistics[index("no name")] += 1
 
             # SEX
             sex = ""
-            if ("P21" in data['entities'][character]["claims"]):
-                try:
+            try:
+                if ("P21" in data['entities'][character]["claims"]):
                     sex = (data['entities'][character]["claims"]["P21"][0]["mainsnak"]["datavalue"]["value"]["id"])
                     if sex == 'Q6581097':
                         sex = 'male'
                     elif sex == 'Q6581072':
                         sex = 'female'
                     else:
-                        sex = 'unknown'
                         self.local_statistics[index("no sex")] += 1
-                except:
-                    self.local_statistics[index("no sex")] += 1
+            except:
+                self.local_statistics[index("no sex")] += 1
 
             # DoB
             DoB = ""
@@ -131,29 +132,30 @@ class CharacterDownloadThread(threading.Thread):
                 self.local_statistics[index("no DoD")] += 1
 
 
-
-            if ("P31" in data['entities'][character]["claims"]):
-                instance_of = []
-                for iO in data['entities'][character]["claims"]["P31"]:
-                    instance_of.append(iO["mainsnak"]["datavalue"]["value"]["id"])
-                if "Q15632617" in instance_of:
-                    fictional_human_lock.acquire()
-                    fictional_human_file.write(str(
-                character) + ";" + label + ";" + description + ";" + name + ";" + sex + ";" + DoB + ";" + DoD + "\n")
-                    fictional_human_lock.release()
-                    self.local_statistics[index("fictionalHuman")] += 1
-                elif "Q5" in instance_of:
-                    human_characters_lock.acquire()
-                    human_character_file.write(character+"\n")
-                    human_characters_lock.release()
-                    self.local_statistics[index("human")] += 1
-                else:
-                    fictional_not_human_lock.acquire()
-                    fictional_not_human_file.write(str(
-                        character).replace(";", " ") + ";" + label.replace(";", " ") + ";" + description.replace(";", " ") + ";" + name.replace(";", " ") + ";" + sex + ";" + DoB + ";" + DoD + "\n")
-                    fictional_not_human_lock.release()
-                self.local_statistics[index("fictionalNotHuman")] += 1
-
+            try:
+                if ("P31" in data['entities'][character]["claims"]):
+                    instance_of = []
+                    for iO in data['entities'][character]["claims"]["P31"]:
+                        instance_of.append(iO["mainsnak"]["datavalue"]["value"]["id"])
+                    if "Q15632617" in instance_of:
+                        fictional_human_lock.acquire()
+                        fictional_human_file.write(str(
+                    character) + ";" + label + ";" + description + ";" + name + ";" + sex + ";" + DoB + ";" + DoD + "\n")
+                        fictional_human_lock.release()
+                        self.local_statistics[index("fictionalHuman")] += 1
+                    elif "Q5" in instance_of:
+                        human_characters_lock.acquire()
+                        human_character_file.write(character+"\n")
+                        human_characters_lock.release()
+                        self.local_statistics[index("human")] += 1
+                    else:
+                        fictional_not_human_lock.acquire()
+                        fictional_not_human_file.write(str(
+                            character).replace(";", " ") + ";" + label.replace(";", " ") + ";" + description.replace(";", " ") + ";" + name.replace(";", " ") + ";" + sex + ";" + DoB + ";" + DoD + "\n")
+                        fictional_not_human_lock.release()
+                        self.local_statistics[index("fictionalNotHuman")] += 1
+            except:
+                pass
 
     def join(self):
         Thread.join(self)
@@ -197,7 +199,8 @@ human_character_file = open(human_character_file_path, 'a')
 log_file = open(log_file_path, 'a')
 
 n_characters = len(characters)
-print("Number of characters: " + str(n_characters))
+print("Number of characters: " + str(n_characters)+"\n")
+log_file.write("Number of characters: " + str(n_characters)+"\n")
 
 # PARALLEL COMPUTATION
 threads = []
@@ -224,7 +227,7 @@ processed_characters_file = open(processed_characters_file_path, 'a')
 for character in characters:
     processed_characters_file.write(character+"\n")
 processed_characters_file.close()
-
+'''
 # STATISTICS REPORTING
 print("\n\n*** STATISTICS ***\n")
 for i in range(len(statistics)):
@@ -232,7 +235,7 @@ for i in range(len(statistics)):
         label(i).ljust(16) + ":" + str(statistics[i]) + "  (" + str(round(statistics[i] / n_characters, 2) * 100) + " %)")
 
 total_time = time.time() - total_time
-print("Total_time:\t" + str(round(total_time, 2)) + " sec")
+print("Total_time:\t" + str(round(total_time, 2)) + " sec")'''
 
 # STATISTICS REPORTING
 log_file.write("\n\n*** STATISTICS *** \n")

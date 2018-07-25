@@ -1,16 +1,17 @@
-2018-07-25 09:18:57
+2018-07-25 16:54:46
 
+Number of translators: 369
 
 
 *** STATISTICS *** 
-no name         :35  (78.0 %) 
-no sex          :0  (0.0 %) 
-no DoB          :7  (16.0 %) 
-no DoD          :10  (22.0 %) 
-no occupation   :3  (7.000000000000001 %) 
-no PoB          :17  (38.0 %) 
-no PoD          :32  (71.0 %) 
+no name         :1  (0.0 %) 
+no sex          :3  (1.0 %) 
+no DoB          :70  (19.0 %) 
+no DoD          :132  (36.0 %) 
+no occupation   :1  (0.0 %) 
+no PoB          :1  (0.0 %) 
+no PoD          :2  (1.0 %) 
 no language     :0  (0.0 %) 
-no label        :0  (0.0 %) 
-no description  :0  (0.0 %) 
-Total_time:	1.9 sec
+no label        :21  (6.0 %) 
+no description  :1  (0.0 %) 
+Total_time:	1532535324.85 sec

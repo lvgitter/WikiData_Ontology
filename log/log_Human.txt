@@ -1,28 +1,30 @@
-2018-07-25 09:18:57
+2018-07-25 16:54:46
 
-
-
-*** STATISTICS *** 
-no name         :55  (46.0 %) 
-no sex          :0  (0.0 %) 
-no DoB          :11  (9.0 %) 
-no DoD          :6  (5.0 %) 
-no occupation   :8  (7.000000000000001 %) 
-no PoB          :16  (13.0 %) 
-no PoD          :22  (18.0 %) 
-no label        :0  (0.0 %) 
-no description  :0  (0.0 %) 
-Total_time:	8.79 sec
+Number of humans: 529
 
 
 *** STATISTICS *** 
-no name         :7  (37.0 %) 
+no name         :0  (0.0 %) 
 no sex          :0  (0.0 %) 
-no DoB          :0  (0.0 %) 
-no DoD          :18  (95.0 %) 
+no DoB          :61  (12.0 %) 
+no DoD          :84  (16.0 %) 
 no occupation   :0  (0.0 %) 
 no PoB          :0  (0.0 %) 
-no PoD          :18  (95.0 %) 
+no PoD          :0  (0.0 %) 
+no label        :12  (2.0 %) 
+no description  :0  (0.0 %) 
+Total_time:	1532535338.14 sec
+Number of humans: 177
+
+
+*** STATISTICS *** 
+no name         :0  (0.0 %) 
+no sex          :0  (0.0 %) 
+no DoB          :5  (3.0 %) 
+no DoD          :175  (99.0 %) 
+no occupation   :0  (0.0 %) 
+no PoB          :0  (0.0 %) 
+no PoD          :0  (0.0 %) 
 no label        :0  (0.0 %) 
 no description  :0  (0.0 %) 
-Total_time:	1.33 sec
+Total_time:	1532535764.41 sec

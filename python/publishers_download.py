@@ -71,45 +71,49 @@ class myThread (threading.Thread):
 
             # DESCRIPTION
             description = ""
-            if ("descriptions" in data['entities'][pub_id]["claims"]):
-                if ("en" in data['entities'][pub_id]["claims"]["descriptions"]):
-                    description = data['entities'][pub_id]["claims"]["descriptions"]["en"]["value"]
-            elif ("descriptions" in data['entities'][pub_id]):
-                if ("en" in data['entities'][pub_id]["descriptions"]):
-                    description = data['entities'][pub_id]["descriptions"]["en"]["value"]
-            else:
+            try:
+                if ("descriptions" in data['entities'][pub_id]["claims"]):
+                    if ("en" in data['entities'][pub_id]["claims"]["descriptions"]):
+                        description = data['entities'][pub_id]["claims"]["descriptions"]["en"]["value"]
+                elif ("descriptions" in data['entities'][pub_id]):
+                    if ("en" in data['entities'][pub_id]["descriptions"]):
+                        description = data['entities'][pub_id]["descriptions"]["en"]["value"]
+            except:
                 self.local_statistics[index("no description")] += 1
 
             # INCEPTION
             inception = ""
-            if ("P571" in data['entities'][pub_id]["claims"]):
-                inception = (data['entities'][pub_id]["claims"]["P571"][0]["mainsnak"]["datavalue"]["value"]["time"].split("-")[0][1:])
-            else:
+            try:
+                if ("P571" in data['entities'][pub_id]["claims"]):
+                    inception = (data['entities'][pub_id]["claims"]["P571"][0]["mainsnak"]["datavalue"]["value"]["time"].split("-")[0][1:])
+            except:
                 self.local_statistics[index("no inception")] += 1
 
             # LOCATION (COUNTRY)
-            if ("P17" in data['entities'][pub_id]["claims"]):
-                for loc in data['entities'][pub_id]["claims"]["P17"]:
-                    try:
-                        locs_file_lock.acquire()
-                        file_locs_out.write(str(pub_id+";"+loc["mainsnak"]["datavalue"]["value"]["id"])+"\n")
-                        locs_file_lock.release()
-                    except:
-                        locs_file_lock.release()
-            else:
+            try:
+                if ("P17" in data['entities'][pub_id]["claims"]):
+                    for loc in data['entities'][pub_id]["claims"]["P17"]:
+                        try:
+                            locs_file_lock.acquire()
+                            file_locs_out.write(str(pub_id+";"+loc["mainsnak"]["datavalue"]["value"]["id"])+"\n")
+                            locs_file_lock.release()
+                        except:
+                            locs_file_lock.release()
+            except:
                 self.local_statistics[index("no loc")] += 1
             
             
             # FOUNDER (HUMAN)
-            if ("P112" in data['entities'][pub_id]["claims"]):
-                for fou in data['entities'][pub_id]["claims"]["P112"]:
-                    try:
-                        fous_file_lock.acquire()
-                        file_fous_out.write(str(pub_id+";"+fou["mainsnak"]["datavalue"]["value"]["id"])+"\n")
-                        fous_file_lock.release()
-                    except:
-                        fous_file_lock.release()
-            else:
+            try:
+                if ("P112" in data['entities'][pub_id]["claims"]):
+                    for fou in data['entities'][pub_id]["claims"]["P112"]:
+                        try:
+                            fous_file_lock.acquire()
+                            file_fous_out.write(str(pub_id+";"+fou["mainsnak"]["datavalue"]["value"]["id"])+"\n")
+                            fous_file_lock.release()
+                        except:
+                            fous_file_lock.release()
+            except:
                 self.local_statistics[index("no founder")] += 1
                 
             file_out_lock.acquire()
@@ -158,7 +162,7 @@ file_locs_out = open(file_locs_path, 'a')
 file_fous_out = open(file_fous_path, 'a')
 
 n_results = len(publishers)
-print("Number of publishers: " + str(n_results))
+print("Number of publishers: " + str(n_results)+"\n")
 file_log.write("Number of publishers: " + str(n_results) + "\n")
 
 #PARALLEL COMPUTATION INITIALIZATION
@@ -188,14 +192,14 @@ file_out.close()
 file_locs_out.close()
 file_fous_out.close()
 
-
+'''
 #STATISTICS REPORTING
 print("\n\n*** STATISTICS ***\n")
 for i in range(len(statistics)):
     print(label(i).ljust(16)+":"+str(statistics[i])+"  ("+str(round(statistics[i]/n_results,2)*100)+" %)")
 
 total_time = time.time() - total_time
-print("Total_time:\t"+str(round(total_time,2))+" sec")
+print("Total_time:\t"+str(round(total_time,2))+" sec")'''
 
 #STATISTICS REPORTING
 file_log.write("\n\n*** STATISTICS *** \n")

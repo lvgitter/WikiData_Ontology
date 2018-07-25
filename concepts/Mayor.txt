@@ -1,43 +1,701 @@
 mayor_id;mayor_label;mayor_description;start_time;end_time;official_residence
-Q24701575;mayor of Vufflens-le-Château;;;;
-Q17279086;Mayor of Beijing;;;;
-Q26274423;mayor of Seville;;;;
-Q21510223;Mayor of Zürich;political position;;;
-Q26690449;mayor of Alicante;political position in Spain;;;
-Q6627774;Mayor of Warsaw;;;;
-Q11525354;Governor of Tokyo;;;;
+Q24702407;mayor of Montreux;;;;
+Q26691753;Mayor of Zamora;political position in Spain;;;
+Q466956;President of Chile;head of state and head of government of Chile;;;
+Q26692964;mayor of Bueu;political position in Spain;;;
+Q55018639;Chief Minister of Madhya Pradesh;chief minister of a state in India;;;
+Q26698715;mayor of Fuente Vaqueros;political position in Spain;;;
+Q26698665;mayor of Albuñuelas;political position in Spain;;;
+Q26697622;mayor of El Puerto de Santa María;political position in Spain;;;
+Q50293073;Mayor of Tainan;;;;
+Q26700840;mayor of Palencia;political position in Spain;;;
+Q26690455;mayor of Las Palmas de Gran Canaria;political position in Spain;;;
+Q26700872;mayor of Gotarrendura;political position in Spain;;;
+Q7243300;Prime Minister of Jordan;head of government of the Hashemite Kingdom of Jordan;;;
+Q488289;Mayor of Seoul;position;;;
+Q15063280;Governor of Osaka;;;;
+Q26699535;mayor of Darnius;political position in Spain;;;
+Q11722691;Mayor of Honolulu;;;;
+Q20801652;Governor of West Virginia;head of state and of government of the U.S. state of West Virginia;;;West Virginia Governor's Mansion
+Q26694893;mayor of Cretas;political position in Spain;;;
+Q26690451;mayor of Huesca;political position in Spain;;;
+Q24255207;Mayor of Vancouver;mayor of the Canadian city of Vancouver;;;
+Q21994938;superior mayor of Bogota;political position in Colombia;;;
+Q26699686;mayor of Bermeo;political position in Spain;;;
+Q24701337;mayor of L'Isle;;;;
+Q26690333;mayor of Legazpia;political position in Spain;;;
+Q213107;Prime Minister of Belgium;head of the federal government of Belgium;;;residence of the Prime Minister of Belgium
+Q26698340;mayor of Alburquerque;political position in Spain;;;
+Q26698048;mayor of Puente la Reina;political position in Spain;;;
+Q54931493;Cathaoirleach of Louth County Council;honorific title of the chairperson of Louth County Council;;;
+Q2430415;Prime Minister of Turkey;head of government of Turkey until 9 July 2018;;;Başbakanlık Konutu
+Q23834189;Mayor of Bad Doberan;;;;
+Q26699692;mayor of Cambados;political position in Spain;;;
+Q30100626;Prime Minister of Nepal;Head of government of Nepal;;;
 Q50184139;Mayor of Bologna;Mayor of Bologna;;;
-Q27898073;Mayor of Bordeaux;;;;
-Q50190063;Mayor of Naples;;;;
-Q52220796;Lord Mayor of Cologne;mayor of Cologne, Germany;;;
-Q25927210;mayor of Florence;;;;
-Q26698271;mayor of Alcalá de Henares;political position in Spain;;;
-Q26700989;mayor of Roncesvalles;political position in Spain;;;
-Q17078548;Mayor of Madrid;political position in Spain;;;
-Q132050;governor;governing official;;;
-Q53926032;Mayor of Rio de Janeiro;head of a municipal government in Brazil;;;
-Q4377230;Prime Minister of Greece;head of government of the Hellenic Republic and the leader of the Greek cabinet;;;Maximos Mansion
-Q2741486;Chief Executive of Hong Kong;head of the Hong Kong Government;;;Government House
-Q3961545;mayor of Milan;;;;
-Q12155639;Mayor of Barcelona;President of the municipal corporation of Barcelona;;;
-Q26691142;mayor of Vic;political position in Spain;;;
-Q191827;Taoiseach;head of government or prime minister of Ireland;;;Steward's Lodge
-Q785304;Mayor of New York City;head of the executive branch of New York City's government;;;Gracie Mansion
-Q13645132;Lord Mayor of Dublin;honorific title of the chairperson of Dublin City Council;;;Mansion House, Dublin
-Q24703283;Mayor of Genève;;;;
-Q27306390;mayor of Salvador;head of a municipal government in Brazil;;;
-Q17149373;Mayor of Prague;;;;
-Q38931;Mayor of London;head of the government of Greater London;;;City Hall
-Q54931516;Cathaoirleach of Wicklow County Council;honorific title of the chairperson of Wicklow County Council;;;
-Q2276266;Mayor of Jerusalem;;;;
-Q23936560;mayor of Rome;;;;
-Q50190176;mayor of Palermo;;;;
-Q11696;President of the United States;head of state and of government of the United States;;;White House
-Q2895612;Governor of Saint Petersburg;Wikimedia list article;;;Smolny Institute
+Q1469153;Prime Minister of Fiji;position;;;
+Q13527933;Premier of Tasmania;head of government for the state of Tasmania, Australia;;;
+Q53926039;Mayor of Curitiba;head of a municipal government in Brazil;;;
+Q5589688;Governor of Nebraska;head of state and of government of the U.S. state of Nebraska;;;Nebraska Governor's Mansion
+Q1123764;Prime Minister of Armenia;Head of Government of Armenia;;;Government House, Yerevan
+Q26699537;mayor of Yurreta;political position in Spain;;;
 Q641159;Governing Mayor of Berlin;head of government presiding over the Berlin Senate;;;
-Q6341938;mayor of Cartagena;political position in Spain;;;
-Q26698798;mayor of Córdoba;political position in Spain;;;
-Q8350052;;;;;
-Q30185;mayor;head of municipal government such as a town or city;;;
-Q1362118;First Mayor of Hamburg;head of government of the city and state of Hamburg, Germany;;;Hamburg Rathaus
+Q1288478;Prime Minister of Aruba;position;;;
+Q13341442;President of Honduras;head of state and head of government of Honduras;;;
+Q26692385;mayor of Elgóibar;political position in Spain;;;
+Q838380;President of Iran;position;;;Sa'dabad Palace
+Q24040821;Chief Minister of Tamil Nadu;head of government of the Indian state of Tamil Nadu;;;
+Q47528896;President of Campania;President of Campania region in Italy;;;
+Q3245461;Chief Minister of Guernsey;chairs the Policy Council;;;
+Q3259469;Prime Minister of Poland;Head of Government of Poland;;;Warsaw
+Q26694177;mayor of Segura de la Sierra;political position in Spain;;;
+Q30148243;Prime Minister of Benin;Head of Government of Benin 1960–2016;;;
+Q26691876;mayor of La Pola de Gordón;political position in Spain;;;
+Q21402692;mayor of Toledo;;;;
+Q16242755;Municipal President of Tijuana;;;;
+Q878151;President of El Salvador;position;;;Casa Presidencial
+Q54932338;Cathaoirleach of Roscommon County Council;honorific title of the chairperson of Roscommon County Council;;;
+Q5190572;Mayor of the District of Columbia;head of the executive branch of the government of Washington, D.C;;;
+Q26694610;mayor of Orio;political position in Spain;;;
+Q34633327;;;;;
+Q54931491;Cathaoirleach of Longford County Council;honorific title of the chairperson of Longford County Council;;;
+Q20644070;Governor of Ohio;head of state and of government of the U.S. state of Ohio;;;Ohio Governor's Mansion
+Q39512829;Mayor of Kolkata;Mayor of Calcutta Corporation;;;
+Q24703293;Mayor of Lancy;;;;
+Q26690386;mayor of Mataró;political position in Spain;;;
+Q5589668;Governor of Kansas;head of state and of government of the U.S. state of Kansas;;;Cedar Crest
+Q221922;Chief Minister of Maharashtra;;;;
+Q41139257;chairman of the municipal board of Tyresö Municipality;;;;
+Q26692150;mayor of Valencia de Alcántara;political position in Spain;;;
+Q26690770;mayor of Santa Coloma de Farners;political position in Spain;;;
+Q30101454;Prime Minister of Lesotho;;;;
+Q26696693;mayor of Azpeitia;political position in Spain;;;
+Q3401763;Prime Minister of Ivory Coast;;;;
+Q20801651;Governor of Nevada;head of state and of government of the U.S. state of Nevada;;;Nevada Governor's Mansion
+Q26690363;mayor of l'Escala;political position in Spain;;;
+Q26690522;mayor of Lequeitio;political position in Spain;;;
+Q54932337;Cathaoirleach of County Mayo;honorific title of the chairperson of Mayo County Council;;;
+Q26700993;mayor of Oliva;political position in Spain;;;
+Q26699722;mayor of Portbou;political position in Spain;;;
+Q39582061;Prime Minister of Senegal;;;;
+Q26698039;mayor of San Lorenzo de El Escorial;political position in Spain;;;
+Q26698271;mayor of Alcalá de Henares;political position in Spain;;;
+Q50306553;Mayor of Yilan County;;;;
+Q4970706;Federal Chancellor of Germany;head of government of Federal Republic of Germany 1949–present;;;German Chancellery in Berlin
+Q1826694;Prime Minister of Mauritius;head of government of the Republic of Mauritius;;;Clarisse House
+Q26695538;mayor of San Lorenzo de Morunys;political position in Spain;;;
+Q26701086;mayor of Alcira;political position in Spain;;;
+Q26702439;mayor of Moya;;;;
+Q26692026;mayor of Silleda;political position in Spain;;;
+Q26700784;mayor of Vilafranca del Penedès;political position in Spain;;;
+Q54931539;Mayor of County Cork;honorific title of the chairperson of Cork County Council;;;
+Q26694561;mayor of Santa María del Campo Rus;political position in Spain;;;
+Q319145;Prime Minister of Australia;executive head of the Government of Australia;;;The Lodge
+Q5589701;Governor of Puebla;chief executive of the Mexican state of Puebla;;;
+Q26700917;mayor of Vigo;political position in Spain;;;
+Q1516776;Chief Minister of Punjab;head of a state in India;;;
+Q26691071;mayor of Folgarolas;political position in Spain;;;
+Q4404583;Prime Minister of Bulgaria;;;;
+Q26690648;mayor of Berango;political position in Spain;;;
+Q47490293;Mayor of Quebec City;;;;
+Q4376682;Chairman of the Council of People's Commissars;government position in the USSR;;;
+Q6621829;List of governors of Kalmar County;Wikimedia list article;;;
+Q26700989;mayor of Roncesvalles;political position in Spain;;;
+Q51094653;mayor of Cali;political position in Colombia;;;
+Q2748453;President of the Junta of Andalusia;;;;Palace of San Telmo
+Q3112728;Governor of New Jersey;head of state and of government of the U.S. state of New Jersey;;;Drumthwacket
+Q26698242;mayor of Montehermoso;political position in Spain;;;
+Q24701112;mayor of Bex;;;;
+Q24702403;mayor of Nyon;;;;
+Q26699392;mayor of Denia;political position in Spain;;;
+Q53739335;governor of the state of Sao Paulo;governor of a state of Brazil;;;
+Q26701004;mayor of Paredes de Nava;political position in Spain;;;
+Q26690759;mayor of Tortosa;political position in Spain;;;
+Q26700578;mayor of Moguer;political position in Spain;;;
+Q26697850;mayor of Linares;political position in Spain;;;
+Q26701096;mayor of Lasarte-Oria;political position in Spain;;;
+Q26702574;mayor of Moratalla;political position in Spain;;;
+Q1155759;President of Turkmenistan;position;;;Türkmenbaşy Palace
+Q22979263;First Minister of Northern Ireland;;;;
+Q3961603;mayor of Verona;Mayor of Verona, city in Italy;;;
+Q26698842;mayor of Osuna;political position in Spain;;;
+Q26692029;mayor of O Carballiño;political position in Spain;;;
+Q26690265;mayor of Sedaví;political position in Spain;;;
+Q26698680;mayor of Antequera;political position in Spain;;;
+Q6627739;mayor of Tartu;;;;
+Q26700843;mayor of Sanxenxo;political position in Spain;;;
+Q27977064;President of Costa Rica;head of state and head of government of Costa Rica;;;
+Q1074656;Prime Minister of Papua New Guinea;position;;;
+Q54931499;Cathaoirleach of Meath County Council;honorific title of the chairperson of Meath County Council;;;
+Q16202700;Governor of North Carolina;head of state and of government of the U.S. state of North Carolina;;;North Carolina Executive Mansion
+Q47490035;Mayor of Winnipeg;;;;
+Q5708511;President of Peru;head of the Republic of Peru;;;Government Palace
+Q20801659;Governor of Pennsylvania;head of state and of government of the U.S. commonwealth of Pennsylvania;;;Pennsylvania Governor's Residence
+Q55139200;Chief minister of Puducherry;chief minister of a state in India;;;
+Q26701195;mayor of Cuart de Poblet;political position in Spain;;;
+Q55018631;Chief Minister of Assam;chief minister of a state in India;;;
+Q1344632;Prime Minister of Luxembourg;head of government in Luxembourg;;;
+Q3112727;Governor of Wisconsin;head of state and of government of the U.S. state of Wisconsin;;;Wisconsin Executive Residence
+Q26697690;mayor of Puertollano;political position in Spain;;;
+Q2560704;Premier of Ontario;first minister of the government of Ontario;;;
+Q2347975;Governor of New York;head of state and of government of the U.S. state of New York;;;New York State Executive Mansion
+Q2416315;Prime Minister of Kazakhstan;;;;
+Q12155639;Mayor of Barcelona;President of the municipal corporation of Barcelona;;;
+Q26692037;mayor of A Rúa;political position in Spain;;;
+Q26698550;mayor of Portugalete;political position in Spain;;;
+Q12391919;mayor of A Coruña;political position in Spain;;;
+Q24701213;mayor of Corseaux;;;;
+Q55018654;Chief Minister of West Bengal;chief minister of a state in India;;;
+Q1145714;Prime Minister of Ukraine;position;;;Budynok Uryadu
+Q20765611;Governor of Rhode Island;head of state and of government of the U.S. state of Rhode Island;;;
+Q24702390;mayor of Lausanne;;;;
+Q1561481;Mayor of Split;position;;;
+Q5589666;Governor of Jalisco;chief executive of the Mexican state of Jalisco;;;
+Q26699870;mayor of Montblanc;political position in Spain;;;
+Q24701587;mayor of Yverdon-les-Bains;;;;
+Q1790154;Chief Minister of Delhi;head of government of the National Capital Territory of Delhi, India;;;
+Q3123;Io;innermost of the four Galilean moons of Jupiter;;;
+Q26690504;mayor of Murcia;political position in Spain;;;
+Q26700651;mayor of Sahagún;political position in Spain;;;
+Q26691251;mayor of Santiago de Compostela;political position in Spain;;;
+Q26701204;mayor of Alba de Tormes;political position in Spain;;;
+Q26700916;mayor of Bilbao;political position in Spain;;;Bilbao City Hall
+Q26691569;mayor of Tarragona;political position in Spain;;;
+Q26691258;mayor of Santa Cruz de Tenerife;political position in Spain;;;
+Q17078548;Mayor of Madrid;political position in Spain;;;
+Q26693617;mayor of Alegría de Oria;political position in Spain;;;
+Q5663945;mayor of Santander;;;;
+Q26700931;mayor of Málaga;political position in Spain;;;
+Q26691036;mayor of Lalín;political position in Spain;;;
+Q26699336;mayor of Alcalá la Real;political position in Spain;;;
+Q1758894;Prime Minister of Sri Lanka;;;;
+Q3506352;Governor of Maine;head of state and of government of the U.S. state of Maine;;;The Blaine House
+Q30100613;Prime Minister of Grenada;;;;
+Q26700881;mayor of Alhaurín el Grande;political position in Spain;;;
+Q26699894;mayor of Basauri;political position in Spain;;;
+Q26690882;mayor of Santa Cristina d'Aro;political position in Spain;;;
+Q26699647;mayor of Figueras;political position in Spain;;;
+Q30100649;Prime Minister of Kuwait;;;;
+Q26697741;mayor of Caravaca de la Cruz;political position in Spain;;;
+Q182762;Prime Minister of Algeria;position;;;
+Q26698683;mayor of Tauste;political position in Spain;;;
+Q1655971;Minister of State;head of the government of Monaco;;;
+Q29514606;Governor of Arizona;head of state and of government of the U.S. state of Arizona;;;
+Q12969145;President of Argentina;Head of State of Argentina;;;Casa Rosada
+Q24701498;mayor of Saint-Prex;;;;
+Q26699708;mayor of Girona;political position in Spain;;;
+Q26697959;mayor of Úbeda;political position in Spain;;;
+Q54931534;Cathaoirleach of Clare County Council;honorific title of the chairperson of Clare County Council;;;
+Q18683546;president of Sardinia;;;;
+Q17279086;Mayor of Beijing;;;;
+Q53739354;governor of the state of Santa Catarina;governor of a state of Brazil;;;
+Q26699791;mayor of Xátiva;political position in Spain;;;
+Q26699045;mayor of Morón de la Frontera;political position in Spain;;;
+Q51094842;mayor of Cartagena de Indias;political position in Colombia;;;
+Q26690926;mayor of Banyoles;political position in Spain;;;
+Q20801656;Governor of Delaware;head of state and of government of the U.S. state of Delaware;;;Delaware Governor's Mansion
+Q7241294;President of Tuscany;;;;
+Q12583545;Governor of Gyeonggi Province;;;;
+Q16267964;Governor of the City of Sevastopol;;;;
+Q5589682;Governor of Minnesota;head of state and of government of the U.S. state of Minnesota;;;Minnesota Governor's Residence
+Q41805891;;;;;
+Q26699753;mayor of Chalamera;political position in Spain;;;
+Q26699160;mayor of Escalona;political position in Spain;;;
+Q26274423;mayor of Seville;;;;
+Q26698350;mayor of Manacor;political position in Spain;;;
+Q30263013;Minister-President of Schleswig-Holstein;head of government of the German state Schleswig-Holstein;;;
+Q26691574;mayor of Albacete;political position in Spain;;;
+Q14917303;Prime Minister of Guinea;;;;
+Q23090514;president of the departmental council;;;;
+Q878254;President of Suriname;head of state and head of government of Suriname;;;
+Q22337580;Chief Minister of Gujarat;;;;
+Q887220;Governor of Utah;head of state and of government of the U.S. state of Utah;;;Utah Governor's Mansion
 Q844587;Prime Minister of Spain;head of government of Spain;;;Palace of Moncloa
+Q26698824;mayor of Reyero;political position in Spain;;;
+Q3773745;Governor of Vermont;head of state and of government of the U.S. state of Vermont;;;The Pavilion
+Q26694064;mayor of Ibahernando;political position in Spain;;;
+Q11696;President of the United States;head of state and of government of the United States;;;White House
+Q26691747;mayor of Jaén;political position in Spain;;;
+Q11902879;Lord Mayor;title of the mayor of a major city with special recognition;;;
+Q50190063;Mayor of Naples;;;;
+Q26698304;mayor of Aranjuez;political position in Spain;;;
+Q26700795;mayor of Borja;political position in Spain;;;
+Q52220796;Lord Mayor of Cologne;mayor of Cologne, Germany;;;
+Q29514964;Governor of Colorado;head of state and of government of the U.S. state of Colorado;;;Colorado Governor's Mansion
+Q26690645;mayor of Pontevedra;political position in Spain;;;
+Q6578215;Premier of Saskatchewan;first minister for the Canadian province of Saskatchewan;;;
+Q1425955;Governor of Buenos Aires Province;position;;;
+Q53926041;Mayor of Recife;head of a municipal government in Brazil;;;
+Q26698329;mayor of Getxo;political position in Spain;;;
+Q5589725;Governor of Texas;head of state and of government of the U.S. state of Texas;;;Texas Governor's Mansion
+Q26691136;mayor of Taradell;political position in Spain;;;
+Q26695181;mayor of Manresa;political position in Spain;;;
+Q26699931;mayor of Rincón de Soto;political position in Spain;;;
+Q26701154;mayor of Amézqueta;political position in Spain;;;
+Q39271481;Chief Minister of Odisha;;;;
+Q26702507;mayor of Cifuentes;political position in Spain;;;
+Q26691178;mayor of Moncada y Reixach;political position in Spain;;;
+Q54932335;Cathaoirleach of County Galway;honorific title of the chairperson of Galway County Council;;;
+Q41069189;chairman of the municipal board in Haninge Municipality;;;;
+Q26691302;mayor of Mugardos;political position in Spain;;;
+Q26692454;mayor of Berrobi;political position in Spain;;;
+Q24703283;Mayor of Genève;;;;
+Q878942;Governor of Virginia;head of state and of government of the U.S. commonwealth of Virginia;;;Governor’s Mansion
+Q26698348;mayor of Mahón;political position in Spain;;;
+Q5589680;Governor of Michigan;head of state and of government of the U.S. state of Michigan;;;Michigan Governor's Mansion
+Q26695141;mayor of San Lorenzo de Calatrava;political position in Spain;;;
+Q26699752;mayor of Morella;political position in Spain;;;
+Q24701284;mayor of Genolier;;;;
+Q5589655;Governor of Hawaii;head of state and of government of the U.S. state of Hawaii;;;Washington Place
+Q6797712;Mayor of Galway;honorific title of the chairperson of Galway City Council;;;
+Q1209571;President of the Philippines;head of state and of government of the Republic of the Philippines;;;Malacañang Palace
+Q5589657;Governor of Guanajuato;chief executive of the Mexican state of Guanajuato;;;
+Q55018640;Chief Minister of Manipur;chief minister of a state in India;;;
+Q53739338;governor of the state of Rio de Janeiro;governor of a state of Brazil;;;
+Q26700656;mayor of Valls;political position in Spain;;;
+Q23656025;Mayor of Phoenix;head of administration of Phoenix, Arizona;;;
+Q26690927;mayor of Vilademuls;political position in Spain;;;
+Q26691640;mayor of Hospitalet de Llobregat;political position in Spain;;;
+Q26691581;mayor of La Ametlla;political position in Spain;;;
+Q26699349;mayor of Vivero;political position in Spain;;;
+Q687075;Prime Minister of Sweden;head of government of Sweden;;;Sager House
+Q2746377;Minister-President of Flanders;head of the Flemish government;;;
+Q26694468;mayor of El Vellón;political position in Spain;;;
+Q26697740;mayor of Puzol;political position in Spain;;;
+Q23729452;deputy First Minister;Northern Ireland Executive position;;;
+Q53926035;Mayor of Belo Horizonte;head of a municipal government in Brazil;;;
+Q26700822;mayor of Binisalem;political position in Spain;;;
+Q23782691;Prime Minister of Madagascar;;;;
+Q26698560;mayor of San Cristóbal de La Laguna;political position in Spain;;;
+Q735575;Prime Minister of Pakistan;position;;;
+Q53739339;governor of the state of Bahia;governor of a state of Brazil;;;
+Q26690510;mayor of Sabadell;political position in Spain;;;
+Q26691750;Mayor of Ávila;political position in Spain;;;
+Q26699542;mayor of Medellín;political position in Spain;;;
+Q50187247;Mayor of Catania;;;;
+Q26698306;mayor of Reus;political position in Spain;;;
+Q24701470;mayor of Rolle;;;;
+Q26700929;mayor of Valencia;political position in Spain;;;
+Q878632;Governor of Mississippi;head of state and of government of the U.S. state of Mississippi;;;Mississippi Governor's Mansion
+Q26694224;mayor of Arbizu;political position in Spain;;;
+Q24703234;Mayor of Céligny;;;;
+Q30100623;Prime Minister of Sudan;;;;
+Q26692871;mayor of Padiernos;political position in Spain;;;
+Q1071117;Prime Minister of New Zealand;head of the New Zealand government;;;Premier House
+Q26698311;mayor of Baracaldo;political position in Spain;;;
+Q26690877;mayor of Sant Feliu de Guíxols;political position in Spain;;;
+Q26692018;mayor of Junquera de Ambía;political position in Spain;;;
+Q15304810;Prime Minister of Romania;head of the Government of Romania;;;Victoria Palace
+Q26698361;mayor of Padrón;political position in Spain;;;
+Q26690508;mayor of Huelva;political position in Spain;;;
+Q26698295;mayor of Marbella;political position in Spain;;;
+Q26698433;mayor of Teulada;political position in Spain;;;
+Q11755916;President of Indonesia;head of state and head of government of the Republic of Indonesia;;;
+Q20801646;Governor of Montana;head of state and of government of the U.S. state of Montana;;;Montana Governor's Residence
+Q6797738;Mayor of Keelung;;;;
+Q26701139;mayor of Caspueñas;political position in Spain;;;
+Q26691749;Mayor of Segovia;political position in Spain;;;
+Q2407810;President of Republic of Benin;position;;;
+Q6621835;List of governors of Kronoberg County;Wikimedia list article;;;
+Q29514575;Governor of Alabama;head of state and of government of the U.S. state of Alabama;;;Alabama Governor's Mansion
+Q12270252;Premier of New Brunswick;first minister for the Canadian province of New Brunswick;;;
+Q26690638;mayor of San Juan de las Abadesas;political position in Spain;;;
+Q30100661;Prime Minister of Togo;;;;
+Q26701051;mayor of Cabra;political position in Spain;;;
+Q30100607;Prime Minister of Gabon;;;;
+Q14915225;Prime Minister of Lebanon;;;;Grand Serail
+Q20765963;Governor of Arkansas;head of state and of government of the U.S. state of Arkansas;;;Arkansas Governor's Mansion
+Q26693714;mayor of Boadilla del Monte;political position in Spain;;;
+Q2741486;Chief Executive of Hong Kong;head of the Hong Kong Government;;;Government House
+Q11525354;Governor of Tokyo;;;;
+Q41733198;;;;;
+Q6296418;president of South Korea;Head of state and of government of the Republic of Korea;;;Blue House
+Q50189121;Mayor of Genoa;;;;
+Q53926032;Mayor of Rio de Janeiro;head of a municipal government in Brazil;;;
+Q21510223;Mayor of Zürich;political position;;;
+Q51831955;Municipal mayor of Asuncion;political position in Paraguay;;;
+Q842386;Prime Minister of Russia;head of government of Russia, leads the executive branch in Russia;;;Government House of the Russian Federation
+Q26700948;mayor of Viana;political position in Spain;;;
+Q24701412;mayor of Morges;;;;
+Q2741479;Chief Executive of Macau;head of the Macau Government;;;Macau Government Headquarters
+Q26690697;mayor of Tordera;political position in Spain;;;
+Q26692069;mayor of Oña;political position in Spain;;;
+Q14211;Prime Minister of the United Kingdom;head of Her Majesty's Government in the United Kingdom;;;10 Downing Street
+Q3249940;Governor of Córdoba;;;;
+Q26694283;mayor of Belmonte de Gracián;political position in Spain;;;
+Q26700662;mayor of Cambrils;political position in Spain;;;
+Q1043568;Prime Minister of Vietnam;Head of Government of Vietnam;;;
+Q26691482;mayor of Lorenzana;political position in Spain;;;
+Q26696734;mayor of Horcajo de Santiago;political position in Spain;;;
+Q19647220;Governor of Washington;head of state and of government of the U.S. state of Washington;;;Washington Governor's Mansion
+Q26691657;mayor of Gironella;political position in Spain;;;
+Q26690692;mayor of Besalú;political position in Spain;;;
+Q4377230;Prime Minister of Greece;head of government of the Hellenic Republic and the leader of the Greek cabinet;;;Maximos Mansion
+Q1362118;First Mayor of Hamburg;head of government of the city and state of Hamburg, Germany;;;Hamburg Rathaus
+Q7243302;Prime Minister of Syria;;;;
+Q26701211;mayor of Enix;political position in Spain;;;
+Q26700944;mayor of Urretxu;political position in Spain;;;
+Q47488905;Mayor of Ottawa;Mayor of Ottawa Canada;;;
+Q26692811;mayor of Daimiel;political position in Spain;;;
+Q23936560;mayor of Rome;;;;
+Q6627639;Mayor of Oakland, California;Wikimedia list article;;;
+Q191827;Taoiseach;head of government or prime minister of Ireland;;;Steward's Lodge
+Q54931489;Cathaoirleach of Laois County Council;honorific title of the chairperson of Laois County Council;;;
+Q628004;President of Mexico;head of state of the country of Mexico;;;Los Pinos
+Q2626318;Governor of South Dakota;head of state and of government of the U.S. state of South Dakota;;;South Dakota Governor's Residence
+Q26693166;mayor of Ezcaray;political position in Spain;;;
+Q26702164;mayor of Santañy;political position in Spain;;;
+Q27230596;Premier of South Australia;South Australian head of government;;;
+Q26691797;mayor of Andoáin;political position in Spain;;;
+Q26699656;mayor of Llerena;political position in Spain;;;
+Q1430943;Prime Minister of Jamaica;Jamaica's head of government;;;
+Q26699869;mayor of Fuenmayor;political position in Spain;;;
+Q19190022;Prime Minister of Iceland;;;;
+Q26699578;mayor of Seo de Urgel;political position in Spain;;;
+Q36598365;Mayor of Loveland, Ohio;head of the city council of Loveland, Ohio, United States;;;
+Q26690610;mayor of Cocentaina;political position in Spain;;;
+Q26699796;mayor of Galdames;political position in Spain;;;
+Q846091;President of Angola;head of state and head of government of Angola;;;
+Q6679767;Lord Mayor of Cork;honorific title of the chairperson of Cork City Council;;;
+Q26698991;mayor of Marquina-Jeméin;political position in Spain;;;
+Q26691142;mayor of Vic;political position in Spain;;;
+Q55018632;Chief Minister of Goa;chief minister of a state in India;;;
+Q702650;President of the Executive Yuan;position;;;
+Q26691593;mayor of Castelltersol;political position in Spain;;;
+Q26698153;mayor of Haro;political position in Spain;;;
+Q26691570;mayor of Lleida;political position in Spain;;;
+Q26699340;mayor of Tarazona;political position in Spain;;;
+Q40321964;;;;;
+Q26698760;mayor of Barbuñales;political position in Spain;;;
+Q30534793;Minister-President of North Rhine-Westphalia;head of government of the German state North Rhine-Westphalia;;;
+Q26700893;mayor of Villafranca del Bierzo;political position in Spain;;;
+Q2550683;Governor of Oklahoma;head of state and of government of the U.S. state of Oklahoma;;;Oklahoma Governor's Mansion
+Q26697841;mayor of Los Villares;political position in Spain;;;
+Q839078;Prime Minister of Canada;head of government for Canada;;;24 Sussex Drive
+Q26696422;mayor of Llardecans;political position in Spain;;;
+Q16009376;Prime Minister of Albania;;;;
+Q26698365;mayor of Villena;political position in Spain;;;
+Q866756;Prime Minister of Singapore;head of the government of the Republic of Singapore;;;Sri Temasek
+Q26690268;mayor of San Sebastián;political position in Spain;;;
+Q26701064;mayor of Marchena;political position in Spain;;;
+Q33126365;mayor of Brussels;head of the city of Brussels;;;
+Q20801667;Governor of Missouri;head of state and of government of the U.S. state of Missouri;;;Missouri Governor's Mansion
+Q26691265;mayor of Hernani;political position in Spain;;;
+Q853475;President of Colombia;Head of state of the Republic of Colombia;;;Casa de Nariño
+Q26691698;mayor of Villanueva y Geltrú;political position in Spain;;;
+Q30101326;Prime Minister of Trinidad and Tobago;head of government of Trinidad and Tobago;;;
+Q26698310;mayor of Orihuela;political position in Spain;;;
+Q50619493;Governor of North Jeolla Province;;;;
+Q26691609;mayor of Llissá de Vall;political position in Spain;;;
+Q42247677;;;;;
+Q26268330;mayor of Zaragoza;;;;
+Q26697967;mayor of Loja;political position in Spain;;;
+Q26691571;mayor of Castellón de la Plana;political position in Spain;;;
+Q26698320;mayor of Almendralejo;political position in Spain;;;
+Q30101433;Prime Minister of Saint Lucia;;;;
+Q26699761;mayor of Ochandiano;political position in Spain;;;
+Q40854666;;;;;
+Q47528550;President of Abruzzo;President of Abruzzo region in Italy;;;
+Q54932341;Cathaoirleach of Donegal County Council;honorific title of the chairperson of Donegal County Council;;;
+Q26700900;mayor of Jávea;political position in Spain;;;
+Q54931516;Cathaoirleach of Wicklow County Council;honorific title of the chairperson of Wicklow County Council;;;
+Q17089908;Governor of New Mexico;head of state and of government of the U.S. state of New Mexico;;;New Mexico Governor's Mansion
+Q26695166;mayor of Carballo;political position in Spain;;;
+Q116102;Prime Minister of Kosovo;;;;
+Q26700757;mayor of Redondela;political position in Spain;;;
+Q26691877;mayor of Villablino;political position in Spain;;;
+Q50617475;Mayor of Incheon;;;;
+Q26700844;mayor of Mondoñedo;political position in Spain;;;
+Q26690514;mayor of Galdácano;political position in Spain;;;
+Q26702430;mayor of El Escorial;political position in Spain;;;
+Q20801647;Governor of Wyoming;head of state and of government of the U.S. state of Wyoming;;;Wyoming Governor's Mansion
+Q26692852;mayor of Brazatortas;political position in Spain;;;
+Q50265926;Mayor of Busan;;;;
+Q6797771;Mayor of New Taipei;;;;
+Q26699631;mayor of Rentería;political position in Spain;;;
+Q3112712;Governor of Durango;chief executive of the Mexican state of Durango;;;
+Q19848507;mayor of Pittsburgh;Head of the City of Pittsburgh, USA;;;
+Q25927210;mayor of Florence;;;;
+Q946064;Prime Minister of Azerbaijan;Head of Government of Azerbaijan;;;
+Q852448;President of Nicaragua;head of state and head of government of Nicaragua;;;
+Q1192903;Prime Minister of Yemen;position;;;Sana'a
+Q54931555;Mayor of Waterford;honorific title of the chairperson of Waterford City and County Council;;;
+Q26699716;mayor of La Junquera;political position in Spain;;;
+Q15921529;President of Malawi;position;;;
+Q26699354;mayor of Calahorra;political position in Spain;;;
+Q26700928;mayor of Granada;political position in Spain;;;
+Q26691260;mayor of Teruel;political position in Spain;;;
+Q177645;Mayor of Montreal;mayor of the city of Montreal, Quebec, Canada;;;Montreal City Hall
+Q26700849;mayor of Castilleja de la Cuesta;political position in Spain;;;
+Q208487;Prime Minister of Israel;head of government of Israel;;;Beit Aghion
+Q26700959;mayor of Oyarzun;political position in Spain;;;
+Q26702538;mayor of Villanueva de Sigena;political position in Spain;;;
+Q18996;First Minister of Wales;leader of the Welsh Government;;;
+Q796897;Prime Minister of Italy;head of government of the Italian Republic;;;Palazzo Chigi
+Q26690763;mayor of Blanes;political position in Spain;;;
+Q382617;maire;mayor in France;;;
+Q53739337;governor of the state of Minas Gerais;governor of a state of Brazil;;;
+Q53926044;Mayor of Goiânia;head of a municipal government in Brazil;;;
+Q42369109;;;;;
+Q27697103;Governor of Kyoto Prefecture;;;;
+Q53739344;governor of the state of Pernambuco;governor of a state of Brazil;;;
+Q26690321;mayor of Lugo;political position in Spain;;;
+Q738695;Prime Minister of Finland;position;;;Kesäranta
+Q26700798;mayor of Valladolid;political position in Spain;;;
+Q26692901;mayor of Logrosán;political position in Spain;;;
+Q3112719;Governor of Illinois;head of state and of government of the U.S. state of Illinois;;;Illinois Executive Mansion
+Q1788970;Prime Minister of Ethiopia;;;;
+Q53761260;Chief Minister of Karnataka;head of government of the Indian state of Karnataka;;;
+Q795295;Mayor of San Francisco;head of the executive branch of the San Francisco city and county government;;;
+Q26691566;mayor of Zarauz;political position in Spain;;;
+Q26691663;mayor of Sueca;political position in Spain;;;
+Q26699156;mayor of Icazteguieta;political position in Spain;;;
+Q1285463;prefect;French state's representative in a department or region;;;
+Q50616327;Mayor of Gwangju;;;;
+Q456951;Governor of Puerto Rico;head of government of the U.S. commonwealth of Puerto Rico;;;La Fortaleza
+Q862559;Prime Minister of Malaysia;Head of Government of Malaysia;;;Seri Perdana
+Q26699119;mayor of Villafranca de los Barros;political position in Spain;;;
+Q28966983;Chief Minister of Uttar Pradesh;;;;
+Q26691298;mayor of Fontiveros;political position in Spain;;;
+Q14784066;President of Kenya;head of state and head of government of Kenya;;;State House
+Q24701551;mayor of Vevey;;;;
+Q795477;Prime Minister of Denmark;position;;;Marienborg
+Q3773741;Governor of North Dakota;head of state and of government of the U.S. state of North Dakota;;;North Dakota Governor's Residence
+Q11942698;President of Venezuela;head of state and head of government of Venezuela;;;La Casona
+Q8350052;;;;;
+Q273884;President of South Africa;South Africa's head of state and head of government;;;Mahlamba Ndlopfu
+Q55237129;Mayor of Desamparados;;;;
+Q26218416;Chief Minister of Kerala;head of government of the Indian state;;;Cliff House
+Q7240356;Premier of Newfoundland and Labrador;head of government for the Canadian province of Newfoundland and Labrador;;;
+Q26701006;mayor of Archidona;political position in Spain;;;
+Q50619614;Governor of South Chungcheong Province;;;;
+Q26699571;mayor of Ordicia;political position in Spain;;;
+Q53926063;Mayor of Campinas;head of a municipal government in Brazil;;;
+Q26690708;mayor of Olot;political position in Spain;;;
+Q4376674;Chairman of the Council of Ministers of the USSR;government position in the USSR;;;
+Q26698747;mayor of Aduna;political position in Spain;;;
+Q26699799;mayor of Canales;political position in Spain;;;
+Q16147601;Governor of Indiana;head of state and of government of the U.S. state of Indiana;;;Indiana Governor's Residence
+Q18985034;President of Zambia;head of state and head of government of Zambia;;;
+Q26692866;mayor of Miguelturra;political position in Spain;;;
+Q26698494;mayor of Belorado;political position in Spain;;;
+Q785304;Mayor of New York City;head of the executive branch of New York City's government;;;Gracie Mansion
+Q26698354;mayor of Calatayud;political position in Spain;;;
+Q53926065;Mayor of São Luís;head of a municipal government in Brazil;;;
+Q50615886;Mayor of Daejeon;;;;
+Q26697623;mayor of Alcalá de los Gazules;political position in Spain;;;
+Q26698355;mayor of Éibar;political position in Spain;;;
+Q47455744;Mayor of Calgary;Position of mayor of calgary, alberta, canada;;;
+Q26699679;mayor of Camprodón;political position in Spain;;;
+Q26690767;mayor of Amer;political position in Spain;;;
+Q26696592;mayor of Bellvís;political position in Spain;;;
+Q50190176;mayor of Palermo;;;;
+Q29631244;Mayor of Bern;;;;
+Q37845759;Mayor of Kraków;;;;
+Q1813083;Chief Minister of Andhra Pradesh;;;;
+Q26694576;mayor of Castejón;political position in Spain;;;
+Q26700878;mayor of Zumárraga;political position in Spain;;;
+Q26698345;mayor of Alcoy;political position in Spain;;;
+Q20801664;Governor of Iowa;head of state and of government of the U.S. state of Iowa;;;Terrace Hill
+Q26698292;mayor of Algeciras;political position in Spain;;;
+Q26691181;mayor of Almansa;political position in Spain;;;
+Q6797722;Mayor of Hoboken, New Jersey;head of Hoboken, New Jersey;;;
+Q24701372;mayor of Longirod;;;;
+Q274948;Prime Minister of Japan;head of government of Japan;;;Prime Minister's Official Residence
+Q23719260;mayor of Saint-Denis;mayor in Réunion;;;
+Q2736951;Prime Minister of Kenya;former Head of Government in Kenya;;;
+Q26690609;mayor of Jerez de la Frontera;political position in Spain;;;
+Q24255165;Mayor of São Paulo;head of a municipal government in Brazil;;;
+Q26691645;mayor of Berga;political position in Spain;;;
+Q26691255;mayor of Mérida;political position in Spain;;;
+Q20204943;Chief Executive Officer of Afghanistan;a position within the Government of Afghanistan;;;
+Q26700650;mayor of Ciudad Rodrigo;political position in Spain;;;
+Q5176750;President of Brazil;;;;Palácio da Alvorada
+Q835586;Prime Minister of Serbia;Head of the Government of Serbia;;;Belgrade
+Q26690261;mayor of Pamplona;political position in Spain;;;
+Q1159846;Governor of Hong Kong;head of the Hong Kong Government during British rule;;;
+Q53926033;Mayor of Fortaleza;head of a municipal government in Brazil;;;
+Q26695124;mayor of Torres;political position in Spain;;;
+Q26699404;mayor of Echevarría;political position in Spain;;;
+Q2895612;Governor of Saint Petersburg;Wikimedia list article;;;Smolny Institute
+Q24701385;mayor of Lutry;;;;
+Q24701450;mayor of Prilly;;;;
+Q1587677;Prime Minister of France;head of government and of the Council of Ministers of France;;;Hôtel Matignon
+Q2247822;Prime Minister of Curaçao;;;;
+Q26697104;mayor of Casas Altas;political position in Spain;;;
+Q26694411;mayor of Urdax;political position in Spain;;;
+Q24701190;mayor of Château-d'Œx;;;;
+Q6627401;Mayor of Albuquerque;;;;
+Q1362216;First Minister of Scotland;position;;;Bute House
+Q26691282;mayor of Villagarcía de Arosa;political position in Spain;;;
+Q26697688;mayor of Sanlúcar de Barrameda;political position in Spain;;;
+Q5589724;Governor of Tennessee;head of state and of government of the U.S. state of Tennessee;;;Tennessee Governor's Mansion
+Q28077811;Mayor of Famagusta;;;;
+Q26691673;mayor of Épila;political position in Spain;;;
+Q26692144;mayor of Casatejada;political position in Spain;;;
+Q26690880;mayor of Arjona;political position in Spain;;;
+Q890010;President of Sierra Leone;head of state and head of government of Sierra Leone;;;State House
+Q2590706;Prime Minister of Rwanda;;;;
+Q2276266;Mayor of Jerusalem;;;;
+Q2334076;Prime Minister of Norway;;;;Inkognitogata 18
+Q3058109;Prime Minister of the Netherlands;chairman of the Council of Ministers of the Netherlands;;;Catshuis
+Q55020138;Chief Minister of Bihar;head of government of a state in India;;;
+Q26699768;mayor of Collado Villalba;political position in Spain;;;
+Q26698874;mayor of Ribadesella;political position in Spain;;;
+Q26700616;mayor of Benahavís;political position in Spain;;;
+Q6627774;Mayor of Warsaw;;;;
+Q26692389;mayor of Asteasu;political position in Spain;;;
+Q887090;Governor of Connecticut;head of state and of government of the U.S. state of Connecticut;;;Connecticut Governor's Residence
+Q24703236;Mayor of Chêne-Bougeries;;;;
+Q41862456;;;;;
+Q26696798;mayor of Castillo de Garcimuñoz;political position in Spain;;;
+Q53926042;Mayor of Porto Alegre;head of a municipal government in Brazil;;;
+Q26700593;mayor of Azcoitia;political position in Spain;;;
+Q1064589;Prime Minister of Haiti;position;;;
+Q26697757;mayor of Deyá;political position in Spain;;;
+Q26697768;mayor of Guadix;political position in Spain;;;
+Q24701457;mayor of Pully;;;;
+Q3133842;President of the Government of Aragon;;;;
+Q26698927;mayor of Ondárroa;political position in Spain;;;
+Q26700819;mayor of Mequinenza;political position in Spain;;;
+Q3961545;mayor of Milan;;;;
+Q26691089;mayor of Roda de Ter;political position in Spain;;;
+Q26698339;mayor of Andrach;political position in Spain;;;
+Q30587682;Mayor of the City and County of Limerick;honorific title of the chairperson of Limerick City and County Council;;;
+Q51094750;mayor of Medellín;political position in Colombia;;;
+Q26691257;mayor of Logroño;political position in Spain;;;
+Q26700839;mayor of Gómara;political position in Spain;;;
+Q24701437;mayor of Payerne;;;;
+Q693032;Governor of Maryland;head of state and of government of the U.S. state of Maryland;;;Government House
+Q1723031;Prime Minister of Portugal;;;;São Bento Palace
+Q26690448;mayor of Guadalajara;political position in Spain;;;
+Q26690571;mayor of Arrazua;political position in Spain;;;
+Q27898073;Mayor of Bordeaux;;;;
+Q29909471;mayor of Vienna;;;;Rathaus in Vienna
+Q26698328;mayor of Hondarribia;political position in Spain;;;
+Q26692014;mayor of O Barco de Valdeorras;political position in Spain;;;
+Q152814;Prime Minister of Malta;position;;;
+Q132050;governor;governing official;;;
+Q887117;Governor of Massachusetts;head of state and of government of the U.S. commonwealth of Massachusetts;;;
+Q26699031;mayor of Muskiz;political position in Spain;;;
+Q26692354;mayor of Moaña;political position in Spain;;;
+Q26691203;mayor of Zafra;political position in Spain;;;
+Q1064106;Head of Government of Tunisia;position;;;
+Q21094906;Mayor of Edmonton;Head of the City administration of Edmonton;;;
+Q30185;mayor;head of municipal government such as a town or city;;;
+Q7241276;President of Lombardy;President of Lombardy region of Italy;;;
+Q26700648;mayor of Laviana;political position in Spain;;;
+Q26694613;mayor of Alaquàs;political position in Spain;;;
+Q26691748;mayor of Cádiz;political position in Spain;;;
+Q30101440;Prime Minister of Swaziland;head of government in Swaziland;;;
+Q26694273;mayor of Castalla;political position in Spain;;;
+Q26697884;mayor of Tordesillas;political position in Spain;;;
+Q1153355;List of Prime Ministers of the United Arab Emirates;Wikimedia list article;;;
+Q26692355;mayor of Nigrán;political position in Spain;;;
+Q16152907;Cathaoirleach of Kilkenny;honorific title of the chairperson of Kilkenny County Council;;;
+Q20198851;Governor of Florida;head of state and of government of the U.S. state of Florida;;;Florida Governor's Mansion
+Q14927262;Mayor of Toronto;;;;
+Q24701298;mayor of Gland;;;;
+Q26698357;mayor of Oñate;political position in Spain;;;
+Q26699908;mayor of San Carlos de la Rápita;political position in Spain;;;
+Q26693558;mayor of Villanueva de Jiloca;political position in Spain;;;
+Q1756747;Prime Minister of Dominica;;;;
+Q1476165;Prime Minister of Iraq;position;;;Republican Palace
+Q26700582;mayor of Mundaca;political position in Spain;;;
+Q24701218;mayor of Crassier;;;;
+Q51200146;;;;;
+Q17051823;Prime Minister of Cameroon;;;;
+Q26697794;mayor of Lebrija;political position in Spain;;;
+Q1922067;President of Turkey;head of state and of government of Turkey;;;Çankaya Köşkü
+Q18693083;Mayor of Halifax;head of Halifax, Nova Scotia;;;
+Q26694221;mayor of Artajona;political position in Spain;;;
+Q18204367;President of Uganda;;;;
+Q26693191;mayor of Vall de Uxó;political position in Spain;;;
+Q3773752;Governor of South Carolina;head of state and of government of the U.S. state of South Carolina;;;South Carolina Governor's Mansion
+Q26697771;mayor of Tudela;political position in Spain;;;
+Q26698359;mayor of Tolosa;political position in Spain;;;
+Q24701415;mayor of Moudon;;;;
+Q1571396;Prime Minister of Egypt;position;;;
+Q26698798;mayor of Córdoba;political position in Spain;;;
+Q26690449;mayor of Alicante;political position in Spain;;;
+Q862638;Prime Minister of Belize;;;;
+Q462189;Premier of the Soviet Union;Head of government of the Union of Soviet Socialist Republics;;;
+Q13645132;Lord Mayor of Dublin;honorific title of the chairperson of Dublin City Council;;;Mansion House, Dublin
+Q18358342;Mayor of Accra;;;;
+Q17149373;Mayor of Prague;;;;
+Q24701305;mayor of Grancy;;;;
+Q26700859;mayor of Hellín;political position in Spain;;;
+Q12379704;Prime Minister of Belarus;;;;Government House of Belarus
+Q607982;President of Dominican Republic;;;;National Palace
+Q26691639;mayor of Badalona;political position in Spain;;;
+Q26693654;mayor of Illueca;political position in Spain;;;
+Q26691191;mayor of Santa Perpetua de Moguda;political position in Spain;;;
+Q2911019;Premier of Quebec;head of the government of Quebec;;;Édifice Price
+Q6310674;Mayor of Taipei;;;;
+Q850168;King of Saudi Arabia;position;;;
+Q26700930;mayor of Palma de Mallorca;political position in Spain;;;
+Q880198;Governor of Georgia;head of state and of government of the U.S. state of Georgia;;;Georgia Governor's Mansion
+Q26690270;mayor of Almería;political position in Spain;;;
+Q679997;Prime Minister of Greenland;;;;
+Q26695417;mayor of Verín;political position in Spain;;;
+Q30569887;Minister-President of Saxony;head of government of the German state Saxony;;;
+Q26701281;mayor of Burgos;political position in Spain;;;
+Q31388880;mayor of Bremen;head of government of the German state Bremen;;;
+Q3315094;Prime Minister of Hungary;;;;
+Q26693778;mayor of Torrelaguna;political position in Spain;;;
+Q3740505;mayor of Tallinn;;;;
+Q26699677;mayor of Medina del Campo;political position in Spain;;;
+Q5663913;mayor of Barranquilla;political position in Colombia;;;
+Q19842743;President of the Government of Morocco;head of government of Morocco;;;
+Q26691752;mayor of Salamanca;political position in Spain;;;
+Q26691746;mayor of Badajoz;political position in Spain;;;
+Q26692390;mayor of Ataun;political position in Spain;;;
+Q26696431;mayor of Codo;political position in Spain;;;
+Q26691310;mayor of Cegama;political position in Spain;;;
+Q26692998;mayor of Urnieta;political position in Spain;;;
+Q1072343;Chief Minister of the Isle of Man;;;;
+Q26690581;mayor of Espluga de Francolí;political position in Spain;;;
+Q26691187;mayor of San Cugat del Vallés;political position in Spain;;;
+Q24701542;mayor of Valeyres-sous-Rances;;;;
+Q18437590;Mayor of Šibenik;position;;;
+Q3401750;Premier of Alberta;first minister for the Canadian province of Alberta;;;
+Q26690480;mayor of Arenys de Mar;political position in Spain;;;
+Q24701575;mayor of Vufflens-le-Château;;;;
+Q11493583;Governor of Ehime Prefecture;;;;
+Q887010;Governor of California;head of state and of government of the U.S. state of California;;;Governor's Mansion State Historic Park
+Q26690516;mayor of Gijón;political position in Spain;;;
+Q54931543;Cathaoirleach of Kerry County Council;honorific title of the chairperson of Kerry County Council;;;
+Q53926047;Mayor of Belém;head of a municipal government in Brazil;;;
+Q3409229;Prime Minister of the Czech Republic;;;;villa Kramář
+Q27306390;mayor of Salvador;head of a municipal government in Brazil;;;
+Q19056184;President of Zimbabwe;;;;
+Q6341938;mayor of Cartagena;political position in Spain;;;
+Q24701206;mayor of Coppet;;;;
+Q2962015;Head of Mexico City government;political position in Mexico;;;
+Q4122271;Premier of the People's Republic of China;head of government of China;;;Zhongnanhai
+Q29514674;Governor of Idaho;head of state and of government of the U.S. state of Idaho;;;State of Idaho Executive Residence
+Q26699033;mayor of Añover de Tajo;political position in Spain;;;
+Q38931;Mayor of London;head of the government of Greater London;;;City Hall
+Q4151335;Governor of Kentucky;head of state and of government of the U.S. commonwealth of Kentucky;;;Kentucky Governor's Mansion
+Q50248112;Mayor of Venice;;;;
+Q50181645;Mayor of Bari;;;;
+Q16149111;Governor of Oregon;head of state and of government of the U.S. state of Oregon;;;Mahonia Hall
+Q26691254;mayor of Vitoria;political position in Spain;;;
+Q26700885;mayor of Cervera;political position in Spain;;;
+Q20766109;Governor of Louisiana;head of state and of government of the U.S. state of Louisiana;;;Louisiana Governor's Mansion
+Q7240349;Premier of British Columbia;first minister, head of government for the Canadian province of British Columbia;;;
+Q25579300;mayor of Oviedo;political position in Spain;;;
+Q26702601;mayor of Ourense;political position in Spain;;;
+Q26690869;mayor of Palafrugell;political position in Spain;;;
+Q26700654;mayor of Tuy;political position in Spain;;;
+Q55018653;Chief Minister of Uttarakhand;chief minister of a state in India;;;
+Q26691754;mayor of León;political position in Spain;;;
+Q1348717;Prime Minister of Uzbekistan;position;;;
+Q813403;King's or Queen's Commissioner;head of a province in the Netherlands;;;
+Q19961107;city mayor;Japan;;;
+Q50293830;;;;;
+Q6502015;Prime Minister of Cuba;;;;Havana
+Q5589687;Governor of New Hampshire;head of state and of government of the U.S. state of New Hampshire;;;New Hampshire Governor's Mansion
+Q26692222;mayor of Barbadillo de Herreros;political position in Spain;;;
+Q26691577;mayor of Cuenca;political position in Spain;;;
+Q53926036;Mayor of Manaus;head of a municipal government in Brazil;;;
