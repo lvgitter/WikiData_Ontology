@@ -117,8 +117,8 @@ FIELDS TERMINATED BY ';'
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
-(@human_id, @book_id)
-SET human_id = IF(@human_id='',NULL,@human_id), book_id = IF(@book_id='',NULL,@book_id);
+(@book_id, @human_id)
+SET book_id = IF(@book_id='',NULL,@book_id), human_id = IF(@human_id='',NULL,@human_id);
 
 LOAD DATA LOCAL INFILE '../roles/hasAfterwordAuthor.txt' INTO TABLE hasAfterwordAuthor
 FIELDS TERMINATED BY ';'

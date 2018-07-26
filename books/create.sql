@@ -148,8 +148,8 @@ CREATE TABLE placeOfBirth(
 	);
 
 CREATE TABLE hasAuthor(
-	human_id varchar (255),
-	book_id varchar (255)
+	book_id varchar (255),
+	human_id varchar (255)
 	);
 
 CREATE TABLE hasAfterwordAuthor(
