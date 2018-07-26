@@ -1143,7 +1143,7 @@
 
 <ontologyPredicateMapping id="M121_hasHumanOccupation">
 <attribute string="http://books/#occupation">
-<domainTemplate>https://www.wikidata.org/wiki/{author_id}</domainTemplate>
+<domainTemplate>https://www.wikidata.org/wiki/{human_id}</domainTemplate>
 <rangeVariable>occupation</rangeVariable>
 </attribute>
 <HEAD string="hasHumanOccupation_view(human_id, occupation)"/>
