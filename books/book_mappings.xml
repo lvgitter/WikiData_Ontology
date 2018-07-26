@@ -368,7 +368,7 @@
 </ontologyPredicateMapping>
 
 <ontologyPredicateMapping id="M28_speakers">
-<attribute string="speakers">
+<attribute string="num_speakers">
 <domainTemplate>https://www.wikidata.org/wiki/{language_id}</domainTemplate>
 <rangeVariable>speakers</rangeVariable> 
 </attribute>
@@ -699,7 +699,7 @@
 <ontologyPredicateMapping id="M55_hasCountry">
 <role string="hasCountry">
 <domainTemplate>https://www.wikidata.org/wiki/{city_id}</domainTemplate>
-<rangeTemplate>https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/RANGE{country_id}</rangeTemplate>
+<rangeTemplate>https://www.wikidata.org/wiki/{country_id}</rangeTemplate>
 </role>
 <HEAD string="hasCountry_view(city_id, country_id)"/>
 </ontologyPredicateMapping>
@@ -963,7 +963,7 @@
 	<HEAD string="Publisher_view(publisher_id, publisher_description, publisher_label, inception)"/>
 </ontologyPredicateMapping>
 
-<ontologyPredicateMapping id="http://books/#publisher_label">
+<ontologyPredicateMapping id="M95_publisher_label">
 	<attribute string="publisher_label">
 		<domainTemplate>https://www.wikidata.org/wiki/{publisher_id}</domainTemplate>
 		<rangeVariable>publisher_label</rangeVariable> 
@@ -972,7 +972,7 @@
 </ontologyPredicateMapping>
 
 <ontologyPredicateMapping id="M96_inception">
-	<attribute string="http://books/#publisher_inception">
+	<attribute string="http://books/#inception">
 		<domainTemplate>https://www.wikidata.org/wiki/{publisher_id}</domainTemplate>
 		<rangeVariable>inception</rangeVariable> 
 	</attribute>
@@ -1131,7 +1131,7 @@
 
 
 <ontologyPredicateMapping id="M121_hasAward">
-<attribute string="http://books/#hasAward">
+<attribute string="http://books/#award">
 <domainTemplate>https://www.wikidata.org/wiki/{author_id}</domainTemplate>
 <rangeVariable>award</rangeVariable>
 </attribute>
@@ -1172,7 +1172,7 @@
 
 
 <ontologyPredicateMapping id="M130_hasAuthorGenres">
-<attribute string="http://books/#hasAuthorGenres">
+<attribute string="http://books/#author_genre">
 <domainTemplate>https://www.wikidata.org/wiki/{author_id}</domainTemplate>
 <rangeVariable>genre</rangeVariable>
 </attribute>
@@ -1185,7 +1185,7 @@
 </primitiveView>
 
 <ontologyPredicateMapping id="M130_hasBookGenres">
-<attribute string="http://books/#hasBookGenres">
+<attribute string="http://books/#book_genre">
 <domainTemplate>https://www.wikidata.org/wiki/{book_id}</domainTemplate>
 <rangeVariable>genre</rangeVariable>
 </attribute>
