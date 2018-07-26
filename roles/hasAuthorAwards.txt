@@ -181,7 +181,7 @@ Q523952;Magnesia Litera
 Q1822007;State Stalin Prize
 Q1822007;Order of Lenin
 Q517743;Commander of the French Order of Academic Palms
-Q2607;Jubilee Medal "In Commemoration of the 100th Anniversary of the Birth of Vladimir Ilyich Lenin"
+Q2607;Jubilee Medal In Commemoration of the 100th Anniversary of the Birth of Vladimir Ilyich Lenin
 Q33760;Jerusalem Prize
 Q3635724;Sarala Award
 Q181659;Grand Prix de l'Imaginaire
@@ -421,7 +421,7 @@ Q104027;Golden Globe Award for Best Actor – Motion Picture Drama
 Q3568859;Rómulo Gallegos Prize
 Q15130125;Current Archaeology Archaeologist of the Year Award
 Q545223;Jōji Tsubota Award
-Q968184;Medal "For Courage"
+Q968184;Medal For Courage
 Q1337060;Conrad Ferdinand Meyer Prize
 Q3827806;Mondello Prize
 Q343477;Woutertje Pieterse prize
@@ -431,7 +431,7 @@ Q583814;Rómulo Gallegos Prize
 Q214209;EMBO Membership
 Q104027;Golden Globe Cecil B. DeMille Award
 Q3568859;Casa de las Américas Prize
-Q968184;Medal "For the Liberation of Warsaw"
+Q968184;Medal For the Liberation of Warsaw
 Q583814;Casa de las Américas Prize
 Q343477;Dirk Martensprijs
 Q3827806;Rapallo Carige Prize
@@ -440,12 +440,12 @@ Q1567034;Writers Guild of America Award
 Q1567034;Lambda Literary Award
 Q104027;Honorary César
 Q104027;Presidential Medal of Freedom
-Q968184;Medal "Veteran of Labour"
-Q968184;Jubilee Medal "In Commemoration of the 100th Anniversary of the Birth of Vladimir Ilyich Lenin"
+Q968184;Medal Veteran of Labour
+Q968184;Jubilee Medal In Commemoration of the 100th Anniversary of the Birth of Vladimir Ilyich Lenin
 Q3568859;Premio Nacional de Poesía
 Q583814;Prix Formentor
 Q3827806;Cesare Pavese Prize
-Q968184;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q968184;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
 Q3827806;Grand Officer of the Order of Merit of the Italian Republic
 Q104027;AFI Life Achievement Award
 Q464397;Officier des Arts et des Lettres‎
@@ -453,7 +453,7 @@ Q464397;Prix Femina
 Q2662384;Order of the Red Banner of Labour
 Q343477;Golden Owl
 Q3185923;Prix Maison de la Presse
-Q968184;Jubilee Medal "Twenty Years of Victory in the Great Patriotic War 1941–1945"
+Q968184;Jubilee Medal Twenty Years of Victory in the Great Patriotic War 1941–1945
 Q654730;Laurence Olivier Award
 Q6245302;NAS Award for Scientific Reviewing
 Q6984190;National Book Award for Young People's Literature
@@ -461,17 +461,17 @@ Q104027;Kennedy Center Honors
 Q1688997;Commander of the Order of the British Empire
 Q1688997;Nestlé Children's Book Prize
 Q1688997;Nestlé Children's Book Prize
-Q968184;Jubilee Medal "Thirty Years of Victory in the Great Patriotic War 1941–1945"
+Q968184;Jubilee Medal Thirty Years of Victory in the Great Patriotic War 1941–1945
 Q654730;Bodley Medal
 Q3386800;Prix Chateaubriand
 Q1688997;Phoenix Award
-Q968184;Jubilee Medal "Forty Years of Victory in the Great Patriotic War 1941–1945"
+Q968184;Jubilee Medal Forty Years of Victory in the Great Patriotic War 1941–1945
 Q104027;Academy Honorary Award
 Q2747496;Crimezone Thriller Awards
 Q3386800;Gustave Chaix d'Est-Ange Prize
 Q12345858;FAME award
-Q968184;Jubilee Medal "50 Years of Victory in the Great Patriotic War 1941–1945"
-Q968184;Medal "Veteran of Labour"
+Q968184;Jubilee Medal 50 Years of Victory in the Great Patriotic War 1941–1945
+Q968184;Medal Veteran of Labour
 Q104027;Screen Actors Guild Life Achievement Award
 Q440043;Pulitzer Prize for History
 Q150445;Grand Cross of the Legion of Honour
@@ -479,7 +479,7 @@ Q1685133;‎chevalier des Arts et des Lettres
 Q2965519;Prix Médicis
 Q5239591;Geoffrey Faber Memorial Prize
 Q4961414;Lambda Literary Award
-Q968184;Jubilee Medal "50 Years of the Armed Forces of the USSR"
+Q968184;Jubilee Medal 50 Years of the Armed Forces of the USSR
 Q104027;Academy Awards
 Q2616501;Fellow of the Royal Society
 Q150445;Order of Merit for Arts and Science
@@ -498,19 +498,19 @@ Q114509;Newbery Medal
 Q114509;Newbery Medal
 Q114509;Newbery Medal
 Q436062;Theodore Roosevelt Award
-Q968184;Jubilee Medal "60 Years of the Armed Forces of the USSR"
+Q968184;Jubilee Medal 60 Years of the Armed Forces of the USSR
 Q104027;Golden Globe Award
 Q469888;Knight Commander of the Order of the British Empire
 Q114509;Regina Medal
 Q3802234;Gouden Zoen
 Q1777630;Norwegian Booksellers' Prize
 Q6285513;Excellence in Integrative Medicine Award
-Q968184;Jubilee Medal "70 Years of the Armed Forces of the USSR"
+Q968184;Jubilee Medal 70 Years of the Armed Forces of the USSR
 Q104027;Golden Bear
 Q469888;Prix mondial Cino Del Duca
 Q469888;National Medal of Arts
 Q6285513;Excellence in Health Journalism Award
-Q968184;Order "For Merit to the Fatherland" II class
+Q968184;Order For Merit to the Fatherland II class
 Q27889034;USSR State Prize
 Q104027;César Award
 Q2910365;Bialik Prize
@@ -707,7 +707,7 @@ Q2593473;Fellow of the Royal Society
 Q2593473;Knight Commander of the Order of St Michael and St George
 Q7416;Grand Order of King Petar Krešimir IV
 Q718463;Dorothy Canfield Fisher Children's Book Award
-Q378309;Medal "For Labour Valour"
+Q378309;Medal For Labour Valour
 Q23559;Order of the Quetzal
 Q20902324;Kirkus Prize
 Q152929;Grammy Award for Best Solo Rock Vocal Performance
@@ -1037,7 +1037,7 @@ Q121995;Sterling Professor
 Q216582;commemorative medal of the military operation in East Africa
 Q323320;Richtmyer Memorial Award
 Q323320;Fellow of the American Physical Society
-Q1377638;Order "For Merit to the Fatherland" IV class
+Q1377638;Order For Merit to the Fatherland IV class
 Q984178;NIN Prize
 Q2079223;Grand Prix de l'Imaginaire
 Q1021857;Lionel Gelber Prize
@@ -1068,7 +1068,7 @@ Q93514;Grand Austrian State Prize for Literature
 Q237196;Knight Commander of the Order of the British Empire
 Q984178;Zmaeva prize
 Q43994;Primetime Emmy Award for Outstanding Animated Program
-Q1377638;Order "For Service to the Homeland in the Armed Forces of the USSR", 3rd class
+Q1377638;Order For Service to the Homeland in the Armed Forces of the USSR, 3rd class
 Q167216;John Simon Guggenheim Memorial Foundation Fellowship
 Q93514;Marie Luise Kaschnitz Prize
 Q93514;Nelly Sachs Prize
@@ -1076,7 +1076,7 @@ Q93514;Immermann-Preis
 Q124156;Knight of the Legion of Honour
 Q124156;Commandeur des Arts et des Lettres‎
 Q2102180;National Book Award for Young People's Literature
-Q1377638;Order "For Service to the Homeland in the Armed Forces of the USSR", 3rd class
+Q1377638;Order For Service to the Homeland in the Armed Forces of the USSR, 3rd class
 Q93514;Literature Award of the Bavarian Academy of the Fine Arts
 Q11874841;Thanks for the Book Award
 Q11874841;Kalevi Jäntti Award
@@ -1087,7 +1087,7 @@ Q162917;Prix des Deux Magots
 Q162917;Prix Interallié
 Q321790;Disney Legends
 Q124156;Prix Goncourt de la Poésie
-Q1377638;Medal "Veteran of the Armed Forces of the USSR"
+Q1377638;Medal Veteran of the Armed Forces of the USSR
 Q3310840;Prix Médicis essai
 Q512062;America Award in Literature
 Q501880;National Humanities Medal
@@ -1134,11 +1134,11 @@ Q347461;Phoenix Award
 Q347461;Nebula Award for Best Novella
 Q347461;Hugo Award for Best Novella
 Q512062;Alföld Prize
-Q313767;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q313767;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
 Q981839;Commander of the Order of the British Empire
 Q981839;Order of the British Empire
 Q93514;Franz-Nabl prize
-Q2406712;Medal "For Valiant Labour in the Great Patriotic War 1941–1945"
+Q2406712;Medal For Valiant Labour in the Great Patriotic War 1941–1945
 Q312242;officer of the Order of the Oak Crown
 Q3347955;Sahitya Akademi Award
 Q3347955;Padma Bhushan
@@ -1163,8 +1163,8 @@ Q126377;Selma Lagerlöf Prize
 Q126377;Dobloug Prize
 Q126377;doctor honoris causa
 Q531128;John Simon Guggenheim Memorial Foundation Fellowship
-Q313767;Medal "For the Defence of Stalingrad"
-Q313767;Medal "For the Liberation of Warsaw"
+Q313767;Medal For the Defence of Stalingrad
+Q313767;Medal For the Liberation of Warsaw
 Q473518;Albertus-Magnus professorate
 Q347461;Edward E. Smith Memorial Award
 Q434281;Bigsby Medal
@@ -1181,7 +1181,7 @@ Q347461;James Tiptree, Jr. Award
 Q347461;Nebula Award for Best Novel
 Q128126;CNRS Gold medal
 Q128126;Erasmus Prize
-Q313767;Medal "For the Capture of Berlin"
+Q313767;Medal For the Capture of Berlin
 Q531128;Jessie Bernard Award
 Q434281;Mueller Medal
 Q6395772;American Book Awards
@@ -1358,14 +1358,14 @@ Q707856;Kenyon Medal
 Q50255718;Order of Friendship
 Q16991317;Jussi Award for Best Script
 Q308711;Knights of fiction
-Q308711;Jubilee Medal "In Commemoration of the 100th Anniversary of the Birth of Vladimir Ilyich Lenin"
-Q50255718;Order "For Merit to the Fatherland"
+Q308711;Jubilee Medal In Commemoration of the 100th Anniversary of the Birth of Vladimir Ilyich Lenin
+Q50255718;Order For Merit to the Fatherland
 Q457092;Cartier Diamond Dagger
 Q454638;Søren Gyldendal Prize
 Q454638;De Gyldne Laurbær
-Q50255718;Jubilee Medal "300 Years of the Russian Navy"
+Q50255718;Jubilee Medal 300 Years of the Russian Navy
 Q50255718;State Prize of the Russian Federation
-Q308711;Jubilee Medal "300 Years of the Russian Navy"
+Q308711;Jubilee Medal 300 Years of the Russian Navy
 Q11217006;Jiří Orten Award
 Q11217006;Magnesia Litera
 Q512669;Nordic Council's Literature Prize
@@ -1375,7 +1375,7 @@ Q512669;De Gyldne Laurbær
 Q2027528;Order of the Red Banner of Labour
 Q201538;John Simon Guggenheim Memorial Foundation Fellowship
 Q308711;Order of Honour
-Q50255718;Medal of the Order "For Merit to the Fatherland"
+Q50255718;Medal of the Order For Merit to the Fatherland
 Q6347357;John Simon Guggenheim Memorial Foundation Fellowship
 Q6347357;Pulitzer Prize for Biography or Autobiography
 Q7943942;Nebula Award
@@ -1423,7 +1423,7 @@ Q5942792;Calamo Awards
 Q2072876;Edgar Award
 Q1387629;Honorary doctoral degree of the Pierre and Marie Curie University
 Q2027528;Order of Merit (Ukraine), 2nd class
-Q50255718;Medal of the Order "For Merit to the Fatherland" II class
+Q50255718;Medal of the Order For Merit to the Fatherland II class
 Q7313760;John Simon Guggenheim Memorial Foundation Fellowship
 Q1805285;Los Angeles Times Book Prize
 Q1805285;Lambda Literary Award
@@ -1555,7 +1555,7 @@ Q545840;Windham–Campbell Literature Prizes
 Q4781612;Kalevi Jäntti Award
 Q633;Juno Award for Artist of the Year
 Q7307535;Prometheus Award - Hall of Fame
-Q50250586;Medal of the Order "For Merit to the Fatherland" II class
+Q50250586;Medal of the Order For Merit to the Fatherland II class
 Q5366685;Yamamoto Shūgorō Prize
 Q5366685;Haruhiko Ōyabu Award
 Q172140;Edgar Award
@@ -1564,7 +1564,7 @@ Q633;Grammy Hall of Fame
 Q172140;Academy Award for Technical Achievement
 Q5366685;Honkaku Mystery Grand Prize
 Q157176;Commander with Star of the Order of Polonia Restituta
-Q50250586;Medal "In Commemoration of the 850th Anniversary of Moscow"
+Q50250586;Medal In Commemoration of the 850th Anniversary of Moscow
 Q2548961;Pro Finlandia Medal of the Order of the Lion of Finland
 Q3942008;Pulitzer Prize for History
 Q1634304;Officer of the Order of the British Empire
@@ -1689,7 +1689,7 @@ Q311757;Hegel Prize
 Q311757;Templeton Prize
 Q1176577;Lambda Literary Award
 Q2367724;Writers Guild of America Award
-Q292463;Price "Prince Maurice" of the romance novel
+Q292463;Price Prince Maurice of the romance novel
 Q311757;Kluge Prize
 Q443966;War Resisters League Peace Award
 Q543036;Pro Finlandia Medal of the Order of the Lion of Finland
@@ -1700,7 +1700,7 @@ Q548164;Order of Honour
 Q292463;François Morellet Prize
 Q7807535;John Simon Guggenheim Memorial Foundation Fellowship
 Q543036;Aleksis Kivi Award
-Q548164;Order "For Merit to the Fatherland" III class
+Q548164;Order For Merit to the Fatherland III class
 Q443966;Women's Caucus for Art Lifetime Achievement Award
 Q443966;PEN/Malamud Award
 Q225554;Nobel Prize in Literature
@@ -1848,7 +1848,7 @@ Q359568;State Stalin Prize
 Q359568;Order of Lenin
 Q359568;Hero of Socialist Labour
 Q359568;Order of the Red Banner of Labour
-Q359568;Medal "For Valiant Labour in the Great Patriotic War 1941–1945"
+Q359568;Medal For Valiant Labour in the Great Patriotic War 1941–1945
 Q359568;Order of St. Vladimir, 4th class
 Q468324;Outstanding Parliamentarian Award
 Q468324;Banga Bibhushan
@@ -1861,7 +1861,7 @@ Q662366;Prix de la langue française
 Q248861;Prix Goncourt
 Q103774;Polar Music Prize
 Q103774;Bharat Ratna
-Q359568;Medal "In Commemoration of the 800th Anniversary of Moscow"
+Q359568;Medal In Commemoration of the 800th Anniversary of Moscow
 Q359568;Order of St. Vladimir
 Q3298851;‎chevalier des Arts et des Lettres
 Q662366;Prix Victor-Rossel
@@ -1909,7 +1909,7 @@ Q44839;Officer's Cross of the Order of Merit of the Federal Republic of Germany
 Q44839;Officer's Cross of the Order of Merit of the Federal Republic of Germany
 Q2640622;Fellow of the Royal Society
 Q113022;Solothurner Literaturpreis
-Q7414;Public Eye Award, Category "Social"
+Q7414;Public Eye Award, Category Social
 Q1633069;Kiddo Leespluim
 Q1633069;Silver Brush
 Q44839;Ernst-Hoferichter-Preis
@@ -1942,7 +1942,7 @@ Q438825;Zilveren Griffel
 Q438825;Kiddo Leespluim
 Q438825;Silver Brush
 Q458247;John Simon Guggenheim Memorial Foundation Fellowship
-Q4177077;Medal "For Battle Merit"
+Q4177077;Medal For Battle Merit
 Q334126;Tigre Juan award
 Q334126;Ordre des Arts et des Lettres
 Q942627;Hemingway Foundation/PEN Award
@@ -1956,7 +1956,7 @@ Q179695;Prix mondial Cino Del Duca
 Q179695;Man Booker International Prize
 Q179695;Jerusalem Prize
 Q179695;International Nonino Prize
-Q4177077;Medal "For the Defence of Leningrad"
+Q4177077;Medal For the Defence of Leningrad
 Q120617;Prix Femina
 Q734092;John Simon Guggenheim Memorial Foundation Fellowship
 Q734092;Premio Planeta de Novela
@@ -2106,7 +2106,7 @@ Q380664;Officier des Arts et des Lettres‎
 Q54828;State Stalin Prize
 Q54828;Order of the Badge of Honour
 Q54828;Order of the Red Banner of Labour
-Q54828;Medal "For Valiant Labour in the Great Patriotic War 1941–1945"
+Q54828;Medal For Valiant Labour in the Great Patriotic War 1941–1945
 Q298827;Legion of Honour
 Q447519;Officer of the Order of the British Empire
 Q380664;Order of Ikhamanga
@@ -2157,13 +2157,13 @@ Q333873;Hero of Socialist Labour
 Q333873;Order of the October Revolution
 Q333873;Order of the Red Banner of Labour
 Q333873;Order of Friendship of Peoples
-Q333873;Medal "For Valiant Labour in the Great Patriotic War 1941–1945"
+Q333873;Medal For Valiant Labour in the Great Patriotic War 1941–1945
 Q333873;Order of Saint Anna, 4th class
-Q333873;Jubilee Medal "In Commemoration of the 100th Anniversary of the Birth of Vladimir Ilyich Lenin"
-Q333873;Jubilee Medal "Twenty Years of Victory in the Great Patriotic War 1941–1945"
-Q333873;Jubilee Medal "Thirty Years of Victory in the Great Patriotic War 1941–1945"
-Q333873;Jubilee Medal "Forty Years of Victory in the Great Patriotic War 1941–1945"
-Q333873;Medal "In Commemoration of the 800th Anniversary of Moscow"
+Q333873;Jubilee Medal In Commemoration of the 100th Anniversary of the Birth of Vladimir Ilyich Lenin
+Q333873;Jubilee Medal Twenty Years of Victory in the Great Patriotic War 1941–1945
+Q333873;Jubilee Medal Thirty Years of Victory in the Great Patriotic War 1941–1945
+Q333873;Jubilee Medal Forty Years of Victory in the Great Patriotic War 1941–1945
+Q333873;Medal In Commemoration of the 800th Anniversary of Moscow
 Q1373922;Grand Prix du roman de l'Académie française
 Q1373922;Officer of the Legion of Honour
 Q1373922;Officer of the National Order of Merit
@@ -2302,7 +2302,7 @@ Q131725;Rock and Roll Hall of Fame
 Q4217805;State Stalin Prize
 Q4217805;Order of the Badge of Honour
 Q4217805;Order of the Red Banner of Labour
-Q4217805;Medal "For Valiant Labour in the Great Patriotic War 1941–1945"
+Q4217805;Medal For Valiant Labour in the Great Patriotic War 1941–1945
 Q447902;John Simon Guggenheim Memorial Foundation Fellowship
 Q34981;James T. Grady-James H. Stack Award for Interpreting Chemistry
 Q34981;Hugo Award
@@ -2371,7 +2371,7 @@ Q469627;Multatuli Award
 Q469627;Dirk Martensprijs
 Q4352331;National Humanities Medal
 Q4337560;State Stalin Prize
-Q4337560;Medal "For Valiant Labour in the Great Patriotic War 1941–1945"
+Q4337560;Medal For Valiant Labour in the Great Patriotic War 1941–1945
 Q4352331;Children's Literature Legacy Award
 Q47755;Nobel Prize in Literature
 Q47755;Order of Merit for Arts and Science
@@ -2485,7 +2485,7 @@ Q1096420;CNRS Gold medal
 Q3293094;PEN Award for Poetry in Translation
 Q3293094;National Book Award for Poetry
 Q1354212;Silver Brush
-Q318506;Canada India Foundation ("CIF") Chanchlani Global Indian Award
+Q318506;Canada India Foundation (CIF) Chanchlani Global Indian Award
 Q1061225;Phoenix Award
 Q957543;Order of the Iron Crown
 Q957543;Order of St. Anna
@@ -2702,9 +2702,9 @@ Q1319463;State Stalin Prize
 Q1319463;Order of Lenin
 Q1319463;Hero of Socialist Labour
 Q38203;Order of Bernardo O'Higgins
-Q4507260;Medal "For Distinguished Labour"
-Q4507260;Medal "Veteran of Labour"
-Q4507260;Medal "For Valiant Labour in the Great Patriotic War 1941–1945"
+Q4507260;Medal For Distinguished Labour
+Q4507260;Medal Veteran of Labour
+Q4507260;Medal For Valiant Labour in the Great Patriotic War 1941–1945
 Q794031;USSR State Prize
 Q794031;Lenin Prize
 Q794031;Order of Friendship
@@ -2747,7 +2747,7 @@ Q16898800;Amalie Skram Award
 Q469966;Vestfolds Literature Prize
 Q469966;Nordic Council's Literature Prize
 Q1099318;Edgar Award
-Q4329786;Medal "For Valiant Labour in the Great Patriotic War 1941–1945"
+Q4329786;Medal For Valiant Labour in the Great Patriotic War 1941–1945
 Q469966;Brage Prize honorary award
 Q7783806;Sahitya Akademi Award
 Q258753;Rome Prize
@@ -2815,7 +2815,7 @@ Q436796;School Librarians Association Literature
 Q508728;Patrick White Award
 Q508728;Miles Franklin Literary Award
 Q1602252;Order of the White Star, 5th Class
-Q4137236;Medal "For the Defence of the Soviet Transarctic"
+Q4137236;Medal For the Defence of the Soviet Transarctic
 Q4137236;Order of the Red Banner of Labour
 Q185777;Nobel Prize in Physiology or Medicine
 Q185777;Commander of the Legion of Honour
@@ -3126,8 +3126,8 @@ Q40640;Helmerich Award
 Q370973;James Tait Black Memorial Prize
 Q2892039;Knight of the Legion of Honour
 Q2892039;Officer of the National Order of Merit
-Q124617;Medal "For the Victory over Japan"
-Q124617;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q124617;Medal For the Victory over Japan
+Q124617;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
 Q124617;Order of the Red Banner
 Q124617;Knight Grand Cross of the Order of the Bath
 Q124617;Chief Commander of the Legion of Merit
@@ -3160,7 +3160,7 @@ Q55392;Golden Lion
 Q1237807;Prix Femina
 Q124617;Order of Suvorov, 1st class
 Q124617;Order of Suvorov, 1st class
-Q124617;Jubilee Medal "In Commemoration of the 100th Anniversary of the Birth of Vladimir Ilyich Lenin"
+Q124617;Jubilee Medal In Commemoration of the 100th Anniversary of the Birth of Vladimir Ilyich Lenin
 Q40640;World Horror Convention Grand Master Award
 Q40640;Damon Knight Memorial Grand Master Award
 Q40640;Inkpot Award
@@ -3170,15 +3170,15 @@ Q132723;Aleksis Kivi Award
 Q55392;National Society of Film Critics Award for Best Director
 Q55392;BAFTA Award for Best Direction
 Q55392;Golden Lion
-Q124617;Jubilee Medal "XX Years of the Workers' and Peasants' Red Army"
-Q124617;Medal "For the Defence of Leningrad"
+Q124617;Jubilee Medal XX Years of the Workers' and Peasants' Red Army
+Q124617;Medal For the Defence of Leningrad
 Q39212;Nobel Prize in Literature
 Q39212;Presidential Medal of Freedom
 Q39212;National Book Award for Fiction
 Q40640;Sir Arthur Clarke Award
 Q40640;Commandeur des Arts et des Lettres‎
-Q124617;Medal "For the Defence of Moscow"
-Q124617;Medal "For the Defence of Stalingrad"
+Q124617;Medal For the Defence of Moscow
+Q124617;Medal For the Defence of Stalingrad
 Q39212;California Hall of Fame
 Q39212;Pulitzer Prize for Fiction
 Q55392;Los Angeles Film Critics Association Award for Best Foreign Language Film
@@ -3188,11 +3188,11 @@ Q3100609;Officier des Arts et des Lettres‎
 Q3100609;Prix Femina
 Q12405921;Bialik Prize
 Q247860;Orhan Kemal Novel Prize
-Q124617;Medal "For the Defence of the Caucasus"
-Q124617;Medal "For the Capture of Berlin"
-Q124617;Medal "For the Liberation of Warsaw"
-Q124617;Jubilee Medal "Twenty Years of Victory in the Great Patriotic War 1941–1945"
-Q124617;Medal "In Commemoration of the 800th Anniversary of Moscow"
+Q124617;Medal For the Defence of the Caucasus
+Q124617;Medal For the Capture of Berlin
+Q124617;Medal For the Liberation of Warsaw
+Q124617;Jubilee Medal Twenty Years of Victory in the Great Patriotic War 1941–1945
+Q124617;Medal In Commemoration of the 800th Anniversary of Moscow
 Q1207530;Yamamoto Shūgorō Prize
 Q55392;César Award for Best Director
 Q1475327;Per Olov Enquist Prize
@@ -3202,18 +3202,18 @@ Q1475327;August Prize
 Q1072872;Amundi Smith Breeden Prize
 Q22249366;Albert Londres Prize
 Q16525162;Viareggio Prize
-Q124617;Medal "In Commemoration of the 250th Anniversary of Leningrad"
+Q124617;Medal In Commemoration of the 250th Anniversary of Leningrad
 Q55392;César Award for Best Film
 Q55392;European Film Award for Best Screenwriter
 Q465937;Pro Finlandia Medal of the Order of the Lion of Finland
 Q698080;Order of the Three Stars, 2nd Class
-Q124617;Jubilee Medal "30 Years of the Soviet Army and Navy"
+Q124617;Jubilee Medal 30 Years of the Soviet Army and Navy
 Q6696697;John Simon Guggenheim Memorial Foundation Fellowship
 Q55392;David di Donatello for Best Foreign Director
 Q698080;Nersornaat
 Q16;Nansen Refugee Award
-Q124617;Jubilee Medal "40 Years of the Armed Forces of the USSR"
-Q124617;Jubilee Medal "50 Years of the Armed Forces of the USSR"
+Q124617;Jubilee Medal 40 Years of the Armed Forces of the USSR
+Q124617;Jubilee Medal 50 Years of the Armed Forces of the USSR
 Q129228;Commandeur des Arts et des Lettres‎
 Q129228;Prix Médicis essai
 Q6103935;Science Journalism Award - Magazine
@@ -3273,7 +3273,7 @@ Q2571181;Lucy B. en C.W. van der Hoogt award
 Q736990;Premi Josep Pla de narrativa
 Q124617;Order of the Cross of Grunwald, 1st class
 Q124617;Order of the White Lion
-Q4064800;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q4064800;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
 Q4064800;Order of Lenin
 Q4064800;Hero of Socialist Labour
 Q4064800;Order of the October Revolution
@@ -3293,16 +3293,16 @@ Q600261;Carnegie Medal
 Q1379856;BSFA Award for Best Novel
 Q124617;Czechoslovak War Cross 1939–1945
 Q4064800;Order of the Patriotic War 2nd class
-Q4064800;Order "For Merit to the Fatherland" III class
-Q4064800;Medal "For Courage"
+Q4064800;Order For Merit to the Fatherland III class
+Q4064800;Medal For Courage
 Q728626;Bellman Prize
 Q728626;Svenska Dagbladet Literature Prize
 Q721345;Angus Book Award
 Q721345;August Derleth Award
 Q600261;Angus Book Award
 Q600261;Angus Book Award
-Q124617;Medal "For the Victory over Japan" of Mongolia
-Q4064800;Medal "For the Capture of Vienna"
+Q124617;Medal For the Victory over Japan of Mongolia
+Q4064800;Medal For the Capture of Vienna
 Q2645380;Gerald Loeb Award
 Q963372;Swedish Academy Nordic Prize
 Q6483502;John Simon Guggenheim Memorial Foundation Fellowship
@@ -3313,9 +3313,9 @@ Q6294;doctor honoris causa
 Q6294;doctor honoris causa
 Q6833066;Officer of the Order of the British Empire
 Q4064800;Alexander Fadeyev Medal
-Q4064800;Medal "In Commemoration of the 850th Anniversary of Moscow"
+Q4064800;Medal In Commemoration of the 850th Anniversary of Moscow
 Q4064800;Order of the Red Banner of Labour
-Q4064800;Medal "For Distinguished Labour"
+Q4064800;Medal For Distinguished Labour
 Q5246242;Officer of the Order of Australia
 Q6294;Gallup's most admired man and woman poll
 Q6294;doctor honoris causa
@@ -3425,7 +3425,7 @@ Q3295484;Dromkeen medal
 Q3295484;Hans Christian Andersen Award
 Q1760899;Hugo Award for Best Novel
 Q44695;State Stalin Prize
-Q44695;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q44695;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
 Q44695;Order of the Red Banner
 Q44695;Order of Lenin
 Q44695;Hero of Socialist Labour
@@ -3442,10 +3442,10 @@ Q356327;Member of the Order of the British Empire
 Q5112078;Daytime Emmy Award
 Q6294;William O. Douglas Award
 Q5233160;Prelog medal
-Q44695;Medal "For the Defence of Odessa"
-Q44695;Medal "For the Defence of Moscow"
-Q44695;Medal "For the Defence of Stalingrad"
-Q44695;Medal "Veteran of Labour"
+Q44695;Medal For the Defence of Odessa
+Q44695;Medal For the Defence of Moscow
+Q44695;Medal For the Defence of Stalingrad
+Q44695;Medal Veteran of Labour
 Q435402;Prix mondial Cino Del Duca
 Q5112078;Harold W. McGraw Prize in Education
 Q966894;Knight of the Legion of Honour
@@ -3456,8 +3456,8 @@ Q150281;National Women's Hall of Fame
 Q550926;Frederic Ives Medal
 Q550926;Rumford Medal
 Q550926;Henry Draper Medal
-Q44695;Medal "For the Liberation of Prague"
-Q44695;Medal "For the Defence of the Caucasus"
+Q44695;Medal For the Liberation of Prague
+Q44695;Medal For the Defence of the Caucasus
 Q15703306;Padma Shri
 Q1687729;Officier des Arts et des Lettres‎
 Q1687729;John Simon Guggenheim Memorial Foundation Fellowship
@@ -3691,7 +3691,7 @@ Q43033;Honorary doctor of the University of Vienna
 Q43033;Honorary doctor of the Harvard University
 Q43033;Honorary doctor of the Columbia University
 Q6830135;American Book Awards
-Q629702;Order "For Merit to the Fatherland" I class
+Q629702;Order For Merit to the Fatherland I class
 Q61585;Star of People's Friendship
 Q19878;Xirka Ġieħ ir-Repubblika
 Q99470;Bavarian Order of Merit
@@ -3889,10 +3889,10 @@ Q502041;Prix du Meilleur Livre Étranger
 Q78247;Alex-Wedding-Preis
 Q181573;USSR State Prize
 Q181573;Pushkin Prize
-Q181573;Order "For Merit to the Fatherland" II class
+Q181573;Order For Merit to the Fatherland II class
 Q181573;State Prize of the Russian Federation
-Q181573;Order "For Merit to the Fatherland" III class
-Q181573;Order "For Merit to the Fatherland" IV class
+Q181573;Order For Merit to the Fatherland III class
+Q181573;Order For Merit to the Fatherland IV class
 Q181573;State Prize of the Russian Federation
 Q12409536;Bialik Prize
 Q12409536;Ze'ev Prize
@@ -3909,7 +3909,7 @@ Q8135976;Yamamoto Shūgorō Prize
 Q8135976;Chūōkōron Award
 Q105167;John Simon Guggenheim Memorial Foundation Fellowship
 Q4616928;Fabelprisen
-Q181573;Order "For Merit to the Fatherland"
+Q181573;Order For Merit to the Fatherland
 Q713222;Knight of the Legion of Honour
 Q713222;‎chevalier des Arts et des Lettres
 Q713222;Prix Goncourt
@@ -3917,7 +3917,7 @@ Q713222;Prix Goncourt du premier roman
 Q713222;Prix Interallié
 Q713222;Officer of the Legion of Honour
 Q1895389;Travel Scholarship of the German Archaeological Institute
-Q4076281;Medal "For Valiant Labour in the Great Patriotic War 1941–1945"
+Q4076281;Medal For Valiant Labour in the Great Patriotic War 1941–1945
 Q11132;Brandeis Medal
 Q11132;National Women's Hall of Fame
 Q11132;Presidential Medal of Freedom
@@ -3953,7 +3953,7 @@ Q60984;Kleist Prize
 Q7176;Orden al Mérito Docente y Cultural Gabriela Mistral
 Q1375319;Mr. H.G. van der Vies-prijs
 Q434808;Order of Friendship of Peoples
-Q434808;Medal "For Labour Valour"
+Q434808;Medal For Labour Valour
 Q3048551;John Burroughs Medal
 Q3301434;Knight of the Legion of Honour
 Q60984;Erich Fried Prize
@@ -4104,7 +4104,7 @@ Q80135;Léonie Sonning Music Prize
 Q80135;Lenin Prize
 Q80135;Order of the Red Banner of Labour
 Q80135;Order of Friendship of Peoples
-Q80135;Medal "For Valiant Labour in the Great Patriotic War 1941–1945"
+Q80135;Medal For Valiant Labour in the Great Patriotic War 1941–1945
 Q80135;Royal Philharmonic Society Gold Medal
 Q80135;People's Artist of the RSFSR
 Q261397;José Fuentes Mares National Prize for Literature
@@ -4161,11 +4161,11 @@ Q738617;Order of the October Revolution
 Q738617;Order of the Red Banner of Labour
 Q738617;Order of the Red Star
 Q738617;Lenin Prize
-Q738617;Medal "Veteran of the Armed Forces of the USSR"
-Q738617;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
-Q738617;Medal "For Battle Merit"
+Q738617;Medal Veteran of the Armed Forces of the USSR
+Q738617;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
+Q738617;Medal For Battle Merit
 Q311802;Neustadt International Prize for Literature
-Q80135;"Hammer and Sickle" gold medal
+Q80135;Hammer and Sickle gold medal
 Q80135;State Stalin Prize
 Q80135;State Stalin Prize
 Q80135;State Stalin Prize
@@ -4177,7 +4177,7 @@ Q60128;State Stalin Prize
 Q60128;Order of the Red Banner
 Q60128;Order of Lenin
 Q60128;Lenin Komsomol Prize
-Q60128;Medal "For Valiant Labour in the Great Patriotic War 1941–1945"
+Q60128;Medal For Valiant Labour in the Great Patriotic War 1941–1945
 Q539312;Zellidja Bourse
 Q16204354;Sydney J. Bounds Award For Best Newcomer
 Q16204354;Nebula Award for Best Novel
@@ -4381,8 +4381,8 @@ Q57255;Peace Prize of the German Book Trade
 Q57255;Dr. Leopold Lucas Prize
 Q298025;Prometheus Award - Special Award
 Q298025;Hugo Award for Best Dramatic Presentation, Short Form
-Q4181785;Order "For Merit to the Fatherland" III class
-Q4181785;Order "For Merit to the Fatherland" IV class
+Q4181785;Order For Merit to the Fatherland III class
+Q4181785;Order For Merit to the Fatherland IV class
 Q4181785;Order of Friendship of Peoples
 Q4181785;Order of the Red Banner of Labour
 Q4181785;Lenin Prize
@@ -4469,8 +4469,8 @@ Q137576;Order of Friendship
 Q137576;Library of Congress Living Legend
 Q137576;Commander's Cross of the Order of Merit of the Federal Republic of Germany
 Q137576;Grand Officer of the Order of Merit of the Italian Republic
-Q2105;Medal "In Commemoration of the 300th Anniversary of Saint Petersburg"
-Q2105;Order "For Merit to the Fatherland" I class
+Q2105;Medal In Commemoration of the 300th Anniversary of Saint Petersburg
+Q2105;Order For Merit to the Fatherland I class
 Q2105;Knight Grand Cross of the Order of St. Olav‎
 Q259841;Officer of the Order of Australia
 Q259841;Queen's Gold Medal for Poetry
@@ -4587,7 +4587,7 @@ Q2600093;Lucy B. en C.W. van der Hoogt award
 Q1462615;Nils Holgersson Plaque
 Q1462615;Expressens Heffaklump
 Q1462615;August Prize
-Q446692;Medal "For Merit in Space Exploration"
+Q446692;Medal For Merit in Space Exploration
 Q446692;Order of the Star of Romania
 Q1549072;John Llewellyn Rhys Prize
 Q336010;Knight of the Legion of Honour
@@ -4790,14 +4790,14 @@ Q358158;Alfred Eisenstaedt Awards for Magazine Photography
 Q465028;LennonOno Grant for Peace
 Q368812;Order of Lenin
 Q368812;Order of the Red Banner of Labour
-Q368812;Medal "For Courage"
-Q368812;Medal "For the Defence of Odessa"
+Q368812;Medal For Courage
+Q368812;Medal For the Defence of Odessa
 Q43570374;James Tiptree, Jr. Award
 Q327142;Peace Prize of the German Book Trade
 Q327142;Prix du Meilleur Livre Étranger
 Q17455;Silliman Memorial Lectures
 Q358158;Premios Internacionales de Periodismo Rey de España
-Q368812;Jubilee Medal "65 Years of Victory in the Great Patriotic War 1941–1945"
+Q368812;Jubilee Medal 65 Years of Victory in the Great Patriotic War 1941–1945
 Q327142;Bjørnson Prize
 Q327142;Monismanien Prize
 Q327142;Presidential Culture and Arts Grand Awards
@@ -5203,7 +5203,7 @@ Q187019;Pulitzer Prize for Fiction
 Q187019;PEN/Faulkner Award for Fiction
 Q297736;USSR State Prize
 Q297736;Order of the Badge of Honour
-Q297736;Order "For Merit to the Fatherland" III class
+Q297736;Order For Merit to the Fatherland III class
 Q297736;Order of the Red Banner of Labour
 Q297736;Order of Friendship of Peoples
 Q12665;Grand Officer of the Order of Christ (Portugal)
@@ -5220,7 +5220,7 @@ Q6525107;Rome Prize
 Q256796;Premio Fredrikke
 Q76699;Pak Kyong-ni Prize
 Q297736;Medal Defender of a Free Russia
-Q297736;Order "For Merit to the Fatherland"
+Q297736;Order For Merit to the Fatherland
 Q12665;Ashanti Star
 Q12348998;Honorary Member of the World Esperanto Association
 Q187019;James Fenimore Cooper Prize
@@ -5238,7 +5238,7 @@ Q187019;New Jersey Hall of Fame
 Q187019;Legion of Honour
 Q12665;British South Africa Company Medal
 Q12665;Queen's South Africa Medal
-Q297736;Order "Polar Star" (Yakutia)
+Q297736;Order Polar Star (Yakutia)
 Q297736;Order of Bernardo O'Higgins
 Q12665;King's South Africa Medal
 Q12665;Decoration of Honour for Services to the Republic of Austria
@@ -5287,7 +5287,7 @@ Q332435;National Book Award for Nonfiction
 Q1718487;Jiří Orten Award
 Q705090;Friedrich Nietzsche Prize
 Q961972;Watson Davis and Helen Miles Davis Prize
-Q4491256;Medal "In Commemoration of the 850th Anniversary of Moscow"
+Q4491256;Medal In Commemoration of the 850th Anniversary of Moscow
 Q4491256;Council of Ministers of the Soviet Union Prize
 Q324944;Commandeur des Arts et des Lettres‎
 Q324944;Prince Pierre Award
@@ -5307,8 +5307,8 @@ Q116019;Commandeur of the Royal and Military Order of Saint Louis
 Q116019;Knights of the Order of the Holy Spirit
 Q116019;Knight in the order of Saint-Michel
 Q11865025;Pro Finlandia Medal of the Order of the Lion of Finland
-Q1394078;Medal "For the Defence of Sevastopol"
-Q1394078;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q1394078;Medal For the Defence of Sevastopol
+Q1394078;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
 Q369668;Canadian Medical Hall of Fame
 Q13115080;Kerala Sahitya Akademi Award
 Q357304;Israel Prize
@@ -5512,7 +5512,7 @@ Q318309;Bagutta Prize
 Q318309;Feltrinelli Prize
 Q318309;Nelly Sachs Prize
 Q505887;James Tait Black Memorial Prize
-Q44872;Munich "München leuchtet" award
+Q44872;Munich München leuchtet award
 Q44872;Knight Commander's Cross of the Order of Merit of the Federal Republic of Germany
 Q44872;Erasmus Prize
 Q44872;Order of Merit for Arts and Science
@@ -5550,7 +5550,7 @@ Q16734479;Academy Scientific and Technical Award
 Q706999;State Stalin Prize
 Q706999;Order of Lenin
 Q706999;Order of the Red Banner of Labour
-Q706999;Medal "For Valiant Labour in the Great Patriotic War 1941–1945"
+Q706999;Medal For Valiant Labour in the Great Patriotic War 1941–1945
 Q210669;Edgar Award
 Q2319774;Order of the Three Stars
 Q11366905;Jōji Tsubota Award
@@ -6171,7 +6171,7 @@ Q11043498;Kritika Saria euskarazko narratibari
 Q758126;State Artist
 Q1384021;Litteris et Artibus
 Q12261027;Kritika Saria euskarazko narratibari
-Q108314;Medal "In memory of the 300th anniversary of Romanov dynasty"
+Q108314;Medal In memory of the 300th anniversary of Romanov dynasty
 Q82006;Fellow of the Royal Society
 Q2599879;Gold Medal
 Q2599879;Companion of the Order of St Michael and St George
@@ -6180,9 +6180,9 @@ Q1672008;Officer of the Order of the British Empire
 Q713533;Order of the Hero of Socialist Labour
 Q713533;NIN Prize
 Q4807349;Fulbright Scholarship
-Q4359683;Order "For Merit to the Fatherland" IV class
+Q4359683;Order For Merit to the Fatherland IV class
 Q4359683;Lenin Prize
-Q4359683;Order "For Merit to the Fatherland"
+Q4359683;Order For Merit to the Fatherland
 Q2427599;John Simon Guggenheim Memorial Foundation Fellowship
 Q2427599;Rome Prize
 Q2841400;Officer of the Legion of Honour
@@ -6581,11 +6581,11 @@ Q44647;Großer Preis der Deutschen Akademie für Kinder- und Jugendliteratur e.V
 Q44647;Bayerischer Poetentaler
 Q2043597;Order of the Red Banner of Labour
 Q2043597;Order of the Red Star
-Q2043597;Medal "For the Defence of Leningrad"
-Q2043597;Jubilee Medal "In Commemoration of the 100th Anniversary of the Birth of Vladimir Ilyich Lenin"
-Q2043597;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
-Q2043597;Jubilee Medal "Twenty Years of Victory in the Great Patriotic War 1941–1945"
-Q2043597;Jubilee Medal "50 Years of the Armed Forces of the USSR"
+Q2043597;Medal For the Defence of Leningrad
+Q2043597;Jubilee Medal In Commemoration of the 100th Anniversary of the Birth of Vladimir Ilyich Lenin
+Q2043597;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
+Q2043597;Jubilee Medal Twenty Years of Victory in the Great Patriotic War 1941–1945
+Q2043597;Jubilee Medal 50 Years of the Armed Forces of the USSR
 Q193803;Wolf Prize in Physics
 Q44647;Wildweibchenpreis
 Q84238;Presidential Medal of Freedom
@@ -6881,9 +6881,9 @@ Q348497;Knight of the Legion of Honour
 Q348497;Order of Lenin
 Q348497;Order of the Red Banner of Labour
 Q348497;Order of the Red Star
-Q348497;Medal "For the Defence of Moscow"
-Q348497;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
-Q348497;Medal "For Valiant Labour in the Great Patriotic War 1941–1945"
+Q348497;Medal For the Defence of Moscow
+Q348497;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
+Q348497;Medal For Valiant Labour in the Great Patriotic War 1941–1945
 Q348497;State Stalin Prize
 Q348497;International Stalin Prize for Peace
 Q348497;Order of Lenin
@@ -6928,7 +6928,7 @@ Q3511950;Croix de guerre 1914–1918
 Q1176073;James Tait Black Memorial Prize
 Q126742;State Stalin Prize
 Q126742;Order of the Badge of Honour
-Q126742;Medal "For Valiant Labour in the Great Patriotic War 1941–1945"
+Q126742;Medal For Valiant Labour in the Great Patriotic War 1941–1945
 Q154232;Military Order of Maria Theresa
 Q335213;Isaac Newton Medal
 Q335213;Gruber Prize in Cosmology
@@ -7280,7 +7280,7 @@ Q150651;Grammy Award for Best Comedy Album
 Q150651;Grammy Award for Best Comedy Album
 Q2984219;Prix de Rome
 Q11658885;Shibata Renzaburō Award
-Q315147;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q315147;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
 Q5371230;Prešeren Fund Awards
 Q2915699;Israel Prize
 Q2915699;Bialik Prize
@@ -7450,7 +7450,7 @@ Q357108;John Simon Guggenheim Memorial Foundation Fellowship
 Q357108;grand prix de l'héroïne Madame Figaro du roman étranger
 Q357108;Pulitzer Prize for Fiction
 Q34474;Nobel Prize in Literature
-Q34474;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q34474;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
 Q34474;Order of the Patriotic War 2nd class
 Q34474;Templeton Prize
 Q34474;Order of the Red Star
@@ -7480,7 +7480,7 @@ Q299161;Prix Femina étranger
 Q299161;Nelly Sachs Prize
 Q299161;Prix Formentor
 Q299161;International Nonino Prize
-Q34474;Medal "For the Capture of Königsberg"
+Q34474;Medal For the Capture of Königsberg
 Q34474;Lomonosov Gold Medal
 Q34474;Order of the Star of Romania
 Q456616;Nestlé Children's Book Prize
@@ -7804,8 +7804,8 @@ Q467741;Order of the Patriotic War 2nd class
 Q467741;Order of the Red Banner of Labour
 Q467741;Order of Friendship of Peoples
 Q467741;Order of the Red Star
-Q467741;Medal "For the Defence of the Soviet Transarctic"
-Q467741;Medal "For Valiant Labour in the Great Patriotic War 1941–1945"
+Q467741;Medal For the Defence of the Soviet Transarctic
+Q467741;Medal For Valiant Labour in the Great Patriotic War 1941–1945
 Q5319497;Companion of the Order of Australia
 Q532213;E. M. Forster Award
 Q205772;John Simon Guggenheim Memorial Foundation Fellowship
@@ -7834,7 +7834,7 @@ Q2721233;Prix Femina
 Q205772;International Cosmos Prize
 Q205772;Humanist of the Year
 Q205772;Dickson Prize in Science
-Q4125181;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q4125181;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
 Q778276;Asian Literary Prize
 Q39246;Oersted Medal
 Q39246;Niels Bohr International Gold Medal
@@ -7905,7 +7905,7 @@ Q2364762;Anna Bijns Award
 Q2538;Order of the Cross of Terra Mariana, 4th Class
 Q747114;Honored Artist of the Russian Federation
 Q747114;Medal of Zhukov
-Q747114;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q747114;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
 Q747114;Order of Honour
 Q1741530;Nordic Council's Literature Prize
 Q1741530;De Gyldne Laurbær
@@ -7925,7 +7925,7 @@ Q238970;Yamamoto Shūgorō Prize
 Q747114;People's Artist of Russia
 Q747114;Order of the Patriotic War 1st class
 Q747114;Order of the Red Star
-Q747114;Medal "Veteran of Labour"
+Q747114;Medal Veteran of Labour
 Q22686;Ellis Island Medal of Honor
 Q22686;Time Person of the Year
 Q22686;Doublespeak Award
@@ -7937,8 +7937,8 @@ Q238970;Bunkamura Les Deux Magots Literature Award
 Q22686;Gaming Hall of Fame
 Q22686;WWE Hall of Fame
 Q22686;Order of Abdulaziz al Saud
-Q747114;Jubilee Medal "60 Years of Victory in the Great Patriotic War 1941–1945"
-Q747114;Jubilee Medal "50 Years of Victory in the Great Patriotic War 1941–1945"
+Q747114;Jubilee Medal 60 Years of Victory in the Great Patriotic War 1941–1945
+Q747114;Jubilee Medal 50 Years of Victory in the Great Patriotic War 1941–1945
 Q2538;Order for Exceptional Merits
 Q2538;doctor honoris causa
 Q2538;doctor honoris causa
@@ -7949,12 +7949,12 @@ Q3286276;Veitch Memorial Medal
 Q2538;Reinhard-Mohn-Prize
 Q22686;Presidential Order of Light
 Q747114;Order of Glory
-Q747114;Jubilee Medal "Twenty Years of Victory in the Great Patriotic War 1941–1945"
-Q747114;Jubilee Medal "Thirty Years of Victory in the Great Patriotic War 1941–1945"
-Q747114;Jubilee Medal "Forty Years of Victory in the Great Patriotic War 1941–1945"
-Q747114;Jubilee Medal "50 Years of the Armed Forces of the USSR"
-Q747114;Jubilee Medal "60 Years of the Armed Forces of the USSR"
-Q747114;Jubilee Medal "70 Years of the Armed Forces of the USSR"
+Q747114;Jubilee Medal Twenty Years of Victory in the Great Patriotic War 1941–1945
+Q747114;Jubilee Medal Thirty Years of Victory in the Great Patriotic War 1941–1945
+Q747114;Jubilee Medal Forty Years of Victory in the Great Patriotic War 1941–1945
+Q747114;Jubilee Medal 50 Years of the Armed Forces of the USSR
+Q747114;Jubilee Medal 60 Years of the Armed Forces of the USSR
+Q747114;Jubilee Medal 70 Years of the Armed Forces of the USSR
 Q471021;Officer of the Order of Australia
 Q471021;James Tait Black Memorial Prize
 Q11602611;Haruhiko Ōyabu Award
@@ -7972,7 +7972,7 @@ Q775662;Magnesia Litera
 Q775662;Magnesia Litera
 Q6741660;Kerala Sahitya Akademi Award
 Q1246921;Pulitzer Prize for General Non-Fiction
-Q747114;Medal "For Strengthening of Brotherhood in Arms"
+Q747114;Medal For Strengthening of Brotherhood in Arms
 Q818213;Danish Critics Prize for Literature
 Q818213;Søren Gyldendal Prize
 Q818213;Grand Prize of the Danish Academy
@@ -8137,20 +8137,20 @@ Q10390;Order of the Three Stars, 2nd Class
 Q10390;Order of Liberty
 Q10390;Legion of Merit
 Q4478006;Ushakov Medal
-Q4478006;Medal "For the Victory over Japan"
-Q4478006;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
-Q4478006;Jubilee Medal "50 Years of Victory in the Great Patriotic War 1941–1945"
-Q4478006;Medal "In Commemoration of the 850th Anniversary of Moscow"
+Q4478006;Medal For the Victory over Japan
+Q4478006;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
+Q4478006;Jubilee Medal 50 Years of Victory in the Great Patriotic War 1941–1945
+Q4478006;Medal In Commemoration of the 850th Anniversary of Moscow
 Q4478006;Medal of Zhukov
-Q4478006;Jubilee Medal "In Commemoration of the 100th Anniversary of the Birth of Vladimir Ilyich Lenin"
-Q4478006;Jubilee Medal "Twenty Years of Victory in the Great Patriotic War 1941–1945"
-Q4478006;Jubilee Medal "Thirty Years of Victory in the Great Patriotic War 1941–1945"
-Q4478006;Jubilee Medal "Forty Years of Victory in the Great Patriotic War 1941–1945"
-Q4478006;Jubilee Medal "30 Years of the Soviet Army and Navy"
-Q4478006;Jubilee Medal "40 Years of the Armed Forces of the USSR"
-Q4478006;Jubilee Medal "50 Years of the Armed Forces of the USSR"
-Q4478006;Jubilee Medal "60 Years of the Armed Forces of the USSR"
-Q4478006;Jubilee Medal "70 Years of the Armed Forces of the USSR"
+Q4478006;Jubilee Medal In Commemoration of the 100th Anniversary of the Birth of Vladimir Ilyich Lenin
+Q4478006;Jubilee Medal Twenty Years of Victory in the Great Patriotic War 1941–1945
+Q4478006;Jubilee Medal Thirty Years of Victory in the Great Patriotic War 1941–1945
+Q4478006;Jubilee Medal Forty Years of Victory in the Great Patriotic War 1941–1945
+Q4478006;Jubilee Medal 30 Years of the Soviet Army and Navy
+Q4478006;Jubilee Medal 40 Years of the Armed Forces of the USSR
+Q4478006;Jubilee Medal 50 Years of the Armed Forces of the USSR
+Q4478006;Jubilee Medal 60 Years of the Armed Forces of the USSR
+Q4478006;Jubilee Medal 70 Years of the Armed Forces of the USSR
 Q472649;Wisden Cricketer of the Year
 Q472649;Officer of the Order of Australia
 Q1264872;Commander of the Order of the British Empire
@@ -8188,7 +8188,7 @@ Q5320261;Padma Bhushan
 Q537699;John Simon Guggenheim Memorial Foundation Fellowship
 Q537699;Member of the Order of Canada
 Q1826749;doctor honoris causa
-Q4130888;Medal of the Order "For Merit to the Fatherland" II class
+Q4130888;Medal of the Order For Merit to the Fatherland II class
 Q313289;Carnegie Medal
 Q313289;Guardian Children's Fiction Prize
 Q1038466;Order of Culture
@@ -8275,10 +8275,10 @@ Q3387189;Knight of the Legion of Honour
 Q3387189;Prix de Rome
 Q7693936;Edgar Award
 Q190884;Order of the October Revolution
-Q190884;Order "For Merit to the Fatherland" I class
-Q190884;Order "For Merit to the Fatherland" II class
-Q190884;Order "For Merit to the Fatherland" III class
-Q190884;Order "For Merit to the Fatherland" IV class
+Q190884;Order For Merit to the Fatherland I class
+Q190884;Order For Merit to the Fatherland II class
+Q190884;Order For Merit to the Fatherland III class
+Q190884;Order For Merit to the Fatherland IV class
 Q190884;Order of the Red Banner of Labour
 Q190884;Order of the Badge of Honour
 Q190884;Order of Friendship
@@ -8303,8 +8303,8 @@ Q1760291;Phoenix Award
 Q1760291;Zilveren Griffel
 Q13524;Grand Officer of the Legion of Honour
 Q13524;Grand Cross of the National Order of Merit
-Q190884;Medal "In Commemoration of the 1000th Anniversary of Kazan"
-Q190884;Medal "In Commemoration of the 850th Anniversary of Moscow"
+Q190884;Medal In Commemoration of the 1000th Anniversary of Kazan
+Q190884;Medal In Commemoration of the 850th Anniversary of Moscow
 Q312632;Nebula Award for Best Novella
 Q312632;Edgar Award
 Q312632;Damon Knight Memorial Grand Master Award
@@ -8459,9 +8459,9 @@ Q738623;Hero of Socialist Labour
 Q738623;Order of the October Revolution
 Q738623;Order of the Red Banner of Labour
 Q738623;Lenin Prize
-Q738623;Medal "Veteran of Labour"
+Q738623;Medal Veteran of Labour
 Q738623;Order of the Red Star
-Q738623;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q738623;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
 Q738623;Order of Friendship of Peoples
 Q738623;Order of the Patriotic War 2nd class
 Q664948;Commander of the Legion of Honour
@@ -8608,11 +8608,11 @@ Q984352;Crimezone Thriller Awards
 Q463975;Knight of the Legion of Honour
 Q3610039;Bagutta Prize
 Q5679;Fellow of the Royal Society
-Q2387218;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q2387218;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
 Q2387218;Order of the Red Banner
 Q2387218;Order of Lenin
 Q2387218;Hero of the Soviet Union
-Q2387218;Medal "For the Defence of Moscow"
+Q2387218;Medal For the Defence of Moscow
 Q184750;Ambassador of Science of the Republic of Slovenia
 Q726724;Fellow of the Royal Society
 Q726724;Knight Commander of the Order of the British Empire
@@ -8961,7 +8961,7 @@ Q15031;Gold Olympic Order
 Q4361635;Order of Lenin
 Q4361635;Order of the October Revolution
 Q4361635;Order of the Badge of Honour
-Q4361635;Medal "For Labour Valour"
+Q4361635;Medal For Labour Valour
 Q2598859;Grand Prix de l'Imaginaire
 Q46052;Honorary craftsman
 Q556815;Barry Award
@@ -9179,7 +9179,7 @@ Q167573;Order of the Red Banner of Labour
 Q167573;Order of Lenin
 Q167573;Order of the October Revolution
 Q167573;Order of Friendship of Peoples
-Q167573;Order "For Merit to the Fatherland" II class
+Q167573;Order For Merit to the Fatherland II class
 Q167573;Order of St. Andrew
 Q36844;Icon Award
 Q2965934;Knight of the National Order of Merit
@@ -9225,8 +9225,8 @@ Q14278;Lalande Prize
 Q78487;Gerhart Hauptmann prize
 Q78487;Kleist Prize
 Q167573;Order of Lenin
-Q167573;"Hammer and Sickle" gold medal
-Q167573;"Hammer and Sickle" gold medal
+Q167573;Hammer and Sickle gold medal
+Q167573;Hammer and Sickle gold medal
 Q185152;Order of the Illustrious Dragon
 Q1395092;Tarjei Vesaas' debutantpris
 Q1395092;Norwegian Booksellers' Prize
@@ -9242,7 +9242,7 @@ Q185152;Order of the Most Holy Annunciation
 Q185152;Order of Saints Maurice and Lazarus
 Q167573;Lenin Prize
 Q167573;Medal of Zhukov
-Q167573;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q167573;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
 Q167573;Hero of Socialist Labour
 Q167573;Hero of the Russian Federation
 Q167573;Hero of Socialist Labour
@@ -9251,14 +9251,14 @@ Q1395092;Dobloug Prize
 Q1395092;Riksmål Society Literature Prize
 Q7684019;John Simon Guggenheim Memorial Foundation Fellowship
 Q7684019;Grawemeyer Award
-Q167573;Medal "For Distinction in Guarding the State Border of the USSR"
-Q167573;Medal "Veteran of Labour"
-Q167573;Medal "For Valiant Labour in the Great Patriotic War 1941–1945"
-Q167573;Jubilee Medal "50 Years of Victory in the Great Patriotic War 1941–1945"
-Q167573;Jubilee Medal "60 Years of Victory in the Great Patriotic War 1941–1945"
-Q167573;Jubilee Medal "65 Years of Victory in the Great Patriotic War 1941–1945"
-Q167573;Medal "In Commemoration of the 850th Anniversary of Moscow"
-Q167573;Medal "Veteran of the Armed Forces of the USSR"
+Q167573;Medal For Distinction in Guarding the State Border of the USSR
+Q167573;Medal Veteran of Labour
+Q167573;Medal For Valiant Labour in the Great Patriotic War 1941–1945
+Q167573;Jubilee Medal 50 Years of Victory in the Great Patriotic War 1941–1945
+Q167573;Jubilee Medal 60 Years of Victory in the Great Patriotic War 1941–1945
+Q167573;Jubilee Medal 65 Years of Victory in the Great Patriotic War 1941–1945
+Q167573;Medal In Commemoration of the 850th Anniversary of Moscow
+Q167573;Medal Veteran of the Armed Forces of the USSR
 Q1395092;European of the Year
 Q2621397;Premio Nadal
 Q3122920;Margaret Edwards Award
@@ -9736,7 +9736,7 @@ Q982898;Sarpsborgprisen
 Q982898;Arts Council Norway Honorary Award
 Q982898;School Librarians Association Literature
 Q7563004;Eric Gregory Award
-Q363846;Medal of the Order "For Merit to the Fatherland" II class
+Q363846;Medal of the Order For Merit to the Fatherland II class
 Q18391;Big Bertha
 Q18391;Knight Commander of the Order of the British Empire
 Q18391;Norman Mailer Prize
@@ -9764,7 +9764,7 @@ Q540617;Commander of the Legion of Honour
 Q363846;Order of Holy Prince Daniel of Moscow
 Q363846;Order of Prince Yaroslav the Wise
 Q363846;Russian Federation Presidential Certificate of Gratitude
-Q363846;Medal "For Strengthening of Brotherhood in Arms"
+Q363846;Medal For Strengthening of Brotherhood in Arms
 Q363846;Order of Liberty
 Q494257;Commonwealth Writers' Prize
 Q442522;Ferdinand Bordewijk Prize
@@ -9807,18 +9807,18 @@ Q519878;Order of the Red Banner
 Q519878;Officer's Cross of the Order of Merit of the Federal Republic of Germany
 Q519878;Hero of Socialist Labour
 Q519878;Order of the Red Star
-Q519878;Medal "In Commemoration of the 300th Anniversary of Saint Petersburg"
+Q519878;Medal In Commemoration of the 300th Anniversary of Saint Petersburg
 Q519878;Officer's Cross of the Order of Merit of the Federal Republic of Germany
 Q519878;Order of the Patriotic War 2nd class
-Q519878;Order "For Merit to the Fatherland" III class
+Q519878;Order For Merit to the Fatherland III class
 Q519878;Alexander Men Prize
 Q519878;Order of the Red Banner of Labour
 Q519878;Order of Friendship of Peoples
-Q519878;Medal "For the Defence of Leningrad"
-Q519878;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
-Q519878;Jubilee Medal "60 Years of Victory in the Great Patriotic War 1941–1945"
-Q519878;Jubilee Medal "50 Years of Victory in the Great Patriotic War 1941–1945"
-Q519878;Jubilee Medal "65 Years of Victory in the Great Patriotic War 1941–1945"
+Q519878;Medal For the Defence of Leningrad
+Q519878;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
+Q519878;Jubilee Medal 60 Years of Victory in the Great Patriotic War 1941–1945
+Q519878;Jubilee Medal 50 Years of Victory in the Great Patriotic War 1941–1945
+Q519878;Jubilee Medal 65 Years of Victory in the Great Patriotic War 1941–1945
 Q519878;Order of Alexander Nevsky
 Q3085882;Grand Prix du roman de l'Académie française
 Q3085882;Roger Nimier Prize
@@ -10067,10 +10067,10 @@ Q551429;Academy Award for Best Live Action Short Film
 Q43857209;MIND Antonie Kamerling Award
 Q78003;Kranichsteiner Literaturpreis
 Q78003;Literature Award of the Bavarian Academy of the Fine Arts
-Q4230598;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q4230598;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
 Q4230598;Order of the Patriotic War 1st class
-Q4230598;Medal "For Courage"
-Q4230598;Medal "Veteran of Labour"
+Q4230598;Medal For Courage
+Q4230598;Medal Veteran of Labour
 Q551757;Grand Prix de Littérature Policière
 Q5268400;George Polk Award
 Q6712911;Kerala Sahitya Akademi Award
@@ -10233,7 +10233,7 @@ Q385303;Darwin Medal
 Q2825469;Grand Prix du roman de l'Académie française
 Q4503394;USSR State Prize
 Q4503394;Order of the Red Star
-Q4503394;Medal "For the Capture of Berlin"
+Q4503394;Medal For the Capture of Berlin
 Q4503394;Honoured Science Worker of the Russian Federation
 Q4503394;Order of the Patriotic War 2nd class
 Q7027794;Heartland Prize
@@ -10308,7 +10308,7 @@ Q537999;Premio Nadal
 Q537999;Premio Planeta de Novela
 Q45723;Grand prix de littérature de l'Académie française
 Q2498968;Order of the Red Banner of Labour
-Q2498968;Medal "For Valiant Labour in the Great Patriotic War 1941–1945"
+Q2498968;Medal For Valiant Labour in the Great Patriotic War 1941–1945
 Q2898270;Orwell Award
 Q2898270;John Simon Guggenheim Memorial Foundation Fellowship
 Q2898270;National Humanities Medal
@@ -10356,7 +10356,7 @@ Q4115356;Jean Nicod Prize
 Q437700;August Prize
 Q1510036;PEN Oakland/Josephine Miles Literary Award
 Q1510036;American Book Awards
-Q120599;Jubilee Medal "Forty Years of Victory in the Great Patriotic War 1941–1945"
+Q120599;Jubilee Medal Forty Years of Victory in the Great Patriotic War 1941–1945
 Q4115356;Lakatos Award
 Q4858975;John Simon Guggenheim Memorial Foundation Fellowship
 Q446437;Xavier Villaurrutia Award
@@ -10443,8 +10443,8 @@ Q6694;Order of Merit for Arts and Science
 Q6694;Knight of the Order of St. Alexander Nevsky
 Q154104;Order of Good Hope
 Q16488456;Order of the Patriotic War 2nd class
-Q16488456;Medal "For Courage"
-Q16488456;Medal "For the Defence of Stalingrad"
+Q16488456;Medal For Courage
+Q16488456;Medal For the Defence of Stalingrad
 Q1707212;Member of the Order of the British Empire
 Q1707212;Wisden Cricketer of the Year
 Q6694;Honorary citizen of Berlin
@@ -10571,8 +10571,8 @@ Q208869;National Book Critics Circle Award
 Q7710392;National Book Award for Young People's Literature
 Q6069282;John Simon Guggenheim Memorial Foundation Fellowship
 Q4957788;BMF plaque
-Q169929;Medal "In Commemoration of the 800th Anniversary of Moscow"
-Q169929;Jubilee Medal "In Commemoration of the 100th Anniversary of the Birth of Vladimir Ilyich Lenin"
+Q169929;Medal In Commemoration of the 800th Anniversary of Moscow
+Q169929;Jubilee Medal In Commemoration of the 100th Anniversary of the Birth of Vladimir Ilyich Lenin
 Q1685888;Prix Goncourt
 Q1685888;Prix des Deux Magots
 Q1685888;Prix Goncourt des Lycéens
@@ -10730,13 +10730,13 @@ Q58005;Panzer Badge
 Q58005;Knight's Cross of the Iron Cross with Oak Leaves
 Q7647645;Sibert Medal
 Q7647645;Newbery Medal
-Q2364621;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q2364621;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
 Q2364621;Order of the Patriotic War 2nd class
 Q2364621;Order of the Red Banner of Labour
 Q2364621;Order of Friendship of Peoples
-Q2364621;Medal "For the Defence of Leningrad"
-Q2364621;Medal "For the Defence of the Soviet Transarctic"
-Q2364621;Medal "For the Capture of Königsberg"
+Q2364621;Medal For the Defence of Leningrad
+Q2364621;Medal For the Defence of the Soviet Transarctic
+Q2364621;Medal For the Capture of Königsberg
 Q255565;Peabody Award
 Q255565;Presidential Medal of Freedom
 Q255565;Primetime Emmy Award
@@ -10926,8 +10926,8 @@ Q292629;Dobloug Prize
 Q19185;Nobel Prize in Literature
 Q19185;Academy Award for Best Writing, Adapted Screenplay
 Q4226283;State Stalin Prize
-Q4226283;Medal "For Valiant Labour in the Great Patriotic War 1941–1945"
-Q4226283;Medal "In Commemoration of the 800th Anniversary of Moscow"
+Q4226283;Medal For Valiant Labour in the Great Patriotic War 1941–1945
+Q4226283;Medal In Commemoration of the 800th Anniversary of Moscow
 Q471816;International Prize for Biology
 Q471816;Darwin Medal
 Q471816;John J. Carty Award for the Advancement of Science
@@ -11139,7 +11139,7 @@ Q892;Hugo Award for Best Dramatic Presentation
 Q892;Hugo Award for Best Dramatic Presentation (Long Form)
 Q4517863;Order of the Red Star
 Q4517863;Order of the Red Banner of Labour
-Q4517863;Medal "For the Defence of Leningrad"
+Q4517863;Medal For the Defence of Leningrad
 Q189997;Nobel Prize in Physics
 Q189997;Benjamin Franklin Medal
 Q981835;Sokolov Award
@@ -11201,13 +11201,13 @@ Q505705;Charles Doolittle Walcott Medal
 Q761466;Laurence Olivier Award
 Q5517070;Caldecott Medal
 Q427167;State Stalin Prize
-Q427167;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q427167;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
 Q427167;Order of the Red Star
 Q427167;Order of the Badge of Honour
-Q427167;Medal "For Courage"
-Q427167;Medal "For the Defence of Stalingrad"
+Q427167;Medal For Courage
+Q427167;Medal For the Defence of Stalingrad
 Q427167;Ordre des Arts et des Lettres
-Q427167;Jubilee Medal "Twenty Years of Victory in the Great Patriotic War 1941–1945"
+Q427167;Jubilee Medal Twenty Years of Victory in the Great Patriotic War 1941–1945
 Q505705;Charles Schuchert Award
 Q505705;Raymond C. Moore Medal
 Q363870;Broquette-Gonin prize
@@ -11245,7 +11245,7 @@ Q310950;John Simon Guggenheim Memorial Foundation Fellowship
 Q310950;George Polk Award
 Q310950;National Book Award
 Q930090;State Stalin Prize
-Q930090;Medal "For Valiant Labour in the Great Patriotic War 1941–1945"
+Q930090;Medal For Valiant Labour in the Great Patriotic War 1941–1945
 Q178865;World Chess Championship
 Q178865;Order of Lenin
 Q178865;Order of the October Revolution
@@ -11269,7 +11269,7 @@ Q102289;Royal Gold Medal
 Q102289;St. Louis Literary Award
 Q178865;Honored Scientist of the RSFSR
 Q178865;Honored Master of Sports of the USSR
-Q178865;Medal "For Distinguished Labour"
+Q178865;Medal For Distinguished Labour
 Q3403159;Officer of the Order of the British Empire
 Q3136498;Nebula Award
 Q3136498;Emmy Award
@@ -11469,7 +11469,7 @@ Q5292412;Medal of the Order of Australia
 Q336658;Biotechnology Heritage Award
 Q5642337;Anna Politkovskaya Award
 Q6173924;Daytime Emmy Award
-Q57394;Medal "10 years of Astana"
+Q57394;Medal 10 years of Astana
 Q128027;Order of the Golden Spur
 Q42687814;Doctor of Philosophy
 Q699619;Národní umělec
@@ -11514,12 +11514,12 @@ Q3142071;Louis Guilloux Prize
 Q228589;Man Booker Prize
 Q57394;Order of the Red Banner of Labour
 Q57394;Order of the Badge of Honour
-Q57394;Jubilee Medal "70 Years of the Armed Forces of the USSR"
+Q57394;Jubilee Medal 70 Years of the Armed Forces of the USSR
 Q57394;Order of St. Andrew
 Q57394;Order of Alexander Nevsky
-Q57394;Medal "In Commemoration of the 850th Anniversary of Moscow"
-Q57394;Medal "In Commemoration of the 300th Anniversary of Saint Petersburg"
-Q57394;Medal "In Commemoration of the 1000th Anniversary of Kazan"
+Q57394;Medal In Commemoration of the 850th Anniversary of Moscow
+Q57394;Medal In Commemoration of the 300th Anniversary of Saint Petersburg
+Q57394;Medal In Commemoration of the 1000th Anniversary of Kazan
 Q3066599;Nebula Award for Best Novella
 Q3066599;Theodore Sturgeon Award
 Q3066599;Locus Award for Best Short Story
@@ -11665,13 +11665,13 @@ Q3321086;Hijo Adoptivo de Soria
 Q6862777;Noma Literary New Face Prize
 Q449177;100 Women
 Q2719262;Medal of Zhukov
-Q2719262;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q2719262;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
 Q2719262;Order of Lenin
 Q2719262;Hero of Socialist Labour
 Q2719262;Order of the Patriotic War 1st class
 Q2719262;Order of the Patriotic War 2nd class
-Q2719262;Order "For Merit to the Fatherland" II class
-Q2719262;Order "For Merit to the Fatherland" III class
+Q2719262;Order For Merit to the Fatherland II class
+Q2719262;Order For Merit to the Fatherland III class
 Q2719262;Order of the Red Banner of Labour
 Q2719262;Order of Friendship of Peoples
 Q2719262;Order of the Red Star
@@ -11686,7 +11686,7 @@ Q2906170;Zilveren Griffel
 Q6760787;Newbery Medal
 Q6760787;Newbery Medal
 Q507381;Order of the Red Banner
-Q2719262;Medal "For the Liberation of Belgrade"
+Q2719262;Medal For the Liberation of Belgrade
 Q92691;ACM Software System Award
 Q32115889;Gazteluma award
 Q2582465;Patrick White Award
@@ -11694,8 +11694,8 @@ Q2582465;Miles Franklin Literary Award
 Q42443;Nobel Prize in Literature
 Q42443;Prix Montyon
 Q7026287;New Zealand Order of Merit
-Q2719262;Medal "For the Capture of Budapest"
-Q2719262;Jubilee Medal "50 Years of Victory in the Great Patriotic War 1941–1945"
+Q2719262;Medal For the Capture of Budapest
+Q2719262;Jubilee Medal 50 Years of Victory in the Great Patriotic War 1941–1945
 Q594156;Officer of the Legion of Honour
 Q560078;King Faisal International Prize
 Q362900;Feltrinelli Prize
@@ -11714,8 +11714,8 @@ Q4984314;Finnish State Prize for Literature
 Q2719262;Salavat Yulaev Award
 Q2719262;Lenin Prize
 Q2719262;Honored art worker of the Russian Soviet Federative Socialist Republic
-Q2719262;Jubilee Medal "60 Years of Victory in the Great Patriotic War 1941–1945"
-Q2719262;Medal "Veteran of Labour"
+Q2719262;Jubilee Medal 60 Years of Victory in the Great Patriotic War 1941–1945
+Q2719262;Medal Veteran of Labour
 Q6437693;National Humanities Medal
 Q6437693;Fulbright Scholarship
 Q688766;Daniel Giraud Elliot Medal
@@ -11776,7 +11776,7 @@ Q2134553;Knight Commander of the Order of the Bath
 Q2134553;Knight Commander of the Order of St Michael and St George
 Q2134553;Companion of the Order of the Indian Empire
 Q231393;Sapir Prize for Literature
-Q57394;Medal "For the Development of Virgin Lands"
+Q57394;Medal For the Development of Virgin Lands
 Q92991;Grace Murray Hopper Award
 Q92991;Programming Languages Achievement Award
 Q92991;Harry H. Goode Memorial Award
@@ -12058,12 +12058,12 @@ Q6077806;National Humanities Medal
 Q529309;USSR State Prize
 Q529309;Order of Lenin
 Q529309;Hero of Socialist Labour
-Q529309;Order "For Merit to the Fatherland" III class
-Q529309;Order "For Merit to the Fatherland" IV class
+Q529309;Order For Merit to the Fatherland III class
+Q529309;Order For Merit to the Fatherland IV class
 Q529309;Order of the Red Banner of Labour
 Q529309;Order of the Badge of Honour
 Q529309;Order of Alexander Nevsky
-Q529309;Order "For Merit to the Fatherland"
+Q529309;Order For Merit to the Fatherland
 Q636191;Officier des Arts et des Lettres‎
 Q636191;Officer of the Order of Academic Palms
 Q6077806;Pulitzer Prize for Feature Writing
@@ -12322,14 +12322,14 @@ Q47243;Roswitha Prize
 Q47243;Peter-Weiss Prize
 Q47243;Österreichischer Kunstpreis für Literatur
 Q69679;Mainzer Stadtschreiber
-Q4228579;Medal "In Commemoration of the 300th Anniversary of Saint Petersburg"
-Q4228579;Jubilee Medal "300 Years of the Russian Navy"
-Q4228579;Jubilee Medal "70 Years of the Armed Forces of the USSR"
+Q4228579;Medal In Commemoration of the 300th Anniversary of Saint Petersburg
+Q4228579;Jubilee Medal 300 Years of the Russian Navy
+Q4228579;Jubilee Medal 70 Years of the Armed Forces of the USSR
 Q12833;Honorary Member of the World Esperanto Association
 Q116469;Prix des libraires
 Q116469;Commander of the National Order of Merit
 Q2958598;Grand Prix Gobert
-Q4228579;Medal "For Impeccable Service"
+Q4228579;Medal For Impeccable Service
 Q262565;Dobloug Prize
 Q262565;Tarjei Vesaas' debutantpris
 Q5342767;Navy Distinguished Service Medal
@@ -12485,7 +12485,7 @@ Q55433;Golden Leopard
 Q208116;State Stalin Prize
 Q208116;USSR State Prize
 Q208116;Medal of Zhukov
-Q208116;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q208116;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
 Q208116;Order of the Red Banner
 Q208116;Order of Lenin
 Q208116;Hero of Socialist Labour
@@ -12498,25 +12498,25 @@ Q6969585;John Simon Guggenheim Memorial Foundation Fellowship
 Q55433;Jury Prize
 Q55433;Sutherland Trophy
 Q208116;Polish Cultural Merit Order
-Q208116;Order "For Merit to the Fatherland" II class
+Q208116;Order For Merit to the Fatherland II class
 Q208116;Order of the Red Banner of Labour
 Q208116;Order of Friendship of Peoples
 Q208116;Order of the Red Star
-Q208116;Medal "For the Defence of Odessa"
-Q208116;Medal "For the Defence of Sevastopol"
-Q208116;Medal "For the Capture of Budapest"
-Q208116;Medal "For the Capture of Vienna"
-Q208116;Medal "For the Liberation of Prague"
+Q208116;Medal For the Defence of Odessa
+Q208116;Medal For the Defence of Sevastopol
+Q208116;Medal For the Capture of Budapest
+Q208116;Medal For the Capture of Vienna
+Q208116;Medal For the Liberation of Prague
 Q2645696;Paleontological Society Medal
 Q2645696;Raymond C. Moore Medal
 Q1170560;Prix Goncourt des Lycéens
 Q1273562;Anisfield-Wolf Book Awards
-Q208116;Medal "Veteran of Labour"
-Q208116;Medal "For Valiant Labour in the Great Patriotic War 1941–1945"
+Q208116;Medal Veteran of Labour
+Q208116;Medal For Valiant Labour in the Great Patriotic War 1941–1945
 Q208116;Alexander Fadeyev Medal
-Q208116;Jubilee Medal "50 Years of Victory in the Great Patriotic War 1941–1945"
-Q208116;Jubilee Medal "60 Years of Victory in the Great Patriotic War 1941–1945"
-Q208116;Medal "In Commemoration of the 850th Anniversary of Moscow"
+Q208116;Jubilee Medal 50 Years of Victory in the Great Patriotic War 1941–1945
+Q208116;Jubilee Medal 60 Years of Victory in the Great Patriotic War 1941–1945
+Q208116;Medal In Commemoration of the 850th Anniversary of Moscow
 Q208116;Lenin Prize
 Q208116;Honored art worker of the Russian Soviet Federative Socialist Republic
 Q208116;Order of St. Sergius of Radonezh 2nd class
@@ -12666,7 +12666,7 @@ Q1563821;Windham–Campbell Literature Prizes
 Q2847404;Guizot Prize
 Q541785;State Stalin Prize
 Q541785;Order of the Badge of Honour
-Q541785;Medal "For Valiant Labour in the Great Patriotic War 1941–1945"
+Q541785;Medal For Valiant Labour in the Great Patriotic War 1941–1945
 Q16105009;John Simon Guggenheim Memorial Foundation Fellowship
 Q313013;MusiCares Person of the Year
 Q313013;Kennedy Center Honors
@@ -12751,11 +12751,11 @@ Q4950282;John Simon Guggenheim Memorial Foundation Fellowship
 Q4950282;Inkpot Award
 Q4112739;Order of the Red Star
 Q4112739;Order of the Patriotic War 2nd class
-Q4112739;Medal "For Battle Merit"
-Q4112739;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
-Q4112739;Jubilee Medal "60 Years of Victory in the Great Patriotic War 1941–1945"
-Q4112739;Jubilee Medal "50 Years of Victory in the Great Patriotic War 1941–1945"
-Q4112739;Jubilee Medal "65 Years of Victory in the Great Patriotic War 1941–1945"
+Q4112739;Medal For Battle Merit
+Q4112739;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
+Q4112739;Jubilee Medal 60 Years of Victory in the Great Patriotic War 1941–1945
+Q4112739;Jubilee Medal 50 Years of Victory in the Great Patriotic War 1941–1945
+Q4112739;Jubilee Medal 65 Years of Victory in the Great Patriotic War 1941–1945
 Q4112739;Honoured Worker of Higher Professional Education of the Russian Federation
 Q78474;Knight of the Legion of Honour
 Q211566;Golden Globe Award
@@ -12851,13 +12851,13 @@ Q3513969;Yamamoto Shūgorō Prize
 Q369116;John Simon Guggenheim Memorial Foundation Fellowship
 Q335794;USSR State Prize
 Q335794;Order of Lenin
-Q335794;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q335794;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
 Q335794;Hero of Socialist Labour
 Q335794;Order of the Red Star
 Q335794;Order of the Patriotic War 1st class
 Q335794;Order of the Red Banner of Labour
 Q335794;Order of Friendship of Peoples
-Q335794;Jubilee Medal "50 Years of Victory in the Great Patriotic War 1941–1945"
+Q335794;Jubilee Medal 50 Years of Victory in the Great Patriotic War 1941–1945
 Q335794;Lenin Prize
 Q3513969;Asahi Prize
 Q3428546;John Simon Guggenheim Memorial Foundation Fellowship
@@ -12867,9 +12867,9 @@ Q751465;Bagutta Prize
 Q158997;John Simon Guggenheim Memorial Foundation Fellowship
 Q158997;Presidential Citizens Medal
 Q335794;Medal of Francysk Skaryna
-Q335794;Jubilee Medal "Twenty Years of Victory in the Great Patriotic War 1941–1945"
-Q335794;Jubilee Medal "Thirty Years of Victory in the Great Patriotic War 1941–1945"
-Q335794;Jubilee Medal "Forty Years of Victory in the Great Patriotic War 1941–1945"
+Q335794;Jubilee Medal Twenty Years of Victory in the Great Patriotic War 1941–1945
+Q335794;Jubilee Medal Thirty Years of Victory in the Great Patriotic War 1941–1945
+Q335794;Jubilee Medal Forty Years of Victory in the Great Patriotic War 1941–1945
 Q5610253;Foreign Reporter of the Year
 Q551776;Knight of the Legion of Honour
 Q551776;Officer of the National Order of Merit
@@ -13416,10 +13416,10 @@ Q3170510;prix Archon-Despérouses
 Q48047;Order of Saint Anna, 2nd class
 Q48047;Order of Lenin
 Q48047;Order of the Red Banner
-Q48047;Jubilee Medal "XX Years of the Workers' and Peasants' Red Army"
+Q48047;Jubilee Medal XX Years of the Workers' and Peasants' Red Army
 Q48047;Order of Suvorov, 1st class
 Q48047;Order of the Red Star
-Q48047;Medal "For the Defence of Moscow"
+Q48047;Medal For the Defence of Moscow
 Q48047;Order of Saint Anna, 3rd class
 Q48047;Order of Saint Anna, 4th class
 Q48047;Order of St. Vladimir, 4th class
@@ -13727,7 +13727,7 @@ Q683445;Man Booker Prize
 Q1389897;Carol Karp Prize
 Q5372189;John Simon Guggenheim Memorial Foundation Fellowship
 Q28500761;Honoured Worker of Higher Professional Education of the Russian Federation
-Q28500761;Medal of the Order "For Merit to the Fatherland" II class
+Q28500761;Medal of the Order For Merit to the Fatherland II class
 Q1001;Order of the Companions of O. R. Tambo
 Q380719;Fellow of the Royal Society
 Q2568682;Gold Decoration for Services to the City of Vienna
@@ -13751,8 +13751,8 @@ Q722119;Prêmio Machado de Assis
 Q722119;honorary degree
 Q722119;Prêmio Jabuti
 Q4536961;Order of the Patriotic War 2nd class
-Q4536961;Medal "For the Defence of Moscow"
-Q4536961;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q4536961;Medal For the Defence of Moscow
+Q4536961;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
 Q4536961;USSR State Prize
 Q7941341;Medal of the National Education Commission
 Q561401;Knight Commander of the Order of the British Empire
@@ -14144,7 +14144,7 @@ Q448425;Edgar Award
 Q448425;Crimezone Thriller Awards
 Q262850;State Stalin Prize
 Q262850;Order of the Red Banner of Labour
-Q262850;Medal "For Valiant Labour in the Great Patriotic War 1941–1945"
+Q262850;Medal For Valiant Labour in the Great Patriotic War 1941–1945
 Q262850;State Stalin Prize
 Q262850;State Stalin Prize
 Q334065;Henri Poincaré Prize
@@ -14356,7 +14356,7 @@ Q4345055;Oskar Pfister Award
 Q2134968;John Simon Guggenheim Memorial Foundation Fellowship
 Q2134968;PEN Oakland/Josephine Miles Literary Award
 Q383177;Jean-Freustié Prize
-Q4231341;Medal of the Order "For Merit to the Fatherland" II class
+Q4231341;Medal of the Order For Merit to the Fatherland II class
 Q13058431;Sahitya Akademi Award
 Q13058431;Padma Bhushan
 Q361653;Pulitzer Prize for Fiction
@@ -14764,7 +14764,7 @@ Q1822143;Anisfield-Wolf Book Awards
 Q1654394;Knight Commander of the Order of St. Gregory the Great
 Q2143362;State Stalin Prize
 Q2143362;Order of the Red Banner of Labour
-Q2143362;Medal "For the Defence of Moscow"
+Q2143362;Medal For the Defence of Moscow
 Q318736;Silver Bear
 Q318736;Gold Medal of Merit in the Fine Arts (Spain)
 Q1036535;Dobloug Prize
@@ -14876,12 +14876,12 @@ Q1477082;Anna Seghers-Preis
 Q1477082;Preis der SWR-Bestenliste
 Q1477082;Ernst-Meister-Preis für Lyrik
 Q5298523;Spur Award for Best Short Fiction
-Q135481;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q135481;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
 Q135481;Order of the Patriotic War 2nd class
-Q135481;Medal "For the Capture of Berlin"
-Q135481;Jubilee Medal "Twenty Years of Victory in the Great Patriotic War 1941–1945"
-Q135481;Jubilee Medal "Thirty Years of Victory in the Great Patriotic War 1941–1945"
-Q135481;Jubilee Medal "Forty Years of Victory in the Great Patriotic War 1941–1945"
+Q135481;Medal For the Capture of Berlin
+Q135481;Jubilee Medal Twenty Years of Victory in the Great Patriotic War 1941–1945
+Q135481;Jubilee Medal Thirty Years of Victory in the Great Patriotic War 1941–1945
+Q135481;Jubilee Medal Forty Years of Victory in the Great Patriotic War 1941–1945
 Q10708;MTV Video Music Award for Best Direction
 Q10708;MTV Video Music Award for Best Art Direction
 Q10708;MTV Europe Music Award for Best Rock
@@ -14971,7 +14971,7 @@ Q1615;Presidential Medal of Freedom
 Q1615;Congressional Space Medal of Honor
 Q368293;Meritorious Artist
 Q3035118;Prix Femina
-Q4268875;Medal of the Order "For Merit to the Fatherland" II class
+Q4268875;Medal of the Order For Merit to the Fatherland II class
 Q74235;Viareggio Prize
 Q74235;Austrian State Prize for European Literature
 Q3318857;Officer of the Legion of Honour
@@ -15055,17 +15055,17 @@ Q297881;Prix Renée Vivien
 Q313246;MacArthur Fellowship
 Q28122294;Women's Caucus for Art Lifetime Achievement Award
 Q434926;State Stalin Prize
-Q434926;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q434926;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
 Q434926;Order of the Patriotic War 1st class
 Q434926;Order of the Patriotic War 2nd class
 Q434926;Order of Friendship of Peoples
 Q434926;Order of the Red Banner of Labour
-Q434926;Medal "For Battle Merit"
-Q434926;Medal "For the Liberation of Warsaw"
-Q434926;Medal "For the Capture of Berlin"
+Q434926;Medal For Battle Merit
+Q434926;Medal For the Liberation of Warsaw
+Q434926;Medal For the Capture of Berlin
 Q434926;Vasilyev Brothers State Prize of the RSFSR
-Q434926;Jubilee Medal "50 Years of Victory in the Great Patriotic War 1941–1945"
-Q434926;Medal "For the Defence of Leningrad"
+Q434926;Jubilee Medal 50 Years of Victory in the Great Patriotic War 1941–1945
+Q434926;Medal For the Defence of Leningrad
 Q1392335;FF Busse Award
 Q215949;Leontief Prize for Advancing  the Frontiers of Economic Thought
 Q215949;Honorary doctor of the Free University of Berlin
@@ -15627,8 +15627,8 @@ Q84486;Manès-Sperber-Preis
 Q323323;Spiel des Jahres
 Q4526879;Order of the Patriotic War 1st class
 Q4526879;Order of the Red Star
-Q4526879;Medal "For Courage"
-Q4526879;Medal "For the Defence of Leningrad"
+Q4526879;Medal For Courage
+Q4526879;Medal For the Defence of Leningrad
 Q317512;Dr. J.P. van Praag-prijs
 Q317512;Mariano de Cavia Award
 Q187310;Exposition Universelle of 1900
@@ -15751,7 +15751,7 @@ Q287752;National Women's Hall of Fame
 Q287752;Connecticut Women's Hall of Fame
 Q6107;Rock and Roll Hall of Fame
 Q4506407;Order of the Badge of Honour
-Q4506407;Medal "For Valiant Labour in the Great Patriotic War 1941–1945"
+Q4506407;Medal For Valiant Labour in the Great Patriotic War 1941–1945
 Q1236131;Prix Femina
 Q84423;Israel Prize
 Q84423;Bialik Prize
@@ -15899,7 +15899,7 @@ Q3499494;Prešeren Award
 Q3499494;Župančič Award
 Q3499494;Prešeren Fund Awards
 Q484292;Order of Friendship
-Q484292;Medal "For Distinguished Labour"
+Q484292;Medal For Distinguished Labour
 Q9025225;National Novel Prize
 Q640352;Prix Goncourt
 Q484292;Friedrich-Rückert-Preis
@@ -15908,7 +15908,7 @@ Q530206;Golden Owl
 Q3499494;Jenko Award
 Q3499494;Rožanc Award
 Q9025225;Café Gijón Award
-Q4428152;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q4428152;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
 Q4428152;Order of the Red Star
 Q4428152;Order of the Patriotic War 2nd class
 Q4428152;Order of the Red Banner of Labour
@@ -15926,7 +15926,7 @@ Q504511;Grand Prix du roman de l'Académie française
 Q3499494;Veronika Award
 Q3499494;Kresnik Award
 Q961221;Miles Franklin Literary Award
-Q484292;Jubilee Medal "In Commemoration of the 100th Anniversary of the Birth of Vladimir Ilyich Lenin"
+Q484292;Jubilee Medal In Commemoration of the 100th Anniversary of the Birth of Vladimir Ilyich Lenin
 Q484292;Order of the Smile
 Q12615941;Order of Merit for National Foundation
 Q126826;Rock and Roll Hall of Fame
@@ -16014,7 +16014,7 @@ Q286644;Knight of the Legion of Honour
 Q921925;Air Medal
 Q41590;Legion of Honour
 Q41590;Gordon J. Laing Award
-Q17907843;Badge "Inventor of the USSR"
+Q17907843;Badge Inventor of the USSR
 Q173585;Women in Film Crystal + Lucy Awards
 Q1981093;Keats-Shelley Prize for Poetry
 Q3035314;Prix des libraires
@@ -16571,7 +16571,7 @@ Q724323;Order of the October Revolution
 Q724323;Order of Friendship of Peoples
 Q724323;Vasilyev Brothers State Prize of the RSFSR
 Q724323;Honored art worker of the Russian Soviet Federative Socialist Republic
-Q724323;Medal "Veteran of Labour"
+Q724323;Medal Veteran of Labour
 Q12958500;NIN Prize
 Q12958500;Meša Selimović Prize
 Q155914;Fellow of the Royal Society
@@ -16873,10 +16873,10 @@ Q45997;Presidential Medal of Freedom
 Q45997;Commander of the Order of the British Empire
 Q45997;Francis Boyer Award
 Q468277;USSR State Prize
-Q468277;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q468277;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
 Q468277;Order of Lenin
 Q468277;Order of the Patriotic War 2nd class
-Q468277;Medal "For the Defence of Leningrad"
+Q468277;Medal For the Defence of Leningrad
 Q135303;Grand Prix de l'Imaginaire
 Q135303;Grand Prix de l'Imaginaire
 Q44461;Zoological Society of London
@@ -17416,7 +17416,7 @@ Q3579618;Sahitya Akademi Award
 Q10325924;Prêmio Jabuti
 Q468667;Pulitzer Prize for Drama
 Q468667;Iowa Women's Hall of Fame
-Q311684;Canada India Foundation ("CIF") Chanchlani Global Indian Award
+Q311684;Canada India Foundation (CIF) Chanchlani Global Indian Award
 Q311684;Hannah Arendt Prize
 Q311684;Lionel Gelber Prize
 Q311684;Francisco Cerecedo Prize
@@ -17522,19 +17522,19 @@ Q8061116;Person of Cultural Merit
 Q8061116;Order of Culture
 Q83552;USSR State Prize
 Q83552;Order of Lenin
-Q83552;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q83552;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
 Q83552;Hero of Socialist Labour
 Q83552;Order of the Patriotic War 1st class
 Q83552;Nobel Prize in Physics
-Q83552;Order "For Merit to the Fatherland" II class
+Q83552;Order For Merit to the Fatherland II class
 Q83552;Lenin Prize
-Q83552;Medal "For Courage"
-Q83552;Medal "Veteran of Labour"
+Q83552;Medal For Courage
+Q83552;Medal Veteran of Labour
 Q83552;Lomonosov Gold Medal
-Q83552;Medal "In Commemoration of the 850th Anniversary of Moscow"
+Q83552;Medal In Commemoration of the 850th Anniversary of Moscow
 Q83552;Helmholtz Medal
 Q83552;Frederic Ives Medal
-Q83552;Medal "For Valiant Labour in the Great Patriotic War 1941–1945"
+Q83552;Medal For Valiant Labour in the Great Patriotic War 1941–1945
 Q83552;Council of Ministers of the Soviet Union Prize
 Q83552;Demidov Prize
 Q458004;Fellow of the Royal Society
@@ -17557,7 +17557,7 @@ Q3565595;Savonia Prize
 Q5287121;O'Reilly Open Source Award
 Q6524037;John Simon Guggenheim Memorial Foundation Fellowship
 Q580048;State Stalin Prize
-Q580048;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q580048;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
 Q580048;Order of the Red Banner
 Q580048;Order of Lenin
 Q580048;Hero of Socialist Labour
@@ -17566,9 +17566,9 @@ Q580048;Order of the Patriotic War 1st class
 Q580048;Order of the Patriotic War 2nd class
 Q580048;Order of the Red Banner of Labour
 Q580048;Order of the Red Star
-Q580048;Medal "For the Defence of Moscow"
-Q580048;Medal "For the Defence of Stalingrad"
-Q580048;Medal "Veteran of Labour"
+Q580048;Medal For the Defence of Moscow
+Q580048;Medal For the Defence of Stalingrad
+Q580048;Medal Veteran of Labour
 Q580048;Order of Friendship of Peoples
 Q316292;Bruno Kreisky Award
 Q316292;Goldman Environmental Prize
@@ -17950,8 +17950,8 @@ Q4749369;John Llewellyn Rhys Prize
 Q658341;Order of the Patriotic War 1st class
 Q658341;Order of the Patriotic War 2nd class
 Q658341;Order of Friendship of Peoples
-Q658341;Medal "For the Defence of Moscow"
-Q658341;Medal "For Battle Merit"
+Q658341;Medal For the Defence of Moscow
+Q658341;Medal For Battle Merit
 Q5213460;Pulitzer Prize for General Non-Fiction
 Q552025;Guardian Children's Fiction Prize
 Q12346755;Honorary Member of the World Esperanto Association
@@ -17983,9 +17983,9 @@ Q168041;Presidential Medal of Freedom
 Q168041;Order of the Three Stars, 2nd Class
 Q168041;Harvard Centennial Medal
 Q168041;Antonovych prize
-Q10665;Jubilee Medal "50 Years of Victory in the Great Patriotic War 1941–1945"
-Q10665;Jubilee Medal "60 Years of Victory in the Great Patriotic War 1941–1945"
-Q10665;Jubilee Medal "65 Years of Victory in the Great Patriotic War 1941–1945"
+Q10665;Jubilee Medal 50 Years of Victory in the Great Patriotic War 1941–1945
+Q10665;Jubilee Medal 60 Years of Victory in the Great Patriotic War 1941–1945
+Q10665;Jubilee Medal 65 Years of Victory in the Great Patriotic War 1941–1945
 Q371258;Knight Commander of the Order of the Bath
 Q1744;List of awards and nominations received by Madonna
 Q718507;Inkpot Award
@@ -18106,7 +18106,7 @@ Q7364277;Pulitzer Prize for Criticism
 Q7364277;Emmy Award
 Q3156126;Prix Médicis
 Q3156126;Guizot Prize
-Q195616;Canada India Foundation ("CIF") Chanchlani Global Indian Award
+Q195616;Canada India Foundation (CIF) Chanchlani Global Indian Award
 Q2583058;Imperial Service Order
 Q2583058;Clarke Medal
 Q2583058;Linnean Medal
@@ -18304,7 +18304,7 @@ Q61888;Balzan Prize
 Q61888;Sigmund Freud Prize
 Q61888;Carl Friedrich Gauss Medal
 Q407741;USSR State Prize
-Q407741;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q407741;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
 Q407741;Order of the Aztec Eagle
 Q319084;Primetime Emmy Award
 Q1148078;Carnegie Medal
@@ -19033,7 +19033,7 @@ Q23505;Freedom Award
 Q23505;Robert Schuman Medal
 Q23505;Profile in Courage Award
 Q23505;Ronald Reagan Freedom Award
-Q23505;Jubilee Medal "60 Years of Victory in the Great Patriotic War 1941–1945"
+Q23505;Jubilee Medal 60 Years of Victory in the Great Patriotic War 1941–1945
 Q23505;Presidential Medal of Freedom
 Q23505;Doublespeak Award
 Q23505;Theodore Roosevelt Award
@@ -19156,7 +19156,7 @@ Q5565398;August Prize
 Q41117;Order of Freedom and Independence
 Q41117;Order of Lenin
 Q41117;Order of the Red Banner
-Q41117;Jubilee Medal "In Commemoration of the 100th Anniversary of the Birth of Vladimir Ilyich Lenin"
+Q41117;Jubilee Medal In Commemoration of the 100th Anniversary of the Birth of Vladimir Ilyich Lenin
 Q41117;Order of Sukhbaatar
 Q1225937;Libris Prize
 Q1225937;Golden Owl
@@ -19312,8 +19312,8 @@ Q4078989;Order of Lenin
 Q4078989;Hero of Socialist Labour
 Q4078989;Order of Honour
 Q4078989;Order of the Badge of Honour
-Q4078989;Order "For Merit to the Fatherland" II class
-Q4078989;Order "For Merit to the Fatherland" III class
+Q4078989;Order For Merit to the Fatherland II class
+Q4078989;Order For Merit to the Fatherland III class
 Q4078989;Order of Friendship of Peoples
 Q270333;Søren Gyldendal Prize
 Q270333;De Gyldne Laurbær
@@ -19322,8 +19322,8 @@ Q6414101;White House Fellows
 Q856270;Gouden Griffel
 Q856270;Zilveren Griffel
 Q25014;BAFTA Award for Best Actor in a Leading Role
-Q4078989;Medal "For Construction of the Baikal-Amur Railway"
-Q4078989;Medal "Veteran of Labour"
+Q4078989;Medal For Construction of the Baikal-Amur Railway
+Q4078989;Medal Veteran of Labour
 Q4078989;Medal Defender of a Free Russia
 Q263201;Prix Médicis
 Q3759382;Grand Prix de l'Imaginaire
@@ -19401,15 +19401,15 @@ Q4321110;Medal of Pushkin
 Q733999;Knight Commander of the Order of the Indian Empire
 Q13909;Golden Globe Award
 Q13909;Screen Actors Guild Award
-Q15065544;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q15065544;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
 Q15065544;Order of the Red Banner
 Q15065544;Order of Lenin
 Q15065544;Order of the Red Star
 Q15065544;Hero of the Soviet Union
 Q15065544;Order of the Patriotic War 1st class
 Q15065544;Order of Friendship of Peoples
-Q15065544;Medal "For Battle Merit"
-Q15065544;Medal "For the Defence of the Caucasus"
+Q15065544;Medal For Battle Merit
+Q15065544;Medal For the Defence of the Caucasus
 Q93652;Johann-Nestroy-Ring
 Q19074;John Simon Guggenheim Memorial Foundation Fellowship
 Q19074;Grawemeyer Award
@@ -19568,7 +19568,7 @@ Q190220;Carnegie Medal
 Q190220;Nestlé Children's Book Prize
 Q190220;Guardian Children's Fiction Prize
 Q542425;Anisfield-Wolf Book Awards
-Q15064295;Medal "Veteran of Labour"
+Q15064295;Medal Veteran of Labour
 Q7173326;Officer of the Order of Australia
 Q7314;Grammy Award for Best Orchestral Performance
 Q7314;Grammy Award for Best Classical Contemporary Composition
@@ -19605,7 +19605,7 @@ Q1601036;Wilhelm Raabe Literature Prize
 Q516843;Russian Booker Prize
 Q364896;Order of Lenin
 Q364896;Order of the Badge of Honour
-Q364896;Medal "For Valiant Labour in the Great Patriotic War 1941–1945"
+Q364896;Medal For Valiant Labour in the Great Patriotic War 1941–1945
 Q364896;Honored Master of Sports of the USSR
 Q3336535;Prix Médicis
 Q7279260;John Simon Guggenheim Memorial Foundation Fellowship
@@ -19757,7 +19757,7 @@ Q668833;Sedat Simavi Literature Award
 Q1620313;Kikuchi Kan Prize
 Q1620313;Yoshikawa Eiji Prize for Literature
 Q4316572;Order of the Patriotic War 2nd class
-Q4316572;Medal "For the Defence of Stalingrad"
+Q4316572;Medal For the Defence of Stalingrad
 Q828246;Dobloug Prize
 Q828246;Samfundet De Nio's Grand Prize
 Q5343850;Fellow of the Royal Society
@@ -19812,8 +19812,8 @@ Q298358;prix littéraire Canada-Communauté française de Belgique
 Q298358;Prix Athanase-David
 Q6145731;PEN/Diamonstein-Spielvogel Award for the Art of the Essay
 Q2861548;Order of Honour
-Q2861548;Medal "For Labour Valour"
-Q2861548;Medal "In Commemoration of the 850th Anniversary of Moscow"
+Q2861548;Medal For Labour Valour
+Q2861548;Medal In Commemoration of the 850th Anniversary of Moscow
 Q2861548;People's Artist of the RSFSR
 Q183241;Michigan Women's Hall of Fame
 Q3159008;Prix Québec-Paris
@@ -19912,7 +19912,7 @@ Q207727;Estonian Sportspersonality of the year
 Q80;Turing Award
 Q3185943;Knight of the National Order of Quebec
 Q3185943;Knight of the National Order of Merit
-Q39259;Order "Danaker"
+Q39259;Order Danaker
 Q39259;Heydar Aliyev Order
 Q39259;Premio al asesino más cobarde de nicaragua
 Q39259;Steiger Award
@@ -19934,7 +19934,7 @@ Q80;ACM Software System Award
 Q80;Albert Medal
 Q80;Order of the Cross of Terra Mariana, 1st Class
 Q39259;Order of Mubarak the Great
-Q39259;Medal "In Commemoration of the 1000th Anniversary of Kazan"
+Q39259;Medal In Commemoration of the 1000th Anniversary of Kazan
 Q326664;Meritorious Artist
 Q326664;Czech Medal of Merit
 Q15692825;National Prize for Journalism
@@ -20289,11 +20289,11 @@ Q518615;Officer of the Order of Canada
 Q518615;Governor General's Award for English-language non-fiction
 Q518615;Baillie Gifford Prize
 Q2746906;Prêmio Jabuti
-Q2625592;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q2625592;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
 Q2625592;Order of the Patriotic War 2nd class
 Q2625592;Order of the Red Banner of Labour
-Q2625592;Medal "For the Defence of Odessa"
-Q2625592;Medal "For the Defence of Sevastopol"
+Q2625592;Medal For the Defence of Odessa
+Q2625592;Medal For the Defence of Sevastopol
 Q2495863;Edgar Award
 Q2495863;World Fantasy Award for Best Novel
 Q2495863;World Fantasy Award for Best Collection
@@ -20533,7 +20533,7 @@ Q1266748;NIN Prize
 Q1266748;Andrić prize
 Q182156;State Stalin Prize
 Q182156;Order of Lenin
-Q182156;Medal "For Valiant Labour in the Great Patriotic War 1941–1945"
+Q182156;Medal For Valiant Labour in the Great Patriotic War 1941–1945
 Q5407291;John Simon Guggenheim Memorial Foundation Fellowship
 Q5407291;Bancroft Prize
 Q5407291;Anisfield-Wolf Book Awards
@@ -20678,12 +20678,12 @@ Q782914;Order of the Red Banner of Labour
 Q3293969;Florida Women's Hall of Fame
 Q3293969;Florida Artists Hall of Fame
 Q1391034;Knight of the Legion of Honour
-Q1528007;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q1528007;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
 Q1528007;Order of the Patriotic War 2nd class
-Q1528007;Medal "Veteran of Labour"
-Q1528007;Jubilee Medal "50 Years of Victory in the Great Patriotic War 1941–1945"
-Q1528007;Jubilee Medal "60 Years of Victory in the Great Patriotic War 1941–1945"
-Q1528007;Jubilee Medal "65 Years of Victory in the Great Patriotic War 1941–1945"
+Q1528007;Medal Veteran of Labour
+Q1528007;Jubilee Medal 50 Years of Victory in the Great Patriotic War 1941–1945
+Q1528007;Jubilee Medal 60 Years of Victory in the Great Patriotic War 1941–1945
+Q1528007;Jubilee Medal 65 Years of Victory in the Great Patriotic War 1941–1945
 Q506102;John Simon Guggenheim Memorial Foundation Fellowship
 Q506102;Lambda Literary Award
 Q48299329;Whiting Award
@@ -20827,7 +20827,7 @@ Q2583148;State Stalin Prize
 Q2583148;Order of Lenin
 Q2583148;Order of the Badge of Honour
 Q2583148;Order of the Red Banner of Labour
-Q2583148;Medal "For Valiant Labour in the Great Patriotic War 1941–1945"
+Q2583148;Medal For Valiant Labour in the Great Patriotic War 1941–1945
 Q2583148;Lenin Prize
 Q2077328;Ralph Waldo Emerson Award
 Q2077328;Beveridge Award
@@ -20851,9 +20851,9 @@ Q337375;Commander of the Order of the British Empire
 Q5423369;Caldecott Medal
 Q1970002;Order for Personal Courage
 Q1970002;Medal Defender of a Free Russia
-Q1970002;Jubilee Medal "In Commemoration of the 100th Anniversary of the Birth of Vladimir Ilyich Lenin"
-Q1970002;Jubilee Medal "60 Years of the Armed Forces of the USSR"
-Q1970002;Jubilee Medal "70 Years of the Armed Forces of the USSR"
+Q1970002;Jubilee Medal In Commemoration of the 100th Anniversary of the Birth of Vladimir Ilyich Lenin
+Q1970002;Jubilee Medal 60 Years of the Armed Forces of the USSR
+Q1970002;Jubilee Medal 70 Years of the Armed Forces of the USSR
 Q57389;Literature Award of the Bavarian Academy of the Fine Arts
 Q314362;Grand Officer of the Order of the Sun of Peru‎
 Q314362;Commander of the Order of the Sun of Peru‎
@@ -20892,8 +20892,8 @@ Q738114;John Simon Guggenheim Memorial Foundation Fellowship
 Q738114;MacArthur Fellowship
 Q738114;Heartland Prize
 Q41223;Nobel Prize in Literature
-Q41223;Medal "For the Defence of Moscow"
-Q41223;Medal "For Valiant Labour in the Great Patriotic War 1941–1945"
+Q41223;Medal For the Defence of Moscow
+Q41223;Medal For Valiant Labour in the Great Patriotic War 1941–1945
 Q1305162;Caldecott Medal
 Q39607;72 names on the Eiffel Tower
 Q39607;Concours général
@@ -21393,7 +21393,7 @@ Q104358;Maryland Women's Hall of Fame
 Q1744061;Riverton Prize
 Q57971;Cross of the Order of Merit of the Federal Republic of Germany
 Q57971;Roswitha Prize
-Q38049;Premiul UTC la secțiunea „lucrări în limbile naționalităților conlocuitoare"
+Q38049;Premiul UTC la secțiunea „lucrări în limbile naționalităților conlocuitoare
 Q38049;Aspekte-Literaturpreis
 Q38049;Rauriser Literaturpreis
 Q38049;Förderpreis zum Literaturpreis der Stadt Bremen
@@ -21657,7 +21657,7 @@ Q92620;Computer Pioneer Award
 Q39803;Caonabo de Oro Award
 Q928940;State Stalin Prize
 Q928940;Order of the Red Banner of Labour
-Q928940;Medal "For Valiant Labour in the Great Patriotic War 1941–1945"
+Q928940;Medal For Valiant Labour in the Great Patriotic War 1941–1945
 Q92776;Computer Pioneer Award
 Q92776;Commander of the Order of the British Empire
 Q92776;Faraday Medal
@@ -21873,15 +21873,15 @@ Q4383379;World Fantasy Award for Best Collection
 Q4383379;Nebula Award for Best Short Story
 Q4383379;Nebula Award for Best Short Story
 Q855;Order of Lenin
-Q855;Medal "For the Victory over Japan"
-Q855;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q855;Medal For the Victory over Japan
+Q855;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
 Q855;Order of the Red Banner
 Q855;Hero of Socialist Labour
 Q855;Hero of the Soviet Union
 Q855;Order of Victory
 Q855;Order of Lenin
 Q855;Order of the Red Banner
-Q855;Jubilee Medal "XX Years of the Workers' and Peasants' Red Army"
+Q855;Jubilee Medal XX Years of the Workers' and Peasants' Red Army
 Q855;Order of the Republic (Tuva)
 Q855;Czechoslovak War Cross 1939–1945
 Q855;Order of Suvorov, 1st class
@@ -21898,13 +21898,13 @@ Q57372;Wilhelm Leuschner Medal
 Q57372;Einhard-Preis
 Q57372;Hanns Martin Schleyer Prize
 Q855;Order of the Red Star
-Q855;Medal "For the Defence of Moscow"
+Q855;Medal For the Defence of Moscow
 Q855;Order of the Red Banner
 Q855;Order of Sukhbaatar
 Q855;Czechoslovak War Cross 1939–1945
 Q855;Order of the White Lion
-Q855;Medal "For the Victory over Japan" of Mongolia
-Q855;Medal "In Commemoration of the 800th Anniversary of Moscow"
+Q855;Medal For the Victory over Japan of Mongolia
+Q855;Medal In Commemoration of the 800th Anniversary of Moscow
 Q855;Order of Sukhbaatar
 Q855;Order of Lenin
 Q855;Hero of the Mongolian People's Republic
@@ -22188,8 +22188,8 @@ Q6538;honorary citizenship
 Q6538;Deutscher Kritikerpreis
 Q6538;Order of Merit of the Federal Republic of Germany
 Q6538;Theodor Heuss award
-Q462207;Medal "For the Victory over Japan"
-Q462207;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q462207;Medal For the Victory over Japan
+Q462207;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
 Q462207;Order of the Red Banner
 Q462207;Order of Lenin
 Q462207;Order of the Patriotic War 1st class
@@ -22200,12 +22200,12 @@ Q6143675;John Simon Guggenheim Memorial Foundation Fellowship
 Q273196;Officer of the Order of Canada
 Q462207;Order of Suvorov, 2nd class
 Q462207;Order of the Red Star
-Q462207;Medal "For the Defence of Moscow"
-Q462207;Medal "For the Defence of the Caucasus"
-Q462207;Medal "In Commemoration of the 800th Anniversary of Moscow"
+Q462207;Medal For the Defence of Moscow
+Q462207;Medal For the Defence of the Caucasus
+Q462207;Medal In Commemoration of the 800th Anniversary of Moscow
 Q2366473;Officer of the Legion of Honour
 Q360292;USSR State Prize
-Q360292;Order "For Merit to the Fatherland" IV class
+Q360292;Order For Merit to the Fatherland IV class
 Q157204;NIN Prize
 Q157204;Andrić prize
 Q157204;Meša Selimović Prize
@@ -22327,7 +22327,7 @@ Q168728;Emerson-Thoreau Medal
 Q168728;Congressional Gold Medal
 Q168728;Bollingen Prize
 Q4083426;State Stalin Prize
-Q4083426;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q4083426;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
 Q4083426;Shevchenko National Prize
 Q254240;Officer of the Order of the British Empire
 Q254240;Romantic Novelists' Association Awards
@@ -22353,9 +22353,9 @@ Q191026;Darwin–Wallace Medal
 Q4083426;Order of the Red Banner of Labour
 Q4083426;Order of the Badge of Honour
 Q4083426;Order of the Patriotic War 2nd class
-Q4083426;Medal "For the Defence of Leningrad"
-Q4083426;Medal "For the Defence of the Soviet Transarctic"
-Q4083426;Medal "For Distinction in Guarding the State Border of the USSR"
+Q4083426;Medal For the Defence of Leningrad
+Q4083426;Medal For the Defence of the Soviet Transarctic
+Q4083426;Medal For Distinction in Guarding the State Border of the USSR
 Q4083426;Order of Polonia Restituta
 Q4083426;Zasłużony Działacz Kultury
 Q4465;Directors Guild of America Award for Outstanding Directing – Feature Film
@@ -22758,7 +22758,7 @@ Q259238;Samfundet De Nio's Grand Prize
 Q323782;Kościelski Award
 Q11256;Hero of the Soviet Union
 Q11256;Order of Lenin
-Q11256;Jubilee Medal "Thirty Years of Victory in the Great Patriotic War 1941–1945"
+Q11256;Jubilee Medal Thirty Years of Victory in the Great Patriotic War 1941–1945
 Q11256;Order of the October Revolution
 Q11256;Order of the White Lion
 Q11256;Order of the Star of Romania
@@ -22926,7 +22926,7 @@ Q155845;St. Louis Literary Award
 Q155845;International Nonino Prize
 Q160456;Order of Playa Girón
 Q160456;Lenin Peace Prize
-Q160456;Jubilee Medal "In Commemoration of the 100th Anniversary of the Birth of Vladimir Ilyich Lenin"
+Q160456;Jubilee Medal In Commemoration of the 100th Anniversary of the Birth of Vladimir Ilyich Lenin
 Q160456;Thomas Merton Award
 Q160456;American Book Awards
 Q160456;Star of People's Friendship
@@ -23025,7 +23025,7 @@ Q60093;Harry H. Goode Memorial Award
 Q962160;Rolf Schock Prize in Logic and Philosophy
 Q1700895;Edgar Award
 Q737874;Shota Rustaveli State Prize
-Q737874;Medal "For Valiant Labour in the Great Patriotic War 1941–1945"
+Q737874;Medal For Valiant Labour in the Great Patriotic War 1941–1945
 Q737874;Order of the Red Banner of Labour
 Q1138996;Orwell Award
 Q1138996;LennonOno Grant for Peace
@@ -23735,7 +23735,7 @@ Q117737;Rabindra Puraskar
 Q348006;Order of St. Mesrop Mashtots
 Q348006;Order of the Red Banner of Labour
 Q348006;Order of Friendship of Peoples
-Q348006;Medal "For Valiant Labour in the Great Patriotic War 1941–1945"
+Q348006;Medal For Valiant Labour in the Great Patriotic War 1941–1945
 Q718329;Today Prize
 Q1352236;Edgar Award
 Q2440376;George Polk Award
@@ -23924,7 +23924,7 @@ Q361974;Officer's Cross of the Order of Merit of the Federal Republic of Germany
 Q361974;Wilbur Cross Medal
 Q1166019;Knight of the Legion of Honour
 Q892311;Commander of the Legion of Honour
-Q131240;The Andrei Sakharov Prize "For Journalism as a Deed"
+Q131240;The Andrei Sakharov Prize For Journalism as a Deed
 Q131240;International Press Institute World Press Freedom Heroes
 Q131240;Manuel Vázquez Montalbán Award for cultural and political journalism
 Q131240;Premis Internacionals Terenci Moix
@@ -23973,7 +23973,7 @@ Q7439;MacArthur Fellowship
 Q7439;Grace Murray Hopper Award
 Q7439;EFF Pioneer Award
 Q817219;Right Livelihood Award
-Q1380534;Order "For Merit to the Fatherland" IV class
+Q1380534;Order For Merit to the Fatherland IV class
 Q3340889;Roger Nimier Prize
 Q7439;Takeda Awards
 Q7439;Internet Hall of Fame
@@ -24033,9 +24033,9 @@ Q449538;Order of the October Revolution
 Q449538;Prix Médicis for foreign literature
 Q449538;Order of the Red Star
 Q449538;Prix Européen de l'Essai Charles Veillon
-Q449538;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
-Q449538;Medal "For the Capture of Berlin"
-Q449538;Medal "For the Liberation of Prague"
+Q449538;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
+Q449538;Medal For the Capture of Berlin
+Q449538;Medal For the Liberation of Prague
 Q45909;Officer of the Order of the British Empire
 Q45909;honorary degree
 Q45909;honorary degree
@@ -24114,8 +24114,8 @@ Q9036;Order of St. Sava
 Q9036;National Inventor Hall of Fame
 Q9036;Honorary doctor of the University of Zagreb
 Q9036;Order of the White Lion
-Q4165132;Medal "For Distinguished Labour"
-Q4165132;Medal "Veteran of Labour"
+Q4165132;Medal For Distinguished Labour
+Q4165132;Medal Veteran of Labour
 Q284171;Austrian State Prize for European Literature
 Q284171;America Award in Literature
 Q284171;Danish Critics Prize for Literature
@@ -24394,21 +24394,21 @@ Q741862;Strega Prize
 Q6144766;Pacem in Terris Award
 Q1638370;Feltrinelli Prize
 Q42398;State Stalin Prize
-Q42398;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q42398;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
 Q42398;Order of Lenin
 Q42398;Hero of Socialist Labour
 Q42398;Order of the October Revolution
 Q42398;Order of the Patriotic War 1st class
 Q42398;Nobel Prize in Literature
-Q42398;Medal "For the Defence of Moscow"
-Q42398;Medal "For the Defence of Stalingrad"
-Q42398;Medal "For Valiant Labour in the Great Patriotic War 1941–1945"
+Q42398;Medal For the Defence of Moscow
+Q42398;Medal For the Defence of Stalingrad
+Q42398;Medal For Valiant Labour in the Great Patriotic War 1941–1945
 Q42398;Alexander Fadeyev Medal
-Q42398;Medal "Veteran of Labour"
+Q42398;Medal Veteran of Labour
 Q42398;Lenin Prize
-Q42398;Jubilee Medal "Twenty Years of Victory in the Great Patriotic War 1941–1945"
-Q42398;Jubilee Medal "Thirty Years of Victory in the Great Patriotic War 1941–1945"
-Q42398;Jubilee Medal "In Commemoration of the 100th Anniversary of the Birth of Vladimir Ilyich Lenin"
+Q42398;Jubilee Medal Twenty Years of Victory in the Great Patriotic War 1941–1945
+Q42398;Jubilee Medal Thirty Years of Victory in the Great Patriotic War 1941–1945
+Q42398;Jubilee Medal In Commemoration of the 100th Anniversary of the Birth of Vladimir Ilyich Lenin
 Q42398;Order of Georgi Dimitrov
 Q229211;Annie Award
 Q229211;Primetime Emmy Award
@@ -24774,9 +24774,9 @@ Q2965141;Prix du Quai des Orfèvres
 Q3237147;State Stalin Prize
 Q3237147;Order of the Red Banner of Labour
 Q3237147;Order of the Badge of Honour
-Q3237147;Medal "For Valiant Labour in the Great Patriotic War 1941–1945"
-Q3237147;Medal "In Commemoration of the 800th Anniversary of Moscow"
-Q3237147;Jubilee Medal "Twenty Years of Victory in the Great Patriotic War 1941–1945"
+Q3237147;Medal For Valiant Labour in the Great Patriotic War 1941–1945
+Q3237147;Medal In Commemoration of the 800th Anniversary of Moscow
+Q3237147;Jubilee Medal Twenty Years of Victory in the Great Patriotic War 1941–1945
 Q433597;Military Medal
 Q465237;Pulitzer Prize for Fiction
 Q465237;O. Henry Award
@@ -24988,7 +24988,7 @@ Q273233;Paul Robeson Award
 Q733560;John Simon Guggenheim Memorial Foundation Fellowship
 Q700555;USSR State Prize
 Q700555;Order of Lenin
-Q700555;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q700555;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
 Q700555;Hero of Socialist Labour
 Q700555;Order of the October Revolution
 Q700555;Order of the Badge of Honour
@@ -24996,9 +24996,9 @@ Q700555;Order of the Patriotic War 1st class
 Q700555;Star of People's Friendship
 Q700555;Order of the Red Banner of Labour
 Q700555;Order of Friendship of Peoples
-Q700555;Medal "For Courage"
-Q700555;Medal "For the Defence of Stalingrad"
-Q700555;Medal "Veteran of Labour"
+Q700555;Medal For Courage
+Q700555;Medal For the Defence of Stalingrad
+Q700555;Medal Veteran of Labour
 Q700555;Alexander Fadeyev Medal
 Q700555;Vasilyev Brothers State Prize of the RSFSR
 Q700555;Lenin Prize
@@ -25236,10 +25236,10 @@ Q36878;State Stalin Prize
 Q36878;Order of Lenin
 Q36878;Hero of Socialist Labour
 Q36878;Order of the October Revolution
-Q36878;Order "For Merit to the Fatherland" III class
+Q36878;Order For Merit to the Fatherland III class
 Q36878;Order of the Red Banner of Labour
 Q36878;Order of Friendship of Peoples
-Q36878;Medal "For Valiant Labour in the Great Patriotic War 1941–1945"
+Q36878;Medal For Valiant Labour in the Great Patriotic War 1941–1945
 Q36878;Lenin Prize
 Q64260;National Medal of Arts
 Q64260;Tony Award for Best Actress in a Play
@@ -25408,7 +25408,7 @@ Q787176;Prix Interallié
 Q222850;John Simon Guggenheim Memorial Foundation Fellowship
 Q2388302;State Stalin Prize
 Q2388302;USSR State Prize
-Q2388302;Medal "For the Victory over Germany in the Great Patriotic War 1941–1945"
+Q2388302;Medal For the Victory over Germany in the Great Patriotic War 1941–1945
 Q2388302;Order of Lenin
 Q2388302;Hero of Socialist Labour
 Q2388302;Order of the Red Star
@@ -25424,28 +25424,28 @@ Q314223;Knight of the Order of Agricultural Merit
 Q314223;Cherry Kearton Medal and Award
 Q314223;Grande Médaille d'Or des Explorations
 Q1368557;Medal Carl von Ossietzky
-Q2388302;Medal "For the Defence of Kiev"
+Q2388302;Medal For the Defence of Kiev
 Q2388302;Order of the Patriotic War 1st class
-Q2388302;Medal "For Courage"
-Q2388302;Medal "For the Capture of Berlin"
+Q2388302;Medal For Courage
+Q2388302;Medal For the Capture of Berlin
 Q2388302;Order of Friendship of Peoples
 Q2388302;Order of the Red Banner of Labour
 Q2388302;Order of the October Revolution
 Q2388302;Lenin Prize
 Q2388302;Order of Glory
-Q2388302;Jubilee Medal "50 Years of Victory in the Great Patriotic War 1941–1945"
+Q2388302;Jubilee Medal 50 Years of Victory in the Great Patriotic War 1941–1945
 Q2388302;Hero of Ukraine
 Q2388302;Order of the State (Ukraine)
-Q2388302;Medal "Veteran of Labour"
+Q2388302;Medal Veteran of Labour
 Q708860;Light of Truth Award
 Q712191;Commonwealth Writers' Prize
 Q92621;Akademiehoogleraren Prize
 Q2388302;Honored badge of merit of the President of Ukraine
-Q2388302;Jubilee Medal "Twenty Years of Victory in the Great Patriotic War 1941–1945"
-Q2388302;Jubilee Medal "Thirty Years of Victory in the Great Patriotic War 1941–1945"
-Q2388302;Jubilee Medal "Forty Years of Victory in the Great Patriotic War 1941–1945"
-Q2388302;Jubilee Medal "50 Years of the Armed Forces of the USSR"
-Q2388302;Jubilee Medal "60 Years of the Armed Forces of the USSR"
+Q2388302;Jubilee Medal Twenty Years of Victory in the Great Patriotic War 1941–1945
+Q2388302;Jubilee Medal Thirty Years of Victory in the Great Patriotic War 1941–1945
+Q2388302;Jubilee Medal Forty Years of Victory in the Great Patriotic War 1941–1945
+Q2388302;Jubilee Medal 50 Years of the Armed Forces of the USSR
+Q2388302;Jubilee Medal 60 Years of the Armed Forces of the USSR
 Q2388302;Shevchenko National Prize
 Q1741673;Edgar Award
 Q77226;National Prize of East Germany
@@ -25477,7 +25477,7 @@ Q93356;Sikkens Prize
 Q7961684;Gold Logie Award for Most Popular Personality on Australian Television
 Q13202141;Order of Friendship of Peoples
 Q13202141;Order of the Badge of Honour
-Q13202141;Medal "For Labour Valour"
+Q13202141;Medal For Labour Valour
 Q202703;Fellow of the Royal Society
 Q125448;Johann-Heinrich-Merck-Preis
 Q216896;Ig Nobel Prize
@@ -25485,7 +25485,7 @@ Q216896;Cosmos 2000 Award
 Q653320;State Stalin Prize
 Q653320;Order of the Red Banner of Labour
 Q653320;Order of the Red Star
-Q653320;Medal "For Valiant Labour in the Great Patriotic War 1941–1945"
+Q653320;Medal For Valiant Labour in the Great Patriotic War 1941–1945
 Q11373210;Shimase Romantic Literature Prize
 Q11373210;Chūōkōron Award
 Q6504973;John Simon Guggenheim Memorial Foundation Fellowship

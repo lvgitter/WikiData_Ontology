@@ -4030,7 +4030,7 @@ Q152473;Arad;city in the South District of Israel;93.140;24229
 Q837563;Lillebonne;commune in Seine-Maritime, France;14.66;8972
 Q880676;Blackall;town in Queensland, Australia;;1416
 Q1005121;Mourão;municipality and town of Portugal;;
-Q70;Bern;"federal city", capital of Switzerland and municipality in the canton of Bern;51600000;137980
+Q70;Bern;federal city, capital of Switzerland and municipality in the canton of Bern;51600000;137980
 Q373804;Telč;town in the Czech Republic;24.86;5490
 Q810784;Bath;town in Maine, United States;34.234056;8514
 Q1110172;;locality and former civil parish in Portugal;;

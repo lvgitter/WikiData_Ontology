@@ -608,7 +608,7 @@ Q9379259;;;
 Q616067;Nouvelle Revue Française;journal;1908
 Q23017624;;;
 Q830655;Königshausen & Neumann;German publishing house;1979
-Q1543201;TSR;former company, publisher of "Dungeons & Dragons";1972
+Q1543201;TSR;former company, publisher of Dungeons & Dragons;1972
 Q10855591;InterVarsity Press;;1947
 Q3521877;The Mineralogical Record;journal and website;
 Q53433458;Boxtree;;

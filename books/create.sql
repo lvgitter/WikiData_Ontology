@@ -41,8 +41,8 @@ CREATE TABLE locatedIn(
 	);
 
 CREATE TABLE hasCountryLocation(
-	country_id varchar (255),
-	book_id varchar (255)
+	book_id varchar (255),
+	country_id varchar (255)
 	);
 
 CREATE TABLE hasMayor(

@@ -187,7 +187,7 @@ Q29921;Inuktitut;name of some Inuit languages spoken in Canada;36220
 Q33997;Sindhi;Indo-Aryan language spoken in South Asia (Pakistan and India);21000000
 Q15840745;Polski;Wikimedia disambiguation page;
 Q9217;Thai;language spoken in Thailand;20490000
-Q727694;Standard Chinese;Modern standard form of Chinese. The version used in PRC is called "Putonghua", and the version used in ROC (Taiwan) is called "Guoyu" or "Kuo-yü". These two version are both official language of their country, and have some difference.;897071810
+Q727694;Standard Chinese;Modern standard form of Chinese. The version used in PRC is called Putonghua, and the version used in ROC (Taiwan) is called Guoyu or Kuo-yü. These two version are both official language of their country, and have some difference.;897071810
 Q36387;Medieval Greek;language;
 Q616620;Mexican Spanish;dialect of Spanish spoken and written in Mexico;
 Q9292;Azerbaijani;Turkic language;32000000

@@ -726,7 +726,7 @@ Q5218056;Daniel Martin Klein;American writer;;male;+1939-01-01T00:00:00Z;
 Q104027;Kirk Douglas;American stage and film actor;Kirk Douglas;male;+1916-12-09T00:00:00Z;
 Q4352486;June Thomson;British writer;;female;+1930-06-24T00:00:00Z;
 Q60028;Gottlob Frege;mathematician, logician, philosopher;Friedrich Ludwig Gottlob Frege;male;+1848-11-08T00:00:00Z;+1925-07-26T00:00:00Z
-Q20202653;Sadllecointe;pseudonym mentioned as author of "Souvenirs et Récits contés le 28 novembre 1933" (1934, France);;;;
+Q20202653;Sadllecointe;pseudonym mentioned as author of Souvenirs et Récits contés le 28 novembre 1933 (1934, France);;;;
 Q12883;Gerrit Berveling;Dutch Esperanto author;Gerrit Berveling;male;+1944-04-01T00:00:00Z;
 Q69973;Ferdinand von Schirach;German lawyer and writer;;male;+1964-01-01T00:00:00Z;
 Q6285513;Joseph Mercola;American alternative medicine proponent;;male;+1954-07-08T00:00:00Z;
@@ -1398,7 +1398,7 @@ Q1724184;Steven Ozment;American historian;;male;+1939-02-21T00:00:00Z;
 Q751879;Hugh Cook;British writer;;male;+1956-08-09T00:00:00Z;+2008-11-08T00:00:00Z
 Q11520660;Toru Honda;;;male;+1969-05-12T00:00:00Z;
 Q6111265;Jack Bickham;novelist;;male;+1930-09-02T00:00:00Z;+1997-07-25T00:00:00Z
-Q42981702;Dimitris Batsis;Lawyer, economist, director of the scientific journal "Ανταίος" (meaning: Antaeus), secretary of the scientific society ΕΠ-ΑΝ (Science-Reconstruction), member of the Communist Party of Greece;;male;+1916-00-00T00:00:00Z;+1952-05-30T00:00:00Z
+Q42981702;Dimitris Batsis;Lawyer, economist, director of the scientific journal Ανταίος (meaning: Antaeus), secretary of the scientific society ΕΠ-ΑΝ (Science-Reconstruction), member of the Communist Party of Greece;;male;+1916-00-00T00:00:00Z;+1952-05-30T00:00:00Z
 Q47112452;SAMOIS;;;;;
 Q6405377;Kieran Egan;educational philosopher and student of the classics, anthropology, cognitive psychology, and cultural history;;male;+1943-00-00T00:00:00Z;
 Q26156533;Rudolf Klátil;Czech author and carpenter;;male;+1870-07-14T00:00:00Z;+1942-02-28T00:00:00Z
@@ -4196,7 +4196,7 @@ Q451009;Barbara Mertz;American novelist, Egyptologist;;female;+1927-09-29T00:00:
 Q6369672;Karen Haber;American writer;;female;+1955-01-07T00:00:00Z;
 Q11586542;Asami Ishimochi;Japanese novelist;;female;+1966-12-07T00:00:00Z;
 Q535938;Fujiwara no Tameie;poet and court noble;藤原為家;male;+1198-01-01T00:00:00Z;+1275-05-27T00:00:00Z
-Q310953;William "Blades" O'Reilly;American political commentator, television host and writer;;male;+1949-09-10T00:00:00Z;
+Q310953;William Blades O'Reilly;American political commentator, television host and writer;;male;+1949-09-10T00:00:00Z;
 Q95231;Brigitte Reimann;German writer;Brigitte Reimann;female;+1933-07-21T00:00:00Z;+1973-02-20T00:00:00Z
 Q6262813;John Waller Hills;British politician;John Waller Hills;male;+1867-00-00T00:00:00Z;+1938-12-24T00:00:00Z
 Q770423;Sadeq Chubak;Iranian novelist;;male;+1916-08-05T00:00:00Z;+1998-07-03T00:00:00Z
@@ -4603,7 +4603,7 @@ Q600261;Tim Bowler;English children's writer;;male;+1953-11-14T00:00:00Z;
 Q47116895;Dudley D. Dillard;;;;+1913-01-01T00:00:00Z;
 Q2821427;Abdul Wahid Ibn Ashir;Moroccan theologian and jurist (1582-1631);عبد الواحد بن عاشر;male;+1582-00-00T00:00:00Z;+1631-00-00T00:00:00Z
 Q4399495;Lyubov Rudneva;Russian author;;female;+1914-11-17T00:00:00Z;+2003-03-12T00:00:00Z
-Q181685;Nicolas Léonard Sadi Carnot;French physicist, the "father of thermodynamics" (1796–1832);Nicolas Léonard Sadi Carnot;male;+1796-06-01T00:00:00Z;+1832-08-24T00:00:00Z
+Q181685;Nicolas Léonard Sadi Carnot;French physicist, the father of thermodynamics (1796–1832);Nicolas Léonard Sadi Carnot;male;+1796-06-01T00:00:00Z;+1832-08-24T00:00:00Z
 Q7921406;Verity Burgmann;Australian academic and activist;;female;+1952-09-17T00:00:00Z;
 Q24572185;Hugh Urban;;;male;+1968-08-02T00:00:00Z;
 Q825694;Bernhard Nordh;Swedish writer;;male;+1900-04-19T00:00:00Z;+1972-08-09T00:00:00Z
@@ -5727,7 +5727,7 @@ Q561142;Benjamin Zephaniah;English poet and author;;male;+1958-04-15T00:00:00Z;
 Q1549056;Tanja Dückers;German journalist;;female;+1968-09-25T00:00:00Z;
 Q168550;Eric W. Weisstein;American mathematician;;male;+1969-03-18T00:00:00Z;
 Q3063938;Fabrice Rizzoli;French academic;Fabrice Rizzoli;male;+1971-00-00T00:00:00Z;
-Q3307822;Sílvio Romero;Brazilian "Condorist" poet, essayist, literary critic, professor and journalist;Sílvio Vasconcelos da Silveira Ramos Romero;male;+1851-04-21T00:00:00Z;+1914-06-18T00:00:00Z
+Q3307822;Sílvio Romero;Brazilian Condorist poet, essayist, literary critic, professor and journalist;Sílvio Vasconcelos da Silveira Ramos Romero;male;+1851-04-21T00:00:00Z;+1914-06-18T00:00:00Z
 Q896663;Richard Verrall;British politician;;male;+1948-01-01T00:00:00Z;
 Q3168750;Jean-Philippe Blondel;French writer;Jean-Philippe Blondel;male;+1964-10-16T00:00:00Z;
 Q15874071;Cornelius Rogge;;;male;+1761-11-22T00:00:00Z;+1806-08-29T00:00:00Z
@@ -6207,7 +6207,7 @@ Q3158657;Jacques Debû-Bridel;French politician;Jacques Debû-Bridel;male;+1902-
 Q453908;Amanda Filipacchi;novelist;Amanda Filipacchi;female;+1967-10-10T00:00:00Z;
 Q3501717;Stéphane Denis;French journalist;;male;+1949-00-00T00:00:00Z;
 Q10888918;;;;;;
-Q21743326;Paul Ravel;author of the novel  "L'été finissant" (2013);;male;+1936-07-14T00:00:00Z;
+Q21743326;Paul Ravel;author of the novel  L'été finissant (2013);;male;+1936-07-14T00:00:00Z;
 Q15520939;Juanita Brooks;American historian;;female;+1898-01-15T00:00:00Z;+1989-08-26T00:00:00Z
 Q91638;Heinz-Otto Peitgen;German mathematician;;male;+1945-01-01T00:00:00Z;
 Q6762859;Marie Hall Ets;American children's illustrator and writer;;female;+1895-12-16T00:00:00Z;+1984-01-17T00:00:00Z
@@ -6967,7 +6967,7 @@ Q18609241;Daniel Ehrenhaft;author;;male;+1970-01-01T00:00:00Z;
 Q12319485;Jens Toldstrup;Danish autobiographer;;male;+1915-06-30T00:00:00Z;+1991-03-19T00:00:00Z
 Q3383331;Pierre-Marie Beaude;French writer;;male;+1941-10-31T00:00:00Z;
 Q787382;Howard Waldrop;American writer;;male;+1946-09-15T00:00:00Z;
-Q1035;Charles Darwin;British naturalist, author of "On the origin of species, by means of natural selection";Charles Robert Darwin;male;+1809-02-12T00:00:00Z;+1882-04-19T00:00:00Z
+Q1035;Charles Darwin;British naturalist, author of On the origin of species, by means of natural selection;Charles Robert Darwin;male;+1809-02-12T00:00:00Z;+1882-04-19T00:00:00Z
 Q8051260;Yehoshua Neuwirth;Israeli rabbi;;male;+1927-02-15T00:00:00Z;+2013-06-11T00:00:00Z
 Q362721;Irvin D. Yalom;American psychotherapist and writer;;male;+1931-06-13T00:00:00Z;
 Q4260925;Andrey Livadny;Russian writer;;male;+1969-05-27T00:00:00Z;
@@ -8316,7 +8316,7 @@ Q12261027;Juan Luis Zabala Artetxe;Spanish writer;Juan Luis Zabala Artetxe;male;
 Q21055244;Gilles Tetreault;;;male;;
 Q82006;Benjamin Disraeli;British Conservative politician, writer, aristocrat and Prime Minister;Benjamin Disraeli;male;+1804-12-21T00:00:00Z;+1881-04-19T00:00:00Z
 Q41166;Jonathan Swift;Anglo-Irish satirist, essayist, and poet;Jonathan Swift;male;+1667-11-30T00:00:00Z;+1745-10-19T00:00:00Z
-Q20047331;Catherine Camax;collaborator of Jacques Ducoin in 2002 for his book "Yukon, Canada Dreams";;female;+1950-01-01T00:00:00Z;
+Q20047331;Catherine Camax;collaborator of Jacques Ducoin in 2002 for his book Yukon, Canada Dreams;;female;+1950-01-01T00:00:00Z;
 Q5704676;Armando de Armas;Cuban novelist, short story writer, essayist and journalist;;male;+1958-10-15T00:00:00Z;
 Q17644689;'Asta Bowen;young adult fiction writer;;female;+1953-01-01T00:00:00Z;
 Q2599879;Percy Sykes;British general;;male;+1867-02-28T00:00:00Z;+1945-06-11T00:00:00Z
@@ -9602,7 +9602,7 @@ Q84186;Ivan Illich;austrian philosopher and theologist;;male;+1926-09-04T00:00:0
 Q1269676;Stephen Knight;British author;;male;+1951-09-26T00:00:00Z;+1985-07-25T00:00:00Z
 Q1349297;James Frey;American screenwriter and media presenter;;male;+1969-09-12T00:00:00Z;
 Q3247903;Ivar Hippe;Norwegian journalist;;male;+1953-03-19T00:00:00Z;
-Q16222402;Krishan Kumar Sharma "Rasik";poet;;male;+1983-11-14T00:00:00Z;
+Q16222402;Krishan Kumar Sharma Rasik;poet;;male;+1983-11-14T00:00:00Z;
 Q985138;W. H. Davies;British poet;;male;+1871-07-03T00:00:00Z;+1940-09-26T00:00:00Z
 Q23673833;Irene Langridge;writer;;female;;
 Q122319;Valentin Senger;German writer (1918-1997);;male;+1918-12-28T00:00:00Z;+1997-09-04T00:00:00Z
@@ -9686,7 +9686,7 @@ Q6687378;Louis Herbert Gray;American orientalist;;male;+1875-01-01T00:00:00Z;+19
 Q448143;Mikhail Artsybashev;Russian writer and playwright;;male;+1878-11-05T00:00:00Z;+1927-03-03T00:00:00Z
 Q3703180;David Finkel;American journalist;;male;+1955-10-28T00:00:00Z;
 Q1440805;Frances Itani;Canadian fiction writer, poet and essayist;;female;+1942-08-25T00:00:00Z;
-Q973947;Danny Sugerman;Manager of "The Doors";;male;+1954-10-11T00:00:00Z;+2005-01-05T00:00:00Z
+Q973947;Danny Sugerman;Manager of The Doors;;male;+1954-10-11T00:00:00Z;+2005-01-05T00:00:00Z
 Q462583;André Pieyre de Mandiargues;French novelist;André Pieyre de Mandiargues;male;+1909-03-14T00:00:00Z;+1991-12-13T00:00:00Z
 Q173767;Rubén Darío;Nicaraguan poet and writer;Félix Rubén García Sarmiento;male;+1867-01-18T00:00:00Z;+1916-02-06T00:00:00Z
 Q219784;Lawrence Durrell;British novelist, poet, dramatist, and travel writer;;male;+1912-02-27T00:00:00Z;+1990-11-08T00:00:00Z
@@ -11399,7 +11399,7 @@ Q31220;Hans Jakob Christoffel von Grimmelshausen;German writer;Hans Jacob Christ
 Q938958;Walter Ciszek;Polish-American Jesuit priest and missionary;;male;+1904-11-04T00:00:00Z;+1984-12-08T00:00:00Z
 Q10298307;Horácio de Carvalho;Brazilian journalist;;male;+1857-09-03T00:00:00Z;+1933-10-08T00:00:00Z
 Q3126824;Hanna Rosin;American journalist;;female;+1970-01-01T00:00:00Z;
-Q26704388;Nicole Nguyen;Author of the book "A Curriculum of Fear: Homeland Security in U.S. Public Schools";;female;;
+Q26704388;Nicole Nguyen;Author of the book A Curriculum of Fear: Homeland Security in U.S. Public Schools;;female;;
 Q6500016;Laurel Snyder;American poet;;female;+1974-01-01T00:00:00Z;
 Q18763622;Celeste Ng;American novelist;;female;+1980-00-00T00:00:00Z;
 Q8198007;Ana Beatriz Barbosa Silva;Brazilian writer;;female;+1966-03-30T00:00:00Z;
@@ -11721,7 +11721,7 @@ Q11767593;Marcin Jakimowicz;Polish writer and journalist;;male;+1971-06-01T00:00
 Q2407611;Hal Lindsey;American evangelist and Christian writer;;male;+1929-11-23T00:00:00Z;
 Q451799;William F. Albright;Orientalist, biblical scholar and archaeologist;;male;+1891-05-24T00:00:00Z;+1971-09-19T00:00:00Z
 Q167856;James Fenimore Cooper;American author;James Fenimore Cooper;male;+1789-09-15T00:00:00Z;+1851-09-14T00:00:00Z
-Q467066;Kate DiCamillo;American children's writer;Katrina Elizabeth "Kate" DiCamillo;female;+1964-03-25T00:00:00Z;
+Q467066;Kate DiCamillo;American children's writer;Katrina Elizabeth Kate DiCamillo;female;+1964-03-25T00:00:00Z;
 Q2283604;Daniello Bartoli;Italian Jesuit cleric-scientist;;male;+1608-02-12T00:00:00Z;+1685-01-13T00:00:00Z
 Q3471909;Sandra Joseph;co-author of a Haitian-French Dictionary with the Prophet Joseph (2008);;female;;
 Q47127152;Richard Sale;;;male;+1946-04-24T00:00:00Z;
@@ -12293,7 +12293,7 @@ Q468676;Rebecca Walker;American writer;;female;+1969-11-17T00:00:00Z;
 Q497454;Fred Saberhagen;American writer;;male;+1930-05-18T00:00:00Z;+2007-06-29T00:00:00Z
 Q9012517;Jokin Muñoz;;;male;+1963-00-00T00:00:00Z;
 Q4017765;Waldemar Łysiak;Polish art historian;;male;+1944-03-08T00:00:00Z;
-Q1394572;Juan Montalvo;Ecuadorian writer frace célebre: "Mi pluna lo mato";;male;+1832-04-13T00:00:00Z;+1889-01-17T00:00:00Z
+Q1394572;Juan Montalvo;Ecuadorian writer frace célebre: Mi pluna lo mato;;male;+1832-04-13T00:00:00Z;+1889-01-17T00:00:00Z
 Q3808766;Avi Beker;Israeli writer, statesman, and professor;;male;+1951-05-03T00:00:00Z;+2015-06-04T00:00:00Z
 Q3101802;George North;Rugby union player from Wales;;male;+1992-04-13T00:00:00Z;
 Q17632374;Odette Touitou;;;female;+1928-07-13T00:00:00Z;+2003-00-00T00:00:00Z
@@ -14178,7 +14178,7 @@ Q28937003;Louis Harmuth;American editor;;male;;
 Q15993641;Richard Weingardt;American engineer;;male;+1938-03-23T00:00:00Z;+2013-09-24T00:00:00Z
 Q10268094;Domingos Meirelles;Brazilian journalist;;male;+1940-05-08T00:00:00Z;
 Q5173640;Cory Quirino;Filipino television personality;;female;+1953-08-11T00:00:00Z;
-Q5605451;Greg Critser;5'7" is not really that short;;male;+1954-07-18T00:00:00Z;+2018-01-00T00:00:00Z
+Q5605451;Greg Critser;5'7 is not really that short;;male;+1954-07-18T00:00:00Z;+2018-01-00T00:00:00Z
 Q551377;Peter Lamborn Wilson;American political writer, poet and essayist;Peter Lamborn Wilson;male;+1945-01-01T00:00:00Z;
 Q3862781;Moony Witcher;Italian writer and children's writer;;female;+1957-10-26T00:00:00Z;
 Q25939062;Josefina Pelliza de Sagasta;argentinian writer;;female;+1848-04-04T00:00:00Z;+1888-00-00T00:00:00Z
@@ -16336,7 +16336,7 @@ Q458017;Ene Mihkelson;Estonian writer;Ene Mihkelson;female;+1944-10-21T00:00:00Z
 Q2474110;Janko Kersnik;Slovene writer and politician;;male;+1852-09-04T00:00:00Z;+1897-07-28T00:00:00Z
 Q3228641;Leander Kahney;British journalist;;male;+1965-11-25T00:00:00Z;
 Q7377710;Rudy Wurlitzer;American novelist and screenwriter;;male;+1937-01-03T00:00:00Z;
-Q2712682;Pseudo Xenophon;author of the "Constitution of the Athenians";;male;-0450-01-01T00:00:00Z;-0450-01-01T00:00:00Z
+Q2712682;Pseudo Xenophon;author of the Constitution of the Athenians;;male;-0450-01-01T00:00:00Z;-0450-01-01T00:00:00Z
 Q236520;Alexa Chung;English television presenter, model and contributing editor at British Vogue;;female;+1983-11-05T00:00:00Z;
 Q22942171;Mehmet Yucel;;;male;+1961-00-00T00:00:00Z;
 Q221296;Mohamed A. El-Erian;Egyptian-American businessman;;male;+1958-08-19T00:00:00Z;
@@ -16824,7 +16824,7 @@ Q12023857;Jaroslav Kmenta;Czech publicist and politic writer;;male;+1969-02-16T0
 Q10853809;Antonín Dolenský;Czech art historian and librarian;;male;+1884-06-11T00:00:00Z;+1956-12-20T00:00:00Z
 Q3613583;Amanda Craig;novelist;;female;+1959-01-01T00:00:00Z;
 Q158997;Russell Kirk;American political theorist and writer;;male;+1918-10-19T00:00:00Z;+1994-04-29T00:00:00Z
-Q40688;Yanis Varoufakis;Greek-Australian political economist and author, Greek finance minister;Ιωάννης "Γιάνης" Βαρουφάκης;male;+1961-03-24T00:00:00Z;
+Q40688;Yanis Varoufakis;Greek-Australian political economist and author, Greek finance minister;Ιωάννης Γιάνης Βαρουφάκης;male;+1961-03-24T00:00:00Z;
 Q335794;Vasil’ Bykaw;Belarusian writer;Васіль Быкаў;male;+1924-06-19T00:00:00Z;+2003-06-22T00:00:00Z
 Q5610253;Patrick Cockburn;Irish journalist;;male;+1950-03-05T00:00:00Z;
 Q551776;Patrick Poivre d'Arvor;French writer;Patrick Poivre d'Arvor;male;+1947-09-20T00:00:00Z;
@@ -16839,7 +16839,7 @@ Q766826;Andy Riley;writer;;male;+1970-04-27T00:00:00Z;
 Q49905054;Janice Kohl Sarapin;American author;;female;;
 Q7327772;Richard Melo;American writer;;male;+1968-08-10T00:00:00Z;
 Q5235978;David Kesterton;Canadian writer;;male;+1948-01-01T00:00:00Z;
-Q7926521;Victoria "Torrey" Newcomb;American writer;;female;+1974-01-16T00:00:00Z;
+Q7926521;Victoria Torrey Newcomb;American writer;;female;+1974-01-16T00:00:00Z;
 Q3767723;Giovanni Mazzucato;italian botanist (1787-1814);;male;+1787-01-01T00:00:00Z;+1814-01-01T00:00:00Z
 Q2851670;Annie Jay;French writer;Annie Jay;female;+1957-01-01T00:00:00Z;
 Q299965;Ralph Ellison;American novelist, literary critic, scholar and writer;;male;+1914-03-01T00:00:00Z;+1994-04-16T00:00:00Z
@@ -17911,7 +17911,7 @@ Q6498599;Laura Adams Armer;American photographer, artist and writer;;female;+187
 Q3161890;Jane Porter;Scottish historical novelist, dramatist and literary figure;;female;+1776-01-17T00:00:00Z;+1850-05-24T00:00:00Z
 Q23913229;Pierre-François Pinaud;;;male;+1951-03-09T00:00:00Z;+2012-10-05T00:00:00Z
 Q133054;Sylvia Plath;American poet, novelist and short story writer;Sylvia Plath;female;+1932-10-27T00:00:00Z;+1963-02-11T00:00:00Z
-Q15103551;V.E. Mitchell;author  "Star Trek: The Original Series";;female;+1954-04-19T00:00:00Z;+2017-04-13T00:00:00Z
+Q15103551;V.E. Mitchell;author  Star Trek: The Original Series;;female;+1954-04-19T00:00:00Z;+2017-04-13T00:00:00Z
 Q699149;Zhang Chengzhi;Chinese writer;;male;+1948-09-10T00:00:00Z;
 Q105962;Maurice Allais;French economist  1988 winner of the Nobel Memorial Prize in Economics;Maurice Allais;male;+1911-05-31T00:00:00Z;+2010-10-09T00:00:00Z
 Q2367411;Josep Maria Castellet;Spanish writer, poet, literacy critic, publisher and editor;;male;+1926-12-15T00:00:00Z;+2014-01-09T00:00:00Z
@@ -18007,7 +18007,7 @@ Q18761417;Perumal Murugan;Indian writer;;male;+1966-00-00T00:00:00Z;
 Q5341994;Edward Bradley;English novelist and clergyman;;male;+1827-03-25T00:00:00Z;+1889-12-12T00:00:00Z
 Q47124646;Joseph Theobald;;;male;+1950-01-01T00:00:00Z;
 Q3351888;Omar Nasiri;Moroccan spy;;male;+1960-01-01T00:00:00Z;
-Q6106806;J. R. "Bob" Dobbs;mythological founder of the Church of the Subgenius;;;;
+Q6106806;J. R. Bob Dobbs;mythological founder of the Church of the Subgenius;;;;
 Q722119;Ferreira Gullar;Brazilian poet;José Ribamar Ferreira;male;+1930-09-10T00:00:00Z;+2016-12-04T00:00:00Z
 Q22761;Alexander Gode;German-American linguist and translator;;male;+1906-10-30T00:00:00Z;+1970-08-10T00:00:00Z
 Q7341354;Robert Adams;American travel writer;;male;+1781-01-01T00:00:00Z;+1850-01-01T00:00:00Z
@@ -18034,7 +18034,7 @@ Q11682269;Guillermo Blanco Martínez;;Guillermo Blanco Martínez;male;+1926-08-1
 Q686867;Guo Jingming;Chinese writer;;male;+1983-06-06T00:00:00Z;
 Q920901;Wright Morris;American photographer and novelist;;male;+1910-01-06T00:00:00Z;+1998-04-25T00:00:00Z
 Q763507;Frank Harris;Irish journalist and rogue;;male;+1856-02-14T00:00:00Z;+1931-08-27T00:00:00Z
-Q191375;Sheikh Mujibur Rahman;Bengali revolutionary, founder ("father") of Bangladesh;মুজিবুর রহমান;male;+1920-03-17T00:00:00Z;+1975-08-15T00:00:00Z
+Q191375;Sheikh Mujibur Rahman;Bengali revolutionary, founder (father) of Bangladesh;মুজিবুর রহমান;male;+1920-03-17T00:00:00Z;+1975-08-15T00:00:00Z
 Q125548;Willi Meinck;German journalist and writer;;male;+1914-04-01T00:00:00Z;+1993-04-07T00:00:00Z
 Q59152;Lauren Oliver;American writer;;female;+1982-11-08T00:00:00Z;
 Q20434516;;;;male;+1946-12-13T00:00:00Z;
@@ -18813,7 +18813,7 @@ Q7609900;Stephen Mark Rainey;American writer;;male;+1959-01-01T00:00:00Z;
 Q7614927;Steven Kotler;American journalist;;male;+1967-05-25T00:00:00Z;
 Q325422;George Clayton Johnson;American writer;George Clayton Johnson;male;+1929-07-10T00:00:00Z;+2015-12-22T00:00:00Z
 Q47114697;Kate Temple;;;female;;
-Q348577;Tony Abbott;Australian politician, 28th Prime Minister of Australia;Anthony John "Tony" Abbott;male;+1957-11-04T00:00:00Z;
+Q348577;Tony Abbott;Australian politician, 28th Prime Minister of Australia;Anthony John Tony Abbott;male;+1957-11-04T00:00:00Z;
 Q7946069;W. Warren Wagar;American historian;;male;+1932-06-05T00:00:00Z;+2004-11-16T00:00:00Z
 Q5606436;Greg Williamson;American poet;;male;+1964-01-01T00:00:00Z;
 Q3287801;Marc Behm;American actor and writer;;male;+1925-01-12T00:00:00Z;+2007-07-12T00:00:00Z
@@ -19044,7 +19044,7 @@ Q21137242;Michelle Wildgen;American author;;female;;
 Q2659122;Frederick Manson Bailey;Australian botanist;;male;+1827-03-08T00:00:00Z;+1915-06-25T00:00:00Z
 Q3296972;Harry Howard Barton Allan;New Zealand teacher, botanist, scientific administrator, writer;;male;+1882-04-27T00:00:00Z;+1957-10-29T00:00:00Z
 Q5077379;Charles Elmé Francatelli;cook;;male;+1805-01-01T00:00:00Z;+1876-08-10T00:00:00Z
-Q2435821;Cornelis de Bie;Poet from the Southern Netherlands (author of "Het Gulden Cabinet");;male;+1627-02-10T00:00:00Z;+1715-01-01T00:00:00Z
+Q2435821;Cornelis de Bie;Poet from the Southern Netherlands (author of Het Gulden Cabinet);;male;+1627-02-10T00:00:00Z;+1715-01-01T00:00:00Z
 Q2157757;Theodore Dwight Weld;American abolitionist;;male;+1803-11-23T00:00:00Z;+1895-02-03T00:00:00Z
 Q264107;Isaac Daniel Hooson;British writer;;male;+1880-09-02T00:00:00Z;+1948-10-18T00:00:00Z
 Q2030849;Antonio de Herrera y Tordesillas;historian;Antonio de Herrera y Tordesillas;male;+1549-01-01T00:00:00Z;+1626-03-28T00:00:00Z
@@ -19487,7 +19487,7 @@ Q1822711;Liane Schneider;German author;;female;+2000-01-01T00:00:00Z;
 Q1064025;Charles D. Ferguson;;;male;+2000-01-01T00:00:00Z;
 Q2778138;Shimon Shkop;Lithuanian rabbi;;male;+1860-01-01T00:00:00Z;+1939-10-22T00:00:00Z
 Q765444;Francesco Colonna;Italian priest;;male;+1433-01-01T00:00:00Z;+1527-01-01T00:00:00Z
-Q234530;Emma Orczy;Hungarian-British author of "The Scarlet Pimpernel";;female;+1865-09-23T00:00:00Z;+1947-11-12T00:00:00Z
+Q234530;Emma Orczy;Hungarian-British author of The Scarlet Pimpernel;;female;+1865-09-23T00:00:00Z;+1947-11-12T00:00:00Z
 Q6173956;Jeff Greenfield;American writer;;male;+1943-06-10T00:00:00Z;
 Q1518496;Ministry of the Interior;French ministry;;;;
 Q2975038;Claire Gallois;French writer;Claire Gallois;female;+1937-10-08T00:00:00Z;
@@ -19856,7 +19856,7 @@ Q602024;André Orléan;French economist;André Orléan;male;+1950-05-23T00:00:00
 Q2265917;F. David Peat;British physicist;;male;+1938-04-18T00:00:00Z;+2017-06-06T00:00:00Z
 Q296069;Alex Haley;American biographer, screenwriter, and novelist;;male;+1921-08-11T00:00:00Z;+1992-02-10T00:00:00Z
 Q7153052;Paul R. Gross;American biologist;;male;+1953-01-01T00:00:00Z;
-Q40319;Henry Gray;English anatomist and surgeon, of "Gray's Anatomy";Henry Gray;male;+1827-01-01T00:00:00Z;+1861-06-13T00:00:00Z
+Q40319;Henry Gray;English anatomist and surgeon, of Gray's Anatomy;Henry Gray;male;+1827-01-01T00:00:00Z;+1861-06-13T00:00:00Z
 Q15627474;Pius Bihlmeyer;German monk;;male;+1876-12-07T00:00:00Z;+1931-05-19T00:00:00Z
 Q160640;Raymond Aron;French philosopher, sociologist, journalist, and political scientist;Raymond Claude Ferdinand Aron;male;+1905-03-14T00:00:00Z;+1983-10-17T00:00:00Z
 Q7089850;Omar Tyree;American writer;;male;+1969-04-15T00:00:00Z;
@@ -20871,7 +20871,7 @@ Q241714;Rachel Caine;American writer;;female;+1962-04-27T00:00:00Z;
 Q44054676;José Antonio Suárez;Spanish science fiction writer;;male;+1963-00-00T00:00:00Z;
 Q79759;John Milton;English epic poet;John Milton;male;+1608-12-09T00:00:00Z;+1674-11-08T00:00:00Z
 Q18660769;Bradley R. Simpson;;;male;;
-Q51954857;Jeff Ryan;author of "Super Mario: How Nintendo Conquered America";;male;;
+Q51954857;Jeff Ryan;author of Super Mario: How Nintendo Conquered America;;male;;
 Q55463395;;;;male;;
 Q722320;Jerzy Broszkiewicz;Polish children's writer, writer and playwright;;male;+1922-06-06T00:00:00Z;+1993-11-04T00:00:00Z
 Q7435986;Scott Berry;baseball coach;;male;+1945-01-01T00:00:00Z;
@@ -26596,7 +26596,7 @@ Q15407210;Armand Brette;French historian;;male;+1848-09-26T00:00:00Z;+1912-04-19
 Q1236571;Wayne Swan;Australian politician, 14th Deputy Prime Minister of Australia;;male;+1954-06-30T00:00:00Z;
 Q5214622;Dan Yaccarino;American writer;;male;+1965-05-20T00:00:00Z;
 Q473926;Edmond Malinvaud;French economist;Edmond Malinvaud;male;+1923-04-25T00:00:00Z;+2015-03-07T00:00:00Z
-Q19543;Hans Sachs;German meistersinger ("mastersinger"), poet, playwright and shoemaker;Hans Sachs;male;+1494-11-05T00:00:00Z;+1576-01-19T00:00:00Z
+Q19543;Hans Sachs;German meistersinger (mastersinger), poet, playwright and shoemaker;Hans Sachs;male;+1494-11-05T00:00:00Z;+1576-01-19T00:00:00Z
 Q242834;Yevgenia Ginzburg;Russian author;;female;+1904-12-20T00:00:00Z;+1977-05-25T00:00:00Z
 Q5982082;Richard McKenna;American writer;;male;+1913-05-09T00:00:00Z;+1964-11-01T00:00:00Z
 Q6776188;Martin Middlebrook;British military historian;;male;+1932-01-01T00:00:00Z;
@@ -26843,7 +26843,7 @@ Q7405395;Salman Ahmad;musician, actor;;male;+1963-12-12T00:00:00Z;
 Q175532;Nisargadatta Maharaj;Indian guru;;male;+1897-04-17T00:00:00Z;+1981-09-08T00:00:00Z
 Q6769973;Mark Thomas;English comedian, presenter, reporter and columnist;;male;+1963-04-11T00:00:00Z;
 Q29351236;Felippe Augusto de Miranda Rosa;;;male;+1920-12-01T00:00:00Z;
-Q1734770;Meyer Friedman;American cardiologist and co-developer of the theory of coronary risk due to "Type A" behavior pattern of chronic anger and impatience.;;male;+1910-07-13T00:00:00Z;+2001-04-27T00:00:00Z
+Q1734770;Meyer Friedman;American cardiologist and co-developer of the theory of coronary risk due to Type A behavior pattern of chronic anger and impatience.;;male;+1910-07-13T00:00:00Z;+2001-04-27T00:00:00Z
 Q2553021;Wayne Besen;American activist;;male;+1970-07-05T00:00:00Z;
 Q332400;Oswald Mosley;British politician  founder of the British Union of Fascists;Oswald Mosley;male;+1896-11-16T00:00:00Z;+1980-12-03T00:00:00Z
 Q2847137;André Albaut;French physician and Esperantist;André Albault;male;+1923-05-14T00:00:00Z;+2017-05-17T00:00:00Z
@@ -27202,7 +27202,7 @@ Q5343711;Edward Jackson Lowell;United States historian;;male;+1845-10-18T00:00:0
 Q11362;Avempace;Andalusian arab polymath;;male;+1080-00-00T00:00:00Z;+1138-01-01T00:00:00Z
 Q6847964;Mike McQuay;American writer;;male;+1949-06-03T00:00:00Z;+1995-05-25T00:00:00Z
 Q334090;Sun Bin;Zhou Dynasty general;;male;-0400-00-00T00:00:00Z;-0316-01-01T00:00:00Z
-Q16163345;Agnes Allen;British children's writer and illustrator, social history, "The Story of" series illustrated by her and husband Jack Allen;;female;+1898-00-00T00:00:00Z;+1959-00-00T00:00:00Z
+Q16163345;Agnes Allen;British children's writer and illustrator, social history, The Story of series illustrated by her and husband Jack Allen;;female;+1898-00-00T00:00:00Z;+1959-00-00T00:00:00Z
 Q4977173;Ruth Sawyer;American children's writer and storyteller;;female;+1880-08-05T00:00:00Z;+1970-06-03T00:00:00Z
 Q2975106;Claire Parnet;French journalist;Claire Parnet;female;+1953-01-01T00:00:00Z;
 Q2142789;Wenceslaus Hajek;Czech humanistic chronicler, writer and roman catholic priest;;male;+1500-01-01T00:00:00Z;+1553-03-18T00:00:00Z
@@ -29740,7 +29740,7 @@ Q7470;Mary Peters Fieser;American chemist;;female;+1909-05-27T00:00:00Z;+1997-03
 Q366949;José Lezama Lima;Cuban writer, poet;José Lezama Lima;male;+1910-12-19T00:00:00Z;+1976-08-09T00:00:00Z
 Q3055194;Matti Klinge;Finnish historian and professor;;male;+1936-08-31T00:00:00Z;
 Q6237966;John Harris;British author and novelist;;male;+1916-10-18T00:00:00Z;+1991-03-07T00:00:00Z
-Q106624;Ahmed Zewail;Egyptian scientist, known as the "father of femtochemistry", and Nobel Prize in Chemistry recipient;Ahmed Thewahle;male;+1946-02-26T00:00:00Z;+2016-08-02T00:00:00Z
+Q106624;Ahmed Zewail;Egyptian scientist, known as the father of femtochemistry, and Nobel Prize in Chemistry recipient;Ahmed Thewahle;male;+1946-02-26T00:00:00Z;+2016-08-02T00:00:00Z
 Q9584331;Adélia Fonseca;Brazilian poet, pianist and painter;Adélia Josefina de Castro Rebelo;female;+1827-11-24T00:00:00Z;+1920-12-09T00:00:00Z
 Q6193105;Jill Wolfson;American journalist;;female;;
 Q737661;Ryszard Engelking;Polish mathematician;;male;+1935-01-01T00:00:00Z;
@@ -29965,7 +29965,7 @@ Q531194;P. H. Newby;English novelist and broadcasting administrator;;male;+1918-
 Q270271;Hélène Carrère d'Encausse;French historian and politician;Hélène Carrère d’Encausse;female;+1929-07-06T00:00:00Z;
 Q5363049;Elizabeth Jordan;American journalist;;female;+1865-05-09T00:00:00Z;+1947-02-24T00:00:00Z
 Q7176976;Peter Slater;Australian ornithologist, artist and photographer;;male;+1932-00-00T00:00:00Z;
-Q606032;"Freeway" Rick Ross;American convicted drug trafficker;Richard Donnell Ross;male;+1960-05-03T00:00:00Z;
+Q606032;Freeway Rick Ross;American convicted drug trafficker;Richard Donnell Ross;male;+1960-05-03T00:00:00Z;
 Q47113764;Jayne Rockmill;;;;;
 Q5040443;Carl L. Bankston;American sociologist;;male;+1952-08-08T00:00:00Z;
 Q711066;Robert Jay Lifton;American psychiatrist and author;;male;+1926-05-16T00:00:00Z;
@@ -31578,7 +31578,7 @@ Q4758833;Andrew Wallace-Hadrill;English classical scholar;;male;+1951-07-29T00:0
 Q861482;Christopher Moore;American writer of comic fantasy;Christopher Moore;male;+1957-01-01T00:00:00Z;
 Q521361;Brenda Romero;American video game designer and developer;Brenda Louise Garno;female;+1966-10-12T00:00:00Z;
 Q22712006;Thomas Dawson;English author of cookery and housekeeping books;;male;;
-Q188663;Marin Mersenne;French theologian, philosopher, mathematician and music theorist, often referred to as the "father of acoustics";Marin Mersenne;male;+1588-09-08T00:00:00Z;+1648-09-01T00:00:00Z
+Q188663;Marin Mersenne;French theologian, philosopher, mathematician and music theorist, often referred to as the father of acoustics;Marin Mersenne;male;+1588-09-08T00:00:00Z;+1648-09-01T00:00:00Z
 Q3290646;Marguerite-Hélène Mahé;French novelist;;female;+1903-00-00T00:00:00Z;+1996-00-00T00:00:00Z
 Q4217057;Tamara Kataeva;Soviet writer;;female;;
 Q588653;David Weber;author;;male;+1952-10-24T00:00:00Z;
@@ -32226,7 +32226,7 @@ Q3934306;Ricardo Gutiérrez;Argentinian writer;;male;+1836-11-10T00:00:00Z;+1896
 Q15453349;William Queen;American writer;;male;;
 Q980046;Steven Johnson;American journalist;;male;+1968-06-06T00:00:00Z;
 Q611741;Selwyn Jepson;British screenwriter;;male;+1899-01-01T00:00:00Z;+1989-01-01T00:00:00Z
-Q903331;Dee Brown;author of "Bury My Heart at Wounded Knee";;male;+1908-02-28T00:00:00Z;+2002-12-12T00:00:00Z
+Q903331;Dee Brown;author of Bury My Heart at Wounded Knee;;male;+1908-02-28T00:00:00Z;+2002-12-12T00:00:00Z
 Q1174815;David Ignatius;American journalist and novelist;;male;+1950-05-26T00:00:00Z;
 Q345764;J. R. Moehringer;American journalist;;male;+1964-12-07T00:00:00Z;
 Q462281;Paul Hazard;French historian;Paul Hazard;male;+1878-04-30T00:00:00Z;+1944-04-13T00:00:00Z
@@ -32584,7 +32584,7 @@ Q4758381;Andrew Reynolds;archaeologist;;male;+1900-01-01T00:00:00Z;
 Q462266;Helen Dunmore;British novelist;Helen Dunmore;female;+1952-12-12T00:00:00Z;+2017-06-05T00:00:00Z
 Q242613;Jane Jensen;video game designer;;female;+1963-01-28T00:00:00Z;
 Q3218302;Lasha Bugadze;Georgian writer;;male;+1977-01-01T00:00:00Z;
-Q41502;Henryk Sienkiewicz;Polish journalist, novelist, philanthropist and Nobel Prize laureate, best remembered for his historical novels, especially for his internationally known best-seller "Quo Vadis";Henryk Sienkiewicz;male;+1846-05-05T00:00:00Z;+1916-11-15T00:00:00Z
+Q41502;Henryk Sienkiewicz;Polish journalist, novelist, philanthropist and Nobel Prize laureate, best remembered for his historical novels, especially for his internationally known best-seller Quo Vadis;Henryk Sienkiewicz;male;+1846-05-05T00:00:00Z;+1916-11-15T00:00:00Z
 Q116013;Jan Trefulka;Czech bookwriter;;male;+1929-05-15T00:00:00Z;+2012-11-22T00:00:00Z
 Q5538941;George Elder Davie;British philosopher;;male;+1912-03-18T00:00:00Z;+2007-03-20T00:00:00Z
 Q1775143;Tino Insana;American actor;Silvio Peter Insana;male;+1948-02-15T00:00:00Z;+2017-05-31T00:00:00Z
@@ -32802,7 +32802,7 @@ Q1271104;Lewis Hyde;American writer;;male;+1945-01-01T00:00:00Z;
 Q19958845;David Anfam;English art historian;;male;+1955-01-01T00:00:00Z;
 Q261712;Inger Edelfeldt;Swedish writer;;female;+1956-01-01T00:00:00Z;
 Q4295;Peter Abelard;French scholastic philosopher, theologian and preeminent logician;Petro Abelardi;male;+1079-01-01T00:00:00Z;+1142-04-21T00:00:00Z
-Q463124;Chesley "Sully" Sullenberger;American commercial airline pilot, safety expert and accident investigator;;male;+1951-01-23T00:00:00Z;
+Q463124;Chesley Sully Sullenberger;American commercial airline pilot, safety expert and accident investigator;;male;+1951-01-23T00:00:00Z;
 Q7027434;Nick Kotz;American journalist;;male;+1932-09-16T00:00:00Z;
 Q134165;Oscar Niemeyer;Brazilian architect;Oscar Ribeiro de Almeida Niemeyer Soares Filho;male;+1907-12-15T00:00:00Z;+2012-12-05T00:00:00Z
 Q17182105;Jeffrey Moore;Canadian novelist, translator, and educator;;male;+1952-00-00T00:00:00Z;
@@ -33017,7 +33017,7 @@ Q369398;Louise Rennison;British writer;;female;+1951-11-19T00:00:00Z;+2016-02-29
 Q22212695;Jean-Baptiste-Michel Renou de Chauvigné dit Jaillot;;;male;+1710-00-00T00:00:00Z;+1780-04-05T00:00:00Z
 Q11133823;;;;male;+1957-04-11T00:00:00Z;
 Q1277641;John McGahern;writer;;male;+1934-11-12T00:00:00Z;+2006-03-30T00:00:00Z
-Q320460;Fitz Hugh Ludlow;Author of "The Hasheesh Eater", journalist, addiction researcher;;male;+1836-09-11T00:00:00Z;+1870-09-12T00:00:00Z
+Q320460;Fitz Hugh Ludlow;Author of The Hasheesh Eater, journalist, addiction researcher;;male;+1836-09-11T00:00:00Z;+1870-09-12T00:00:00Z
 Q42394449;;;;female;;
 Q13435369;Mark Snyderman;;;male;;
 Q9345866;Mizue Tani;Japanese novelist;;female;+1967-02-03T00:00:00Z;
@@ -33959,7 +33959,7 @@ Q529082;Claire Messud;American writer;;female;+1966-10-08T00:00:00Z;
 Q498915;Edgeworth David;Australian geologist;;male;+1858-01-28T00:00:00Z;+1934-08-28T00:00:00Z
 Q76526;E. F. Schumacher;British economist;;male;+1911-08-16T00:00:00Z;+1977-09-04T00:00:00Z
 Q335167;Alan Bullock;Historian and academic administrator;Alan Bullock;male;+1914-12-13T00:00:00Z;+2004-02-02T00:00:00Z
-Q161806;Académie française;the pre-eminent French learned body on matters pertaining to the French language  a division of "Institut de France";;;;
+Q161806;Académie française;the pre-eminent French learned body on matters pertaining to the French language  a division of Institut de France;;;;
 Q5698944;Heidi Murkoff;American writer;;female;+1950-01-01T00:00:00Z;
 Q5364774;Ellen Buckingham Mathews;English novelist;;female;+1853-01-01T00:00:00Z;+1920-01-01T00:00:00Z
 Q3814320;Keith Gessen;American writer;;male;+1975-01-09T00:00:00Z;
@@ -34388,7 +34388,7 @@ Q5849112;Esteban Navarro;Spanish writer;;male;+1965-03-18T00:00:00Z;
 Q76276;Hans Wehr;German arabist;;male;+1909-07-05T00:00:00Z;+1981-05-24T00:00:00Z
 Q47127569;Joanna Davies;;;female;+1973-06-00T00:00:00Z;
 Q3035241;Dominique Julia;French historian;Dominique Julia;male;+1940-00-00T00:00:00Z;
-Q62852;Ted Nelson;American information technologist, philosopher, and sociologist  coined the terms "hypertext" and "hypermedia";Theodor Holm Nelson;male;+1937-06-17T00:00:00Z;
+Q62852;Ted Nelson;American information technologist, philosopher, and sociologist  coined the terms hypertext and hypermedia;Theodor Holm Nelson;male;+1937-06-17T00:00:00Z;
 Q230539;Valérie Trierweiler;French journalist;Valérie Trierweiler;female;+1965-02-16T00:00:00Z;
 Q725689;David Jones;painter and British modernist poet;;male;+1895-11-01T00:00:00Z;+1974-10-28T00:00:00Z
 Q247473;Charles Reade;British writer;;male;+1814-06-08T00:00:00Z;+1884-04-11T00:00:00Z
