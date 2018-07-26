@@ -195,16 +195,6 @@ CREATE TABLE FictionalNotHuman(
 	character_DoB varchar (255),
 	character_DoD varchar (255)
 	);
-	
-CREATE TABLE FictionaCharacter(
-	character_id varchar (255) primary key,
-	character_label varchar (255)  ,
-	character_description varchar (255),
-	character_name varchar (255),
-	character_sex varchar (255),
-	character_DoB varchar (255),
-	character_DoD varchar (255)
-	);
 
 CREATE TABLE hasAuthorGenres(
 	author_id varchar (255),
@@ -242,7 +232,8 @@ CREATE TABLE speaks(
 CREATE TABLE City(
 	city_id varchar (255)  primary key,
 	city_label varchar (255) ,
-	city_description varchar (255) );
+	city_description varchar (255) 
+	);
 
 
 CREATE TABLE FictionalCharacter(

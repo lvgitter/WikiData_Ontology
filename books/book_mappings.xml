@@ -1141,6 +1141,20 @@
 <SQLQuery> SELECT h.author_id AS author_id, h.award AS award FROM bookDB.hasAward h </SQLQuery>
 </primitiveView>
 
+<ontologyPredicateMapping id="M121_hasHumanOccupation">
+<attribute string="http://books/#occupation">
+<domainTemplate>https://www.wikidata.org/wiki/{author_id}</domainTemplate>
+<rangeVariable>occupation</rangeVariable>
+</attribute>
+<HEAD string="hasHumanOccupation_view(human_id, occupation)"/>
+</ontologyPredicateMapping>
+
+<primitiveView>
+<HEAD string="hasHumanOccupation_view(human_id, occupation)"/>
+<SQLQuery> SELECT h.human_id AS human_id, h.occupation AS occupation FROM bookDB.hasHumanOccupation h </SQLQuery>
+</primitiveView>
+
+
 
 <ontologyPredicateMapping id="M124_hasPublisher">
 <role string="http://books/#hasPublisher">
