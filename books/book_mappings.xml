@@ -563,7 +563,7 @@
 <ontologyPredicateMapping id="M49_hasTranslator">
 <role string="hasTranslator">
 <domainTemplate>https://www.wikidata.org/wiki/{edition_id}</domainTemplate>
-<rangeTemplate>https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/{human_id}</rangeTemplate>
+<rangeTemplate>https://www.wikidata.org/wiki/{human_id}</rangeTemplate>
 </role>
 <HEAD string="hasTranslator_view(edition_id, human_id)"/>
 </ontologyPredicateMapping>
@@ -576,7 +576,7 @@
 <ontologyPredicateMapping id="M52_hasForewordAuthor">
 <role string="hasForewordAuthor">
 <domainTemplate>https://www.wikidata.org/wiki/{book_id}</domainTemplate>
-<rangeTemplate>https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/{human_id}</rangeTemplate>
+<rangeTemplate>https://www.wikidata.org/wiki/{human_id}</rangeTemplate>
 </role>
 <HEAD string="hasForewordAuthor_view(book_id, human_id)"/>
 </ontologyPredicateMapping>
@@ -590,7 +590,7 @@
 <ontologyPredicateMapping id="M67_writtenIn">
 <role string="writtenIn">
 <domainTemplate>https://www.wikidata.org/wiki/{book_id}</domainTemplate>
-<rangeTemplate>https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/{language_id}</rangeTemplate>
+<rangeTemplate>https://www.wikidata.org/wiki/{language_id}</rangeTemplate>
 </role>
 <HEAD string="writtenIn_view(book_id, language_id)"/>
 </ontologyPredicateMapping>
@@ -657,7 +657,7 @@
 <ontologyPredicateMapping id="M86_placeOfDeath">
 <role string="placeOfDeath">
 <domainTemplate>https://www.wikidata.org/wiki/{human_id}</domainTemplate>
-<rangeTemplate>https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/{city_id}</rangeTemplate>
+<rangeTemplate>https://www.wikidata.org/wiki/{city_id}</rangeTemplate>
 </role>
 <HEAD string="placeOfDeath_view(human_id, city_id)"/>
 </ontologyPredicateMapping>
@@ -671,7 +671,7 @@
 <ontologyPredicateMapping id="M89_hasRole">
 <role string="hasRole">
 <domainTemplate>https://www.wikidata.org/wiki/{human_id}</domainTemplate>
-<rangeTemplate>https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/{mayor_id}</rangeTemplate>
+<rangeTemplate>https://www.wikidata.org/wiki/{mayor_id}</rangeTemplate>
 </role>
 <HEAD string="hasRole_view(human_id, mayor_id)"/>
 </ontologyPredicateMapping>
@@ -684,7 +684,7 @@
 <ontologyPredicateMapping id="M38_hasEdition">
 <role string="hasEdition">
 <domainTemplate>https://www.wikidata.org/wiki/{book_id}</domainTemplate>
-<rangeTemplate>https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/{edition_id}</rangeTemplate>
+<rangeTemplate>https://www.wikidata.org/wiki/{edition_id}</rangeTemplate>
 </role>
 <HEAD string="hasEdition_view(book_id, edition_id)"/>
 </ontologyPredicateMapping>
@@ -714,7 +714,7 @@
 <ontologyPredicateMapping id="M58_placeOfBirth">
 <role string="placeOfBirth">
 <domainTemplate>https://www.wikidata.org/wiki/{human_id}</domainTemplate>
-<rangeTemplate>https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/{city_id}</rangeTemplate>
+<rangeTemplate>https://www.wikidata.org/wiki/{city_id}</rangeTemplate>
 </role>
 <HEAD string="placeOfBirth_view(human_id, city_id)"/>
 </ontologyPredicateMapping>
@@ -729,7 +729,7 @@
 <ontologyPredicateMapping id="M61_hasIllustrator">
 <role string="hasIllustrator">
 <domainTemplate>https://www.wikidata.org/wiki/{edition_id}</domainTemplate>
-<rangeTemplate>https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/{human_id}</rangeTemplate>
+<rangeTemplate>https://www.wikidata.org/wiki/{human_id}</rangeTemplate>
 </role>
 <HEAD string="hasIllustrator_view(edition_id, human_id )"/>
 </ontologyPredicateMapping>
@@ -742,7 +742,7 @@
 <ontologyPredicateMapping id="M64_hasUsedLanguage">
 <role string="hasUsedLanguage">
 <domainTemplate>https://www.wikidata.org/wiki/{country_id}</domainTemplate>
-<rangeTemplate>https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/{language_id}</rangeTemplate>
+<rangeTemplate>https://www.wikidata.org/wiki/{language_id}</rangeTemplate>
 </role>
 <HEAD string="hasUsedLanguage_view(country_id, language_id)"/>
 </ontologyPredicateMapping>
@@ -756,7 +756,7 @@
 <ontologyPredicateMapping id="M70_locatedIn">
 <role string="locatedIn">
 <domainTemplate>https://www.wikidata.org/wiki/{publisher_id}</domainTemplate>
-<rangeTemplate>https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/{country_id}</rangeTemplate>
+<rangeTemplate>https://www.wikidata.org/wiki/{country_id}</rangeTemplate>
 </role>
 <HEAD string="locatedIn_view(publisher_id, country_id)"/>
 </ontologyPredicateMapping>
@@ -927,7 +927,7 @@
 <ontologyPredicateMapping id="M35_hasCharacter">
 <role string="hasCharacter">
 <domainTemplate>https://www.wikidata.org/wiki/{book_id}</domainTemplate>
-<rangeTemplate>https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/{character_id}</rangeTemplate>
+<rangeTemplate>https://www.wikidata.org/wiki/{character_id}</rangeTemplate>
 </role>
 <HEAD string="hasCharacter_view(book_id, character_id)"/>
 </ontologyPredicateMapping>
@@ -936,8 +936,6 @@
 <HEAD string="hasCharacter_view(book_id, character_id)"/>
 <SQLQuery> SELECT h.book_id AS book_id, h.character_id AS character_id FROM bookDB.hasCharacter h </SQLQuery>
 </primitiveView>
-
-<!--++++++++++++++++++++++++GIACOMO++++++++++++++++++++++++-->
 
 
 <ontologyPredicateMapping id="M92_Publisher">
