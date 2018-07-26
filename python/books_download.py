@@ -203,7 +203,7 @@ class myThread(threading.Thread):
                         try:
                             foreauthors_file_lock.acquire()
                             file_foreauthors_out.write(
-                                str(book_id + foreauthor["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
+                                str(book_id +";"+ foreauthor["mainsnak"]["datavalue"]["value"]["id"]) + "\n")
                             foreauthors_file_lock.release()
                         except:
                             foreauthors_file_lock.release()

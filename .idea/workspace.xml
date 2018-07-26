@@ -2,88 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f9c1132-1bf9-4d35-a890-1b8aab879b41" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/obj/awards.pkl" afterPath="$PROJECT_DIR$/python/obj/awards.pkl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/obj/genres.pkl" afterPath="$PROJECT_DIR$/python/obj/genres.pkl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/obj/locations.pkl" afterPath="$PROJECT_DIR$/python/obj/locations.pkl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/obj/occupations.pkl" afterPath="$PROJECT_DIR$/python/obj/occupations.pkl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/obj/official_residence.pkl" afterPath="$PROJECT_DIR$/python/obj/official_residence.pkl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/obj/series.pkl" afterPath="$PROJECT_DIR$/python/obj/series.pkl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/books/books.graphol" afterPath="$PROJECT_DIR$/books/books.graphol" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concepts/Author.txt" afterPath="$PROJECT_DIR$/concepts/Author.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concepts/Book.txt" afterPath="$PROJECT_DIR$/concepts/Book.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concepts/Country.txt" afterPath="$PROJECT_DIR$/concepts/Country.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concepts/Edition.txt" afterPath="$PROJECT_DIR$/concepts/Edition.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concepts/FictionalHuman.txt" afterPath="$PROJECT_DIR$/concepts/FictionalHuman.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concepts/FictionalNotHuman.txt" afterPath="$PROJECT_DIR$/concepts/FictionalNotHuman.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concepts/Human.txt" afterPath="$PROJECT_DIR$/concepts/Human.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concepts/Language.txt" afterPath="$PROJECT_DIR$/concepts/Language.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concepts/Mayor.txt" afterPath="$PROJECT_DIR$/concepts/Mayor.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concepts/Publisher.txt" afterPath="$PROJECT_DIR$/concepts/Publisher.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concepts/RealCity.txt" afterPath="$PROJECT_DIR$/concepts/RealCity.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concepts/Translator.txt" afterPath="$PROJECT_DIR$/concepts/Translator.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/log_Author.txt" afterPath="$PROJECT_DIR$/log/log_Author.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/log_Book.txt" afterPath="$PROJECT_DIR$/log/log_Book.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/log_Characters.txt" afterPath="$PROJECT_DIR$/log/log_Characters.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/log_City.txt" afterPath="$PROJECT_DIR$/log/log_City.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/log_Country.txt" afterPath="$PROJECT_DIR$/log/log_Country.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/log_Edition.txt" afterPath="$PROJECT_DIR$/log/log_Edition.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/log_Human.txt" afterPath="$PROJECT_DIR$/log/log_Human.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/log_HumanCharacters.txt" afterPath="$PROJECT_DIR$/log/log_HumanCharacters.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/log_Language.txt" afterPath="$PROJECT_DIR$/log/log_Language.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/log_Mayor.txt" afterPath="$PROJECT_DIR$/log/log_Mayor.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/log_Publisher.txt" afterPath="$PROJECT_DIR$/log/log_Publisher.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/log_Translator.txt" afterPath="$PROJECT_DIR$/log/log_Translator.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processed/processedAuthors.txt" afterPath="$PROJECT_DIR$/processed/processedAuthors.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processed/processedBooks.txt" afterPath="$PROJECT_DIR$/processed/processedBooks.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processed/processedCharacters.txt" afterPath="$PROJECT_DIR$/processed/processedCharacters.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processed/processedCities.txt" afterPath="$PROJECT_DIR$/processed/processedCities.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processed/processedCountries.txt" afterPath="$PROJECT_DIR$/processed/processedCountries.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processed/processedEditions.txt" afterPath="$PROJECT_DIR$/processed/processedEditions.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processed/processedHumans.txt" afterPath="$PROJECT_DIR$/processed/processedHumans.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processed/processedLanguages.txt" afterPath="$PROJECT_DIR$/processed/processedLanguages.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processed/processedMayors.txt" afterPath="$PROJECT_DIR$/processed/processedMayors.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processed/processedPublishers.txt" afterPath="$PROJECT_DIR$/processed/processedPublishers.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processed/processedTranslators.txt" afterPath="$PROJECT_DIR$/processed/processedTranslators.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/authors_download.py" afterPath="$PROJECT_DIR$/python/authors_download.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/books_download.py" afterPath="$PROJECT_DIR$/python/books_download.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/character_human_download.py" afterPath="$PROJECT_DIR$/python/character_human_download.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/characters_download.py" afterPath="$PROJECT_DIR$/python/characters_download.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/cities_download.py" afterPath="$PROJECT_DIR$/python/cities_download.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/countries_download.py" afterPath="$PROJECT_DIR$/python/countries_download.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/editions_download.py" afterPath="$PROJECT_DIR$/python/editions_download.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/human_download.py" afterPath="$PROJECT_DIR$/python/human_download.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/languages_download.py" afterPath="$PROJECT_DIR$/python/languages_download.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/mayor_download.py" afterPath="$PROJECT_DIR$/python/mayor_download.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/publishers_download.py" afterPath="$PROJECT_DIR$/python/publishers_download.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/translator_download.py" afterPath="$PROJECT_DIR$/python/translator_download.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/follows.txt" afterPath="$PROJECT_DIR$/roles/follows.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/foundedBy.txt" afterPath="$PROJECT_DIR$/roles/foundedBy.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/hasAfterwordAuthor.txt" afterPath="$PROJECT_DIR$/roles/hasAfterwordAuthor.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/hasAuthor.txt" afterPath="$PROJECT_DIR$/roles/hasAuthor.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/hasAuthorAwards.txt" afterPath="$PROJECT_DIR$/roles/hasAuthorAwards.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/hasAuthorGenres.txt" afterPath="$PROJECT_DIR$/roles/hasAuthorGenres.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/hasBookGenres.txt" afterPath="$PROJECT_DIR$/roles/hasBookGenres.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/hasCharacter.txt" afterPath="$PROJECT_DIR$/roles/hasCharacter.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/hasCityLocation.txt" afterPath="$PROJECT_DIR$/roles/hasCityLocation.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/hasCountry.txt" afterPath="$PROJECT_DIR$/roles/hasCountry.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/hasCountryLocation.txt" afterPath="$PROJECT_DIR$/roles/hasCountryLocation.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/hasEdition.txt" afterPath="$PROJECT_DIR$/roles/hasEdition.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/hasForewordAuthor.txt" afterPath="$PROJECT_DIR$/roles/hasForewordAuthor.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/hasHumanOccupation.txt" afterPath="$PROJECT_DIR$/roles/hasHumanOccupation.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/hasIllustrator.txt" afterPath="$PROJECT_DIR$/roles/hasIllustrator.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/hasMayor.txt" afterPath="$PROJECT_DIR$/roles/hasMayor.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/hasPublisher.txt" afterPath="$PROJECT_DIR$/roles/hasPublisher.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/hasRole.txt" afterPath="$PROJECT_DIR$/roles/hasRole.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/hasTranslator.txt" afterPath="$PROJECT_DIR$/roles/hasTranslator.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/hasUsedLanguage.txt" afterPath="$PROJECT_DIR$/roles/hasUsedLanguage.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/influencedBy.txt" afterPath="$PROJECT_DIR$/roles/influencedBy.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/locatedIn.txt" afterPath="$PROJECT_DIR$/roles/locatedIn.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/placeOfBirth.txt" afterPath="$PROJECT_DIR$/roles/placeOfBirth.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/placeOfDeath.txt" afterPath="$PROJECT_DIR$/roles/placeOfDeath.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/speaks.txt" afterPath="$PROJECT_DIR$/roles/speaks.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/writtenIn.txt" afterPath="$PROJECT_DIR$/roles/writtenIn.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/human_character.txt" afterPath="$PROJECT_DIR$/tmp/human_character.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -97,7 +17,7 @@
       <file leaf-file-name="human_download.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/human_download.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
+            <state relative-caret-position="5050">
               <caret line="211" column="0" lean-forward="false" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
               <folding />
             </state>
@@ -107,7 +27,7 @@
       <file leaf-file-name="translator_download.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/translator_download.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2236">
+            <state relative-caret-position="1200">
               <caret line="57" column="49" lean-forward="false" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
               <folding>
                 <element signature="e#1145#8966#0" expanded="false" />
@@ -121,7 +41,7 @@
       <file leaf-file-name="languages_download.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/languages_download.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="695">
+            <state relative-caret-position="1900">
               <caret line="84" column="18" lean-forward="false" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
               <folding />
             </state>
@@ -131,7 +51,7 @@
       <file leaf-file-name="countries_download.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/countries_download.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
+            <state relative-caret-position="2600">
               <caret line="112" column="18" lean-forward="false" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="18" />
               <folding />
             </state>
@@ -141,7 +61,7 @@
       <file leaf-file-name="init.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/init.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
+            <state relative-caret-position="-7706">
               <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
@@ -150,10 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="publishers_download.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="publishers_download.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/publishers_download.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-946">
+            <state relative-caret-position="25">
               <caret line="115" column="18" lean-forward="false" selection-start-line="115" selection-start-column="18" selection-end-line="115" selection-end-column="18" />
               <folding />
             </state>
@@ -163,7 +83,7 @@
       <file leaf-file-name="editions_download.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/editions_download.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
+            <state relative-caret-position="2925">
               <caret line="126" column="18" lean-forward="false" selection-start-line="126" selection-start-column="18" selection-end-line="126" selection-end-column="18" />
               <folding />
             </state>
@@ -173,7 +93,7 @@
       <file leaf-file-name="mayor_download.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/mayor_download.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
+            <state relative-caret-position="3725">
               <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
               <folding />
             </state>
@@ -183,18 +103,18 @@
       <file leaf-file-name="books_download.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/books_download.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="425" column="5" lean-forward="false" selection-start-line="425" selection-start-column="5" selection-end-line="425" selection-end-column="5" />
+            <state relative-caret-position="63">
+              <caret line="205" column="49" lean-forward="false" selection-start-line="205" selection-start-column="49" selection-end-line="205" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cities_download.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/cities_download.py">
+      <file leaf-file-name="hasForewordAuthor_.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python/hasForewordAuthor_.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="161" column="20" lean-forward="false" selection-start-line="161" selection-start-column="20" selection-end-line="161" selection-end-column="20" />
+            <state relative-caret-position="225">
+              <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -304,6 +224,7 @@
         <option value="$PROJECT_DIR$/python/publishers_download.py" />
         <option value="$PROJECT_DIR$/python/translator_download.py" />
         <option value="$PROJECT_DIR$/python/books_download.py" />
+        <option value="$PROJECT_DIR$/python/hasForewordAuthor_.py" />
       </list>
     </option>
   </component>
@@ -327,6 +248,28 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WikidataProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WikidataProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WikidataProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WikidataProject" type="462c0819:PsiDirectoryNode" />
+              <item name="mySQL_scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WikidataProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WikidataProject" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -349,6 +292,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -367,7 +311,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.init">
+  <component name="RunManager" selected="Python.hasForewordAuthor_">
     <configuration name="books_download" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -385,7 +329,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="characters_download" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="hasForewordAuthor_" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -397,7 +341,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="WikidataProject" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/characters_download.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/hasForewordAuthor_.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -456,17 +400,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.books_download" />
       <item index="1" class="java.lang.String" itemvalue="Python.init" />
-      <item index="2" class="java.lang.String" itemvalue="Python.characters_download" />
-      <item index="3" class="java.lang.String" itemvalue="Python.parser_v2" />
-      <item index="4" class="java.lang.String" itemvalue="Python.translator_download" />
+      <item index="2" class="java.lang.String" itemvalue="Python.parser_v2" />
+      <item index="3" class="java.lang.String" itemvalue="Python.translator_download" />
+      <item index="4" class="java.lang.String" itemvalue="Python.hasForewordAuthor_" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.init" />
-        <item index="1" class="java.lang.String" itemvalue="Python.translator_download" />
-        <item index="2" class="java.lang.String" itemvalue="Python.books_download" />
-        <item index="3" class="java.lang.String" itemvalue="Python.parser_v2" />
-        <item index="4" class="java.lang.String" itemvalue="Python.characters_download" />
+        <item index="0" class="java.lang.String" itemvalue="Python.hasForewordAuthor_" />
+        <item index="1" class="java.lang.String" itemvalue="Python.init" />
+        <item index="2" class="java.lang.String" itemvalue="Python.translator_download" />
+        <item index="3" class="java.lang.String" itemvalue="Python.books_download" />
+        <item index="4" class="java.lang.String" itemvalue="Python.parser_v2" />
       </list>
     </recent_temporary>
   </component>
@@ -499,24 +443,35 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23676682" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23676682" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25373134" sideWeight="0.50572246" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25373134" sideWeight="0.49427754" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25373134" sideWeight="0.49427754" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25373134" sideWeight="0.50572246" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25373134" sideWeight="0.49427754" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23676682" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -549,7 +504,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/filter_english_wikidata_entity.py" />
     <entry file="file://$PROJECT_DIR$/filter_articles_entity_wikidata.py" />
     <entry file="file://$PROJECT_DIR$/split_wikidata.py" />
     <entry file="file://$PROJECT_DIR$/filter_english_wikidata_entity.py" />
@@ -607,7 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7625">
           <caret line="305" column="26" lean-forward="false" selection-start-line="305" selection-start-column="26" selection-end-line="305" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -653,15 +606,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python/cities_download.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="161" column="20" lean-forward="false" selection-start-line="161" selection-start-column="20" selection-end-line="161" selection-end-column="20" />
+        <state relative-caret-position="184">
+          <caret line="94" column="28" lean-forward="false" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python/countries_download.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
+        <state relative-caret-position="2600">
           <caret line="112" column="18" lean-forward="false" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="18" />
           <folding />
         </state>
@@ -669,7 +622,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python/editions_download.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
+        <state relative-caret-position="2925">
           <caret line="126" column="18" lean-forward="false" selection-start-line="126" selection-start-column="18" selection-end-line="126" selection-end-column="18" />
           <folding />
         </state>
@@ -677,7 +630,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python/human_download.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
+        <state relative-caret-position="5050">
           <caret line="211" column="0" lean-forward="false" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
           <folding />
         </state>
@@ -685,7 +638,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python/mayor_download.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
+        <state relative-caret-position="3725">
           <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
           <folding />
         </state>
@@ -693,7 +646,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python/translator_download.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2236">
+        <state relative-caret-position="1200">
           <caret line="57" column="49" lean-forward="false" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
           <folding>
             <element signature="e#1145#8966#0" expanded="false" />
@@ -705,23 +658,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python/languages_download.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
+        <state relative-caret-position="1900">
           <caret line="84" column="18" lean-forward="false" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/books_download.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="425" column="5" lean-forward="false" selection-start-line="425" selection-start-column="5" selection-end-line="425" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python/init.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="-7706">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
@@ -731,8 +676,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python/publishers_download.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-946">
+        <state relative-caret-position="25">
           <caret line="115" column="18" lean-forward="false" selection-start-line="115" selection-start-column="18" selection-end-line="115" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/books_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="205" column="49" lean-forward="false" selection-start-line="205" selection-start-column="49" selection-end-line="205" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/hasForewordAuthor_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
           <folding />
         </state>
       </provider>
